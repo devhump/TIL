@@ -1,5 +1,7 @@
 # CLI
 
+---
+
 ​	ex) git-bash, dos, cmd, terminal
 
 ​	↔ GUi (Graphic User Interface)
