@@ -240,6 +240,20 @@ quoute 1
 
 ---
 
+## 7-4. markdown 에서의 HTML 활용
+
+```
+<details>
+    <summary>7월</summary>1일 <br> 2일 <br> 3일
+</details>
+```
+
+- <details>
+      <summary>7월</summary>1일 <br> 2일 <br> 3일
+  </details>
+
+---
+
 ## Reference
 
 - https://gist.github.com/ihoneymon/652be052a0727ad59601
