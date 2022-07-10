@@ -16,7 +16,7 @@
   4. inline code block
   5. 링크걸기
   6. 이미지 삽입
-  7. 기타 : 인용문, 표(typora), 텍스트
+  7. 기타 : 인용문, 표(typora), 텍스트, HTML 외
 
 ---
 
