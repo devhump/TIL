@@ -25,3 +25,23 @@ for char in word:
         # a가 있는 경우 index 값을 출력
     
     
+#########################################
+# 강사님 풀이
+#########################################
+
+word = 'banana'
+
+for idx in range(len(word)):
+    print(idx, word[idx])
+
+    if word[idx] == 'a':
+        print(idx)
+        break
+## for문을 다 돌았다
+## 한번도 break에 안걸렸다. 
+### a 가 하나도 없었다! 
+else:
+    print(-1)
+
+
+
