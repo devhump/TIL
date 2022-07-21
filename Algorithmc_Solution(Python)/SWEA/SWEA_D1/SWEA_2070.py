@@ -1,5 +1,5 @@
-# import sys
-# sys.stdin = open("SWEA_2070.txt", "r")
+import sys
+sys.stdin = open("SWEA_2070.txt", "r")
 
 T = int(input())
 cnt = 0
