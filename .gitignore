@@ -1,0 +1,6 @@
+#project_02_api_key
+.env
+
+#apple sys file (mac os)
+.DS_store
+.idea

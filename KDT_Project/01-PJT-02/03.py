@@ -1,9 +1,10 @@
+import os
 import requests
 from pprint import pprint
-
+from dotenv import load_dotenv 
 
 def ranking():
-    url = f"https://api.themoviedb.org/3/movie/popular?api_key="
+    url = f"https://api.themoviedb.org/3/movie/popular?api_key={api_key}"
     response = requests.get(url).json() 
 
     # pprint(response) # 먼저 출력 후 json 구조 파악
@@ -13,8 +14,7 @@ def ranking():
     # pprint(pop_movies)
 
     pop_movies = sorted(pop_movies, key=lambda movies : movies["vote_average"], reverse=True)
-    pprint(pop_movies)
-    
+
     movies_top_5 = []
 
     for i in range(5):
@@ -29,6 +29,9 @@ if __name__ == '__main__':
     popular 영화목록을 정렬하여 평점순으로 5개 영화 반환
     (주의) popular 영화목록의 경우 시기에 따라 아래 예시 출력과 차이가 있을 수 있음
     """
+    load_dotenv()
+    api_key = os.getenv('api_key')
+
     pprint(ranking())
     """
     [{'adult': False,
