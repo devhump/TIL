@@ -1,4 +1,4 @@
-# SWEA_10804
+# SWEA_10804.문자열의 거울상 #D3
 
 import sys
 sys.stdin = open("exam_03_input.txt")

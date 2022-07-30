@@ -1,4 +1,4 @@
-# SWEA_1204
+# SWEA_1204.최빈수구하기 #D2
 
 import sys
 from pprint import pprint

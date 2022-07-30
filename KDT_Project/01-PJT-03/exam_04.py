@@ -1,10 +1,12 @@
-# 3456. 직사각형 길이 찾기
+# SWEA_3456. 직사각형 길이 찾기 #D3
 
 import sys
 sys.stdin = open("exam_04_input.txt")
 
 T = int(input())
 case_num = 0
+
+#직사각형은 a,a / b,b 로 길이가 같다는 것을 이용
 
 for i in range(T):
     case_num += 1

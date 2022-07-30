@@ -21,7 +21,7 @@ for i in range(T):
 
     # print(f"변경후: {len(del_card_16)}")
     # # print()
-    if len(del_card_16) != 16:
+    if len(del_card_16) != 16: #숫자개수 16되는지 확인
         print(f"#{case_num} {0}")
     else:
         if del_card_16[0] == "3" or del_card_16[0] == "4" or del_card_16[0] == "5" or del_card_16[0] == "6" or del_card_16[0] == "9":
