@@ -1,3 +1,5 @@
+#미완
+
 import sys
 sys.stdin = open("BOJ_1157_input.txt")
 
