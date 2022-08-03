@@ -52,10 +52,12 @@
 
 
 import sys
+sys.stdin = open("BOJ_5533_input.txt")
 
 # M: 가로 행
 # N = 3 # 세로 열 고정
 M = int(input())
+
 
 card_matrix = [list(map(int, input().split())) for i in range(M)]
 
@@ -68,7 +70,7 @@ for j in range(3):
         
     score_list.append(temp_list)
 
-for i  in range(M):
+for i in range(M):
     result = 0
     for j in range(3):
 
