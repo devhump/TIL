@@ -1,6 +1,8 @@
 
 # ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 
+from collections import deque 
+
 list_A_to_num = [
     "zero", "one", "two", "three", "four", 
     "five", "six", "seven", "eight", "nine"]
@@ -16,19 +18,24 @@ confused_str = "one4seveneight"
 result = []
 
 cnt = 0
+cnt_2 = 0
+cnt_3 = 0
 for char in confused_str:
-    
     print(char)
 
     if ord(char) >= 48 and ord(char) <= 57: 
-        result.append(char)
+        cnt_2 += 1
+        print(f"if {cnt_2}회 실행")
+        result.append(int(char))
     else:
         while(cnt == 0):
             for i in range(10):
                 if list_A_to_num[i] in confused_str:
+                    cnt_3 += 1
+                    print(f"for {cnt_3}회 실행")
                     key = list_A_to_num[i]
                     result.append(dict_A_to_num[key])
-            cnt += 1
+                cnt += 1   
         i = 0
 
 print(result)
