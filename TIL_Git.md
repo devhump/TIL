@@ -207,4 +207,17 @@
   #현재 등록된 id / e-mail 도 확인 가능
   ```
 
+- 기타 
+
+  ```bash
+  $ git log --oneline --graph
+  # 분기(branch)를 시각적으로 도식화 
+  ```
+
+  
+
+  
+
+  
+
   

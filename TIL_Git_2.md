@@ -59,7 +59,7 @@
   # 편의를 위해 되도록 소문자만 사용하는 걸 권장
   ```
 
-- 설정 확인 
+- 설정 확인 +
 
   ```bash
   $ git config -l
@@ -71,6 +71,9 @@
   $ git config user.name
   $ git config user.email
   # 특정 값 개별적으로 확인 가능
+  
+  $ git config --system --unset credential.helper
+  # git config 초기화
   ```
 
 

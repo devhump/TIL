@@ -25,7 +25,7 @@ sys.stdin = open("exam_07_input.txt")
 T = 10
 case_num = 0
 
-for i in range(T):
+for t in range(T):
     case_num += 1
 
     A = int(input())
@@ -33,35 +33,35 @@ for i in range(T):
     B = int(input())
     list_B = input().split("I ")
 
-    new_list_B = []
-
     # 최초의 " "(공백 없애주기)
-    for i in range(1, len(list_B)):
-        new_list_B.append(list_B[i])
+    list_B.pop(0)
     
     # 인덱스 접근을 위해 공백 기준으로 잘라주기 
-    for i in range(len(new_list_B)):
-        new_list_B[i] = new_list_B[i].split()
+    for i in range(len(list_B)):
+        list_B[i] = list_B[i].split()
 
     # 추후 조작을 위해 리스트 모든 요소를 int형 변환
-    for i in range(len(new_list_B)):
-        for j in range(len(new_list_B[i])):
-            new_list_B[i][j] = int(new_list_B[i][j])
+    for i in range(len(list_B)):
+        for j in range(len(list_B[i])):
+            list_B[i][j] = int(list_B[i][j])
         
-    # print(new_list_B[1][0], type(new_list_B[1][0]))
+    # print(list_B[1][0], type(list_B[1][0]))
 
 
     for i in range(B):
-        temp = new_list_B[i][0] #insert 인덱스값
+        temp = list_B[i][0] #insert 인덱스값
         # print(f"temp: {temp}")
         cnt = 0
-        for j in range(len(new_list_B[i])-2):
-            list_A.insert(temp+cnt, new_list_B[i][2+cnt]) # list
-            cnt += 1 # 최초 idx 인덱스 값 n 이후, n+1, n+2... 가 되어야 함         
+        for j in range(len(list_B[i])-2):
+            list_A.insert(temp+cnt, list_B[i][2+cnt]) # list
+            cnt += 1 # 최초 idx 인덱스 값 n 이후, n+1, n+2... 가 되어야 함
+            # or 반대로 넣어줘도 됨!     
     # print(list_A)
 
     #출력파트
-    print(f"#{case_num} ", end='')
-    for i in range(10):
-        print(list_A[i], end=' ')
-    print("")
+    print(f"#{t+1}", *list_A[:10])
+
+    # print(f"#{case_num} ", end='')
+    # for i in range(10):
+    #     print(list_A[i], end=' ')
+    # print("")
