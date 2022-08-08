@@ -13,8 +13,6 @@ rectangles_list = []
 for i in range(num):
     rectangles_list.append(list(map(int, input().split())))
 
-    
-
 temp_list_1 = []
 temp_list_2 = []
 for i in range(num):
@@ -32,18 +30,18 @@ empty_list = []
 for i in range(M):
     empty_list.append([0] * N)
 
-for row in empty_list:
-    print(row)
-print()
+# for row in empty_list:
+#     print(row)
+# print()
 
 for k in range(num):
     for i in range(rectangles_list[k][0], rectangles_list[k][2]):
         for j in range(rectangles_list[k][1], rectangles_list[k][3]):
             empty_list[i][j] = 1
 
-for row in empty_list:
-    print(row)
-print()
+# for row in empty_list:
+#     print(row)
+# print()
 
 result = 0
 for row in empty_list:

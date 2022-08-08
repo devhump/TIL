@@ -132,7 +132,7 @@ print(*a) # 내부에 있는 요소들을 언패킹 해서 보여줌
 
 
 
-### 22.08.03
+### 22/08/03
 
 ```python
 from pprint import pprint
@@ -159,7 +159,7 @@ for k in range(k):
 
 
 
-### 📌01-PJT-03
+- 01-PJT-03
 
 ```python
 # 모의고사1 (7/29) - 암호문1
@@ -272,4 +272,22 @@ for t in range(1, T+1):
   print(LCM)
   ```
 
+
+---
+
+### 22/08/08
+
+- BOJ_1543 📌
+
+  ```python
+  # amazing method_1
+  N = input()
+  F = input()
+  print(N.count(F))
+  
+  # amazing method_2
+  print(input().count(input()))
+  
+  ```
+  
   
