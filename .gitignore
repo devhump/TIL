@@ -4,3 +4,7 @@
 #apple sys file (mac os)
 .DS_store
 .idea
+
+#DB #database #SQL #sqlite3 
+*.sqlite3
+*.csv
