@@ -8,3 +8,6 @@
 #DB #database #SQL #sqlite3 
 *.sqlite3
 *.csv
+
+#DB #ERD
+*.drawio
