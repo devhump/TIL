@@ -9,11 +9,13 @@ numbers = [0, 20, 100]
 # 0
 
 # test case
-# numbers = [0, 20, 100, 50, -60, 50, 100] # -60
+numbers = [0, 20, 100, 50, -60, 50, 100] # -60
 # numbers = [0, 1, 0] # 0
 # numbers = [-10, -100, -30] # -100
 
-min_num = 0
+min_num = numbers[0]
+
+
 for num in numbers:
     if num < min_num:
         min_num = num
