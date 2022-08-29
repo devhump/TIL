@@ -4,7 +4,6 @@
 
 ### Input
 # apple
-
 ### Output
 # 2
 
@@ -13,6 +12,9 @@
 
 word = 'apple'
 
+
+################ 최초 풀이
+
 cnt = 0
 
 for char in word:
@@ -20,3 +22,13 @@ for char in word:
         cnt += 1
 
 print(cnt)
+
+
+################## 다시풀기 22.08.25
+cnt_2 = 0
+
+for char in word:
+    if char in 'aeiou':
+        cnt_2 += 1
+
+print(cnt_2)
