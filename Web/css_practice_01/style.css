@@ -1,0 +1,39 @@
+/* 아래에 CSS를 작성해주세요. */
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.small-font {
+  font-size: 12px;
+  /* font-weight: 1000; */
+}
+.align-center {
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  width: 330px;
+  height: 300px;
+  margin: 1%;
+}
+.card-image {
+  width: 300px;
+  border-radius: 1rem;
+}
+.font-A {
+  font-size: 12px;
+  color: grey;
+  font-weight: 00;
+  margin: 0 5px;
+}
+.font-B {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+  margin: 0 5px;
+}
+.font-C {
+  font-size: 10.5px;
+  color: rgba(156, 152, 152, 0.939);
+  font-weight: 550;
+  margin: 10px 5px;
+}
