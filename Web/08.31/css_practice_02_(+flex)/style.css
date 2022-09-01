@@ -1,0 +1,31 @@
+/* 아래에 CSS를 작성해주세요. */
+* {
+font-family: 'Noto Sans KR', sans-serif;
+}
+.card-list {
+  display: flex;
+}
+
+.card {
+  display : flex;
+  flex-direction: column;
+  width: 320px;
+  height: 400px;
+  /* margin : 0; */
+}
+.card-image {
+width: 300px;
+border-radius: 2%;
+}
+.font-grey {
+  color: rgb(167, 159, 159);
+}
+.font-skyblue {
+  color: rgba(46, 215, 215, 0.845);
+}
+.bold-font {
+  font-weight: 900;
+}
+.font-margin {
+  margin : 0px;
+}
