@@ -53,6 +53,7 @@
 form 에 CSS 적용하기
 
 ```css
+/* 기본 설정*/
 form {
     /* Just to center the form on the page */
     margin: 0 auto;
@@ -68,11 +69,18 @@ form div + div {
     margin-top: 1em;
 }
 
+
 label {
     /* To make sure that all label have the same size and are properly align */
     display: inline-block;
     width: 90px;
     text-align: right;
+}
+
+/* 활성화된 위젯 하이라이팅 */
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
 }
 
 
