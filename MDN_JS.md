@@ -371,3 +371,105 @@ myFunction()
 
   - 또, `second.js` 파일에서 `let` 키워드로 `name` 변수를 두 번째로 선언하려고 시도하는 것은 오류 발생
 
+
+
+---
+
+
+
+### 문자열
+
+```javascript
+var string = 'The revolution will not be televised.';
+string;
+
+var badString = string;
+badString;
+// 'The revolution will not be televised.'
+
+```
+
+- 문자열의 시작과 끝에는 `'` 또는  `"` 사용 -> 하나가 빠지면 에러 발생
+- 문자열 내부에 `'` 또는 `"` 사용 -> `'따옴표 내부 "쌍따옴표 사용" '`
+- 또는 이스케이스 문자 사용 `\` 
+
+
+
+- 문자열 결합
+
+  ```javascript
+  var one = 'Hello, ';
+  var two = 'how are you?';
+  var joined = one + two;
+  joined;
+  
+  var multiple = one + one + one + one + two;
+  multiple;
+  
+  var response = one + 'I am fine — ' + two;
+  response;
+  ```
+
+  
+
+- 문자열 - 숫자
+
+  ```javascript
+  // 숫자형으로 변환 
+  var myString = '123';
+  var myNum = Number(myString);
+  typeof myNum;
+  
+  // 문자형으로 변환
+  var myNum = 123;
+  var myString = myNum.toString();
+  typeof myString;
+  
+  ```
+
+- 문자열 조작
+
+  ```javascript
+  var browserType = 'mozilla';
+  browserType.length;
+  
+  // 인덱스를 활용한 문자열 접근
+  browserType[0];
+  browserType[browserType.length - 1];
+  
+  // 전체 문자열이 해당 문자열을 포함 하고 있는지 확인 할 때
+  browserType.indexOf('zilla');
+  // 2
+  browserType.indexOf('vanilla');
+  // -1  // 해당 문자열을 포함하지 않을 때
+  
+  // 슬라이싱을 통한 문자열 추출
+  browserType.slice(0, 3);
+  // moz
+  browserType.slice(2);
+  // zilla
+  
+  // 대소문자 변경
+  var radData = 'My NaMe Is MuD';
+  radData.toLowerCase();
+  radData.toUpperCase();
+  
+  // 문자열 대체
+  browserType.replace('moz', 'van');
+  // 'vanilla'
+  
+  // 문자열 포함하고 있는지 확인
+  if (greeting.includes('Christmas')) {
+  	//
+  }
+  
+  ```
+
+  
+
+### 변수
+
+- 변수 선언에 대한 규칙
+  - `0-9`, `a-z`, `A-Z`, underbar(`_`) 사용
+  - 변수에 이름 시작에 `_` 또는 숫자 사용 X
+  - CamelCase 사용, 대소문자 구분
