@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .oneline_display {
+      display: flex;
+      /* justify-content: ; */
+    }
+
+    .lotto-ball {
+      background-color: beige;
+      margin: 0.5rem;
+      padding: 1.5rem;
+      border-radius: 50%; 
+    }
+
+    .lotto-result {
+      font-size: 1rem;
+      margin: 0.5rem;
+      padding: 1.5rem;
+      border-radius: 50%; 
+    }
+  </style>
+</head>
+<body>
+  <h1>This is lotto template</h1>
+  <!-- <p>{{ lotto_nums }}</p> -->
+  <div class="oneline_display">
+    {% for lotto_num in lotto_nums_1 %}
+    <div class="lotto-ball">{{ lotto_num }}</div>
+    {% endfor %}
+    <div class="lotto-result">
+      {{ result_1 }}
+    </div>
+  </div>
+  <div class="oneline_display">
+    {% for lotto_num in lotto_nums_2 %}
+    <div class="lotto-ball">{{ lotto_num }}</div>
+    {% endfor %}
+    <div class="lotto-result">
+      {{ result_2 }}
+    </div>
+  </div>
+  <div class="oneline_display">
+    {% for lotto_num in lotto_nums_3 %}
+    <div class="lotto-ball">{{ lotto_num }}</div>
+    {% endfor %}
+    <div class="lotto-result">
+      {{ result_3 }}
+    </div>
+  </div>
+  <div class="oneline_display">
+    {% for lotto_num in lotto_nums_4 %}
+    <div class="lotto-ball">{{ lotto_num }}</div>
+    {% endfor %}
+    <div class="lotto-result">
+      {{ result_4 }}
+    </div>
+  </div>
+  <div class="oneline_display">
+    {% for lotto_num in lotto_nums_5 %}
+    <div class="lotto-ball">{{ lotto_num }}</div>
+    {% endfor %}
+    <div class="lotto-result">
+      {{ result_5 }}
+    </div>
+  </div>
+
+</body>
+</html>

@@ -15,6 +15,9 @@ $ pwd
 
 # 해당 디렉토리 내 파일 확인
 $ ls
+
+$ rm -rf [filename]
+# 삭제
 ```
 
 
@@ -28,6 +31,12 @@ $ python -m venv server-venv
 
 # 설정한 가상 환경 구동
 $ source server-venv/Scripsts/activate
+$ . server-venv/Scripsts/activate
+
+
+# 맥
+$ . [가상환경이름]/bin/activate
+
 
 # 설정한 가상 환경 종료
 $ deactivate

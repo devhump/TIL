@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .pocketmonimg{
+      width: 10rem;
+      height: 10rem;
+      border: 1px;
+    }
+
+    .img-size {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>hello, world</h1>
+  <h2>{{ greetings }}</h2>
+  {% for greeting in greetings%}
+    <p>{{ greeting }}</p>
+  {% endfor %}
+  <h2>{{ greeting1 }}</h2>
+  <div class="pocketmonimg">
+    <img class="img-size" src="{{ pocketmon }}">
+  </div>
+</body>
+</html>
