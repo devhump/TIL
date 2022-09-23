@@ -79,19 +79,29 @@ $ python manage.py runserver
 
 - 구동 결과!
   - bash 창
-  - ![image-20220921142924134](Django 초기 세팅.assets/image-20220921142924134-1663738166873-3.png)
+  
+    ![image-20220921142924134](Django 초기 세팅.assets/image-20220921142924134-1663738166873-3.png)
   
   
   
   - browser 창
   
-  - ![image-20220921143311711](Django 초기 세팅.assets/image-20220921143311711.png)
+    ![image-20220921143311711](Django 초기 세팅.assets/image-20220921143311711.png)
   
     
 
 
 
+- 앱 생성 및 등록
 
+  ```bash
+  # 앱 생성
+  # ls 명령어 입력 후 현재 경로에서 manage.py 파일 확인
+  $ python manage.py startapp [앱이름]
+  
+  # 앱 등록
+  # 프로젝트설정폴더/settings.py - INSTALLED_APPS 리스트에 생성한 앱 추가
+  ```
 
-
+  
 
