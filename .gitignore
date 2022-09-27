@@ -13,5 +13,6 @@
 *.drawio
 
 #Django
-server-venv
+server-venv/
+venv/
 ########################################################
