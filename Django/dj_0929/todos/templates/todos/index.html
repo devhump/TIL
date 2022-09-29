@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<!-- 입력 파트-->
+
+<section class="container pt-5">
+  <form action="{% url 'todos:create' %}">
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="todo-list">할 일</span>
+      <input name="content" type="text" class="form-control" aria-label="Sizing example input"
+        aria-describedby="todo-list">
+    </div>
+    <div class="input-group mb-3">
+      <label class="input-group-text" for="todo-priority">우선순위</label>
+      <select class="form-select" id="todo-priority" name="priority">
+        <option selected>Choose...</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="todo-date">마감기한</span>
+      <input name='deadline' type="date" class="form-control" aria-label="Sizing example input"
+        aria-describedby="todo-date" value="{{ today }}">
+    </div>
+    <div class="d-grid gap-2">
+      <button class="btn btn-outline-primary" type="submit">할 일 추가</button>
+    </div>
+
+  </form>
+</section>
+<!-- 출력 부분-->
+<section class="container text-center">
+  <hr>
+  <table class="table px-5">
+    <thead>
+      <tr>
+        <th scope="col">우선 순위</th>
+        <th scope="col">할일 내용</th>
+        <th scope="col">생성 날짜</th>
+        <th scope="col">마감 기한</th>
+        <th scope="col">진행 상태</th>
+        <th scope="col">상태변경</th>
+        <th scope="col">삭제</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for todo in todos %}
+      <tr>
+        <!-- 취소선 구현 파트-->
+        {% if todo.completed == False %}
+        <td>{{ todo.priority }}</td>
+        <td>{{ todo.content}}</td>
+        <td>{{ todo.create_at }}</td>
+        <td>{{ todo.deadline }}</td>
+        <td>{{ todo.completed }}</td>
+        {% else%}
+        <td><del>{{ todo.priority }}<del></td>
+        <td><del>{{ todo.content}}</del></td>
+        <td><del>{{ todo.create_at }}</del></td>
+        <td><del>{{ todo.deadline }}</del></td>
+        <td><del>{{ todo.completed }}</del></td>
+        {% endif %}
+        <td>
+          <a href="{% url 'todos:update' todo.pk %}"><button class="btn btn-primary" type="">상태변경</button></a>
+        </td>
+        <td>
+          <a href="{% url 'todos:delete' todo.pk %}"><button class="btn btn-danger" type="">삭제</button></a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}
