@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form class="container" action="{% url 'create' %}">
+  <div class="mb-3">
+    <label for="reviewtitle" class="form-label">리뷰 제목</label>
+    <input name='title_' type="text" class="form-control" id="reviewtitle" placeholder="제목을 입력해 주세요">
+  </div>
+  <div class="mb-3">
+    <label for="reviewContent" class="form-label">리뷰 내용</label>
+    <textarea name='content_' class="form-control" id="reviewContent" rows="3"></textarea>
+  </div>
+  <div>
+    <button type="submit" class="btn btn-outline-primary col-12">추가</button>
+  </div>
+</form>
+
+{% endblock %}

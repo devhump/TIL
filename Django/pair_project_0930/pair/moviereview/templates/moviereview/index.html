@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<table class="text-center table">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">리뷰제목</th>
+      <th scope="col">작성시간</th>
+    </tr>
+  </thead>
+  <tbody class="table-group-divider">
+    {% for review in reviews %}
+    <tr>
+      <th scope="row">{{ review.pk }}</th>
+      <td><a href="{% url 'detail' review.pk %}">{{ review.title }}</a></td>
+      <td>{{ review.created_at.year }}년 {{ review.created_at.month }}월 {{ review.created_at.day }}일</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<a href="{% url 'new' %}"><button class="btn btn-outline-primary">리뷰작성</button></a>
+<nav class="mt-2 mb-2" aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+{% endblock %}

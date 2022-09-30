@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form class="container">
+  <div class="mb-3">
+    <label for="reviewtitle" class="form-label">리뷰 제목</label>
+    <input name='title' type="text" class="form-control" id="reviewtitle" value="{{ review.title }}" disabled readonly>
+  </div>
+  <div class="mb-3">
+    <label for="reviewContent" class="form-label">리뷰 내용</label>
+    <textarea name='content' class="form-control" id="reviewContent" rows="3" disabled
+      readonly>{{ review.content }}</textarea>
+  </div>
+  <div>
+  </div>
+</form>
+
+<a href="{% url 'edit' review.pk %}"><button type="button" class="btn btn-outline-primary">리뷰 수정</button></a>
+<a href="{% url 'delete' review.pk %}"><button type="button" class="btn btn-outline-danger">리뷰 삭제</button></a>
+{% endblock %}
