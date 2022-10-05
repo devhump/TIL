@@ -1,4 +1,6 @@
-a, b = map(str, input().split())
+#a, b = map(str, input().split())
+
+a, b = '456', '127'
 
 a = int(a[::-1])
 b = int(b[::-1])
