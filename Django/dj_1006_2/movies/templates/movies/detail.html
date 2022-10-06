@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <h3>This is detail page</h3>
+
+  <div class="container">
+    <h2>{{ movie.title }}</h2>
+    <hr class="col-6">
+    <p>{{ movie.running_time }}분</p>
+    <p>{{ movie.summary }}</p>
+    <a href="{% url 'movies:update' movie.pk %}">
+      <button class="btn btn-outline-info">수정</button>
+    </a>
+    <a href="{% url 'movies:delete' movie.pk %}">
+      <button class="btn btn-outline-danger">삭제</button>
+    </a>
+  </div>
+
+{% endblock %}
