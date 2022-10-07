@@ -9,6 +9,8 @@ import sys
 sys.stdin = open("SWEA_1954_input.txt", "r")
 from pprint import pprint
 
+
+
 # T = int(input())
 T = 1
 
