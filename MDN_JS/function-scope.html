@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Function scope example</title>
+  </head>
+<body>
+
+  <script>
+    const x = 1;
+
+    function a() {
+      var y = 2;
+      output(z);
+    }
+
+    function b() {
+      var z = 3;
+      output(y);
+    }
+
+
+
+    function output(value) {
+      const para = document.createElement('p');
+      document.body.appendChild(para);
+      para.textContent = `Value: ${value}`;
+    }
+
+    function myBigFunction() {
+      var myValue;
+
+      subFunction1();
+      subFunction2();
+      subFunction3();
+    }
+
+    function myBigFunction() {
+      var myValue = 1;
+
+      subFunction1(myValue);
+      subFunction2(myValue);
+      subFunction3(myValue);
+    }
+
+    function subFunction1(value) {
+      console.log(value);
+    }
+
+    function subFunction2(value) {
+      console.log(value);
+    }
+
+    function subFunction3(value) {
+      console.log(value);
+    }
+
+
+  </script>
+</body>
+</html>
