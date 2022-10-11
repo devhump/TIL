@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <div class="container">
+
+    <h3>This is index page</h3>
+
+    <a href="{% url 'articles:create' %}">
+      <button class="btn btn-outline-primary">새 글 생성</button>
+    </a>
+
+    <hr>
+    {% for article in articles %}
+
+      {{ article.pk }}
+      |
+      <a href="{% url 'articles:detail' article.pk %}">{{ article.title }}</a>
+      <hr>
+
+    {% endfor %}
+
+  </div>
+
+{% endblock %}
