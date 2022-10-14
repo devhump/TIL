@@ -225,7 +225,7 @@ class CustomUserCreationForm(UserCreationForm):
 # accounts/views.py
 from django.shortcuts import render, redirect
 # from django.contrib.auth.forms import UserCreationForm
-from .forms import CustomUserCreationForm
+from .forms import CustomUserCreationForm #추가
 
 # Create your views here.
 def signup(request):
@@ -367,8 +367,8 @@ def login(request):
     else:
         form = AuthenticationForm()
         
-		context = {
-        	'form': form,
+	context = {
+        'form': form,
     	}
 
     return render(request, 'accounts/login.html', context)
@@ -515,6 +515,10 @@ def signup(request):
 
 ```python
 # views/urls.py
+urlpatterns = [
+    ...
+    path("logout/", views.logout, name="logout"), #추가
+]
 ```
 
 
