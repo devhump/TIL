@@ -1,0 +1,10 @@
+<h3>index page</h3>
+
+<a href="{% url 'articles:create' %}">새글 작성</a>
+
+{% for article in articles %}
+
+  <p><a href="{% url 'articles:detail' article.pk %}"> {{ article.title }}</a> </p>
+  <hr>
+
+{% endfor %}

@@ -1,0 +1,20 @@
+{% load django_bootstrap5 %}
+
+{% bootstrap_css %}
+<p>detail</p>
+
+<h3>{{ article.title }}</h3>
+
+<p>{{ article.content }}</p>
+
+<hr>
+<form action="{% url 'articles:comments' article.pk %}" method="POST">
+
+  {% csrf_token %}
+  {% bootstrap_form comment_form %}
+  <input type="submit" value="제출">
+</form>
+{% for comment in article.comment_set.all %}
+  <p>{{ comment.content }}</p>
+  <hr>
+{% endfor %}
