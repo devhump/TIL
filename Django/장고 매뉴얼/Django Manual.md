@@ -1,4 +1,4 @@
-# Django CRUD 
+# Django CRUD (POST) 
 
 > Django : 파이썬 기반 웹 프레임워크 
 
@@ -578,6 +578,15 @@ STATICFILES_DIRS = [
 
 
 ### 5-4. Django-bootstrap
+
+`django-bootstrap`를 사용하는 이유?
+
+: ModelForm 을 사용하기 위해
+
+![image-20221019173444121](Django Manual.assets/image-20221019173444121.png)
+
+![image-20221019180421623](Django Manual.assets/image-20221019180421623.png)
+
 
 
 #### (1) [django-bootstrap5](https://pypi.org/project/django-bootstrap5/) 설치

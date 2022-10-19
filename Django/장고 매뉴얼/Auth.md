@@ -127,6 +127,9 @@ urlpatterns = [
 
 
 
+- 📌모델 -> forms 과정이 없는 이유
+- 로그인 과정에서 사용하는 `UserCreationForm()` 은 장고 auth.forms 의 기본 form 을 사용하기 때문
+
 #### 3-2. views (GET)
 
 ```python
