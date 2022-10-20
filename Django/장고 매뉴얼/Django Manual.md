@@ -583,11 +583,15 @@ STATICFILES_DIRS = [
 
 : ModelForm 을 사용하기 위해
 
-![image-20221019173444121](Django Manual.assets/image-20221019173444121.png)
+- 적용 전
 
 ![image-20221019180421623](Django Manual.assets/image-20221019180421623.png)
 
 
+
+- 적용 후
+
+​	![image-20221019204418698](Django Manual.assets/image-20221019204418698.png)
 
 #### (1) [django-bootstrap5](https://pypi.org/project/django-bootstrap5/) 설치
 
