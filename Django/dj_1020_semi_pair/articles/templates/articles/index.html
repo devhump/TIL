@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>1. 인덱스 페이지</h1><hr>
+<a href="{% url 'articles:create' %}">글쓰기</a><hr>
+{% for i in articles %}
+
+  |글 번호:  {{ i.pk }}  |글 제목:  
+  <a href="{% url 'articles:detail' i.pk %}">{{ i.title }}</a>  |
+  |글쓴이: {{ i.user }}
+  <hr>
+
+{% endfor %}
+
+
+{% endblock content %}
