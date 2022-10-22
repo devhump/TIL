@@ -231,6 +231,28 @@ def comments_delete(request, article_pk, comment_pk):
 
 - [pdf : django_12](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/65750eab-26e7-441b-8a0e-a549aad431b0/django_12.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221020T162336Z&X-Amz-Expires=86400&X-Amz-Signature=ba1e1c516bd9ddd664e76e6f41e16742cf01105e472ca8eae5c20201da1b0c69&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22django_12.pdf%22&x-id=GetObject)
 
+📌ImageField 를 사용하기 위해선 반드시 `Pillow` 라이브러리 필요
+
+```bash
+$ pip install Pillow
+```
+
+
+
+#### URL 설정
+
+- `settings.py` 에 `MEDIA_ROOT`, `MEDIA_URL` 설정이 필요
+
+```python
+# settings.py 
+
+MEDIA_ROOT = BASE_DIR / "media"
+
+MEDIA_URL = '/media/'
+# 비어 있지 않은 값으로 설정 한다면 반드시 slash(/)로 끝나야 함
+
+```
+
 
 
 
@@ -246,5 +268,50 @@ urlpatterns = [
     path('articles/', include("articles.urls"))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 # 마지막 부분 추가
+```
+
+
+
+```python
+# articles/models.py
+
+class Article(models.Model):
+    title = models.CharField(max_length=20)
+    content = models.TextField()
+    image = models.ImageField(blank=True, upload_to='images/')
+```
+
+
+
+- HTML  설정
+  - 📌 form에 enctype 부분이 추가 되어야함 
+
+```html
+<form action="" method="POST" enctype="multipart/form-data">
+  {% csrf_token %}
+  {% bootstrap_form article_form %}
+  <input type='submit' value='제출'>
+</form>
+```
+
+
+
+```python
+
+def create(request):
+
+    if request.method == "POST":
+            article_form = ArticleForm(request.POST, request.FILES, instance=article)
+            #ModelForm 에 request.FILES 추가
+            if article_form.is_valid():
+                article_form.save()
+                return redirect('articles:detail', article.pk)
+        else:
+            article_form = ArticleForm(instance=article)
+
+        context = {
+            'article_form' : article_form,
+        }
+        return render(request, 'articles/update.html', context)
 ```
 
