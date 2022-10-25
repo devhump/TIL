@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <h1>{{ user.username }}님의 프로필</h1>
+  <p>팔로잉: {{ user.followings.count }}명 | 팔로워: {{ user.followers.count}}명</p>
+  <h3>
+    {% comment %} 자기자신의 프로필이라면, 팔로우/언팔로우 기능 표시 X {% endcomment %}
+    {% if request.user != user %} 
+      {% if request.user in user.followers.all %}
+        <a href="{% url 'accounts:follow' user.pk %}">언팔로우</a>
+      {% else %}
+        <a href="{% url 'accounts:follow' user.pk %}">팔로우</a>
+      {% endif %}
+    {% endif %}
+  </h3>
+  <p>{{ user.email }}
+    |
+    {{ user.full_name }}</p>
+  <div class="row">
+    <div class="col-6">
+      <h3>작성한 글</h3>
+      <p class="text-muted">{{ user.article_set.count }}개를 작성하였습니다.</p>
+      {% for article in user.article_set.all %}
+        <p>
+          {{ forloop.counter }}
+          <a href="{% url 'articles:detail' article.pk %}">{{ article.title }}</a>
+        </p>
+      {% endfor %}
+    </div>
+    <div class="col-6">
+      <h3>작성한 댓글</h3>
+      <p class="text-muted">{{ user.comment_set.count }}개를 작성하였습니다.</p>
+      {% for comment in user.comment_set.all %}
+        <p>
+          {{ forloop.counter }}
+          <a href="{% url 'articles:detail' comment.article_id %}">{{ comment.content }}</a>
+        </p>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock body %}
