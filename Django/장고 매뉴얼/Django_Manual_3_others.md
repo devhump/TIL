@@ -315,3 +315,63 @@ def create(request):
         return render(request, 'articles/update.html', context)
 ```
 
+
+
+## M:N 관계
+
+#### 팔로우 / 언팔로우
+
+```python
+#accounts/models.py
+
+class User(AbstractUser):
+    followings = models.ManyToManyField(
+        "self", symmetrical=False, related_name="followers"
+    )
+```
+
+```python
+#accounts/views.py
+
+def follow(request, pk):
+
+    user = get_user_model().objects.get(pk=pk)
+
+    if request.user in user.followings.all():
+        user.followings.remove(request.user)
+    else:
+        user.followings.add(request.user)
+
+    return redirect("accounts:detail", pk)
+```
+
+```django
+  <p>팔로잉: {{ user.followings.count }}명</p> 
+  <p>팔로워: {{ user.followers.count }}명</p>
+{% comment %} 자기자신의 프로필이라면, 팔로우/언팔로우 기능 표시 X {% endcomment %}
+    {% if request.user != user %} 
+      {% if request.user in user.followings.all %}
+        <a href="{% url 'accounts:follow' user.pk %}">언팔로우</a>
+      {% else %}
+        <a href="{% url 'accounts:follow' user.pk %}">팔로우</a>
+      {% endif %}
+    {% endif %}
+```
+
+```python
+@login_required
+def follow(request, pk):
+    # 프로필에 해당하는 유저를 로그인한 유저가!
+    user = get_user_model().objects.get(pk=pk)
+    if request.user == user:
+        messages.warning(request, '스스로 팔로우 할 수 없습니다.')
+        return redirect('accounts:detail', pk)
+    # if request.user in user.followers.all():
+    # # (이미) 팔로우 상태이면, '팔로우 취소'버튼을 누르면 삭제 (remove)
+    #     user.followers.remove(request.user)
+    # else:
+    # # 팔로우 상태가 아니면, '팔로우'를 누르면 추가 (add)
+    #     user.followers.add(request.user)
+    # return redirect('accounts:detail', pk)
+```
+
