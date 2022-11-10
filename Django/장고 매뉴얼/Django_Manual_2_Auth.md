@@ -417,7 +417,7 @@ def login(request):
 #articles/views.py
 
 def create(request):
-	if request.user.is_athenticated:
+	if request.user.is_authenticated:
 		# 기존 내용
         # if request.method == "POST":
     #     article_form = ArticleForm(request.POST)
@@ -804,7 +804,7 @@ def change_password(request):
 
 
 
-## 9. logout
+## 9. 회원 삭제
 
 ```python
 # accounts/views.py
@@ -812,6 +812,7 @@ def change_password(request):
 def delete(request):
     request.user.delete()
     auth_logout(request)
+    return redirect("accounts:index")
 ```
 
 - 📌 반드시 ***1. 탈퇴 후 -> 2. 로그아웃*** 으로 진행 (순서 중요!)

@@ -43,6 +43,8 @@ def get_playIds_list():
         + SECRET_KEY + stdate + eddate + cpage + rows
     )
 
+    print(URL)
+
     response = requests.get(URL)
     # print(URL)
     # print(response.status_code)
@@ -69,6 +71,7 @@ def get_play_info():
         )
         response = requests.get(URL)
 
+        print(URL)
         soup = BeautifulSoup(response.text, "xml")
         title = soup.find("prfnm")
         a = title.get_text()
@@ -79,4 +82,4 @@ def get_play_info():
 
 
 
-
+get_play_info()
