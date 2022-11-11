@@ -11,11 +11,11 @@ from bs4 import BeautifulSoup
 load_dotenv()
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
-# 공연 시작일자
+#공연 시작일자
 stdate = "&stdate=" + "20220601"
-# 공연 종료일자
+#공연 종료일자
 eddate = "&eddate=" + "20230630"
-# 현재페이지
+#현재페이지
 cpage = "&cpage=" + "1"
 # 페이지당 목록 수
 rows = "&rows=" + "5"
@@ -35,11 +35,7 @@ kidstate = "&kidstate" + "Y"
 
 URL = (
     "http://www.kopis.or.kr/openApi/restful/pblprfr?service="
-    + SECRET_KEY
-    + stdate
-    + eddate
-    + cpage
-    + rows
+    + SECRET_KEY + stdate + eddate + cpage + rows
 )
 
 response = requests.get(URL)
@@ -55,16 +51,9 @@ soup = BeautifulSoup(response.text, "xml")  # xml 문서라서
 # close_date = soup.find("prfpdto")
 images = soup.find_all("styurl")
 
-# <styurls>
-#     <styurl>img_1</styurl>
-#     <styurl>img_2</styurl>
-#     <styurl>img_3</styurl>
-#     <styurl>img_4</styurl>
-# </styurls>
-
-# print(len(images))
-# # print(images[0].get_text())
-# # print(title)
+print(len(images))
+print(images[0].get_text())
+print(title)
 # # a = title.contents[0]
 # a = title.get_text()
 # b = open_date.get_text()
