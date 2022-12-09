@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>articles/index page</h3>
+
+<a href={% url 'articles:create' %}> 새글 쓰기 </a>
+
+<div class="container">
+
+  <div class="row">
+  {% for article in articles %}
+    <div class="card col-4 m-5" style="width: 18rem;">
+      {% if article.thumbnail %}
+        <img src="{{ article.thumbnail.url }}" class="card-img-top" alt="{{ thumbnail.image }}">
+      {% elif article.image %}
+        <img src="{{ article.image.url }}" class="card-img-top" alt="{{ article.image }}">
+      {% endif %}
+        <div class="card-body">
+        <h5 class="card-title">{{ article.title }}</h5>
+        <p class="card-text">{{ article.content }}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}

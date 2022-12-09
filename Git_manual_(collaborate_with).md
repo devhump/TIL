@@ -4,7 +4,10 @@
 
 #### 원격 레포지토리 생성 후 collaborator 초대
 
+
+
 #### 가상환경 설정 
+
 ```bash
 $ python -m venv venv
 ```
