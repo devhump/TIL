@@ -13,7 +13,7 @@
 
 ### 디렉토리 관련
 
-- `pwd`(print working directory): 현재 디렉토리(폴더 내지는 파일) 출력
+- `pwd`(print working directory): 현재 디렉토리(폴더 내지는 파일) 출력.
 - `cd` (change directory) : 디렉토리 이동
   - `cd .`  : 현재 디렉토리
   - `cd . .`   : 상위 디렉토리 이동, 띄어쓰기
