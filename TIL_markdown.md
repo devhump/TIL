@@ -11,7 +11,7 @@
 
 - 목차
   1. Heading (제목) - 소제목
-  2. 목록(list)
+  2. 목록(list).
   3. Fenced code block
   4. inline code block
   5. 링크걸기
