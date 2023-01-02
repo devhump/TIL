@@ -1,40 +1,27 @@
 # BOJ_1110 더하기 사이클
-# 적재적소에 값의 형변환을 할 수 있는가의 문제
 
-first_num = input()
-
-if len(first_num) == 1:
-    first_num = "0" + first_num
+first_num = int(input())  # 26
 
 cnt = 0
-cal_num = 0
-while first_num != cal_num:
-    # 첫 회차의 경우에만 처음 입력받은 수로 계산 (first_num)
+while True:
+
+    # 최초 1회만 실행
     if cnt == 0:
-        temp = int(first_num[0]) + int(first_num[1])
-
-        cnt += 1
-
-        if temp >= 10:
-            temp = str(temp)
-            temp = temp[1]
-        else:
-            temp = str(temp)
-
-        cal_num = first_num[1] + temp
-
-    # 이후에는 계산되는 수로 계산 (cal_num)
+        temp_1 = first_num % 10  # 26의 1의 자리, 6
+        temp_10 = first_num // 10  # 26의 10의 자리, 2
+        cal_1 = (temp_1 + temp_10) % 10  # 1과 10의 자릿수 합의 1의 자리 == 8
+        cal_num = (temp_1 * 10) + cal_1  # '6' + '8'
     else:
-        temp = int(cal_num[0]) + int(cal_num[1])
+        temp_1 = cal_num % 10  # 이후 수의 1의 자리수
+        temp_10 = cal_num // 10  # 이후 수의 10의 자리수
+        cal_1 = (temp_1 + temp_10) % 10  # 앞선 두 자릿 수의 1의 자리
+        cal_num = (temp_1 * 10) + cal_1
 
-        cnt += 1
+    # print(temp_1, temp_10)
+    # print(first_num, cal_num)
+    cnt += 1
 
-        if temp >= 10:
-            temp = str(temp)
-            temp = temp[1]
-        else:
-            temp = str(temp)
-
-        cal_num = cal_num[1] + temp
+    if first_num == cal_num:
+        break
 
 print(cnt)
