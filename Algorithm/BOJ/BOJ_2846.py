@@ -1,31 +1,40 @@
-N = int(input())
-# N = 8
+# BOJ_2846
 
-for i in range(N):
+climb_len = int(input())
+climb_list = list(map(int, input().split()))
 
-    climb_list = list(map(int, input().split()))
-    # climb_list = [12, 20, 1, 3, 4, 4, 11, 1]   
-    start_point = 0
-    end_point = 0
-    height_list = []
-    cnt = 0 
 
-    for i in range(1, len(climb_list)):
+temp_low, temp_high, temp_height = 0, 0, 0
+continue_bool = False  # 상승중인지(오르막인지) 여부를 Bool 변수로 체크
+max_height = 0
+for i in range(climb_len):
 
-        if i == 0:
-            continue
+    # 이전 수와의 비교이기에 index가 0 일때 pass
+    if i == 0:
+        continue
 
-        if climb_list[i] > climb_list[i-1]:
-            
-            while(cnt < 1):
-                start_point = climb_list[i-1]
-                cnt += 1
-            end_point = climb_list[i]
+    # 연속 상승중 일 결우
+    if (continue_bool == True) and (climb_list[i - 1] < climb_list[i]):
+        temp_high = climb_list[i]
+        temp_height = temp_high - temp_low
+        continue_bool = True
 
-            result = end_point - start_point
-            height_list.append(result)
-        else:
-            cnt = 0
+        if max_height <= temp_height:
+            max_height = temp_height
 
-# print(height_list)
-print(max(height_list))
+        continue
+
+    # 아닐경우 (최초 상승중일 경우)
+    if (continue_bool == False) and climb_list[i - 1] < climb_list[i]:
+        temp_low = climb_list[i - 1]
+        temp_high = climb_list[i]
+        temp_height = temp_high - temp_low
+        continue_bool = True
+    else:
+        continue_bool = False
+
+    # 변화폭이 최대치이면 갱신
+    if max_height <= temp_height:
+        max_height = temp_height
+
+print(max_height)
