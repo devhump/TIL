@@ -16,7 +16,7 @@ for i in range(coins_num):
 cnt = 0
 while sum_result != 0:
 
-    max_ = max(coins_list)
+    max_ = coins_list[-1]
     if max_ > sum_result:
         coins_list.pop()
         continue
