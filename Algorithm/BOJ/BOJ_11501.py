@@ -1,5 +1,4 @@
 # BOJ_11501 주식 / 그리디
-# 시간초과ㅠㅠ
 
 import sys
 
@@ -15,16 +14,14 @@ for i in range(total_cnt):
     price_list = list(map(int, input().split()))
 
     result = 0
-    for j in range(cnt - 1):
-
-        max_ = 0
-        for num in price_list[j:]:
-
-            if num > max_:
-                max_ = num
-
-        if max_ != 0:
-
-            result += max_ - price_list[j]
+    max_val = price_list[-1]
+    for j in range(cnt - 2, -1, -1):
+        if price_list[j] > max_val:
+            max_val = price_list[j]
+        else:
+            result += max_val - price_list[j]
 
     print(result)
+
+# 이제까지 너무 당연하게 range는 앞에서 뒤로만 움직이는 거라 생각했다.
+# 답은 나오는데, 왜 계속 시간 초과가 뜰까 했더니, 이런 방법이... 와우...

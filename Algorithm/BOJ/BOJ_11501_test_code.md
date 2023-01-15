@@ -93,3 +93,38 @@ for i in range(total_cnt):
     print(result)
 ```
 
+```python
+
+# BOJ_11501 주식 / 그리디
+# 시간초과ㅠㅠ
+
+import sys
+
+sys.stdin = open("BOJ_11501_input.txt", "r")
+# import sys
+
+input = sys.stdin.readline
+total_cnt = int(input())
+
+for i in range(total_cnt):
+    cnt = int(input())
+
+    price_list = list(map(int, input().split()))
+
+    result = 0
+    for j in range(cnt - 1):  # 모든 날짜의 주가 확인
+
+        max_ = 0
+        for num in price_list[j:]:  # 해당 일 이후의 주가 확인
+
+            if num > max_:  # 가장 큰 값을 갱신해서 저장
+                max_ = num
+
+        if max_ != 0:
+
+            result += max_ - price_list[j]  # 순이익분을 저장해서 누적
+
+    print(result)
+
+
+```
