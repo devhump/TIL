@@ -16,15 +16,26 @@ for i in range(n):
 data.sort()
 
 full_line = []
-heapq.heappush(full_line, data[0][0])  # start point
-heapq.heappush(full_line, data[0][1])  # end point
+heapq.heappush(full_line, [data[0][0], data[0][1]])
 
+A = 1
 for j in range(1, n):
-    # print(full_line)
-    if data[j][0] <= full_line[1]:
-        # heapq.heappop(full_line[1])
-        heapq.heappush(full_line, data[j][1])
-    else:
-        continue
 
-print(full_line[-1] - full_line[0] + 1)
+    k = 0
+    a = len(full_line)
+    while True:
+        if full_line[k][1] >= data[j][0]:
+            heapq.heappush(full_line[k], data[j][1])
+            break
+        else:
+            if (k + 1) == a:
+                heapq.heappush(full_line, [data[j][0], data[j][1]])
+                break
+            else:
+                k += 1
+
+result = 0
+for i in range(len(full_line)):
+    result += full_line[i][-1] - full_line[i][0]
+
+print(result)

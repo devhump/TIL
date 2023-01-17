@@ -20,12 +20,12 @@ room = []
 heapq.heappush(room, class_list[0][1])
 
 for j in range(1, n):
-    # print(room)
+    print(room)
     if class_list[j][0] < room[0]:
         heapq.heappush(room, class_list[j][1])
     else:
         heapq.heappop(room)
         heapq.heappush(room, class_list[j][1])
 
-# print(room)
+print(room)
 print(len(room))
