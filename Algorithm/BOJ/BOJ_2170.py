@@ -1,7 +1,6 @@
 # BOJ_2170 선 긋기 / 그리디
 
 import sys
-import heapq
 
 sys.stdin = open("BOJ_2170_input.txt", "r")
 input = sys.stdin.readline
@@ -15,27 +14,24 @@ for i in range(n):
 
 data.sort()
 
-full_line = []
-heapq.heappush(full_line, [data[0][0], data[0][1]])
-
-A = 1
-for j in range(1, n):
-
-    k = 0
-    a = len(full_line)
-    while True:
-        if full_line[k][1] >= data[j][0]:
-            heapq.heappush(full_line[k], data[j][1])
-            break
-        else:
-            if (k + 1) == a:
-                heapq.heappush(full_line, [data[j][0], data[j][1]])
-                break
-            else:
-                k += 1
+start = data[0][0]
+end = data[0][1]
 
 result = 0
-for i in range(len(full_line)):
-    result += full_line[i][-1] - full_line[i][0]
+for j in range(1, n):
+
+    if data[j][0] <= end and data[j][1] <= end:
+        continue
+    elif data[j][0] <= end:
+        end = data[j][1]
+    elif data[j][0] > end:
+        result += end - start
+        start = data[j][0]
+        end = data[j][1]
+
+result += end - start
 
 print(result)
+
+# 원래 힙큐 써서 풀려고 했는데, 계속 시간 초과가 떠서
+# 결국 구글링을 했는데, 훨씬 더 간단하게 풀 수 있더라...

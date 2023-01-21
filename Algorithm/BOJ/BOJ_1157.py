@@ -1,28 +1,26 @@
-#미완
-
-import sys
-sys.stdin = open("BOJ_1157_input.txt")
-
-T = 4
-
-for i in range(T):
-
-    num_list = []
-    #word = list(map(str, input().split())) # 이거는 왜 오류가 났을 까
-    
-    word = input()
-    print(word, type(word), len(word))
+# BOJ_1157 단어공부
+# a = 95 / A = 65
 
 
-    # for i in range(len(word)):
-    #     num_list.append(int(ord(word[i])))
+alp_list = input()
 
-    # print(num_list)
+alp_dic = {}
+for char in alp_list:
 
-    for num in num_list:
-        if int(num) > 96: # 97부터 소문자 시작 (a)
-            print("실행이 되나??")
-            num -= 32 # 대문자-소문자 차이
-   
-    # print(num_list)
+    temp = ord(char)
+    if temp >= 97:
+        temp -= 32
 
+    if chr(temp) in alp_dic:
+        alp_dic[chr(temp)] += 1
+    else:
+        alp_dic[chr(temp)] = 1
+
+alp_dic2li = sorted(alp_dic.items(), key=lambda x: x[1])
+
+if len(alp_dic) == 1:
+    print(chr(temp))
+elif alp_dic2li[-1][1] == alp_dic2li[-2][1]:
+    print("?")
+else:
+    print(alp_dic2li[-1][0])
