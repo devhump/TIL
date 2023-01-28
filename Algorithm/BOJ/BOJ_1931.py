@@ -1,6 +1,7 @@
 # BOJ_1931 회의실 배정 / 그리디
 
 import sys
+import heapq
 
 sys.stdin = open("BOJ_1931_input.txt", "r")
 # import sys
@@ -14,23 +15,11 @@ for i in range(total_cnt):
 
     meeting_list.append(tuple(map(int, input().split())))
 
-cnt_list = []
-for j in range(total_cnt):
 
-    end = meeting_list[j][1]
+print(meeting_list)
 
-    temp_list = meeting_list[j + 1 :]
+meeting_list.sort(reverse=True)
 
-    cnt = 0
-    for k in range(len(temp_list)):
+meeting_list.sort(key=lambda meeting: meeting_list[1])
 
-        if temp_list[k][0] < end:
-            continue
-        else:
-            print(temp_list[k])
-            end = temp_list[k][1]
-            cnt += 1
-
-    cnt_list.append(cnt)
-
-print(max(cnt_list) + 1)
+print(meeting_list)
