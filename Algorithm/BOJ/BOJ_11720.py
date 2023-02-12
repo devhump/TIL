@@ -4,6 +4,3 @@ cnt = int(input())
 
 result = 0
 for i in range(cnt):
-    result += int(input())
-
-print(result)
