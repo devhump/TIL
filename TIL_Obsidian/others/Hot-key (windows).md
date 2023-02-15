@@ -1,6 +1,10 @@
 #단축키, #shortcut
 
 ### Evernote
+|특정 문자열 드래그 후  `ctrl` + `shift` + `x`|특정 문자열 암호화|
+|---|---|
+|`ctrl` + `alt` + `l` | 해당 문서 내부 링크 복사   |
+
 -   암호화
 	- 특정 문자열 그래그 후 `shift`  + `command` + `x`
 

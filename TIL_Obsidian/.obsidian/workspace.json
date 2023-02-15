@@ -13,14 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md",
+                "file": "others/Hot-key (for Mac).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b7b8484099939f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📑 devhump`s TIL Index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#shortcut",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md",
+                "file": "📑 devhump`s TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md",
+                "file": "📑 devhump`s TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md"
+                "file": "📑 devhump`s TIL Index.md"
               }
             }
           }
@@ -147,17 +160,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "31c996407033f3d5",
+  "active": "5b7b8484099939f5",
   "lastOpenFiles": [
+    "KDT/04. 리스트 (List).md",
+    "KDT/02. basic_IO.md",
+    "📑 devhump`s TIL Index.md",
+    "others/CLI.md",
     "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md",
-    "others/Hot-key (windows).md",
-    "KDT/markdown/00. markdown (마크다운) +.md",
     "Algorithm (theory)/01. Stack & Que/01. 가장 기본이 되는 자료구조 - 스택과 큐.md",
-    "www.notion.com.md",
-    "KDT/KDT index.md",
-    "Algorithm (theory)/최적의 코딩을 결정하는 기본 알고리즘.md",
     "Algorithm (theory)/02. Priority Que/02. 우선순위에 따라 데이터를 꺼내는 자료구조.md",
-    "others/Hot-key (for Mac).md",
-    "Algorithm (theory)/Stack & Que/01. 가장 기본이 되는 자료구조- 스택과 큐.md"
+    "Algorithm (theory)/최적의 코딩을 결정하는 기본 알고리즘.md",
+    "KDT/markdown/00. markdown (마크다운) +.md",
+    "others/vscode_shortcuts_(mac).pdf"
   ]
 }
