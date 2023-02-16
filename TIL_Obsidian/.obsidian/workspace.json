@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📑 devhump`s TIL Index.md",
+                "file": "KDT/Data structure/01. about Algorithm (Intro).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📑 devhump`s TIL Index.md",
+                "file": "KDT/Data structure/01. about Algorithm (Intro).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📑 devhump`s TIL Index.md",
+                "file": "KDT/Data structure/01. about Algorithm (Intro).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📑 devhump`s TIL Index.md"
+                "file": "KDT/Data structure/01. about Algorithm (Intro).md"
               }
             }
           }
@@ -162,15 +162,15 @@
   },
   "active": "5b7b8484099939f5",
   "lastOpenFiles": [
+    "Algorithm (theory)/01. Stack & Que/01. 가장 기본이 되는 자료구조 - 스택과 큐.md",
+    "KDT/markdown/markdown (마크다운) +.md",
+    "📑 devhump`s TIL Index.md",
     "KDT/04. 리스트 (List).md",
     "KDT/02. basic_IO.md",
-    "📑 devhump`s TIL Index.md",
     "others/CLI.md",
     "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md",
-    "Algorithm (theory)/01. Stack & Que/01. 가장 기본이 되는 자료구조 - 스택과 큐.md",
     "Algorithm (theory)/02. Priority Que/02. 우선순위에 따라 데이터를 꺼내는 자료구조.md",
     "Algorithm (theory)/최적의 코딩을 결정하는 기본 알고리즘.md",
-    "KDT/markdown/00. markdown (마크다운) +.md",
     "others/vscode_shortcuts_(mac).pdf"
   ]
 }
