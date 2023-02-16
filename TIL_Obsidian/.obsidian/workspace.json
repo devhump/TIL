@@ -4,36 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6052c8e1652e0f46",
+        "id": "c33a486410cae31c",
         "type": "tabs",
         "children": [
           {
-            "id": "f9aa8b4e8909ae9b",
+            "id": "bbf5f1da574bb700",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "others/Hot-key (for Mac).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b7b8484099939f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Data structure/01. about Algorithm (Intro).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -99,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Data structure/01. about Algorithm (Intro).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Data structure/01. about Algorithm (Intro).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "KDT/Data structure/01. about Algorithm (Intro).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,17 +139,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5b7b8484099939f5",
+  "active": "bbf5f1da574bb700",
   "lastOpenFiles": [
+    "others/Hot-key (for Mac).md",
+    "딕셔너리 (Dictionary).md",
+    "KDT/Data structure/01. about Algorithm (Intro).md",
+    "KDT/Data structure/06. 힙(Heap), 셋(set).md",
+    "문자열 (String).md",
     "Algorithm (theory)/01. Stack & Que/01. 가장 기본이 되는 자료구조 - 스택과 큐.md",
     "KDT/markdown/markdown (마크다운) +.md",
     "📑 devhump`s TIL Index.md",
     "KDT/04. 리스트 (List).md",
-    "KDT/02. basic_IO.md",
-    "others/CLI.md",
-    "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md",
-    "Algorithm (theory)/02. Priority Que/02. 우선순위에 따라 데이터를 꺼내는 자료구조.md",
-    "Algorithm (theory)/최적의 코딩을 결정하는 기본 알고리즘.md",
-    "others/vscode_shortcuts_(mac).pdf"
+    "KDT/02. basic_IO.md"
   ]
 }
