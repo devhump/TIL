@@ -11,11 +11,43 @@
             "id": "bbf5f1da574bb700",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Data structure/String/문자열 (String).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71a8c0c089da6e14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "others/Obsidian setting.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddc6dad85b6aa745",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md"
+              }
             }
           }
         ]
@@ -136,20 +172,23 @@
       "canvas:Create new canvas": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "random-note:랜덤 노트 열기": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bbf5f1da574bb700",
+  "active": "ddc6dad85b6aa745",
   "lastOpenFiles": [
+    "others/Obsidian setting.md",
+    "others/Hot-key (windows).md",
     "others/Hot-key (for Mac).md",
-    "딕셔너리 (Dictionary).md",
-    "KDT/Data structure/01. about Algorithm (Intro).md",
+    "others/assets/Pasted image 20230215172247.png",
+    "others/assets/Pasted image 20230215172228.png",
+    "others/assets/Pasted image 20230215172150.png",
+    "KDT/Data structure/String/문자열 (String).md",
+    "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md",
     "KDT/Data structure/06. 힙(Heap), 셋(set).md",
-    "문자열 (String).md",
-    "Algorithm (theory)/01. Stack & Que/01. 가장 기본이 되는 자료구조 - 스택과 큐.md",
-    "KDT/markdown/markdown (마크다운) +.md",
-    "📑 devhump`s TIL Index.md",
-    "KDT/04. 리스트 (List).md",
-    "KDT/02. basic_IO.md"
+    "KDT/Data structure/assets/01. about Algorithm (Intro)-image-2.png"
   ]
 }
