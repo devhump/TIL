@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "c33a486410cae31c",
+        "id": "dc7eb323c1dd0c37",
         "type": "tabs",
         "children": [
           {
-            "id": "bbf5f1da574bb700",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Data structure/String/문자열 (String).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71a8c0c089da6e14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "others/Obsidian setting.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ddc6dad85b6aa745",
+            "id": "78806c9257d8858f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,17 +151,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ddc6dad85b6aa745",
+  "active": "78806c9257d8858f",
   "lastOpenFiles": [
+    "KDT/Python/04. 데이터 구조 (Data Structure).md",
+    "KDT/Data structure/String/문자열 (String).md",
     "others/Obsidian setting.md",
     "others/Hot-key (windows).md",
     "others/Hot-key (for Mac).md",
     "others/assets/Pasted image 20230215172247.png",
     "others/assets/Pasted image 20230215172228.png",
     "others/assets/Pasted image 20230215172150.png",
-    "KDT/Data structure/String/문자열 (String).md",
     "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md",
-    "KDT/Data structure/06. 힙(Heap), 셋(set).md",
-    "KDT/Data structure/assets/01. about Algorithm (Intro)-image-2.png"
+    "KDT/Data structure/06. 힙(Heap), 셋(set).md"
   ]
 }
