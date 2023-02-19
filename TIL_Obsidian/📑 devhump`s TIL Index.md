@@ -20,7 +20,7 @@
 - [[CLI]]
 - [[Hot-key (for Mac)]]
 - [[Hot-key (windows)]]
-- [[Obsidian setting]]
+- [[others/Obsidian setting]]
 - [[others/vscode_shortcuts_(mac).pdf]] 
 
 
