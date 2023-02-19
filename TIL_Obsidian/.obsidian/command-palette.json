@@ -1,0 +1,13 @@
+{
+  "pinned": [
+    "workspace:copy-path",
+    "app:toggle-default-new-pane-mode",
+    "theme:use-light",
+    "theme:use-dark",
+    "random-note",
+    "editor:toggle-spellcheck",
+    "insert-template",
+    "insert-current-date",
+    "insert-current-time"
+  ]
+}

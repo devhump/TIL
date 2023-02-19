@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dc7eb323c1dd0c37",
+        "id": "76137602c0cf5853",
         "type": "tabs",
         "children": [
           {
-            "id": "78806c9257d8858f",
+            "id": "1e869f39f0dafb4a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
-                "mode": "source",
-                "backlinks": false,
+                "file": "📑 devhump`s TIL Index.md",
+                "mode": "preview",
+                "backlinks": true,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -49,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#shortcut",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -87,26 +88,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
-                "collapseAll": false,
+                "file": "📑 devhump`s TIL Index.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "2ddf3454b57c0d9e",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -127,16 +116,36 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md"
+                "file": "📑 devhump`s TIL Index.md"
+              }
+            }
+          },
+          {
+            "id": "5c0083a36c987cf8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ecb9cce1e8a6e93",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "📑 devhump`s TIL Index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 468.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,21 +156,22 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "random-note:랜덤 노트 열기": false,
-      "markdown-importer:마크다운 형식 가져오기 열기": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "zk-prefixer:새로운 유니크 노트 생성": false,
+      "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "78806c9257d8858f",
+  "active": "1e869f39f0dafb4a",
   "lastOpenFiles": [
-    "KDT/Python/04. 데이터 구조 (Data Structure).md",
-    "KDT/Data structure/String/문자열 (String).md",
-    "others/Obsidian setting.md",
-    "others/Hot-key (windows).md",
-    "others/Hot-key (for Mac).md",
-    "others/assets/Pasted image 20230215172247.png",
-    "others/assets/Pasted image 20230215172228.png",
-    "others/assets/Pasted image 20230215172150.png",
+    "무제 파일.canvas",
+    "KDT/Data structure/04. 리스트 (List).md",
+    "📑 devhump`s TIL Index.md",
     "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md",
+    "KDT/Data structure/assets/01. about Algorithm (Intro)-image-1.png",
+    "KDT/Data structure/assets/01. about Algorithm (Intro)-image-2.png",
+    "테스트.md",
+    "others/templates/점검시간.md",
+    "others/templates/무제 파일.md",
     "KDT/Data structure/06. 힙(Heap), 셋(set).md"
   ]
 }

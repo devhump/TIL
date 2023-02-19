@@ -24,13 +24,13 @@
 - **Key : Value** 가 저장되는 원리가 무엇일까?
 - 일단 리스트를 이용해 **Key: Value**를 저장해보자.
 
-![](assets/Pasted%20image%2020230217155605.png)
+![|200](assets/Pasted%20image%2020230217155605.png)
 
 ![](assets/Pasted%20image%2020230217160009.png)
 
 - 딕셔너리는 **해시 테이블(Hash Table)** 을 이용하여 Key: value 를 저장
 
-![](assets/Pasted%20image%2020230217160813.png)
+![|600](assets/Pasted%20image%2020230217160813.png)
 
 ![](assets/Pasted%20image%2020230217160737.png)
 - 해시 함수: 임의 길이의 데이터를 고정 실이의 데리터로 매핑하는 함수 
@@ -119,7 +119,7 @@ print(phone)
 
 ```
 - 에러발생
-- ![](KDT/Data%20structure/String/assets/Pasted%20image%2020230216184112.png) 
+- ![|400](KDT/Data%20structure/String/assets/Pasted%20image%2020230216184112.png) 
 
 - 기본적인 딕셔너리 사용법 (**삭제**)
 - 딕셔너리.pop(key, default)
@@ -183,8 +183,8 @@ a = {
 print(a["phone"])
 ```
 
-- 에러발생
-	- ![](KDT/Data%20structure/String/assets/Pasted%20image%2020230216184957.png)
+- ==에러발생==
+	- ![|400](KDT/Data%20structure/String/assets/Pasted%20image%2020230216184957.png)
 
 - `딕셔너리.get(key,default)`
 ```python

@@ -1,5 +1,9 @@
 {
   "accentColor": "",
-  "cssTheme": "Atom",
-  "translucency": false
+  "cssTheme": "Minimal",
+  "translucency": false,
+  "theme": "obsidian",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": ""
 }

@@ -3,5 +3,11 @@
   "newLinkFormat": "relative",
   "attachmentFolderPath": "./assets",
   "alwaysUpdateLinks": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "defaultViewMode": "preview",
+  "spellcheck": false,
+  "spellcheckLanguages": [
+    "ko",
+    "en-US"
+  ]
 }

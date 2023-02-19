@@ -1,4 +1,4 @@
-#단축키, #shortcut 
+#단축키 #shortcut  
 
 ### Mac OS
 - 맥용 키보드 기호

@@ -1,4 +1,4 @@
-#단축키, #shortcut
+#단축키 #shortcut 
 
 ### Evernote
 |특정 문자열 드래그 후  `ctrl` + `shift` + `x`|특정 문자열 암호화|
