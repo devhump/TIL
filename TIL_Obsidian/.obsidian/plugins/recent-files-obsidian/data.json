@@ -1,0 +1,47 @@
+{
+  "recentFiles": [
+    {
+      "basename": "📑 devhump`s TIL Index",
+      "path": "📑 devhump`s TIL Index.md"
+    },
+    {
+      "basename": "04. 데이터 구조 (Data Structure)",
+      "path": "KDT/Python/04. 데이터 구조 (Data Structure).md"
+    },
+    {
+      "basename": "딕셔너리 (Dictionary)",
+      "path": "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md"
+    },
+    {
+      "basename": "01. about Algorithm (Intro)",
+      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
+    },
+    {
+      "basename": "02. basic_IO",
+      "path": "KDT/Data structure/02. basic_IO.md"
+    },
+    {
+      "basename": "04. 리스트 (List)",
+      "path": "KDT/Data structure/04. 리스트 (List).md"
+    },
+    {
+      "basename": "06. 힙(Heap), 셋(set)",
+      "path": "KDT/Data structure/06. 힙(Heap), 셋(set).md"
+    },
+    {
+      "basename": "23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법",
+      "path": "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md"
+    },
+    {
+      "basename": "자료구조",
+      "path": "Algorithm (theory)/02. Priority Que/자료구조.md"
+    },
+    {
+      "basename": "스택과 큐",
+      "path": "Algorithm (theory)/01. Stack & Que/스택과 큐.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

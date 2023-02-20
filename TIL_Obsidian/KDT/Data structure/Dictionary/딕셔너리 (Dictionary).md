@@ -337,7 +337,6 @@ address Seoul
 
 
 - 딕셔너리 활용 연습 (JUNGOL)
-	- [# 945 : 기타 자료형 - 자가진단 5](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4372&sca=pyd0)
-	- [# 946 : 기타 자료형 - 자가진단 6](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4373&sca=pyd0)
-	- [# 953 : 기타 자료형 - 형성평가 6](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4380&sca=pyd0)
-	- 
+	- [ ] [# 945 : 기타 자료형 - 자가진단 5](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4372&sca=pyd0) #todo 
+	- [ ] [# 946 : 기타 자료형 - 자가진단 6](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4373&sca=pyd0) #todo 
+	- [ ] [# 953 : 기타 자료형 - 형성평가 6](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4380&sca=pyd0) #todo 

@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "fcd21db76e3824fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#shortcut",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,8 +67,17 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "485a4cd7f6b2e56c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,12 +93,28 @@
         "type": "tabs",
         "children": [
           {
+            "id": "5c0083a36c987cf8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8214ba061cc1f2fd",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
             "id": "1a65d436df0ced0a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
+                "file": "📑 devhump`s TIL Index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +132,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -131,16 +142,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md"
+                "file": "📑 devhump`s TIL Index.md"
               }
-            }
-          },
-          {
-            "id": "5c0083a36c987cf8",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           },
           {
@@ -149,18 +152,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
+                "file": "📑 devhump`s TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 324.5,
+    "width": 326.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -177,17 +180,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "fcd21db76e3824fb",
+  "active": "1e869f39f0dafb4a",
   "lastOpenFiles": [
-    "📑 devhump`s TIL Index.md",
+    "todo.md",
     "KDT/Python/04. 데이터 구조 (Data Structure).md",
-    "KDT/markdown/markdown (마크다운) +.md",
-    "others/Obsidian setting.md",
-    "KDT/Data structure/assets/01. about Algorithm (Intro)-image-2.png",
-    "KDT/Data structure/assets/01. about Algorithm (Intro)-image-1.png",
-    "무제 파일.canvas",
-    "KDT/Data structure/04. 리스트 (List).md",
     "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md",
-    "테스트.md"
+    "KDT/Data structure/01. about Algorithm (Intro).md",
+    "KDT/Data structure/02. basic_IO.md",
+    "KDT/Data structure/04. 리스트 (List).md",
+    "KDT/Data structure/06. 힙(Heap), 셋(set).md",
+    "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md",
+    "Algorithm (theory)/02. Priority Que/자료구조.md",
+    "Algorithm (theory)/01. Stack & Que/스택과 큐.md"
   ]
 }

@@ -4,5 +4,9 @@
   "emoji-shortcodes",
   "obsidian-admonition",
   "dataview",
-  "obsidian-excel-to-markdown-table"
+  "obsidian-excel-to-markdown-table",
+  "recent-files-obsidian",
+  "file-explorer-note-count",
+  "obsidian-checklist-plugin",
+  "tag-wrangler"
 ]
