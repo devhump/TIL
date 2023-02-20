@@ -36,6 +36,19 @@
             }
           },
           {
+            "id": "668534f6e5123af5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제 파일.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "620e83e18a5cf484",
             "type": "leaf",
             "state": {
@@ -185,12 +198,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,17 +218,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "c67156d94935e3e0",
+  "active": "8214ba061cc1f2fd",
   "lastOpenFiles": [
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "무제 파일.md",
     "KDT/Python/04. 데이터 구조 (Data Structure).md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "📑 devhump`s TIL Index.md",
     "todo.md",
     "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md",
     "KDT/Data structure/01. about Algorithm (Intro).md",
     "KDT/Data structure/02. basic_IO.md",
     "KDT/Data structure/04. 리스트 (List).md",
-    "KDT/Data structure/06. 힙(Heap), 셋(set).md",
-    "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md"
+    "KDT/Data structure/06. 힙(Heap), 셋(set).md"
   ]
 }

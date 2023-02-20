@@ -1,38 +1,49 @@
 # BOJ_1744 수묶기 / 그리디
+# 양수와(positive) 음수(negative) 및 0, 그리고 1.
+# 세가지 경우로 나눠 생각한다.
 
 N = int(input())
 
-numbers = []
-for i in range(N):
-    numbers.append(int(input()))
-
-numbers.sort()
-
+positives = []
+negatives = []
 result = 0
-while N > 1:
-    temp1 = numbers.pop()
-    temp2 = numbers.pop()
+for i in range(N):
+    temp = int(input())
 
-    if temp1 == 1 or temp2 == 1:
-        result += temp1 + temp2
-    elif temp1 < 0 and temp2 < 0:
-        result += temp1 * temp2
-    elif temp1 == 0:
-        if temp2 >= 0:
-            result += temp1 + temp2
-        else:
-            result += temp1 * temp2
-    elif temp2 == 0:
-        if temp1 >= 0:
-            result += temp1 + temp2
-        else:
-            result += temp1 * temp2
+    if temp > 1:
+        positives.append(temp)
+    elif temp <= 0:
+        negatives.append(temp)
     else:
-        result += temp1 * temp2
+        result += temp  # temp가 1일 때
+        # 1은 무조건 더하는게 커지는 방법이다.
 
-    N -= 2
+positives.sort()
+negatives.sort(reverse=True)
 
-if N == 1:
-    result += numbers[0]
+pos_cnt = len(positives)
+neg_cnt = len(negatives)
+
+# 양수 처리
+while pos_cnt > 1:
+    temp1 = positives.pop()
+    temp2 = positives.pop()
+
+    result += temp1 * temp2
+    pos_cnt -= 2
+
+if pos_cnt == 1:
+    result += positives[0]
+
+# 음수 처리
+while neg_cnt > 1:
+    temp1 = negatives.pop()
+    temp2 = negatives.pop()
+
+    result += temp1 * temp2
+    neg_cnt -= 2
+
+if neg_cnt == 1:
+    result += negatives[0]
 
 print(result)
