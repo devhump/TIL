@@ -18,8 +18,8 @@ for i in range(total_cnt):
 
 print(meeting_list)
 
-meeting_list.sort(reverse=True)
+meeting_list.sort(reverse=False)
 
-#meeting_list.sort(key=lambda meeting: meeting_list[1])
+# meeting_list.sort(key=lambda meeting: meeting_list[1])
 
 print(meeting_list)
