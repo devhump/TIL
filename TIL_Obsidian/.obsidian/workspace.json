@@ -21,8 +21,35 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c67156d94935e3e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "620e83e18a5cf484",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,8 +103,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📑 devhump`s TIL Index.md",
+                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📑 devhump`s TIL Index.md"
+                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md"
               }
             }
           },
@@ -152,14 +178,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📑 devhump`s TIL Index.md",
+                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -180,17 +206,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "1e869f39f0dafb4a",
+  "active": "c67156d94935e3e0",
   "lastOpenFiles": [
-    "todo.md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "KDT/Python/04. 데이터 구조 (Data Structure).md",
+    "📑 devhump`s TIL Index.md",
+    "todo.md",
     "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md",
     "KDT/Data structure/01. about Algorithm (Intro).md",
     "KDT/Data structure/02. basic_IO.md",
     "KDT/Data structure/04. 리스트 (List).md",
     "KDT/Data structure/06. 힙(Heap), 셋(set).md",
-    "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md",
-    "Algorithm (theory)/02. Priority Que/자료구조.md",
-    "Algorithm (theory)/01. Stack & Que/스택과 큐.md"
+    "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md"
   ]
 }
