@@ -1,25 +1,27 @@
 # BOJ_1931 회의실 배정 / 그리디
 
 import sys
-import heapq
+from operator import itemgetter
 
 sys.stdin = open("BOJ_1931_input.txt", "r")
-# import sys
-
-input = sys.stdin.readline
-
-total_cnt = int(input())
-
-meeting_list = []
-for i in range(total_cnt):
-
-    meeting_list.append(tuple(map(int, input().split())))
 
 
-print(meeting_list)
+N = int(input())
 
-meeting_list.sort(reverse=False)
+time = []
+for i in range(N):
 
-# meeting_list.sort(key=lambda meeting: meeting_list[1])
+    time.append(tuple(map(int, input().split())))
 
-print(meeting_list)
+time.sort(key=itemgetter(1, 0))
+
+# pprint(time)
+
+cnt = 1
+end_time = time[0][1]
+for i in range(1, N):
+    if time[i][0] >= end_time:
+        cnt += 1
+        end_time = time[i][1]
+
+print(cnt)
