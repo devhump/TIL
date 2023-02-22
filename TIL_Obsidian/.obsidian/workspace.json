@@ -8,27 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1e869f39f0dafb4a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📑 devhump`s TIL Index.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "c67156d94935e3e0",
+            "id": "05a9ba22b63fb5fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
+                "file": "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,33 +21,19 @@
             }
           },
           {
-            "id": "668534f6e5123af5",
+            "id": "4e8d14b0615cf955",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "무제 파일.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "620e83e18a5cf484",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+                "file": "KDT/markdown/markdown (마크다운) +.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
+                "file": "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md"
+                "file": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
               }
             }
           },
@@ -190,18 +161,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Python/04. 데이터 구조 (Data Structure).md",
+                "file": "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 326.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,17 +189,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "8214ba061cc1f2fd",
+  "active": "05a9ba22b63fb5fa",
   "lastOpenFiles": [
-    "무제 파일.md",
+    "assets/Pasted image 20230222200018.png.md",
+    "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
+    "Algorithm (theory)/08. 유용한 표준 라이브러리 소개.md",
+    "KDT/markdown/markdown (마크다운) +.md",
     "KDT/Python/04. 데이터 구조 (Data Structure).md",
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
-    "📑 devhump`s TIL Index.md",
-    "todo.md",
-    "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md",
-    "KDT/Data structure/01. about Algorithm (Intro).md",
-    "KDT/Data structure/02. basic_IO.md",
-    "KDT/Data structure/04. 리스트 (List).md",
-    "KDT/Data structure/06. 힙(Heap), 셋(set).md"
+    "KDT/markdown/assets/ccobuk.jpg",
+    "others/Obsidian setting.md",
+    "📑 devhump's TIL Index.md",
+    "[.md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
   ]
 }
