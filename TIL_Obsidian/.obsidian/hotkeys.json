@@ -27,7 +27,8 @@
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Alt"
+        "Mod",
+        "Shift"
       ],
       "key": "\\"
     }
@@ -139,5 +140,32 @@
       ],
       "key": "."
     }
-  ]
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "5"
+    }
+  ],
+  "insert-current-date": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "6"
+    }
+  ],
+  "insert-current-time": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "7"
+    }
+  ],
+  "workspace:goto-tab-5": [],
+  "workspace:goto-tab-6": [],
+  "workspace:goto-tab-7": []
 }

@@ -1,28 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
+    },
+    {
+      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
+      "path": "22. 다이나믹 프로그래밍 - 문제풀이.md"
+    },
+    {
+      "basename": "21. 다이나믹 프로그래밍",
+      "path": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
+    },
+    {
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown/markdown (마크다운) +.md"
+    },
+    {
+      "basename": "문제 조건",
+      "path": "others/templates/문제 조건.md"
+    },
+    {
+      "basename": "문제 설명",
+      "path": "others/templates/문제 설명.md"
+    },
+    {
+      "basename": "08. 유용한 표준 라이브러리 소개",
+      "path": "Algorithm (theory)/08. 유용한 표준 라이브러리 소개.md"
+    },
+    {
       "basename": "04. 데이터 구조 (Data Structure)",
       "path": "KDT/Python/04. 데이터 구조 (Data Structure).md"
+    },
+    {
+      "basename": "Obsidian setting",
+      "path": "others/Obsidian setting.md"
+    },
+    {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
       "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
     },
     {
-      "basename": "무제 파일",
-      "path": "무제 파일.md"
+      "basename": "파이썬의 기본 데이터 구조",
+      "path": "KDT/Data structure/assets/파이썬의 기본 데이터 구조.png"
     },
     {
-      "basename": "📑 devhump`s TIL Index",
-      "path": "📑 devhump`s TIL Index.md"
+      "basename": "copy — 얕은 복사와 깊은 복사 연산",
+      "path": "Python/copy — 얕은 복사와 깊은 복사 연산.md"
     },
     {
-      "basename": "딕셔너리 (Dictionary)",
-      "path": "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md"
+      "basename": "Python 용어 정리",
+      "path": "Python/Python 용어 정리.md"
+    },
+    {
+      "basename": "01. about Algorithm (Intro)-image-1",
+      "path": "KDT/Data structure/assets/01. about Algorithm (Intro)-image-1.png"
     },
     {
       "basename": "01. about Algorithm (Intro)",
       "path": "KDT/Data structure/01. about Algorithm (Intro).md"
+    },
+    {
+      "basename": "iterable & iterator",
+      "path": "Python/iterable & iterator.md"
+    },
+    {
+      "basename": "02. 우선순위 큐(Priority Queue)",
+      "path": "Algorithm (theory)/02. Priority Que/02. 우선순위 큐(Priority Queue).md"
+    },
+    {
+      "basename": "01. 스택과 큐",
+      "path": "Algorithm (theory)/01. Stack & Que/01. 스택과 큐.md"
+    },
+    {
+      "basename": "08. 유용한 표준 라이브러리 소개-img1",
+      "path": "Algorithm (theory)/assets/08. 유용한 표준 라이브러리 소개-img1.png"
+    },
+    {
+      "basename": "딕셔너리 (Dictionary)",
+      "path": "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md"
     },
     {
       "basename": "02. basic_IO",
@@ -39,14 +99,6 @@
     {
       "basename": "23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법",
       "path": "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md"
-    },
-    {
-      "basename": "자료구조",
-      "path": "Algorithm (theory)/02. Priority Que/자료구조.md"
-    },
-    {
-      "basename": "스택과 큐",
-      "path": "Algorithm (theory)/01. Stack & Que/스택과 큐.md"
     }
   ],
   "omittedPaths": [],
