@@ -34,32 +34,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "668534f6e5123af5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제 파일.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "620e83e18a5cf484",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -218,11 +192,11 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "8214ba061cc1f2fd",
+  "active": "c67156d94935e3e0",
   "lastOpenFiles": [
-    "무제 파일.md",
-    "KDT/Python/04. 데이터 구조 (Data Structure).md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "KDT/Python/04. 데이터 구조 (Data Structure).md",
+    "무제 파일.md",
     "📑 devhump`s TIL Index.md",
     "todo.md",
     "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md",
