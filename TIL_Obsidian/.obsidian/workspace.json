@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "76137602c0cf5853",
+        "id": "43c6275022db4062",
         "type": "tabs",
         "children": [
           {
-            "id": "05a9ba22b63fb5fa",
+            "id": "f3448873c08dc91c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e8d14b0615cf955",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/markdown/markdown (마크다운) +.md",
+                "file": "더 공부해 볼 주제.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#shortcut",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
+                "file": "더 공부해 볼 주제.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
+                "file": "더 공부해 볼 주제.md"
               }
             }
           },
@@ -161,25 +148,24 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
+                "file": "더 공부해 볼 주제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 326.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:새 캔버스 만들기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
-      "canvas:Create new canvas": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
@@ -189,14 +175,27 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "05a9ba22b63fb5fa",
+  "active": "f3448873c08dc91c",
   "lastOpenFiles": [
-    "assets/Pasted image 20230222200018.png.md",
+    "22. 다이나믹 프로그래밍 - 문제풀이.md",
+    "더 공부해 볼 주제.md",
     "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
-    "Algorithm (theory)/08. 유용한 표준 라이브러리 소개.md",
     "KDT/markdown/markdown (마크다운) +.md",
+    "others/templates/문제 조건.md",
+    "others/templates/문제 설명.md",
+    "assets/22. Dynamic programming-problem solving-img- (2).png",
+    "assets/22. Dynamic programming-problem solving-img- (1).png",
+    "assets/Pasted image 20230223162502.png",
+    "assets/Pasted image 20230223140501.png",
+    "assets/Pasted image 20230223002531.png",
+    "assets/Pasted image 20230223002508.png",
+    "assets/Pasted image 20230223002433.png",
+    "assets/Pasted image 20230223002408.png",
+    "assets/Pasted image 20230223002326.png",
+    "assets/Pasted image 20230223002315.png",
+    "assets/Pasted image 20230222200018.png.md",
+    "Algorithm (theory)/08. 유용한 표준 라이브러리 소개.md",
     "KDT/Python/04. 데이터 구조 (Data Structure).md",
-    "KDT/markdown/assets/ccobuk.jpg",
     "others/Obsidian setting.md",
     "📑 devhump's TIL Index.md",
     "[.md",
