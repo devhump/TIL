@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "22. 다이나믹 프로그래밍 - 문제풀이.md",
+                "file": "Python/Python 용어 정리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -140,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "22. 다이나믹 프로그래밍 - 문제풀이.md",
+                "file": "Python/Python 용어 정리.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "22. 다이나믹 프로그래밍 - 문제풀이.md"
+                "file": "Python/Python 용어 정리.md"
               }
             }
           },
@@ -178,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "22. 다이나믹 프로그래밍 - 문제풀이.md",
+                "file": "Python/Python 용어 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 326.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,16 +207,20 @@
   },
   "active": "fc08b0580b55a721",
   "lastOpenFiles": [
+    "Python/iterable & iterator.md",
+    "Python/copy — 얕은 복사와 깊은 복사 연산.md",
+    "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
+    "더 공부해 볼 주제.md",
+    "Python/Python 용어 정리.md",
+    "22. 다이나믹 프로그래밍 - 문제풀이.md",
+    "무제 파일.md",
     "assets/Pasted image 20230223200019.png",
     "assets/Pasted image 20230223195751.png",
     "assets/Pasted image 20230223193441.png",
     "assets/Pasted image 20230223193327.png",
     "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
-    "22. 다이나믹 프로그래밍 - 문제풀이.md",
     "📑 devhump's TIL Index.md",
-    "무제 파일.md",
     "others/templates/문제 설명.md",
-    "더 공부해 볼 주제.md",
     "KDT/Python/04. 데이터 구조 (Data Structure).md",
     "KDT/markdown/markdown (마크다운) +.md",
     "others/templates/문제 조건.md",
@@ -226,7 +230,6 @@
     "assets/Pasted image 20230223140501.png",
     "assets/Pasted image 20230223002531.png",
     "assets/Pasted image 20230223002508.png",
-    "assets/Pasted image 20230223002433.png",
     "assets/Pasted image 20230222200018.png.md",
     "Algorithm (theory)/08. 유용한 표준 라이브러리 소개.md",
     "others/Obsidian setting.md",

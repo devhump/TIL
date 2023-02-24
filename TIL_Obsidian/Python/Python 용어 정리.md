@@ -6,12 +6,12 @@
 - [iterator (이터레이터)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-iterator)
 	- 데이터의 스트림을 표현하는 객체. 이터레이터의 [`__next__()`](https://docs.python.org/ko/3/library/stdtypes.html#iterator.__next__ "iterator.__next__") 메서드를 반복적으로 호출하면 (또는 내장 함수 [`next()`](https://docs.python.org/ko/3/library/functions.html#next "next") 로 전달하면) 스트림에 있는 항목들을 차례대로 돌려줍니다. 더 이상의 데이터가 없을 때는 대신 [`StopIteration`](https://docs.python.org/ko/3/library/exceptions.html#StopIteration "StopIteration") 예외를 일으킵니다. 이 지점에서, 이터레이터 객체는 소진되고, 이후의 모든 `__next__()` 메서드 호출은 [`StopIteration`](https://docs.python.org/ko/3/library/exceptions.html#StopIteration "StopIteration") 예외를 다시 일으키기만 합니다. 이터레이터는 이터레이터 객체 자신을 돌려주는 `__iter__()` 메서드를 가질 것이 요구되기 때문에, 이터레이터는 이터러블이기도 하고 다른 이터러블들을 받아들이는 대부분의 곳에서 사용될 수 있습니다. 중요한 예외는 여러 번의 이터레이션을 시도하는 코드입니다. ([`list`](https://docs.python.org/ko/3/library/stdtypes.html#list "list") 같은) 컨테이너 객체는 [`iter()`](https://docs.python.org/ko/3/library/functions.html#iter "iter") 함수로 전달하거나 [`for`](https://docs.python.org/ko/3/reference/compound_stmts.html#for) 루프에 사용할 때마다 새 이터레이터를 만듭니다. 이런 것을 이터레이터에 대해서 수행하려고 하면, 지난 이터레이션에 사용된 이미 소진된 이터레이터를 돌려줘서, 빈 컨테이너처럼 보이게 만듭니다. [이터레이터 형](https://docs.python.org/ko/3/library/stdtypes.html#typeiter) 에 더 자세한 내용이 있습니다.
 
-- [mutale(가변)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-mutable)
+- [mutale(가변)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-mutable) ^ccf590
 	- 가변 객체는 값이 변할 수 있지만 id()는 일정하게 유지합니다.
 		- 참고([레벨업 파이썬 - 03) Immutable과 Mutable](https://wikidocs.net/91520))
 		- ![파이썬의 기본 데이터 구조](KDT/Data%20structure/assets/파이썬의%20기본%20데이터%20구조.png)
 		
-- ↔ [immutable (불변)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-immutable)
+- ↔ [immutable (불변)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-immutable) ^a1f954
 	- 고정된 값을 갖는 객체. 불변 객체는 숫자, 문자열, 튜플을 포함합니다. 이런 객체들은 변경될 수 없습니다. 새 값을 저장하려면 새 객체를 만들어야 합니다. 변하지 않는 해시값이 있어야 하는 곳에서 중요한 역할을 합니다. 예를 들어, 딕셔너리의 키.
 
 - [id(*object*)](https://docs.python.org/ko/3/library/functions.html#id)
