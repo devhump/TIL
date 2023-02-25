@@ -6,7 +6,7 @@
 	- 참고
 		- [레벨업 파이썬 - 03) Immutable과 Mutable](https://wikidocs.net/91520)
 		- [얕은 복사-깊은 복사 관련 잘 정리된 블로그글1](https://velog.io/@kkamyang/Python-얕은-복사-깊은-복사-shallow-copy-deep-copy)
-		- [ ] [얕은 복사-깊은 복사 관련 잘 정리된 블로그글2](https://jinmay.github.io/2019/11/21/python/python-copy-deepcopy/) #todo 
+		- [얕은 복사-깊은 복사 관련 잘 정리된 블로그글2](https://jinmay.github.io/2019/11/21/python/python-copy-deepcopy/)
 
 ---
 ### 1 - 1. mutable한 객체

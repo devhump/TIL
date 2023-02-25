@@ -20,7 +20,7 @@
 - [sequence (시퀀스)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-sequence)
 	- `__getitem__()` 특수 메서드를 통해 정수 인덱스를 사용한 빠른 요소 액세스를 지원하고, 시퀀스의 길이를 돌려주는 `__len()__` 메서드를 정의하는 이터러블. 몇몇 내장 시퀀스들을 나열해보면, list, str, tuple, bytes 가 있습니다. dict 또한 `__getitem__()`과 `__len__()`를 지원하지만, 조회에 정수 대신 임의의 불변 키를 사용하기 때문에 시퀀스가 아니라 매핑으로 취급된다는 것에 주의해야 합니다. (기본 시퀀스형: list, tuple, range)
 
-- [lambda (람다)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-lambda)
+- [lambda (람다)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-lambda) ^a3ae25
 	- 호출될 때 값이 구해지는 하나의 [표현식](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-expression) 으로 구성된 이름 없는 인라인 함수. 람다 함수를 만드는 문법은 `lambda [parameters]: expression` 입니다.
 
 - [expression (표현식)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-expression)
