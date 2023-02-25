@@ -1,17 +1,20 @@
 # BOJ_1463 1로 만들기 / DP
 
+# 정수 x를 입력 받기
+x = int(input())
 
-num = int(input())
+# 앞서 계산된 결과를 저장하기 위한 DP 테이블 초기화
+d = [0] * ((10**6) + 1)
 
-temp = 1
-temp_num = 1
+# DP 진행 (bottom-up)
+for i in range(2, x + 1):
+    # 현재의 수에서 1을 빼는 경우
+    d[i] = d[i - 1] + 1
+    # 현재의 수가 2로 나누어 떨어지는 경우
+    if i % 2 == 0:
+        d[i] = min(d[i], d[i // 2] + 1)
+    # 현재의 수가 3으로 나누어 떨어지는 경우
+    if i % 3 == 0:
+        d[i] = min(d[i], d[i // 3] + 1)
 
-if num == 3:
-    print("1")
-elif num == 2:
-    print("1")
-elif num == 1:
-    print("0")
-else:
-    while num <= temp_num:
-        temp_num = temp_num**temp
+print(d[x])
