@@ -1,8 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "21. 다이나믹 프로그래밍",
+      "path": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
+    },
+    {
+      "basename": "Obsidian setting",
+      "path": "others/obsidian/Obsidian setting.md"
+    },
+    {
+      "basename": "얕은 복사(shallow copy)와 깊은 복사(deep copy)",
+      "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "others/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "람다함수(Lambda Func, 익명함수)",
+      "path": "Python/람다함수(Lambda Func, 익명함수).md"
+    },
+    {
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
+    },
+    {
+      "basename": "vscode_shortcuts_(mac)",
+      "path": "others/vscode_shortcuts_(mac).pdf"
+    },
+    {
+      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
+      "path": "22. 다이나믹 프로그래밍 - 문제풀이.md"
+    },
+    {
+      "basename": "Pasted image 20230223200019",
+      "path": "assets/Pasted image 20230223200019.png"
+    },
+    {
+      "basename": "Pasted image 20230223195751",
+      "path": "assets/Pasted image 20230223195751.png"
+    },
+    {
+      "basename": "Pasted image 20230223193441",
+      "path": "assets/Pasted image 20230223193441.png"
+    },
+    {
+      "basename": "Pasted image 20230223193327",
+      "path": "assets/Pasted image 20230223193327.png"
+    },
+    {
+      "basename": "22. Dynamic programming-problem solving-img- (2)",
+      "path": "assets/22. Dynamic programming-problem solving-img- (2).png"
+    },
+    {
+      "basename": "22. Dynamic programming-problem solving-img- (1)",
+      "path": "assets/22. Dynamic programming-problem solving-img- (1).png"
+    },
+    {
       "basename": "Python 용어 정리",
       "path": "Python/Python 용어 정리.md"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "others/obsidian/markdown for Obsidian.md"
+    },
+    {
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown/markdown (마크다운) +.md"
+    },
+    {
+      "basename": "04. 데이터 구조 (Data Structure)",
+      "path": "KDT/Python/04. 데이터 구조 (Data Structure).md"
+    },
+    {
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
+    },
+    {
+      "basename": "23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법",
+      "path": "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md"
     },
     {
       "basename": "iterable & iterator",
@@ -13,36 +93,8 @@
       "path": "Python/copy — 얕은 복사와 깊은 복사 연산.md"
     },
     {
-      "basename": "얕은 복사(shallow copy)와 깊은 복사(deep copy)",
-      "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
-      "path": "22. 다이나믹 프로그래밍 - 문제풀이.md"
-    },
-    {
-      "basename": "21. 다이나믹 프로그래밍",
-      "path": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
-    },
-    {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
-    },
-    {
       "basename": "문제 설명",
       "path": "others/templates/문제 설명.md"
-    },
-    {
-      "basename": "04. 데이터 구조 (Data Structure)",
-      "path": "KDT/Python/04. 데이터 구조 (Data Structure).md"
-    },
-    {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown/markdown (마크다운) +.md"
     },
     {
       "basename": "문제 조건",
@@ -51,14 +103,6 @@
     {
       "basename": "08. 유용한 표준 라이브러리 소개",
       "path": "Algorithm (theory)/08. 유용한 표준 라이브러리 소개.md"
-    },
-    {
-      "basename": "Obsidian setting",
-      "path": "others/Obsidian setting.md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
     },
     {
       "basename": "파이썬의 기본 데이터 구조",
@@ -99,10 +143,6 @@
     {
       "basename": "06. 힙(Heap), 셋(set)",
       "path": "KDT/Data structure/06. 힙(Heap), 셋(set).md"
-    },
-    {
-      "basename": "23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법",
-      "path": "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md"
     }
   ],
   "omittedPaths": [],

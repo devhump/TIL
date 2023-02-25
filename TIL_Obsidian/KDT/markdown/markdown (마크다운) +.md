@@ -1,4 +1,5 @@
-👉 [markdown for Obsidian](obsidian://open?vault=ramy_ob&file=markdown%20for%20Obsidian)
+👉 [[markdown for Obsidian]]
+👉 [[LaTeX]]
 
 > [!note] 목차
 > [intro](#intro)
@@ -375,13 +376,23 @@ quoute 1
   
 - 밑줄 <U>밑줄</U>
 ```
-
 <U>밑줄 표시할 내용</U>
 ```
 ---
 
 - 굵게 기울임 `***문자***` 	ex) ***안녕***
 
+- 그 외 여러 강조 표시 
+```
+<kbd>1. hello</kbd>
+<a>2. hello</a>
+<code>3. hello</code>
+<mark>4. hello</mark>
+```
+<kbd>1. hello</kbd>
+<a>2. hello</a>
+<code>3. hello</code>
+<mark>4. hello</mark>
 
 
 ---

@@ -15,24 +15,11 @@
               "type": "markdown",
               "state": {
                 "file": "📑 devhump's TIL Index.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "fc08b0580b55a721",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Python 용어 정리.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
             }
           },
           {
@@ -48,8 +35,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -139,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python 용어 정리.md",
+                "file": "📑 devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +133,18 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "7ecb9cce1e8a6e93",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "📑 devhump's TIL Index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -167,29 +165,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python 용어 정리.md"
-              }
-            }
-          },
-          {
-            "id": "7ecb9cce1e8a6e93",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Python/Python 용어 정리.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "📑 devhump's TIL Index.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 326.5,
-    "collapsed": true
+    "width": 307.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,35 +190,44 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "fc08b0580b55a721",
+  "active": "f3448873c08dc91c",
   "lastOpenFiles": [
-    "Python/iterable & iterator.md",
-    "Python/copy — 얕은 복사와 깊은 복사 연산.md",
+    "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
+    "📑 devhump's TIL Index.md",
+    "others/obsidian/Obsidian setting.md",
     "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
+    "others/obsidian/LaTeX.md",
+    "Python/람다함수(Lambda Func, 익명함수).md",
     "더 공부해 볼 주제.md",
-    "Python/Python 용어 정리.md",
+    "others/vscode_shortcuts_(mac).pdf",
     "22. 다이나믹 프로그래밍 - 문제풀이.md",
-    "무제 파일.md",
     "assets/Pasted image 20230223200019.png",
     "assets/Pasted image 20230223195751.png",
     "assets/Pasted image 20230223193441.png",
     "assets/Pasted image 20230223193327.png",
-    "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
-    "📑 devhump's TIL Index.md",
-    "others/templates/문제 설명.md",
-    "KDT/Python/04. 데이터 구조 (Data Structure).md",
-    "KDT/markdown/markdown (마크다운) +.md",
-    "others/templates/문제 조건.md",
     "assets/22. Dynamic programming-problem solving-img- (2).png",
     "assets/22. Dynamic programming-problem solving-img- (1).png",
+    "Python/Python 용어 정리.md",
+    "Python/assets/Pasted image 20230225183348.png",
+    "Python/assets",
+    "others/obsidian/markdown for Obsidian.md",
+    "KDT/markdown/markdown (마크다운) +.md",
+    "KDT/Python/04. 데이터 구조 (Data Structure).md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "Algorithm (theory)/23. Greedy/23. 그리디 - 현재 상황에서 가장 좋아 보이는 것만 고르는 방법.md",
+    "others/obsidian/Diagram.md",
+    "others/obsidian/Callout.md",
+    "others/obsidian",
+    "others/새 폴더",
+    "Python/iterable & iterator.md",
+    "Python/copy — 얕은 복사와 깊은 복사 연산.md",
+    "others/templates/문제 설명.md",
+    "others/templates/문제 조건.md",
     "assets/Pasted image 20230223162502.png",
     "assets/Pasted image 20230223140501.png",
     "assets/Pasted image 20230223002531.png",
-    "assets/Pasted image 20230223002508.png",
     "assets/Pasted image 20230222200018.png.md",
     "Algorithm (theory)/08. 유용한 표준 라이브러리 소개.md",
-    "others/Obsidian setting.md",
-    "[.md",
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
+    "[.md"
   ]
 }
