@@ -1,10 +1,24 @@
+### CLI
 - Command-Line Interface
+- 명령어 인터페이스라고도 하며, 가상 터미널 또는 텍스트 터미널을 통해 사용자와 컴퓨터가 상호 작용하는 방식을 뜻한다. 
 	- ex) git-bash, dos, cmd, terminal
 		- ↔ GUi (Graphic User Interface)
+- 작업 명령은 사용자가 툴바 키보드 등을 통해 문자열의 형태로 입력하며, 컴퓨터로부터의 출력 역시 문자열의 형태로 주어진다. 
+- 이같은 인터페이스를 제공하는 프로그램을 명형 줄 해석기 또는 셸이라고 부른다.
+	- 유닉스 셸(sh, ksh, csh, tcsh, bash 등)과 CP/, 도스의 command.com("명령 프롬프트") 등이 있다.
 
--   git bash 에서 붙여넣기: `shift + insert`
-	- (`ctrl + v` 아님!)
-
+#### 명령어 기본 구조
+- 특정 프로그램을 어떠한 인자와 함께 호출하도록 명령
+```bash
+	$ git push
+	$ python test.py
+	
+	$ echo 'hello world'
+	hello world
+	
+	$ which echo
+	/usr/bin/echo
+```
 
 ---
 
@@ -23,7 +37,6 @@
 ---
 
 ### 파일관련
-
 -   `touch <file_name>` : 파일 생성
 -   `rm` (remove) : 삭제
 	-   `rm file_name`
@@ -33,7 +46,8 @@
 ---
 
 ### 기타
-
+-   ==git bash 에서 복사/붙여넣기: `shift + insert`==
+	- (`ctrl + c`, `ctrl + v` 아님!)
 -   명령어 자동 완성 : `tap` 활용
 -   터미널 창 클리어
 	- `cls` : windows_cmd 환경

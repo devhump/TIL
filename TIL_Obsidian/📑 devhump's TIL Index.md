@@ -2,10 +2,10 @@
 ### KDT
 - [[markdown (마크다운) +]]
 
-##### 파이썬
+#### 파이썬
 - [[04. 데이터 구조 (Data Structure)]]
 
-##### 자료구조
+#### 자료구조
 - [[01. about Algorithm (Intro)]]
 - [[02. basic_IO]]
 - [[04. 리스트 (List)]]

@@ -49,7 +49,7 @@
   - [**Markdown**](http://whatismarkdown.com/)은 텍스트 기반의 마크업언어. 
   - 간결하고, 용량이 적어 보관이 용이함. 
   - 주의📌띄어쓰기 잘 하기!
-  - [Typora](https://typora.io/) : 마크다운 에디터(편집기)
+  - [Typora](https://typora.io/) : 마크다운 전용 에디터(편집기)
 
 
 ---
@@ -216,8 +216,7 @@ HTML에서는
 
 #### 방법1.
 
-- ![](assets/ccobuk.jpg)
-
+![](assets/ccobuk.jpg)
 ```
 ![문자열](이미지 URL)
 ```

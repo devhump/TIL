@@ -1,20 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
-      "path": "22. 다이나믹 프로그래밍 - 문제풀이.md"
+      "basename": "Git",
+      "path": "KDT/markdown/Git.md"
     },
     {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
     {
-      "basename": "답안 예시",
-      "path": "others/templates/답안 예시.md"
+      "basename": "ccobuk",
+      "path": "KDT/markdown/assets/ccobuk.jpg"
+    },
+    {
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown/markdown (마크다운) +.md"
+    },
+    {
+      "basename": "22. Dynamic programming-problem solving-img- (1)",
+      "path": "assets/22. Dynamic programming-problem solving-img- (1).png"
+    },
+    {
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
+    },
+    {
+      "basename": "CLI",
+      "path": "others/CLI.md"
+    },
+    {
+      "basename": "Templates List",
+      "path": "others/Templates List.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "others/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "06. 힙(Heap), 셋(set)",
+      "path": "KDT/Data structure/06. 힙(Heap), 셋(set).md"
+    },
+    {
+      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
+      "path": "22. 다이나믹 프로그래밍 - 문제풀이.md"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "others/obsidian/markdown for Obsidian.md"
+    },
+    {
+      "basename": "문제 설명",
+      "path": "others/templates/문제 설명.md"
+    },
+    {
+      "basename": "문제 조건",
+      "path": "others/templates/문제 조건.md"
     },
     {
       "basename": "문제 해결 아이디어",
       "path": "others/templates/문제 해결 아이디어.md"
+    },
+    {
+      "basename": "답안 예시",
+      "path": "others/templates/답안 예시.md"
+    },
+    {
+      "basename": "01. 스택과 큐",
+      "path": "Algorithm (theory)/01. Stack & Que/01. 스택과 큐.md"
+    },
+    {
+      "basename": "23. 그리디(Greedy)",
+      "path": "Algorithm (theory)/23. Greedy/23. 그리디(Greedy).md"
     },
     {
       "basename": "21. 다이나믹 프로그래밍",
@@ -33,18 +89,6 @@
       "path": "others/Hot-key (for Mac).md"
     },
     {
-      "basename": "LaTeX",
-      "path": "others/obsidian/LaTeX.md"
-    },
-    {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown/markdown (마크다운) +.md"
-    },
-    {
-      "basename": "23. 그리디(Greedy)",
-      "path": "Algorithm (theory)/23. Greedy/23. 그리디(Greedy).md"
-    },
-    {
       "basename": "04. 리스트 (List)",
       "path": "KDT/Data structure/04. 리스트 (List).md"
     },
@@ -57,24 +101,12 @@
       "path": "Algorithm (theory)/02. Priority Que/02. 우선순위 큐(Priority Queue).md"
     },
     {
-      "basename": "01. 스택과 큐",
-      "path": "Algorithm (theory)/01. Stack & Que/01. 스택과 큐.md"
-    },
-    {
-      "basename": "markdown for Obsidian",
-      "path": "others/obsidian/markdown for Obsidian.md"
-    },
-    {
       "basename": "Obsidian setting",
       "path": "others/obsidian/Obsidian setting.md"
     },
     {
       "basename": "얕은 복사(shallow copy)와 깊은 복사(deep copy)",
       "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
     },
     {
       "basename": "vscode_shortcuts_(mac)",
@@ -101,10 +133,6 @@
       "path": "assets/22. Dynamic programming-problem solving-img- (2).png"
     },
     {
-      "basename": "22. Dynamic programming-problem solving-img- (1)",
-      "path": "assets/22. Dynamic programming-problem solving-img- (1).png"
-    },
-    {
       "basename": "Python 용어 정리",
       "path": "Python/Python 용어 정리.md"
     },
@@ -123,14 +151,6 @@
     {
       "basename": "copy — 얕은 복사와 깊은 복사 연산",
       "path": "Python/copy — 얕은 복사와 깊은 복사 연산.md"
-    },
-    {
-      "basename": "문제 설명",
-      "path": "others/templates/문제 설명.md"
-    },
-    {
-      "basename": "문제 조건",
-      "path": "others/templates/문제 조건.md"
     },
     {
       "basename": "파이썬의 기본 데이터 구조",
@@ -155,10 +175,6 @@
     {
       "basename": "02. basic_IO",
       "path": "KDT/Data structure/02. basic_IO.md"
-    },
-    {
-      "basename": "06. 힙(Heap), 셋(set)",
-      "path": "KDT/Data structure/06. 힙(Heap), 셋(set).md"
     }
   ],
   "omittedPaths": [
