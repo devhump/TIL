@@ -1,6 +1,8 @@
 
 ### KDT
+#### Mardown & Git
 - [[markdown (마크다운) +]]
+- [[Git]]
 
 #### 파이썬
 - [[04. 데이터 구조 (Data Structure)]]

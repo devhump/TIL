@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Git",
-      "path": "KDT/markdown/Git.md"
+      "basename": "04. 리스트 (List)",
+      "path": "KDT/Data structure/04. 리스트 (List).md"
+    },
+    {
+      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
+      "path": "22. 다이나믹 프로그래밍 - 문제풀이.md"
+    },
+    {
+      "basename": "21. 다이나믹 프로그래밍",
+      "path": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
+    },
+    {
+      "basename": "18. 유용한 표준 라이브러리 소개",
+      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
+    },
+    {
+      "basename": "17. 재귀함수(Recursive Function)",
+      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
+    },
+    {
+      "basename": "01. 스택과 큐",
+      "path": "Algorithm (theory)/01. Stack & Que/01. 스택과 큐.md"
+    },
+    {
+      "basename": "람다함수(Lambda Func, 익명함수)",
+      "path": "Python/람다함수(Lambda Func, 익명함수).md"
+    },
+    {
+      "basename": "500 mile",
+      "path": "others/500 mile.md"
     },
     {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
     {
-      "basename": "ccobuk",
-      "path": "KDT/markdown/assets/ccobuk.jpg"
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
     },
     {
       "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown/markdown (마크다운) +.md"
+      "path": "KDT/markdown & git/markdown (마크다운) +.md"
+    },
+    {
+      "basename": "Python 유용한 문법 정리",
+      "path": "Python/Python 유용한 문법 정리.md"
+    },
+    {
+      "basename": "ccobuk",
+      "path": "KDT/markdown & git/assets/ccobuk.jpg"
     },
     {
       "basename": "22. Dynamic programming-problem solving-img- (1)",
@@ -41,10 +77,6 @@
       "path": "KDT/Data structure/06. 힙(Heap), 셋(set).md"
     },
     {
-      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
-      "path": "22. 다이나믹 프로그래밍 - 문제풀이.md"
-    },
-    {
       "basename": "markdown for Obsidian",
       "path": "others/obsidian/markdown for Obsidian.md"
     },
@@ -65,36 +97,12 @@
       "path": "others/templates/답안 예시.md"
     },
     {
-      "basename": "01. 스택과 큐",
-      "path": "Algorithm (theory)/01. Stack & Que/01. 스택과 큐.md"
-    },
-    {
       "basename": "23. 그리디(Greedy)",
       "path": "Algorithm (theory)/23. Greedy/23. 그리디(Greedy).md"
     },
     {
-      "basename": "21. 다이나믹 프로그래밍",
-      "path": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
-    },
-    {
-      "basename": "람다함수(Lambda Func, 익명함수)",
-      "path": "Python/람다함수(Lambda Func, 익명함수).md"
-    },
-    {
-      "basename": "17. 재귀함수(Recursive Function)",
-      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
-    },
-    {
       "basename": "Hot-key (for Mac)",
       "path": "others/Hot-key (for Mac).md"
-    },
-    {
-      "basename": "04. 리스트 (List)",
-      "path": "KDT/Data structure/04. 리스트 (List).md"
-    },
-    {
-      "basename": "18. 유용한 표준 라이브러리 소개",
-      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
     },
     {
       "basename": "02. 우선순위 큐(Priority Queue)",
