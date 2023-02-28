@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
+      "path": "22. 다이나믹 프로그래밍 - 문제풀이.md"
+    },
+    {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "06. 힙(Heap), 셋(set)",
+      "path": "KDT/Data structure/06. 힙(Heap), 셋(set).md"
+    },
+    {
+      "basename": "23. 그리디(Greedy)",
+      "path": "Algorithm (theory)/23. Greedy/23. 그리디(Greedy).md"
+    },
+    {
       "basename": "04. 리스트 (List)",
       "path": "KDT/Data structure/04. 리스트 (List).md"
     },
     {
-      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
-      "path": "22. 다이나믹 프로그래밍 - 문제풀이.md"
+      "basename": "딕셔너리 (Dictionary)",
+      "path": "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md"
+    },
+    {
+      "basename": "Hot-key (for Mac)",
+      "path": "others/Hot-key (for Mac).md"
+    },
+    {
+      "basename": "Python error",
+      "path": "Python/Python error.md"
+    },
+    {
+      "basename": "Hot-key (windows)",
+      "path": "others/Hot-key (windows).md"
     },
     {
       "basename": "21. 다이나믹 프로그래밍",
@@ -31,10 +59,6 @@
     {
       "basename": "500 mile",
       "path": "others/500 mile.md"
-    },
-    {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "Git",
@@ -73,10 +97,6 @@
       "path": "others/obsidian/LaTeX.md"
     },
     {
-      "basename": "06. 힙(Heap), 셋(set)",
-      "path": "KDT/Data structure/06. 힙(Heap), 셋(set).md"
-    },
-    {
       "basename": "markdown for Obsidian",
       "path": "others/obsidian/markdown for Obsidian.md"
     },
@@ -95,14 +115,6 @@
     {
       "basename": "답안 예시",
       "path": "others/templates/답안 예시.md"
-    },
-    {
-      "basename": "23. 그리디(Greedy)",
-      "path": "Algorithm (theory)/23. Greedy/23. 그리디(Greedy).md"
-    },
-    {
-      "basename": "Hot-key (for Mac)",
-      "path": "others/Hot-key (for Mac).md"
     },
     {
       "basename": "02. 우선순위 큐(Priority Queue)",
@@ -175,10 +187,6 @@
     {
       "basename": "08. 유용한 표준 라이브러리 소개-img1",
       "path": "Algorithm (theory)/assets/08. 유용한 표준 라이브러리 소개-img1.png"
-    },
-    {
-      "basename": "딕셔너리 (Dictionary)",
-      "path": "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md"
     },
     {
       "basename": "02. basic_IO",

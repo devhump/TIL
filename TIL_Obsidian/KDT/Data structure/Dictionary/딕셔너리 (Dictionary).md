@@ -337,6 +337,35 @@ address Seoul
 
 
 - 딕셔너리 활용 연습 (JUNGOL)
-	- [ ] [# 945 : 기타 자료형 - 자가진단 5](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4372&sca=pyd0) #todo 
-	- [ ] [# 946 : 기타 자료형 - 자가진단 6](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4373&sca=pyd0) #todo 
+	- [x] [# 945 : 기타 자료형 - 자가진단 5](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4372&sca=pyd0)
+	- [x] [# 946 : 기타 자료형 - 자가진단 6](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4373&sca=pyd0)
 	- [ ] [# 953 : 기타 자료형 - 형성평가 6](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=4380&sca=pyd0) #todo 
+
+```python
+# Q.945
+
+comic_dict = {
+	'Pokemon':'Pikachu', 
+	'Digimon':'Agumon', 
+	'Yuhioh':"Black Magician"}
+
+while True:
+	temp = input()
+	if temp == 'quit':
+		break
+	print(comic_dict.get(temp, "I don't know"))
+
+################################################
+# Q. 946
+
+N = int(input())
+
+nations_dict = {}
+for i in range(N):
+	k, v = input().split()
+	nations_dict[k] = v
+
+country = input()
+print(nations_dict.get(country, "Unknown country"))
+
+```
