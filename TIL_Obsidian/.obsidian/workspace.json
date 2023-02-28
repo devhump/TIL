@@ -23,20 +23,19 @@
             }
           },
           {
-            "id": "66b3c9d09841253d",
+            "id": "b73a034c2d90b56b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "22. 다이나믹 프로그래밍 - 문제풀이.md",
+                "file": "KDT/markdown & git/Git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50312423706055,
-    "collapsed": true
+    "width": 240.50312423706055
   },
   "right": {
     "id": "72535583ef42991f",
@@ -127,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "22. 다이나믹 프로그래밍 - 문제풀이.md",
+                "file": "📑 devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "22. 다이나믹 프로그래밍 - 문제풀이.md",
+                "file": "📑 devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,12 +165,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "22. 다이나믹 프로그래밍 - 문제풀이.md"
+                "file": "📑 devhump's TIL Index.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,9 +189,23 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "66b3c9d09841253d",
+  "active": "f3448873c08dc91c",
   "lastOpenFiles": [
+    "assets/Pasted image 20230223193327.png",
     "📑 devhump's TIL Index.md",
+    "22. 다이나믹 프로그래밍 - 문제풀이.md",
+    "KDT/markdown & git/Git.md",
+    "assets/Pasted image 20230228182428.png",
+    "assets/Pasted image 20230228181208.png",
+    "assets/Pasted image 20230228181333.png",
+    "assets/Pasted image 20230228181317.png",
+    "assets/Pasted image 20230228181033.png",
+    "assets/Pasted image 20230228180831.png",
+    "assets/Pasted image 20230228180809.png",
+    "assets/Pasted image 20230228180728.png",
+    "assets/Pasted image 20230228170306.png",
+    "Python/Python 용어 정리.md",
+    "Python/Python 유용한 문법 정리.md",
     "KDT/Data structure/06. 힙(Heap), 셋(set).md",
     "Algorithm (theory)/23. Greedy/23. 그리디(Greedy).md",
     "KDT/Data structure/04. 리스트 (List).md",
@@ -201,26 +213,13 @@
     "others/Hot-key (for Mac).md",
     "Python/Python error.md",
     "others/Hot-key (windows).md",
-    "22. 다이나믹 프로그래밍 - 문제풀이.md",
     "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
     "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
     "Algorithm (theory)/01. Stack & Que/01. 스택과 큐.md",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "others/500 mile.md",
-    "KDT/markdown & git/Git.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
-    "Python/Python 유용한 문법 정리.md",
-    "Python/assets/Pasted image 20230227214624.png",
-    "KDT/markdown & git/assets/Git_cheat_sheet.png",
-    "KDT/markdown/assets/git-img- (5).png",
-    "KDT/markdown & git/assets/git-img- (4).png",
-    "KDT/markdown & git/assets/git-img- (3).png",
-    "KDT/markdown & git/assets/git-img- (2).png",
-    "KDT/markdown & git/assets/git-img- (1).png",
-    "KDT/markdown/assets/5.png",
-    "KDT/markdown/assets/4.png",
-    "KDT/markdown/assets/3.png",
     "KDT/markdown & git/assets",
     "assets/ccobuk.jpg.md",
     "더 공부해 볼 주제.md",
@@ -228,8 +227,6 @@
     "others/Templates List.md",
     "others/obsidian/LaTeX.md",
     "others/obsidian/markdown for Obsidian.md",
-    "others/templates/문제 설명.md",
-    "others/templates/문제 조건.md",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "others/obsidian/assets",

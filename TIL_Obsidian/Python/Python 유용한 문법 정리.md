@@ -23,11 +23,12 @@
 - 비교 연산 8가지( 우선 순위 같음)
 ![](assets/Pasted%20image%2020230227214624.png)
 
-#### 숫자 형 — [`int`](https://docs.python.org/ko/3/library/functions.html#int), [`float`](https://docs.python.org/ko/3/library/functions.html#float), [`complex`](https://docs.python.org/ko/3/library/functions.html#complex)[¶](https://docs.python.org/ko/3/library/stdtypes.html#numeric-types-int-float-complex)
+#### 숫자 형 —  int, float, complex
+- [파이썬 자습서 - 숫자형](https://docs.python.org/ko/3/library/stdtypes.html#numeric-types-int-float-complex)
 - 세가지 숫자형
-	- 정수 (integers)
-	- 실수 (floating point numbers)
-	- 복소수 (complex numbers)
+	- 정수 (integers) [`int`](https://docs.python.org/ko/3/library/functions.html#int), 
+	- 실수 (floating point numbers)[`float`](https://docs.python.org/ko/3/library/functions.html#float), 
+	- 복소수 (complex numbers)[`complex`](https://docs.python.org/ko/3/library/functions.html#complex)
    
 #####   연산자의 종류
 | 연산              | 결과                                          |

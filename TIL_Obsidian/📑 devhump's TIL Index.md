@@ -24,16 +24,20 @@
 
 ### Python
 - [[Python 용어 정리]]
+- [[Python 유용한 문법 정리]]
+- [Python error](Python/Python%20error.md)
 - [[copy — 얕은 복사와 깊은 복사 연산]]
 - [[얕은 복사(shallow copy)와 깊은 복사(deep copy)]]
 - [[iterable & iterator]]
 - [[람다함수(Lambda Func, 익명함수)]]
 
 ### others
+- [[Templates List]]
 - [[CLI]]
 - [[Hot-key (for Mac)]]
 - [[Hot-key (windows)]]
 - [[vscode_shortcuts_(mac).pdf]] 
+- [[500 mile]]
 
 #### Obsidian
 - [[markdown for Obsidian]]

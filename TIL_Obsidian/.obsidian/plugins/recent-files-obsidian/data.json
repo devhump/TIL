@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "Pasted image 20230223193327",
+      "path": "assets/Pasted image 20230223193327.png"
+    },
+    {
       "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
       "path": "22. 다이나믹 프로그래밍 - 문제풀이.md"
     },
     {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "Python 용어 정리",
+      "path": "Python/Python 용어 정리.md"
+    },
+    {
+      "basename": "Python 유용한 문법 정리",
+      "path": "Python/Python 유용한 문법 정리.md"
     },
     {
       "basename": "06. 힙(Heap), 셋(set)",
@@ -61,16 +77,8 @@
       "path": "others/500 mile.md"
     },
     {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
-    },
-    {
       "basename": "markdown (마크다운) +",
       "path": "KDT/markdown & git/markdown (마크다운) +.md"
-    },
-    {
-      "basename": "Python 유용한 문법 정리",
-      "path": "Python/Python 유용한 문법 정리.md"
     },
     {
       "basename": "ccobuk",
@@ -145,16 +153,8 @@
       "path": "assets/Pasted image 20230223193441.png"
     },
     {
-      "basename": "Pasted image 20230223193327",
-      "path": "assets/Pasted image 20230223193327.png"
-    },
-    {
       "basename": "22. Dynamic programming-problem solving-img- (2)",
       "path": "assets/22. Dynamic programming-problem solving-img- (2).png"
-    },
-    {
-      "basename": "Python 용어 정리",
-      "path": "Python/Python 용어 정리.md"
     },
     {
       "basename": "04. 데이터 구조 (Data Structure)",
@@ -187,10 +187,6 @@
     {
       "basename": "08. 유용한 표준 라이브러리 소개-img1",
       "path": "Algorithm (theory)/assets/08. 유용한 표준 라이브러리 소개-img1.png"
-    },
-    {
-      "basename": "02. basic_IO",
-      "path": "KDT/Data structure/02. basic_IO.md"
     }
   ],
   "omittedPaths": [
