@@ -23,17 +23,33 @@
             }
           },
           {
-            "id": "b27767a046214887",
+            "id": "4bc8cb5a7c5f780e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Python/assets/Pasted image 20230227214624.png"
+                "file": "KDT/markdown & git/Git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65069c4e338bff29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "others/Git의 기초 - 되돌리기.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/assets/Pasted image 20230227214624.png",
+                "file": "others/Git의 기초 - 되돌리기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/assets/Pasted image 20230227214624.png",
+                "file": "others/Git의 기초 - 되돌리기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/assets/Pasted image 20230227214624.png"
+                "file": "others/Git의 기초 - 되돌리기.md"
               }
             }
           }
@@ -172,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5,
-    "collapsed": true
+    "width": 385.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,31 +203,33 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "b27767a046214887",
+  "active": "31c996407033f3d5",
   "lastOpenFiles": [
-    "Python/assets/Pasted image 20230225183348.png",
+    "KDT/markdown & git/Git.md",
+    "others/Git의 기초 - 되돌리기.md",
+    "assets/Pasted image 20230301194115.png",
+    "assets/Pasted image 20230301193924.png",
+    "assets/Pasted image 20230301193757.png",
+    "assets/Pasted image 20230301193512.png",
+    "assets",
     "📑 devhump's TIL Index.md",
+    "KDT/markdown & git/assets/git-img- (4).png",
+    "KDT/markdown & git/assets/git-img- (5).png",
+    "KDT/markdown & git/assets/git-img- (7).png",
+    "KDT/markdown & git/assets/git-img- (6).png",
+    "others/obsidian/Callout.md",
+    "KDT/assets/Pasted image 20230213024819.png",
+    "KDT/assets/Pasted image 20230208215038.png",
+    "22_DP_problem&solving-img-.md",
     "Algorithm (theory)/23. 그리디(Greedy).md",
-    "Algorithm (theory)/assets/23_greedy_img- (1).png",
-    "Algorithm (theory)/assets/23_greedy_img- (4).png",
-    "Algorithm (theory)/assets/23_greedy_img- (3).png",
-    "Algorithm (theory)/assets/23_greedy_img- (2).png",
-    "Algorithm (theory)/23. Greedy/assets/2.png",
-    "Algorithm (theory)/23. Greedy/assets/1.png",
-    "Algorithm (theory)/23. Greedy/assets/Pasted image 20230214154031.png",
-    "Algorithm (theory)/23. Greedy/assets/image-20230214111119860.png",
-    "Algorithm (theory)/23. Greedy/assets/image-20230214110920187.png",
     "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
     "assets/Pasted image 20230214114442.png.md",
-    "Algorithm (theory)/assets/02_Priority Queue_img- (1).png",
     "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
-    "22_DP_problem&solving-img-.md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "assets/Pasted image 20230214150508.png.md",
     "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
     "Algorithm (theory)/03. 트리 (tree).md",
-    "KDT/markdown & git/Git.md",
     "Python/Python 용어 정리.md",
     "Python/Python 유용한 문법 정리.md",
     "KDT/Data structure/06. 힙(Heap), 셋(set).md",
@@ -224,9 +241,7 @@
     "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
     "others/500 mile.md",
-    "KDT/markdown & git/markdown (마크다운) +.md",
     "KDT/markdown & git/assets",
-    "assets/ccobuk.jpg.md",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "others/obsidian/assets",

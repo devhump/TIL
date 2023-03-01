@@ -1,16 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "Git의 기초 - 되돌리기",
+      "path": "others/Git의 기초 - 되돌리기.md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "git-img- (4)",
+      "path": "KDT/markdown & git/assets/git-img- (4).png"
+    },
+    {
+      "basename": "git-img- (5)",
+      "path": "KDT/markdown & git/assets/git-img- (5).png"
+    },
+    {
+      "basename": "Callout",
+      "path": "others/obsidian/Callout.md"
+    },
+    {
+      "basename": "Pasted image 20230213024819",
+      "path": "KDT/assets/Pasted image 20230213024819.png"
+    },
+    {
+      "basename": "Pasted image 20230208215038",
+      "path": "KDT/assets/Pasted image 20230208215038.png"
+    },
+    {
+      "basename": "Pasted image 20230208214956",
+      "path": "KDT/assets/Pasted image 20230208214956.png"
+    },
+    {
+      "basename": "Pasted image 20230208214503",
+      "path": "KDT/assets/Pasted image 20230208214503.png"
+    },
+    {
+      "basename": "linked list2",
+      "path": "KDT/assets/linked list2.png"
+    },
+    {
+      "basename": "linked list1",
+      "path": "KDT/assets/linked list1.png"
+    },
+    {
+      "basename": "스크린샷 2023-02-08 21.26.38",
+      "path": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
+    },
+    {
       "basename": "Pasted image 20230227214624",
       "path": "Python/assets/Pasted image 20230227214624.png"
     },
     {
       "basename": "Pasted image 20230225183348",
       "path": "Python/assets/Pasted image 20230225183348.png"
-    },
-    {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "23. 그리디(Greedy)",
@@ -31,10 +79,6 @@
     {
       "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
       "path": "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md"
-    },
-    {
-      "basename": "22_DP_problem&solving-img-",
-      "path": "22_DP_problem&solving-img-.md"
     },
     {
       "basename": "22_DP_problem&solving-img- (1)",
@@ -75,10 +119,6 @@
     {
       "basename": "03. 트리 (tree)",
       "path": "Algorithm (theory)/03. 트리 (tree).md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
     },
     {
       "basename": "Python 용어 정리",

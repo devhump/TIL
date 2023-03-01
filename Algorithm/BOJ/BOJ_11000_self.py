@@ -1,4 +1,3 @@
-```python
 # BOJ_11000 강의실 배정 / 그리디
 
 # cnt = int(input())
@@ -39,5 +38,3 @@ while class_list:
     else:
         i += 1
         
-```
-

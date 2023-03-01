@@ -1,26 +1,45 @@
+#git 
+
+👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 
 ### 목차
-```ad-note
-
+```ad-hint
+- [[#목차#Git 기초 명령어 (local)|Git 기초 명령어 (local)]]
+- [[#목차#원격 저장소 설정 기본 명령어 (remote)|원격 저장소 설정 기본 명령어 (remote)]]
 - [[#1. 개요|1. 개요]]
 - [[#2. git 초기 설정|2. git 초기 설정]]
-	- [[#2. git 초기 설정#$ git init|$ git init]]
-	- [[#2. git 초기 설정#$ git add `<file>`|$ git add `<file>`]]
-	- [[#2. git 초기 설정#$ git commit -m `<커밋메시지>`|$ git commit -m `<커밋메시지>`]]
-		- [[#$ git commit -m `<커밋메시지>`#commit 이해하기|commit 이해하기]]
-		- [[#$ git commit -m `<커밋메시지>`#commit 3단계의 이해|commit 3단계의 이해]]
-	- [[#2. git 초기 설정#$ git log|$ git log]]
-	- [[#2. git 초기 설정#$ git status|$ git status]]
-	- [[#2. git 초기 설정#Git 설정 파일 (config)|Git 설정 파일 (config)]]
+	- [[#2. git 초기 설정#2-1. $ git init|2-1. $ git init]]
+	- [[#2. git 초기 설정#2-2. $ git add `<file>`|2-2. $ git add `<file>`]]
+	- [[#2. git 초기 설정#2-3. $ git commit -m `<커밋메시지>`|2-3. $ git commit -m `<커밋메시지>`]]
+		- [[#2-3. $ git commit -m `<커밋메시지>`#commit 이해하기|commit 이해하기]]
+		- [[#2-3. $ git commit -m `<커밋메시지>`#commit 3단계의 이해|commit 3단계의 이해]]
+	- [[#2. git 초기 설정#2-4. $ git log|2-4. $ git log]]
+	- [[#2. git 초기 설정#2-5. $ git status|2-5. $ git status]]
+	- [[#2. git 초기 설정#2-6. Git 설정 파일 (config)|2-6. Git 설정 파일 (config)]]
 - [[#3. 원격 관리 시작하기|3. 원격 관리 시작하기]]
-	- [[#3. 원격 관리 시작하기#$ git push|$ git push]]
-- [[#기타|기타]]
-	- [[#기타#.gitkeep|.gitkeep]]
-	- [[#기타#.gitignore|.gitignore]]
-	- [[#기타#참고|참고]]
+	- [[#3. 원격 관리 시작하기#$ git push <원격저장소이름> <브랜치 이름>|$ git push <원격저장소이름> <브랜치 이름>]]
+		- [[#$ git push <원격저장소이름> <브랜치 이름>#원격저장소 경로 설정|원격저장소 경로 설정]]
+		- [[#$ git push <원격저장소이름> <브랜치 이름>#push 실패시|push 실패시]]
+	- [[#3. 원격 관리 시작하기#$ git pull <원격저장소이름> <브랜치이름>|$ git pull <원격저장소이름> <브랜치이름>]]
+	- [[#3. 원격 관리 시작하기#$ git clone <원격저장소 주소>|$ git clone <원격저장소 주소>]]
+- [[#4. Git 사용시 주의 사항|4. Git 사용시 주의 사항]]
+	- [[#4. Git 사용시 주의 사항#git 사용시 항상 경로 확인 !|git 사용시 항상 경로 확인 !]]
+	- [[#4. Git 사용시 주의 사항#commit에 관하여|commit에 관하여]]
+	- [[#4. Git 사용시 주의 사항#원격저장소 조작 금지|원격저장소 조작 금지]]
+	- [[#4. Git 사용시 주의 사항#마크다운 이미지 경로 이슈|마크다운 이미지 경로 이슈]]
+- [[#5. 기타|5. 기타]]
+	- [[#5. 기타#5-1. `.gitkeep`|5-1. `.gitkeep`]]
+	- [[#5. 기타#5-2 `.gitignore`|5-2 `.gitignore`]]
+	- [[#5. 기타#5-3. 저장소(repository) 관련|5-3. 저장소(repository) 관련]]
+		- [[#5-3. 저장소(repository) 관련#1) 저장소 이름 변경|1) 저장소 이름 변경]]
+		- [[#5-3. 저장소(repository) 관련#2) 저장소 접근 관리|2) 저장소 접근 관리]]
+		- [[#5-3. 저장소(repository) 관련#3) 원격저장소 다운로드 방법|3) 원격저장소 다운로드 방법]]
+	- [[#5. 기타#5-4. 그 외|5-4. 그 외]]
+	- [[#5. 기타#5-5. 참고|5-5. 참고]]
 ```
 
-#### Git 기초 명령어
+
+#### Git 기초 명령어 (local)
 | 명령어                       | 내용                            |
 | ---------------------------- | ------------------------------- |
 | git init                     | 로컬 저장소 생성                |
@@ -30,7 +49,7 @@
 | git log                    |  버전 확인                    |
 
 
-#### 원격 저장소 설정 기본 명령어
+#### 원격 저장소 설정 기본 명령어 (remote)
 | 명령어          | 내용             |
 | :--------------- | :----------------: |
 | git clone `<url>`                |                원격 저장소 복제                      |
@@ -241,9 +260,6 @@ $ git config --unset --global user.name "기존 id"
 $ git config --unset --global user.email "기존 email"
     ```
 
-- ***특정 폴더에만 master가 있어야함.*** 
-	- 그렇지 않다면, ***너무 상위 폴더에서 "git init" 를 한 경우***
-	- 이 경우, `cd .. ` 올라 가면서 `rm -rf .git` 로 지워주기.
 
 - 설정 확인 
  ```bash
@@ -354,15 +370,42 @@ git clone https://github.com/tensorflow/tensorflow.git
 	- clone : 원격저장소 복제
 	- pull : 원격 저장소 커밋 가져오기
 
-### 기타 
-#### .gitkeep
+
+### 4. Git 사용시 주의 사항
+
+#### git 사용시 항상 경로 확인 !
+![|500](assets/git-img-%20(5).png)
+
+- 특정 폴더에만 git 이 적용되고 있는지 확인 (***master 유무***)
+- ***특정 폴더에만 master가 있어야함.*** 
+	- 그렇지 않다면, ***너무 상위 폴더에서 "git init" 를 한 경우***
+	- 이 경우, `cd .. ` 올라 가면서 `rm -rf .git` 로 지워주기.
+- vs 코드 좌측 하단에서도 현재 브랜치 상태 확인 가능
+	- ![](assets/git-img-%20(6).png)
+
+
+#### commit에 관하여
+- commit message는 각 파일, 폴더별 설정이라기 보다는 이번의 작업에 대한 전반적인 설명을 함축(요약)해야 한다. = **행위에 대한 기록**
+
+
+#### 원격저장소 조작 금지
+👉 수정사항이 생기면 로컬에서 작업하고, push 하는 것을 원칙으로!
+
+#### 마크다운 이미지 경로 이슈
+- 이미지가 저장된 폴더나 파일을 이동시키면
+	👉 ***안 보임, 경로 재설정 필요***
+
+
+
+### 5. 기타 
+#### 5-1. `.gitkeep`
 - why?
 	👉 git 환경에서는 기본적으로 빈 폴더는 status 에 나타나지 않음
 - so
 1) 일반적으로 `.gitkeep` 이라고 하는 파일을 만든다
 2)  `.gitkeep` 는 관용적으로 쓰이며, 다른 단어를 사용해도 상관 없음
 
-#### .gitignore
+#### 5-2 `.gitignore`
 - 일반적인 개발 프로젝트에서 버전 관리를 별도로 하지 않는 파일/ 디렉토리가 발생한다.
 - 이때, Git 저장소에(폴더 내)에 `.gitignore` 파일을 생성하고 해당 내용을 관리한다.
 
@@ -398,28 +441,65 @@ test/a.txt
 		- text editor / IDE (vs code 등)
 - `.gitignore` 파일 작성 시 참고할 사이트 : [gitignore.io](https://www.toptal.com/developers/gitignore) 
 
-#### 저장소 이름 변경
+#### 5-3. 저장소(repository) 관련 
+##### 1) 저장소 이름 변경
 - Settings > General > Repository name
 - ==저장소 이름 변경 시 원격저장소 URL이 변경되어 로컬 설정 변경이 필수적이다.== ![](assets/git-img-%20(4).png)
 
-#### 저장소 접근 관리
+##### 2) 저장소 접근 관리
 - Settings > Collaborators
 - ==저장소에 push 권한은 collaborator에만 있습니다.==
 	- 메일을 통한 초대, 승낙 후 공동 작업 가능!
 
-#### 그 외
-  ```bash
-  $ git log --oneline --graph
-  # 분기(branch)를 시각적으로 도식화 
-  ```
+##### 3) 원격저장소 다운로드 방법
+1. 📌repository 주소를 복사해서 `clone` ! 
+		👉`clone` 하면 동일한 이름의 폴더 생성
+1. github GUI 프로그램 이용
+2. ZIP 파일로 다운 
+ ![](assets/git-img-%20(7).png)
 
-- git 에서 에러 발생 하면
+- Zip 버전 다운 vs `clone` 
+	- 전자는 단순히 최신 버전의 파일/폴더를 가져옴 
+	- ✔ <u>후자는 git 저장소를 복사하는 것 </u>
+		👉 진정한 의미의 분산버전 관리라 할 수 있음!
+
+  - 원격저장소의 활용
+```bash
+$ git pull 
+# 변경된 커밋(업데이트) 받아옴
+
+$ git clone
+# 저장소를 복사해옴
+```
+
+
+
+#### 5-4. 그 외
+1) **그래프로 분기(branch) 나타내기**
+```bash
+$ git log --oneline --graph
+# 분기(branch)를 시각적으로 도식화 
+```
+
+2) **git 에서 에러 발생 하면**
 	1.  `Q`를 사용해서 탈출
 	2.  `ctrl` + `C` 를 사용해서 탈출
 	3.  gitbash 창을 껐다 다시 킴
 
+3) **bash 에서 `ctrl`+`L` 로 터미널 창 지울 수 있음**
+    
+4) **이전 버전 확인하기**
+```shell
+git checkout <해시값>
+# 해당 버전 확인 가능
+```
 
-#### 참고
+5) **러버덕 디버깅** 
+	- 왜맞틀 = ''왜 맞았는데 틀렸대??'
+	- ***어?? 하지말고 오리랑대화 ㅋㅋㅋ***
+
+#### 5-5. 참고
 - [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 - [github 요약 정리 자료(cheat sheet)](https://velog.io/@palza4dev/TIL-28.-GitGithub-%EC%BB%A4%EB%B0%8B-%EB%A9%94%EC%8B%9C%EC%A7%80-%EC%9E%91%EC%84%B1%EB%B2%95)
+
 ![](assets/Git_cheat_sheet.png)
