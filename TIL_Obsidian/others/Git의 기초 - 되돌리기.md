@@ -1,5 +1,7 @@
 #git
 
+- 전반적인 git 내용은 👉 [[Git]]
+
 ```ad-note
 - [[#1.  완료된 커밋을 (살짝) 수정해야할 때|1.  완료된 커밋을 (살짝) 수정해야할 때]]
 - [[#2. git add 취소하기 (파일 상태를 Unstage로 변경하기)|2. git add 취소하기 (파일 상태를 Unstage로 변경하기)]]
@@ -164,7 +166,8 @@ git reset HEAD@{number}
 git reset [commit id]
 ```
 
-```ad-example
+```ad-example 
+title: ##### reflog 예시
 
 - 기존 `git log` 예시
 	- ![](assets/Pasted%20image%2020230301193924.png)
@@ -175,6 +178,8 @@ git reset [commit id]
 - `git log -g` 예시
 	- ![|500](assets/Pasted%20image%2020230301194115.png)
 ```
+
+^c92f46
 
 ##### 2. 되돌려진 상태에서 다시 commit을 한다.
 ```shell

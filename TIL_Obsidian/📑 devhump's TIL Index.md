@@ -16,6 +16,7 @@
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
 - [[01. 스택과 큐(Stack & Que)]]
 - [[02. 우선순위 큐(Priority Queue)]]
+- [[03. 트리 (tree)]]
 - [[17. 재귀함수(Recursive Function)]]
 - [[18. 유용한 표준 라이브러리 소개]]
 - [[21. 다이나믹 프로그래밍]]
@@ -23,21 +24,22 @@
 - [[23. 그리디(Greedy)]]
 
 ### Python
+- [[람다함수(Lambda Func, 익명함수)]]
+- [[얕은 복사(shallow copy)와 깊은 복사(deep copy)]]
+- [[copy — 얕은 복사와 깊은 복사 연산]]
+- [[iterable & iterator]]
 - [[Python 용어 정리]]
 - [[Python 유용한 문법 정리]]
 - [Python error](Python/Python%20error.md)
-- [[copy — 얕은 복사와 깊은 복사 연산]]
-- [[얕은 복사(shallow copy)와 깊은 복사(deep copy)]]
-- [[iterable & iterator]]
-- [[람다함수(Lambda Func, 익명함수)]]
 
 ### others
-- [[Templates List]]
+- [[500 mile]]
+- [[Git의 기초 - 되돌리기]]
 - [[CLI]]
 - [[Hot-key (for Mac)]]
 - [[Hot-key (windows)]]
+- [[Templates List]]
 - [[vscode_shortcuts_(mac).pdf]] 
-- [[500 mile]]
 
 #### Obsidian
 - [[markdown for Obsidian]]

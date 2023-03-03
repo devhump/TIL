@@ -2,6 +2,9 @@
 
 👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 
+- `git add, git commit, git add` 취소하기 등 이전 내용으로 되돌리고 싶다면?
+	- 👉 [[Git의 기초 - 되돌리기]]
+
 ### 목차
 ```ad-hint
 - [[#목차#Git 기초 명령어 (local)|Git 기초 명령어 (local)]]
@@ -154,46 +157,7 @@ $ git commit <filename> -m "commit_message”
 #특정 파일만 commit
 ```
 
-##### commit 3단계의 이해
-|                      | untracked  |      |
-| -------------------- | ---------- | ---- |
-| 1. working directory | unmodified | 1통  |
-| 🔽`$ git add`         | 🔽          | 🔽    |
-| 2. staging area      | staged     | 2통  |
-| 🔽`$ git commit`      | 🔽          | 🔽    |
-| 3.repository         | committed  | 3통  |
-
-- **staging 단계가 있는 이유**
-	- 버전으로 기록할 파일을 모으는 '임시공간'
-- 특장점
-	1. 실질적인 변경 사항을 파악, 저장해 최종 저장 용량을 최소화 가능
-	2. 실서비스 사용 전에 *테스트 보드*로서 사용
-- untracked/modified → staged → committed
-	- 깃은 파일을 스냅샷 방법으로 저장 → 변경 사항만 저장
-
-```bash
-$ git commit -m ‘<커밋메시지>’
-  
--> nothing to commit, working tree clean
-#staging area 가 비어있다.
-##현재 작업할 커밋 없음 (모든 파일 커밋 완료)
-```
-
-- ***`head -> master`는 해당 커밋이 master 브랜치의 마지막 커밋이라는 뜻***
-
-
-
-- **commit message editor vs code 로 설정 하는 법**
-```shell
-$ git config --global core.editor "code --wait"
-```
-   
--   📌참고 `.git` 폴더에는 들어가지 말 것!
-```shell
-$ cd .git  
- → GIT_DIR!  
- #깃 디렉토리임! 조심!
-``` 
+[commit 3단계의 이해](../../commit%203단계의%20이해.md)
 
 
 #### 2-4. $ git log
@@ -223,11 +187,18 @@ $ git log -1 --oneline
 		- Changes to be committed
 	- Nothing to commit, working tree clean
 - **Status로 확인할 수 있는 파일의 상태**
-	- Tracked : 이전부터 버전으로 관리되고 있는 파일
-		- Unmodified : git status에 나타나지 않음
-		- Modified : Changes not staged for commit
-		- Staged : Changes to be committed
-	- Untracked : 버전으로 관리된 적 없는 파일 (파일을 새로 만든 경우)
+	- **Untracked** : 버전으로 관리된 적 없는 파일
+		- 파일을 새로 만들고 나서 한번도 add 하지 않은 상태
+	
+	- **Tracked** : 이전부터 버전으로 관리되고 있는 파일
+		- 파일이 git에 의해 변동사항이 추적되는 상태 
+			- **Unmodified** : git status에 나타나지 않음
+				- 현재 파일이 최신 커밋과 비교해서 **바뀐게 없는 상태**
+			- **Modified** : Changes not staged for commi
+				- 현재 파일이 최신 커밋과 비교해서 **바뀐게 있는 상태**
+			- **Staged** : Changes to be committed
+				- 파일 수정 후 **staging area**에 올라가 있는 상태
+	
 
 ```shell
 $ git status
@@ -256,8 +227,8 @@ $ git config --global user.email "my@email.com"
 
 - 잘못 입력했을 경우 (해제 방법)
     ```bash
-$ git config --unset --global user.name "기존 id"
-$ git config --unset --global user.email "기존 email"
+    $ git config --unset --global user.name "기존 id"
+    $ git config --unset --global user.email "기존 email"
     ```
 
 
@@ -278,7 +249,7 @@ git config user.email
 
 git config --system --unset credential.helper
 # git config 초기화
-```
+ ```
 
 - `--system`
 	- `/etc/gitconfig`
@@ -487,7 +458,7 @@ $ git log --oneline --graph
 	3.  gitbash 창을 껐다 다시 킴
 
 3) **bash 에서 `ctrl`+`L` 로 터미널 창 지울 수 있음**
-    
+   
 4) **이전 버전 확인하기**
 ```shell
 git checkout <해시값>
@@ -498,8 +469,50 @@ git checkout <해시값>
 	- 왜맞틀 = ''왜 맞았는데 틀렸대??'
 	- ***어?? 하지말고 오리랑대화 ㅋㅋㅋ***
 
-#### 5-5. 참고
+6) `git add .` 와 `git add *` 의 차이
+	- 전자는 `.gitignore`에 명시된 목록들을 고려해서 파일을 추가하고, <u>후자는 이와 무관하게 전부 추가를 한다.</u>
+	- 따라서, `git add .`을 주로 사용하자. 
+
+8) **reflog 목록 확인**
+	- reflog 브랜치와 HEAD가 지난 기간 동안에 가리켰었던 커밋
+```shell
+git reflog
+또는
+git log -g
+```
+
+![](../../others/Git의%20기초%20-%20되돌리기.md#^c92f46)
+
+#### 5-5. stash 영역
+- 참고  [commit 3단계의 이해](#commit%203단계의%20이해)
+```shell
+git stash // stash에 저장하기 
+
+git stash save '설명 추가' //설명 추가하여 stash 저장하기 
+
+git stash list //stash 목록보기
+
+git stash apply
+git stash apply stash@{number}
+// 가장 최근의 stash 내용 혹은 지정된 stash가 적용되고, 적용 후에도 stash 리스트에 유지
+
+git stash pop
+git stash pop stash@{number}
+// 가장 최근의 stash 내용 혹은 지정된 stash가 적용되고, 적용 후에 stash 리스트에서 삭제
+
+git stash drop
+git stash drop stash@{number}
+// 가장 최근의 stash 내용 혹은 지정된 stash를 삭제
+
+git stash clear
+//stash의 모든 기록이 삭제
+```
+
+
+### 6. 참고
 - [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 - [github 요약 정리 자료(cheat sheet)](https://velog.io/@palza4dev/TIL-28.-GitGithub-%EC%BB%A4%EB%B0%8B-%EB%A9%94%EC%8B%9C%EC%A7%80-%EC%9E%91%EC%84%B1%EB%B2%95)
 
 ![](assets/Git_cheat_sheet.png)
+
+[^git-stash]:  자세한 내용은 해당 문서 [5-5. stash 영역](#5-5.%20stash%20영역) 에서 다룬다.
