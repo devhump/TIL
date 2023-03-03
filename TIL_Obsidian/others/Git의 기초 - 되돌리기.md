@@ -170,13 +170,13 @@ git reset [commit id]
 title: ##### reflog 예시
 
 - 기존 `git log` 예시
-	- ![](assets/Pasted%20image%2020230301193924.png)
+	- ![](assets/Git의%20기초%20-%20되돌리기-img-%20(2).png)
 
 - `git reflog` 예시
-	- ![](assets/Pasted%20image%2020230301193512.png)
+	- ![](assets/Git의%20기초%20-%20되돌리기-img-%20(1).png)
 
 - `git log -g` 예시
-	- ![|500](assets/Pasted%20image%2020230301194115.png)
+	- ![](assets/Git의%20기초%20-%20되돌리기-img-%20(3).png)
 ```
 
 ^c92f46

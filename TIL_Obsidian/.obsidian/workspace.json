@@ -23,30 +23,20 @@
             }
           },
           {
-            "id": "65069c4e338bff29",
+            "id": "a4d2428ffe77a5a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/markdown & git/Git.md",
-                "mode": "source",
+                "file": "commit 3단계의 이해.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "1f79759af7ce348e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "foot",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "commit 3단계의 이해.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "commit 3단계의 이해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "commit 3단계의 이해.md"
+              }
             }
           }
         ],
@@ -198,26 +191,27 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "1f79759af7ce348e",
+  "active": "a4d2428ffe77a5a4",
   "lastOpenFiles": [
-    "KDT/markdown & git/Git.md",
-    "commit 3단계의 이해.md",
-    "KDT/markdown & git/markdown (마크다운) +.md",
     "📑 devhump's TIL Index.md",
-    "others/CLI.md",
+    "KDT/markdown & git/Git.md",
+    "others/Git의 기초 - 되돌리기.md",
+    "others/알고리즘 TIP.md",
+    "others/assets/Git의 기초 - 되돌리기-img- (1).png",
+    "others/assets 1/Git의 기초 - 되돌리기-img- (1).png",
+    "others/assets/Git의 기초 - 되돌리기-img- (3).png",
+    "others/assets/Git의 기초 - 되돌리기-img- (2).png",
+    "assets/Pasted image 20230301193512.png",
+    "others/assets 1/Git의 기초 - 되돌리기-img- (3).png",
+    "others/assets 1/Git의 기초 - 되돌리기-img- (2).png",
     "assets/Pasted image 20230301194115.png",
     "assets/Pasted image 20230301193924.png",
+    "commit 3단계의 이해.md",
+    "KDT/markdown & git/markdown (마크다운) +.md",
+    "others/CLI.md",
     "assets/Pasted image 20230301193757.png",
-    "assets/Pasted image 20230301193512.png",
-    "others/Git의 기초 - 되돌리기.md",
-    "assets",
-    "KDT/markdown & git/assets/git-img- (4).png",
-    "KDT/markdown & git/assets/git-img- (5).png",
-    "KDT/markdown & git/assets/git-img- (7).png",
-    "KDT/markdown & git/assets/git-img- (6).png",
+    "others/assets 1",
     "others/obsidian/Callout.md",
-    "KDT/assets/Pasted image 20230213024819.png",
-    "KDT/assets/Pasted image 20230208215038.png",
     "22_DP_problem&solving-img-.md",
     "Algorithm (theory)/23. 그리디(Greedy).md",
     "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
@@ -236,7 +230,6 @@
     "others/Hot-key (for Mac).md",
     "Python/Python error.md",
     "others/Hot-key (windows).md",
-    "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
     "KDT/markdown & git/assets",
     "무제 파일 1.canvas",
     "무제 파일.canvas",

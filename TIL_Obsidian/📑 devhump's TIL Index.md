@@ -34,6 +34,7 @@
 
 ### others
 - [[500 mile]]
+- [[알고리즘 TIP]]
 - [[Git의 기초 - 되돌리기]]
 - [[CLI]]
 - [[Hot-key (for Mac)]]
