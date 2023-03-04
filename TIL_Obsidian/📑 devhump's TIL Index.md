@@ -30,7 +30,7 @@
 - [[iterable & iterator]]
 - [[Python 용어 정리]]
 - [[Python 유용한 문법 정리]]
-	- [[반올림, 내림, 올림(python)]]
+	- [[Python/반올림, 내림, 올림(python)]]
 - [Python error](Python/Python%20error.md)
 
 ### others

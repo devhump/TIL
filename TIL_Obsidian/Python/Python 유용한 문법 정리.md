@@ -181,4 +181,4 @@ print(numbers)
 
 
 ### 반올림, 내림, 올림 (round, floor, trunc, ceil)
-![반올림, 내림, 올림(python)](../반올림,%20내림,%20올림(python).md)
+![반올림, 내림, 올림(python)](반올림,%20내림,%20올림(python).md)

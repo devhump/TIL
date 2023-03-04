@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "43c6275022db4062",
+        "id": "69d683b04b2d7c30",
         "type": "tabs",
         "children": [
           {
-            "id": "f3448873c08dc91c",
+            "id": "e841138c0c580b44",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "📑 devhump's TIL Index.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "a4d2428ffe77a5a4",
+            "id": "09949399ab187f35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "commit 3단계의 이해.md",
+                "file": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -36,18 +36,20 @@
             }
           },
           {
-            "id": "8cf0516e523a7100",
+            "id": "f4786672567f5c2a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.16"
+                "file": "others/Hot-key (for Mac).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
               }
             }
           }
         ],
         "currentTab": 2
-        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "others/Hot-key (for Mac).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "commit 3단계의 이해.md",
+                "file": "others/Hot-key (for Mac).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,12 +180,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "commit 3단계의 이해.md"
+                "file": "others/Hot-key (for Mac).md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,10 +205,18 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "8cf0516e523a7100",
-  "active": "f3448873c08dc91c",
+  "active": "f4786672567f5c2a",
   "lastOpenFiles": [
-    "반올림, 내림, 올림(python).md",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
+    "others/Hot-key (for Mac).md",
+    "others/vscode_shortcuts_(mac).pdf",
+    "📑 devhump's TIL Index.md",
+    "others/obsidian/LaTeX.md",
+    "others/Templates List.md",
+    "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
+    "Python/반올림, 내림, 올림(python).md",
+    "others/알고리즘 TIP.md",
+    "commit 3단계의 이해.md",
     "others/assets/Pasted image 20230304173509.png",
     "others/assets/Pasted image 20230304013059.png",
     "others/assets/Pasted image 20230304012119.png",
@@ -215,23 +225,10 @@
     "Algorithm (theory)/assets/Pasted image 20230304021022.png",
     "Algorithm (theory)/assets/Pasted image 20230304020304.png",
     "Algorithm (theory)/assets/Pasted image 20230304015957.png",
-    "📑 devhump's TIL Index.md",
-    "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
-    "others/Git의 기초 - 되돌리기.md",
-    "Algorithm (theory)/assets/Pasted image 20230304015957.png",
-    "Algorithm (theory)/assets/Pasted image 20230304020304.png",
-    "Algorithm (theory)/assets/Pasted image 20230304021022.png",
-    "commit 3단계의 이해.md",
-    "others/assets/Pasted image 20230304013059.png",
-    "others/assets/Pasted image 20230304012119.png",
-    "others/assets/Pasted image 20230304012032.png",
-    "others/assets/Pasted image 20230304011822.png",
     "KDT/markdown & git/Git.md",
     "others/Git의 기초 - 되돌리기.md",
-    "others/알고리즘 TIP.md",
     "others/assets/Git의 기초 - 되돌리기-img- (1).png",
     "others/assets 1/Git의 기초 - 되돌리기-img- (1).png",
-    "commit 3단계의 이해.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
     "others/CLI.md",
     "others/assets 1",
@@ -240,8 +237,6 @@
     "Algorithm (theory)/23. 그리디(Greedy).md",
     "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
     "assets/Pasted image 20230214114442.png.md",
-    "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "assets/Pasted image 20230214150508.png.md",
     "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
@@ -249,15 +244,10 @@
     "Python/Python 용어 정리.md",
     "Python/Python 유용한 문법 정리.md",
     "KDT/Data structure/06. 힙(Heap), 셋(set).md",
-    "KDT/Data structure/04. 리스트 (List).md",
-    "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md",
-    "others/Hot-key (for Mac).md",
-    "Python/Python error.md",
     "KDT/markdown & git/assets",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "others/obsidian/assets",
-    "others/vscode_shortcuts_(mac).pdf",
     "Python/assets",
     "others/obsidian",
     "others/새 폴더"
