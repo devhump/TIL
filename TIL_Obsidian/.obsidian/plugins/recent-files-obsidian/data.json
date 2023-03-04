@@ -1,24 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "commit 3단계의 이해",
-      "path": "commit 3단계의 이해.md"
-    },
-    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
     {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
+      "basename": "17. 재귀함수(Recursive Function)",
+      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
+    },
+    {
+      "basename": "반올림, 내림, 올림(python)",
+      "path": "반올림, 내림, 올림(python).md"
+    },
+    {
+      "basename": "Python 유용한 문법 정리",
+      "path": "Python/Python 유용한 문법 정리.md"
+    },
+    {
+      "basename": "알고리즘 TIP",
+      "path": "others/알고리즘 TIP.md"
+    },
+    {
+      "basename": "04. 데이터 구조 (Data Structure)",
+      "path": "KDT/Python/04. 데이터 구조 (Data Structure).md"
+    },
+    {
+      "basename": "04. 리스트 (List)",
+      "path": "KDT/Data structure/04. 리스트 (List).md"
+    },
+    {
+      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
+      "path": "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md"
     },
     {
       "basename": "Git의 기초 - 되돌리기",
       "path": "others/Git의 기초 - 되돌리기.md"
     },
     {
-      "basename": "알고리즘 TIP",
-      "path": "others/알고리즘 TIP.md"
+      "basename": "Pasted image 20230304015957",
+      "path": "Algorithm (theory)/assets/Pasted image 20230304015957.png"
+    },
+    {
+      "basename": "Pasted image 20230304020304",
+      "path": "Algorithm (theory)/assets/Pasted image 20230304020304.png"
+    },
+    {
+      "basename": "Pasted image 20230304021022",
+      "path": "Algorithm (theory)/assets/Pasted image 20230304021022.png"
+    },
+    {
+      "basename": "commit 3단계의 이해",
+      "path": "commit 3단계의 이해.md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
     },
     {
       "basename": "Git의 기초 - 되돌리기-img- (1)",
@@ -97,16 +137,8 @@
       "path": "Algorithm (theory)/assets/02_Priority Queue_img- (1).png"
     },
     {
-      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
-      "path": "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md"
-    },
-    {
       "basename": "22_DP_problem&solving-img- (1)",
       "path": "Algorithm (theory)/assets/22_DP_problem&solving-img- (1).png"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
       "basename": "람다함수(Lambda Func, 익명함수)",
@@ -115,10 +147,6 @@
     {
       "basename": "17_recursive_function-img_1",
       "path": "Algorithm (theory)/assets/17_recursive_function-img_1.png"
-    },
-    {
-      "basename": "17. 재귀함수(Recursive Function)",
-      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
     },
     {
       "basename": "21. 다이나믹 프로그래밍-img- (6)",
@@ -145,16 +173,8 @@
       "path": "Python/Python 용어 정리.md"
     },
     {
-      "basename": "Python 유용한 문법 정리",
-      "path": "Python/Python 유용한 문법 정리.md"
-    },
-    {
       "basename": "06. 힙(Heap), 셋(set)",
       "path": "KDT/Data structure/06. 힙(Heap), 셋(set).md"
-    },
-    {
-      "basename": "04. 리스트 (List)",
-      "path": "KDT/Data structure/04. 리스트 (List).md"
     },
     {
       "basename": "딕셔너리 (Dictionary)",
@@ -179,18 +199,6 @@
     {
       "basename": "18. 유용한 표준 라이브러리 소개",
       "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
-    },
-    {
-      "basename": "500 mile",
-      "path": "others/500 mile.md"
-    },
-    {
-      "basename": "ccobuk",
-      "path": "KDT/markdown & git/assets/ccobuk.jpg"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
     }
   ],
   "omittedPaths": [

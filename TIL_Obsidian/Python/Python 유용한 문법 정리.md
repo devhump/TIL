@@ -178,3 +178,7 @@ for _ in numbers :
 print(numbers)
 >>> [1, 2, 2]  # 숫자 3이 전부 삭제
 ```
+
+
+### 반올림, 내림, 올림 (round, floor, trunc, ceil)
+![반올림, 내림, 올림(python)](../반올림,%20내림,%20올림(python).md)
