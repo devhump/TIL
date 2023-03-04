@@ -34,9 +34,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8cf0516e523a7100",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50312423706055
+    "width": 240.50312423706055,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -191,7 +202,7 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "a4d2428ffe77a5a4",
+  "active": "8cf0516e523a7100",
   "lastOpenFiles": [
     "📑 devhump's TIL Index.md",
     "KDT/markdown & git/Git.md",
