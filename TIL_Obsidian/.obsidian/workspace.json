@@ -21,48 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "7809f069124abae4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62e0927e59712364",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a3f78c4d8dbdbcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "반올림, 내림, 올림(python).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -153,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "반올림, 내림, 올림(python).md",
+                "file": "📑 devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "반올림, 내림, 올림(python).md",
+                "file": "📑 devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,12 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "반올림, 내림, 올림(python).md"
+                "file": "📑 devhump's TIL Index.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -218,13 +177,18 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "5a3f78c4d8dbdbcd",
+  "active": "f3448873c08dc91c",
   "lastOpenFiles": [
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
     "반올림, 내림, 올림(python).md",
+    "Python/Python 유용한 문법 정리.md",
+    "others/알고리즘 TIP.md",
+    "others/assets/Pasted image 20230304173509.png",
+    "KDT/Python/04. 데이터 구조 (Data Structure).md",
+    "KDT/Data structure/04. 리스트 (List).md",
     "📑 devhump's TIL Index.md",
     "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
-    "others/알고리즘 TIP.md",
     "others/Git의 기초 - 되돌리기.md",
     "Algorithm (theory)/assets/Pasted image 20230304015957.png",
     "Algorithm (theory)/assets/Pasted image 20230304020304.png",
@@ -237,7 +201,6 @@
     "KDT/markdown & git/Git.md",
     "others/assets/Git의 기초 - 되돌리기-img- (1).png",
     "others/assets 1/Git의 기초 - 되돌리기-img- (1).png",
-    "others/assets/Git의 기초 - 되돌리기-img- (3).png",
     "KDT/markdown & git/markdown (마크다운) +.md",
     "others/CLI.md",
     "others/assets 1",
@@ -246,17 +209,12 @@
     "Algorithm (theory)/23. 그리디(Greedy).md",
     "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
     "assets/Pasted image 20230214114442.png.md",
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "assets/Pasted image 20230214150508.png.md",
     "Algorithm (theory)/03. 트리 (tree).md",
     "Python/Python 용어 정리.md",
-    "Python/Python 유용한 문법 정리.md",
     "KDT/Data structure/06. 힙(Heap), 셋(set).md",
-    "KDT/Data structure/04. 리스트 (List).md",
     "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md",
-    "others/Hot-key (for Mac).md",
-    "Python/Python error.md",
     "KDT/markdown & git/assets",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
