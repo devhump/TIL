@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Hot-key (for Mac)",
-      "path": "others/Hot-key (for Mac).md"
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "Obsidian setting",
+      "path": "others/obsidian/Obsidian setting.md"
+    },
+    {
+      "basename": "무제 파일 1",
+      "path": "무제 파일 1.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "무제 파일.md"
+    },
+    {
+      "basename": "파이썬 (python) 01.",
+      "path": "파이썬 (python) 01..md"
+    },
+    {
+      "basename": "commit 3단계의 이해",
+      "path": "commit 3단계의 이해.md"
     },
     {
       "basename": "01. 스택과 큐(Stack & Que)",
       "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
-      "basename": "vscode_shortcuts_(mac)",
-      "path": "others/vscode_shortcuts_(mac).pdf"
+      "basename": "Hot-key (for Mac)",
+      "path": "others/Hot-key (for Mac).md"
     },
     {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
+      "basename": "vscode_shortcuts_(mac)",
+      "path": "others/vscode_shortcuts_(mac).pdf"
     },
     {
       "basename": "LaTeX",
@@ -35,10 +55,6 @@
     {
       "basename": "알고리즘 TIP",
       "path": "others/알고리즘 TIP.md"
-    },
-    {
-      "basename": "commit 3단계의 이해",
-      "path": "commit 3단계의 이해.md"
     },
     {
       "basename": "Git",
@@ -183,22 +199,6 @@
     {
       "basename": "Python error",
       "path": "Python/Python error.md"
-    },
-    {
-      "basename": "Hot-key (windows)",
-      "path": "others/Hot-key (windows).md"
-    },
-    {
-      "basename": "21. 다이나믹 프로그래밍",
-      "path": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
-    },
-    {
-      "basename": "18. 유용한 표준 라이브러리 소개",
-      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
-    },
-    {
-      "basename": "500 mile",
-      "path": "others/500 mile.md"
     }
   ],
   "omittedPaths": [
