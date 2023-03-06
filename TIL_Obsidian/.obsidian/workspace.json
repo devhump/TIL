@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md",
+                "file": "KDT/Data structure/String/문자열 (String).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "시퀀스",
+                "query": "replace",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,11 +88,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 240.50312423706055
+    "width": 240.50312423706055,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -124,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md",
+                "file": "KDT/Data structure/String/문자열 (String).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md",
+                "file": "KDT/Data structure/String/문자열 (String).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md"
+                "file": "KDT/Data structure/String/문자열 (String).md"
               }
             }
           }
@@ -173,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 385.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,10 +191,10 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "3f843c7a89da833e",
+  "active": "a85bc5a7c0f465d5",
   "lastOpenFiles": [
-    "KDT/Data structure/String/문자열 (String).md",
     "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md",
+    "KDT/Data structure/String/문자열 (String).md",
     "KDT/Python/파이썬 (python) 01. Python 기초.md",
     "인덱싱.md",
     "KDT/markdown & git/Git.md",
