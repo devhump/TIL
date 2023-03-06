@@ -178,7 +178,7 @@ $ git commit <filename> -m "commit_message”
 3. **Repository** (저장소)
    - <u>파일, 폴더를 변경 이력별로 저장해 두는 곳</u>
    - .git 디텍토리 내 존재하며 2가지로 나뉨 (local, remote)
-4. Stash [^git-stash]
+4. **Stash 영역** (임시 영역) [^git-stash]
    - 위의 3가지 영역과 다른 별개의 임시 영역
    - 임시적으로 작업사항을 저장해 두고 나중에 꺼내올 수 있음
    - <u>"현재 stage에 있는 파일(add 하기 전 현재 수정된 파일들)을 임시적으로 저장할 수 있다."</u>

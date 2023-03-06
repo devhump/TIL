@@ -1,28 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "파이썬 (python) 04. 데이터 구조 (Data Structure)",
+      "path": "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md"
+    },
+    {
+      "basename": "문자열 (String)",
+      "path": "KDT/Data structure/String/문자열 (String).md"
+    },
+    {
+      "basename": "파이썬 (python) 01. Python 기초",
+      "path": "KDT/Python/파이썬 (python) 01. Python 기초.md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "Obsidian setting",
       "path": "others/obsidian/Obsidian setting.md"
-    },
-    {
-      "basename": "무제 파일 1",
-      "path": "무제 파일 1.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "무제 파일.md"
-    },
-    {
-      "basename": "파이썬 (python) 01.",
-      "path": "파이썬 (python) 01..md"
-    },
-    {
-      "basename": "commit 3단계의 이해",
-      "path": "commit 3단계의 이해.md"
     },
     {
       "basename": "01. 스택과 큐(Stack & Que)",
@@ -55,10 +55,6 @@
     {
       "basename": "알고리즘 TIP",
       "path": "others/알고리즘 TIP.md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
     },
     {
       "basename": "Git의 기초 - 되돌리기",

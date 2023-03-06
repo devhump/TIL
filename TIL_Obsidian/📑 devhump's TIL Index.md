@@ -5,7 +5,7 @@
 - [[Git]]
 
 #### 파이썬
-- [[04. 데이터 구조 (Data Structure)]]
+- [[KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure)]]
 
 #### 자료구조
 - [[01. about Algorithm (Intro)]]
