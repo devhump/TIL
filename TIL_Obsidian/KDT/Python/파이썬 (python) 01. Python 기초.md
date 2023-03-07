@@ -338,7 +338,8 @@ type(name)
 
 
 ## 파이썬 기본 자료형 (Python Datatype)
-- [ ] 도표 #todo 
+
+![](assets/파이썬%20자료형%20분류.png)
 
 ### 자료형 분류
 - 불린형(Boolean Type)

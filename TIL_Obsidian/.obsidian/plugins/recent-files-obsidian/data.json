@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "05. 정렬 알고리즘 (Sorting Algorithm)",
+      "path": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md"
+    },
+    {
+      "basename": "파이썬 (python) 01. Python 기초",
+      "path": "KDT/Python/파이썬 (python) 01. Python 기초.md"
+    },
+    {
+      "basename": "파이썬 자료형 분류",
+      "path": "KDT/Python/assets/파이썬 자료형 분류.png"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "others/obsidian/markdown for Obsidian.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "others/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "03_tree_img- (1)",
+      "path": "Algorithm (theory)/assets/03_tree_img- (1).png"
+    },
+    {
+      "basename": "01_stack&que_img- (1)",
+      "path": "Algorithm (theory)/assets/01_stack&que_img- (1).png"
+    },
+    {
+      "basename": "Diagram",
+      "path": "others/obsidian/Diagram.md"
+    },
+    {
+      "basename": "Callout",
+      "path": "others/obsidian/Callout.md"
+    },
+    {
+      "basename": "04. 바이너리 인덱스 트리 (Binary Index Tree)",
+      "path": "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md"
+    },
+    {
       "basename": "문자열 (String)",
       "path": "KDT/Data structure/String/문자열 (String).md"
     },
     {
       "basename": "파이썬 (python) 04. 데이터 구조 (Data Structure)",
       "path": "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md"
-    },
-    {
-      "basename": "파이썬 (python) 01. Python 기초",
-      "path": "KDT/Python/파이썬 (python) 01. Python 기초.md"
     },
     {
       "basename": "Git",
@@ -35,10 +71,6 @@
     {
       "basename": "vscode_shortcuts_(mac)",
       "path": "others/vscode_shortcuts_(mac).pdf"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "others/obsidian/LaTeX.md"
     },
     {
       "basename": "Templates List",
@@ -79,10 +111,6 @@
     {
       "basename": "git-img- (5)",
       "path": "KDT/markdown & git/assets/git-img- (5).png"
-    },
-    {
-      "basename": "Callout",
-      "path": "others/obsidian/Callout.md"
     },
     {
       "basename": "Pasted image 20230213024819",
@@ -157,10 +185,6 @@
       "path": "Algorithm (theory)/assets/21. 다이나믹 프로그래밍-img- (6).png"
     },
     {
-      "basename": "01_stack&que_img- (1)",
-      "path": "Algorithm (theory)/assets/01_stack&que_img- (1).png"
-    },
-    {
       "basename": "01_stack&que_img- (2)",
       "path": "Algorithm (theory)/assets/01_stack&que_img- (2).png"
     },
@@ -175,26 +199,6 @@
     {
       "basename": "Python 용어 정리",
       "path": "Python/Python 용어 정리.md"
-    },
-    {
-      "basename": "Python 유용한 문법 정리",
-      "path": "Python/Python 유용한 문법 정리.md"
-    },
-    {
-      "basename": "06. 힙(Heap), 셋(set)",
-      "path": "KDT/Data structure/06. 힙(Heap), 셋(set).md"
-    },
-    {
-      "basename": "04. 리스트 (List)",
-      "path": "KDT/Data structure/04. 리스트 (List).md"
-    },
-    {
-      "basename": "딕셔너리 (Dictionary)",
-      "path": "KDT/Data structure/Dictionary/딕셔너리 (Dictionary).md"
-    },
-    {
-      "basename": "Python error",
-      "path": "Python/Python error.md"
     }
   ],
   "omittedPaths": [

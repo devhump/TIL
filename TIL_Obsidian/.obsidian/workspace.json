@@ -26,10 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Data structure/String/문자열 (String).md",
+                "file": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "22833a37f1500ea4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "KDT/Python/assets/파이썬 자료형 분류.png"
               }
             }
           }
@@ -88,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -126,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Data structure/String/문자열 (String).md",
+                "file": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Data structure/String/문자열 (String).md",
+                "file": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,12 +175,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Data structure/String/문자열 (String).md"
+                "file": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,11 +200,30 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "a85bc5a7c0f465d5",
+  "active": "3f843c7a89da833e",
   "lastOpenFiles": [
-    "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md",
-    "KDT/Data structure/String/문자열 (String).md",
     "KDT/Python/파이썬 (python) 01. Python 기초.md",
+    "KDT/Python/assets/파이썬 자료형 분류.png",
+    "KDT/Python/assets",
+    "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
+    "others/obsidian/markdown for Obsidian.md",
+    "others/obsidian/LaTeX.md",
+    "Algorithm (theory)/assets/03_tree_img- (1).png",
+    "Algorithm (theory)/assets/05. sorting_Algorithm-img- (14).png",
+    "Algorithm (theory)/assets/05. sorting_Algorithm-img- (13).png",
+    "Algorithm (theory)/assets/05. sorting_Algorithm-img- (12).png",
+    "Algorithm (theory)/assets/05. sorting_Algorithm-img- (11).png",
+    "Algorithm (theory)/assets/05. sorting_Algorithm-img- (10).png",
+    "Algorithm (theory)/assets/05. sorting_Algorithm-img- (9).png",
+    "Algorithm (theory)/assets/05. sorting_Algorithm-img- (8).png",
+    "Algorithm (theory)/assets/05. sorting_Algorithm-img- (7).png",
+    "others/obsidian/Diagram.md",
+    "others/obsidian/Callout.md",
+    "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md",
+    "KDT/Data structure/String/문자열 (String).md",
+    "assets/Pasted image 20230307173103.png.md",
+    "assets",
+    "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md",
     "인덱싱.md",
     "KDT/markdown & git/Git.md",
     "commit 3단계의 이해.md",
@@ -206,31 +234,13 @@
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "others/Hot-key (for Mac).md",
     "others/vscode_shortcuts_(mac).pdf",
-    "others/obsidian/LaTeX.md",
     "others/Templates List.md",
     "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
     "Python/반올림, 내림, 올림(python).md",
     "others/알고리즘 TIP.md",
-    "others/assets/Pasted image 20230304173509.png",
-    "others/assets/Pasted image 20230304013059.png",
-    "others/assets/Pasted image 20230304012119.png",
-    "others/assets/Pasted image 20230304012032.png",
-    "others/assets/Pasted image 20230304011822.png",
-    "Algorithm (theory)/assets/Pasted image 20230304021022.png",
-    "Algorithm (theory)/assets/Pasted image 20230304020304.png",
-    "Algorithm (theory)/assets/Pasted image 20230304015957.png",
     "others/Git의 기초 - 되돌리기.md",
-    "others/assets/Git의 기초 - 되돌리기-img- (1).png",
-    "others/assets 1/Git의 기초 - 되돌리기-img- (1).png",
     "KDT/markdown & git/markdown (마크다운) +.md",
-    "others/CLI.md",
     "others/assets 1",
-    "others/obsidian/Callout.md",
-    "22_DP_problem&solving-img-.md",
-    "Algorithm (theory)/23. 그리디(Greedy).md",
-    "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
-    "assets/Pasted image 20230214114442.png.md",
-    "Python/람다함수(Lambda Func, 익명함수).md",
     "KDT/markdown & git/assets",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
