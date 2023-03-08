@@ -1,6 +1,98 @@
 {
   "recentFiles": [
     {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
+    },
+    {
+      "basename": "23. 그리디(Greedy)",
+      "path": "Algorithm (theory)/23. 그리디(Greedy).md"
+    },
+    {
+      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
+      "path": "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md"
+    },
+    {
+      "basename": "21. 다이나믹 프로그래밍",
+      "path": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
+    },
+    {
+      "basename": "18. 유용한 표준 라이브러리 소개",
+      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
+    },
+    {
+      "basename": "17. 재귀함수(Recursive Function)",
+      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
+    },
+    {
+      "basename": "06. 퀵 정렬 (Quick Sort)",
+      "path": "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md"
+    },
+    {
+      "basename": "05. 정렬 알고리즘 (Sorting Algorithm)",
+      "path": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md"
+    },
+    {
+      "basename": "04. 바이너리 인덱스 트리 (Binary Index Tree)",
+      "path": "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md"
+    },
+    {
+      "basename": "02. 우선순위 큐(Priority Queue)",
+      "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
+    },
+    {
+      "basename": "03. 트리 (tree)",
+      "path": "Algorithm (theory)/03. 트리 (tree).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
+      "basename": "06. quick_sort_img- (15)",
+      "path": "Algorithm (theory)/assets/06. quick_sort_img- (15).png"
+    },
+    {
+      "basename": "06. quick_sort_img- (17)",
+      "path": "Algorithm (theory)/assets/06. quick_sort_img- (17).png"
+    },
+    {
+      "basename": "06. quick_sort_img- (18)",
+      "path": "Algorithm (theory)/assets/06. quick_sort_img- (18).png"
+    },
+    {
+      "basename": "01_stack&que_img- (1)",
+      "path": "Algorithm (theory)/assets/01_stack&que_img- (1).png"
+    },
+    {
+      "basename": "06. quick_sort_img- (12)",
+      "path": "Algorithm (theory)/assets/06. quick_sort_img- (12).png"
+    },
+    {
+      "basename": "06. quick_sort_img- (10)",
+      "path": "Algorithm (theory)/assets/06. quick_sort_img- (10).png"
+    },
+    {
+      "basename": "06. quick_sort_img- (1)",
+      "path": "Algorithm (theory)/assets/06. quick_sort_img- (1).png"
+    },
+    {
+      "basename": "파이썬 01. Python 기초",
+      "path": "KDT/Python/파이썬 01. Python 기초.md"
+    },
+    {
+      "basename": "파이썬 02. 제어문 (Control Statement)",
+      "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
+    },
+    {
+      "basename": "Continue vs Pass vs Break",
+      "path": "Python/Continue vs Pass vs Break.md"
+    },
+    {
       "basename": "Enumerate 예시",
       "path": "Python/Enumerate 예시.md"
     },
@@ -13,24 +105,8 @@
       "path": "Python/assets/Pasted image 20230225183348.png"
     },
     {
-      "basename": "Continue vs Pass vs Break",
-      "path": "Python/Continue vs Pass vs Break.md"
-    },
-    {
       "basename": "Pasted image 20230227214624",
       "path": "Python/assets/Pasted image 20230227214624.png"
-    },
-    {
-      "basename": "파이썬 02. 제어문 (Control Statement)",
-      "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
-    },
-    {
-      "basename": "파이썬 01. Python 기초",
-      "path": "KDT/Python/파이썬 01. Python 기초.md"
-    },
-    {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "Python 유용한 문법 정리",
@@ -43,10 +119,6 @@
     {
       "basename": "파이썬 04. 데이터 구조 (Data Structure)",
       "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
-    },
-    {
-      "basename": "05. 정렬 알고리즘 (Sorting Algorithm)",
-      "path": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md"
     },
     {
       "basename": "문자열 (String)",
@@ -65,10 +137,6 @@
       "path": "Algorithm (theory)/assets/03_tree_img- (1).png"
     },
     {
-      "basename": "01_stack&que_img- (1)",
-      "path": "Algorithm (theory)/assets/01_stack&que_img- (1).png"
-    },
-    {
       "basename": "Diagram",
       "path": "others/obsidian/Diagram.md"
     },
@@ -77,20 +145,12 @@
       "path": "others/obsidian/Callout.md"
     },
     {
-      "basename": "04. 바이너리 인덱스 트리 (Binary Index Tree)",
-      "path": "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md"
-    },
-    {
       "basename": "Git",
       "path": "KDT/markdown & git/Git.md"
     },
     {
       "basename": "Obsidian setting",
       "path": "others/obsidian/Obsidian setting.md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
       "basename": "Hot-key (for Mac)",
@@ -103,10 +163,6 @@
     {
       "basename": "Templates List",
       "path": "others/Templates List.md"
-    },
-    {
-      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
-      "path": "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md"
     },
     {
       "basename": "반올림, 내림, 올림(python)",
@@ -143,62 +199,6 @@
     {
       "basename": "Pasted image 20230213024819",
       "path": "KDT/assets/Pasted image 20230213024819.png"
-    },
-    {
-      "basename": "Pasted image 20230208215038",
-      "path": "KDT/assets/Pasted image 20230208215038.png"
-    },
-    {
-      "basename": "Pasted image 20230208214956",
-      "path": "KDT/assets/Pasted image 20230208214956.png"
-    },
-    {
-      "basename": "Pasted image 20230208214503",
-      "path": "KDT/assets/Pasted image 20230208214503.png"
-    },
-    {
-      "basename": "linked list2",
-      "path": "KDT/assets/linked list2.png"
-    },
-    {
-      "basename": "linked list1",
-      "path": "KDT/assets/linked list1.png"
-    },
-    {
-      "basename": "스크린샷 2023-02-08 21.26.38",
-      "path": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
-    },
-    {
-      "basename": "23. 그리디(Greedy)",
-      "path": "Algorithm (theory)/23. 그리디(Greedy).md"
-    },
-    {
-      "basename": "23_greedy_img- (1)",
-      "path": "Algorithm (theory)/assets/23_greedy_img- (1).png"
-    },
-    {
-      "basename": "02. 우선순위 큐(Priority Queue)",
-      "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
-    },
-    {
-      "basename": "02_Priority Queue_img- (1)",
-      "path": "Algorithm (theory)/assets/02_Priority Queue_img- (1).png"
-    },
-    {
-      "basename": "22_DP_problem&solving-img- (1)",
-      "path": "Algorithm (theory)/assets/22_DP_problem&solving-img- (1).png"
-    },
-    {
-      "basename": "람다함수(Lambda Func, 익명함수)",
-      "path": "Python/람다함수(Lambda Func, 익명함수).md"
-    },
-    {
-      "basename": "17_recursive_function-img_1",
-      "path": "Algorithm (theory)/assets/17_recursive_function-img_1.png"
-    },
-    {
-      "basename": "17. 재귀함수(Recursive Function)",
-      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
     }
   ],
   "omittedPaths": [

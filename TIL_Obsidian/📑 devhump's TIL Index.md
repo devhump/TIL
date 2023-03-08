@@ -21,6 +21,7 @@
 - [[03. 트리 (tree)]]
 - [[04. 바이너리 인덱스 트리 (Binary Index Tree)]]
 - [[05. 정렬 알고리즘 (Sorting Algorithm)]]
+- [[06. 퀵 정렬 (Quick Sort)]]
 - [[17. 재귀함수(Recursive Function)]]
 - [[18. 유용한 표준 라이브러리 소개]]
 - [[21. 다이나믹 프로그래밍]]
@@ -37,6 +38,7 @@
 	- [[Python/반올림, 내림, 올림(python)]]
 - [Python error](Python/Python%20error.md)
 - [[Continue vs Pass vs Break]]
+- [[Enumerate 예시]]
 
 ### others
 - [[500 mile]]
