@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Continue vs Pass vs Break",
+      "path": "Python/Continue vs Pass vs Break.md"
+    },
+    {
+      "basename": "파이썬 02. 제어문 (Control Statement)",
+      "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
+    },
+    {
+      "basename": "파이썬 01. Python 기초",
+      "path": "KDT/Python/파이썬 01. Python 기초.md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "파이썬 자료형 분류",
+      "path": "KDT/Python/assets/파이썬 자료형 분류.png"
+    },
+    {
+      "basename": "파이썬 04. 데이터 구조 (Data Structure)",
+      "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
     },
     {
       "basename": "05. 정렬 알고리즘 (Sorting Algorithm)",
@@ -11,14 +31,6 @@
     {
       "basename": "문자열 (String)",
       "path": "KDT/Data structure/String/문자열 (String).md"
-    },
-    {
-      "basename": "파이썬 자료형 분류",
-      "path": "KDT/Python/assets/파이썬 자료형 분류.png"
-    },
-    {
-      "basename": "파이썬 (python) 01. Python 기초",
-      "path": "KDT/Python/파이썬 (python) 01. Python 기초.md"
     },
     {
       "basename": "markdown for Obsidian",
@@ -47,10 +59,6 @@
     {
       "basename": "04. 바이너리 인덱스 트리 (Binary Index Tree)",
       "path": "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md"
-    },
-    {
-      "basename": "파이썬 (python) 04. 데이터 구조 (Data Structure)",
-      "path": "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md"
     },
     {
       "basename": "Git",
@@ -191,14 +199,6 @@
     {
       "basename": "01_stack&que_img- (6)",
       "path": "Algorithm (theory)/assets/01_stack&que_img- (6).png"
-    },
-    {
-      "basename": "03. 트리 (tree)",
-      "path": "Algorithm (theory)/03. 트리 (tree).md"
-    },
-    {
-      "basename": "Python 용어 정리",
-      "path": "Python/Python 용어 정리.md"
     }
   ],
   "omittedPaths": [

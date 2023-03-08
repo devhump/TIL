@@ -4,8 +4,10 @@
 - [[markdown (마크다운) +]]
 - [[Git]]
 
-#### 파이썬
-- [[KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure)]]
+#### 파이썬 (Python)
+- [[파이썬 01. Python 기초]]
+- [[파이썬 02. 제어문 (Control Statement)]]
+- [[파이썬 04. 데이터 구조 (Data Structure)]]
 
 #### 자료구조
 - [[01. about Algorithm (Intro)]]
@@ -34,6 +36,7 @@
 - [[Python 유용한 문법 정리]]
 	- [[Python/반올림, 내림, 올림(python)]]
 - [Python error](Python/Python%20error.md)
+- [[Continue vs Pass vs Break]]
 
 ### others
 - [[500 mile]]
