@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
       "basename": "05. 정렬 알고리즘 (Sorting Algorithm)",
       "path": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md"
     },
     {
-      "basename": "파이썬 (python) 01. Python 기초",
-      "path": "KDT/Python/파이썬 (python) 01. Python 기초.md"
+      "basename": "문자열 (String)",
+      "path": "KDT/Data structure/String/문자열 (String).md"
     },
     {
       "basename": "파이썬 자료형 분류",
       "path": "KDT/Python/assets/파이썬 자료형 분류.png"
+    },
+    {
+      "basename": "파이썬 (python) 01. Python 기초",
+      "path": "KDT/Python/파이썬 (python) 01. Python 기초.md"
     },
     {
       "basename": "markdown for Obsidian",
@@ -41,20 +49,12 @@
       "path": "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md"
     },
     {
-      "basename": "문자열 (String)",
-      "path": "KDT/Data structure/String/문자열 (String).md"
-    },
-    {
       "basename": "파이썬 (python) 04. 데이터 구조 (Data Structure)",
       "path": "KDT/Python/파이썬 (python) 04. 데이터 구조 (Data Structure).md"
     },
     {
       "basename": "Git",
       "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "Obsidian setting",

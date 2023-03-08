@@ -17,6 +17,8 @@
 - [[01. 스택과 큐(Stack & Que)]]
 - [[02. 우선순위 큐(Priority Queue)]]
 - [[03. 트리 (tree)]]
+- [[04. 바이너리 인덱스 트리 (Binary Index Tree)]]
+- [[05. 정렬 알고리즘 (Sorting Algorithm)]]
 - [[17. 재귀함수(Recursive Function)]]
 - [[18. 유용한 표준 라이브러리 소개]]
 - [[21. 다이나믹 프로그래밍]]
