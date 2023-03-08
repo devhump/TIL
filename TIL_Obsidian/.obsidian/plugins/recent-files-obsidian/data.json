@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Enumerate 예시",
+      "path": "Python/Enumerate 예시.md"
+    },
+    {
+      "basename": "continue_break_pass",
+      "path": "Python/assets/continue_break_pass.png"
+    },
+    {
+      "basename": "Pasted image 20230225183348",
+      "path": "Python/assets/Pasted image 20230225183348.png"
+    },
+    {
       "basename": "Continue vs Pass vs Break",
       "path": "Python/Continue vs Pass vs Break.md"
+    },
+    {
+      "basename": "Pasted image 20230227214624",
+      "path": "Python/assets/Pasted image 20230227214624.png"
     },
     {
       "basename": "파이썬 02. 제어문 (Control Statement)",
@@ -15,6 +31,10 @@
     {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "Python 유용한 문법 정리",
+      "path": "Python/Python 유용한 문법 정리.md"
     },
     {
       "basename": "파이썬 자료형 분류",
@@ -149,14 +169,6 @@
       "path": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
     },
     {
-      "basename": "Pasted image 20230227214624",
-      "path": "Python/assets/Pasted image 20230227214624.png"
-    },
-    {
-      "basename": "Pasted image 20230225183348",
-      "path": "Python/assets/Pasted image 20230225183348.png"
-    },
-    {
       "basename": "23. 그리디(Greedy)",
       "path": "Algorithm (theory)/23. 그리디(Greedy).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "17. 재귀함수(Recursive Function)",
       "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
-    },
-    {
-      "basename": "21. 다이나믹 프로그래밍-img- (6)",
-      "path": "Algorithm (theory)/assets/21. 다이나믹 프로그래밍-img- (6).png"
-    },
-    {
-      "basename": "01_stack&que_img- (2)",
-      "path": "Algorithm (theory)/assets/01_stack&que_img- (2).png"
-    },
-    {
-      "basename": "01_stack&que_img- (6)",
-      "path": "Algorithm (theory)/assets/01_stack&que_img- (6).png"
     }
   ],
   "omittedPaths": [

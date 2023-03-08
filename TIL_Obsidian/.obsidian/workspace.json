@@ -60,9 +60,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "324c4f87d17d7eda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Enumerate 예시.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -152,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Continue vs Pass vs Break.md",
+                "file": "Python/Enumerate 예시.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Continue vs Pass vs Break.md",
+                "file": "Python/Enumerate 예시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Continue vs Pass vs Break.md"
+                "file": "Python/Enumerate 예시.md"
               }
             }
           }
@@ -216,22 +229,24 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "fa7d4621fe0b7e71",
+  "active": "324c4f87d17d7eda",
   "lastOpenFiles": [
+    "Python/assets/continue_break_pass.png",
+    "Python/assets/Pasted image 20230225183348.png",
+    "Python/Continue vs Pass vs Break.md",
+    "Python/assets/Pasted image 20230227214624.png",
+    "Python/Enumerate 예시.md",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "KDT/Python/파이썬 01. Python 기초.md",
     "📑 devhump's TIL Index.md",
+    "Python/Python 유용한 문법 정리.md",
     "KDT/Python/assets/파이썬 자료형 분류.png",
-    "Python/Continue vs Pass vs Break.md",
     "KDT/Python/assets/python 02-control statement-img- (10).png",
     "KDT/Python/assets/python 02-control statement-img- (9).png",
     "KDT/Python/assets/python 02-control statement-img- (7).png",
     "KDT/Python/assets/python 02-control statement-img- (6).png",
     "KDT/Python/assets/python 02-control statement-img- (5).png",
     "KDT/Python/assets/python 02-control statement-img- (4).png",
-    "KDT/Python/assets/python 02-control statement-img- (3).png",
-    "KDT/Python/assets/python 02-control statement-img- (2).png",
-    "KDT/Python/assets/python 02-control statement-img- (1).png",
     "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
     "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
     "KDT/Data structure/String/문자열 (String).md",
@@ -254,8 +269,6 @@
     "others/Templates List.md",
     "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
     "Python/반올림, 내림, 올림(python).md",
-    "others/알고리즘 TIP.md",
-    "others/Git의 기초 - 되돌리기.md",
     "others/assets 1",
     "KDT/markdown & git/assets",
     "무제 파일 1.canvas",
