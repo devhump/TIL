@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
       "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
       "path": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
+    },
+    {
+      "basename": "08_DFS&BFS_img- (1)",
+      "path": "Algorithm (theory)/assets/08_DFS&BFS_img- (1).png"
     },
     {
       "basename": "답안 예시",
@@ -191,14 +199,6 @@
     {
       "basename": "Git의 기초 - 되돌리기-img- (1)",
       "path": "others/assets/Git의 기초 - 되돌리기-img- (1).png"
-    },
-    {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown & git/markdown (마크다운) +.md"
-    },
-    {
-      "basename": "CLI",
-      "path": "others/CLI.md"
     }
   ],
   "omittedPaths": [
