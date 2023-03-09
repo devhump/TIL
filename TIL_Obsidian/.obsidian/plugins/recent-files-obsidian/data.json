@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
+      "path": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
+    },
+    {
+      "basename": "답안 예시",
+      "path": "others/templates/답안 예시.md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "Obsidian setting",
+      "path": "others/obsidian/Obsidian setting.md"
+    },
+    {
+      "basename": "파이썬 01. Python 기초",
+      "path": "KDT/Python/파이썬 01. Python 기초.md"
+    },
+    {
+      "basename": "Python 용어 정리",
+      "path": "Python/Python 용어 정리.md"
+    },
+    {
+      "basename": "06. 퀵 정렬 (Quick Sort)",
+      "path": "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md"
     },
     {
       "basename": "더 공부해 볼 주제",
@@ -27,10 +51,6 @@
     {
       "basename": "17. 재귀함수(Recursive Function)",
       "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
-    },
-    {
-      "basename": "06. 퀵 정렬 (Quick Sort)",
-      "path": "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md"
     },
     {
       "basename": "05. 정렬 알고리즘 (Sorting Algorithm)",
@@ -79,10 +99,6 @@
     {
       "basename": "06. quick_sort_img- (1)",
       "path": "Algorithm (theory)/assets/06. quick_sort_img- (1).png"
-    },
-    {
-      "basename": "파이썬 01. Python 기초",
-      "path": "KDT/Python/파이썬 01. Python 기초.md"
     },
     {
       "basename": "파이썬 02. 제어문 (Control Statement)",
@@ -149,10 +165,6 @@
       "path": "KDT/markdown & git/Git.md"
     },
     {
-      "basename": "Obsidian setting",
-      "path": "others/obsidian/Obsidian setting.md"
-    },
-    {
       "basename": "Hot-key (for Mac)",
       "path": "others/Hot-key (for Mac).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "CLI",
       "path": "others/CLI.md"
-    },
-    {
-      "basename": "git-img- (4)",
-      "path": "KDT/markdown & git/assets/git-img- (4).png"
-    },
-    {
-      "basename": "git-img- (5)",
-      "path": "KDT/markdown & git/assets/git-img- (5).png"
-    },
-    {
-      "basename": "Pasted image 20230213024819",
-      "path": "KDT/assets/Pasted image 20230213024819.png"
     }
   ],
   "omittedPaths": [

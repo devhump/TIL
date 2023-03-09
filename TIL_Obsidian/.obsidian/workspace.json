@@ -23,13 +23,13 @@
             }
           },
           {
-            "id": "5fc682f94d44f871",
+            "id": "a690626c3b1723d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
-                "mode": "source",
+                "file": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "replace",
+                "query": "시퀀스",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,16 +166,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📑 devhump's TIL Index.md"
+                "file": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 385.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,10 +190,15 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "5fc682f94d44f871",
+  "active": "a690626c3b1723d8",
   "lastOpenFiles": [
-    "더 공부해 볼 주제.md",
+    "others/templates/답안 예시.md",
+    "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
     "📑 devhump's TIL Index.md",
+    "others/obsidian/Obsidian setting.md",
+    "KDT/Python/파이썬 01. Python 기초.md",
+    "Python/Python 용어 정리.md",
+    "더 공부해 볼 주제.md",
     "Algorithm (theory)/23. 그리디(Greedy).md",
     "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
     "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
@@ -216,7 +221,6 @@
     "Algorithm (theory)/assets/06. quick_sort_img- (11).png",
     "Algorithm (theory)/assets/06. quick_sort_img- (10).png",
     "Algorithm (theory)/assets/06. quick_sort_img- (1).png",
-    "KDT/Python/파이썬 01. Python 기초.md",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "Python/Continue vs Pass vs Break.md",
     "Python/Enumerate 예시.md",
@@ -225,10 +229,6 @@
     "KDT/Data structure/String/문자열 (String).md",
     "KDT/Python/assets",
     "others/obsidian/markdown for Obsidian.md",
-    "others/obsidian/LaTeX.md",
-    "others/obsidian/Diagram.md",
-    "others/obsidian/Callout.md",
-    "assets/Pasted image 20230307173103.png.md",
     "assets",
     "others/vscode_shortcuts_(mac).pdf",
     "others/assets 1",
