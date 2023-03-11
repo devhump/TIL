@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
+                "file": "Algorithm (theory)/08. DFS & BFS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,11 +203,11 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "ebed0d3592c1eb7a",
+  "active": "a690626c3b1723d8",
   "lastOpenFiles": [
     "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
-    "Algorithm (theory)/assets/08_DFS&BFS_img- (1).png",
     "Algorithm (theory)/08. DFS & BFS.md",
+    "Algorithm (theory)/assets/08_DFS&BFS_img- (1).png",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (14).png",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (13).png",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (12).png",
