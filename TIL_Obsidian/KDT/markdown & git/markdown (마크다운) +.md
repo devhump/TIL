@@ -1,5 +1,5 @@
-👉 [[markdown for Obsidian]]
-👉 [[LaTeX]]
+👉 [[../../_others_/obsidian/markdown for Obsidian]]
+👉 [[../../_others_/obsidian/LaTeX]]
 
 > [!note] 목차
 > [intro](#intro)

@@ -23,33 +23,16 @@
             }
           },
           {
-            "id": "a690626c3b1723d8",
+            "id": "b967e1126719c2fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebed0d3592c1eb7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
+                "file": "📑 devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
+                "file": "📑 devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md"
+                "file": "📑 devhump's TIL Index.md"
               }
             }
           }
@@ -203,10 +186,12 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "a690626c3b1723d8",
+  "active": "de5082e9ae9b81ad",
   "lastOpenFiles": [
-    "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
+    "KDT/assets/스크린샷 2023-02-08 21.26.38.png",
+    "📑 devhump's TIL Index.md",
     "Algorithm (theory)/08. DFS & BFS.md",
+    "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (1).png",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (14).png",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (13).png",
@@ -217,9 +202,8 @@
     "Algorithm (theory)/assets/08_DFS&BFS_img- (8).png",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (7).png",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (6).png",
-    "others/templates/답안 예시.md",
-    "📑 devhump's TIL Index.md",
-    "others/obsidian/Obsidian setting.md",
+    "_others_/templates/답안 예시.md",
+    "_others_/obsidian/Obsidian setting.md",
     "KDT/Python/파이썬 01. Python 기초.md",
     "Python/Python 용어 정리.md",
     "더 공부해 볼 주제.md",
@@ -242,14 +226,14 @@
     "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
     "KDT/Python/assets",
     "assets",
-    "others/vscode_shortcuts_(mac).pdf",
+    "_others_/vscode_shortcuts_(mac).pdf",
     "others/assets 1",
     "KDT/markdown & git/assets",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
-    "others/obsidian/assets",
+    "_others_/obsidian/assets",
     "Python/assets",
-    "others/obsidian",
+    "_others_/obsidian",
     "others/새 폴더"
   ]
 }

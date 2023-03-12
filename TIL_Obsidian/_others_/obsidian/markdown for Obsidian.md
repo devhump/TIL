@@ -146,10 +146,10 @@ Obsidian URI links can be used to open notes in Obsidian either from another Obs
 ```
 
 [Callout 1](Callout.md)
-[markdown for obsidian 1](markdown%20for%20obsidian.md)
+[markdown for obsidian 1](markdown%20for%20Obsidian.md)
 
-[Callout 2](<Callout>)
-[markdown for obsidian 2](<markdown for obsidian>)
+[Callout 2](Callout.md)
+[markdown for obsidian 2](markdown%20for%20Obsidian.md for obsidian>)
 
 ---
 ### 9. Math

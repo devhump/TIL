@@ -41,21 +41,21 @@
 - [[Enumerate 예시]]
 
 ### others
-- [[500 mile]]
-- [[알고리즘 TIP]]
-- [[Git의 기초 - 되돌리기]]
-- [[CLI]]
-- [[Hot-key (for Mac)]]
-- [[Hot-key (windows)]]
-- [[Templates List]]
-- [[vscode_shortcuts_(mac).pdf]] 
+- [[_others_/500 mile]]
+- [[_others_/알고리즘 TIP]]
+- [[_others_/Git의 기초 - 되돌리기]]
+- [[_others_/CLI]]
+- [[_others_/Hot-key (for Mac)]]
+- [[_others_/Hot-key (windows)]]
+- [[_others_/Templates List]]
+- [[_others_/vscode_shortcuts_(mac).pdf]] 
 
 #### Obsidian
-- [[markdown for Obsidian]]
-- [Callout](others/obsidian/Callout.md)
-- [Diagram](others/obsidian/Diagram.md)
-- [LaTeX](others/obsidian/LaTeX.md)
-- [[Obsidian setting]]
+- [[_others_/obsidian/markdown for Obsidian]]
+- [Callout](_others_/obsidian/Callout.md)
+- [Diagram](_others_/obsidian/Diagram.md)
+- [LaTeX](_others_/obsidian/LaTeX.md)
+- [[_others_/obsidian/Obsidian setting]]
 
 
 ![더 공부해 볼 주제](더%20공부해%20볼%20주제.md)

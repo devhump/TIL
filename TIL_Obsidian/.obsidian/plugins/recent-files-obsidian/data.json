@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "스크린샷 2023-02-08 21.26.38",
+      "path": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
+    },
+    {
       "basename": "08. DFS & BFS",
       "path": "Algorithm (theory)/08. DFS & BFS.md"
     },
@@ -14,15 +22,11 @@
     },
     {
       "basename": "답안 예시",
-      "path": "others/templates/답안 예시.md"
-    },
-    {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
+      "path": "_others_/templates/답안 예시.md"
     },
     {
       "basename": "Obsidian setting",
-      "path": "others/obsidian/Obsidian setting.md"
+      "path": "_others_/obsidian/Obsidian setting.md"
     },
     {
       "basename": "파이썬 01. Python 기초",
@@ -150,11 +154,11 @@
     },
     {
       "basename": "markdown for Obsidian",
-      "path": "others/obsidian/markdown for Obsidian.md"
+      "path": "_others_/obsidian/markdown for Obsidian.md"
     },
     {
       "basename": "LaTeX",
-      "path": "others/obsidian/LaTeX.md"
+      "path": "_others_/obsidian/LaTeX.md"
     },
     {
       "basename": "03_tree_img- (1)",
@@ -162,11 +166,11 @@
     },
     {
       "basename": "Diagram",
-      "path": "others/obsidian/Diagram.md"
+      "path": "_others_/obsidian/Diagram.md"
     },
     {
       "basename": "Callout",
-      "path": "others/obsidian/Callout.md"
+      "path": "_others_/obsidian/Callout.md"
     },
     {
       "basename": "Git",
@@ -174,15 +178,15 @@
     },
     {
       "basename": "Hot-key (for Mac)",
-      "path": "others/Hot-key (for Mac).md"
+      "path": "_others_/Hot-key (for Mac).md"
     },
     {
       "basename": "vscode_shortcuts_(mac)",
-      "path": "others/vscode_shortcuts_(mac).pdf"
+      "path": "_others_/vscode_shortcuts_(mac).pdf"
     },
     {
       "basename": "Templates List",
-      "path": "others/Templates List.md"
+      "path": "_others_/Templates List.md"
     },
     {
       "basename": "반올림, 내림, 올림(python)",
@@ -190,15 +194,11 @@
     },
     {
       "basename": "알고리즘 TIP",
-      "path": "others/알고리즘 TIP.md"
+      "path": "_others_/알고리즘 TIP.md"
     },
     {
       "basename": "Git의 기초 - 되돌리기",
-      "path": "others/Git의 기초 - 되돌리기.md"
-    },
-    {
-      "basename": "Git의 기초 - 되돌리기-img- (1)",
-      "path": "others/assets/Git의 기초 - 되돌리기-img- (1).png"
+      "path": "_others_/Git의 기초 - 되돌리기.md"
     }
   ],
   "omittedPaths": [
