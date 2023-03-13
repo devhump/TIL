@@ -5,6 +5,10 @@
       "path": "📑 devhump's TIL Index.md"
     },
     {
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
+    },
+    {
       "basename": "스크린샷 2023-02-08 21.26.38",
       "path": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "06. 퀵 정렬 (Quick Sort)",
       "path": "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
     },
     {
       "basename": "23. 그리디(Greedy)",

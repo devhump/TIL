@@ -23,12 +23,15 @@
             }
           },
           {
-            "id": "b967e1126719c2fd",
+            "id": "f9f5379a80cc8008",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
+                "file": "더 공부해 볼 주제.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -188,8 +191,9 @@
   },
   "active": "de5082e9ae9b81ad",
   "lastOpenFiles": [
-    "KDT/assets/스크린샷 2023-02-08 21.26.38.png",
+    "더 공부해 볼 주제.md",
     "📑 devhump's TIL Index.md",
+    "KDT/assets/스크린샷 2023-02-08 21.26.38.png",
     "Algorithm (theory)/08. DFS & BFS.md",
     "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (1).png",
@@ -201,12 +205,10 @@
     "Algorithm (theory)/assets/08_DFS&BFS_img- (9).png",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (8).png",
     "Algorithm (theory)/assets/08_DFS&BFS_img- (7).png",
-    "Algorithm (theory)/assets/08_DFS&BFS_img- (6).png",
     "_others_/templates/답안 예시.md",
     "_others_/obsidian/Obsidian setting.md",
     "KDT/Python/파이썬 01. Python 기초.md",
     "Python/Python 용어 정리.md",
-    "더 공부해 볼 주제.md",
     "Algorithm (theory)/23. 그리디(Greedy).md",
     "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
     "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
