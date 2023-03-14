@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🖥",
       "🧭",
       "🚢",
       "🧑‍🎓",
-      "📥",
-      "SiPython-white"
+      "📥"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -22,7 +22,7 @@
     }
   },
   "Algorithm (theory)": "👨‍💻",
-  "Python": "SiPython-white",
+  "Python": "🖥",
   "_others_": "📥",
   "KDT": "🧑‍🎓",
   "더 공부해 볼 주제.md": "🧭"
