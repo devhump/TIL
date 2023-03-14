@@ -21,35 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "57885ce5576e19cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/Hot-key (for Mac).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea2a99d3dafac6ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
+                "file": "📑 devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
+                "file": "📑 devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md"
+                "file": "📑 devhump's TIL Index.md"
               }
             }
           }
@@ -205,17 +178,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "ea2a99d3dafac6ae",
+  "active": "de5082e9ae9b81ad",
   "lastOpenFiles": [
+    "_others_/Hot-key (for Mac).md",
+    "Algorithm (theory)/08. DFS & BFS.md",
     "📑 devhump's TIL Index.md",
     "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
     "_others_/obsidian/Obsidian setting.md",
-    "_others_/Hot-key (for Mac).md",
     "_others_/templates/답안 예시.md",
     "test.md",
     "_others_/templates/문제 설명.md",
     "_others_/templates/문제 조건.md",
-    "Algorithm (theory)/08. DFS & BFS.md",
     "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "더 공부해 볼 주제.md",

@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "Hot-key (for Mac)",
+      "path": "_others_/Hot-key (for Mac).md"
+    },
+    {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
     },
     {
       "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
@@ -15,10 +19,6 @@
     {
       "basename": "Obsidian setting",
       "path": "_others_/obsidian/Obsidian setting.md"
-    },
-    {
-      "basename": "Hot-key (for Mac)",
-      "path": "_others_/Hot-key (for Mac).md"
     },
     {
       "basename": "답안 예시",
