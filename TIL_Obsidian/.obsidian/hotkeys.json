@@ -177,7 +177,8 @@
     }
   ],
   "workspace:toggle-pin": [],
-  "editor:fold-more": [
+  "workspace:goto-tab-8": [],
+  "editor:fold-all": [
     {
       "modifiers": [
         "Mod"
@@ -185,5 +186,13 @@
       "key": "8"
     }
   ],
-  "workspace:goto-tab-8": []
+  "editor:unfold-all": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "8"
+    }
+  ]
 }

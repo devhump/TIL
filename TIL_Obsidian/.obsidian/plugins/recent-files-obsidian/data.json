@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
+      "path": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
+    },
+    {
+      "basename": "Obsidian setting",
+      "path": "_others_/obsidian/Obsidian setting.md"
+    },
+    {
       "basename": "Hot-key (for Mac)",
       "path": "_others_/Hot-key (for Mac).md"
     },
@@ -17,14 +33,6 @@
       "path": "_others_/templates/문제 조건.md"
     },
     {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
-      "path": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
-    },
-    {
       "basename": "04. 바이너리 인덱스 트리 (Binary Index Tree)",
       "path": "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md"
     },
@@ -37,20 +45,12 @@
       "path": "더 공부해 볼 주제.md"
     },
     {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
-    },
-    {
       "basename": "스크린샷 2023-02-08 21.26.38",
       "path": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
     },
     {
       "basename": "08_DFS&BFS_img- (1)",
       "path": "Algorithm (theory)/assets/08_DFS&BFS_img- (1).png"
-    },
-    {
-      "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
     },
     {
       "basename": "파이썬 01. Python 기초",
