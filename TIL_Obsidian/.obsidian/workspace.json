@@ -28,14 +28,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "더 공부해 볼 주제.md",
+                "file": "Python/람다함수(Lambda Func, 익명함수).md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "Python/람다함수(Lambda Func, 익명함수).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "Python/람다함수(Lambda Func, 익명함수).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📑 devhump's TIL Index.md"
+                "file": "Python/람다함수(Lambda Func, 익명함수).md"
               }
             }
           }
@@ -189,7 +190,7 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "de5082e9ae9b81ad",
+  "active": "f9f5379a80cc8008",
   "lastOpenFiles": [
     "더 공부해 볼 주제.md",
     "📑 devhump's TIL Index.md",

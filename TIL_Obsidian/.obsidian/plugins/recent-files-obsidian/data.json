@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
+      "basename": "람다함수(Lambda Func, 익명함수)",
+      "path": "Python/람다함수(Lambda Func, 익명함수).md"
     },
     {
       "basename": "더 공부해 볼 주제",
       "path": "더 공부해 볼 주제.md"
+    },
+    {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "스크린샷 2023-02-08 21.26.38",
@@ -195,10 +199,6 @@
     {
       "basename": "알고리즘 TIP",
       "path": "_others_/알고리즘 TIP.md"
-    },
-    {
-      "basename": "Git의 기초 - 되돌리기",
-      "path": "_others_/Git의 기초 - 되돌리기.md"
     }
   ],
   "omittedPaths": [
