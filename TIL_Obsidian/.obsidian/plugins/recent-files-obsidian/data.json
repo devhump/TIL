@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "02. 이차원 리스트(2-2)",
+      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
+      "basename": "01. 이차원 리스트(1-2)",
+      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
     {
-      "basename": "01. 이차원 리스트",
-      "path": "KDT/Algorithm/01. 이차원 리스트.md"
+      "basename": "02_2D_list2-img- (1)",
+      "path": "KDT/Algorithm/assets/02_2D_list2-img- (1).png"
+    },
+    {
+      "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
+      "path": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
     },
     {
       "basename": "더 공부해 볼 주제",
@@ -19,10 +31,6 @@
     {
       "basename": "08. DFS & BFS",
       "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
-      "path": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
     },
     {
       "basename": "Obsidian setting",
@@ -183,18 +191,6 @@
     {
       "basename": "03_tree_img- (1)",
       "path": "Algorithm (theory)/assets/03_tree_img- (1).png"
-    },
-    {
-      "basename": "Diagram",
-      "path": "_others_/obsidian/Diagram.md"
-    },
-    {
-      "basename": "Callout",
-      "path": "_others_/obsidian/Callout.md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
     }
   ],
   "omittedPaths": [
