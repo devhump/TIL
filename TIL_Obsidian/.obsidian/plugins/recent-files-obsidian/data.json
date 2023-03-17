@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "03. 완전탐색  I (Exhaustive Search)",
+      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
+    },
+    {
+      "basename": "03_Exhaustive_Search-img- (1)",
+      "path": "KDT/Algorithm/assets/03_Exhaustive_Search-img- (1).png"
+    },
+    {
+      "basename": "02_2D_list2-img- (7)",
+      "path": "KDT/Algorithm/assets/02_2D_list2-img- (7).png"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
     {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
-    },
-    {
       "basename": "02. 이차원 리스트(2-2)",
       "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
+      "basename": "Git의 기초 - 되돌리기",
+      "path": "_others_/Git의 기초 - 되돌리기.md"
+    },
+    {
+      "basename": "CLI",
+      "path": "_others_/CLI.md"
+    },
+    {
+      "basename": "Hot-key (windows)",
+      "path": "_others_/Hot-key (windows).md"
+    },
+    {
+      "basename": "01. 이차원 리스트(1-2)",
+      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
     },
     {
       "basename": "02_2D_list2-img- (1)",
@@ -175,22 +199,6 @@
     {
       "basename": "파이썬 04. 데이터 구조 (Data Structure)",
       "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
-    },
-    {
-      "basename": "문자열 (String)",
-      "path": "KDT/Data structure/String/문자열 (String).md"
-    },
-    {
-      "basename": "markdown for Obsidian",
-      "path": "_others_/obsidian/markdown for Obsidian.md"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
-    },
-    {
-      "basename": "03_tree_img- (1)",
-      "path": "Algorithm (theory)/assets/03_tree_img- (1).png"
     }
   ],
   "omittedPaths": [

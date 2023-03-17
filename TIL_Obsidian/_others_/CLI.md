@@ -10,7 +10,7 @@
 
 
 ### CLI
-- Command-Line Interface
+- **Command-Line Interface**
 - 명령어 인터페이스라고도 하며, 가상 터미널 또는 텍스트 터미널을 통해 사용자와 컴퓨터가 상호 작용하는 방식을 뜻한다. 
 	- ex) git-bash, dos, cmd, terminal
 		- ↔ GUi (Graphic User Interface)
@@ -36,11 +36,16 @@
 
 -   `pwd`(print working directory): 현재 디렉토리(폴더 내지는 파일) 출력.
 -   `cd` (change directory) : 디렉토리 이동
+	- 디렉토리 이름 쓰면서 `tab`을 치면 자동완성이 가능 하다.
+	- `cd` : <u>단독으로 쓰면  home 폴더로 이동 가능 하다</u>
 	- `cd .` : 현재 디렉토리
-	- `cd . .` : 상위 디렉토리 이동, 띄어쓰기
+	- `cd ..` : 상위 디렉토리 이동, 띄어쓰기
+
 -   `ls` (list) : 현 디렉토리 내 모든 파일 출력
 	- `ls -a` : (list up all) 숨김파일/폴더도 전부 표시
-	- `ls -l` : 파일 포맷 출력
+		- 숨겨진 파일은 이름 앞에 `.` 존재한다.
+	- `ls -l` : 파일 포맷 출력 
+		- 리스트 유형으로
 	- `ls -la` 또는 `ls -al` 도 가능 (결과 둘다 동일)
 -   `mkdir` (make directory) : 디렉토리 생성
 

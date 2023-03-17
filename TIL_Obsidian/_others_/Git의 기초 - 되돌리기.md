@@ -84,7 +84,7 @@ Changes not staged for commit:
 ```
 git reset HEAD^
 ```
-- ***직전에 commit한 내용을 취소한다. ***
+- ***직전에 commit한 내용을 취소한다.***
 
 ```shell
 // [방법 1] commit을 취소하고 해당 파일들은 staged 상태로 워킹 디렉터리에 보존
