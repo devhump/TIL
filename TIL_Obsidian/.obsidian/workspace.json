@@ -26,17 +26,39 @@
             "id": "fa8cd49405e484be",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "KDT/assets/Pasted image 20230208214503.png"
+              }
+            }
+          },
+          {
+            "id": "b56d918b2f129efe",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+                "file": "KDT/Algorithm/04. 그래프(Graph).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6bbd1946c08abc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm (theory)/03. 트리 (tree).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+                "file": "📑 devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+                "file": "📑 devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
+                "file": "📑 devhump's TIL Index.md"
               }
             }
           }
@@ -190,21 +212,22 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "fa8cd49405e484be",
+  "active": "de5082e9ae9b81ad",
   "lastOpenFiles": [
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (1).png",
-    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (21).png",
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (20).png",
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (19).png",
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (18).png",
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (17).png",
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (16).png",
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (15).png",
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (14).png",
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (13).png",
-    "KDT/Algorithm/assets/03_Exhaustive_Search-img- (12).png",
+    "KDT/Algorithm/04. 그래프(Graph).md",
+    "Algorithm (theory)/03. 트리 (tree).md",
+    "KDT/Algorithm/assets/04_Graph-img- (1).png",
+    "KDT/Algorithm/assets/04_Graph-img- (17).png",
+    "KDT/Algorithm/assets/04_Graph-img- (18).png",
+    "KDT/Algorithm/assets/04_Graph-img- (19).png",
+    "KDT/Algorithm/assets/04_Graph-img- (20).png",
+    "KDT/Algorithm/assets/04_Graph-img- ().png",
+    "KDT/Algorithm/assets/04_Graph-img- (16).png",
+    "KDT/Algorithm/assets/04_Graph-img- (15).png",
+    "KDT/Algorithm/assets/04_Graph-img- (14).png",
+    "KDT/Algorithm/assets/04_Graph-img- (13).png",
     "📑 devhump's TIL Index.md",
+    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "_others_/Git의 기초 - 되돌리기.md",
     "_others_/CLI.md",
@@ -229,7 +252,6 @@
     "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
     "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
-    "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
     "KDT/Python/assets",
     "assets",
     "_others_/vscode_shortcuts_(mac).pdf",

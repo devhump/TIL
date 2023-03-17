@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "04. 그래프(Graph)",
+      "path": "KDT/Algorithm/04. 그래프(Graph).md"
+    },
+    {
+      "basename": "03. 트리 (tree)",
+      "path": "Algorithm (theory)/03. 트리 (tree).md"
+    },
+    {
+      "basename": "04_Graph-img- (1)",
+      "path": "KDT/Algorithm/assets/04_Graph-img- (1).png"
+    },
+    {
+      "basename": "Pasted image 20230208214503",
+      "path": "KDT/assets/Pasted image 20230208214503.png"
+    },
+    {
+      "basename": "Pasted image 20230208214956",
+      "path": "KDT/assets/Pasted image 20230208214956.png"
+    },
+    {
+      "basename": "Pasted image 20230208215038",
+      "path": "KDT/assets/Pasted image 20230208215038.png"
+    },
+    {
+      "basename": "Pasted image 20230213024819",
+      "path": "KDT/assets/Pasted image 20230213024819.png"
+    },
+    {
+      "basename": "linked list2",
+      "path": "KDT/assets/linked list2.png"
+    },
+    {
+      "basename": "linked list1",
+      "path": "KDT/assets/linked list1.png"
+    },
+    {
+      "basename": "스크린샷 2023-02-08 21.26.38",
+      "path": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
+    },
+    {
       "basename": "03. 완전탐색  I (Exhaustive Search)",
       "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
     },
@@ -11,10 +55,6 @@
     {
       "basename": "02_2D_list2-img- (7)",
       "path": "KDT/Algorithm/assets/02_2D_list2-img- (7).png"
-    },
-    {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "02. 이차원 리스트(2-2)",
@@ -81,10 +121,6 @@
       "path": "Python/람다함수(Lambda Func, 익명함수).md"
     },
     {
-      "basename": "스크린샷 2023-02-08 21.26.38",
-      "path": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
-    },
-    {
       "basename": "08_DFS&BFS_img- (1)",
       "path": "Algorithm (theory)/assets/08_DFS&BFS_img- (1).png"
     },
@@ -129,10 +165,6 @@
       "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
     },
     {
-      "basename": "03. 트리 (tree)",
-      "path": "Algorithm (theory)/03. 트리 (tree).md"
-    },
-    {
       "basename": "01. 스택과 큐(Stack & Que)",
       "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
@@ -163,42 +195,6 @@
     {
       "basename": "06. quick_sort_img- (1)",
       "path": "Algorithm (theory)/assets/06. quick_sort_img- (1).png"
-    },
-    {
-      "basename": "파이썬 02. 제어문 (Control Statement)",
-      "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
-    },
-    {
-      "basename": "Continue vs Pass vs Break",
-      "path": "Python/Continue vs Pass vs Break.md"
-    },
-    {
-      "basename": "Enumerate 예시",
-      "path": "Python/Enumerate 예시.md"
-    },
-    {
-      "basename": "continue_break_pass",
-      "path": "Python/assets/continue_break_pass.png"
-    },
-    {
-      "basename": "Pasted image 20230225183348",
-      "path": "Python/assets/Pasted image 20230225183348.png"
-    },
-    {
-      "basename": "Pasted image 20230227214624",
-      "path": "Python/assets/Pasted image 20230227214624.png"
-    },
-    {
-      "basename": "Python 유용한 문법 정리",
-      "path": "Python/Python 유용한 문법 정리.md"
-    },
-    {
-      "basename": "파이썬 자료형 분류",
-      "path": "KDT/Python/assets/파이썬 자료형 분류.png"
-    },
-    {
-      "basename": "파이썬 04. 데이터 구조 (Data Structure)",
-      "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
     }
   ],
   "omittedPaths": [
