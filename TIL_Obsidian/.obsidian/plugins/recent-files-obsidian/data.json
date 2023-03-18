@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "05. 깊이 우선 탐색 (DFS)",
+      "path": "KDT/Algorithm/05. 깊이 우선 탐색 (DFS).md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "Pasted image 20230208214503",
+      "path": "KDT/assets/Pasted image 20230208214503.png"
     },
     {
       "basename": "04. 그래프(Graph)",
@@ -15,10 +23,6 @@
     {
       "basename": "04_Graph-img- (1)",
       "path": "KDT/Algorithm/assets/04_Graph-img- (1).png"
-    },
-    {
-      "basename": "Pasted image 20230208214503",
-      "path": "KDT/assets/Pasted image 20230208214503.png"
     },
     {
       "basename": "Pasted image 20230208214956",
@@ -191,10 +195,6 @@
     {
       "basename": "06. quick_sort_img- (10)",
       "path": "Algorithm (theory)/assets/06. quick_sort_img- (10).png"
-    },
-    {
-      "basename": "06. quick_sort_img- (1)",
-      "path": "Algorithm (theory)/assets/06. quick_sort_img- (1).png"
     }
   ],
   "omittedPaths": [
