@@ -1,12 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "05. 깊이 우선 탐색 (DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색 (DFS).md"
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "05. 깊이 우선 탐색(DFS)",
+      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
     },
     {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "ASCII2",
+      "path": "KDT/Data structure/String/assets/ASCII2.gif"
+    },
+    {
+      "basename": "문자열 (String)",
+      "path": "KDT/Data structure/String/문자열 (String).md"
+    },
+    {
+      "basename": "01. about Algorithm (Intro)-image-1",
+      "path": "KDT/Data structure/assets/01. about Algorithm (Intro)-image-1.png"
+    },
+    {
+      "basename": "파이썬의 기본 데이터 구조",
+      "path": "KDT/Data structure/assets/파이썬의 기본 데이터 구조.png"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
+      "basename": "02. 우선순위 큐(Priority Queue)",
+      "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "_others_/obsidian/markdown for Obsidian.md"
+    },
+    {
+      "basename": "05_DFS-4",
+      "path": "KDT/Algorithm/assets/05_DFS-4.png"
+    },
+    {
+      "basename": "05_DFS-1",
+      "path": "KDT/Algorithm/assets/05_DFS-1.png"
+    },
+    {
+      "basename": "05_DFS-2",
+      "path": "KDT/Algorithm/assets/05_DFS-2.png"
+    },
+    {
+      "basename": "Pasted image 20230226003908",
+      "path": "_others_/obsidian/assets/Pasted image 20230226003908.png"
+    },
+    {
+      "basename": "Pasted image 20230226003835",
+      "path": "_others_/obsidian/assets/Pasted image 20230226003835.png"
+    },
+    {
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown & git/markdown (마크다운) +.md"
     },
     {
       "basename": "Pasted image 20230208214503",
@@ -97,10 +157,6 @@
       "path": "_others_/Hot-key (for Mac).md"
     },
     {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
       "basename": "Obsidian setting",
       "path": "_others_/obsidian/Obsidian setting.md"
     },
@@ -135,66 +191,6 @@
     {
       "basename": "Python 용어 정리",
       "path": "Python/Python 용어 정리.md"
-    },
-    {
-      "basename": "06. 퀵 정렬 (Quick Sort)",
-      "path": "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md"
-    },
-    {
-      "basename": "23. 그리디(Greedy)",
-      "path": "Algorithm (theory)/23. 그리디(Greedy).md"
-    },
-    {
-      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
-      "path": "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md"
-    },
-    {
-      "basename": "21. 다이나믹 프로그래밍",
-      "path": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
-    },
-    {
-      "basename": "18. 유용한 표준 라이브러리 소개",
-      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
-    },
-    {
-      "basename": "17. 재귀함수(Recursive Function)",
-      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
-    },
-    {
-      "basename": "05. 정렬 알고리즘 (Sorting Algorithm)",
-      "path": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md"
-    },
-    {
-      "basename": "02. 우선순위 큐(Priority Queue)",
-      "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
-    },
-    {
-      "basename": "06. quick_sort_img- (15)",
-      "path": "Algorithm (theory)/assets/06. quick_sort_img- (15).png"
-    },
-    {
-      "basename": "06. quick_sort_img- (17)",
-      "path": "Algorithm (theory)/assets/06. quick_sort_img- (17).png"
-    },
-    {
-      "basename": "06. quick_sort_img- (18)",
-      "path": "Algorithm (theory)/assets/06. quick_sort_img- (18).png"
-    },
-    {
-      "basename": "01_stack&que_img- (1)",
-      "path": "Algorithm (theory)/assets/01_stack&que_img- (1).png"
-    },
-    {
-      "basename": "06. quick_sort_img- (12)",
-      "path": "Algorithm (theory)/assets/06. quick_sort_img- (12).png"
-    },
-    {
-      "basename": "06. quick_sort_img- (10)",
-      "path": "Algorithm (theory)/assets/06. quick_sort_img- (10).png"
     }
   ],
   "omittedPaths": [
