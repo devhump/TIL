@@ -23,19 +23,6 @@
             }
           },
           {
-            "id": "49a2b9ab0a85c3ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9de4f00644ac55fc",
             "type": "leaf",
             "state": {
@@ -49,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,9 +193,10 @@
   },
   "active": "9de4f00644ac55fc",
   "lastOpenFiles": [
-    "Algorithm (theory)/08. DFS & BFS.md",
-    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "📑 devhump's TIL Index.md",
+    "Algorithm (theory)/08. DFS & BFS.md",
+    "KDT/markdown & git/Git.md",
+    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "KDT/Data structure/String/assets/ASCII2.gif",
     "KDT/Data structure/String/문자열 (String).md",
     "KDT/Data structure/assets/01. about Algorithm (Intro)-image-1.png",
