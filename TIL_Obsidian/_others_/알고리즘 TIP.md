@@ -19,7 +19,7 @@ input = sys.stdin.readline
 ```
 
 - 여러 줄의 입력 값 한줄로 처리하기 
-	- [3. 리스트 컴프리헨션 (List Comprehension)](../KDT/Data%20structure/04.%20리스트%20(List).md#3.%20리스트%20컴프리헨션%20(List%20Comprehension))
+	- [3. 리스트 컴프리헨션 (List Comprehension)](../KDT/Data%20structure/04.%20리스트(List).md#3.%20리스트%20컴프리헨션%20(List%20Comprehension))
 ```python
 
 lecture_list = [list(map(int, input().split())) for _ in range(n)]

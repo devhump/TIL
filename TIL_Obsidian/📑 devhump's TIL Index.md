@@ -12,8 +12,10 @@
 #### 자료구조(Data structure)
 - [[01. about Algorithm (Intro)]]
 - [[02. basic_IO]]
-- [[04. 리스트 (List)]]
-- [[06. 힙(Heap), 셋(set)]]
+- [[04. 리스트(List)]]
+- [[05. 문자열 (String)]]
+- [[06. 딕셔너리(Dictionary)]]
+- [[08. 힙(Heap), 셋(set)]]
 
 #### 알고리즘(Algorithm)
 - [[01. 이차원 리스트(1-2)]]

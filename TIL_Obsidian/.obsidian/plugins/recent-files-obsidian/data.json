@@ -1,12 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
-    },
-    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
+    },
+    {
+      "basename": "01. about Algorithm (Intro)-image-1",
+      "path": "KDT/Data structure/assets/01. about Algorithm (Intro)-image-1.png"
+    },
+    {
+      "basename": "04_List-5",
+      "path": "KDT/Data structure/assets/04_List-5.png"
+    },
+    {
+      "basename": "04_List-7",
+      "path": "KDT/Data structure/assets/04_List-7.png"
+    },
+    {
+      "basename": "04_List-8",
+      "path": "KDT/Data structure/assets/04_List-8.png"
+    },
+    {
+      "basename": "04_List-6",
+      "path": "KDT/Data structure/assets/04_List-6.png"
+    },
+    {
+      "basename": "04_List",
+      "path": "KDT/Data structure/assets/04_List.png"
+    },
+    {
+      "basename": "파이썬의 기본 데이터 구조",
+      "path": "KDT/Data structure/assets/파이썬의 기본 데이터 구조.png"
+    },
+    {
+      "basename": "08. 힙(Heap), 셋(set)",
+      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
+    },
+    {
+      "basename": "06_Dictionary-5",
+      "path": "KDT/Data structure/assets/06_Dictionary-5.png"
+    },
+    {
+      "basename": "06_Dictionary",
+      "path": "KDT/Data structure/assets/06_Dictionary.png"
+    },
+    {
+      "basename": "06. 딕셔너리(Dictionary)",
+      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+    },
+    {
+      "basename": "06_Dictionary-2",
+      "path": "KDT/Data structure/assets/06_Dictionary-2.png"
+    },
+    {
+      "basename": "06_Dictionary-3",
+      "path": "KDT/Data structure/assets/06_Dictionary-3.png"
+    },
+    {
+      "basename": "06_Dictionary-1",
+      "path": "KDT/Data structure/assets/06_Dictionary-1.png"
+    },
+    {
+      "basename": "06_Dictionary-4",
+      "path": "KDT/Data structure/assets/06_Dictionary-4.png"
+    },
+    {
+      "basename": "05. 문자열 (String)",
+      "path": "KDT/Data structure/05. 문자열 (String).md"
+    },
+    {
+      "basename": "05_String",
+      "path": "KDT/Data structure/assets/05_String.png"
+    },
+    {
+      "basename": "ASCII code_2",
+      "path": "KDT/Data structure/assets/ASCII code_2.gif"
+    },
+    {
+      "basename": "ASCII code",
+      "path": "KDT/Data structure/assets/ASCII code.png"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
     },
     {
       "basename": "08. DFS & BFS",
@@ -15,22 +95,6 @@
     {
       "basename": "05. 깊이 우선 탐색(DFS)",
       "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
-      "basename": "ASCII2",
-      "path": "KDT/Data structure/String/assets/ASCII2.gif"
-    },
-    {
-      "basename": "문자열 (String)",
-      "path": "KDT/Data structure/String/문자열 (String).md"
-    },
-    {
-      "basename": "01. about Algorithm (Intro)-image-1",
-      "path": "KDT/Data structure/assets/01. about Algorithm (Intro)-image-1.png"
-    },
-    {
-      "basename": "파이썬의 기본 데이터 구조",
-      "path": "KDT/Data structure/assets/파이썬의 기본 데이터 구조.png"
     },
     {
       "basename": "01. 스택과 큐(Stack & Que)",
@@ -69,10 +133,6 @@
       "path": "KDT/markdown & git/markdown (마크다운) +.md"
     },
     {
-      "basename": "Pasted image 20230208214503",
-      "path": "KDT/assets/Pasted image 20230208214503.png"
-    },
-    {
       "basename": "04. 그래프(Graph)",
       "path": "KDT/Algorithm/04. 그래프(Graph).md"
     },
@@ -83,30 +143,6 @@
     {
       "basename": "04_Graph-img- (1)",
       "path": "KDT/Algorithm/assets/04_Graph-img- (1).png"
-    },
-    {
-      "basename": "Pasted image 20230208214956",
-      "path": "KDT/assets/Pasted image 20230208214956.png"
-    },
-    {
-      "basename": "Pasted image 20230208215038",
-      "path": "KDT/assets/Pasted image 20230208215038.png"
-    },
-    {
-      "basename": "Pasted image 20230213024819",
-      "path": "KDT/assets/Pasted image 20230213024819.png"
-    },
-    {
-      "basename": "linked list2",
-      "path": "KDT/assets/linked list2.png"
-    },
-    {
-      "basename": "linked list1",
-      "path": "KDT/assets/linked list1.png"
-    },
-    {
-      "basename": "스크린샷 2023-02-08 21.26.38",
-      "path": "KDT/assets/스크린샷 2023-02-08 21.26.38.png"
     },
     {
       "basename": "03. 완전탐색  I (Exhaustive Search)",
@@ -155,42 +191,6 @@
     {
       "basename": "Hot-key (for Mac)",
       "path": "_others_/Hot-key (for Mac).md"
-    },
-    {
-      "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
-    },
-    {
-      "basename": "답안 예시",
-      "path": "_others_/templates/답안 예시.md"
-    },
-    {
-      "basename": "문제 설명",
-      "path": "_others_/templates/문제 설명.md"
-    },
-    {
-      "basename": "문제 조건",
-      "path": "_others_/templates/문제 조건.md"
-    },
-    {
-      "basename": "04. 바이너리 인덱스 트리 (Binary Index Tree)",
-      "path": "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md"
-    },
-    {
-      "basename": "람다함수(Lambda Func, 익명함수)",
-      "path": "Python/람다함수(Lambda Func, 익명함수).md"
-    },
-    {
-      "basename": "08_DFS&BFS_img- (1)",
-      "path": "Algorithm (theory)/assets/08_DFS&BFS_img- (1).png"
-    },
-    {
-      "basename": "파이썬 01. Python 기초",
-      "path": "KDT/Python/파이썬 01. Python 기초.md"
-    },
-    {
-      "basename": "Python 용어 정리",
-      "path": "Python/Python 용어 정리.md"
     }
   ],
   "omittedPaths": [
