@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "06. 코딩 테스트 준비 (기본)",
+      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "06_Dictionary-5",
+      "path": "KDT/Data structure/assets/06_Dictionary-5.png"
+    },
+    {
+      "basename": "Pasted image 20230304012032",
+      "path": "_others_/assets/Pasted image 20230304012032.png"
+    },
+    {
+      "basename": "Pasted image 20230304012119",
+      "path": "_others_/assets/Pasted image 20230304012119.png"
+    },
+    {
+      "basename": "Pasted image 20230304013059",
+      "path": "_others_/assets/Pasted image 20230304013059.png"
+    },
+    {
+      "basename": "Pasted image 20230304173509",
+      "path": "_others_/assets/Pasted image 20230304173509.png"
+    },
+    {
+      "basename": "Pasted image 20230215172247",
+      "path": "_others_/assets/Pasted image 20230215172247.png"
+    },
+    {
+      "basename": "Pasted image 20230215172228",
+      "path": "_others_/assets/Pasted image 20230215172228.png"
+    },
+    {
+      "basename": "Pasted image 20230215172150",
+      "path": "_others_/assets/Pasted image 20230215172150.png"
+    },
+    {
+      "basename": "image-20230217163551003",
+      "path": "_others_/assets/image-20230217163551003.png"
+    },
+    {
+      "basename": "Git의 기초 - 되돌리기-img- (3)",
+      "path": "_others_/assets/Git의 기초 - 되돌리기-img- (3).png"
+    },
+    {
+      "basename": "Git의 기초 - 되돌리기-img- (1)",
+      "path": "_others_/assets/Git의 기초 - 되돌리기-img- (1).png"
+    },
+    {
+      "basename": "Git의 기초 - 되돌리기-img- (2)",
+      "path": "_others_/assets/Git의 기초 - 되돌리기-img- (2).png"
     },
     {
       "basename": "04. 리스트(List)",
@@ -39,10 +91,6 @@
     {
       "basename": "08. 힙(Heap), 셋(set)",
       "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
-    },
-    {
-      "basename": "06_Dictionary-5",
-      "path": "KDT/Data structure/assets/06_Dictionary-5.png"
     },
     {
       "basename": "06_Dictionary",
@@ -147,50 +195,6 @@
     {
       "basename": "03. 완전탐색  I (Exhaustive Search)",
       "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
-    },
-    {
-      "basename": "03_Exhaustive_Search-img- (1)",
-      "path": "KDT/Algorithm/assets/03_Exhaustive_Search-img- (1).png"
-    },
-    {
-      "basename": "02_2D_list2-img- (7)",
-      "path": "KDT/Algorithm/assets/02_2D_list2-img- (7).png"
-    },
-    {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
-    },
-    {
-      "basename": "Git의 기초 - 되돌리기",
-      "path": "_others_/Git의 기초 - 되돌리기.md"
-    },
-    {
-      "basename": "CLI",
-      "path": "_others_/CLI.md"
-    },
-    {
-      "basename": "Hot-key (windows)",
-      "path": "_others_/Hot-key (windows).md"
-    },
-    {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
-    },
-    {
-      "basename": "02_2D_list2-img- (1)",
-      "path": "KDT/Algorithm/assets/02_2D_list2-img- (1).png"
-    },
-    {
-      "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
-      "path": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "Hot-key (for Mac)",
-      "path": "_others_/Hot-key (for Mac).md"
     }
   ],
   "omittedPaths": [
