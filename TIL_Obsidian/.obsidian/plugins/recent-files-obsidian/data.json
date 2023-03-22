@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "파이썬 03. 함수(Funtion)",
-      "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
-    },
-    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
     {
+      "basename": "파이썬 05. 에러&예외 처리 (Error & Exception Handling)",
+      "path": "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md"
+    },
+    {
+      "basename": "Obsidian setting",
+      "path": "_others_/obsidian/Obsidian setting.md"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "_others_/obsidian/markdown for Obsidian.md"
+    },
+    {
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown & git/markdown (마크다운) +.md"
+    },
+    {
       "basename": "LaTeX",
       "path": "_others_/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "파이썬 03. 함수(Funtion)",
+      "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
     },
     {
       "basename": "03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)",
@@ -165,10 +181,6 @@
       "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
     },
     {
-      "basename": "markdown for Obsidian",
-      "path": "_others_/obsidian/markdown for Obsidian.md"
-    },
-    {
       "basename": "05_DFS-4",
       "path": "KDT/Algorithm/assets/05_DFS-4.png"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Pasted image 20230226003835",
       "path": "_others_/obsidian/assets/Pasted image 20230226003835.png"
-    },
-    {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown & git/markdown (마크다운) +.md"
-    },
-    {
-      "basename": "04. 그래프(Graph)",
-      "path": "KDT/Algorithm/04. 그래프(Graph).md"
-    },
-    {
-      "basename": "03. 트리 (tree)",
-      "path": "Algorithm (theory)/03. 트리 (tree).md"
     }
   ],
   "omittedPaths": [

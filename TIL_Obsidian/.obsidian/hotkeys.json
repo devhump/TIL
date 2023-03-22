@@ -121,12 +121,7 @@
     }
   ],
   "editor:toggle-spellcheck": [],
-  "editor:insert-callout": [
-    {
-      "modifiers": [],
-      "key": "F6"
-    }
-  ],
+  "editor:insert-callout": [],
   "editor:focus": [
     {
       "modifiers": [],
@@ -203,6 +198,12 @@
         "Shift"
       ],
       "key": "O"
+    }
+  ],
+  "workspace:toggle-stacked-tabs": [
+    {
+      "modifiers": [],
+      "key": "F6"
     }
   ]
 }

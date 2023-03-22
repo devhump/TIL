@@ -8,6 +8,7 @@
 - [[파이썬 02. 제어문 (Control Statement)]]
 - [[파이썬 03. 함수(Funtion)]]
 - [[파이썬 04. 데이터 구조 (Data Structure)]]
+- [[파이썬 05. 에러&예외 처리 (Error & Exception Handling)]]
 
 #### 자료구조(Data structure)
 - [[01. about Algorithm (Intro)]]
