@@ -35,8 +35,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
+                "file": "📑 devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
+                "file": "📑 devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
+                "file": "📑 devhump's TIL Index.md"
               }
             }
           }
@@ -191,8 +190,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "32e46804dad7b7ca",
+  "active": "de5082e9ae9b81ad",
   "lastOpenFiles": [
+    "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
     "📑 devhump's TIL Index.md",
     "KDT/Data structure/assets/06_prepairing coding test.png",
     "KDT/Algorithm/assets/06_prepairing coding test-12.png",
@@ -204,7 +204,6 @@
     "KDT/Algorithm/assets/06_prepairing coding test-6.png",
     "KDT/Algorithm/assets/06_prepairing coding test-5.png",
     "KDT/Algorithm/assets/06_prepairing coding test-4.png",
-    "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
     "KDT/Data structure/04. 리스트(List).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
