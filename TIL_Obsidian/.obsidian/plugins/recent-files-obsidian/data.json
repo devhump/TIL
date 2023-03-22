@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "03. time complexity & Big O notation",
+      "path": "KDT/Data structure/03. time complexity & Big O notation.md"
+    },
+    {
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "Git의 기초 - 되돌리기-img- (2)",
       "path": "_others_/assets/Git의 기초 - 되돌리기-img- (2).png"
-    },
-    {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
     },
     {
       "basename": "01. about Algorithm (Intro)-image-1",
@@ -191,10 +195,6 @@
     {
       "basename": "04_Graph-img- (1)",
       "path": "KDT/Algorithm/assets/04_Graph-img- (1).png"
-    },
-    {
-      "basename": "03. 완전탐색  I (Exhaustive Search)",
-      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
     }
   ],
   "omittedPaths": [
