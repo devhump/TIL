@@ -6,11 +6,13 @@
 #### 파이썬 (Python)
 - [[파이썬 01. Python 기초]]
 - [[파이썬 02. 제어문 (Control Statement)]]
+- [[파이썬 03. 함수(Funtion)]]
 - [[파이썬 04. 데이터 구조 (Data Structure)]]
 
 #### 자료구조(Data structure)
 - [[01. about Algorithm (Intro)]]
 - [[02. basic_IO]]
+- [[03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)]]
 - [[04. 리스트(List)]]
 - [[05. 문자열 (String)]]
 - [[06. 딕셔너리(Dictionary)]]

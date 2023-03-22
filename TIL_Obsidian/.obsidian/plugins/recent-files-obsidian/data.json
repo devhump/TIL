@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "03. time complexity & Big O notation",
-      "path": "KDT/Data structure/03. time complexity & Big O notation.md"
-    },
-    {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
+      "basename": "파이썬 03. 함수(Funtion)",
+      "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
     },
     {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "_others_/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)",
+      "path": "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md"
+    },
+    {
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
     },
     {
       "basename": "06. 코딩 테스트 준비 (기본)",
@@ -191,10 +199,6 @@
     {
       "basename": "03. 트리 (tree)",
       "path": "Algorithm (theory)/03. 트리 (tree).md"
-    },
-    {
-      "basename": "04_Graph-img- (1)",
-      "path": "KDT/Algorithm/assets/04_Graph-img- (1).png"
     }
   ],
   "omittedPaths": [

@@ -28,7 +28,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Data structure/03. time complexity & Big O notation.md",
+                "file": "_others_/obsidian/LaTeX.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd9ad164c4c41b89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -126,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Data structure/03. time complexity & Big O notation.md",
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Data structure/03. time complexity & Big O notation.md",
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Data structure/03. time complexity & Big O notation.md"
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md"
               }
             }
           }
@@ -175,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 437.5
+    "width": 437.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,22 +205,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a85bc5a7c0f465d5",
+  "active": "cd9ad164c4c41b89",
   "lastOpenFiles": [
-    "KDT/Data structure/assets/03. time complexity & Big O notation-4.png",
-    "KDT/Data structure/04. 리스트(List).md",
-    "KDT/Data structure/03. time complexity & Big O notation.md",
     "📑 devhump's TIL Index.md",
-    "KDT/Data structure/assets/03. time complexity & Big O notation-5.png",
-    "KDT/Data structure/assets/03. time complexity & Big O notation-5 (1).png",
-    "KDT/Data structure/assets/03. time complexity & Big O notation-3.png",
-    "KDT/Data structure/assets/big_o_notation_cheat_sheet_by_assyrianic_dclrxt1-pre.jpg",
-    "KDT/Data structure/assets/03. time complexity & Big O notation-10.png",
-    "KDT/Data structure/assets/03. time complexity & Big O notation-9.png",
-    "KDT/Data structure/assets/03. time complexity & Big O notation-9.png",
-    "KDT/Data structure/assets/03. time complexity & Big O notation-8.png",
-    "KDT/Data structure/assets/03. time complexity & Big O notation-8.png",
-    "KDT/Data structure/assets/big-o.jpg",
+    "_others_/obsidian/LaTeX.md",
+    "KDT/Python/파이썬 03. 함수(Funtion).md",
+    "KDT/Python/assets/03. Funtion-7.png",
+    "KDT/Python/assets/03. Funtion-6.png",
+    "KDT/Python/assets/images 1.png",
+    "KDT/Python/assets/images.png",
+    "KDT/Python/assets/03. Funtion-5.png",
+    "KDT/Python/assets/03. Funtion-4.png",
+    "KDT/Python/assets/03. Funtion-3.png",
+    "KDT/Python/assets/03. Funtion-2.png",
+    "KDT/Python/assets/03. Funtion-1.png",
+    "KDT/Python/assets/03. Funtion.png",
+    "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md",
+    "KDT/Data structure/04. 리스트(List).md",
     "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
@@ -228,10 +244,8 @@
     "_others_/CLI.md",
     "_others_/Hot-key (windows).md",
     "KDT/Algorithm/01. 이차원 리스트(1-2).md",
-    "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
     "KDT/Algorithm/assets",
     "KDT/Algorithm",
-    "더 공부해 볼 주제.md",
     "KDT/Python/assets",
     "assets",
     "_others_/vscode_shortcuts_(mac).pdf",
