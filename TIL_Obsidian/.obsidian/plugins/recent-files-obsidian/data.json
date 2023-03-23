@@ -5,6 +5,26 @@
       "path": "📑 devhump's TIL Index.md"
     },
     {
+      "basename": "파이썬 08. 파이썬 응용,심화(python advanced)",
+      "path": "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md"
+    },
+    {
+      "basename": "01. about Algorithm (Intro)",
+      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
+    },
+    {
+      "basename": "파이썬 02. 제어문 (Control Statement)",
+      "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
+      "basename": "파이썬 04. 데이터 구조 (Data Structure)",
+      "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
+    },
+    {
       "basename": "파이썬 07. 클래스(Class)",
       "path": "KDT/Python/파이썬 07. 클래스(Class).md"
     },
@@ -97,8 +117,8 @@
       "path": "_others_/assets/Git의 기초 - 되돌리기-img- (2).png"
     },
     {
-      "basename": "01. about Algorithm (Intro)-image-1",
-      "path": "KDT/Data structure/assets/01. about Algorithm (Intro)-image-1.png"
+      "basename": "01. about Algorithm (Intro)-3",
+      "path": "KDT/Data structure/assets/01. about Algorithm (Intro)-3.png"
     },
     {
       "basename": "04_List-5",
@@ -121,8 +141,8 @@
       "path": "KDT/Data structure/assets/04_List.png"
     },
     {
-      "basename": "파이썬의 기본 데이터 구조",
-      "path": "KDT/Data structure/assets/파이썬의 기본 데이터 구조.png"
+      "basename": "01. about Algorithm (Intro)-4",
+      "path": "KDT/Data structure/assets/01. about Algorithm (Intro)-4.png"
     },
     {
       "basename": "08. 힙(Heap), 셋(set)",
@@ -175,30 +195,6 @@
     {
       "basename": "08. DFS & BFS",
       "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
-    },
-    {
-      "basename": "02. 우선순위 큐(Priority Queue)",
-      "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
-    },
-    {
-      "basename": "05_DFS-4",
-      "path": "KDT/Algorithm/assets/05_DFS-4.png"
-    },
-    {
-      "basename": "05_DFS-1",
-      "path": "KDT/Algorithm/assets/05_DFS-1.png"
-    },
-    {
-      "basename": "05_DFS-2",
-      "path": "KDT/Algorithm/assets/05_DFS-2.png"
     }
   ],
   "omittedPaths": [

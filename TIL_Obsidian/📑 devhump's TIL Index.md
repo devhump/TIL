@@ -11,8 +11,7 @@
 - [[파이썬 05. 에러&예외 처리 (Error & Exception Handling)]]
 - [[파이썬 06. 객체지향 프로그래밍(OOP)]]
 - [[파이썬 07. 클래스(Class)]]
-
-
+- [[파이썬 08. 파이썬 응용,심화(python advanced)]]
 
 #### 자료구조(Data structure)
 - [[01. about Algorithm (Intro)]]

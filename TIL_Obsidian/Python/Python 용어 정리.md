@@ -9,7 +9,7 @@
 - [mutale(가변)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-mutable) ^ccf590
 	- 가변 객체는 값이 변할 수 있지만 id()는 일정하게 유지합니다.
 		- 참고([레벨업 파이썬 - 03) Immutable과 Mutable](https://wikidocs.net/91520))
-		- ![파이썬의 기본 데이터 구조](KDT/Data%20structure/assets/파이썬의%20기본%20데이터%20구조.png)
+		- ![파이썬의 기본 데이터 구조](../KDT/Data%20structure/assets/01.%20about%20Algorithm%20(Intro)-4.png)
 		
 - ↔ [immutable (불변)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-immutable) ^a1f954
 	- 고정된 값을 갖는 객체. 불변 객체는 숫자, 문자열, 튜플을 포함합니다. 이런 객체들은 변경될 수 없습니다. 새 값을 저장하려면 새 객체를 만들어야 합니다. 변하지 않는 해시값이 있어야 하는 곳에서 중요한 역할을 합니다. 예를 들어, 딕셔너리의 키.

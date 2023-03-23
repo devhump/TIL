@@ -23,16 +23,24 @@
             }
           },
           {
-            "id": "7c4e3bcca8a0715c",
+            "id": "73805262ef2dc007",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
+                "file": "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "0bc84c9842fb3699",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -64,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "데이터 구조",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5,
+    "width": 325.5,
     "collapsed": true
   },
   "right": {
@@ -175,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 476.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,18 +200,23 @@
   },
   "active": "de5082e9ae9b81ad",
   "lastOpenFiles": [
-    "KDT/Python/파이썬 07. 클래스(Class).md",
-    "KDT/Python/assets/07. Class-14.png",
-    "KDT/Python/assets/07. Class-15.png",
-    "KDT/Python/assets/07. Class-13.png",
-    "KDT/Python/assets/07. Class-12.png",
-    "KDT/Python/assets/07. Class-11.png",
-    "KDT/Python/assets/07. Class-10.png",
-    "KDT/Python/assets/07. Class.jpg",
-    "KDT/Python/assets/07. Class-9.png",
-    "KDT/Python/assets/07. Class.png",
-    "KDT/Python/assets/07. Class-8.png",
+    "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
     "📑 devhump's TIL Index.md",
+    "KDT/Python/assets/08. python advanced-16.png",
+    "KDT/Python/assets/08. python advanced-15.png",
+    "KDT/Python/assets/08. python advanced-14.png",
+    "KDT/Python/assets/08. python advanced-13.png",
+    "KDT/Python/assets/08. python advanced-12.png",
+    "KDT/Python/assets/08. python advanced-11.png",
+    "KDT/Python/assets/08. python advanced-9.png",
+    "KDT/Python/assets/08. python advanced.png",
+    "KDT/Python/assets/Pasted image 20230323201708.png",
+    "KDT/Python/assets/08. python advanced-10.png",
+    "KDT/Data structure/01. about Algorithm (Intro).md",
+    "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
+    "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
+    "KDT/Python/파이썬 07. 클래스(Class).md",
     "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md",
     "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
     "_others_/obsidian/Obsidian setting.md",
@@ -221,14 +234,9 @@
     "Algorithm (theory)/08. DFS & BFS.md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "DFS-test/05. 깊이 우선 탐색 (DFS).md",
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
     "DFS-test/asset",
     "DFS-test",
-    "KDT/Algorithm/04. 그래프(Graph).md",
-    "Algorithm (theory)/03. 트리 (tree).md",
-    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
-    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "KDT/Algorithm/assets",
     "KDT/Algorithm",
     "KDT/Python/assets",
