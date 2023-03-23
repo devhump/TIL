@@ -23,25 +23,12 @@
             }
           },
           {
-            "id": "bd1bf06fd72ab68b",
+            "id": "7c4e3bcca8a0715c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46fcd8268a57118f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
+                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -205,19 +192,20 @@
   },
   "active": "de5082e9ae9b81ad",
   "lastOpenFiles": [
-    "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
+    "KDT/Python/파이썬 07. 클래스(Class).md",
+    "KDT/Python/assets/07. Class-14.png",
+    "KDT/Python/assets/07. Class-15.png",
+    "KDT/Python/assets/07. Class-13.png",
+    "KDT/Python/assets/07. Class-12.png",
+    "KDT/Python/assets/07. Class-11.png",
+    "KDT/Python/assets/07. Class-10.png",
+    "KDT/Python/assets/07. Class.jpg",
+    "KDT/Python/assets/07. Class-9.png",
+    "KDT/Python/assets/07. Class.png",
+    "KDT/Python/assets/07. Class-8.png",
     "📑 devhump's TIL Index.md",
     "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md",
-    "KDT/Python/assets/06. OOP-7.png",
-    "KDT/Python/assets/06. OOP-6.png",
-    "KDT/Python/assets/06. OOP-5.png",
-    "KDT/Python/assets/06. OOP.png",
-    "KDT/Python/assets/oop.png",
-    "KDT/Python/assets/06. OOP-4.png",
-    "KDT/Python/assets/06. OOP-4.png",
-    "KDT/Python/assets/993D2F415DFF07E522.png",
-    "KDT/Python/assets/05. Error & Exception Handling-39.png",
-    "KDT/Python/assets/05. Error & Exception Handling-43.png",
+    "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
     "_others_/obsidian/Obsidian setting.md",
     "_others_/obsidian/markdown for Obsidian.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
@@ -241,7 +229,6 @@
     "Algorithm (theory)/03. 트리 (tree).md",
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
-    "_others_/Git의 기초 - 되돌리기.md",
     "KDT/Algorithm/assets",
     "KDT/Algorithm",
     "KDT/Python/assets",

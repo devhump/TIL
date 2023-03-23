@@ -5,12 +5,16 @@
       "path": "📑 devhump's TIL Index.md"
     },
     {
-      "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
-      "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
+      "basename": "파이썬 07. 클래스(Class)",
+      "path": "KDT/Python/파이썬 07. 클래스(Class).md"
     },
     {
       "basename": "파이썬 05. 에러&예외 처리 (Error & Exception Handling)",
       "path": "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md"
+    },
+    {
+      "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
+      "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
     },
     {
       "basename": "Obsidian setting",
