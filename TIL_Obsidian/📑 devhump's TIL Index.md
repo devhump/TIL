@@ -9,6 +9,8 @@
 - [[파이썬 03. 함수(Funtion)]]
 - [[파이썬 04. 데이터 구조 (Data Structure)]]
 - [[파이썬 05. 에러&예외 처리 (Error & Exception Handling)]]
+- [[파이썬 06. 객체지향 프로그래밍(OOP)]]
+
 
 #### 자료구조(Data structure)
 - [[01. about Algorithm (Intro)]]

@@ -5,6 +5,10 @@
       "path": "📑 devhump's TIL Index.md"
     },
     {
+      "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
+      "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
+    },
+    {
       "basename": "파이썬 05. 에러&예외 처리 (Error & Exception Handling)",
       "path": "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "05_DFS-2",
       "path": "KDT/Algorithm/assets/05_DFS-2.png"
-    },
-    {
-      "basename": "Pasted image 20230226003908",
-      "path": "_others_/obsidian/assets/Pasted image 20230226003908.png"
-    },
-    {
-      "basename": "Pasted image 20230226003835",
-      "path": "_others_/obsidian/assets/Pasted image 20230226003835.png"
     }
   ],
   "omittedPaths": [

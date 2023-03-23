@@ -3,14 +3,14 @@
     "migrated": true,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
-    "emojiStyle": "native",
+    "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiThealgorithms",
+      "SiGit",
+      "SiPython-white",
       "🖥",
-      "🧭",
-      "🚢",
-      "🧑‍🎓",
-      "📥"
+      "🧭"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -25,5 +25,8 @@
   "Python": "🖥",
   "_others_": "📥",
   "KDT": "🧑‍🎓",
-  "더 공부해 볼 주제.md": "🧭"
+  "더 공부해 볼 주제.md": "🧭",
+  "KDT/Python": "SiPython-white",
+  "KDT/markdown & git": "SiGit",
+  "KDT/Algorithm": "SiThealgorithms"
 }
