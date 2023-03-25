@@ -4,22 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b6dd32f8c443c9b1",
+        "id": "3dba02ea657a721c",
         "type": "tabs",
         "children": [
           {
-            "id": "de5082e9ae9b81ad",
+            "id": "c825bc9f8af35fb5",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "Algorithm (theory)/08. DFS & BFS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -114,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "Algorithm (theory)/08. DFS & BFS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "Algorithm (theory)/08. DFS & BFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📑 devhump's TIL Index.md"
+                "file": "Algorithm (theory)/08. DFS & BFS.md"
               }
             }
           }
@@ -179,10 +177,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "de5082e9ae9b81ad",
+  "active": "31c996407033f3d5",
   "lastOpenFiles": [
-    "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
+    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "📑 devhump's TIL Index.md",
+    "Python/HeadFirst-Python/Head First - Python.md",
+    "Python/assets/continue_break_pass.png",
+    "Python/assets/Head First - Python.png",
+    "Python/HeadFirst-Python",
+    "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
     "KDT/Python/assets/08. python advanced-16.png",
     "KDT/Python/assets/08. python advanced-15.png",
     "KDT/Python/assets/08. python advanced-14.png",
@@ -191,8 +194,6 @@
     "KDT/Python/assets/08. python advanced-11.png",
     "KDT/Python/assets/08. python advanced-9.png",
     "KDT/Python/assets/08. python advanced.png",
-    "KDT/Python/assets/Pasted image 20230323201708.png",
-    "KDT/Python/assets/08. python advanced-10.png",
     "KDT/Data structure/01. about Algorithm (Intro).md",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
@@ -213,9 +214,7 @@
     "KDT/Data structure/05. 문자열 (String).md",
     "KDT/markdown & git/Git.md",
     "Algorithm (theory)/08. DFS & BFS.md",
-    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "DFS-test/05. 깊이 우선 탐색 (DFS).md",
-    "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
     "DFS-test/asset",
     "DFS-test",
     "KDT/Algorithm/assets",
@@ -226,7 +225,6 @@
     "others/assets 1",
     "KDT/markdown & git/assets",
     "무제 파일 1.canvas",
-    "무제 파일.canvas",
-    "_others_/obsidian/assets"
+    "무제 파일.canvas"
   ]
 }

@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "05. 깊이 우선 탐색(DFS)",
+      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "Head First - Python",
+      "path": "Python/HeadFirst-Python/Head First - Python.md"
+    },
+    {
+      "basename": "continue_break_pass",
+      "path": "Python/assets/continue_break_pass.png"
     },
     {
       "basename": "파이썬 08. 파이썬 응용,심화(python advanced)",
@@ -183,18 +199,6 @@
     {
       "basename": "ASCII code_2",
       "path": "KDT/Data structure/assets/ASCII code_2.gif"
-    },
-    {
-      "basename": "ASCII code",
-      "path": "KDT/Data structure/assets/ASCII code.png"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
     }
   ],
   "omittedPaths": [
