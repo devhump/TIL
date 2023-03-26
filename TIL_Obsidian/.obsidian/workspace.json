@@ -4,11 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "3dba02ea657a721c",
+        "id": "e83a2083f6dca983",
         "type": "tabs",
         "children": [
           {
-            "id": "c825bc9f8af35fb5",
+            "id": "7533119ab7ce7bd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1355a72d617264e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -112,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
+                "file": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
+                "file": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md"
+                "file": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
               }
             }
           }
@@ -177,9 +190,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "31c996407033f3d5",
+  "active": "7533119ab7ce7bd1",
   "lastOpenFiles": [
+    "Algorithm (theory)/08. DFS & BFS.md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
+    "KDT/Algorithm/assets/05_DFS-29.png",
+    "KDT/Algorithm/assets/05. 깊이 우선 탐색(DFS).png",
+    "KDT/Algorithm/assets/05_DFS-57.png",
+    "KDT/Algorithm/assets/05_DFS-56.png",
+    "assets/05. 깊이 우선 탐색 (DFS)-57.png.md",
+    "assets",
     "📑 devhump's TIL Index.md",
     "Python/HeadFirst-Python/Head First - Python.md",
     "Python/assets/continue_break_pass.png",
@@ -190,10 +210,6 @@
     "KDT/Python/assets/08. python advanced-15.png",
     "KDT/Python/assets/08. python advanced-14.png",
     "KDT/Python/assets/08. python advanced-13.png",
-    "KDT/Python/assets/08. python advanced-12.png",
-    "KDT/Python/assets/08. python advanced-11.png",
-    "KDT/Python/assets/08. python advanced-9.png",
-    "KDT/Python/assets/08. python advanced.png",
     "KDT/Data structure/01. about Algorithm (Intro).md",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
@@ -213,14 +229,11 @@
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/05. 문자열 (String).md",
     "KDT/markdown & git/Git.md",
-    "Algorithm (theory)/08. DFS & BFS.md",
-    "DFS-test/05. 깊이 우선 탐색 (DFS).md",
     "DFS-test/asset",
     "DFS-test",
     "KDT/Algorithm/assets",
     "KDT/Algorithm",
     "KDT/Python/assets",
-    "assets",
     "_others_/vscode_shortcuts_(mac).pdf",
     "others/assets 1",
     "KDT/markdown & git/assets",

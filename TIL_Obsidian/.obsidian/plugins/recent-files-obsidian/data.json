@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "05. 깊이 우선 탐색(DFS)",
+      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
+    },
+    {
       "basename": "08. DFS & BFS",
       "path": "Algorithm (theory)/08. DFS & BFS.md"
     },
     {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
+      "basename": "05_DFS-29",
+      "path": "KDT/Algorithm/assets/05_DFS-29.png"
+    },
+    {
+      "basename": "05_DFS-57",
+      "path": "KDT/Algorithm/assets/05_DFS-57.png"
+    },
+    {
+      "basename": "05_DFS-56",
+      "path": "KDT/Algorithm/assets/05_DFS-56.png"
+    },
+    {
+      "basename": "05. 깊이 우선 탐색 (DFS)-57.png",
+      "path": "assets/05. 깊이 우선 탐색 (DFS)-57.png.md"
     },
     {
       "basename": "📑 devhump's TIL Index",
@@ -183,22 +199,6 @@
     {
       "basename": "06_Dictionary-1",
       "path": "KDT/Data structure/assets/06_Dictionary-1.png"
-    },
-    {
-      "basename": "06_Dictionary-4",
-      "path": "KDT/Data structure/assets/06_Dictionary-4.png"
-    },
-    {
-      "basename": "05. 문자열 (String)",
-      "path": "KDT/Data structure/05. 문자열 (String).md"
-    },
-    {
-      "basename": "05_String",
-      "path": "KDT/Data structure/assets/05_String.png"
-    },
-    {
-      "basename": "ASCII code_2",
-      "path": "KDT/Data structure/assets/ASCII code_2.gif"
     }
   ],
   "omittedPaths": [
