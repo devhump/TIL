@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "03. 완전탐색  I (Exhaustive Search)",
+      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
+    },
+    {
+      "basename": "06. 코딩 테스트 준비 (기본)",
+      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
     },
     {
       "basename": "08. DFS & BFS",
       "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "03. 완전탐색  I (Exhaustive Search)",
+      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
+    },
+    {
+      "basename": "06. 코딩 테스트 준비 (기본)",
+      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
+    },
+    {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "05. 깊이 우선 탐색(DFS)",
@@ -95,10 +115,6 @@
     {
       "basename": "04. 리스트(List)",
       "path": "KDT/Data structure/04. 리스트(List).md"
-    },
-    {
-      "basename": "06. 코딩 테스트 준비 (기본)",
-      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
     },
     {
       "basename": "06_Dictionary-5",
@@ -195,10 +211,6 @@
     {
       "basename": "06_Dictionary-3",
       "path": "KDT/Data structure/assets/06_Dictionary-3.png"
-    },
-    {
-      "basename": "06_Dictionary-1",
-      "path": "KDT/Data structure/assets/06_Dictionary-1.png"
     }
   ],
   "omittedPaths": [

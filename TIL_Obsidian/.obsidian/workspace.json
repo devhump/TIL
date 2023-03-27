@@ -13,6 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e9fa133c184f0da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm (theory)/08. DFS & BFS.md",
+                "mode": "source",
                 "file": "📑 devhump's TIL Index.md",
                 "mode": "preview",
                 "backlinks": true,
@@ -21,7 +36,7 @@
             }
           }
         ],
-        "stacked": true
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📑 devhump's TIL Index.md"
+                "file": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
               }
             }
           }
@@ -177,10 +192,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ae19ae8f1fbfd89e",
+  "active": "7533119ab7ce7bd1",
   "lastOpenFiles": [
-    "Algorithm (theory)/08. DFS & BFS.md",
+    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+    "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
+    "Algorithm (theory)/08. DFS & BFS.md",
     "KDT/Algorithm/assets/05_DFS-29.png",
     "KDT/Algorithm/assets/05. 깊이 우선 탐색(DFS).png",
     "KDT/Algorithm/assets/05_DFS-57.png",
@@ -211,7 +228,6 @@
     "KDT/Python/파이썬 03. 함수(Funtion).md",
     "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md",
     "KDT/Data structure/04. 리스트(List).md",
-    "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/05. 문자열 (String).md",
