@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "07. 스택 & 큐 (Stack & Queue)",
+      "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
     {
+      "basename": "01. about Algorithm (Intro)",
+      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
+    },
+    {
+      "basename": "코딩 테스트 정복을 위한 데이터 구조와 알고리즘",
+      "path": "KDT/Data structure/assets/코딩 테스트 정복을 위한 데이터 구조와 알고리즘.png"
+    },
+    {
+      "basename": "파이썬의 기본 데이터 구조",
+      "path": "KDT/Data structure/assets/파이썬의 기본 데이터 구조.png"
+    },
+    {
+      "basename": "01. 이차원 리스트(1-2)",
+      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
+    },
+    {
       "basename": "09. DFS 와 BFS 기초 문제 풀이",
       "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
+    },
+    {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
     },
     {
       "basename": "Pasted image 20230304021022",
@@ -77,10 +105,6 @@
       "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
     },
     {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
       "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
       "path": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
     },
@@ -103,10 +127,6 @@
     {
       "basename": "02. 우선순위 큐(Priority Queue)",
       "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
       "basename": "03. 완전탐색  I (Exhaustive Search)",
@@ -149,10 +169,6 @@
       "path": "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md"
     },
     {
-      "basename": "01. about Algorithm (Intro)",
-      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
-    },
-    {
       "basename": "파이썬 02. 제어문 (Control Statement)",
       "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
     },
@@ -179,22 +195,6 @@
     {
       "basename": "markdown for Obsidian",
       "path": "_others_/obsidian/markdown for Obsidian.md"
-    },
-    {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown & git/markdown (마크다운) +.md"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
-    },
-    {
-      "basename": "파이썬 03. 함수(Funtion)",
-      "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
-    },
-    {
-      "basename": "03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)",
-      "path": "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md"
     }
   ],
   "omittedPaths": [

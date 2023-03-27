@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e9fa133c184f0da",
+            "id": "ac63c7e6aa661de6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0d48b89563366d55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -110,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,16 +165,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📑 devhump's TIL Index.md"
+                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 476.5
+    "width": 476.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,34 +190,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7e9fa133c184f0da",
+  "active": "0d48b89563366d55",
   "lastOpenFiles": [
-    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
-    "Algorithm (theory)/assets/Pasted image 20230304021022.png",
-    "Algorithm (theory)/assets/Pasted image 20230304020304.png",
-    "Algorithm (theory)/assets/Pasted image 20230304015957.png",
-    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-1.png",
-    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution.png",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
+    "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
     "📑 devhump's TIL Index.md",
-    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-2.png",
-    "Algorithm (theory)/assets/09. DFS 와 BFS 기초 문제 풀이-8.png",
-    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-3.png",
-    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-4.png",
-    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-5.png",
+    "KDT/Data structure/01. about Algorithm (Intro).md",
+    "KDT/Data structure/assets/07. Stack & Queue-41.png",
+    "KDT/Data structure/assets/07. Stack & Queue-40.png",
+    "KDT/Data structure/assets/07. Stack & Queue-39.png",
+    "KDT/Data structure/assets/07. Stack & Queue-38.png",
+    "KDT/Data structure/assets/07. Stack & Queue-37.png",
+    "KDT/Data structure/assets/07. Stack & Queue-36.png",
+    "KDT/Data structure/assets/07. Stack & Queue-35.png",
+    "KDT/Data structure/assets/07. Stack & Queue-34.png",
+    "KDT/Data structure/assets/07. Stack & Queue-33.png",
+    "KDT/Data structure/assets/07. Stack & Queue-32.png",
+    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
+    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
+    "Algorithm (theory)/08. DFS & BFS.md",
     "assets/05. 깊이 우선 탐색 (DFS)-57.png.md",
     "Algorithm (theory)/23. 그리디(Greedy).md",
     "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
     "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
     "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
-    "Algorithm (theory)/08. DFS & BFS.md",
     "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
     "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md",
     "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
     "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md",
     "Algorithm (theory)/03. 트리 (tree).md",
     "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "Algorithm (theory)/assets/open.url",
     "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
@@ -210,10 +229,7 @@
     "Python/HeadFirst-Python/Head First - Python.md",
     "Python/HeadFirst-Python",
     "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
-    "KDT/Data structure/01. about Algorithm (Intro).md",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
-    "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
-    "KDT/Python/파이썬 07. 클래스(Class).md",
     "DFS-test/asset",
     "DFS-test",
     "KDT/Algorithm/assets",

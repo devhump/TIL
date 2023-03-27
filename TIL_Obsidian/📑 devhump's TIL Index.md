@@ -20,6 +20,7 @@
 - [[04. 리스트(List)]]
 - [[05. 문자열 (String)]]
 - [[06. 딕셔너리(Dictionary)]]
+- [[07. 스택 & 큐 (Stack & Queue)]]
 - [[08. 힙(Heap), 셋(set)]]
 
 #### 알고리즘(Algorithm)
