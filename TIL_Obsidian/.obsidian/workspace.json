@@ -8,35 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ae19ae8f1fbfd89e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7e9fa133c184f0da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/08. DFS & BFS.md",
-                "mode": "source",
                 "file": "📑 devhump's TIL Index.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -127,9 +110,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
+                "file": "📑 devhump's TIL Index.md",
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
@@ -144,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
+                "file": "📑 devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,17 +150,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
+                "file": "📑 devhump's TIL Index.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 476.5,
-    "collapsed": true
+    "width": 476.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,46 +174,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7533119ab7ce7bd1",
+  "active": "7e9fa133c184f0da",
   "lastOpenFiles": [
+    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
+    "Algorithm (theory)/assets/Pasted image 20230304021022.png",
+    "Algorithm (theory)/assets/Pasted image 20230304020304.png",
+    "Algorithm (theory)/assets/Pasted image 20230304015957.png",
+    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-1.png",
+    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution.png",
+    "📑 devhump's TIL Index.md",
+    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-2.png",
+    "Algorithm (theory)/assets/09. DFS 와 BFS 기초 문제 풀이-8.png",
+    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-3.png",
+    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-4.png",
+    "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-5.png",
+    "assets/05. 깊이 우선 탐색 (DFS)-57.png.md",
+    "Algorithm (theory)/23. 그리디(Greedy).md",
+    "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
+    "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
+    "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
+    "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
+    "Algorithm (theory)/08. DFS & BFS.md",
+    "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
+    "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md",
+    "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
+    "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md",
+    "Algorithm (theory)/03. 트리 (tree).md",
+    "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+    "Algorithm (theory)/assets/open.url",
     "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
-    "Algorithm (theory)/08. DFS & BFS.md",
-    "KDT/Algorithm/assets/05_DFS-29.png",
-    "KDT/Algorithm/assets/05. 깊이 우선 탐색(DFS).png",
-    "KDT/Algorithm/assets/05_DFS-57.png",
-    "KDT/Algorithm/assets/05_DFS-56.png",
-    "assets/05. 깊이 우선 탐색 (DFS)-57.png.md",
     "assets",
-    "📑 devhump's TIL Index.md",
     "Python/HeadFirst-Python/Head First - Python.md",
-    "Python/assets/continue_break_pass.png",
-    "Python/assets/Head First - Python.png",
     "Python/HeadFirst-Python",
     "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
-    "KDT/Python/assets/08. python advanced-16.png",
-    "KDT/Python/assets/08. python advanced-15.png",
-    "KDT/Python/assets/08. python advanced-14.png",
-    "KDT/Python/assets/08. python advanced-13.png",
     "KDT/Data structure/01. about Algorithm (Intro).md",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
     "KDT/Python/파이썬 07. 클래스(Class).md",
-    "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md",
-    "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
-    "_others_/obsidian/Obsidian setting.md",
-    "_others_/obsidian/markdown for Obsidian.md",
-    "KDT/markdown & git/markdown (마크다운) +.md",
-    "_others_/obsidian/LaTeX.md",
-    "KDT/Python/파이썬 03. 함수(Funtion).md",
-    "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md",
-    "KDT/Data structure/04. 리스트(List).md",
-    "KDT/Data structure/08. 힙(Heap), 셋(set).md",
-    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
-    "KDT/Data structure/05. 문자열 (String).md",
-    "KDT/markdown & git/Git.md",
     "DFS-test/asset",
     "DFS-test",
     "KDT/Algorithm/assets",
@@ -239,7 +221,6 @@
     "KDT/Python/assets",
     "_others_/vscode_shortcuts_(mac).pdf",
     "others/assets 1",
-    "KDT/markdown & git/assets",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
   ]

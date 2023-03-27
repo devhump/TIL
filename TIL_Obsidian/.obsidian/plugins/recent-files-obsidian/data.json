@@ -1,32 +1,124 @@
 {
   "recentFiles": [
     {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "03. 완전탐색  I (Exhaustive Search)",
-      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
-    },
-    {
-      "basename": "06. 코딩 테스트 준비 (기본)",
-      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "03. 완전탐색  I (Exhaustive Search)",
-      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
-    },
-    {
-      "basename": "06. 코딩 테스트 준비 (기본)",
-      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
-    },
-    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "09. DFS 와 BFS 기초 문제 풀이",
+      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
+    },
+    {
+      "basename": "Pasted image 20230304021022",
+      "path": "Algorithm (theory)/assets/Pasted image 20230304021022.png"
+    },
+    {
+      "basename": "Pasted image 20230304020304",
+      "path": "Algorithm (theory)/assets/Pasted image 20230304020304.png"
+    },
+    {
+      "basename": "Pasted image 20230304015957",
+      "path": "Algorithm (theory)/assets/Pasted image 20230304015957.png"
+    },
+    {
+      "basename": "09. DFS & BFS basic problem & solution-1",
+      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-1.png"
+    },
+    {
+      "basename": "09. DFS & BFS basic problem & solution",
+      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution.png"
+    },
+    {
+      "basename": "09. DFS & BFS basic problem & solution-2",
+      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-2.png"
+    },
+    {
+      "basename": "09. DFS & BFS basic problem & solution-3",
+      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-3.png"
+    },
+    {
+      "basename": "09. DFS & BFS basic problem & solution-4",
+      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-4.png"
+    },
+    {
+      "basename": "09. DFS & BFS basic problem & solution-5",
+      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-5.png"
+    },
+    {
+      "basename": "23_greedy_img- (4)",
+      "path": "Algorithm (theory)/assets/23_greedy_img- (4).png"
+    },
+    {
+      "basename": "22_DP_problem&solving-img- (10)",
+      "path": "Algorithm (theory)/assets/22_DP_problem&solving-img- (10).png"
+    },
+    {
+      "basename": "22_DP_problem&solving-img- (11)",
+      "path": "Algorithm (theory)/assets/22_DP_problem&solving-img- (11).png"
+    },
+    {
+      "basename": "23. 그리디(Greedy)",
+      "path": "Algorithm (theory)/23. 그리디(Greedy).md"
+    },
+    {
+      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
+      "path": "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md"
+    },
+    {
+      "basename": "21. 다이나믹 프로그래밍",
+      "path": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
+    },
+    {
+      "basename": "18. 유용한 표준 라이브러리 소개",
+      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
+    },
+    {
+      "basename": "17. 재귀함수(Recursive Function)",
+      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
+    },
+    {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
+      "path": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
+    },
+    {
+      "basename": "06. 퀵 정렬 (Quick Sort)",
+      "path": "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md"
+    },
+    {
+      "basename": "05. 정렬 알고리즘 (Sorting Algorithm)",
+      "path": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md"
+    },
+    {
+      "basename": "04. 바이너리 인덱스 트리 (Binary Index Tree)",
+      "path": "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md"
+    },
+    {
+      "basename": "03. 트리 (tree)",
+      "path": "Algorithm (theory)/03. 트리 (tree).md"
+    },
+    {
+      "basename": "02. 우선순위 큐(Priority Queue)",
+      "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
+      "basename": "03. 완전탐색  I (Exhaustive Search)",
+      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
+    },
+    {
+      "basename": "06. 코딩 테스트 준비 (기본)",
+      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
+    },
+    {
+      "basename": "06. 코딩 테스트 준비 (기본)",
+      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
     },
     {
       "basename": "05. 깊이 우선 탐색(DFS)",
@@ -43,10 +135,6 @@
     {
       "basename": "05_DFS-56",
       "path": "KDT/Algorithm/assets/05_DFS-56.png"
-    },
-    {
-      "basename": "05. 깊이 우선 탐색 (DFS)-57.png",
-      "path": "assets/05. 깊이 우선 탐색 (DFS)-57.png.md"
     },
     {
       "basename": "Head First - Python",
@@ -67,10 +155,6 @@
     {
       "basename": "파이썬 02. 제어문 (Control Statement)",
       "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
       "basename": "파이썬 04. 데이터 구조 (Data Structure)",
@@ -111,106 +195,6 @@
     {
       "basename": "03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)",
       "path": "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md"
-    },
-    {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
-    },
-    {
-      "basename": "06_Dictionary-5",
-      "path": "KDT/Data structure/assets/06_Dictionary-5.png"
-    },
-    {
-      "basename": "Pasted image 20230304012032",
-      "path": "_others_/assets/Pasted image 20230304012032.png"
-    },
-    {
-      "basename": "Pasted image 20230304012119",
-      "path": "_others_/assets/Pasted image 20230304012119.png"
-    },
-    {
-      "basename": "Pasted image 20230304013059",
-      "path": "_others_/assets/Pasted image 20230304013059.png"
-    },
-    {
-      "basename": "Pasted image 20230304173509",
-      "path": "_others_/assets/Pasted image 20230304173509.png"
-    },
-    {
-      "basename": "Pasted image 20230215172247",
-      "path": "_others_/assets/Pasted image 20230215172247.png"
-    },
-    {
-      "basename": "Pasted image 20230215172228",
-      "path": "_others_/assets/Pasted image 20230215172228.png"
-    },
-    {
-      "basename": "Pasted image 20230215172150",
-      "path": "_others_/assets/Pasted image 20230215172150.png"
-    },
-    {
-      "basename": "image-20230217163551003",
-      "path": "_others_/assets/image-20230217163551003.png"
-    },
-    {
-      "basename": "Git의 기초 - 되돌리기-img- (3)",
-      "path": "_others_/assets/Git의 기초 - 되돌리기-img- (3).png"
-    },
-    {
-      "basename": "Git의 기초 - 되돌리기-img- (1)",
-      "path": "_others_/assets/Git의 기초 - 되돌리기-img- (1).png"
-    },
-    {
-      "basename": "Git의 기초 - 되돌리기-img- (2)",
-      "path": "_others_/assets/Git의 기초 - 되돌리기-img- (2).png"
-    },
-    {
-      "basename": "01. about Algorithm (Intro)-3",
-      "path": "KDT/Data structure/assets/01. about Algorithm (Intro)-3.png"
-    },
-    {
-      "basename": "04_List-5",
-      "path": "KDT/Data structure/assets/04_List-5.png"
-    },
-    {
-      "basename": "04_List-7",
-      "path": "KDT/Data structure/assets/04_List-7.png"
-    },
-    {
-      "basename": "04_List-8",
-      "path": "KDT/Data structure/assets/04_List-8.png"
-    },
-    {
-      "basename": "04_List-6",
-      "path": "KDT/Data structure/assets/04_List-6.png"
-    },
-    {
-      "basename": "04_List",
-      "path": "KDT/Data structure/assets/04_List.png"
-    },
-    {
-      "basename": "01. about Algorithm (Intro)-4",
-      "path": "KDT/Data structure/assets/01. about Algorithm (Intro)-4.png"
-    },
-    {
-      "basename": "08. 힙(Heap), 셋(set)",
-      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
-    },
-    {
-      "basename": "06_Dictionary",
-      "path": "KDT/Data structure/assets/06_Dictionary.png"
-    },
-    {
-      "basename": "06. 딕셔너리(Dictionary)",
-      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
-    },
-    {
-      "basename": "06_Dictionary-2",
-      "path": "KDT/Data structure/assets/06_Dictionary-2.png"
-    },
-    {
-      "basename": "06_Dictionary-3",
-      "path": "KDT/Data structure/assets/06_Dictionary-3.png"
     }
   ],
   "omittedPaths": [
