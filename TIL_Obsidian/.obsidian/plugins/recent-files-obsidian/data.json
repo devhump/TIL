@@ -5,6 +5,10 @@
       "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
     },
     {
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Obsidian setting",
       "path": "_others_/obsidian/Obsidian setting.md"
-    },
-    {
-      "basename": "markdown for Obsidian",
-      "path": "_others_/obsidian/markdown for Obsidian.md"
     }
   ],
   "omittedPaths": [

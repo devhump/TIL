@@ -13,6 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad49536719c2269f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
                 "mode": "source",
                 "backlinks": true,
@@ -20,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "데이터 구조",
+                "query": "sort",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -160,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.5
+    "width": 476.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,8 +189,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a85bc5a7c0f465d5",
+  "active": "ad49536719c2269f",
   "lastOpenFiles": [
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "📑 devhump's TIL Index.md",
     "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
@@ -214,7 +230,6 @@
     "Python/HeadFirst-Python/Head First - Python.md",
     "Python/HeadFirst-Python",
     "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
-    "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "DFS-test/asset",
     "DFS-test",
     "KDT/Algorithm/assets",
