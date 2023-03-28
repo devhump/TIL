@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "06. 딕셔너리(Dictionary)",
-      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+      "basename": "02. 이차원 리스트(2-2)",
+      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
+      "basename": "01. 이차원 리스트(1-2)",
+      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
     },
     {
       "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
       "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
+    },
+    {
+      "basename": "06. 딕셔너리(Dictionary)",
+      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
     },
     {
       "basename": "📑 devhump's TIL Index",
@@ -31,10 +39,6 @@
     {
       "basename": "파이썬의 기본 데이터 구조",
       "path": "KDT/Data structure/assets/파이썬의 기본 데이터 구조.png"
-    },
-    {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
     },
     {
       "basename": "09. DFS 와 BFS 기초 문제 풀이",
@@ -195,10 +199,6 @@
     {
       "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
       "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
-    },
-    {
-      "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
     }
   ],
   "omittedPaths": [

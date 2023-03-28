@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+                "file": "KDT/Algorithm/02. 이차원 리스트(2-2).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,28 +102,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5c0083a36c987cf8",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "8214ba061cc1f2fd",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
             "id": "1a65d436df0ced0a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+                "file": "KDT/Algorithm/02. 이차원 리스트(2-2).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+                "file": "KDT/Algorithm/02. 이차원 리스트(2-2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,17 +147,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+                "file": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
               }
+            }
+          },
+          {
+            "id": "d664e4f4295f6470",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 476.5,
-    "collapsed": true
+    "width": 476.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,8 +179,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad49536719c2269f",
+  "active": "d664e4f4295f6470",
   "lastOpenFiles": [
+    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
+    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "📑 devhump's TIL Index.md",
@@ -207,7 +199,6 @@
     "KDT/Data structure/assets/07. Stack & Queue-34.png",
     "KDT/Data structure/assets/07. Stack & Queue-33.png",
     "KDT/Data structure/assets/07. Stack & Queue-32.png",
-    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
     "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
     "Algorithm (theory)/08. DFS & BFS.md",
     "assets/05. 깊이 우선 탐색 (DFS)-57.png.md",
@@ -229,7 +220,6 @@
     "assets",
     "Python/HeadFirst-Python/Head First - Python.md",
     "Python/HeadFirst-Python",
-    "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
     "DFS-test/asset",
     "DFS-test",
     "KDT/Algorithm/assets",
