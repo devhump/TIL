@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d48b89563366d55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -142,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
               }
             }
           }
@@ -174,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.5,
-    "collapsed": true
+    "width": 476.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,11 +175,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0d48b89563366d55",
+  "active": "a85bc5a7c0f465d5",
   "lastOpenFiles": [
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
-    "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
     "📑 devhump's TIL Index.md",
+    "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "KDT/Data structure/01. about Algorithm (Intro).md",
     "KDT/Data structure/assets/07. Stack & Queue-41.png",
     "KDT/Data structure/assets/07. Stack & Queue-40.png",
