@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "08. 힙(Heap), 셋(set)",
+      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
+    },
+    {
       "basename": "02. 이차원 리스트(2-2)",
       "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "파이썬 05. 에러&예외 처리 (Error & Exception Handling)",
       "path": "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md"
-    },
-    {
-      "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
-      "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
     }
   ],
   "omittedPaths": [

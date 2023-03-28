@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Algorithm/02. 이차원 리스트(2-2).md",
+                "file": "KDT/Data structure/08. 힙(Heap), 셋(set).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Algorithm/02. 이차원 리스트(2-2).md",
+                "file": "KDT/Data structure/08. 힙(Heap), 셋(set).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Algorithm/02. 이차원 리스트(2-2).md",
+                "file": "KDT/Data structure/08. 힙(Heap), 셋(set).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+                "file": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
               }
             }
           },
@@ -179,10 +179,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d664e4f4295f6470",
+  "active": "ac63c7e6aa661de6",
   "lastOpenFiles": [
-    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
+    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "📑 devhump's TIL Index.md",
