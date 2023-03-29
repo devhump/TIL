@@ -45,7 +45,7 @@
 - [[08. DFS & BFS]]
 - [[09. DFS 와 BFS 기초 문제 풀이]]
 - 
-- [10. 다익스트라 알고리즘 (Dijkstra Algorithm)](Algorithm%20(theory)/10.%20다익스트라%20알고리즘%20(Dijkstra%20Algorithm).md)
+- [10. 다익스트라 알고리즘(Dijkstra Algorithm)](Algorithm%20(theory)/10.%20다익스트라%20알고리즘(Dijkstra%20Algorithm).md)
 - 
 - [[17. 재귀함수(Recursive Function)]]
 - [[18. 유용한 표준 라이브러리 소개]]

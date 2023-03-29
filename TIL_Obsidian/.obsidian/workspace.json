@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📑 devhump's TIL Index.md"
+                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
               }
             }
           },
@@ -169,25 +170,26 @@
   },
   "active": "439b4dae40eba537",
   "lastOpenFiles": [
-    "Algorithm (theory)/10. 다익스트라 알고리즘 (Dijkstra Algorithm).md",
+    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-18.png",
+    "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png",
+    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+    "📑 devhump's TIL Index.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
     "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png",
-    "Algorithm (theory)/assets/10. Dijkstra Algorithm-16.png",
-    "Algorithm (theory)/assets/10. Dijkstra Algorithm-15.png",
-    "Algorithm (theory)/assets/10. Dijkstra Algorithm-14.png",
-    "Algorithm (theory)/assets/10. Dijkstra Algorithm-13.png",
-    "Algorithm (theory)/assets/10. Dijkstra Algorithm-12.png",
-    "Algorithm (theory)/assets/10. Dijkstra Algorithm-11.png",
-    "Algorithm (theory)/assets/10. Dijkstra Algorithm-10.png",
-    "Algorithm (theory)/assets/10. Dijkstra Algorithm-9.png",
-    "Algorithm (theory)/assets/10. Dijkstra Algorithm-8.png",
+    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-16.png",
+    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-15.png",
+    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-14.png",
+    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-13.png",
+    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-12.png",
+    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-11.png",
+    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-10.png",
+    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-9.png",
     "_others_/obsidian/LaTeX.md",
     "KDT/Algorithm/01. 이차원 리스트(1-2).md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
-    "📑 devhump's TIL Index.md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "KDT/Data structure/01. about Algorithm (Intro).md",
     "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",

@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
+      "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
+      "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
     },
     {
-      "basename": "10. 다익스트라 알고리즘 (Dijkstra Algorithm)",
-      "path": "Algorithm (theory)/10. 다익스트라 알고리즘 (Dijkstra Algorithm).md"
+      "basename": "01. 스택과 큐(Stack & Que)-1",
+      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png"
+    },
+    {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "06. 딕셔너리(Dictionary)",
@@ -75,10 +79,6 @@
     {
       "basename": "Pasted image 20230304015957",
       "path": "Algorithm (theory)/assets/Pasted image 20230304015957.png"
-    },
-    {
-      "basename": "09. DFS & BFS basic problem & solution-1",
-      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-1.png"
     }
   ],
   "omittedPaths": [
