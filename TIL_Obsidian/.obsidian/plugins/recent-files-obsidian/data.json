@@ -1,32 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "08. 힙(Heap), 셋(set)",
-      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
     },
     {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
-    },
-    {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
+      "basename": "10. 다익스트라 알고리즘 (Dijkstra Algorithm)",
+      "path": "Algorithm (theory)/10. 다익스트라 알고리즘 (Dijkstra Algorithm).md"
     },
     {
       "basename": "06. 딕셔너리(Dictionary)",
       "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
     },
     {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
-    },
-    {
       "basename": "07. 스택 & 큐 (Stack & Queue)",
       "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "_others_/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "코딩 테스트 정복을 위한 데이터 구조와 알고리즘",
+      "path": "KDT/Data structure/assets/코딩 테스트 정복을 위한 데이터 구조와 알고리즘.png"
+    },
+    {
+      "basename": "01. 이차원 리스트(1-2)",
+      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
+    },
+    {
+      "basename": "02. 이차원 리스트(2-2)",
+      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
+      "basename": "08. 힙(Heap), 셋(set)",
+      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
+    },
+    {
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
     },
     {
       "basename": "01. 스택과 큐(Stack & Que)",
@@ -35,10 +51,6 @@
     {
       "basename": "01. about Algorithm (Intro)",
       "path": "KDT/Data structure/01. about Algorithm (Intro).md"
-    },
-    {
-      "basename": "코딩 테스트 정복을 위한 데이터 구조와 알고리즘",
-      "path": "KDT/Data structure/assets/코딩 테스트 정복을 위한 데이터 구조와 알고리즘.png"
     },
     {
       "basename": "파이썬의 기본 데이터 구조",
@@ -67,143 +79,11 @@
     {
       "basename": "09. DFS & BFS basic problem & solution-1",
       "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-1.png"
-    },
-    {
-      "basename": "09. DFS & BFS basic problem & solution",
-      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution.png"
-    },
-    {
-      "basename": "09. DFS & BFS basic problem & solution-2",
-      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-2.png"
-    },
-    {
-      "basename": "09. DFS & BFS basic problem & solution-3",
-      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-3.png"
-    },
-    {
-      "basename": "09. DFS & BFS basic problem & solution-4",
-      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-4.png"
-    },
-    {
-      "basename": "09. DFS & BFS basic problem & solution-5",
-      "path": "Algorithm (theory)/assets/09. DFS & BFS basic problem & solution-5.png"
-    },
-    {
-      "basename": "23_greedy_img- (4)",
-      "path": "Algorithm (theory)/assets/23_greedy_img- (4).png"
-    },
-    {
-      "basename": "22_DP_problem&solving-img- (10)",
-      "path": "Algorithm (theory)/assets/22_DP_problem&solving-img- (10).png"
-    },
-    {
-      "basename": "22_DP_problem&solving-img- (11)",
-      "path": "Algorithm (theory)/assets/22_DP_problem&solving-img- (11).png"
-    },
-    {
-      "basename": "23. 그리디(Greedy)",
-      "path": "Algorithm (theory)/23. 그리디(Greedy).md"
-    },
-    {
-      "basename": "22. 다이나믹 프로그래밍 - 문제풀이",
-      "path": "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md"
-    },
-    {
-      "basename": "21. 다이나믹 프로그래밍",
-      "path": "Algorithm (theory)/21. 다이나믹 프로그래밍.md"
-    },
-    {
-      "basename": "18. 유용한 표준 라이브러리 소개",
-      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
-    },
-    {
-      "basename": "17. 재귀함수(Recursive Function)",
-      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
-    },
-    {
-      "basename": "07. 정렬 알고리즘 비교 및 기초 문제 풀이",
-      "path": "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md"
-    },
-    {
-      "basename": "06. 퀵 정렬 (Quick Sort)",
-      "path": "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md"
-    },
-    {
-      "basename": "05. 정렬 알고리즘 (Sorting Algorithm)",
-      "path": "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md"
-    },
-    {
-      "basename": "04. 바이너리 인덱스 트리 (Binary Index Tree)",
-      "path": "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md"
-    },
-    {
-      "basename": "03. 트리 (tree)",
-      "path": "Algorithm (theory)/03. 트리 (tree).md"
-    },
-    {
-      "basename": "02. 우선순위 큐(Priority Queue)",
-      "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
-    },
-    {
-      "basename": "03. 완전탐색  I (Exhaustive Search)",
-      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
-    },
-    {
-      "basename": "06. 코딩 테스트 준비 (기본)",
-      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
-    },
-    {
-      "basename": "06. 코딩 테스트 준비 (기본)",
-      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
-    },
-    {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
-      "basename": "05_DFS-29",
-      "path": "KDT/Algorithm/assets/05_DFS-29.png"
-    },
-    {
-      "basename": "05_DFS-57",
-      "path": "KDT/Algorithm/assets/05_DFS-57.png"
-    },
-    {
-      "basename": "05_DFS-56",
-      "path": "KDT/Algorithm/assets/05_DFS-56.png"
-    },
-    {
-      "basename": "Head First - Python",
-      "path": "Python/HeadFirst-Python/Head First - Python.md"
-    },
-    {
-      "basename": "continue_break_pass",
-      "path": "Python/assets/continue_break_pass.png"
-    },
-    {
-      "basename": "파이썬 08. 파이썬 응용,심화(python advanced)",
-      "path": "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md"
-    },
-    {
-      "basename": "파이썬 02. 제어문 (Control Statement)",
-      "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
-    },
-    {
-      "basename": "파이썬 04. 데이터 구조 (Data Structure)",
-      "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
-    },
-    {
-      "basename": "파이썬 07. 클래스(Class)",
-      "path": "KDT/Python/파이썬 07. 클래스(Class).md"
-    },
-    {
-      "basename": "파이썬 05. 에러&예외 처리 (Error & Exception Handling)",
-      "path": "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md"
     }
   ],
   "omittedPaths": [
     ""
   ],
-  "maxLength": null,
-  "openType": "tab"
+  "maxLength": 20,
+  "openType": "split"
 }
