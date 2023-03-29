@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+                "file": "_others_/obsidian/LaTeX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "0ba5b9af14f50891",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40af9d0d28afedfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -95,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+                "file": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+                "file": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
+                "file": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
               }
             }
           },
@@ -168,24 +194,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "439b4dae40eba537",
+  "active": "31c996407033f3d5",
   "lastOpenFiles": [
+    "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png",
+    "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm-4.png",
+    "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm-3.png",
+    "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm-2.png",
+    "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm-1.png",
+    "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm.png",
+    "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
+    "_others_/obsidian/LaTeX.md",
+    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-18.png",
     "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png",
-    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "📑 devhump's TIL Index.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
-    "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png",
     "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-16.png",
     "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-15.png",
     "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-14.png",
-    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-13.png",
-    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-12.png",
-    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-11.png",
-    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-10.png",
-    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-9.png",
-    "_others_/obsidian/LaTeX.md",
     "KDT/Algorithm/01. 이차원 리스트(1-2).md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
@@ -205,7 +232,6 @@
     "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
     "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md",
     "Algorithm (theory)/03. 트리 (tree).md",
-    "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
     "Algorithm (theory)/assets/open.url",
     "assets",
     "Python/HeadFirst-Python",
