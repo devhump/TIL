@@ -5,12 +5,12 @@
       "path": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
     },
     {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
-    },
-    {
       "basename": "LaTeX",
       "path": "_others_/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
     },
     {
       "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
