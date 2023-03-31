@@ -77,6 +77,33 @@
 
 
 ### 함수
+
+#### random
+##### random.randint(a, b)
+- [random.randint(a,b) 공식 설명](https://docs.python.org/ko/3/library/random.html?highlight=randint#random.randint)
+- `a <= N <= b`를 만족하는 임의의 정수 N을 반환합니다. `randrange(a, b+1)`의 별칭.
+```python
+
+import random
+
+# 1이상 5이하의 수중에서 하나의 정수 반환
+x = random.randint(1, 5)
+```
+
+
+#### time
+##### time.sleep(a)
+- a초 동안 프로세스를 중지한다. 실수단위도 가능하다.
+```python
+import time
+
+print("start")
+time.sleep(10) # 10초 동안 프로세스 중지
+print("...ing")
+time.sleep(5.5)
+print("end!")
+```
+
 #### Zip()
   - 여러 개의 순회 가능한(iterable) 객체를 인자로 받고, 각 객체가 담고 있는 원소를 튜플 형태로 차례로 접근 할 수 있는 반복자(iterator)를 반환 
 

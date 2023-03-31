@@ -1,28 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm)",
-      "path": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
+      "basename": "얕은 복사와 깊은 복사(fin)",
+      "path": "Python/얕은 복사와 깊은 복사(fin).md"
+    },
+    {
+      "basename": "얕은 복사(shallow copy)와 깊은 복사(deep copy)",
+      "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
+    },
+    {
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "copy — 얕은 복사와 깊은 복사 연산",
+      "path": "Python/copy — 얕은 복사와 깊은 복사 연산.md"
+    },
+    {
+      "basename": "02. 이차원 리스트(2-2)",
+      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
+    },
+    {
+      "basename": "Obsidian setting",
+      "path": "_others_/obsidian/Obsidian setting.md"
     },
     {
       "basename": "LaTeX",
       "path": "_others_/obsidian/LaTeX.md"
     },
     {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
+      "basename": "Python 용어 정리",
+      "path": "Python/Python 용어 정리.md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
+    },
+    {
+      "basename": "Python 유용한 문법 정리",
+      "path": "Python/Python 유용한 문법 정리.md"
     },
     {
       "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
       "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
     },
     {
-      "basename": "01. 스택과 큐(Stack & Que)-1",
-      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png"
+      "basename": "11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm)",
+      "path": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
     },
     {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)-1",
+      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png"
     },
     {
       "basename": "06. 딕셔너리(Dictionary)",
@@ -41,44 +77,8 @@
       "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
     },
     {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
-    },
-    {
       "basename": "08. 힙(Heap), 셋(set)",
       "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
-    },
-    {
-      "basename": "01. about Algorithm (Intro)",
-      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
-    },
-    {
-      "basename": "파이썬의 기본 데이터 구조",
-      "path": "KDT/Data structure/assets/파이썬의 기본 데이터 구조.png"
-    },
-    {
-      "basename": "09. DFS 와 BFS 기초 문제 풀이",
-      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "Pasted image 20230304021022",
-      "path": "Algorithm (theory)/assets/Pasted image 20230304021022.png"
-    },
-    {
-      "basename": "Pasted image 20230304020304",
-      "path": "Algorithm (theory)/assets/Pasted image 20230304020304.png"
     }
   ],
   "omittedPaths": [

@@ -54,9 +54,12 @@
 - [[23. 그리디(Greedy)]]
 
 ### Python
+- 얕은 복사 vs 깊은 복사 관련된 문서들 👇
+	- [얕은 복사와 깊은 복사(fin)](얕은%20복사와%20깊은%20복사(fin).md)
+	- [copy — 얕은 복사와 깊은 복사 연산](copy%20—%20얕은%20복사와%20깊은%20복사%20연산.md)
+	- [얕은 복사(shallow copy)와 깊은 복사(deep copy)](얕은%20복사(shallow%20copy)와%20깊은%20복사(deep%20copy).md)
+
 - [[람다함수(Lambda Func, 익명함수)]]
-- [[얕은 복사(shallow copy)와 깊은 복사(deep copy)]]
-- [[copy — 얕은 복사와 깊은 복사 연산]]
 - [[iterable & iterator]]
 - [[Python 용어 정리]]
 - [[Python 유용한 문법 정리]]
@@ -66,6 +69,7 @@
 - [[Enumerate 예시]]
 
 ### others
+- [개발 관련 IT 용어 정리](_others_/개발%20관련%20IT%20용어%20정리.md)
 - [[500 mile]]
 - [[알고리즘 TIP]]
 - [[Git의 기초 - 되돌리기]]

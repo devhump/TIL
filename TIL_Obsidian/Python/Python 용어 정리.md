@@ -1,5 +1,7 @@
 #python
 
+- 비슷한 문서 👉 [개발 관련 IT 용어 정리](../_others_/개발%20관련%20IT%20용어%20정리.md)
+
 - [Iterable (이터러블)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-iterable)
 	- 이터러블은 [`for`](https://docs.python.org/ko/3/reference/compound_stmts.html#for) 루프에 사용될 수 있고, 시퀀스를 필요로 하는 다른 많은 곳 ([`zip()`](https://docs.python.org/ko/3/library/functions.html#zip "zip"), [`map()`](https://docs.python.org/ko/3/library/functions.html#map "map"), …) 에 사용될 수 있습니다. 이터러블 객체가 내장 함수 [`iter()`](https://docs.python.org/ko/3/library/functions.html#iter "iter") 에 인자로 전달되면, 그 객체의 이터레이터를 돌려줍니다. 이 이터레이터는 값들의 집합을 한 번 거치는 동안 유효합니다. 이터러블을 사용할 때, 보통은 [`iter()`](https://docs.python.org/ko/3/library/functions.html#iter "iter") 를 호출하거나, 이터레이터 객체를 직접 다룰 필요는 없습니다. `for` 문은 이것들을 여러분을 대신해서 자동으로 해주는데, 루프를 도는 동안 이터레이터를 잡아둘 이름 없는 변수를 만듭니다. [이터레이터](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-iterator), [시퀀스](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-sequence), [제너레이터](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-generator) 도 보세요.
 
@@ -25,3 +27,16 @@
 
 - [expression (표현식)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-expression)
 	- 어떤 값으로 구해질 수 있는 문법적인 조각. 다른 말로 표현하면, 표현식은 리터럴, 이름, 어트리뷰트 액세스, 연산자, 함수들과 같은 값을 돌려주는 표현 요소들을 쌓아 올린 것입니다. 다른 많은 언어와 대조적으로, 모든 언어 구성물들이 표현식인 것은 아닙니다. [`while`](https://docs.python.org/ko/3/reference/compound_stmts.html#while)처럼, 표현식으로 사용할 수 없는 [문장](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-statement) 들이 있습니다. 대입 또한 문장이고, 표현식이 아닙니다.
+
+- **Comprehension**
+	- 영어 단어의 뜻은 **이해(understanding) 또는 포함(inclusion)** 이라는 뜻을 가졌다. 가장 많이 쓰이는 `list comprehension`은 **리스트 내포**라고 번역되곤 한다.
+	- 같이 보면 좋은 문서 👉 [파이썬(python) #23_ 컴프리헨션(Comprehension) 이란?](https://doorbw.tistory.com/174)
+	- [list comprehension (리스트 컴프리헨션)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-list-comprehension)
+		- 시퀀스의 요소들 전부 또는 일부를 처리하고 그 결과를 리스트로 돌려주는 간결한 방법. 
+			- `result = ['{:#04x}'.format(x) for x in range(256) if x % 2 == 0]` 는 0에서 255 사이에 있는 짝수들의 16진수 (0x..) 들을 포함하는 문자열의 리스트를 만듭니다. [`if`](https://docs.python.org/ko/3/reference/compound_stmts.html#if) 절은 생략할 수 있습니다. 생략하면, `range(256)`에 있는 모든 요소가 처리됩니다.
+	- [set comprehension (집합 컴프리헨션)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-set-comprehension)
+		- 이터러블에 있는 요소 전체나 일부를 처리하고 결과를 담은 집합을 반환하는 간결한 방법. 
+			- `results = {c for c in 'abracadabra' if c not in 'abc'}`는 문자열의 집합 `{'r', 'd'}`를 생성합니다. [리스트, 집합, 딕셔너리의 디스플레이(display)](https://docs.python.org/ko/3/reference/expressions.html#comprehensions)을 참조하십시오.
+	- [dictionary comprehension (딕셔너리 컴프리헨션)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-dictionary-comprehension)
+		- 이터러블에 있는 요소 전체나 일부를 처리하고 결과를 담은 딕셔너리를 반환하는 간결한 방법. 
+			- `results = {n: n ** 2 for n in range(10)}`은 값 `n ** 2`에 매핑된 키 `n`을 포함하는 딕셔너리를 생성합니다. [리스트, 집합, 딕셔너리의 디스플레이(display)](https://docs.python.org/ko/3/reference/expressions.html#comprehensions)을 참조하십시오.

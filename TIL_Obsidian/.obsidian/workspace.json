@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ee573f9f1d67ef28",
+        "id": "65b494350cc5726a",
         "type": "tabs",
         "children": [
           {
-            "id": "439b4dae40eba537",
+            "id": "f5997aade124440e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/obsidian/LaTeX.md",
+                "file": "KDT/Algorithm/02. 이차원 리스트(2-2).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "0ba5b9af14f50891",
+            "id": "442508d8b5ea24d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
+                "file": "📑 devhump's TIL Index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,20 +34,46 @@
             }
           },
           {
-            "id": "40af9d0d28afedfc",
+            "id": "102a8ae44ad13f37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
-                "mode": "preview",
+                "file": "Python/copy — 얕은 복사와 깊은 복사 연산.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65900b01f6354735",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c58a7dd844522e0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/얕은 복사와 깊은 복사(fin).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -76,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sort",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
+                "file": "Python/얕은 복사와 깊은 복사(fin).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
+                "file": "Python/얕은 복사와 깊은 복사(fin).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
+                "file": "Python/얕은 복사와 깊은 복사(fin).md"
               }
             }
           },
@@ -174,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -194,26 +220,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0ba5b9af14f50891",
+  "active": "c58a7dd844522e0f",
   "lastOpenFiles": [
+    "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
+    "📑 devhump's TIL Index.md",
+    "Python/copy — 얕은 복사와 깊은 복사 연산.md",
+    "Python/얕은 복사와 깊은 복사(fin).md",
+    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
+    "KDT/Algorithm/assets/02. 이차원 리스트(2-2).png",
+    "KDT/Data structure/04. 리스트(List).md",
+    "_others_/obsidian/Obsidian setting.md",
     "_others_/obsidian/LaTeX.md",
+    "Python/Python 용어 정리.md",
+    "_others_/개발 관련 IT 용어 정리.md",
+    "_others_/obsidian/assets/Obsidian setting-5.png",
+    "_others_/obsidian/assets/Obsidian setting-4.png",
+    "_others_/obsidian/assets/Obsidian setting-3.png",
+    "_others_/obsidian/assets/Obsidian setting-2.png",
+    "_others_/obsidian/assets/Obsidian setting-1.png",
+    "_others_/obsidian/assets/Obsidian setting.png",
+    "Python/Python 유용한 문법 정리.md",
+    "_others_/assets/IT_dict.png",
+    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+    "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
     "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png",
     "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm-4.png",
-    "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm-3.png",
-    "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm-2.png",
-    "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm-1.png",
-    "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm.png",
-    "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
-    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
-    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-18.png",
-    "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png",
-    "📑 devhump's TIL Index.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
-    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-16.png",
-    "Algorithm (theory)/assets/10_Dijkstra Algorithm-img-15.png",
     "KDT/Algorithm/01. 이차원 리스트(1-2).md",
-    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
@@ -224,13 +258,6 @@
     "Algorithm (theory)/23. 그리디(Greedy).md",
     "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
     "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
-    "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
-    "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
-    "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
-    "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md",
-    "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
-    "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md",
-    "Algorithm (theory)/03. 트리 (tree).md",
     "Algorithm (theory)/assets/open.url",
     "assets",
     "Python/HeadFirst-Python",
