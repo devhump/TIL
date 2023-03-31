@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Hot-key (for Mac)",
+      "path": "_others_/Hot-key (for Mac).md"
+    },
+    {
+      "basename": "Hot-key (windows)",
+      "path": "_others_/Hot-key (windows).md"
+    },
+    {
+      "basename": "07. 스택 & 큐 (Stack & Queue)",
+      "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
+    },
+    {
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
+    },
+    {
+      "basename": "알고리즘 TIP",
+      "path": "_others_/알고리즘 TIP.md"
+    },
+    {
+      "basename": "01. about Algorithm (Intro)",
+      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
@@ -33,10 +57,6 @@
       "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
     },
     {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
-    },
-    {
       "basename": "Obsidian setting",
       "path": "_others_/obsidian/Obsidian setting.md"
     },
@@ -59,26 +79,6 @@
     {
       "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
       "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
-    },
-    {
-      "basename": "11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm)",
-      "path": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)-1",
-      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png"
-    },
-    {
-      "basename": "06. 딕셔너리(Dictionary)",
-      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
-    },
-    {
-      "basename": "07. 스택 & 큐 (Stack & Queue)",
-      "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
     }
   ],
   "omittedPaths": [

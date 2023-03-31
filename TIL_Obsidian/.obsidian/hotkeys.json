@@ -171,7 +171,15 @@
       "key": "R"
     }
   ],
-  "workspace:toggle-pin": [],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
   "workspace:goto-tab-8": [],
   "editor:fold-all": [
     {

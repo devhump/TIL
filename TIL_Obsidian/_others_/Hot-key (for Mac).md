@@ -113,6 +113,10 @@
 | `shift(⇧)` + `i`  or `opt(⌥)` + `i` | insert 이슈 |
 | `ctrl(⌃)` + `` `(backtick)``  | 터미널 열고 닫기 |
 
+
+![VS Code](Hot-key%20(windows).md#VS%20Code)
+
+
 ![](assets/Pasted%20image%2020230215172150.png)
 
 ![](assets/Pasted%20image%2020230215172228.png)

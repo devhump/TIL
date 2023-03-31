@@ -6,7 +6,7 @@ for j in range(10000):
     temp = j
 
     for k in range(len(str(j))):
-        temp += int(k)
+        temp += int((str(j))[k])
 
     if temp in nums:
         nums.remove(temp)
