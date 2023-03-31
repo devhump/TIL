@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "얕은 복사와 깊은 복사(fin)",
-      "path": "Python/얕은 복사와 깊은 복사(fin).md"
-    },
-    {
-      "basename": "얕은 복사(shallow copy)와 깊은 복사(deep copy)",
-      "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
-    },
-    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "debugging with vs code",
+      "path": "_others_/assets/debugging with vs code.png"
+    },
+    {
+      "basename": "VS Code를 이용한 파이썬 소스코드 디버깅",
+      "path": "_others_/VS Code를 이용한 파이썬 소스코드 디버깅.md"
     },
     {
       "basename": "copy — 얕은 복사와 깊은 복사 연산",
@@ -19,6 +19,18 @@
     {
       "basename": "02. 이차원 리스트(2-2)",
       "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
+      "basename": "01. 이차원 리스트(1-2)",
+      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
+    },
+    {
+      "basename": "얕은 복사와 깊은 복사(fin)",
+      "path": "Python/얕은 복사와 깊은 복사(fin).md"
+    },
+    {
+      "basename": "얕은 복사(shallow copy)와 깊은 복사(deep copy)",
+      "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
     },
     {
       "basename": "04. 리스트(List)",
@@ -67,18 +79,6 @@
     {
       "basename": "07. 스택 & 큐 (Stack & Queue)",
       "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
-    },
-    {
-      "basename": "코딩 테스트 정복을 위한 데이터 구조와 알고리즘",
-      "path": "KDT/Data structure/assets/코딩 테스트 정복을 위한 데이터 구조와 알고리즘.png"
-    },
-    {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
-    },
-    {
-      "basename": "08. 힙(Heap), 셋(set)",
-      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
     }
   ],
   "omittedPaths": [

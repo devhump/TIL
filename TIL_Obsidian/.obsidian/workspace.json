@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f5997aade124440e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Algorithm/02. 이차원 리스트(2-2).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "442508d8b5ea24d8",
             "type": "leaf",
             "state": {
@@ -34,12 +21,12 @@
             }
           },
           {
-            "id": "102a8ae44ad13f37",
+            "id": "b5aef64d40ae8fe7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/copy — 얕은 복사와 깊은 복사 연산.md",
+                "file": "_others_/VS Code를 이용한 파이썬 소스코드 디버깅.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,33 +34,16 @@
             }
           },
           {
-            "id": "65900b01f6354735",
+            "id": "8eff41c272f0e2b3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c58a7dd844522e0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/얕은 복사와 깊은 복사(fin).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "_others_/assets/debugging with vs code.png"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/얕은 복사와 깊은 복사(fin).md",
+                "file": "📑 devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -164,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/얕은 복사와 깊은 복사(fin).md",
+                "file": "📑 devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/얕은 복사와 깊은 복사(fin).md"
+                "file": "📑 devhump's TIL Index.md"
               }
             }
           },
@@ -220,13 +190,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c58a7dd844522e0f",
+  "active": "442508d8b5ea24d8",
   "lastOpenFiles": [
-    "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
+    "_others_/assets/debugging with vs code.png",
+    "_others_/VS Code를 이용한 파이썬 소스코드 디버깅.md",
+    "_others_/assets/debugging with vs code-1.png",
+    "assets",
     "📑 devhump's TIL Index.md",
     "Python/copy — 얕은 복사와 깊은 복사 연산.md",
-    "Python/얕은 복사와 깊은 복사(fin).md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
+    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
+    "Python/얕은 복사와 깊은 복사(fin).md",
+    "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
     "KDT/Algorithm/assets/02. 이차원 리스트(2-2).png",
     "KDT/Data structure/04. 리스트(List).md",
     "_others_/obsidian/Obsidian setting.md",
@@ -243,11 +218,8 @@
     "_others_/assets/IT_dict.png",
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
-    "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png",
-    "Algorithm (theory)/assets/11. Floyd-Warshall Algorithm-4.png",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
-    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
@@ -256,10 +228,7 @@
     "Algorithm (theory)/08. DFS & BFS.md",
     "assets/05. 깊이 우선 탐색 (DFS)-57.png.md",
     "Algorithm (theory)/23. 그리디(Greedy).md",
-    "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
-    "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
     "Algorithm (theory)/assets/open.url",
-    "assets",
     "Python/HeadFirst-Python",
     "DFS-test/asset",
     "DFS-test",

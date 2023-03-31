@@ -78,6 +78,8 @@
 - [[Hot-key (windows)]]
 - [[Templates List]]
 - [[vscode_shortcuts_(mac).pdf]] 
+- [VS Code를 이용한 파이썬 소스코드 디버깅](_others_/VS%20Code를%20이용한%20파이썬%20소스코드%20디버깅.md)
+
 
 #### Obsidian
 - [[markdown for Obsidian]]
