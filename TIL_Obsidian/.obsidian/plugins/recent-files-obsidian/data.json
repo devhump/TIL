@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
-    },
-    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
+    },
+    {
+      "basename": "06. 코딩 테스트 준비 (기본)",
+      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
+    },
+    {
+      "basename": "02. 이차원 리스트(2-2)",
+      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
+      "basename": "01. 이차원 리스트(1-2)",
+      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
+    },
+    {
+      "basename": "Obsidian setting",
+      "path": "_others_/obsidian/Obsidian setting.md"
     },
     {
       "basename": "알고리즘 TIP",
@@ -45,14 +57,6 @@
       "path": "Python/copy — 얕은 복사와 깊은 복사 연산.md"
     },
     {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
-    },
-    {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
-    },
-    {
       "basename": "얕은 복사와 깊은 복사(fin)",
       "path": "Python/얕은 복사와 깊은 복사(fin).md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "Python 유용한 문법 정리",
       "path": "Python/Python 유용한 문법 정리.md"
-    },
-    {
-      "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
-      "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
     }
   ],
   "omittedPaths": [
