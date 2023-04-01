@@ -5,6 +5,14 @@
       "path": "📑 devhump's TIL Index.md"
     },
     {
+      "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
+      "path": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)-2",
+      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-2.png"
+    },
+    {
       "basename": "06. 코딩 테스트 준비 (기본)",
       "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "Python 용어 정리",
       "path": "Python/Python 용어 정리.md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "_others_/개발 관련 IT 용어 정리.md"
-    },
-    {
-      "basename": "Python 유용한 문법 정리",
-      "path": "Python/Python 유용한 문법 정리.md"
     }
   ],
   "omittedPaths": [
