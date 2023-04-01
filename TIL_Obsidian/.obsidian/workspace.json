@@ -23,12 +23,25 @@
             }
           },
           {
-            "id": "defdbe351ac64c6c",
+            "id": "767f9d4e1a16bdc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
+                "file": "_others_/obsidian/LaTeX.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6361231405f084b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -166,8 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.5,
-    "collapsed": true
+    "width": 476.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,12 +196,20 @@
   },
   "active": "b906d3e55436fee1",
   "lastOpenFiles": [
-    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
-    "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-2.png",
-    "Algorithm (theory)/assets/12. Bellman-Ford-2.png",
-    "Algorithm (theory)/assets/12. Bellman-Ford-1.png",
-    "Algorithm (theory)/assets/12. Bellman-Ford.png",
+    "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
+    "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png",
+    "Algorithm (theory)/assets/13. Union-Find Algorithm-28.png",
+    "Algorithm (theory)/assets/13. Union-Find Algorithm-27.png",
+    "Algorithm (theory)/assets/13. Union-Find Algorithm-26.png",
+    "Algorithm (theory)/assets/13. Union-Find Algorithm-25.png",
+    "Algorithm (theory)/assets/13. Union-Find Algorithm-24.png",
+    "Algorithm (theory)/assets/13. Union-Find Algorithm-23.png",
+    "Algorithm (theory)/assets/13. Union-Find Algorithm-22.png",
+    "Algorithm (theory)/assets/13. Union-Find Algorithm-21.png",
+    "Algorithm (theory)/assets/13. Union-Find Algorithm-20.png",
+    "_others_/obsidian/LaTeX.md",
     "📑 devhump's TIL Index.md",
+    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
     "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "KDT/Algorithm/01. 이차원 리스트(1-2).md",
@@ -200,26 +220,18 @@
     "_others_/Hot-key (windows).md",
     "_others_/Hot-key (for Mac).md",
     "KDT/Data structure/01. about Algorithm (Intro).md",
-    "_others_/assets/debugging with vs code.png",
     "_others_/VS Code를 이용한 파이썬 소스코드 디버깅.md",
-    "_others_/assets/debugging with vs code-1.png",
     "assets",
     "Python/copy — 얕은 복사와 깊은 복사 연산.md",
     "Python/얕은 복사와 깊은 복사(fin).md",
     "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
-    "KDT/Algorithm/assets/02. 이차원 리스트(2-2).png",
-    "_others_/obsidian/LaTeX.md",
     "Python/Python 용어 정리.md",
     "_others_/개발 관련 IT 용어 정리.md",
-    "_others_/obsidian/assets/Obsidian setting-5.png",
-    "_others_/obsidian/assets/Obsidian setting-4.png",
-    "_others_/obsidian/assets/Obsidian setting-3.png",
     "Python/Python 유용한 문법 정리.md",
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
     "DFS-test/asset",

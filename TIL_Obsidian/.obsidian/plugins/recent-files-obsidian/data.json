@@ -5,6 +5,18 @@
       "path": "📑 devhump's TIL Index.md"
     },
     {
+      "basename": "13. 유니온 파인드 자료구조(Union-Find Algorithm)",
+      "path": "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)-1",
+      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "_others_/obsidian/LaTeX.md"
+    },
+    {
       "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
       "path": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md"
     },
@@ -67,18 +79,6 @@
     {
       "basename": "얕은 복사와 깊은 복사(fin)",
       "path": "Python/얕은 복사와 깊은 복사(fin).md"
-    },
-    {
-      "basename": "얕은 복사(shallow copy)와 깊은 복사(deep copy)",
-      "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
-    },
-    {
-      "basename": "Python 용어 정리",
-      "path": "Python/Python 용어 정리.md"
     }
   ],
   "omittedPaths": [
