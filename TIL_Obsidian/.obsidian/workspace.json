@@ -23,64 +23,12 @@
             }
           },
           {
-            "id": "f0a6b8dd3b7b1021",
+            "id": "6fdcc7bf1314f0c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/알고리즘 TIP.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8270c137343d9efa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Data structure/04. 리스트(List).md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eaf7690d7822a217",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e93d1e43e0d49325",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/Hot-key (windows).md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2995d840e5f3ac65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/Hot-key (for Mac).md",
+                "file": "_others_/obsidian/Obsidian setting.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md",
+                "file": "_others_/obsidian/Obsidian setting.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -180,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md",
+                "file": "_others_/obsidian/Obsidian setting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md"
+                "file": "_others_/obsidian/Obsidian setting.md"
               }
             }
           },
@@ -236,15 +184,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2995d840e5f3ac65",
+  "active": "6fdcc7bf1314f0c7",
   "lastOpenFiles": [
-    "_others_/Hot-key (windows).md",
-    "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
-    "KDT/Data structure/04. 리스트(List).md",
-    "_others_/알고리즘 TIP.md",
-    "KDT/Data structure/01. about Algorithm (Intro).md",
     "📑 devhump's TIL Index.md",
+    "_others_/알고리즘 TIP.md",
+    "KDT/Data structure/04. 리스트(List).md",
+    "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+    "_others_/Hot-key (windows).md",
     "_others_/Hot-key (for Mac).md",
+    "KDT/Data structure/01. about Algorithm (Intro).md",
     "_others_/assets/debugging with vs code.png",
     "_others_/VS Code를 이용한 파이썬 소스코드 디버깅.md",
     "_others_/assets/debugging with vs code-1.png",

@@ -1,32 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Hot-key (for Mac)",
-      "path": "_others_/Hot-key (for Mac).md"
+      "basename": "Obsidian setting",
+      "path": "_others_/obsidian/Obsidian setting.md"
     },
     {
-      "basename": "Hot-key (windows)",
-      "path": "_others_/Hot-key (windows).md"
-    },
-    {
-      "basename": "07. 스택 & 큐 (Stack & Queue)",
-      "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
-    },
-    {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
+      "basename": "📑 devhump's TIL Index",
+      "path": "📑 devhump's TIL Index.md"
     },
     {
       "basename": "알고리즘 TIP",
       "path": "_others_/알고리즘 TIP.md"
     },
     {
-      "basename": "01. about Algorithm (Intro)",
-      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
     },
     {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
+      "basename": "07. 스택 & 큐 (Stack & Queue)",
+      "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
+    },
+    {
+      "basename": "Hot-key (windows)",
+      "path": "_others_/Hot-key (windows).md"
+    },
+    {
+      "basename": "Hot-key (for Mac)",
+      "path": "_others_/Hot-key (for Mac).md"
+    },
+    {
+      "basename": "01. about Algorithm (Intro)",
+      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
     },
     {
       "basename": "debugging with vs code",
@@ -55,10 +59,6 @@
     {
       "basename": "얕은 복사(shallow copy)와 깊은 복사(deep copy)",
       "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
-    },
-    {
-      "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
     },
     {
       "basename": "LaTeX",
