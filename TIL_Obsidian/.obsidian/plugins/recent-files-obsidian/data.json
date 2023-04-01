@@ -5,16 +5,28 @@
       "path": "📑 devhump's TIL Index.md"
     },
     {
+      "basename": "25. 투 포인터와 구간 합 (Two Pointer & Interval Sum)",
+      "path": "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "_others_/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "Python 용어 정리",
+      "path": "Python/Python 용어 정리.md"
+    },
+    {
       "basename": "13. 유니온 파인드 자료구조(Union-Find Algorithm)",
       "path": "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md"
     },
     {
       "basename": "01. 스택과 큐(Stack & Que)-1",
       "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
     },
     {
       "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
@@ -67,18 +79,6 @@
     {
       "basename": "debugging with vs code",
       "path": "_others_/assets/debugging with vs code.png"
-    },
-    {
-      "basename": "VS Code를 이용한 파이썬 소스코드 디버깅",
-      "path": "_others_/VS Code를 이용한 파이썬 소스코드 디버깅.md"
-    },
-    {
-      "basename": "copy — 얕은 복사와 깊은 복사 연산",
-      "path": "Python/copy — 얕은 복사와 깊은 복사 연산.md"
-    },
-    {
-      "basename": "얕은 복사와 깊은 복사(fin)",
-      "path": "Python/얕은 복사와 깊은 복사(fin).md"
     }
   ],
   "omittedPaths": [

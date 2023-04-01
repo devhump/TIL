@@ -23,6 +23,19 @@
             }
           },
           {
+            "id": "b69ca3a6f775c92b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "767f9d4e1a16bdc7",
             "type": "leaf",
             "state": {
@@ -30,19 +43,6 @@
               "state": {
                 "file": "_others_/obsidian/LaTeX.md",
                 "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6361231405f084b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
-                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tags",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,19 +196,22 @@
   },
   "active": "b906d3e55436fee1",
   "lastOpenFiles": [
-    "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
-    "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png",
-    "Algorithm (theory)/assets/13. Union-Find Algorithm-28.png",
-    "Algorithm (theory)/assets/13. Union-Find Algorithm-27.png",
-    "Algorithm (theory)/assets/13. Union-Find Algorithm-26.png",
-    "Algorithm (theory)/assets/13. Union-Find Algorithm-25.png",
-    "Algorithm (theory)/assets/13. Union-Find Algorithm-24.png",
-    "Algorithm (theory)/assets/13. Union-Find Algorithm-23.png",
-    "Algorithm (theory)/assets/13. Union-Find Algorithm-22.png",
-    "Algorithm (theory)/assets/13. Union-Find Algorithm-21.png",
-    "Algorithm (theory)/assets/13. Union-Find Algorithm-20.png",
-    "_others_/obsidian/LaTeX.md",
+    "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
+    "Algorithm (theory)/assets/25.  Two Pointer-20.png",
+    "Algorithm (theory)/assets/25.  Two Pointer-19.png",
+    "Algorithm (theory)/assets/25.  Two Pointer-18.png",
+    "Algorithm (theory)/assets/25.  Two Pointer-17.png",
+    "Algorithm (theory)/assets/25.  Two Pointer-16.png",
+    "Algorithm (theory)/assets/25.  Two Pointer-15.png",
+    "Algorithm (theory)/assets/25.  Two Pointer-14.png",
+    "Algorithm (theory)/assets/25.  Two Pointer-13.png",
+    "Algorithm (theory)/assets/25.  Two Pointer-12.png",
+    "Algorithm (theory)/assets/25.  Two Pointer-11.png",
     "📑 devhump's TIL Index.md",
+    "_others_/obsidian/LaTeX.md",
+    "Python/Python 용어 정리.md",
+    "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
     "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
     "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
@@ -225,13 +228,11 @@
     "Python/copy — 얕은 복사와 깊은 복사 연산.md",
     "Python/얕은 복사와 깊은 복사(fin).md",
     "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
-    "Python/Python 용어 정리.md",
     "_others_/개발 관련 IT 용어 정리.md",
     "Python/Python 유용한 문법 정리.md",
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
-    "KDT/Data structure/08. 힙(Heap), 셋(set).md",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
     "DFS-test/asset",

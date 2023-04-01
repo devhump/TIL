@@ -30,7 +30,7 @@
 
 - **Comprehension**
 	- 영어 단어의 뜻은 **이해(understanding) 또는 포함(inclusion)** 이라는 뜻을 가졌다. 가장 많이 쓰이는 `list comprehension`은 **리스트 내포**라고 번역되곤 한다.
-	- 같이 보면 좋은 문서 👉 [파이썬(python) #23_ 컴프리헨션(Comprehension) 이란?](https://doorbw.tistory.com/174)
+	- 같이 보면 좋은 문서 👉 [파이썬(python) # 23_ 컴프리헨션(Comprehension) 이란?](https://doorbw.tistory.com/174)
 	- [list comprehension (리스트 컴프리헨션)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-list-comprehension)
 		- 시퀀스의 요소들 전부 또는 일부를 처리하고 그 결과를 리스트로 돌려주는 간결한 방법. 
 			- `result = ['{:#04x}'.format(x) for x in range(256) if x % 2 == 0]` 는 0에서 255 사이에 있는 짝수들의 16진수 (0x..) 들을 포함하는 문자열의 리스트를 만듭니다. [`if`](https://docs.python.org/ko/3/reference/compound_stmts.html#if) 절은 생략할 수 있습니다. 생략하면, `range(256)`에 있는 모든 요소가 처리됩니다.
