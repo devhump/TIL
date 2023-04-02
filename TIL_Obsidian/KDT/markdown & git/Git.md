@@ -1,5 +1,6 @@
 ---
 tags: [git, syntax, KDT]
+alias: "Git 기초"
 ---
 
 

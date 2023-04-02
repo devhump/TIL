@@ -14,29 +14,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "devhump's TIL Index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "83770be6083d942c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/obsidian/Obsidian setting.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/obsidian/Obsidian setting.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/obsidian/Obsidian setting.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/obsidian/Obsidian setting.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           },
@@ -167,7 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,12 +168,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "83770be6083d942c",
+  "active": "b906d3e55436fee1",
   "lastOpenFiles": [
-    "_others_/obsidian/Obsidian setting - Community plugin.md",
-    "📑 devhump's TIL Index.md",
     "_others_/Debugging with VS Code.md",
+    "devhump's TIL Index.md",
+    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
+    "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
+    "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
+    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+    "KDT/markdown & git/Git.md",
+    "Python/반올림, 내림, 올림(python).md",
+    "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
+    "Python/람다함수(Lambda Func, 익명함수).md",
     "데이터뷰 테스트.md",
+    "_others_/obsidian/Obsidian setting.md",
+    "_others_/obsidian/Obsidian setting - Community plugin.md",
     "_others_/500 mile.md",
     "_others_/개발 관련 IT 용어 정리.md",
     "_others_/알고리즘 TIP.md",
@@ -198,18 +193,9 @@
     "_others_/obsidian/Diagram.md",
     "_others_/obsidian/LaTeX.md",
     "_others_/obsidian/markdown for Obsidian.md",
-    "_others_/obsidian/Obsidian setting.md",
     "_others_/Hot-key (windows).md",
     "_others_/Hot-key (for Mac).md",
     "_others_/Templates List.md",
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
-    "Algorithm (theory)/23. 그리디(Greedy).md",
-    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
-    "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
-    "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
-    "Algorithm (theory)/08. DFS & BFS.md",
-    "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
-    "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md",
     "_others_/obsidian/assets/Obsidian setting-20.png",
     "_others_/obsidian/assets/Obsidian setting-19.png",
     "_others_/obsidian/assets/Obsidian setting-18.png",

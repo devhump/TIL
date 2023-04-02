@@ -6,6 +6,9 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📌",
+      "FasCode",
+      "🧰",
       "📋",
       "SiPythonWhite",
       "SiThealgorithms",
@@ -30,5 +33,7 @@
   "KDT/Python": "SiPythonWhite",
   "KDT/markdown & git": "SiGit",
   "KDT/Algorithm": "SiThealgorithms",
-  "_others_/Templates List.md": "📋"
+  "_others_/Templates List.md": "📋",
+  "ALgorithm (code)": "FasCode",
+  "devhump's TIL Index.md": "📌"
 }

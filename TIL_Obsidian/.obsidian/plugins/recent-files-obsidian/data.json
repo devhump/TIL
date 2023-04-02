@@ -1,24 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
-    },
-    {
-      "basename": "Obsidian setting - Community plugin",
-      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
-    },
-    {
-      "basename": "📑 devhump's TIL Index",
-      "path": "📑 devhump's TIL Index.md"
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "Debugging with VS Code",
       "path": "_others_/Debugging with VS Code.md"
     },
     {
-      "basename": "데이터뷰 테스트",
-      "path": "데이터뷰 테스트.md"
+      "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
+      "path": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md"
+    },
+    {
+      "basename": "13. 유니온 파인드 자료구조(Union-Find Algorithm)",
+      "path": "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md"
+    },
+    {
+      "basename": "11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm)",
+      "path": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
+    },
+    {
+      "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
+      "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "반올림, 내림, 올림(python)",
+      "path": "Python/반올림, 내림, 올림(python).md"
+    },
+    {
+      "basename": "얕은 복사(shallow copy)와 깊은 복사(deep copy)",
+      "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
+    },
+    {
+      "basename": "람다함수(Lambda Func, 익명함수)",
+      "path": "Python/람다함수(Lambda Func, 익명함수).md"
+    },
+    {
+      "basename": "Obsidian setting",
+      "path": "_others_/obsidian/Obsidian setting.md"
+    },
+    {
+      "basename": "Obsidian setting - Community plugin",
+      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
     },
     {
       "basename": "500 mile",
@@ -51,34 +79,6 @@
     {
       "basename": "Diagram",
       "path": "_others_/obsidian/Diagram.md"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
-    },
-    {
-      "basename": "markdown for Obsidian",
-      "path": "_others_/obsidian/markdown for Obsidian.md"
-    },
-    {
-      "basename": "Hot-key (windows)",
-      "path": "_others_/Hot-key (windows).md"
-    },
-    {
-      "basename": "Hot-key (for Mac)",
-      "path": "_others_/Hot-key (for Mac).md"
-    },
-    {
-      "basename": "Templates List",
-      "path": "_others_/Templates List.md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "23. 그리디(Greedy)",
-      "path": "Algorithm (theory)/23. 그리디(Greedy).md"
     }
   ],
   "omittedPaths": [
