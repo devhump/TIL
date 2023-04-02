@@ -1,4 +1,6 @@
-#python 
+---
+tags: [python, syntax]
+---
 
 #### iterable
 - (programming) _An object that can be iterated over_

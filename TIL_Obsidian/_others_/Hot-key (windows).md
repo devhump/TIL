@@ -1,4 +1,6 @@
-#단축키 #shortcut 
+---
+tags: [단축키, shortcut]
+---
 
 - 👉 [Hot-key (for Mac)](Hot-key%20(for%20Mac).md)
 

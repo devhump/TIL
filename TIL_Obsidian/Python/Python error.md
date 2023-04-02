@@ -1,4 +1,6 @@
-#python 
+---
+tags: [python, syntax]
+---
 
 ```python
 TypeError

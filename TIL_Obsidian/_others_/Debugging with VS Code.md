@@ -1,3 +1,8 @@
+---
+alias: 'VS Code를 이용한 파이썬 소스코드 디버깅'
+tags: [vscode, debugging]
+---
+
 
 - 참조 영상 👉 https://youtu.be/GEGXVzegNew
 

@@ -23,32 +23,20 @@
             }
           },
           {
-            "id": "b69ca3a6f775c92b",
+            "id": "83770be6083d942c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
+                "file": "_others_/obsidian/Obsidian setting.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "767f9d4e1a16bdc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/obsidian/LaTeX.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "_others_/obsidian/Obsidian setting.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📑 devhump's TIL Index.md",
+                "file": "_others_/obsidian/Obsidian setting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📑 devhump's TIL Index.md"
+                "file": "_others_/obsidian/Obsidian setting.md"
               }
             }
           },
@@ -194,45 +182,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b906d3e55436fee1",
+  "active": "83770be6083d942c",
   "lastOpenFiles": [
-    "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
-    "Algorithm (theory)/assets/25.  Two Pointer-20.png",
-    "Algorithm (theory)/assets/25.  Two Pointer-19.png",
-    "Algorithm (theory)/assets/25.  Two Pointer-18.png",
-    "Algorithm (theory)/assets/25.  Two Pointer-17.png",
-    "Algorithm (theory)/assets/25.  Two Pointer-16.png",
-    "Algorithm (theory)/assets/25.  Two Pointer-15.png",
-    "Algorithm (theory)/assets/25.  Two Pointer-14.png",
-    "Algorithm (theory)/assets/25.  Two Pointer-13.png",
-    "Algorithm (theory)/assets/25.  Two Pointer-12.png",
-    "Algorithm (theory)/assets/25.  Two Pointer-11.png",
+    "_others_/obsidian/Obsidian setting - Community plugin.md",
     "📑 devhump's TIL Index.md",
-    "_others_/obsidian/LaTeX.md",
-    "Python/Python 용어 정리.md",
-    "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
-    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
-    "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
-    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
-    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
-    "_others_/obsidian/Obsidian setting.md",
+    "_others_/Debugging with VS Code.md",
+    "데이터뷰 테스트.md",
+    "_others_/500 mile.md",
+    "_others_/개발 관련 IT 용어 정리.md",
     "_others_/알고리즘 TIP.md",
-    "KDT/Data structure/04. 리스트(List).md",
-    "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+    "_others_/CLI.md",
+    "_others_/Git basic - rollback.md",
+    "_others_/templates/답안 예시.md",
+    "_others_/obsidian/Callout.md",
+    "_others_/obsidian/Diagram.md",
+    "_others_/obsidian/LaTeX.md",
+    "_others_/obsidian/markdown for Obsidian.md",
+    "_others_/obsidian/Obsidian setting.md",
     "_others_/Hot-key (windows).md",
     "_others_/Hot-key (for Mac).md",
-    "KDT/Data structure/01. about Algorithm (Intro).md",
-    "_others_/VS Code를 이용한 파이썬 소스코드 디버깅.md",
-    "assets",
-    "Python/copy — 얕은 복사와 깊은 복사 연산.md",
-    "Python/얕은 복사와 깊은 복사(fin).md",
-    "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
-    "_others_/개발 관련 IT 용어 정리.md",
-    "Python/Python 유용한 문법 정리.md",
+    "_others_/Templates List.md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "Algorithm (theory)/23. 그리디(Greedy).md",
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
-    "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
-    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+    "Algorithm (theory)/22. 다이나믹 프로그래밍 - 문제풀이.md",
+    "Algorithm (theory)/21. 다이나믹 프로그래밍.md",
+    "Algorithm (theory)/08. DFS & BFS.md",
+    "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
+    "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md",
+    "_others_/obsidian/assets/Obsidian setting-20.png",
+    "_others_/obsidian/assets/Obsidian setting-19.png",
+    "_others_/obsidian/assets/Obsidian setting-18.png",
+    "_others_/obsidian/assets/Obsidian setting-17.png",
+    "_others_/obsidian/assets/Obsidian setting-16.png",
+    "_others_/obsidian/assets/Obsidian setting-15.png",
+    "_others_/obsidian/assets/Obsidian setting-14.png",
+    "_others_/obsidian/assets/Obsidian setting-13.png",
+    "_others_/obsidian/assets/Obsidian setting-12.png",
+    "_others_/obsidian/assets/Obsidian setting-11.png",
+    "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
     "DFS-test/asset",

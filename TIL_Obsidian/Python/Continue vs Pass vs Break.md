@@ -1,3 +1,7 @@
+---
+tags: [python, syntax]
+---
+
 ## Continue vs Pass vs Break
 
 ![](assets/continue_break_pass.png)

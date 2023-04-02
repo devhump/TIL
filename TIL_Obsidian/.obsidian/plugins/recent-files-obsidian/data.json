@@ -1,68 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian setting",
+      "path": "_others_/obsidian/Obsidian setting.md"
+    },
+    {
+      "basename": "Obsidian setting - Community plugin",
+      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
+    },
+    {
       "basename": "📑 devhump's TIL Index",
       "path": "📑 devhump's TIL Index.md"
     },
     {
-      "basename": "25. 투 포인터와 구간 합 (Two Pointer & Interval Sum)",
-      "path": "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md"
+      "basename": "Debugging with VS Code",
+      "path": "_others_/Debugging with VS Code.md"
     },
     {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+      "basename": "데이터뷰 테스트",
+      "path": "데이터뷰 테스트.md"
     },
     {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
+      "basename": "500 mile",
+      "path": "_others_/500 mile.md"
     },
     {
-      "basename": "Python 용어 정리",
-      "path": "Python/Python 용어 정리.md"
-    },
-    {
-      "basename": "13. 유니온 파인드 자료구조(Union-Find Algorithm)",
-      "path": "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)-1",
-      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-1.png"
-    },
-    {
-      "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
-      "path": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)-2",
-      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-2.png"
-    },
-    {
-      "basename": "06. 코딩 테스트 준비 (기본)",
-      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
-    },
-    {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
-    },
-    {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
-    },
-    {
-      "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
     },
     {
       "basename": "알고리즘 TIP",
       "path": "_others_/알고리즘 TIP.md"
     },
     {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
+      "basename": "CLI",
+      "path": "_others_/CLI.md"
     },
     {
-      "basename": "07. 스택 & 큐 (Stack & Queue)",
-      "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
+      "basename": "Git basic - rollback",
+      "path": "_others_/Git basic - rollback.md"
+    },
+    {
+      "basename": "답안 예시",
+      "path": "_others_/templates/답안 예시.md"
+    },
+    {
+      "basename": "Callout",
+      "path": "_others_/obsidian/Callout.md"
+    },
+    {
+      "basename": "Diagram",
+      "path": "_others_/obsidian/Diagram.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "_others_/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "_others_/obsidian/markdown for Obsidian.md"
     },
     {
       "basename": "Hot-key (windows)",
@@ -73,12 +69,16 @@
       "path": "_others_/Hot-key (for Mac).md"
     },
     {
-      "basename": "01. about Algorithm (Intro)",
-      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
+      "basename": "Templates List",
+      "path": "_others_/Templates List.md"
     },
     {
-      "basename": "debugging with vs code",
-      "path": "_others_/assets/debugging with vs code.png"
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
+    },
+    {
+      "basename": "23. 그리디(Greedy)",
+      "path": "Algorithm (theory)/23. 그리디(Greedy).md"
     }
   ],
   "omittedPaths": [

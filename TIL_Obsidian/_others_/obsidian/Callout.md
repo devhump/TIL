@@ -1,4 +1,6 @@
-#Obsidian 
+---
+tags: [markdown, obsidian, syntax]
+---
 
 ### Callout
 🔼 [[markdown for Obsidian]]

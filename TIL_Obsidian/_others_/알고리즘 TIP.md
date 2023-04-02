@@ -1,4 +1,6 @@
-#Algorithm
+---
+tags: [Algorithm, syntax]
+---
 
 - txt 형태의 input 값 받기
 ```python

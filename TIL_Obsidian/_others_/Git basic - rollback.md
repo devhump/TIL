@@ -1,6 +1,10 @@
-#git
+---
+tags: [git, syntax]
+alias: 
+- Git의 기초 - 되돌리기
+---
 
-- 전반적인 git 내용은 👉 [[Git]]
+- 전반적인 git 내용은 👉 [[../KDT/markdown & git/Git]]
 
 ```ad-note
 - [[#1.  완료된 커밋을 (살짝) 수정해야할 때|1.  완료된 커밋을 (살짝) 수정해야할 때]]

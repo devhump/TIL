@@ -1,5 +1,6 @@
-#Obsidian 
-
+---
+tags: [markdown, obsidian, syntax]
+---
 
 - 기본 마크다운 내용 정리 👉 [KDT_markdown+](obsidian://open?vault=TIL_Obsidian&file=KDT%2Fmarkdown%2Fmarkdown%20(%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)%20%2B)
 - 수학-공식 관련 표기법 👉 [[LaTeX]]

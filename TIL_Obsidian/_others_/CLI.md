@@ -1,3 +1,9 @@
+---
+tags: [syntax]
+---
+
+## CLI (Command Line Interface)
+
 #### 목차
 ```ad-note
 - [[#CLI|CLI]]

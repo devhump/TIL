@@ -1,4 +1,6 @@
-#단축키 #shortcut  
+---
+tags: [단축키, shortcut]
+---
 
 - 👉 [Hot-key (windows)](Hot-key%20(windows).md)
 

@@ -9,5 +9,6 @@
   "spellcheckLanguages": [
     "ko",
     "en-US"
-  ]
+  ],
+  "showFrontmatter": true
 }

@@ -1,3 +1,7 @@
+---
+tags: [markdown, syntax, KDT]
+---
+
 👉 [[../../_others_/obsidian/markdown for Obsidian]]
 👉 [[../../_others_/obsidian/LaTeX]]
 

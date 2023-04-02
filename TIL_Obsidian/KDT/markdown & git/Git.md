@@ -1,9 +1,12 @@
-#git 
+---
+tags: [git, syntax, KDT]
+---
+
 
 👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 
 - `git add, git commit, git add` 취소하기 등 이전 내용으로 되돌리고 싶다면?
-	- 👉 [[../../_others_/Git의 기초 - 되돌리기]]
+	- 👉 [[../../_others_/Git basic - rollback]]
 
 ### 목차
 ```ad-hint
@@ -537,7 +540,7 @@ git reflog
 git log -g
 ```
 
-![](../../_others_/Git의%20기초%20-%20되돌리기.md#^c92f46)
+![](../../_others_/Git%20basic%20-%20rollback.md#^c92f46)
 
 #### 5-5. stash 영역
 - 참고  [commit 3단계의 이해](#commit%203단계의%20이해)

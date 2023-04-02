@@ -1,4 +1,6 @@
-#python 
+---
+tags: [python, syntax]
+---
 
 ### 올림과 내림 (ceil, floor)
 ```python

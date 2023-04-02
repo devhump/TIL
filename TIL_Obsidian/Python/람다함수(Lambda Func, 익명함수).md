@@ -1,4 +1,6 @@
-#python 
+---
+tags: [python, syntax]
+---
 
 >[!note]  목차
 > - [람다함수?](#람다함수?)

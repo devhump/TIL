@@ -1,4 +1,6 @@
-#python 
+---
+tags: [python, syntax]
+---
 
 #### 논리값 검사
 - 모든 객체는 논리값을 검사할 수 있는데, [`if`](https://docs.python.org/ko/3/reference/compound_stmts.html#if) 또는 [`while`](https://docs.python.org/ko/3/reference/compound_stmts.html#while) 조건 또는 다음에 나오는 논리 연산의 피연산자로 사용될 수 있도록 합니다.
