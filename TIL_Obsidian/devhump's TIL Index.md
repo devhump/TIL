@@ -1,3 +1,6 @@
+- [[Hot-key (for Mac)]]
+- [[Hot-key (windows)]]
+
 ### KDT
 #### Mardown & Git
 - [[markdown (마크다운) +]]

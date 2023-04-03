@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e12b3493802c0129",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_others_/Hot-key (for Mac).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,18 +75,18 @@
             }
           },
           {
-            "id": "4fc031c8ca77a2e8",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "485a4cd7f6b2e56c",
             "type": "leaf",
             "state": {
               "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "4fc031c8ca77a2e8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
               "state": {}
             }
           }
@@ -80,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -96,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "_others_/Hot-key (for Mac).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "_others_/Hot-key (for Mac).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "_others_/Hot-key (for Mac).md"
               }
             }
           },
@@ -147,9 +162,17 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "707c0f810672063c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -168,12 +191,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b906d3e55436fee1",
+  "active": "e12b3493802c0129",
   "lastOpenFiles": [
-    "_others_/Debugging with VS Code.md",
     "devhump's TIL Index.md",
-    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
+    "Algorithm (theory)/assets/21. 다이나믹 프로그래밍.png",
+    "Algorithm (theory)/assets/04. 바이너리 인덱스 트리 (Binary Index Tree).png",
     "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
+    "더 공부해 볼 주제.md",
+    "_others_/Debugging with VS Code.md",
+    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
     "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "KDT/markdown & git/Git.md",
@@ -194,8 +220,6 @@
     "_others_/obsidian/LaTeX.md",
     "_others_/obsidian/markdown for Obsidian.md",
     "_others_/Hot-key (windows).md",
-    "_others_/Hot-key (for Mac).md",
-    "_others_/Templates List.md",
     "_others_/obsidian/assets/Obsidian setting-20.png",
     "_others_/obsidian/assets/Obsidian setting-19.png",
     "_others_/obsidian/assets/Obsidian setting-18.png",
@@ -204,8 +228,6 @@
     "_others_/obsidian/assets/Obsidian setting-15.png",
     "_others_/obsidian/assets/Obsidian setting-14.png",
     "_others_/obsidian/assets/Obsidian setting-13.png",
-    "_others_/obsidian/assets/Obsidian setting-12.png",
-    "_others_/obsidian/assets/Obsidian setting-11.png",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
