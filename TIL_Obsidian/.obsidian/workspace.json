@@ -29,14 +29,13 @@
               "type": "markdown",
               "state": {
                 "file": "_others_/Hot-key (for Mac).md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md"
+                "file": "devhump's TIL Index.md"
               }
             }
           },
@@ -191,8 +189,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e12b3493802c0129",
+  "active": "b906d3e55436fee1",
   "lastOpenFiles": [
+    "_others_/Hot-key (for Mac).md",
     "devhump's TIL Index.md",
     "Algorithm (theory)/assets/21. 다이나믹 프로그래밍.png",
     "Algorithm (theory)/assets/04. 바이너리 인덱스 트리 (Binary Index Tree).png",
