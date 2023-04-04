@@ -26,16 +26,27 @@
             "id": "e12b3493802c0129",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
+              }
+            }
+          },
+          {
+            "id": "6a9cf0c777c9d082",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md",
-                "mode": "preview",
+                "file": "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md"
               }
             }
           },
@@ -190,17 +201,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b906d3e55436fee1",
+  "active": "6a9cf0c777c9d082",
   "lastOpenFiles": [
-    "_others_/Hot-key (for Mac).md",
     "devhump's TIL Index.md",
-    "Algorithm (theory)/assets/21. 다이나믹 프로그래밍.png",
-    "Algorithm (theory)/assets/04. 바이너리 인덱스 트리 (Binary Index Tree).png",
+    "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
+    "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png",
+    "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-3.png",
+    "Algorithm (theory)/assets/14. Kruskal-12.png",
+    "Algorithm (theory)/assets/14. Kruskal-11.png",
+    "Algorithm (theory)/assets/14. Kruskal-10.png",
+    "Algorithm (theory)/assets/14. Kruskal-9.png",
+    "Algorithm (theory)/assets/14. Kruskal-8.png",
+    "Algorithm (theory)/assets/14. Kruskal-7.png",
+    "Algorithm (theory)/assets/14. Kruskal-6.png",
+    "Algorithm (theory)/assets/14. Kruskal-5.png",
     "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
+    "_others_/Hot-key (for Mac).md",
+    "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
     "더 공부해 볼 주제.md",
     "_others_/Debugging with VS Code.md",
     "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
-    "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "KDT/markdown & git/Git.md",
     "Python/반올림, 내림, 올림(python).md",
@@ -218,16 +238,6 @@
     "_others_/obsidian/Callout.md",
     "_others_/obsidian/Diagram.md",
     "_others_/obsidian/LaTeX.md",
-    "_others_/obsidian/markdown for Obsidian.md",
-    "_others_/Hot-key (windows).md",
-    "_others_/obsidian/assets/Obsidian setting-20.png",
-    "_others_/obsidian/assets/Obsidian setting-19.png",
-    "_others_/obsidian/assets/Obsidian setting-18.png",
-    "_others_/obsidian/assets/Obsidian setting-17.png",
-    "_others_/obsidian/assets/Obsidian setting-16.png",
-    "_others_/obsidian/assets/Obsidian setting-15.png",
-    "_others_/obsidian/assets/Obsidian setting-14.png",
-    "_others_/obsidian/assets/Obsidian setting-13.png",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",

@@ -59,6 +59,7 @@
 - [12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)](Algorithm%20(theory)/12.%20벨만%20포드%20알고리즘%20(Bellman-Ford%20Algorithm).md)
 - 
 - [13. 유니온 파인드 자료구조(Union-Find Algorithm)](Algorithm%20(theory)/13.%20유니온%20파인드%20자료구조(Union-Find%20Algorithm).md)
+- [14. 크루스칼 알고리즘(Kruskal Algorithm)](Algorithm%20(theory)/14.%20크루스칼%20알고리즘(Kruskal%20Algorithm).md)
 - 
 - [[17. 재귀함수(Recursive Function)]]
 - [[18. 유용한 표준 라이브러리 소개]]
