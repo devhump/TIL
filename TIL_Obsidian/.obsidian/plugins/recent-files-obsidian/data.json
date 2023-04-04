@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "14. 크루스칼 알고리즘(Kruskal Algorithm)",
-      "path": "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md"
+      "basename": "15. 최소 공통 조상(LCA, Lowest Common Ancestor)",
+      "path": "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md"
     },
     {
       "basename": "devhump's TIL Index",
@@ -11,6 +11,14 @@
     {
       "basename": "01. 스택과 큐(Stack & Que)",
       "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
+    },
+    {
+      "basename": "14. 크루스칼 알고리즘(Kruskal Algorithm)",
+      "path": "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "_others_/obsidian/LaTeX.md"
     },
     {
       "basename": "01. 스택과 큐(Stack & Que)-3",
@@ -71,14 +79,6 @@
     {
       "basename": "람다함수(Lambda Func, 익명함수)",
       "path": "Python/람다함수(Lambda Func, 익명함수).md"
-    },
-    {
-      "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
-    },
-    {
-      "basename": "Obsidian setting - Community plugin",
-      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
     }
   ],
   "omittedPaths": [
