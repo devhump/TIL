@@ -61,6 +61,7 @@
 - [13. 유니온 파인드 자료구조(Union-Find Algorithm)](Algorithm%20(theory)/13.%20유니온%20파인드%20자료구조(Union-Find%20Algorithm).md)
 - [14. 크루스칼 알고리즘(Kruskal Algorithm)](Algorithm%20(theory)/14.%20크루스칼%20알고리즘(Kruskal%20Algorithm).md)
 - [15. 최소 공통 조상(LCA, Lowest Common Ancestor)](Algorithm%20(theory)/15.%20최소%20공통%20조상(LCA,%20Lowest%20Common%20Ancestor).md)
+- [16. 위상정렬 (topology)](Algorithm%20(theory)/16.%20위상정렬%20(topology).md)
 - 
 - [[17. 재귀함수(Recursive Function)]]
 - [[18. 유용한 표준 라이브러리 소개]]

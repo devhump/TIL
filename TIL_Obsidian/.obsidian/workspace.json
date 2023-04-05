@@ -36,20 +36,46 @@
             }
           },
           {
-            "id": "2e587fbfb842191d",
+            "id": "7c1b4b1a6b26e166",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+                "file": "Algorithm (theory)/16. 위상정렬 (topology).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "413ef1a5eaaa18a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_others_/obsidian/LaTeX.md",
                 "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac3bf96293bcae34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -103,13 +129,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -125,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+                "file": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -142,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+                "file": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+                "file": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md"
               }
             }
           },
@@ -186,7 +210,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -206,29 +230,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2e587fbfb842191d",
+  "active": "ac3bf96293bcae34",
   "lastOpenFiles": [
-    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
-    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
-    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+    "Algorithm (theory)/assets/19. Algorithms judging Prime Number_-3.png",
+    "Algorithm (theory)/assets/19. Algorithms judging Prime Number_-2.png",
+    "Algorithm (theory)/assets/19. Algorithms judging Prime Number_-1.png",
+    "Algorithm (theory)/assets/19. Algorithms judging Prime Number_.png",
+    "Algorithm (theory)/assets/19. Algorithms judging Prime Number_-4.png",
+    "_others_/obsidian/LaTeX.md",
+    "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
     "devhump's TIL Index.md",
-    "_others_/알고리즘 TIP.md",
-    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
-    "Algorithm (theory)/16. topology.md",
+    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+    "Algorithm (theory)/16. 위상정렬 (topology).md",
     "Algorithm (theory)/assets/16. topology-9.png",
     "Algorithm (theory)/assets/16. topology-8.png",
     "Algorithm (theory)/assets/16. topology-7.png",
     "Algorithm (theory)/assets/16. topology-6.png",
     "Algorithm (theory)/assets/16. topology-5.png",
     "Algorithm (theory)/assets/16. topology-4.png",
-    "Algorithm (theory)/assets/16. topology-3.png",
-    "Algorithm (theory)/assets/16. topology-2.png",
-    "Algorithm (theory)/assets/16. topology-1.png",
-    "Algorithm (theory)/assets/16. topology.png",
     "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md",
     "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
     "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
-    "_others_/obsidian/LaTeX.md",
     "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
     "_others_/Hot-key (for Mac).md",
     "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
@@ -243,7 +265,9 @@
     "_others_/obsidian/Obsidian setting - Community plugin.md",
     "_others_/500 mile.md",
     "_others_/개발 관련 IT 용어 정리.md",
+    "_others_/알고리즘 TIP.md",
     "_others_/CLI.md",
+    "_others_/Git basic - rollback.md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",

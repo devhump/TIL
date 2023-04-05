@@ -1,32 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "06. 딕셔너리(Dictionary)",
-      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+      "basename": "19. 소수 여부를 빠르게 처리하는 알고리즘들",
+      "path": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md"
     },
     {
-      "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
-      "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
-    },
-    {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
+      "basename": "LaTeX",
+      "path": "_others_/obsidian/LaTeX.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "알고리즘 TIP",
-      "path": "_others_/알고리즘 TIP.md"
+      "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
+      "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
     },
     {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
-    },
-    {
-      "basename": "16. topology",
-      "path": "Algorithm (theory)/16. topology.md"
+      "basename": "16. 위상정렬 (topology)",
+      "path": "Algorithm (theory)/16. 위상정렬 (topology).md"
     },
     {
       "basename": "15. 최소 공통 조상(LCA, Lowest Common Ancestor)",
@@ -43,10 +35,6 @@
     {
       "basename": "01. 스택과 큐(Stack & Que)",
       "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
     },
     {
       "basename": "01. 스택과 큐(Stack & Que)-3",
@@ -79,6 +67,18 @@
     {
       "basename": "더 공부해 볼 주제",
       "path": "더 공부해 볼 주제.md"
+    },
+    {
+      "basename": "Debugging with VS Code",
+      "path": "_others_/Debugging with VS Code.md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "반올림, 내림, 올림(python)",
+      "path": "Python/반올림, 내림, 올림(python).md"
     }
   ],
   "omittedPaths": [
