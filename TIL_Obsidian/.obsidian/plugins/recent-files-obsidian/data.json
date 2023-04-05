@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
+      "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
+    },
+    {
       "basename": "15. 최소 공통 조상(LCA, Lowest Common Ancestor)",
       "path": "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md"
     },
@@ -9,12 +13,16 @@
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
-    },
-    {
       "basename": "14. 크루스칼 알고리즘(Kruskal Algorithm)",
       "path": "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md"
+    },
+    {
+      "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
+      "path": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
     },
     {
       "basename": "LaTeX",
@@ -55,14 +63,6 @@
     {
       "basename": "Debugging with VS Code",
       "path": "_others_/Debugging with VS Code.md"
-    },
-    {
-      "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
-      "path": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md"
-    },
-    {
-      "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
-      "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
     },
     {
       "basename": "Git",

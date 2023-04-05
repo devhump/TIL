@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md",
+                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md",
+                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md",
+                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md"
+                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
               }
             }
           },
@@ -193,8 +193,10 @@
   },
   "active": "19a7f87b6b946032",
   "lastOpenFiles": [
-    "devhump's TIL Index.md",
     "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md",
+    "devhump's TIL Index.md",
+    "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
+    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
     "Algorithm (theory)/assets/15. Lowest Common Ancestor_-9.png",
     "Algorithm (theory)/assets/15. Lowest Common Ancestor_-8.png",
     "Algorithm (theory)/assets/15. Lowest Common Ancestor_-7.png",
@@ -205,14 +207,12 @@
     "Algorithm (theory)/assets/15. Lowest Common Ancestor_-2.png",
     "Algorithm (theory)/assets/15. Lowest Common Ancestor_-1.png",
     "Algorithm (theory)/assets/15. Lowest Common Ancestor_.png",
-    "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
     "_others_/obsidian/LaTeX.md",
     "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
     "_others_/Hot-key (for Mac).md",
     "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
     "더 공부해 볼 주제.md",
     "_others_/Debugging with VS Code.md",
-    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "KDT/markdown & git/Git.md",
     "Python/반올림, 내림, 올림(python).md",
