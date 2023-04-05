@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "16. topology",
+      "path": "Algorithm (theory)/16. topology.md"
+    },
+    {
       "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
       "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "얕은 복사(shallow copy)와 깊은 복사(deep copy)",
       "path": "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md"
-    },
-    {
-      "basename": "람다함수(Lambda Func, 익명함수)",
-      "path": "Python/람다함수(Lambda Func, 익명함수).md"
     }
   ],
   "omittedPaths": [
