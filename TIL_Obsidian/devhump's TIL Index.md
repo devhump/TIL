@@ -65,6 +65,8 @@
 - 
 - [[17. 재귀함수(Recursive Function)]]
 - [[18. 유용한 표준 라이브러리 소개]]
+- [19. 소수 여부를 빠르게 처리하는 알고리즘들](Algorithm%20(theory)/19.%20소수%20여부를%20빠르게%20처리하는%20알고리즘들.md)
+- [20. 이진탐색 (Binary Search)](Algorithm%20(theory)/20.%20이진탐색%20(Binary%20Search).md)
 
 #### DP & greedy
 - [[21. 다이나믹 프로그래밍]]

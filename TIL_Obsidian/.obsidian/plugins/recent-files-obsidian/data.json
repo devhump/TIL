@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "19. 소수 여부를 빠르게 처리하는 알고리즘들",
       "path": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md"
     },
     {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
+      "basename": "20. 이진탐색 (Binary Search)",
+      "path": "Algorithm (theory)/20. 이진탐색 (Binary Search).md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "LaTeX",
+      "path": "_others_/obsidian/LaTeX.md"
     },
     {
       "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
@@ -75,10 +79,6 @@
     {
       "basename": "Git",
       "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "반올림, 내림, 올림(python)",
-      "path": "Python/반올림, 내림, 올림(python).md"
     }
   ],
   "omittedPaths": [
