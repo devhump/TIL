@@ -39,9 +39,6 @@ tags: [단축키, shortcut]
 | `ctrl(⌃)` + `space` | Alfred 실행| 설치 필요 |
 
 
-
-
-
 ### Mac OS 프로그램별 기본 단축키
 
 #### Mac OS

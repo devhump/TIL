@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "19a7f87b6b946032",
+            "id": "e4783d4bf3ba6cd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+                "file": "_others_/Hot-key (for Mac).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,33 +36,7 @@
             }
           },
           {
-            "id": "7c1b4b1a6b26e166",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/16. 위상정렬 (topology).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "413ef1a5eaaa18a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/obsidian/LaTeX.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13cc121ba2c3d30d",
+            "id": "fc8ed3d3c7a63ba9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -73,21 +47,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ac3bf96293bcae34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +103,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,12 +119,39 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d664e4f4295f6470",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "707c0f810672063c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f95b306921a66c2d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
             "id": "1a65d436df0ced0a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "_others_/Hot-key (for Mac).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -178,20 +168,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "_others_/Hot-key (for Mac).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f95b306921a66c2d",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
               }
             }
           },
@@ -201,33 +180,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "_others_/Hot-key (for Mac).md"
               }
             }
-          },
-          {
-            "id": "d664e4f4295f6470",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "707c0f810672063c",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 279.5,
-    "collapsed": true
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,10 +203,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b906d3e55436fee1",
+  "active": "e4783d4bf3ba6cd0",
   "lastOpenFiles": [
-    "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
     "Algorithm (theory)/20. 이진탐색 (Binary Search).md",
+    "_others_/Hot-key (for Mac).md",
+    "devhump's TIL Index.md",
+    "_others_/Hot-key (windows).md",
+    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+    "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
     "Algorithm (theory)/assets/20_Binary_Search-4.png",
     "Algorithm (theory)/assets/20_Binary_Search-3.png",
     "Algorithm (theory)/assets/20_Binary_Search-2.png",
@@ -257,14 +222,11 @@
     "Algorithm (theory)/assets/20. Binary Search-7.png",
     "Algorithm (theory)/assets/20. Binary Search-6.png",
     "_others_/obsidian/LaTeX.md",
-    "devhump's TIL Index.md",
-    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "Algorithm (theory)/16. 위상정렬 (topology).md",
     "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md",
     "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
     "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
     "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
-    "_others_/Hot-key (for Mac).md",
     "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
     "더 공부해 볼 주제.md",
     "_others_/Debugging with VS Code.md",

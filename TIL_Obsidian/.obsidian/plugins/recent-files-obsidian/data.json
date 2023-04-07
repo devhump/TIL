@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
-      "basename": "19. 소수 여부를 빠르게 처리하는 알고리즘들",
-      "path": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md"
+      "basename": "Hot-key (for Mac)",
+      "path": "_others_/Hot-key (for Mac).md"
     },
     {
       "basename": "20. 이진탐색 (Binary Search)",
       "path": "Algorithm (theory)/20. 이진탐색 (Binary Search).md"
     },
     {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "Hot-key (windows)",
+      "path": "_others_/Hot-key (windows).md"
     },
     {
       "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
       "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
+    },
+    {
+      "basename": "19. 소수 여부를 빠르게 처리하는 알고리즘들",
+      "path": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "_others_/obsidian/LaTeX.md"
     },
     {
       "basename": "16. 위상정렬 (topology)",
@@ -49,10 +57,6 @@
       "path": "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md"
     },
     {
-      "basename": "Hot-key (for Mac)",
-      "path": "_others_/Hot-key (for Mac).md"
-    },
-    {
       "basename": "11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm)",
       "path": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "Debugging with VS Code",
       "path": "_others_/Debugging with VS Code.md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
     }
   ],
   "omittedPaths": [
