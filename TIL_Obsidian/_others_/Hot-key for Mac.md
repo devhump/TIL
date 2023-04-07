@@ -2,7 +2,8 @@
 tags: [단축키, shortcut]
 ---
 
-- 👉 [Hot-key (windows)](Hot-key%20(windows).md)
+- 👉 [Hot-key for windows](Hot-key%20for%20windows.md)
+- 👉[Hot-key (VS Code)](Hot-key%20(VS%20Code).md)
 
 ### 목차
 ```ad-info
@@ -104,17 +105,9 @@ tags: [단축키, shortcut]
 | `ctrl(⌃)` + `opt(⌥)` + `D` /`F` /`G` | 각각 왼쪽/중앙/오른쪽 $\frac{1}{3}$ |
 | `ctrl(⌃)` + `opt(⌥)` + `delete`      | 화면 크기 복구                      |
 
-### VS Code for mac
-
-👉 [vscode_shortcuts_(mac)](vscode_shortcuts_(mac).pdf)
-
-| 단축키                              | 설명        |
-| ----------------------------------- | ----------- |
-| `shift(⇧)` + `i`  or `opt(⌥)` + `i` | insert 이슈 |
-| `ctrl(⌃)` + `` `(backtick)``  | 터미널 열고 닫기 |
 
 
-![VS Code](Hot-key%20(windows).md#VS%20Code)
+![Hot-key (VS Code)](Hot-key%20(VS%20Code).md)
 
 
 ![](assets/Pasted%20image%2020230215172150.png)

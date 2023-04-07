@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Hot-key (for Mac)",
-      "path": "_others_/Hot-key (for Mac).md"
+      "basename": "24. 구현 (mplementation) 유형의 문제 풀이",
+      "path": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md"
     },
     {
-      "basename": "20. 이진탐색 (Binary Search)",
-      "path": "Algorithm (theory)/20. 이진탐색 (Binary Search).md"
+      "basename": "Hot-key for Mac",
+      "path": "_others_/Hot-key for Mac.md"
+    },
+    {
+      "basename": "파이썬 01. Python 기초",
+      "path": "KDT/Python/파이썬 01. Python 기초.md"
+    },
+    {
+      "basename": "Python 유용한 문법 정리",
+      "path": "Python/Python 유용한 문법 정리.md"
+    },
+    {
+      "basename": "08. 힙(Heap), 셋(set)",
+      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
+    },
+    {
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
+    },
+    {
+      "basename": "05. 문자열 (String)",
+      "path": "KDT/Data structure/05. 문자열 (String).md"
+    },
+    {
+      "basename": "03. 완전탐색  I (Exhaustive Search)",
+      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
+    },
+    {
+      "basename": "Hot-key for windows",
+      "path": "_others_/Hot-key for windows.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "Hot-key (windows)",
-      "path": "_others_/Hot-key (windows).md"
+      "basename": "Hot-key (VS Code)",
+      "path": "_others_/Hot-key (VS Code).md"
+    },
+    {
+      "basename": "20. 이진탐색 (Binary Search)",
+      "path": "Algorithm (theory)/20. 이진탐색 (Binary Search).md"
+    },
+    {
+      "basename": "Obsidian setting",
+      "path": "_others_/obsidian/Obsidian setting.md"
     },
     {
       "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
@@ -43,42 +79,6 @@
     {
       "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
       "path": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que).png"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)-3",
-      "path": "Algorithm (theory)/assets/01. 스택과 큐(Stack & Que)-3.png"
-    },
-    {
-      "basename": "13. 유니온 파인드 자료구조(Union-Find Algorithm)",
-      "path": "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md"
-    },
-    {
-      "basename": "11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm)",
-      "path": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
-    },
-    {
-      "basename": "21. 다이나믹 프로그래밍",
-      "path": "Algorithm (theory)/assets/21. 다이나믹 프로그래밍.png"
-    },
-    {
-      "basename": "04. 바이너리 인덱스 트리 (Binary Index Tree)",
-      "path": "Algorithm (theory)/assets/04. 바이너리 인덱스 트리 (Binary Index Tree).png"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "Debugging with VS Code",
-      "path": "_others_/Debugging with VS Code.md"
     }
   ],
   "omittedPaths": [

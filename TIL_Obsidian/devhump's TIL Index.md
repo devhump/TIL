@@ -1,5 +1,5 @@
-- [[Hot-key (for Mac)]]
-- [[Hot-key (windows)]]
+- [[_others_/Hot-key for Mac]]
+- [[_others_/Hot-key for windows]]
 
 ### KDT
 #### Mardown & Git
@@ -102,8 +102,8 @@
 
 #### 단축키 관련
 - [[vscode_shortcuts_(mac).pdf]] 
-- [[Hot-key (for Mac)]]
-- [[Hot-key (windows)]]
+- [[_others_/Hot-key for Mac]]
+- [[_others_/Hot-key for windows]]
 
 #### Obsidian
 - [[markdown for Obsidian]]

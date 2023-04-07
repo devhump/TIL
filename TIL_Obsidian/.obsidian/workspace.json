@@ -4,31 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cf96b433b77cbb92",
+        "id": "c4cf9d57d56d48be",
         "type": "tabs",
         "children": [
           {
-            "id": "b906d3e55436fee1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devhump's TIL Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "e4783d4bf3ba6cd0",
+            "id": "2433ac067584265d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md",
+                "file": "Python/Python 유용한 문법 정리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,12 +21,38 @@
             }
           },
           {
-            "id": "fc8ed3d3c7a63ba9",
+            "id": "afbe07ba2fc0abb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/20. 이진탐색 (Binary Search).md",
+                "file": "KDT/Python/파이썬 01. Python 기초.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea03228db42065b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_others_/Hot-key for Mac.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3339577d98bb6f7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -151,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md",
+                "file": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -168,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md",
+                "file": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/Hot-key (for Mac).md"
+                "file": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md"
               }
             }
           }
@@ -188,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,24 +214,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e4783d4bf3ba6cd0",
+  "active": "3339577d98bb6f7b",
   "lastOpenFiles": [
-    "Algorithm (theory)/20. 이진탐색 (Binary Search).md",
-    "_others_/Hot-key (for Mac).md",
+    "Algorithm (theory)/assets/24_Implementation.png",
+    "Algorithm (theory)/assets/24_Implementation-6.png",
+    "Algorithm (theory)/assets/24_Implementation-5.png",
+    "Algorithm (theory)/assets/24_Implementation-4.png",
+    "Algorithm (theory)/assets/24_Implementation-3.png",
+    "Algorithm (theory)/assets/24_Implementation-2.png",
+    "Algorithm (theory)/assets/24_Implementation-1.png",
+    "_others_/Hot-key for Mac.md",
+    "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md",
+    "KDT/Python/파이썬 01. Python 기초.md",
+    "Python/Python 유용한 문법 정리.md",
+    "KDT/Data structure/08. 힙(Heap), 셋(set).md",
+    "KDT/Data structure/04. 리스트(List).md",
+    "KDT/Data structure/05. 문자열 (String).md",
+    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+    "_others_/Hot-key for windows.md",
     "devhump's TIL Index.md",
-    "_others_/Hot-key (windows).md",
+    "_others_/Hot-key (VS Code).md",
+    "Algorithm (theory)/20. 이진탐색 (Binary Search).md",
+    "_others_/obsidian/Obsidian setting.md",
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
     "Algorithm (theory)/assets/20_Binary_Search-4.png",
     "Algorithm (theory)/assets/20_Binary_Search-3.png",
     "Algorithm (theory)/assets/20_Binary_Search-2.png",
     "Algorithm (theory)/assets/20_Binary_Search-1.png",
-    "Algorithm (theory)/assets/20_Binary_Search.png",
-    "Algorithm (theory)/assets/20. Binary Search-10.png",
-    "Algorithm (theory)/assets/20. Binary Search-9.png",
-    "Algorithm (theory)/assets/20. Binary Search-8.png",
-    "Algorithm (theory)/assets/20. Binary Search-7.png",
-    "Algorithm (theory)/assets/20. Binary Search-6.png",
     "_others_/obsidian/LaTeX.md",
     "Algorithm (theory)/16. 위상정렬 (topology).md",
     "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md",
@@ -231,16 +252,6 @@
     "더 공부해 볼 주제.md",
     "_others_/Debugging with VS Code.md",
     "KDT/markdown & git/Git.md",
-    "Python/반올림, 내림, 올림(python).md",
-    "Python/얕은 복사(shallow copy)와 깊은 복사(deep copy).md",
-    "Python/람다함수(Lambda Func, 익명함수).md",
-    "데이터뷰 테스트.md",
-    "_others_/obsidian/Obsidian setting.md",
-    "_others_/obsidian/Obsidian setting - Community plugin.md",
-    "_others_/500 mile.md",
-    "_others_/개발 관련 IT 용어 정리.md",
-    "_others_/알고리즘 TIP.md",
-    "_others_/CLI.md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
