@@ -1,42 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "24. 구현 (mplementation) 유형의 문제 풀이",
-      "path": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md"
-    },
-    {
-      "basename": "Hot-key for Mac",
-      "path": "_others_/Hot-key for Mac.md"
-    },
-    {
-      "basename": "파이썬 01. Python 기초",
-      "path": "KDT/Python/파이썬 01. Python 기초.md"
-    },
-    {
-      "basename": "Python 유용한 문법 정리",
-      "path": "Python/Python 유용한 문법 정리.md"
-    },
-    {
-      "basename": "08. 힙(Heap), 셋(set)",
-      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
-    },
-    {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
-    },
-    {
-      "basename": "05. 문자열 (String)",
-      "path": "KDT/Data structure/05. 문자열 (String).md"
-    },
-    {
-      "basename": "03. 완전탐색  I (Exhaustive Search)",
-      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
-    },
-    {
-      "basename": "Hot-key for windows",
-      "path": "_others_/Hot-key for windows.md"
-    },
-    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -45,24 +9,40 @@
       "path": "_others_/Hot-key (VS Code).md"
     },
     {
+      "basename": "22. DP - problem&solution",
+      "path": "Algorithm (theory)/22. DP - problem&solution.md"
+    },
+    {
+      "basename": "25. 투 포인터와 구간 합 (Two Pointer & Interval Sum)",
+      "path": "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md"
+    },
+    {
+      "basename": "21. Dynamic Programming_",
+      "path": "Algorithm (theory)/21. Dynamic Programming_.md"
+    },
+    {
+      "basename": "18. 유용한 표준 라이브러리 소개",
+      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
+    },
+    {
+      "basename": "24. 구현 (mplementation) 유형의 문제 풀이",
+      "path": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md"
+    },
+    {
+      "basename": "23. 그리디(Greedy)",
+      "path": "Algorithm (theory)/23. 그리디(Greedy).md"
+    },
+    {
       "basename": "20. 이진탐색 (Binary Search)",
       "path": "Algorithm (theory)/20. 이진탐색 (Binary Search).md"
-    },
-    {
-      "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
-    },
-    {
-      "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
-      "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
     },
     {
       "basename": "19. 소수 여부를 빠르게 처리하는 알고리즘들",
       "path": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md"
     },
     {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
+      "basename": "17. 재귀함수(Recursive Function)",
+      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
     },
     {
       "basename": "16. 위상정렬 (topology)",
@@ -77,8 +57,28 @@
       "path": "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md"
     },
     {
+      "basename": "13. 유니온 파인드 자료구조(Union-Find Algorithm)",
+      "path": "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md"
+    },
+    {
       "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
       "path": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md"
+    },
+    {
+      "basename": "11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm)",
+      "path": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
+    },
+    {
+      "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
+      "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
+    },
+    {
+      "basename": "09. DFS 와 BFS 기초 문제 풀이",
+      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
+    },
+    {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
     }
   ],
   "omittedPaths": [

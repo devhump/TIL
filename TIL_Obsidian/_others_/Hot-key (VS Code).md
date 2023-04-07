@@ -4,7 +4,7 @@ tags: [단축키, shortcut]
 
 - 👉 [Hot-key for windows](Hot-key%20for%20windows.md)
 - 👉 [Hot-key for Mac](Hot-key%20for%20Mac.md)
-
+- 👉 [vscode_shortcuts_(mac)](vscode_shortcuts_(mac).pdf)] 
 
 ### VS Code
 | 단축키                           | 기능                             |

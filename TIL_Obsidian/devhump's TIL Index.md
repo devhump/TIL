@@ -1,5 +1,6 @@
-- [[_others_/Hot-key for Mac]]
-- [[_others_/Hot-key for windows]]
+- [[Hot-key for Mac]]
+- [[Hot-key for windows]]
+- [Hot-key (VS Code)](_others_/Hot-key%20(VS%20Code).md)
 
 ### KDT
 #### Mardown & Git
@@ -36,43 +37,44 @@
 
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
-#### 스택 & 큐
-- [[01. 스택과 큐(Stack & Que)]]
-- [[02. 우선순위 큐(Priority Queue)]]
+- **스택 & 큐**
+	- [[01. 스택과 큐(Stack & Que)]]
+	- [[02. 우선순위 큐(Priority Queue)]]
 
-#### 트리(tree)
-- [[03. 트리 (tree)]]
-- [[04. 바이너리 인덱스 트리 (Binary Index Tree)]]
+- **트리(tree)**
+	- [[03. 트리(tree)]]
+	- [[04. 바이너리 인덱스 트리 (Binary Index Tree)]]
 
-#### 정렬(Sorting)
-- [[05. 정렬 알고리즘 (Sorting Algorithm)]]
-- [[06. 퀵 정렬 (Quick Sort)]]
-- [[07. 정렬 알고리즘 비교 및 기초 문제 풀이]]
+- **정렬(Sorting)**
+	- [[05. 정렬 알고리즘 (Sorting Algorithm)]]
+	- [[06. 퀵 정렬 (Quick Sort)]]
+	- [[07. 정렬 알고리즘 비교 및 기초 문제 풀이]]
 
-#### DFS & BFS
-- [[08. DFS & BFS]]
-- [[09. DFS 와 BFS 기초 문제 풀이]]
+- **DFS & BFS**
+	- [[08. DFS & BFS]]
+	- [[09. DFS 와 BFS 기초 문제 풀이]]
 
-#### 최단거리
-- [10. 다익스트라 알고리즘(Dijkstra Algorithm)](Algorithm%20(theory)/10.%20다익스트라%20알고리즘(Dijkstra%20Algorithm).md)
-- [11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm)](Algorithm%20(theory)/11.%20플로이드%20워셜%20알고리즘(Floyd-Warshall%20Algorithm).md)
-- [12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)](Algorithm%20(theory)/12.%20벨만%20포드%20알고리즘%20(Bellman-Ford%20Algorithm).md)
-- 
+- **최단거리**
+	- [10. 다익스트라 알고리즘(Dijkstra Algorithm)](Algorithm%20(theory)/10.%20다익스트라%20알고리즘(Dijkstra%20Algorithm).md)
+	- [11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm)](Algorithm%20(theory)/11.%20플로이드%20워셜%20알고리즘(Floyd-Warshall%20Algorithm).md)
+	- [12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)](Algorithm%20(theory)/12.%20벨만%20포드%20알고리즘%20(Bellman-Ford%20Algorithm).md)
+
 - [13. 유니온 파인드 자료구조(Union-Find Algorithm)](Algorithm%20(theory)/13.%20유니온%20파인드%20자료구조(Union-Find%20Algorithm).md)
 - [14. 크루스칼 알고리즘(Kruskal Algorithm)](Algorithm%20(theory)/14.%20크루스칼%20알고리즘(Kruskal%20Algorithm).md)
 - [15. 최소 공통 조상(LCA, Lowest Common Ancestor)](Algorithm%20(theory)/15.%20최소%20공통%20조상(LCA,%20Lowest%20Common%20Ancestor).md)
 - [16. 위상정렬 (topology)](Algorithm%20(theory)/16.%20위상정렬%20(topology).md)
-- 
+
 - [[17. 재귀함수(Recursive Function)]]
 - [[18. 유용한 표준 라이브러리 소개]]
 - [19. 소수 여부를 빠르게 처리하는 알고리즘들](Algorithm%20(theory)/19.%20소수%20여부를%20빠르게%20처리하는%20알고리즘들.md)
 - [20. 이진탐색 (Binary Search)](Algorithm%20(theory)/20.%20이진탐색%20(Binary%20Search).md)
 
 #### DP & greedy
-- [[21. 다이나믹 프로그래밍]]
-- [[22. 다이나믹 프로그래밍 - 문제풀이]]
+- [[21. Dynamic Programming_]]
+- [[22. DP - problem&solution]]
 - [[23. 그리디(Greedy)]]
-- 
+
+- [24. 구현 (mplementation) 유형의 문제 풀이](Algorithm%20(theory)/24.%20구현%20(mplementation)%20유형의%20문제%20풀이.md)
 - [25. 투 포인터와 구간 합 (Two Pointer & Interval Sum)](Algorithm%20(theory)/25.%20투%20포인터와%20구간%20합%20(Two%20Pointer%20&%20Interval%20Sum).md)
 
 ### Python
@@ -102,8 +104,9 @@
 
 #### 단축키 관련
 - [[vscode_shortcuts_(mac).pdf]] 
-- [[_others_/Hot-key for Mac]]
-- [[_others_/Hot-key for windows]]
+- [[Hot-key for Mac]]
+- [[Hot-key for windows]]
+- [Hot-key (VS Code)](_others_/Hot-key%20(VS%20Code).md)
 
 #### Obsidian
 - [[markdown for Obsidian]]

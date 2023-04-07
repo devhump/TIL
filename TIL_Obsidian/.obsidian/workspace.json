@@ -4,63 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "c4cf9d57d56d48be",
+        "id": "1f24bc91df084100",
         "type": "tabs",
         "children": [
           {
-            "id": "2433ac067584265d",
+            "id": "40fbbc9ed637b246",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python 유용한 문법 정리.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afbe07ba2fc0abb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Python/파이썬 01. Python 기초.md",
+                "file": "devhump's TIL Index.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ea03228db42065b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/Hot-key for Mac.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3339577d98bb6f7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -178,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,11 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -214,45 +177,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3339577d98bb6f7b",
+  "active": "40fbbc9ed637b246",
   "lastOpenFiles": [
-    "Algorithm (theory)/assets/24_Implementation.png",
-    "Algorithm (theory)/assets/24_Implementation-6.png",
-    "Algorithm (theory)/assets/24_Implementation-5.png",
-    "Algorithm (theory)/assets/24_Implementation-4.png",
-    "Algorithm (theory)/assets/24_Implementation-3.png",
-    "Algorithm (theory)/assets/24_Implementation-2.png",
-    "Algorithm (theory)/assets/24_Implementation-1.png",
-    "_others_/Hot-key for Mac.md",
-    "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md",
-    "KDT/Python/파이썬 01. Python 기초.md",
-    "Python/Python 유용한 문법 정리.md",
-    "KDT/Data structure/08. 힙(Heap), 셋(set).md",
-    "KDT/Data structure/04. 리스트(List).md",
-    "KDT/Data structure/05. 문자열 (String).md",
-    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
-    "_others_/Hot-key for windows.md",
-    "devhump's TIL Index.md",
     "_others_/Hot-key (VS Code).md",
+    "devhump's TIL Index.md",
+    "Algorithm (theory)/22. DP - problem&solution.md",
+    "Algorithm (theory)/assets/22. DP - problem&solution-4.png",
+    "Algorithm (theory)/assets/22. DP - problem&solution-3.png",
+    "Algorithm (theory)/assets/22. DP - problem&solution-2.png",
+    "assets/05. sorting_Algorithm-img- (13).png.md",
+    "assets/Pasted image 20230304021022.png",
+    "assets/Pasted image 20230304020304.png",
+    "assets/Pasted image 20230304015957.png",
+    "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
+    "Algorithm (theory)/21. Dynamic Programming_.md",
+    "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
+    "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md",
+    "Algorithm (theory)/23. 그리디(Greedy).md",
     "Algorithm (theory)/20. 이진탐색 (Binary Search).md",
-    "_others_/obsidian/Obsidian setting.md",
-    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
-    "Algorithm (theory)/assets/20_Binary_Search-4.png",
-    "Algorithm (theory)/assets/20_Binary_Search-3.png",
-    "Algorithm (theory)/assets/20_Binary_Search-2.png",
-    "Algorithm (theory)/assets/20_Binary_Search-1.png",
-    "_others_/obsidian/LaTeX.md",
+    "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
     "Algorithm (theory)/16. 위상정렬 (topology).md",
     "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md",
     "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
-    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
     "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
+    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
     "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
-    "더 공부해 볼 주제.md",
-    "_others_/Debugging with VS Code.md",
-    "KDT/markdown & git/Git.md",
+    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
+    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
+    "Algorithm (theory)/08. DFS & BFS.md",
+    "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
+    "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md",
+    "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
+    "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md",
+    "Algorithm (theory)/assets/05. Sorting Algorithm.png",
     "assets",
+    "Algorithm (theory)/03. 트리(tree).md",
+    "Algorithm (theory)/assets/24_Implementation.png",
+    "Algorithm (theory)/assets/24_Implementation-6.png",
+    "Algorithm (theory)/assets/24_Implementation-5.png",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
     "DFS-test/asset",

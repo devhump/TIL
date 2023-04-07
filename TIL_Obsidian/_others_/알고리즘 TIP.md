@@ -29,7 +29,7 @@ lecture_list = [list(map(int, input().split())) for _ in range(n)]
 ```
 
 
-![](../Algorithm%20(theory)/22.%20다이나믹%20프로그래밍%20-%20문제풀이.md#^de2e19)
+![](../Algorithm%20(theory)/22.%20DP%20-%20problem&solution.md#^de2e19)
 
 ### BOJ_2941. 크로아티아 알파벳 (internet)
 
