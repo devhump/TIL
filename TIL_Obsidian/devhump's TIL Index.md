@@ -74,7 +74,7 @@
 - [[22. DP - problem&solution]]
 - [[23. 그리디(Greedy)]]
 
-- [24. 구현 (mplementation) 유형의 문제 풀이](Algorithm%20(theory)/24.%20구현%20(mplementation)%20유형의%20문제%20풀이.md)
+- [24. 구현 (Implementation) 유형의 문제 풀이](Algorithm%20(theory)/24.%20구현%20(Implementation)%20유형의%20문제%20풀이.md)
 - [25. 투 포인터와 구간 합 (Two Pointer & Interval Sum)](Algorithm%20(theory)/25.%20투%20포인터와%20구간%20합%20(Two%20Pointer%20&%20Interval%20Sum).md)
 
 ### Python

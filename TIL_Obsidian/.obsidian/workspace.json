@@ -21,8 +21,35 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "796a3e77a38043ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d249d0c36244f1e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_others_/개발 관련 IT 용어 정리.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md"
               }
             }
           }
@@ -177,10 +204,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "40fbbc9ed637b246",
+  "active": "796a3e77a38043ea",
   "lastOpenFiles": [
-    "_others_/Hot-key (VS Code).md",
+    "KDT/Python/assets/1_709ugF12LLkYxvb839YNlg.png",
+    "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
+    "KDT/Python/파이썬 03. 함수(Funtion).md",
+    "KDT/Python/assets/Untitled.png",
+    "KDT/Python/assets/파이썬 02. 제어문 (Control Statement).png",
+    "KDT/Python/파이썬 01. Python 기초.md",
+    "KDT/Python/assets/python-boolean-operators-table.jpg",
+    "KDT/Python/assets/Diagram_Explaining_Boolean_Operators.png",
+    "_others_/개발 관련 IT 용어 정리.md",
+    "Algorithm (theory)/24. 구현 (Implementation) 유형의 문제 풀이.md",
     "devhump's TIL Index.md",
+    "_others_/Hot-key (VS Code).md",
     "Algorithm (theory)/22. DP - problem&solution.md",
     "Algorithm (theory)/assets/22. DP - problem&solution-4.png",
     "Algorithm (theory)/assets/22. DP - problem&solution-3.png",
@@ -192,7 +229,6 @@
     "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
     "Algorithm (theory)/21. Dynamic Programming_.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
-    "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md",
     "Algorithm (theory)/23. 그리디(Greedy).md",
     "Algorithm (theory)/20. 이진탐색 (Binary Search).md",
     "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
@@ -206,16 +242,7 @@
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
     "Algorithm (theory)/08. DFS & BFS.md",
-    "Algorithm (theory)/07. 정렬 알고리즘 비교 및 기초 문제 풀이.md",
-    "Algorithm (theory)/06. 퀵 정렬 (Quick Sort).md",
-    "Algorithm (theory)/05. 정렬 알고리즘 (Sorting Algorithm).md",
-    "Algorithm (theory)/04. 바이너리 인덱스 트리 (Binary Index Tree).md",
-    "Algorithm (theory)/assets/05. Sorting Algorithm.png",
     "assets",
-    "Algorithm (theory)/03. 트리(tree).md",
-    "Algorithm (theory)/assets/24_Implementation.png",
-    "Algorithm (theory)/assets/24_Implementation-6.png",
-    "Algorithm (theory)/assets/24_Implementation-5.png",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
     "DFS-test/asset",

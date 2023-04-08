@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "파이썬 03. 함수(Funtion)",
+      "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
+    },
+    {
+      "basename": "파이썬 02. 제어문 (Control Statement)",
+      "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
+    },
+    {
+      "basename": "파이썬 01. Python 기초",
+      "path": "KDT/Python/파이썬 01. Python 기초.md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
+    },
+    {
+      "basename": "24. 구현 (Implementation) 유형의 문제 풀이",
+      "path": "Algorithm (theory)/24. 구현 (Implementation) 유형의 문제 풀이.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -23,10 +43,6 @@
     {
       "basename": "18. 유용한 표준 라이브러리 소개",
       "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
-    },
-    {
-      "basename": "24. 구현 (mplementation) 유형의 문제 풀이",
-      "path": "Algorithm (theory)/24. 구현 (mplementation) 유형의 문제 풀이.md"
     },
     {
       "basename": "23. 그리디(Greedy)",
@@ -63,22 +79,6 @@
     {
       "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
       "path": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md"
-    },
-    {
-      "basename": "11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm)",
-      "path": "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md"
-    },
-    {
-      "basename": "10. 다익스트라 알고리즘(Dijkstra Algorithm)",
-      "path": "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md"
-    },
-    {
-      "basename": "09. DFS 와 BFS 기초 문제 풀이",
-      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
     }
   ],
   "omittedPaths": [
