@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "07. 스택 & 큐 (Stack & Queue)",
+      "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
+    },
+    {
+      "basename": "Hot-key (VS Code)",
+      "path": "_others_/Hot-key (VS Code).md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "파이썬 03. 함수(Funtion)",
       "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
+    },
+    {
+      "basename": "Debugging with VS Code+",
+      "path": "_others_/Debugging with VS Code+.md"
     },
     {
       "basename": "파이썬 02. 제어문 (Control Statement)",
@@ -13,20 +41,8 @@
       "path": "KDT/Python/파이썬 01. Python 기초.md"
     },
     {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "_others_/개발 관련 IT 용어 정리.md"
-    },
-    {
       "basename": "24. 구현 (Implementation) 유형의 문제 풀이",
       "path": "Algorithm (theory)/24. 구현 (Implementation) 유형의 문제 풀이.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
-      "basename": "Hot-key (VS Code)",
-      "path": "_others_/Hot-key (VS Code).md"
     },
     {
       "basename": "22. DP - problem&solution",
@@ -63,22 +79,6 @@
     {
       "basename": "16. 위상정렬 (topology)",
       "path": "Algorithm (theory)/16. 위상정렬 (topology).md"
-    },
-    {
-      "basename": "15. 최소 공통 조상(LCA, Lowest Common Ancestor)",
-      "path": "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md"
-    },
-    {
-      "basename": "14. 크루스칼 알고리즘(Kruskal Algorithm)",
-      "path": "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md"
-    },
-    {
-      "basename": "13. 유니온 파인드 자료구조(Union-Find Algorithm)",
-      "path": "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md"
-    },
-    {
-      "basename": "12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm)",
-      "path": "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md"
     }
   ],
   "omittedPaths": [

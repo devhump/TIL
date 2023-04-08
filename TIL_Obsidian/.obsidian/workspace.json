@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "796a3e77a38043ea",
+            "id": "809928170b26f482",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
+                "file": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "d249d0c36244f1e4",
+            "id": "6656b8db59ef93a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md",
+                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
+                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
+                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Python/파이썬 03. 함수(Funtion).md"
+                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
               }
             }
           }
@@ -204,28 +204,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "796a3e77a38043ea",
+  "active": "6656b8db59ef93a8",
   "lastOpenFiles": [
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "_others_/Hot-key (VS Code).md",
+    "devhump's TIL Index.md",
+    "KDT/Python/파이썬 03. 함수(Funtion).md",
+    "_others_/개발 관련 IT 용어 정리.md",
+    "_others_/Debugging with VS Code+.md",
+    "_others_/assets/Pasted image 20230409001322.png",
     "KDT/Python/assets/1_709ugF12LLkYxvb839YNlg.png",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
-    "KDT/Python/파이썬 03. 함수(Funtion).md",
     "KDT/Python/assets/Untitled.png",
     "KDT/Python/assets/파이썬 02. 제어문 (Control Statement).png",
     "KDT/Python/파이썬 01. Python 기초.md",
     "KDT/Python/assets/python-boolean-operators-table.jpg",
     "KDT/Python/assets/Diagram_Explaining_Boolean_Operators.png",
-    "_others_/개발 관련 IT 용어 정리.md",
     "Algorithm (theory)/24. 구현 (Implementation) 유형의 문제 풀이.md",
-    "devhump's TIL Index.md",
-    "_others_/Hot-key (VS Code).md",
     "Algorithm (theory)/22. DP - problem&solution.md",
     "Algorithm (theory)/assets/22. DP - problem&solution-4.png",
     "Algorithm (theory)/assets/22. DP - problem&solution-3.png",
     "Algorithm (theory)/assets/22. DP - problem&solution-2.png",
     "assets/05. sorting_Algorithm-img- (13).png.md",
     "assets/Pasted image 20230304021022.png",
-    "assets/Pasted image 20230304020304.png",
-    "assets/Pasted image 20230304015957.png",
     "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
     "Algorithm (theory)/21. Dynamic Programming_.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
@@ -240,8 +242,6 @@
     "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
     "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
-    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
-    "Algorithm (theory)/08. DFS & BFS.md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",

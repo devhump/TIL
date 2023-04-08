@@ -100,7 +100,7 @@
 - [Git의 기초 - 되돌리기](_others_/Git%20basic%20-%20rollback.md)
 - [[CLI]]
 - [[Templates List]]
-- [VS Code를 이용한 파이썬 소스코드 디버깅](_others_/Debugging%20with%20VS%20Code.md)
+- [VS Code를 이용한 파이썬 소스코드 디버깅](_others_/Debugging%20with%20VS%20Code+.md)
 
 #### 단축키 관련
 - [[vscode_shortcuts_(mac).pdf]] 
