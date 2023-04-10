@@ -23,25 +23,38 @@
             }
           },
           {
-            "id": "809928170b26f482",
+            "id": "fd06438abe2c4a31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
-                "mode": "source",
+                "file": "KDT/Web/01. Happy Web.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "6656b8db59ef93a8",
+            "id": "849e30c2001e517b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+                "file": "_others_/Hot-key for Mac.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d10163f11256af8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_others_/Hot-key for Mac.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -49,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -151,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+                "file": "_others_/Hot-key for Mac.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -168,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+                "file": "_others_/Hot-key for Mac.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Web/01. Happy Web.md"
+                "file": "_others_/Hot-key for Mac.md"
               }
             }
           }
@@ -205,8 +217,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d249d0c36244f1e4",
+  "active": "4d10163f11256af8",
   "lastOpenFiles": [
+    "_others_/알고리즘 TIP.md",
+    "_others_/Hot-key for Mac.md",
+    "KDT/Web/01. Happy Web.md",
+    "devhump's TIL Index.md",
     "KDT/Web/assets/01. Happy Web-19.png",
     "KDT/Web/assets/01. Happy Web-18.png",
     "KDT/Web/assets/01. Happy Web-17.png",
@@ -214,26 +230,18 @@
     "KDT/Web/assets/01. Happy Web-15.png",
     "KDT/Web/assets/01. Happy Web-14.png",
     "KDT/Web/assets/01. Happy Web-14.png",
-    "KDT/Web/01. Happy Web.md",
     "KDT/Web/assets/01. Happy Web-13.png",
     "KDT/Web/assets/01. Happy Web-12.png",
     "KDT/Web/assets/01. Happy Web-11.png",
-    "KDT/Web/assets/01. Happy Web-10.png",
-    "devhump's TIL Index.md",
     "KDT/Python/파이썬 03. 함수(Funtion).md",
     "KDT/Web/assets",
     "KDT/Web",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
-    "KDT/Python/assets/Untitled.png",
-    "KDT/Python/assets/파이썬 02. 제어문 (Control Statement).png",
     "KDT/Python/파이썬 01. Python 기초.md",
-    "KDT/Python/assets/python-boolean-operators-table.jpg",
-    "KDT/Python/assets/Diagram_Explaining_Boolean_Operators.png",
     "Algorithm (theory)/24. 구현 (Implementation) 유형의 문제 풀이.md",
     "_others_/Hot-key (VS Code).md",
     "Algorithm (theory)/22. DP - problem&solution.md",
     "assets/05. sorting_Algorithm-img- (13).png.md",
-    "assets/Pasted image 20230304021022.png",
     "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
     "Algorithm (theory)/21. Dynamic Programming_.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Hot-key for Mac",
+      "path": "_others_/Hot-key for Mac.md"
+    },
+    {
+      "basename": "알고리즘 TIP",
+      "path": "_others_/알고리즘 TIP.md"
+    },
+    {
       "basename": "01. Happy Web",
       "path": "KDT/Web/01. Happy Web.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "Hot-key (VS Code)",
       "path": "_others_/Hot-key (VS Code).md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "파이썬 03. 함수(Funtion)",
@@ -75,26 +79,6 @@
     {
       "basename": "18. 유용한 표준 라이브러리 소개",
       "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
-    },
-    {
-      "basename": "23. 그리디(Greedy)",
-      "path": "Algorithm (theory)/23. 그리디(Greedy).md"
-    },
-    {
-      "basename": "20. 이진탐색 (Binary Search)",
-      "path": "Algorithm (theory)/20. 이진탐색 (Binary Search).md"
-    },
-    {
-      "basename": "19. 소수 여부를 빠르게 처리하는 알고리즘들",
-      "path": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md"
-    },
-    {
-      "basename": "17. 재귀함수(Recursive Function)",
-      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
-    },
-    {
-      "basename": "16. 위상정렬 (topology)",
-      "path": "Algorithm (theory)/16. 위상정렬 (topology).md"
     }
   ],
   "omittedPaths": [
