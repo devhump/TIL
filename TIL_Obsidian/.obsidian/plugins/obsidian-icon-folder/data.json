@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbEarth",
       "📌",
       "FasCode",
       "🧰",
@@ -35,5 +36,6 @@
   "KDT/Algorithm": "SiThealgorithms",
   "_others_/Templates List.md": "📋",
   "ALgorithm (code)": "FasCode",
-  "devhump's TIL Index.md": "📌"
+  "devhump's TIL Index.md": "📌",
+  "KDT/Web": "IbEarth"
 }

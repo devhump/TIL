@@ -23,26 +23,13 @@
             }
           },
           {
-            "id": "796a3e77a38043ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d249d0c36244f1e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md",
-                "mode": "preview",
+                "file": "KDT/Web/01. Happy Web.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -107,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -150,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
+                "file": "KDT/Web/01. Happy Web.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
+                "file": "KDT/Web/01. Happy Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Python/파이썬 03. 함수(Funtion).md"
+                "file": "KDT/Web/01. Happy Web.md"
               }
             }
           }
@@ -204,28 +192,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "796a3e77a38043ea",
+  "active": "d249d0c36244f1e4",
   "lastOpenFiles": [
-    "KDT/Python/assets/1_709ugF12LLkYxvb839YNlg.png",
-    "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
+    "KDT/Web/assets/01. Happy Web-19.png",
+    "KDT/Web/assets/01. Happy Web-18.png",
+    "KDT/Web/assets/01. Happy Web-17.png",
+    "KDT/Web/assets/01. Happy Web-16.png",
+    "KDT/Web/assets/01. Happy Web-15.png",
+    "KDT/Web/assets/01. Happy Web-14.png",
+    "KDT/Web/assets/01. Happy Web-14.png",
+    "KDT/Web/01. Happy Web.md",
+    "KDT/Web/assets/01. Happy Web-13.png",
+    "KDT/Web/assets/01. Happy Web-12.png",
+    "KDT/Web/assets/01. Happy Web-11.png",
+    "KDT/Web/assets/01. Happy Web-10.png",
+    "devhump's TIL Index.md",
     "KDT/Python/파이썬 03. 함수(Funtion).md",
-    "KDT/Python/assets/Untitled.png",
-    "KDT/Python/assets/파이썬 02. 제어문 (Control Statement).png",
+    "KDT/Web/assets",
+    "KDT/Web",
+    "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "KDT/Python/파이썬 01. Python 기초.md",
-    "KDT/Python/assets/python-boolean-operators-table.jpg",
-    "KDT/Python/assets/Diagram_Explaining_Boolean_Operators.png",
     "_others_/개발 관련 IT 용어 정리.md",
     "Algorithm (theory)/24. 구현 (Implementation) 유형의 문제 풀이.md",
-    "devhump's TIL Index.md",
     "_others_/Hot-key (VS Code).md",
     "Algorithm (theory)/22. DP - problem&solution.md",
-    "Algorithm (theory)/assets/22. DP - problem&solution-4.png",
-    "Algorithm (theory)/assets/22. DP - problem&solution-3.png",
-    "Algorithm (theory)/assets/22. DP - problem&solution-2.png",
     "assets/05. sorting_Algorithm-img- (13).png.md",
-    "assets/Pasted image 20230304021022.png",
-    "assets/Pasted image 20230304020304.png",
-    "assets/Pasted image 20230304015957.png",
     "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
     "Algorithm (theory)/21. Dynamic Programming_.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
@@ -241,7 +232,6 @@
     "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
     "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
     "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
-    "Algorithm (theory)/08. DFS & BFS.md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
@@ -250,8 +240,6 @@
     "KDT/Algorithm/assets",
     "KDT/Algorithm",
     "KDT/Python/assets",
-    "_others_/vscode_shortcuts_(mac).pdf",
-    "others/assets 1",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
   ]
