@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
-    },
-    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
       "basename": "07. 스택 & 큐 (Stack & Queue)",
       "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
     },
     {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+      "basename": "01. Happy Web",
+      "path": "KDT/Web/01. Happy Web.md"
     },
     {
       "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
@@ -23,10 +23,6 @@
     {
       "basename": "Hot-key (VS Code)",
       "path": "_others_/Hot-key (VS Code).md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "파이썬 03. 함수(Funtion)",
@@ -83,18 +79,6 @@
     {
       "basename": "20. 이진탐색 (Binary Search)",
       "path": "Algorithm (theory)/20. 이진탐색 (Binary Search).md"
-    },
-    {
-      "basename": "19. 소수 여부를 빠르게 처리하는 알고리즘들",
-      "path": "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md"
-    },
-    {
-      "basename": "17. 재귀함수(Recursive Function)",
-      "path": "Algorithm (theory)/17. 재귀함수(Recursive Function).md"
-    },
-    {
-      "basename": "16. 위상정렬 (topology)",
-      "path": "Algorithm (theory)/16. 위상정렬 (topology).md"
     }
   ],
   "omittedPaths": [
