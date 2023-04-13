@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "06. 딕셔너리(Dictionary)",
+      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "01. Happy Web",
+      "path": "KDT/Web/01. Happy Web.md"
+    },
+    {
       "basename": "Hot-key for Mac",
       "path": "_others_/Hot-key for Mac.md"
     },
@@ -9,24 +25,8 @@
       "path": "_others_/알고리즘 TIP.md"
     },
     {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
-    },
-    {
       "basename": "07. 스택 & 큐 (Stack & Queue)",
       "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
-    },
-    {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
     },
     {
       "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
@@ -75,22 +75,6 @@
     {
       "basename": "25. 투 포인터와 구간 합 (Two Pointer & Interval Sum)",
       "path": "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md"
-    },
-    {
-      "basename": "21. Dynamic Programming_",
-      "path": "Algorithm (theory)/21. Dynamic Programming_.md"
-    },
-    {
-      "basename": "18. 유용한 표준 라이브러리 소개",
-      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
-    },
-    {
-      "basename": "23. 그리디(Greedy)",
-      "path": "Algorithm (theory)/23. 그리디(Greedy).md"
-    },
-    {
-      "basename": "20. 이진탐색 (Binary Search)",
-      "path": "Algorithm (theory)/20. 이진탐색 (Binary Search).md"
     }
   ],
   "omittedPaths": [

@@ -23,46 +23,20 @@
             }
           },
           {
-            "id": "fd06438abe2c4a31",
+            "id": "1969ce9132473c44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Web/01. Happy Web.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "849e30c2001e517b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/Hot-key for Mac.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d10163f11256af8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/Hot-key for Mac.md",
-                "mode": "preview",
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/Hot-key for Mac.md",
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -180,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/Hot-key for Mac.md",
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/Hot-key for Mac.md"
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
               }
             }
           }
@@ -217,12 +191,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4d10163f11256af8",
+  "active": "1969ce9132473c44",
   "lastOpenFiles": [
-    "_others_/알고리즘 TIP.md",
-    "_others_/Hot-key for Mac.md",
-    "KDT/Web/01. Happy Web.md",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
+    "ALgorithm (code)/딕셔너리를 이용한 빠른 인덱스.md",
+    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "devhump's TIL Index.md",
+    "KDT/Web/01. Happy Web.md",
+    "_others_/Hot-key for Mac.md",
+    "_others_/알고리즘 TIP.md",
     "KDT/Web/assets/01. Happy Web-19.png",
     "KDT/Web/assets/01. Happy Web-18.png",
     "KDT/Web/assets/01. Happy Web-17.png",
@@ -254,9 +231,6 @@
     "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
     "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
     "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
-    "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
-    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
-    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
