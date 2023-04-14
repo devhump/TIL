@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -154,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+                "file": "KDT/Python/파이썬 03. 함수(Funtion).md"
               }
             }
           }
@@ -193,9 +194,9 @@
   },
   "active": "1969ce9132473c44",
   "lastOpenFiles": [
+    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "ALgorithm (code)/딕셔너리를 이용한 빠른 인덱스.md",
-    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "devhump's TIL Index.md",
     "KDT/Web/01. Happy Web.md",
     "_others_/Hot-key for Mac.md",
