@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "Hot-key for Mac",
       "path": "_others_/Hot-key for Mac.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "01. Happy Web",
       "path": "KDT/Web/01. Happy Web.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "07. 스택 & 큐 (Stack & Queue)",
@@ -75,10 +79,6 @@
     {
       "basename": "21. Dynamic Programming_",
       "path": "Algorithm (theory)/21. Dynamic Programming_.md"
-    },
-    {
-      "basename": "18. 유용한 표준 라이브러리 소개",
-      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
     }
   ],
   "omittedPaths": [

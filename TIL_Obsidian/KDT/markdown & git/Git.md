@@ -110,10 +110,11 @@ $ git init
 	3) Commit으로 버전 기록
 
 ![](assets/git-img-%20(1).png)
+
 | Working Directory | 파일의 변경사항                                  |
 | ----------------- | ------------------------------------------------ |
 | Staging Area      | 버전으로 기록하기 위한 <br> 파일 변경사항의 목록 |
-| Repository        | 커밋(버전)들이 기록되는 곳                                                 |
+| Repository        | 커밋(버전)들이 기록되는 곳                       |
 
 
 #### 2-2. $ git add `<file>`
