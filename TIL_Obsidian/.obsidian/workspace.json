@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "1e10d822d8425644",
+            "id": "1969ce9132473c44",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -192,9 +193,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1e10d822d8425644",
+  "active": "1969ce9132473c44",
   "lastOpenFiles": [
+    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
+    "ALgorithm (code)/딕셔너리를 이용한 빠른 인덱스.md",
     "devhump's TIL Index.md",
+    "KDT/Web/01. Happy Web.md",
     "_others_/Hot-key for Mac.md",
     "_others_/알고리즘 TIP.md",
     "KDT/Web/01. Happy Web.md",
@@ -229,9 +234,6 @@
     "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
     "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
     "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
-    "Algorithm (theory)/11. 플로이드 워셜 알고리즘(Floyd-Warshall Algorithm).md",
-    "Algorithm (theory)/10. 다익스트라 알고리즘(Dijkstra Algorithm).md",
-    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",

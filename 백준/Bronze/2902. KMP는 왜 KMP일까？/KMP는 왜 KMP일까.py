@@ -1,4 +1,3 @@
-# BOJ_2902 KMP는 왜 KMP일까?
 
 full_letters = input()
 
@@ -10,4 +9,3 @@ for i in range(len(full_letters)):
         result += full_letters[i+1]
 
 print(result)
-
