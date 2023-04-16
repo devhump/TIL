@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "02. CSS",
+      "path": "KDT/Web/02. CSS.md"
+    },
+    {
+      "basename": "01. Happy Web",
+      "path": "KDT/Web/01. Happy Web.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
       "basename": "파이썬 03. 함수(Funtion)",
       "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
     },
@@ -13,32 +29,12 @@
       "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
       "basename": "Hot-key for Mac",
       "path": "_others_/Hot-key for Mac.md"
     },
     {
       "basename": "알고리즘 TIP",
       "path": "_others_/알고리즘 TIP.md"
-    },
-    {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
     },
     {
       "basename": "07. 스택 & 큐 (Stack & Queue)",
@@ -53,8 +49,8 @@
       "path": "_others_/Hot-key (VS Code).md"
     },
     {
-      "basename": "img1.daumcdn",
-      "path": "KDT/Web/assets/img1.daumcdn.png"
+      "basename": "01. Happy Web-28",
+      "path": "KDT/Web/assets/01. Happy Web-28.png"
     },
     {
       "basename": "개발 관련 IT 용어 정리",
@@ -79,18 +75,6 @@
     {
       "basename": "Hot-key (VS Code)",
       "path": "_others_/Hot-key (VS Code).md"
-    },
-    {
-      "basename": "22. DP - problem&solution",
-      "path": "Algorithm (theory)/22. DP - problem&solution.md"
-    },
-    {
-      "basename": "25. 투 포인터와 구간 합 (Two Pointer & Interval Sum)",
-      "path": "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md"
-    },
-    {
-      "basename": "21. Dynamic Programming_",
-      "path": "Algorithm (theory)/21. Dynamic Programming_.md"
     }
   ],
   "omittedPaths": [

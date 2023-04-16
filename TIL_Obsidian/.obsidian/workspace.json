@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "devhump's TIL Index.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
@@ -23,12 +23,25 @@
             }
           },
           {
-            "id": "1969ce9132473c44",
+            "id": "ba84f693958dacbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/markdown & git/Git.md",
+                "file": "KDT/Web/01. Happy Web.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47858f5d7ce8d055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Web/02. CSS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,8 +103,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/markdown & git/Git.md",
+                "file": "KDT/Web/02. CSS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/markdown & git/Git.md",
+                "file": "KDT/Web/02. CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/markdown & git/Git.md"
+                "file": "KDT/Web/02. CSS.md"
               }
             }
           }
@@ -177,8 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5,
-    "collapsed": true
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,26 +204,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1969ce9132473c44",
+  "active": "47858f5d7ce8d055",
   "lastOpenFiles": [
+    "KDT/Web/assets/02. CSS-5.png",
+    "KDT/Web/assets/mdn-horizontal.png",
+    "KDT/Web/assets/02. CSS-4.png",
+    "KDT/Web/assets/02. CSS-3.png",
+    "KDT/Web/assets/02. CSS-2.png",
+    "KDT/Web/assets/02. CSS-1.png",
+    "KDT/Web/assets/02. CSS.png",
+    "KDT/Web/01. Happy Web.md",
+    "KDT/Web/02. CSS.md",
+    "devhump's TIL Index.md",
+    "KDT/Web/assets/01. Happy Web-50.png",
+    "KDT/Web/assets/01. Happy Web-24.png",
+    "KDT/Web/assets/01. Happy Web-49.png",
+    "KDT/Web/assets/01. Happy Web-48.png",
+    "KDT/markdown & git/Git.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "ALgorithm (code)/딕셔너리를 이용한 빠른 인덱스.md",
-    "devhump's TIL Index.md",
-    "KDT/Web/01. Happy Web.md",
     "_others_/Hot-key for Mac.md",
     "_others_/알고리즘 TIP.md",
-    "KDT/Web/01. Happy Web.md",
-    "KDT/Web/assets/01. Happy Web-19.png",
-    "KDT/Web/assets/01. Happy Web-18.png",
-    "KDT/Web/assets/01. Happy Web-17.png",
-    "KDT/Web/assets/01. Happy Web-16.png",
-    "KDT/Web/assets/01. Happy Web-15.png",
-    "KDT/Web/assets/01. Happy Web-14.png",
-    "KDT/Web/assets/01. Happy Web-14.png",
-    "KDT/Web/assets/01. Happy Web-13.png",
-    "KDT/Web/assets/01. Happy Web-12.png",
-    "KDT/Web/assets/01. Happy Web-11.png",
     "KDT/Python/파이썬 03. 함수(Funtion).md",
     "KDT/Web/assets",
     "KDT/Web",
@@ -231,9 +244,6 @@
     "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
     "Algorithm (theory)/16. 위상정렬 (topology).md",
     "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md",
-    "Algorithm (theory)/14. 크루스칼 알고리즘(Kruskal Algorithm).md",
-    "Algorithm (theory)/13. 유니온 파인드 자료구조(Union-Find Algorithm).md",
-    "Algorithm (theory)/12. 벨만 포드 알고리즘 (Bellman-Ford Algorithm).md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
