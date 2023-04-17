@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "개발 관련 IT 용어 정리",
       "path": "_others_/개발 관련 IT 용어 정리.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "03. CSS Position",
+      "path": "KDT/Web/03. CSS Position.md"
     },
     {
       "basename": "문자열 치환 하기",
@@ -23,10 +27,6 @@
     {
       "basename": "02. CSS",
       "path": "KDT/Web/02. CSS.md"
-    },
-    {
-      "basename": "03. CSS Position",
-      "path": "KDT/Web/03. CSS Position.md"
     },
     {
       "basename": "01. Happy Web",
