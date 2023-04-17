@@ -23,25 +23,12 @@
             }
           },
           {
-            "id": "47858f5d7ce8d055",
+            "id": "27915dc65f5c7bfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Web/02. CSS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a348cebaee791a79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Web/03. CSS Position.md",
+                "file": "ALgorithm (code)/문자열 치환 하기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "enu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,12 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -151,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Web/03. CSS Position.md",
+                "file": "ALgorithm (code)/문자열 치환 하기.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -168,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Web/03. CSS Position.md",
+                "file": "ALgorithm (code)/문자열 치환 하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Web/03. CSS Position.md"
+                "file": "ALgorithm (code)/문자열 치환 하기.md"
               }
             }
           }
@@ -204,8 +191,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a348cebaee791a79",
+  "active": "27915dc65f5c7bfe",
   "lastOpenFiles": [
+    "KDT/Data structure/05. 문자열 (String).md",
+    "ALgorithm (code)/문자열 치환 하기.md",
+    "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
+    "devhump's TIL Index.md",
+    "KDT/Web/02. CSS.md",
+    "KDT/Web/03. CSS Position.md",
     "KDT/Web/assets/03. CSS Position-10.png",
     "KDT/Web/assets/align-items-modify.png",
     "KDT/Web/assets/align-content-modify.png",
@@ -216,10 +209,6 @@
     "KDT/Web/assets/03. CSS Position-8.png",
     "KDT/Web/assets/img1.daumcdn.png",
     "KDT/Web/assets/mdn-horizontal.png",
-    "KDT/Web/assets/03. CSS Position-7.png",
-    "KDT/Web/02. CSS.md",
-    "KDT/Web/03. CSS Position.md",
-    "devhump's TIL Index.md",
     "KDT/Web/01. Happy Web.md",
     "KDT/markdown & git/Git.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
@@ -230,7 +219,6 @@
     "KDT/Python/파이썬 03. 함수(Funtion).md",
     "KDT/Web/assets",
     "KDT/Web",
-    "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "KDT/Python/파이썬 01. Python 기초.md",
     "Algorithm (theory)/24. 구현 (Implementation) 유형의 문제 풀이.md",
     "_others_/Hot-key (VS Code).md",
@@ -243,7 +231,6 @@
     "Algorithm (theory)/20. 이진탐색 (Binary Search).md",
     "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
     "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
-    "Algorithm (theory)/16. 위상정렬 (topology).md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
