@@ -23,19 +23,6 @@
             }
           },
           {
-            "id": "ba84f693958dacbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Web/01. Happy Web.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "47858f5d7ce8d055",
             "type": "leaf",
             "state": {
@@ -49,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,20 +193,19 @@
   },
   "active": "47858f5d7ce8d055",
   "lastOpenFiles": [
-    "KDT/Web/assets/02. CSS-5.png",
-    "KDT/Web/assets/mdn-horizontal.png",
-    "KDT/Web/assets/02. CSS-4.png",
-    "KDT/Web/assets/02. CSS-3.png",
-    "KDT/Web/assets/02. CSS-2.png",
-    "KDT/Web/assets/02. CSS-1.png",
-    "KDT/Web/assets/02. CSS.png",
-    "KDT/Web/01. Happy Web.md",
-    "KDT/Web/02. CSS.md",
     "devhump's TIL Index.md",
-    "KDT/Web/assets/01. Happy Web-50.png",
-    "KDT/Web/assets/01. Happy Web-24.png",
-    "KDT/Web/assets/01. Happy Web-49.png",
-    "KDT/Web/assets/01. Happy Web-48.png",
+    "KDT/Web/02. CSS.md",
+    "KDT/Web/assets/02. CSS-33.png",
+    "KDT/Web/assets/02. CSS-32.png",
+    "KDT/Web/assets/02. CSS-31.png",
+    "KDT/Web/assets/02. CSS-30.png",
+    "KDT/Web/assets/02. CSS-29.png",
+    "KDT/Web/01. Happy Web.md",
+    "KDT/Web/assets/02. CSS-28.png",
+    "KDT/Web/assets/02. CSS-27.png",
+    "KDT/Web/assets/02. CSS-26.png",
+    "KDT/Web/assets/02. CSS-25.png",
+    "KDT/Web/assets/02. CSS-24.png",
     "KDT/markdown & git/Git.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",

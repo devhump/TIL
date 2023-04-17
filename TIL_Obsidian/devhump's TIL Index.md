@@ -37,6 +37,7 @@
 
 #### Web
 - [01. Happy Web](KDT/Web/01.%20Happy%20Web.md)
+- [02. CSS](KDT/Web/02.%20CSS.md)
 
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)

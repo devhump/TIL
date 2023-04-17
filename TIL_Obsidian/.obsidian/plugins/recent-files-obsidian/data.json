@@ -5,12 +5,12 @@
       "path": "KDT/Web/02. CSS.md"
     },
     {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
-    },
-    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "01. Happy Web",
+      "path": "KDT/Web/01. Happy Web.md"
     },
     {
       "basename": "Git",
