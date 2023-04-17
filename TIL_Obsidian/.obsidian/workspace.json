@@ -34,9 +34,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a348cebaee791a79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Web/03. CSS Position.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -138,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Web/02. CSS.md",
+                "file": "KDT/Web/03. CSS Position.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -155,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Web/02. CSS.md",
+                "file": "KDT/Web/03. CSS Position.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Web/02. CSS.md"
+                "file": "KDT/Web/03. CSS Position.md"
               }
             }
           }
@@ -191,21 +204,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "47858f5d7ce8d055",
+  "active": "a348cebaee791a79",
   "lastOpenFiles": [
-    "devhump's TIL Index.md",
+    "KDT/Web/assets/03. CSS Position-10.png",
+    "KDT/Web/assets/align-items-modify.png",
+    "KDT/Web/assets/align-content-modify.png",
+    "KDT/Web/assets/justify-content-modify.png",
+    "KDT/Web/assets/flex-wrap-modify.png",
+    "KDT/Web/assets/03. CSS Position-9.png",
+    "KDT/Web/assets/flexbox axis.png",
+    "KDT/Web/assets/03. CSS Position-8.png",
+    "KDT/Web/assets/img1.daumcdn.png",
+    "KDT/Web/assets/mdn-horizontal.png",
+    "KDT/Web/assets/03. CSS Position-7.png",
     "KDT/Web/02. CSS.md",
-    "KDT/Web/assets/02. CSS-33.png",
-    "KDT/Web/assets/02. CSS-32.png",
-    "KDT/Web/assets/02. CSS-31.png",
-    "KDT/Web/assets/02. CSS-30.png",
-    "KDT/Web/assets/02. CSS-29.png",
+    "KDT/Web/03. CSS Position.md",
+    "devhump's TIL Index.md",
     "KDT/Web/01. Happy Web.md",
-    "KDT/Web/assets/02. CSS-28.png",
-    "KDT/Web/assets/02. CSS-27.png",
-    "KDT/Web/assets/02. CSS-26.png",
-    "KDT/Web/assets/02. CSS-25.png",
-    "KDT/Web/assets/02. CSS-24.png",
     "KDT/markdown & git/Git.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
@@ -229,7 +244,6 @@
     "Algorithm (theory)/19. 소수 여부를 빠르게 처리하는 알고리즘들.md",
     "Algorithm (theory)/17. 재귀함수(Recursive Function).md",
     "Algorithm (theory)/16. 위상정렬 (topology).md",
-    "Algorithm (theory)/15. 최소 공통 조상(LCA, Lowest Common Ancestor).md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
