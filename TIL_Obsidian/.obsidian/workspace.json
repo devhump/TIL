@@ -23,32 +23,20 @@
             }
           },
           {
-            "id": "27915dc65f5c7bfe",
+            "id": "0ce889a258a2430f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a264284118d308d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Web/03. CSS Position.md",
-                "mode": "source",
+                "file": "_others_/Git basic - rollback.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,13 +90,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -151,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "_others_/Git basic - rollback.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -168,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "_others_/Git basic - rollback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "_others_/Git basic - rollback.md"
               }
             }
           }
@@ -205,14 +191,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "40fbbc9ed637b246",
+  "active": "0ce889a258a2430f",
   "lastOpenFiles": [
+    "KDT/markdown & git/Git.md",
+    "devhump's TIL Index.md",
+    "KDT/Web/04. Semantic tag.md",
+    "KDT/Web/assets/04. Symantic tag-2.png",
     "_others_/개발 관련 IT 용어 정리.md",
     "KDT/Web/03. CSS Position.md",
+    "KDT/Web/assets/04. Symantic tag-1.png",
+    "KDT/Web/assets/04. Symantic tag.png",
     "KDT/Web/assets/03. CSS Position-13.png",
     "KDT/Web/assets/03. CSS Position-12.png",
     "KDT/Web/assets/03. CSS Position-11.png",
-    "devhump's TIL Index.md",
     "ALgorithm (code)/문자열 치환 하기.md",
     "KDT/Data structure/05. 문자열 (String).md",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
@@ -221,11 +212,7 @@
     "KDT/Web/assets/align-items-modify.png",
     "KDT/Web/assets/align-content-modify.png",
     "KDT/Web/assets/justify-content-modify.png",
-    "KDT/Web/assets/flex-wrap-modify.png",
-    "KDT/Web/assets/03. CSS Position-9.png",
-    "KDT/Web/assets/flexbox axis.png",
     "KDT/Web/01. Happy Web.md",
-    "KDT/markdown & git/Git.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "ALgorithm (code)/딕셔너리를 이용한 빠른 인덱스.md",
@@ -243,7 +230,6 @@
     "Algorithm (theory)/21. Dynamic Programming_.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
     "Algorithm (theory)/23. 그리디(Greedy).md",
-    "Algorithm (theory)/20. 이진탐색 (Binary Search).md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",

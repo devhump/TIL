@@ -7,7 +7,7 @@ alias: "Git 기초"
 👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 
 - `git add, git commit, git add` 취소하기 등 이전 내용으로 되돌리고 싶다면?
-	- 👉 [[../../_others_/Git basic - rollback]]
+	- 👉 [[Git basic - rollback]]
 
 ### 목차
 ```ad-hint
@@ -541,6 +541,12 @@ git reflog
 또는
 git log -g
 ```
+
+9) ==파일 제목에 특수문자가 들어가면 오류가 발생할 수 있다!==
+	- 백준 제목을 그대로 차용해 파일 이름으로 썼는데, 
+	- 맥이랑 백준허브에서는 문제가 없다가, 윈도우 환경에서 pull 받을 때 계속 에러가 발생했다. (`BOJ_2902 KMP는 왜 KMP일까?`)
+	- 되도록이면 **파일 제목에는 특수기호는 사용을 자제**하자. 
+ 
 
 ![](../../_others_/Git%20basic%20-%20rollback.md#^c92f46)
 

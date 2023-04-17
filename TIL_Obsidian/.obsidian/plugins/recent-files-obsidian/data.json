@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Git basic - rollback",
+      "path": "_others_/Git basic - rollback.md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "04. Semantic tag",
+      "path": "KDT/Web/04. Semantic tag.md"
     },
     {
       "basename": "개발 관련 IT 용어 정리",
@@ -31,10 +43,6 @@
     {
       "basename": "01. Happy Web",
       "path": "KDT/Web/01. Happy Web.md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
     },
     {
       "basename": "파이썬 03. 함수(Funtion)",
@@ -71,14 +79,6 @@
     {
       "basename": "01. Happy Web-28",
       "path": "KDT/Web/assets/01. Happy Web-28.png"
-    },
-    {
-      "basename": "Debugging with VS Code+",
-      "path": "_others_/Debugging with VS Code+.md"
-    },
-    {
-      "basename": "파이썬 01. Python 기초",
-      "path": "KDT/Python/파이썬 01. Python 기초.md"
     }
   ],
   "omittedPaths": [
