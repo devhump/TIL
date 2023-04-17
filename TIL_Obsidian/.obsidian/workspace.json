@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALgorithm (code)/문자열 치환 하기.md",
+                "file": "_others_/개발 관련 IT 용어 정리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "enu",
+                "query": "용어",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ALgorithm (code)/문자열 치환 하기.md",
+                "file": "_others_/개발 관련 IT 용어 정리.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -155,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ALgorithm (code)/문자열 치환 하기.md",
+                "file": "_others_/개발 관련 IT 용어 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALgorithm (code)/문자열 치환 하기.md"
+                "file": "_others_/개발 관련 IT 용어 정리.md"
               }
             }
           }
@@ -176,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,10 +195,10 @@
   },
   "active": "27915dc65f5c7bfe",
   "lastOpenFiles": [
-    "KDT/Data structure/05. 문자열 (String).md",
-    "ALgorithm (code)/문자열 치환 하기.md",
-    "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "devhump's TIL Index.md",
+    "ALgorithm (code)/문자열 치환 하기.md",
+    "KDT/Data structure/05. 문자열 (String).md",
+    "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "KDT/Web/02. CSS.md",
     "KDT/Web/03. CSS Position.md",
     "KDT/Web/assets/03. CSS Position-10.png",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "문자열 치환 하기",
       "path": "ALgorithm (code)/문자열 치환 하기.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "파이썬 02. 제어문 (Control Statement)",
       "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "02. CSS",
@@ -67,10 +71,6 @@
     {
       "basename": "01. Happy Web-28",
       "path": "KDT/Web/assets/01. Happy Web-28.png"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "_others_/개발 관련 IT 용어 정리.md"
     },
     {
       "basename": "Debugging with VS Code+",
