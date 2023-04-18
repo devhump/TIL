@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "Debugging with VS Code+",
+      "path": "_others_/Debugging with VS Code+.md"
+    },
+    {
+      "basename": "05. HTML & Bootstrap",
+      "path": "KDT/Web/05. HTML & Bootstrap.md"
+    },
+    {
       "basename": "Git basic - rollback",
       "path": "_others_/Git basic - rollback.md"
     },
     {
       "basename": "Git",
       "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "04. Semantic tag",
@@ -67,18 +75,6 @@
     {
       "basename": "07. 스택 & 큐 (Stack & Queue)",
       "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "Hot-key (VS Code)",
-      "path": "_others_/Hot-key (VS Code).md"
-    },
-    {
-      "basename": "01. Happy Web-28",
-      "path": "KDT/Web/assets/01. Happy Web-28.png"
     }
   ],
   "omittedPaths": [

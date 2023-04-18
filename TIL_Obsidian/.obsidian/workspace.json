@@ -23,20 +23,19 @@
             }
           },
           {
-            "id": "0ce889a258a2430f",
+            "id": "db7b6c34d1abd794",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/Git basic - rollback.md",
-                "mode": "preview",
+                "file": "KDT/Web/05. HTML & Bootstrap.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/Git basic - rollback.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/Git basic - rollback.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/Git basic - rollback.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5,
-    "collapsed": true
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,27 +190,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0ce889a258a2430f",
+  "active": "40fbbc9ed637b246",
   "lastOpenFiles": [
-    "KDT/markdown & git/Git.md",
+    "_others_/Debugging with VS Code+.md",
+    "KDT/Web/05. HTML & Bootstrap.md",
+    "KDT/Web/assets/05. HTML & Bootstrap-35.png",
+    "KDT/Web/assets/05. HTML & Bootstrap-34.png",
+    "KDT/Web/assets/05. HTML & Bootstrap-33.png",
+    "KDT/Web/assets/05. HTML & Bootstrap-33.png",
+    "KDT/Web/assets/05. HTML & Bootstrap-32.png",
+    "KDT/Web/assets/05. HTML & Bootstrap-31.png",
+    "KDT/Web/assets/05. HTML & Bootstrap-30.png",
+    "KDT/Web/assets/05. HTML & Bootstrap-29.png",
+    "KDT/Web/assets/05. HTML & Bootstrap-28.png",
+    "KDT/Web/assets/05. HTML & Bootstrap-27.png",
     "devhump's TIL Index.md",
+    "_others_/Git basic - rollback.md",
+    "KDT/markdown & git/Git.md",
     "KDT/Web/04. Semantic tag.md",
-    "KDT/Web/assets/04. Symantic tag-2.png",
     "_others_/개발 관련 IT 용어 정리.md",
     "KDT/Web/03. CSS Position.md",
-    "KDT/Web/assets/04. Symantic tag-1.png",
-    "KDT/Web/assets/04. Symantic tag.png",
-    "KDT/Web/assets/03. CSS Position-13.png",
-    "KDT/Web/assets/03. CSS Position-12.png",
-    "KDT/Web/assets/03. CSS Position-11.png",
     "ALgorithm (code)/문자열 치환 하기.md",
     "KDT/Data structure/05. 문자열 (String).md",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "KDT/Web/02. CSS.md",
-    "KDT/Web/assets/03. CSS Position-10.png",
-    "KDT/Web/assets/align-items-modify.png",
-    "KDT/Web/assets/align-content-modify.png",
-    "KDT/Web/assets/justify-content-modify.png",
     "KDT/Web/01. Happy Web.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
@@ -227,9 +229,6 @@
     "Algorithm (theory)/22. DP - problem&solution.md",
     "assets/05. sorting_Algorithm-img- (13).png.md",
     "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
-    "Algorithm (theory)/21. Dynamic Programming_.md",
-    "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
-    "Algorithm (theory)/23. 그리디(Greedy).md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
