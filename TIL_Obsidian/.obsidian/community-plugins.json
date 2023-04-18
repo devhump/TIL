@@ -11,5 +11,6 @@
   "obsidian-plugin-toc",
   "obsidian-icon-folder",
   "uri-commands",
-  "obsidian-paste-image-rename"
+  "obsidian-paste-image-rename",
+  "file-explorer-note-count"
 ]
