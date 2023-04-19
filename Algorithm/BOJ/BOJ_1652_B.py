@@ -1,5 +1,4 @@
 # BOJ_1652. 누울 자리를 찾아라
-
 ## python3, pypy3 둘다 런타임 에러
 
 from pprint import pprint

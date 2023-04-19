@@ -8,6 +8,7 @@ sys.stdin = open("BOJ_1652_input.txt")
 
 num = int(input())
 
+# 입력받고 
 condo_list = []
 for i in range(num):
     condo_list.append(input())
