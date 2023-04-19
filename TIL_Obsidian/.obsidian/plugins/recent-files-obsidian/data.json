@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "06. Bootstrap Component",
+      "path": "KDT/Web/06. Bootstrap Component.md"
+    },
+    {
       "basename": "개발 관련 IT 용어 정리",
       "path": "_others_/개발 관련 IT 용어 정리.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "02. CSS",
       "path": "KDT/Web/02. CSS.md"
-    },
-    {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
     }
   ],
   "omittedPaths": [
