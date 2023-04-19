@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown & git/markdown (마크다운) +.md"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "_others_/obsidian/markdown for Obsidian.md"
+    },
+    {
+      "basename": "Obsidian search",
+      "path": "_others_/obsidian/Obsidian search.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
+    },
+    {
+      "basename": "02. 이차원 리스트(2-2)",
+      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
       "basename": "06. 딕셔너리(Dictionary)",
       "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
     },
     {
       "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
       "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "무제 파일",
@@ -31,14 +51,6 @@
     {
       "basename": "개발 관련 IT 용어 정리",
       "path": "_others_/개발 관련 IT 용어 정리.md"
-    },
-    {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
-    },
-    {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
     },
     {
       "basename": "06. 코딩 테스트 준비 (기본)",
@@ -67,18 +79,6 @@
     {
       "basename": "Debugging with VS Code+",
       "path": "_others_/Debugging with VS Code+.md"
-    },
-    {
-      "basename": "05. HTML & Bootstrap",
-      "path": "KDT/Web/05. HTML & Bootstrap.md"
-    },
-    {
-      "basename": "Git basic - rollback",
-      "path": "_others_/Git basic - rollback.md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
     }
   ],
   "omittedPaths": [
