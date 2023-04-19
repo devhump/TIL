@@ -23,33 +23,20 @@
             }
           },
           {
-            "id": "cf50425284594cfb",
+            "id": "3fb4fbf4218f1e91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d269ce4df1e8d5ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Web/06. Bootstrap Component.md",
-                "mode": "source",
+                "file": "KDT/Web/07. Bootstrap Grid System.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "리스트 find",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,12 +90,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -151,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Web/06. Bootstrap Component.md",
+                "file": "KDT/Web/07. Bootstrap Grid System.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -168,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Web/06. Bootstrap Component.md",
+                "file": "KDT/Web/07. Bootstrap Grid System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Web/06. Bootstrap Component.md"
+                "file": "KDT/Web/07. Bootstrap Grid System.md"
               }
             }
           }
@@ -189,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5,
-    "collapsed": true
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,25 +191,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d269ce4df1e8d5ed",
+  "active": "3fb4fbf4218f1e91",
   "lastOpenFiles": [
-    "KDT/Web/assets/06. Bootstrap Component-8.png",
-    "KDT/Web/assets/06. Bootstrap Component-7.png",
-    "KDT/Web/assets/06. Bootstrap Component-6.png",
-    "KDT/Web/assets/06. Bootstrap Component-5.png",
-    "KDT/Web/assets/06. Bootstrap Component-4.png",
-    "KDT/Web/assets/06. Bootstrap Component-3.png",
-    "KDT/Web/assets/06. Bootstrap Component-2.png",
-    "KDT/Web/assets/06. Bootstrap Component-1.png",
-    "KDT/Web/assets/06. Bootstrap Component.png",
-    "_others_/개발 관련 IT 용어 정리.md",
-    "KDT/Web/06. Bootstrap Component.md",
-    "더 공부해 볼 주제.md",
     "devhump's TIL Index.md",
+    "KDT/Web/07. Bootstrap Grid System.md",
+    "KDT/Web/assets/07. Bootstrap Grid System-17.png",
+    "KDT/Web/assets/07. Bootstrap Grid System-16.png",
+    "KDT/Web/assets/07. Bootstrap Grid System-15.png",
+    "KDT/Web/assets/07. Bootstrap Grid System-14.png",
+    "KDT/Web/assets/07. Bootstrap Grid System-13.png",
+    "KDT/Web/assets/07. Bootstrap Grid System-12.png",
+    "KDT/Web/assets/07. Bootstrap Grid System-11.png",
+    "KDT/Web/assets/07. Bootstrap Grid System.png",
+    "KDT/Web/assets/07. Bootstrap Grid System-10.png",
+    "KDT/Web/assets/07. Bootstrap Grid System-9.png",
+    "KDT/Web/06. Bootstrap Component.md",
+    "_others_/개발 관련 IT 용어 정리.md",
+    "더 공부해 볼 주제.md",
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "Algorithm (theory)/24. 구현 (Implementation) 유형의 문제 풀이.md",
     "KDT/Data structure/05. 문자열 (String).md",
-    "_others_/개발 관련 IT 용어 정리.md",
     "더 공부해 볼 주제.md",
     "KDT/Web/03. CSS Position.md",
     "ALgorithm (code)/문자열 치환 하기.md",
@@ -242,7 +229,6 @@
     "_others_/Hot-key (VS Code).md",
     "Algorithm (theory)/22. DP - problem&solution.md",
     "assets/05. sorting_Algorithm-img- (13).png.md",
-    "Algorithm (theory)/25. 투 포인터와 구간 합 (Two Pointer & Interval Sum).md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",

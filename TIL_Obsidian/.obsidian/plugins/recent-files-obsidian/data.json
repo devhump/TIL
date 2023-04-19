@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "07. Bootstrap Grid System",
+      "path": "KDT/Web/07. Bootstrap Grid System.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "06. Bootstrap Component",
+      "path": "KDT/Web/06. Bootstrap Component.md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
+    },
+    {
       "basename": "04. 리스트(List)",
       "path": "KDT/Data structure/04. 리스트(List).md"
     },
@@ -13,10 +29,6 @@
       "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
       "basename": "03. 완전탐색  I (Exhaustive Search)",
       "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "05. 문자열 (String)",
       "path": "KDT/Data structure/05. 문자열 (String).md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "_others_/개발 관련 IT 용어 정리.md"
     },
     {
       "basename": "더 공부해 볼 주제",
@@ -71,34 +79,6 @@
     {
       "basename": "Git basic - rollback",
       "path": "_others_/Git basic - rollback.md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "04. Semantic tag",
-      "path": "KDT/Web/04. Semantic tag.md"
-    },
-    {
-      "basename": "03. CSS Position",
-      "path": "KDT/Web/03. CSS Position.md"
-    },
-    {
-      "basename": "문자열 치환 하기",
-      "path": "ALgorithm (code)/문자열 치환 하기.md"
-    },
-    {
-      "basename": "05. 문자열 (String)",
-      "path": "KDT/Data structure/05. 문자열 (String).md"
-    },
-    {
-      "basename": "파이썬 02. 제어문 (Control Statement)",
-      "path": "KDT/Python/파이썬 02. 제어문 (Control Statement).md"
-    },
-    {
-      "basename": "02. CSS",
-      "path": "KDT/Web/02. CSS.md"
     }
   ],
   "omittedPaths": [
