@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "07. Bootstrap Grid System",
-      "path": "KDT/Web/07. Bootstrap Grid System.md"
+      "basename": "06. 딕셔너리(Dictionary)",
+      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+    },
+    {
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "MDN/무제 파일.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "KDT/무제 파일.md"
+    },
+    {
+      "basename": "07. Bootstrap Grid System",
+      "path": "KDT/Web/07. Bootstrap Grid System.md"
     },
     {
       "basename": "06. Bootstrap Component",
@@ -63,22 +79,6 @@
     {
       "basename": "Git",
       "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "04. Semantic tag",
-      "path": "KDT/Web/04. Semantic tag.md"
-    },
-    {
-      "basename": "Debugging with VS Code+",
-      "path": "_others_/Debugging with VS Code+.md"
-    },
-    {
-      "basename": "05. HTML & Bootstrap",
-      "path": "KDT/Web/05. HTML & Bootstrap.md"
-    },
-    {
-      "basename": "Git basic - rollback",
-      "path": "_others_/Git basic - rollback.md"
     }
   ],
   "omittedPaths": [

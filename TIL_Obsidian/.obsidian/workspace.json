@@ -23,13 +23,13 @@
             }
           },
           {
-            "id": "3fb4fbf4218f1e91",
+            "id": "e4308e825078da77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Web/07. Bootstrap Grid System.md",
-                "mode": "preview",
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Web/07. Bootstrap Grid System.md",
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Web/07. Bootstrap Grid System.md",
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Web/07. Bootstrap Grid System.md"
+                "file": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
               }
             }
           }
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,9 +192,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3fb4fbf4218f1e91",
+  "active": "e4308e825078da77",
   "lastOpenFiles": [
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "devhump's TIL Index.md",
+    "MDN/무제 파일.md",
+    "MDN",
+    "KDT/무제 파일.md",
     "KDT/Web/07. Bootstrap Grid System.md",
     "KDT/Web/assets/07. Bootstrap Grid System-17.png",
     "KDT/Web/assets/07. Bootstrap Grid System-16.png",
@@ -228,7 +233,6 @@
     "KDT/Python/파이썬 01. Python 기초.md",
     "_others_/Hot-key (VS Code).md",
     "Algorithm (theory)/22. DP - problem&solution.md",
-    "assets/05. sorting_Algorithm-img- (13).png.md",
     "assets",
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
@@ -236,7 +240,6 @@
     "DFS-test",
     "KDT/Algorithm/assets",
     "KDT/Algorithm",
-    "KDT/Python/assets",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
   ]

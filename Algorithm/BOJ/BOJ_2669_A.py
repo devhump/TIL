@@ -9,17 +9,17 @@ sys.stdin = open("BOJ_2669_input.txt")
 
 num = 4
 
-rectangles_list = []
+rect_li = []
 for i in range(num):
-    rectangles_list.append(list(map(int, input().split())))
+    rect_li.append(list(map(int, input().split())))
 
 temp_list_1 = []
 temp_list_2 = []
 for i in range(num):
-   temp_list_1.append(rectangles_list[i][0])
-   temp_list_1.append(rectangles_list[i][2])
-   temp_list_2.append(rectangles_list[i][1])
-   temp_list_2.append(rectangles_list[i][3])
+    temp_list_1.append(rect_li[i][0])
+    temp_list_1.append(rect_li[i][2])
+    temp_list_2.append(rect_li[i][1])
+    temp_list_2.append(rect_li[i][3])
 
 N = max(temp_list_1) + 1
 M = max(temp_list_2) + 1
@@ -35,8 +35,8 @@ for i in range(M):
 # print()
 
 for k in range(num):
-    for i in range(rectangles_list[k][0], rectangles_list[k][2]):
-        for j in range(rectangles_list[k][1], rectangles_list[k][3]):
+    for i in range(rect_li[k][0], rect_li[k][2]):
+        for j in range(rect_li[k][1], rect_li[k][3]):
             empty_list[i][j] = 1
 
 # for row in empty_list:
