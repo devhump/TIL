@@ -1,7 +1,9 @@
 # BOJ_9455 박스
+# ! 왜 또 테케는 맞는데, 틀렸다고 나오냐!!!!!
 
 import sys
 sys.stdin = open("BOJ_9455_input.txt", "r")
+
 
 # import sys 
 # input = sys.stdin.readline
@@ -30,22 +32,25 @@ for t in range(T):
         for j in range(m):
             t_mx[i][j] = matrix[j][i]
 
-
     # pprint(t_mx)
+
     cnt = 0
     for j in range(n):
-        check = False 
-        k = 0
         # todo 1이 (박스가) 없는 경우도 고려
-        if 1 not in matrix[j]:
+        if 1 not in t_mx[j]:
             break
-        one_cnt = matrix[j].count(1) 
+        one_cnt = t_mx[j].count(1) 
         
-        while one_cnt != sum(matrix[i][one_cnt:]):
-            
+        while True:
+        
+            if one_cnt == sum(t_mx[j][-one_cnt:]):
+                break
+            # print("변하기 전", t_mx[j])
             for i in range(m-1):
-                if matrix[j][i] == 1 and matrix[j][i+1] == 0:
-                    matrix[j][i+1] == 1 and matrix[j][i] == 0
+                if t_mx[j][i] == 1 and t_mx[j][i+1] == 0:
+                    t_mx[j][i+1] = 1
+                    t_mx[j][i] = 0
                     cnt += 1
-        print(cnt)
+                    # print("변한 후", t_mx[j])
+    print(cnt)
         
