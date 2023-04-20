@@ -11,8 +11,28 @@
             "id": "3b5f442d0aa0cc24",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Web/08. Javascript.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f8ed3c371cbde37",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devhump's TIL Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
             }
           }
         ]
@@ -116,6 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "KDT/Web/08. Javascript.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -132,6 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "KDT/Web/08. Javascript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "KDT/Web/08. Javascript.md"
+              }
             }
           }
         ],
@@ -150,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,12 +193,21 @@
   "active": "3b5f442d0aa0cc24",
   "lastOpenFiles": [
     "devhump's TIL Index.md",
+    "KDT/Web/08. Javascript.md",
+    "KDT/Web/assets/08. Javascript-26.png",
+    "KDT/Web/assets/08. Javascript-25.png",
+    "KDT/Web/assets/08. Javascript-24.png",
+    "KDT/Web/assets/08. Javascript-23.png",
+    "KDT/Web/assets/08. Javascript-22.png",
+    "KDT/Web/assets/08. Javascript-21.png",
+    "KDT/Web/assets/08. Javascript-20.png",
+    "KDT/Web/assets/08. Javascript-19.png",
+    "KDT/Web/assets/08. Javascript-18.png",
+    "KDT/Web/assets/08. Javascript-17.png",
+    "KDT/Web/01. Happy Web.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
     "_others_/obsidian/markdown for Obsidian.md",
     "_others_/obsidian/Obsidian search.md",
-    "_others_/obsidian/assets/Obsidian search-2.png",
-    "_others_/obsidian/assets/Obsidian search-1.png",
-    "_others_/obsidian/assets/Obsidian search.png",
     "KDT/Data structure/04. 리스트(List).md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
@@ -182,13 +216,6 @@
     "MDN",
     "KDT/무제 파일.md",
     "KDT/Web/07. Bootstrap Grid System.md",
-    "KDT/Web/assets/07. Bootstrap Grid System-17.png",
-    "KDT/Web/assets/07. Bootstrap Grid System-16.png",
-    "KDT/Web/assets/07. Bootstrap Grid System-15.png",
-    "KDT/Web/assets/07. Bootstrap Grid System-14.png",
-    "KDT/Web/assets/07. Bootstrap Grid System-13.png",
-    "KDT/Web/assets/07. Bootstrap Grid System-12.png",
-    "KDT/Web/assets/07. Bootstrap Grid System-11.png",
     "KDT/Web/06. Bootstrap Component.md",
     "_others_/개발 관련 IT 용어 정리.md",
     "더 공부해 볼 주제.md",
@@ -200,10 +227,7 @@
     "ALgorithm (code)/문자열 치환 하기.md",
     "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
     "KDT/Web/02. CSS.md",
-    "KDT/Web/01. Happy Web.md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
-    "ALgorithm (code)/딕셔너리를 이용한 빠른 인덱스.md",
-    "_others_/Hot-key for Mac.md",
     "KDT/Web/assets",
     "KDT/Web",
     "assets",

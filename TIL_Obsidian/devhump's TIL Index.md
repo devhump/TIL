@@ -43,6 +43,7 @@
 - [05. HTML & Bootstrap](KDT/Web/05.%20HTML%20&%20Bootstrap.md)
 - [06. Bootstrap Component](KDT/Web/06.%20Bootstrap%20Component.md)
 - [07. Bootstrap Grid System](KDT/Web/07.%20Bootstrap%20Grid%20System.md)
+- [08. Javascript](KDT/Web/08.%20Javascript.md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
 - **스택 & 큐**
