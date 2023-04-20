@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "BOJ_9455 박스",
+      "path": "ALgorithm (code)/BOJ_9455 박스.md"
+    },
+    {
+      "basename": "BOJ_백준 문제_template",
+      "path": "_others_/templates/BOJ_백준 문제_template.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "Obsidian search",
+      "path": "_others_/obsidian/Obsidian search.md"
     },
     {
       "basename": "Hot-key for Mac",
       "path": "_others_/Hot-key for Mac.md"
     },
     {
-      "basename": "Obsidian search",
-      "path": "_others_/obsidian/Obsidian search.md"
+      "basename": "문제 설명_template",
+      "path": "_others_/templates/문제 설명_template.md"
+    },
+    {
+      "basename": "문제 조건_template",
+      "path": "_others_/templates/문제 조건_template.md"
     },
     {
       "basename": "Hot-key (VS Code)",
@@ -57,28 +73,12 @@
       "path": "_others_/알고리즘 TIP.md"
     },
     {
-      "basename": "문제 설명_template",
-      "path": "_others_/templates/문제 설명_template.md"
-    },
-    {
-      "basename": "문제 조건_template",
-      "path": "_others_/templates/문제 조건_template.md"
-    },
-    {
       "basename": "답안 예시_template",
       "path": "_others_/templates/답안 예시_template.md"
     },
     {
       "basename": "MDN_CSS",
       "path": "MDN/MDN_CSS.md"
-    },
-    {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
-    },
-    {
-      "basename": "02. CSS",
-      "path": "KDT/Web/02. CSS.md"
     }
   ],
   "omittedPaths": [

@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "c93243ee813498ec",
+            "id": "10eef99299cc952a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/Hot-key for Mac.md",
+                "file": "_others_/templates/BOJ_백준 문제_template.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,19 +36,20 @@
             }
           },
           {
-            "id": "a551f884bad48078",
+            "id": "497855e9de513502",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/obsidian/Obsidian search.md",
+                "file": "ALgorithm (code)/BOJ_9455 박스.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -149,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "ALgorithm (code)/BOJ_9455 박스.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -166,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "ALgorithm (code)/BOJ_9455 박스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "ALgorithm (code)/BOJ_9455 박스.md"
               }
             }
           }
@@ -187,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 327.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,12 +204,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f8ed3c371cbde37",
+  "active": "497855e9de513502",
   "lastOpenFiles": [
-    "_others_/Hot-key for Mac.md",
-    "_others_/obsidian/Obsidian search.md",
-    "_others_/Hot-key (VS Code).md",
+    "_others_/templates/BOJ_백준 문제_template.md",
+    "ALgorithm (code)/BOJ_9455 박스.md",
     "devhump's TIL Index.md",
+    "_others_/obsidian/Obsidian search.md",
+    "_others_/Hot-key for Mac.md",
+    "_others_/templates/문제 설명_template.md",
+    "_others_/templates/문제 조건_template.md",
+    "ALgorithm (code)/assets/BOJ_9455 박스.png",
+    "ALgorithm (code)/assets",
+    "_others_/Hot-key (VS Code).md",
     "_others_/templates/meta data_template.md",
     "_others_/Templates List.md",
     "_others_/Git basic - rollback.md",
@@ -218,8 +226,6 @@
     "Python/Continue vs Pass vs Break.md",
     "MDN/MDN_HTML.md",
     "_others_/알고리즘 TIP.md",
-    "_others_/templates/문제 설명_template.md",
-    "_others_/templates/문제 조건_template.md",
     "_others_/templates/답안 예시_template.md",
     "MDN/MDN_CSS.md",
     "KDT/Web/01. Happy Web.md",
@@ -239,9 +245,6 @@
     "Python/assets/Python error.png",
     "Python/assets/Python error-1.png",
     "Python/assets/Python error-2.png",
-    "Python/assets/Python error-3.png",
-    "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md",
-    "KDT/Web/08. Javascript.md",
     "MDN",
     "KDT/Web/assets",
     "KDT/Web",
@@ -249,7 +252,6 @@
     "Algorithm (theory)/assets/open.url",
     "Python/HeadFirst-Python",
     "DFS-test/asset",
-    "DFS-test",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
   ]

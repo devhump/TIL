@@ -45,12 +45,12 @@ for t in range(T):
         
             if one_cnt == sum(t_mx[j][-one_cnt:]):
                 break
-            # print("변하기 전", t_mx[j])
+            print("변하기 전", t_mx[j])
             for i in range(m-1):
                 if t_mx[j][i] == 1 and t_mx[j][i+1] == 0:
                     t_mx[j][i+1] = 1
                     t_mx[j][i] = 0
                     cnt += 1
-                    # print("변한 후", t_mx[j])
+                    print("변한 후", t_mx[j])
     print(cnt)
         
