@@ -21,35 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "10eef99299cc952a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/templates/BOJ_백준 문제_template.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "497855e9de513502",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ALgorithm (code)/BOJ_9455 박스.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ALgorithm (code)/BOJ_9455 박스.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ALgorithm (code)/BOJ_9455 박스.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALgorithm (code)/BOJ_9455 박스.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
@@ -204,7 +177,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "497855e9de513502",
+  "active": "4f8ed3c371cbde37",
   "lastOpenFiles": [
     "_others_/templates/BOJ_백준 문제_template.md",
     "ALgorithm (code)/BOJ_9455 박스.md",
