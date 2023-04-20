@@ -37,6 +37,8 @@ for t in range(T):
     cnt = 0
     for j in range(n):
         # todo 1이 (박스가) 없는 경우도 고려
+        print()
+        print(f"바뀐 {j+1}번 행")
         if 1 not in t_mx[j]:
             break
         one_cnt = t_mx[j].count(1) 

@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "df1d9b81f1f726dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ALgorithm (code)/BOJ_9455 박스.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "ALgorithm (code)/BOJ_9455 박스.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "ALgorithm (code)/BOJ_9455 박스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "ALgorithm (code)/BOJ_9455 박스.md"
               }
             }
           }
@@ -177,11 +191,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f8ed3c371cbde37",
+  "active": "df1d9b81f1f726dd",
   "lastOpenFiles": [
+    "ALgorithm (code)/assets/code2.png",
+    "devhump's TIL Index.md",
     "_others_/templates/BOJ_백준 문제_template.md",
     "ALgorithm (code)/BOJ_9455 박스.md",
-    "devhump's TIL Index.md",
     "_others_/obsidian/Obsidian search.md",
     "_others_/Hot-key for Mac.md",
     "_others_/templates/문제 설명_template.md",
@@ -214,7 +229,6 @@
     "Python/assets/Lambda_Func_img.png",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "Python/Python 용어 정리.md",
-    "Python/Python error.md",
     "Python/assets/Python error.png",
     "Python/assets/Python error-1.png",
     "Python/assets/Python error-2.png",
