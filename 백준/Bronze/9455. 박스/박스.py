@@ -1,22 +1,15 @@
 for _ in range(int(input())):
-    m, n = map(int, input().split())
-    b = []
-    # * 하나의 리스트로 받아서 
-    for i in range(m):
-        l = list(map(int, input().split()))
-        b.insert(0, l)
-    arr = []
-    # * 여기서 회전된 배열을 만든다. 
-    for j in range(n):
-        tmp = []
-        for k in range(m):
-            tmp.append(b[k][j])
-        arr.append(tmp)
-    cnt = 0
-    for a in arr:
-        t = 0
-        for idx, num in enumerate(a):
-            if num == 1:
-                cnt += idx - t
-                t += 1
-    print(cnt)
+    n, m = map(int,input().split())
+    box = [input().split() for _ in range(n)] # 전체 리스트 생성
+    ans = 0
+    for j in range(m):
+        cnt = 0
+        for i in range(n-1,-1,-1): # 맨 뒤 리스트부터 거꾸로 탐색
+            if box[i][j] == '1':
+                ans += cnt
+            else:
+                cnt += 1 
+                # 인덱스 값을 찾는 대신, 
+                # 0이 나올 때마다 1씩 
+                # 임시 카운트 값(cnt)을 추가해주면 된다.
+    print(ans)
