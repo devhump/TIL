@@ -1,80 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "08. Javascript",
-      "path": "KDT/Web/08. Javascript.md"
+      "basename": "MDN_CSS",
+      "path": "MDN/MDN_CSS.md"
+    },
+    {
+      "basename": "How to use IDLE",
+      "path": "Python/How to use IDLE.md"
+    },
+    {
+      "basename": "How to use IDLE",
+      "path": "Python/assets/How to use IDLE.png"
+    },
+    {
+      "basename": "Python 유용한 문법 정리",
+      "path": "Python/Python 유용한 문법 정리.md"
+    },
+    {
+      "basename": "비교 연산자",
+      "path": "Python/assets/비교 연산자.png"
+    },
+    {
+      "basename": "continue_break_pass",
+      "path": "Python/assets/continue_break_pass.png"
+    },
+    {
+      "basename": "Lambda_Func_img",
+      "path": "Python/assets/Lambda_Func_img.png"
+    },
+    {
+      "basename": "람다함수(Lambda Func, 익명함수)",
+      "path": "Python/람다함수(Lambda Func, 익명함수).md"
+    },
+    {
+      "basename": "Python 용어 정리",
+      "path": "Python/Python 용어 정리.md"
+    },
+    {
+      "basename": "Python error",
+      "path": "Python/Python error.md"
+    },
+    {
+      "basename": "Python error",
+      "path": "Python/assets/Python error.png"
+    },
+    {
+      "basename": "Python error-1",
+      "path": "Python/assets/Python error-1.png"
+    },
+    {
+      "basename": "Python error-2",
+      "path": "Python/assets/Python error-2.png"
+    },
+    {
+      "basename": "Python error-3",
+      "path": "Python/assets/Python error-3.png"
+    },
+    {
+      "basename": "Python error-4",
+      "path": "Python/assets/Python error-4.png"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
+      "basename": "git_cheat_sheet",
+      "path": "KDT/markdown & git/git_cheat_sheet.pdf"
     },
     {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown & git/markdown (마크다운) +.md"
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
     },
     {
-      "basename": "markdown for Obsidian",
-      "path": "_others_/obsidian/markdown for Obsidian.md"
+      "basename": "03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)",
+      "path": "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md"
     },
     {
-      "basename": "Obsidian search",
-      "path": "_others_/obsidian/Obsidian search.md"
-    },
-    {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
-    },
-    {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
-    },
-    {
-      "basename": "06. 딕셔너리(Dictionary)",
-      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "MDN/무제 파일.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "KDT/무제 파일.md"
-    },
-    {
-      "basename": "07. Bootstrap Grid System",
-      "path": "KDT/Web/07. Bootstrap Grid System.md"
-    },
-    {
-      "basename": "06. Bootstrap Component",
-      "path": "KDT/Web/06. Bootstrap Component.md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "_others_/개발 관련 IT 용어 정리.md"
-    },
-    {
-      "basename": "06. 코딩 테스트 준비 (기본)",
-      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
-    },
-    {
-      "basename": "03. 완전탐색  I (Exhaustive Search)",
-      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
-    },
-    {
-      "basename": "24. 구현 (Implementation) 유형의 문제 풀이",
-      "path": "Algorithm (theory)/24. 구현 (Implementation) 유형의 문제 풀이.md"
-    },
-    {
-      "basename": "05. 문자열 (String)",
-      "path": "KDT/Data structure/05. 문자열 (String).md"
+      "basename": "08. Javascript",
+      "path": "KDT/Web/08. Javascript.md"
     }
   ],
   "omittedPaths": [

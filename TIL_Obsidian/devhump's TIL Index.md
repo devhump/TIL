@@ -90,7 +90,7 @@
 - [[Python 용어 정리]]
 - [[Python 유용한 문법 정리]]
 	- [[Python/반올림, 내림, 올림(python)]]
-	- [[람다함수(Lambda Func, 익명함수)]]
+	- [[Python/람다함수(Lambda Func, 익명함수)]]
 	- [[iterable & iterator]]
 	- [Python error](Python/Python%20error.md)
 	- [[Continue vs Pass vs Break]]

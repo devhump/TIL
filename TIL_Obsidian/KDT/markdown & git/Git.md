@@ -3,7 +3,7 @@ tags: [git, syntax, KDT]
 alias: "Git 기초"
 ---
 
-
+👉 [git_cheat_sheet](git_cheat_sheet.pdf)
 👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 
 - `git add, git commit, git add` 취소하기 등 이전 내용으로 되돌리고 싶다면?

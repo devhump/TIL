@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3b5f442d0aa0cc24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Web/08. Javascript.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4f8ed3c371cbde37",
             "type": "leaf",
             "pinned": true,
@@ -34,8 +21,35 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "57c79e4b8b4c9257",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python 유용한 문법 정리.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bd10c618a366ba9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MDN/MDN_CSS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -136,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Web/08. Javascript.md",
+                "file": "MDN/MDN_CSS.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -153,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Web/08. Javascript.md",
+                "file": "MDN/MDN_CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,17 +179,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Web/08. Javascript.md"
+                "file": "MDN/MDN_CSS.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 327.5,
-    "collapsed": true
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,20 +203,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3b5f442d0aa0cc24",
+  "active": "6bd10c618a366ba9",
   "lastOpenFiles": [
+    "Python/How to use IDLE.md",
+    "Python/assets/How to use IDLE.png",
+    "Python/Python 유용한 문법 정리.md",
+    "Python/assets/비교 연산자.png",
+    "Python/assets/continue_break_pass.png",
+    "Python/assets/Lambda_Func_img.png",
+    "Python/람다함수(Lambda Func, 익명함수).md",
+    "Python/Python 용어 정리.md",
+    "Python/Python error.md",
+    "Python/assets/Python error.png",
+    "Python/assets/Python error-1.png",
+    "Python/assets/Python error-2.png",
+    "Python/assets/Python error-3.png",
+    "Python/assets/Python error-4.png",
     "devhump's TIL Index.md",
+    "KDT/markdown & git/git_cheat_sheet.pdf",
+    "KDT/markdown & git/Git.md",
+    "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md",
     "KDT/Web/08. Javascript.md",
     "KDT/Web/assets/08. Javascript-26.png",
-    "KDT/Web/assets/08. Javascript-25.png",
-    "KDT/Web/assets/08. Javascript-24.png",
-    "KDT/Web/assets/08. Javascript-23.png",
-    "KDT/Web/assets/08. Javascript-22.png",
-    "KDT/Web/assets/08. Javascript-21.png",
-    "KDT/Web/assets/08. Javascript-20.png",
-    "KDT/Web/assets/08. Javascript-19.png",
-    "KDT/Web/assets/08. Javascript-18.png",
-    "KDT/Web/assets/08. Javascript-17.png",
     "KDT/Web/01. Happy Web.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
     "_others_/obsidian/markdown for Obsidian.md",
@@ -212,7 +233,7 @@
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
-    "MDN/무제 파일.md",
+    "MDN/MDN_CSS.md",
     "MDN",
     "KDT/무제 파일.md",
     "KDT/Web/07. Bootstrap Grid System.md",
@@ -221,13 +242,6 @@
     "더 공부해 볼 주제.md",
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "Algorithm (theory)/24. 구현 (Implementation) 유형의 문제 풀이.md",
-    "KDT/Data structure/05. 문자열 (String).md",
-    "더 공부해 볼 주제.md",
-    "KDT/Web/03. CSS Position.md",
-    "ALgorithm (code)/문자열 치환 하기.md",
-    "KDT/Python/파이썬 02. 제어문 (Control Statement).md",
-    "KDT/Web/02. CSS.md",
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "KDT/Web/assets",
     "KDT/Web",
     "assets",
@@ -236,7 +250,6 @@
     "DFS-test/asset",
     "DFS-test",
     "KDT/Algorithm/assets",
-    "KDT/Algorithm",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
   ]

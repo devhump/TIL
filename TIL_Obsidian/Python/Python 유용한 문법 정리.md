@@ -23,7 +23,7 @@ tags: [python, syntax]
 
 
 - 비교 연산 8가지( 우선 순위 같음)
-![](assets/Pasted%20image%2020230227214624.png)
+![](assets/비교%20연산자.png)
 
 #### 숫자 형 —  int, float, complex
 - [파이썬 자습서 - 숫자형](https://docs.python.org/ko/3/library/stdtypes.html#numeric-types-int-float-complex)
