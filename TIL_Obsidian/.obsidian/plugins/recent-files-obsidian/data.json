@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "MDN_HTML",
+      "path": "MDN/MDN_HTML.md"
+    },
+    {
       "basename": "MDN_CSS",
       "path": "MDN/MDN_CSS.md"
+    },
+    {
+      "basename": "Python 유용한 문법 정리",
+      "path": "Python/Python 유용한 문법 정리.md"
     },
     {
       "basename": "How to use IDLE",
@@ -11,10 +19,6 @@
     {
       "basename": "How to use IDLE",
       "path": "Python/assets/How to use IDLE.png"
-    },
-    {
-      "basename": "Python 유용한 문법 정리",
-      "path": "Python/Python 유용한 문법 정리.md"
     },
     {
       "basename": "비교 연산자",
@@ -75,10 +79,6 @@
     {
       "basename": "03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)",
       "path": "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md"
-    },
-    {
-      "basename": "08. Javascript",
-      "path": "KDT/Web/08. Javascript.md"
     }
   ],
   "omittedPaths": [
