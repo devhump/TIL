@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "57c79e4b8b4c9257",
+            "id": "c93243ee813498ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MDN/MDN_HTML.md",
+                "file": "_others_/Hot-key for Mac.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,20 +36,19 @@
             }
           },
           {
-            "id": "6bd10c618a366ba9",
+            "id": "a551f884bad48078",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MDN/MDN_CSS.md",
+                "file": "_others_/obsidian/Obsidian search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MDN/MDN_HTML.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MDN/MDN_HTML.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,12 +178,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MDN/MDN_HTML.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,10 +202,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "57c79e4b8b4c9257",
+  "active": "4f8ed3c371cbde37",
   "lastOpenFiles": [
-    "MDN/MDN_CSS.md",
+    "_others_/Hot-key for Mac.md",
+    "_others_/obsidian/Obsidian search.md",
+    "_others_/Hot-key (VS Code).md",
+    "devhump's TIL Index.md",
+    "_others_/templates/meta data_template.md",
+    "_others_/Templates List.md",
+    "_others_/Git basic - rollback.md",
+    "KDT/markdown & git/Git.md",
+    "KDT/markdown & git/git_cheat_sheet.pdf",
+    "_others_/Hot-key for windows.md",
+    "_others_/templates/문제 해결 아이디어_template.md",
+    "Python/Continue vs Pass vs Break.md",
     "MDN/MDN_HTML.md",
+    "_others_/알고리즘 TIP.md",
+    "_others_/templates/문제 설명_template.md",
+    "_others_/templates/문제 조건_template.md",
+    "_others_/templates/답안 예시_template.md",
+    "MDN/MDN_CSS.md",
+    "KDT/Web/01. Happy Web.md",
+    "KDT/Web/02. CSS.md",
     "Python/Python 유용한 문법 정리.md",
     "MDN/assets/MDN_HTML-1.png",
     "MDN/assets/MDN_HTML.png",
@@ -223,26 +240,9 @@
     "Python/assets/Python error-1.png",
     "Python/assets/Python error-2.png",
     "Python/assets/Python error-3.png",
-    "devhump's TIL Index.md",
-    "KDT/markdown & git/git_cheat_sheet.pdf",
-    "KDT/markdown & git/Git.md",
     "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md",
     "KDT/Web/08. Javascript.md",
-    "KDT/Web/01. Happy Web.md",
-    "KDT/markdown & git/markdown (마크다운) +.md",
-    "_others_/obsidian/markdown for Obsidian.md",
-    "_others_/obsidian/Obsidian search.md",
-    "KDT/Data structure/04. 리스트(List).md",
-    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
-    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "MDN",
-    "KDT/무제 파일.md",
-    "KDT/Web/07. Bootstrap Grid System.md",
-    "KDT/Web/06. Bootstrap Component.md",
-    "_others_/개발 관련 IT 용어 정리.md",
-    "더 공부해 볼 주제.md",
-    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "KDT/Web/assets",
     "KDT/Web",
     "assets",

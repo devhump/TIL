@@ -25,11 +25,11 @@ tags: [단축키, shortcut]
 ```
 -   command(⌘) 또는 cmd(⌘)
 -   shift(⇧)
+-   caps lock (⇪)
 
 -   option(⌥) 또는 또는 opt(⌥) 또는 alt(⌥)
 -   control(^) 또는 ctrl(⌃)
 
--   caps lock (⇪)
 ```
 
 

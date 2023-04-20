@@ -5,6 +5,10 @@ alias:
 ---
 
 - 전반적인 git 내용은 👉 [[Git]]
+- 그 외 git 관련 문서
+	👉 [git_cheat_sheet](git_cheat_sheet.pdf)
+	👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
+
 
 ```ad-note
 - [[#1.  완료된 커밋을 (살짝) 수정해야할 때|1.  완료된 커밋을 (살짝) 수정해야할 때]]

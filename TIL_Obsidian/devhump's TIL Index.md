@@ -1,6 +1,5 @@
-- [[Hot-key for Mac]]
-- [[Hot-key for windows]]
-- [Hot-key (VS Code)](_others_/Hot-key%20(VS%20Code).md)
+
+![단축키 관련](devhump's%20TIL%20Index.md#단축키%20관련)
 
 ### KDT
 #### Mardown & Git
@@ -101,12 +100,16 @@
 - [copy — 얕은 복사와 깊은 복사 연산](copy%20—%20얕은%20복사와%20깊은%20복사%20연산.md)
 - [얕은 복사(shallow copy)와 깊은 복사(deep copy)](얕은%20복사(shallow%20copy)와%20깊은%20복사(deep%20copy).md)
 
+### MDN
+- [MDN_CSS](MDN/MDN_CSS.md)
+- [MDN_HTML](MDN/MDN_HTML.md)
 
 ### others
 - [개발 관련 IT 용어 정리](_others_/개발%20관련%20IT%20용어%20정리.md)
 - [[500 mile]]
 - [[알고리즘 TIP]]
 - [Git의 기초 - 되돌리기](_others_/Git%20basic%20-%20rollback.md)
+	- [git_cheat_sheet.pdf](KDT/markdown%20&%20git/git_cheat_sheet.pdf)
 - [[CLI]]
 - [[Templates List]]
 - [VS Code를 이용한 파이썬 소스코드 디버깅](_others_/Debugging%20with%20VS%20Code+.md)

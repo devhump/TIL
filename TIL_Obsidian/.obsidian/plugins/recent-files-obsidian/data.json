@@ -1,84 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "MDN_HTML",
-      "path": "MDN/MDN_HTML.md"
-    },
-    {
-      "basename": "MDN_CSS",
-      "path": "MDN/MDN_CSS.md"
-    },
-    {
-      "basename": "Python 유용한 문법 정리",
-      "path": "Python/Python 유용한 문법 정리.md"
-    },
-    {
-      "basename": "How to use IDLE",
-      "path": "Python/How to use IDLE.md"
-    },
-    {
-      "basename": "How to use IDLE",
-      "path": "Python/assets/How to use IDLE.png"
-    },
-    {
-      "basename": "비교 연산자",
-      "path": "Python/assets/비교 연산자.png"
-    },
-    {
-      "basename": "continue_break_pass",
-      "path": "Python/assets/continue_break_pass.png"
-    },
-    {
-      "basename": "Lambda_Func_img",
-      "path": "Python/assets/Lambda_Func_img.png"
-    },
-    {
-      "basename": "람다함수(Lambda Func, 익명함수)",
-      "path": "Python/람다함수(Lambda Func, 익명함수).md"
-    },
-    {
-      "basename": "Python 용어 정리",
-      "path": "Python/Python 용어 정리.md"
-    },
-    {
-      "basename": "Python error",
-      "path": "Python/Python error.md"
-    },
-    {
-      "basename": "Python error",
-      "path": "Python/assets/Python error.png"
-    },
-    {
-      "basename": "Python error-1",
-      "path": "Python/assets/Python error-1.png"
-    },
-    {
-      "basename": "Python error-2",
-      "path": "Python/assets/Python error-2.png"
-    },
-    {
-      "basename": "Python error-3",
-      "path": "Python/assets/Python error-3.png"
-    },
-    {
-      "basename": "Python error-4",
-      "path": "Python/assets/Python error-4.png"
-    },
-    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "git_cheat_sheet",
-      "path": "KDT/markdown & git/git_cheat_sheet.pdf"
+      "basename": "Hot-key for Mac",
+      "path": "_others_/Hot-key for Mac.md"
+    },
+    {
+      "basename": "Obsidian search",
+      "path": "_others_/obsidian/Obsidian search.md"
+    },
+    {
+      "basename": "Hot-key (VS Code)",
+      "path": "_others_/Hot-key (VS Code).md"
+    },
+    {
+      "basename": "meta data_template",
+      "path": "_others_/templates/meta data_template.md"
+    },
+    {
+      "basename": "Templates List",
+      "path": "_others_/Templates List.md"
+    },
+    {
+      "basename": "Git basic - rollback",
+      "path": "_others_/Git basic - rollback.md"
     },
     {
       "basename": "Git",
       "path": "KDT/markdown & git/Git.md"
     },
     {
-      "basename": "03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)",
-      "path": "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md"
+      "basename": "git_cheat_sheet",
+      "path": "KDT/markdown & git/git_cheat_sheet.pdf"
+    },
+    {
+      "basename": "Hot-key for windows",
+      "path": "_others_/Hot-key for windows.md"
+    },
+    {
+      "basename": "문제 해결 아이디어_template",
+      "path": "_others_/templates/문제 해결 아이디어_template.md"
+    },
+    {
+      "basename": "Continue vs Pass vs Break",
+      "path": "Python/Continue vs Pass vs Break.md"
+    },
+    {
+      "basename": "MDN_HTML",
+      "path": "MDN/MDN_HTML.md"
+    },
+    {
+      "basename": "알고리즘 TIP",
+      "path": "_others_/알고리즘 TIP.md"
+    },
+    {
+      "basename": "문제 설명_template",
+      "path": "_others_/templates/문제 설명_template.md"
+    },
+    {
+      "basename": "문제 조건_template",
+      "path": "_others_/templates/문제 조건_template.md"
+    },
+    {
+      "basename": "답안 예시_template",
+      "path": "_others_/templates/답안 예시_template.md"
+    },
+    {
+      "basename": "MDN_CSS",
+      "path": "MDN/MDN_CSS.md"
+    },
+    {
+      "basename": "01. Happy Web",
+      "path": "KDT/Web/01. Happy Web.md"
+    },
+    {
+      "basename": "02. CSS",
+      "path": "KDT/Web/02. CSS.md"
     }
   ],
   "omittedPaths": [
