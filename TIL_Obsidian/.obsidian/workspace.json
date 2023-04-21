@@ -23,12 +23,25 @@
             }
           },
           {
-            "id": "df1d9b81f1f726dd",
+            "id": "6bf206c1e6c898e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALgorithm (code)/BOJ_9455 박스.md",
+                "file": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a68cb7820906f3f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ALgorithm (code)/델타 탐색 문제.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -137,9 +151,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ALgorithm (code)/BOJ_9455 박스.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "file": "ALgorithm (code)/델타 탐색 문제.md",
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
@@ -154,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ALgorithm (code)/BOJ_9455 박스.md",
+                "file": "ALgorithm (code)/델타 탐색 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,12 +180,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALgorithm (code)/BOJ_9455 박스.md"
+                "file": "ALgorithm (code)/델타 탐색 문제.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -191,12 +205,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "df1d9b81f1f726dd",
+  "active": "a68cb7820906f3f3",
   "lastOpenFiles": [
-    "ALgorithm (code)/assets/code2.png",
+    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+    "ALgorithm (code)/델타 탐색 문제.md",
+    "ALgorithm (code)/assets/델타 탐색 문제.png",
+    "KDT/Algorithm/04. 그래프(Graph).md",
     "devhump's TIL Index.md",
-    "_others_/templates/BOJ_백준 문제_template.md",
     "ALgorithm (code)/BOJ_9455 박스.md",
+    "ALgorithm (code)/assets/code2.png",
+    "_others_/templates/BOJ_백준 문제_template.md",
     "_others_/obsidian/Obsidian search.md",
     "_others_/Hot-key for Mac.md",
     "_others_/templates/문제 설명_template.md",
@@ -222,16 +240,11 @@
     "MDN/assets/MDN_HTML-1.png",
     "MDN/assets/MDN_HTML.png",
     "MDN/assets",
-    "Python/How to use IDLE.md",
     "Python/assets/How to use IDLE.png",
     "Python/assets/비교 연산자.png",
     "Python/assets/continue_break_pass.png",
     "Python/assets/Lambda_Func_img.png",
-    "Python/람다함수(Lambda Func, 익명함수).md",
-    "Python/Python 용어 정리.md",
     "Python/assets/Python error.png",
-    "Python/assets/Python error-1.png",
-    "Python/assets/Python error-2.png",
     "MDN",
     "KDT/Web/assets",
     "KDT/Web",
