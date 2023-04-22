@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "09. ECMA Script",
-      "path": "KDT/Web/09. ECMA Script.md"
-    },
-    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
+      "basename": "08. Javascript",
+      "path": "KDT/Web/08. Javascript.md"
+    },
+    {
       "basename": "markdown (마크다운) +",
       "path": "KDT/markdown & git/markdown (마크다운) +.md"
+    },
+    {
+      "basename": "09. ECMA Script",
+      "path": "KDT/Web/09. ECMA Script.md"
     },
     {
       "basename": "markdown for Obsidian",
@@ -75,10 +79,6 @@
     {
       "basename": "git_cheat_sheet",
       "path": "KDT/markdown & git/git_cheat_sheet.pdf"
-    },
-    {
-      "basename": "Hot-key for windows",
-      "path": "_others_/Hot-key for windows.md"
     }
   ],
   "omittedPaths": [

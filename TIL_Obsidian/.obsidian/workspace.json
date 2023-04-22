@@ -21,35 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "5262e355b39591c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Web/09. ECMA Script.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e232ede71e49b88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/markdown & git/markdown (마크다운) +.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Web/09. ECMA Script.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Web/09. ECMA Script.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Web/09. ECMA Script.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
@@ -204,9 +177,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5262e355b39591c6",
+  "active": "4f8ed3c371cbde37",
   "lastOpenFiles": [
+    "KDT/Web/08. Javascript.md",
     "devhump's TIL Index.md",
+    "KDT/markdown & git/markdown (마크다운) +.md",
     "KDT/Web/09. ECMA Script.md",
     "KDT/Web/assets/09. ECMA Script-29.png",
     "KDT/Web/assets/09. ECMA Script-28.png",
@@ -218,7 +193,6 @@
     "KDT/Web/assets/09. ECMA Script-8.png",
     "KDT/Web/assets/09. ECMA Script-22.png",
     "KDT/Web/assets/09. ECMA Script-21.png",
-    "KDT/markdown & git/markdown (마크다운) +.md",
     "_others_/obsidian/markdown for Obsidian.md",
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "ALgorithm (code)/델타 탐색 문제.md",
