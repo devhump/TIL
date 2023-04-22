@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "델타 탐색 문제",
-      "path": "ALgorithm (code)/델타 탐색 문제.md"
+      "basename": "09. ECMA Script",
+      "path": "KDT/Web/09. ECMA Script.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown & git/markdown (마크다운) +.md"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "_others_/obsidian/markdown for Obsidian.md"
     },
     {
       "basename": "03. 완전탐색  I (Exhaustive Search)",
       "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
     },
     {
-      "basename": "04. 그래프(Graph)",
-      "path": "KDT/Algorithm/04. 그래프(Graph).md"
+      "basename": "델타 탐색 문제",
+      "path": "ALgorithm (code)/델타 탐색 문제.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "04. 그래프(Graph)",
+      "path": "KDT/Algorithm/04. 그래프(Graph).md"
     },
     {
       "basename": "BOJ_9455 박스",
@@ -67,18 +79,6 @@
     {
       "basename": "Hot-key for windows",
       "path": "_others_/Hot-key for windows.md"
-    },
-    {
-      "basename": "문제 해결 아이디어_template",
-      "path": "_others_/templates/문제 해결 아이디어_template.md"
-    },
-    {
-      "basename": "Continue vs Pass vs Break",
-      "path": "Python/Continue vs Pass vs Break.md"
-    },
-    {
-      "basename": "MDN_HTML",
-      "path": "MDN/MDN_HTML.md"
     }
   ],
   "omittedPaths": [

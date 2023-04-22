@@ -480,11 +480,17 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 
 ### 7-7. about Escape sequence in markdown
+
+1. 코드 블럭 표현하기
 ````
 ```python
 print("이렇게 하면 코드블록을 표현할 수 있다.")
 ```
 ````
+
+2. 백틱(backtick) 기호 표현
+- ``List`1``
+- `` ` ``
 
 
 ---
