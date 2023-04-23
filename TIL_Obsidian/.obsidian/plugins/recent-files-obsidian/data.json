@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "10. Event",
+      "path": "KDT/Web/10. Event.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -71,14 +75,6 @@
     {
       "basename": "Git basic - rollback",
       "path": "_others_/Git basic - rollback.md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "git_cheat_sheet",
-      "path": "KDT/markdown & git/git_cheat_sheet.pdf"
     }
   ],
   "omittedPaths": [
