@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "36c4da6f12c6b128",
+            "id": "d41d209ce9e4ef5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Web/10. Event.md",
+                "file": "ALgorithm (code)/델타 탐색 문제.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Web/10. Event.md",
+                "file": "ALgorithm (code)/델타 탐색 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Web/10. Event.md",
+                "file": "ALgorithm (code)/델타 탐색 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Web/10. Event.md"
+                "file": "ALgorithm (code)/델타 탐색 문제.md"
               }
             }
           }
@@ -192,8 +192,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "36c4da6f12c6b128",
+  "active": "d41d209ce9e4ef5e",
   "lastOpenFiles": [
+    "ALgorithm (code)/assets/델타 탐색 문제-3.png",
+    "ALgorithm (code)/assets/code.png",
+    "ALgorithm (code)/assets/code 2 .png",
+    "ALgorithm (code)/델타 탐색 문제.md",
+    "ALgorithm (code)/assets/델타 탐색 문제-2.png",
+    "ALgorithm (code)/assets/델타 탐색 문제-1.png",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "ALgorithm (code)/문자열 치환 하기.md",
+    "ALgorithm (code)/BOJ_9455 박스.md",
     "devhump's TIL Index.md",
     "KDT/Web/10. Event.md",
     "KDT/Web/assets/10. Event-11.png",
@@ -202,18 +211,12 @@
     "KDT/Web/assets/10. Event-9.png",
     "KDT/Web/assets/10. Event-8.png",
     "KDT/Web/assets/10. Event-7.png",
-    "KDT/Web/assets/10. Event-6.png",
-    "KDT/Web/assets/10. Event-5.png",
-    "KDT/Web/assets/10. Event-4.png",
-    "KDT/Web/assets/10. Event-3.png",
     "KDT/Web/08. Javascript.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
     "KDT/Web/09. ECMA Script.md",
     "_others_/obsidian/markdown for Obsidian.md",
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
-    "ALgorithm (code)/델타 탐색 문제.md",
     "KDT/Algorithm/04. 그래프(Graph).md",
-    "ALgorithm (code)/BOJ_9455 박스.md",
     "_others_/templates/BOJ_백준 문제_template.md",
     "_others_/obsidian/Obsidian search.md",
     "_others_/Hot-key for Mac.md",
@@ -229,8 +232,6 @@
     "_others_/Hot-key for windows.md",
     "_others_/templates/문제 해결 아이디어_template.md",
     "Python/Continue vs Pass vs Break.md",
-    "MDN/MDN_HTML.md",
-    "_others_/알고리즘 TIP.md",
     "MDN/assets",
     "MDN",
     "KDT/Web/assets",
