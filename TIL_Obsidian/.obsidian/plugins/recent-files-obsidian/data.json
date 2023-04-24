@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "01. DB & RDBMS & SQL CRUD",
-      "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
+      "basename": "BFS 문제",
+      "path": "ALgorithm (code)/BFS 문제.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "05. 깊이 우선 탐색(DFS)",
+      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
+    },
+    {
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
+    },
+    {
+      "basename": "델타 탐색 문제",
+      "path": "ALgorithm (code)/델타 탐색 문제.md"
+    },
+    {
+      "basename": "문자열 치환 하기",
+      "path": "ALgorithm (code)/문자열 치환 하기.md"
+    },
+    {
+      "basename": "BOJ_9455 박스",
+      "path": "ALgorithm (code)/BOJ_9455 박스.md"
+    },
+    {
+      "basename": "01. DB & RDBMS & SQL CRUD",
+      "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
     },
     {
       "basename": "Hot-key (VS Code)",
@@ -23,22 +47,6 @@
     {
       "basename": "무제 파일",
       "path": "무제 파일.md"
-    },
-    {
-      "basename": "델타 탐색 문제",
-      "path": "ALgorithm (code)/델타 탐색 문제.md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "문자열 치환 하기",
-      "path": "ALgorithm (code)/문자열 치환 하기.md"
-    },
-    {
-      "basename": "BOJ_9455 박스",
-      "path": "ALgorithm (code)/BOJ_9455 박스.md"
     },
     {
       "basename": "10. Event",
@@ -71,14 +79,6 @@
     {
       "basename": "BOJ_백준 문제_template",
       "path": "_others_/templates/BOJ_백준 문제_template.md"
-    },
-    {
-      "basename": "Obsidian search",
-      "path": "_others_/obsidian/Obsidian search.md"
-    },
-    {
-      "basename": "문제 설명_template",
-      "path": "_others_/templates/문제 설명_template.md"
     }
   ],
   "omittedPaths": [
