@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiStackoverflow",
+      "SiSqlite",
       "🦊",
       "IbEarth",
       "📌",
@@ -39,5 +41,7 @@
   "ALgorithm (code)": "FasCode",
   "devhump's TIL Index.md": "📌",
   "KDT/Web": "IbEarth",
-  "MDN": "🦊"
+  "MDN": "🦊",
+  "KDT/DB": "SiSqlite",
+  "KDT/Data structure": "SiStackoverflow"
 }

@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "01. DB & RDBMS & SQL CRUD",
+      "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "Hot-key (VS Code)",
+      "path": "_others_/Hot-key (VS Code).md"
+    },
+    {
+      "basename": "Hot-key for windows",
+      "path": "_others_/Hot-key for windows.md"
+    },
+    {
+      "basename": "Hot-key for Mac",
+      "path": "_others_/Hot-key for Mac.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "무제 파일.md"
+    },
+    {
       "basename": "델타 탐색 문제",
       "path": "ALgorithm (code)/델타 탐색 문제.md"
     },
@@ -15,10 +39,6 @@
     {
       "basename": "BOJ_9455 박스",
       "path": "ALgorithm (code)/BOJ_9455 박스.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "10. Event",
@@ -57,24 +77,8 @@
       "path": "_others_/obsidian/Obsidian search.md"
     },
     {
-      "basename": "Hot-key for Mac",
-      "path": "_others_/Hot-key for Mac.md"
-    },
-    {
       "basename": "문제 설명_template",
       "path": "_others_/templates/문제 설명_template.md"
-    },
-    {
-      "basename": "문제 조건_template",
-      "path": "_others_/templates/문제 조건_template.md"
-    },
-    {
-      "basename": "Hot-key (VS Code)",
-      "path": "_others_/Hot-key (VS Code).md"
-    },
-    {
-      "basename": "meta data_template",
-      "path": "_others_/templates/meta data_template.md"
     }
   ],
   "omittedPaths": [

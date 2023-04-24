@@ -33,6 +33,9 @@
 - [[05. 깊이 우선 탐색(DFS)]]
 - [[06. 코딩 테스트 준비 (기본)]]
 
+#### DB
+- [01. DB & RDBMS & SQL CRUD](KDT/DB/01.%20DB%20&%20RDBMS%20&%20SQL%20CRUD.md)
+
 #### Web
 - [01. Happy Web](KDT/Web/01.%20Happy%20Web.md)
 - [02. CSS](KDT/Web/02.%20CSS.md)
