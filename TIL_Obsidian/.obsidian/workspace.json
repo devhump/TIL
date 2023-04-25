@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "2133937af88c119b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -137,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
@@ -190,9 +177,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2133937af88c119b",
+  "active": "4f8ed3c371cbde37",
   "lastOpenFiles": [
+    "ALgorithm (code)/시뮬레이션.md",
+    "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
+    "_others_/알고리즘 TIP.md",
     "devhump's TIL Index.md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "_others_/assets/알고리즘 TIP.png",
     "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
     "KDT/DB/02. WHERE & LIKE & ORDER BY.md",
     "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
@@ -207,7 +199,6 @@
     "ALgorithm (code)/assets/code (1).png",
     "ALgorithm (code)/assets/BFS 문제.png",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "ALgorithm (code)/델타 탐색 문제.md",
     "ALgorithm (code)/문자열 치환 하기.md",
     "ALgorithm (code)/BOJ_9455 박스.md",
@@ -215,7 +206,6 @@
     "_others_/Hot-key for windows.md",
     "_others_/Hot-key for Mac.md",
     "KDT/DB/assets/01. DB & RDBMS & SQL CRUD-11.png",
-    "KDT/DB/assets/01. DB & RDBMS & SQL CRUD-10.png",
     "무제 파일.md",
     "KDT/DB/assets",
     "KDT/무제 파일.md",
@@ -227,8 +217,6 @@
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "KDT/Algorithm/04. 그래프(Graph).md",
     "_others_/templates/BOJ_백준 문제_template.md",
-    "_others_/obsidian/Obsidian search.md",
-    "_others_/templates/문제 설명_template.md",
     "ALgorithm (code)/assets",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "MDN/assets",

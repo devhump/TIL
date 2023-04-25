@@ -2,6 +2,8 @@
 tags: [Algorithm, syntax]
 ---
 
+### Input 관련
+
 - txt 형태의 input 값 받기
 ```python
 
@@ -26,6 +28,31 @@ input = sys.stdin.readline
 
 lecture_list = [list(map(int, input().split())) for _ in range(n)]
 
+```
+
+- 몇줄일지 모를 때 입력 받기
+	- https://pchild.tistory.com/2
+
+- [readline vs readlines](https://docs.python.org/ko/3/library/io.html?highlight=readlines#io.IOBase.readline)
+![](assets/알고리즘%20TIP.png)
+- (참고) [Python 문법 - 파이썬 입력 받기(sys.stdin.readline)](https://velog.io/@yeseolee/Python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%A0%A5-%EC%A0%95%EB%A6%ACsys.stdin.readline)
+	- 👉 readline에 관한 자세한 설명
+
+```python
+# 1. sys 사용하기
+import sys 
+lines = sys.stdin.readlines() 
+
+for line in lines: 
+	A, B = map(int, line.split()) 
+	print(A+B)
+
+# 2. EOFError 예외처리
+while True:
+	try:
+		temp += input().rstrip()
+	except EOFError:
+		break
 ```
 
 
