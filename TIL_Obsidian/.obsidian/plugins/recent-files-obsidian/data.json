@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "BFS 문제",
-      "path": "ALgorithm (code)/BFS 문제.md"
+      "basename": "01. DB & RDBMS & SQL CRUD",
+      "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "02. WHERE & LIKE & ORDER BY",
+      "path": "KDT/DB/02. WHERE & LIKE & ORDER BY.md"
+    },
+    {
+      "basename": "03. Basic Func & GROUP BY & HAVING & ALTER TABLE",
+      "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
+    },
+    {
+      "basename": "08. Javascript",
+      "path": "KDT/Web/08. Javascript.md"
+    },
+    {
+      "basename": "BFS 문제",
+      "path": "ALgorithm (code)/BFS 문제.md"
     },
     {
       "basename": "05. 깊이 우선 탐색(DFS)",
@@ -29,10 +45,6 @@
       "path": "ALgorithm (code)/BOJ_9455 박스.md"
     },
     {
-      "basename": "01. DB & RDBMS & SQL CRUD",
-      "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
-    },
-    {
       "basename": "Hot-key (VS Code)",
       "path": "_others_/Hot-key (VS Code).md"
     },
@@ -53,10 +65,6 @@
       "path": "KDT/Web/10. Event.md"
     },
     {
-      "basename": "08. Javascript",
-      "path": "KDT/Web/08. Javascript.md"
-    },
-    {
       "basename": "markdown (마크다운) +",
       "path": "KDT/markdown & git/markdown (마크다운) +.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "03. 완전탐색  I (Exhaustive Search)",
       "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
-    },
-    {
-      "basename": "04. 그래프(Graph)",
-      "path": "KDT/Algorithm/04. 그래프(Graph).md"
-    },
-    {
-      "basename": "BOJ_백준 문제_template",
-      "path": "_others_/templates/BOJ_백준 문제_template.md"
     }
   ],
   "omittedPaths": [
