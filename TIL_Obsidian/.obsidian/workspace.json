@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "devhump's TIL Index.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -23,25 +23,12 @@
             }
           },
           {
-            "id": "4c90aac1b570999b",
+            "id": "a3c0c91073421eed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/요청 메소드와 응답코드.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36f2d9236d1861c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/obsidian/markdown for Obsidian.md",
+                "file": "ALgorithm (code)/BFS 문제.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -49,38 +36,12 @@
             }
           },
           {
-            "id": "69965c73770a26e5",
+            "id": "45bd08e66781fc49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/XML, JSON, YAML, AJAX.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1293017ccf67e173",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/IP 주소의 종류.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a10a7ae20be3deb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/XML, JSON, YAML, AJAX.md",
+                "file": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -189,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/요청 메소드와 응답코드.md",
+                "file": "ALgorithm (code)/BFS 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/요청 메소드와 응답코드.md",
+                "file": "ALgorithm (code)/BFS 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/요청 메소드와 응답코드.md"
+                "file": "ALgorithm (code)/BFS 문제.md"
               }
             }
           }
@@ -242,17 +203,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4c90aac1b570999b",
+  "active": "a3c0c91073421eed",
   "lastOpenFiles": [
-    "_others_/알고리즘 TIP.md",
-    "_others_/요청 메소드와 응답코드.md",
-    "_others_/IP 주소의 종류.md",
-    "_others_/Hot-key for windows.md",
-    "_others_/obsidian/markdown for Obsidian.md",
+    "ALgorithm (code)/델타 탐색 문제.md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "Algorithm (theory)/08. DFS & BFS.md",
+    "ALgorithm (code)/BFS 문제.md",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
+    "ALgorithm (code)/시뮬레이션.md",
+    "ALgorithm (code)/BOJ_9455 박스.md",
+    "KDT/Algorithm/04. 그래프(Graph).md",
+    "ALgorithm (code)/무방향 & 유방향 그래프 표현하기.md",
+    "devhump's TIL Index.md",
     "_others_/XML, JSON, YAML, AJAX.md",
+    "_others_/IP 주소의 종류.md",
+    "_others_/obsidian/markdown for Obsidian.md",
+    "_others_/요청 메소드와 응답코드.md",
+    "_others_/알고리즘 TIP.md",
+    "_others_/Hot-key for windows.md",
     "_others_/개발 관련 IT 용어 정리.md",
     "KDT/DB/08. QuerySet API.md",
-    "devhump's TIL Index.md",
     "KDT/DB/07. ORM.md",
     "KDT/DB/assets/08. QuerySet API.png",
     "KDT/DB/assets/07. ORM-3.png",
@@ -269,17 +239,8 @@
     "더 공부해 볼 주제.md",
     "KDT/DB/04. CASE & SubQuery.md",
     "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
-    "ALgorithm (code)/시뮬레이션.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
-    "KDT/DB/02. WHERE & LIKE & ORDER BY.md",
-    "KDT/Web/08. Javascript.md",
-    "ALgorithm (code)/BFS 문제.md",
-    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
-    "ALgorithm (code)/델타 탐색 문제.md",
-    "ALgorithm (code)/문자열 치환 하기.md",
-    "ALgorithm (code)/BOJ_9455 박스.md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",

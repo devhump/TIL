@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "BFS 문제",
+      "path": "ALgorithm (code)/BFS 문제.md"
+    },
+    {
+      "basename": "델타 탐색 문제",
+      "path": "ALgorithm (code)/델타 탐색 문제.md"
+    },
+    {
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
+    },
+    {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
+      "basename": "시뮬레이션",
+      "path": "ALgorithm (code)/시뮬레이션.md"
+    },
+    {
+      "basename": "BOJ_9455 박스",
+      "path": "ALgorithm (code)/BOJ_9455 박스.md"
+    },
+    {
+      "basename": "04. 그래프(Graph)",
+      "path": "KDT/Algorithm/04. 그래프(Graph).md"
+    },
+    {
+      "basename": "무방향 & 유방향 그래프 표현하기",
+      "path": "ALgorithm (code)/무방향 & 유방향 그래프 표현하기.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "XML, JSON, YAML, AJAX",
+      "path": "_others_/XML, JSON, YAML, AJAX.md"
+    },
+    {
+      "basename": "IP 주소의 종류",
+      "path": "_others_/IP 주소의 종류.md"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "_others_/obsidian/markdown for Obsidian.md"
+    },
+    {
       "basename": "요청 메소드와 응답코드",
       "path": "_others_/요청 메소드와 응답코드.md"
     },
@@ -9,20 +61,8 @@
       "path": "_others_/알고리즘 TIP.md"
     },
     {
-      "basename": "IP 주소의 종류",
-      "path": "_others_/IP 주소의 종류.md"
-    },
-    {
       "basename": "Hot-key for windows",
       "path": "_others_/Hot-key for windows.md"
-    },
-    {
-      "basename": "markdown for Obsidian",
-      "path": "_others_/obsidian/markdown for Obsidian.md"
-    },
-    {
-      "basename": "XML, JSON, YAML, AJAX",
-      "path": "_others_/XML, JSON, YAML, AJAX.md"
     },
     {
       "basename": "개발 관련 IT 용어 정리",
@@ -33,52 +73,12 @@
       "path": "KDT/DB/08. QuerySet API.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
       "basename": "07. ORM",
       "path": "KDT/DB/07. ORM.md"
     },
     {
       "basename": "06. Modeling",
       "path": "KDT/DB/06. Modeling.md"
-    },
-    {
-      "basename": "05. JOIN+",
-      "path": "KDT/DB/05. JOIN+.md"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "04. CASE & SubQuery",
-      "path": "KDT/DB/04. CASE & SubQuery.md"
-    },
-    {
-      "basename": "03. Basic Func & GROUP BY & HAVING & ALTER TABLE",
-      "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
-    },
-    {
-      "basename": "시뮬레이션",
-      "path": "ALgorithm (code)/시뮬레이션.md"
-    },
-    {
-      "basename": "18. 유용한 표준 라이브러리 소개",
-      "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "01. DB & RDBMS & SQL CRUD",
-      "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
-    },
-    {
-      "basename": "02. WHERE & LIKE & ORDER BY",
-      "path": "KDT/DB/02. WHERE & LIKE & ORDER BY.md"
     }
   ],
   "omittedPaths": [
