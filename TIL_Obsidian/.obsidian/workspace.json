@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "72535583ef42991f",
@@ -179,15 +178,17 @@
   },
   "active": "4f8ed3c371cbde37",
   "lastOpenFiles": [
+    "더 공부해 볼 주제.md",
+    "devhump's TIL Index.md",
+    "KDT/DB/04. CASE & SubQuery.md",
+    "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
     "ALgorithm (code)/시뮬레이션.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
     "_others_/알고리즘 TIP.md",
-    "devhump's TIL Index.md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "_others_/assets/알고리즘 TIP.png",
     "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
     "KDT/DB/02. WHERE & LIKE & ORDER BY.md",
-    "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
     "KDT/DB/assets/03. Basic Func & GROUP BY & HAVING & ALTER TABLE-4.png",
     "KDT/DB/assets/03. Basic Func & GROUP BY & HAVING & ALTER TABLE-3.png",
     "KDT/DB/assets/03. Basic Func & GROUP BY & HAVING & ALTER TABLE-2.png",
@@ -215,8 +216,6 @@
     "KDT/Web/09. ECMA Script.md",
     "_others_/obsidian/markdown for Obsidian.md",
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
-    "KDT/Algorithm/04. 그래프(Graph).md",
-    "_others_/templates/BOJ_백준 문제_template.md",
     "ALgorithm (code)/assets",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "MDN/assets",

@@ -5,6 +5,18 @@
       "path": "devhump's TIL Index.md"
     },
     {
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
+    },
+    {
+      "basename": "04. CASE & SubQuery",
+      "path": "KDT/DB/04. CASE & SubQuery.md"
+    },
+    {
+      "basename": "03. Basic Func & GROUP BY & HAVING & ALTER TABLE",
+      "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
+    },
+    {
       "basename": "시뮬레이션",
       "path": "ALgorithm (code)/시뮬레이션.md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "02. WHERE & LIKE & ORDER BY",
       "path": "KDT/DB/02. WHERE & LIKE & ORDER BY.md"
-    },
-    {
-      "basename": "03. Basic Func & GROUP BY & HAVING & ALTER TABLE",
-      "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
     },
     {
       "basename": "08. Javascript",
@@ -71,14 +79,6 @@
     {
       "basename": "무제 파일",
       "path": "무제 파일.md"
-    },
-    {
-      "basename": "10. Event",
-      "path": "KDT/Web/10. Event.md"
-    },
-    {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown & git/markdown (마크다운) +.md"
     }
   ],
   "omittedPaths": [
