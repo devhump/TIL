@@ -5,6 +5,10 @@
       "path": "devhump's TIL Index.md"
     },
     {
+      "basename": "07. ORM",
+      "path": "KDT/DB/07. ORM.md"
+    },
+    {
       "basename": "06. Modeling",
       "path": "KDT/DB/06. Modeling.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "Hot-key (VS Code)",
       "path": "_others_/Hot-key (VS Code).md"
-    },
-    {
-      "basename": "Hot-key for windows",
-      "path": "_others_/Hot-key for windows.md"
     }
   ],
   "omittedPaths": [

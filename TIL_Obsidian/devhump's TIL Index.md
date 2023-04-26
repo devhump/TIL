@@ -40,6 +40,7 @@
 - [04. CASE & SubQuery](KDT/DB/04.%20CASE%20&%20SubQuery.md)
 - [05. JOIN+](KDT/DB/05.%20JOIN+.md)
 - [06. Modeling](KDT/DB/06.%20Modeling.md)
+- [07. ORM](KDT/DB/07.%20ORM.md)
 
 #### Web
 - [01. Happy Web](KDT/Web/01.%20Happy%20Web.md)
