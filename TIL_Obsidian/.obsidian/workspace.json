@@ -28,8 +28,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md",
-                "mode": "preview",
+                "file": "_others_/요청 메소드와 응답코드.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md",
+                "file": "_others_/요청 메소드와 응답코드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md",
+                "file": "_others_/요청 메소드와 응답코드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md"
+                "file": "_others_/요청 메소드와 응답코드.md"
               }
             }
           }
@@ -244,12 +244,14 @@
   },
   "active": "4c90aac1b570999b",
   "lastOpenFiles": [
-    "KDT/DB/08. QuerySet API.md",
+    "_others_/알고리즘 TIP.md",
+    "_others_/요청 메소드와 응답코드.md",
+    "_others_/IP 주소의 종류.md",
+    "_others_/Hot-key for windows.md",
     "_others_/obsidian/markdown for Obsidian.md",
     "_others_/XML, JSON, YAML, AJAX.md",
-    "_others_/IP 주소의 종류.md",
     "_others_/개발 관련 IT 용어 정리.md",
-    "_others_/요청 메소드와 응답코드.md",
+    "KDT/DB/08. QuerySet API.md",
     "devhump's TIL Index.md",
     "KDT/DB/07. ORM.md",
     "KDT/DB/assets/08. QuerySet API.png",
@@ -269,7 +271,6 @@
     "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
     "ALgorithm (code)/시뮬레이션.md",
     "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
-    "_others_/알고리즘 TIP.md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
     "KDT/DB/02. WHERE & LIKE & ORDER BY.md",
@@ -279,7 +280,6 @@
     "ALgorithm (code)/델타 탐색 문제.md",
     "ALgorithm (code)/문자열 치환 하기.md",
     "ALgorithm (code)/BOJ_9455 박스.md",
-    "_others_/Hot-key (VS Code).md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",

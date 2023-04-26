@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "_others_/개발 관련 IT 용어 정리.md"
+      "basename": "요청 메소드와 응답코드",
+      "path": "_others_/요청 메소드와 응답코드.md"
     },
     {
-      "basename": "08. QuerySet API",
-      "path": "KDT/DB/08. QuerySet API.md"
+      "basename": "알고리즘 TIP",
+      "path": "_others_/알고리즘 TIP.md"
+    },
+    {
+      "basename": "IP 주소의 종류",
+      "path": "_others_/IP 주소의 종류.md"
+    },
+    {
+      "basename": "Hot-key for windows",
+      "path": "_others_/Hot-key for windows.md"
     },
     {
       "basename": "markdown for Obsidian",
@@ -17,12 +25,12 @@
       "path": "_others_/XML, JSON, YAML, AJAX.md"
     },
     {
-      "basename": "IP 주소의 종류",
-      "path": "_others_/IP 주소의 종류.md"
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
     },
     {
-      "basename": "요청 메소드와 응답코드",
-      "path": "_others_/요청 메소드와 응답코드.md"
+      "basename": "08. QuerySet API",
+      "path": "KDT/DB/08. QuerySet API.md"
     },
     {
       "basename": "devhump's TIL Index",
@@ -61,10 +69,6 @@
       "path": "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md"
     },
     {
-      "basename": "알고리즘 TIP",
-      "path": "_others_/알고리즘 TIP.md"
-    },
-    {
       "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
       "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "02. WHERE & LIKE & ORDER BY",
       "path": "KDT/DB/02. WHERE & LIKE & ORDER BY.md"
-    },
-    {
-      "basename": "08. Javascript",
-      "path": "KDT/Web/08. Javascript.md"
     }
   ],
   "omittedPaths": [
