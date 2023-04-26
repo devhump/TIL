@@ -39,6 +39,7 @@
 - [03. Basic Func & GROUP BY & HAVING & ALTER TABLE](KDT/DB/03.%20Basic%20Func%20&%20GROUP%20BY%20&%20HAVING%20&%20ALTER%20TABLE.md)
 - [04. CASE & SubQuery](KDT/DB/04.%20CASE%20&%20SubQuery.md)
 - [05. JOIN+](KDT/DB/05.%20JOIN+.md)
+- [06. Modeling](KDT/DB/06.%20Modeling.md)
 
 #### Web
 - [01. Happy Web](KDT/Web/01.%20Happy%20Web.md)

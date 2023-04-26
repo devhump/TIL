@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "6df5f5b2adfc8471",
+            "id": "eb17ad4714d38603",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/DB/05. JOIN+.md",
+                "file": "KDT/DB/06. Modeling.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -191,14 +191,17 @@
   },
   "active": "4f8ed3c371cbde37",
   "lastOpenFiles": [
+    "KDT/DB/06. Modeling.md",
     "KDT/DB/05. JOIN+.md",
+    "devhump's TIL Index.md",
+    "KDT/DB/assets/06. Modeling.png",
+    "KDT/DB/assets/er-diagram-erd-tool-lucidchart-regarding-erd-lines.jpg",
     "KDT/DB/assets/05. JOIN+-7.png",
     "KDT/DB/assets/05. JOIN+-6.png",
     "KDT/DB/assets/05. JOIN+-5.png",
     "KDT/DB/assets/05. JOIN+-4.png",
     "KDT/DB/assets/05. JOIN+-3.png",
     "KDT/DB/assets/05. JOIN+-2.png",
-    "devhump's TIL Index.md",
     "KDT/DB/assets/05. JOIN+-1.png",
     "더 공부해 볼 주제.md",
     "KDT/DB/04. CASE & SubQuery.md",
@@ -210,8 +213,6 @@
     "_others_/assets/알고리즘 TIP.png",
     "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
     "KDT/DB/02. WHERE & LIKE & ORDER BY.md",
-    "KDT/DB/assets/03. Basic Func & GROUP BY & HAVING & ALTER TABLE-4.png",
-    "KDT/DB/assets/03. Basic Func & GROUP BY & HAVING & ALTER TABLE-3.png",
     "KDT/Web/08. Javascript.md",
     "ALgorithm (code)/BFS 문제.md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
@@ -227,7 +228,6 @@
     "KDT/DB",
     "KDT/Web/10. Event.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
-    "KDT/Web/09. ECMA Script.md",
     "ALgorithm (code)/assets",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "MDN/assets",

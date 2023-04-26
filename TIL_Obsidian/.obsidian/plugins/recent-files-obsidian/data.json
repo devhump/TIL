@@ -5,6 +5,10 @@
       "path": "devhump's TIL Index.md"
     },
     {
+      "basename": "06. Modeling",
+      "path": "KDT/DB/06. Modeling.md"
+    },
+    {
       "basename": "05. JOIN+",
       "path": "KDT/DB/05. JOIN+.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "Hot-key for windows",
       "path": "_others_/Hot-key for windows.md"
-    },
-    {
-      "basename": "Hot-key for Mac",
-      "path": "_others_/Hot-key for Mac.md"
     }
   ],
   "omittedPaths": [
