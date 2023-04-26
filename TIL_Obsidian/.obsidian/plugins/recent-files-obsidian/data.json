@@ -1,28 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "IP 주소의 종류",
-      "path": "_others_/IP 주소의 종류.md"
-    },
-    {
-      "basename": "XML, JSON, YAML, AJAX",
-      "path": "_others_/XML, JSON, YAML, AJAX.md"
-    },
-    {
       "basename": "개발 관련 IT 용어 정리",
       "path": "_others_/개발 관련 IT 용어 정리.md"
+    },
+    {
+      "basename": "08. QuerySet API",
+      "path": "KDT/DB/08. QuerySet API.md"
     },
     {
       "basename": "markdown for Obsidian",
       "path": "_others_/obsidian/markdown for Obsidian.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "XML, JSON, YAML, AJAX",
+      "path": "_others_/XML, JSON, YAML, AJAX.md"
     },
     {
-      "basename": "08. QuerySet API",
-      "path": "KDT/DB/08. QuerySet API.md"
+      "basename": "IP 주소의 종류",
+      "path": "_others_/IP 주소의 종류.md"
+    },
+    {
+      "basename": "요청 메소드와 응답코드",
+      "path": "_others_/요청 메소드와 응답코드.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "07. ORM",
@@ -75,10 +79,6 @@
     {
       "basename": "08. Javascript",
       "path": "KDT/Web/08. Javascript.md"
-    },
-    {
-      "basename": "BFS 문제",
-      "path": "ALgorithm (code)/BFS 문제.md"
     }
   ],
   "omittedPaths": [
