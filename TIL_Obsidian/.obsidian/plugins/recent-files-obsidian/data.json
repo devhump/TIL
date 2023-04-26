@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "IP 주소의 종류",
+      "path": "_others_/IP 주소의 종류.md"
+    },
+    {
       "basename": "XML, JSON, YAML, AJAX",
       "path": "_others_/XML, JSON, YAML, AJAX.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "BFS 문제",
       "path": "ALgorithm (code)/BFS 문제.md"
-    },
-    {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
     }
   ],
   "omittedPaths": [
