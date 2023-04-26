@@ -5,6 +5,10 @@
       "path": "devhump's TIL Index.md"
     },
     {
+      "basename": "05. JOIN+",
+      "path": "KDT/DB/05. JOIN+.md"
+    },
+    {
       "basename": "더 공부해 볼 주제",
       "path": "더 공부해 볼 주제.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "Hot-key for Mac",
       "path": "_others_/Hot-key for Mac.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "무제 파일.md"
     }
   ],
   "omittedPaths": [

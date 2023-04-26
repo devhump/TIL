@@ -21,6 +21,19 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "6df5f5b2adfc8471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/DB/05. JOIN+.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -178,8 +191,16 @@
   },
   "active": "4f8ed3c371cbde37",
   "lastOpenFiles": [
-    "더 공부해 볼 주제.md",
+    "KDT/DB/05. JOIN+.md",
+    "KDT/DB/assets/05. JOIN+-7.png",
+    "KDT/DB/assets/05. JOIN+-6.png",
+    "KDT/DB/assets/05. JOIN+-5.png",
+    "KDT/DB/assets/05. JOIN+-4.png",
+    "KDT/DB/assets/05. JOIN+-3.png",
+    "KDT/DB/assets/05. JOIN+-2.png",
     "devhump's TIL Index.md",
+    "KDT/DB/assets/05. JOIN+-1.png",
+    "더 공부해 볼 주제.md",
     "KDT/DB/04. CASE & SubQuery.md",
     "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
     "ALgorithm (code)/시뮬레이션.md",
@@ -191,14 +212,8 @@
     "KDT/DB/02. WHERE & LIKE & ORDER BY.md",
     "KDT/DB/assets/03. Basic Func & GROUP BY & HAVING & ALTER TABLE-4.png",
     "KDT/DB/assets/03. Basic Func & GROUP BY & HAVING & ALTER TABLE-3.png",
-    "KDT/DB/assets/03. Basic Func & GROUP BY & HAVING & ALTER TABLE-2.png",
-    "KDT/DB/assets/03. Basic Func & GROUP BY & HAVING & ALTER TABLE-1.png",
     "KDT/Web/08. Javascript.md",
-    "KDT/DB/assets/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.png",
-    "KDT/DB/assets/02. WHERE.png",
     "ALgorithm (code)/BFS 문제.md",
-    "ALgorithm (code)/assets/code (1).png",
-    "ALgorithm (code)/assets/BFS 문제.png",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "ALgorithm (code)/델타 탐색 문제.md",
     "ALgorithm (code)/문자열 치환 하기.md",
@@ -206,7 +221,6 @@
     "_others_/Hot-key (VS Code).md",
     "_others_/Hot-key for windows.md",
     "_others_/Hot-key for Mac.md",
-    "KDT/DB/assets/01. DB & RDBMS & SQL CRUD-11.png",
     "무제 파일.md",
     "KDT/DB/assets",
     "KDT/무제 파일.md",
@@ -214,8 +228,6 @@
     "KDT/Web/10. Event.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
     "KDT/Web/09. ECMA Script.md",
-    "_others_/obsidian/markdown for Obsidian.md",
-    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "ALgorithm (code)/assets",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "MDN/assets",
