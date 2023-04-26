@@ -23,6 +23,19 @@
             }
           },
           {
+            "id": "4c90aac1b570999b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/DB/08. QuerySet API.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6fcc213d75712d93",
             "type": "leaf",
             "state": {
@@ -48,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "KDT/DB/08. QuerySet API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "KDT/DB/08. QuerySet API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "KDT/DB/08. QuerySet API.md"
               }
             }
           }
@@ -202,8 +216,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f8ed3c371cbde37",
+  "active": "4c90aac1b570999b",
   "lastOpenFiles": [
+    "KDT/DB/assets/08. QuerySet API.png",
+    "devhump's TIL Index.md",
+    "KDT/DB/08. QuerySet API.md",
     "KDT/DB/07. ORM.md",
     "KDT/DB/assets/07. ORM-3.png",
     "KDT/DB/assets/07. ORM-2.png",
@@ -211,7 +228,6 @@
     "KDT/DB/06. Modeling.md",
     "KDT/DB/assets/06. Modeling-1.png",
     "KDT/DB/assets/07. ORM.png",
-    "devhump's TIL Index.md",
     "KDT/DB/05. JOIN+.md",
     "KDT/DB/assets/06. Modeling.png",
     "KDT/DB/assets/er-diagram-erd-tool-lucidchart-regarding-erd-lines.jpg",
@@ -240,7 +256,6 @@
     "KDT/DB/assets",
     "KDT/무제 파일.md",
     "KDT/DB",
-    "KDT/Web/10. Event.md",
     "ALgorithm (code)/assets",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "MDN/assets",

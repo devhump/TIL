@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "08. QuerySet API",
+      "path": "KDT/DB/08. QuerySet API.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "BOJ_9455 박스",
       "path": "ALgorithm (code)/BOJ_9455 박스.md"
-    },
-    {
-      "basename": "Hot-key (VS Code)",
-      "path": "_others_/Hot-key (VS Code).md"
     }
   ],
   "omittedPaths": [
