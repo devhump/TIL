@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "08. QuerySet API",
-      "path": "KDT/DB/08. QuerySet API.md"
+      "basename": "XML, JSON, YAML, AJAX",
+      "path": "_others_/XML, JSON, YAML, AJAX.md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "_others_/obsidian/markdown for Obsidian.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "08. QuerySet API",
+      "path": "KDT/DB/08. QuerySet API.md"
     },
     {
       "basename": "07. ORM",
@@ -67,18 +79,6 @@
     {
       "basename": "05. 깊이 우선 탐색(DFS)",
       "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
-      "basename": "델타 탐색 문제",
-      "path": "ALgorithm (code)/델타 탐색 문제.md"
-    },
-    {
-      "basename": "문자열 치환 하기",
-      "path": "ALgorithm (code)/문자열 치환 하기.md"
-    },
-    {
-      "basename": "BOJ_9455 박스",
-      "path": "ALgorithm (code)/BOJ_9455 박스.md"
     }
   ],
   "omittedPaths": [
