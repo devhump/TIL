@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "BFS 문제",
+      "path": "ALgorithm (code)/BFS 문제.md"
+    },
+    {
+      "basename": "05. 문자열 (String)",
+      "path": "KDT/Data structure/05. 문자열 (String).md"
+    },
+    {
+      "basename": "03. Basic Func & GROUP BY & HAVING & ALTER TABLE",
+      "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
+    },
+    {
+      "basename": "DFS 문제",
+      "path": "ALgorithm (code)/DFS 문제.md"
+    },
+    {
       "basename": "파이썬 04. 데이터 구조 (Data Structure)",
       "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
+    },
+    {
+      "basename": "05. 깊이 우선 탐색(DFS)",
+      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
+    },
+    {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "09. DFS 와 BFS 기초 문제 풀이",
+      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
       "basename": "파이썬 05. 에러&예외 처리 (Error & Exception Handling)",
@@ -29,18 +65,6 @@
       "path": "KDT/Python/파이썬 01. Python 기초.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
-      "basename": "BFS 문제",
-      "path": "ALgorithm (code)/BFS 문제.md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
-    },
-    {
       "basename": "델타 탐색 문제",
       "path": "ALgorithm (code)/델타 탐색 문제.md"
     },
@@ -49,36 +73,12 @@
       "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
     },
     {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
       "basename": "시뮬레이션",
       "path": "ALgorithm (code)/시뮬레이션.md"
     },
     {
       "basename": "BOJ_9455 박스",
       "path": "ALgorithm (code)/BOJ_9455 박스.md"
-    },
-    {
-      "basename": "04. 그래프(Graph)",
-      "path": "KDT/Algorithm/04. 그래프(Graph).md"
-    },
-    {
-      "basename": "무방향 & 유방향 그래프 표현하기",
-      "path": "ALgorithm (code)/무방향 & 유방향 그래프 표현하기.md"
-    },
-    {
-      "basename": "XML, JSON, YAML, AJAX",
-      "path": "_others_/XML, JSON, YAML, AJAX.md"
-    },
-    {
-      "basename": "IP 주소의 종류",
-      "path": "_others_/IP 주소의 종류.md"
-    },
-    {
-      "basename": "markdown for Obsidian",
-      "path": "_others_/obsidian/markdown for Obsidian.md"
     }
   ],
   "omittedPaths": [
