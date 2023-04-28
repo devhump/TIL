@@ -23,25 +23,12 @@
             }
           },
           {
-            "id": "a3c0c91073421eed",
+            "id": "5ecfca7fc5f0bbb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45bd08e66781fc49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
+                "file": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -81,7 +68,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md",
+                "file": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md",
+                "file": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md"
+                "file": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
               }
             }
           }
@@ -203,44 +190,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a3c0c91073421eed",
+  "active": "5ecfca7fc5f0bbb7",
   "lastOpenFiles": [
+    "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md",
+    "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
+    "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
+    "KDT/Python/assets/파이썬 06. 객체지향 프로그래밍(OOP).png",
+    "KDT/Python/assets/파이썬 05. 에러&예외 처리 (Error & Exception Handling).png",
+    "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
+    "KDT/Python/파이썬 07. 클래스(Class).md",
+    "KDT/Python/assets/파이썬 04. 데이터 구조 (Data Structure)-1.png",
+    "KDT/Python/assets/파이썬 04. 데이터 구조 (Data Structure).png",
+    "KDT/Python/파이썬 03. 함수(Funtion).md",
+    "KDT/Python/assets/파이썬 03. 함수(Funtion).png",
+    "KDT/Python/파이썬 01. Python 기초.md",
+    "devhump's TIL Index.md",
+    "ALgorithm (code)/BFS 문제.md",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
+    "무제 파일 1.md",
+    "무제 파일.md",
     "ALgorithm (code)/델타 탐색 문제.md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "Algorithm (theory)/08. DFS & BFS.md",
-    "ALgorithm (code)/BFS 문제.md",
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "ALgorithm (code)/시뮬레이션.md",
     "ALgorithm (code)/BOJ_9455 박스.md",
     "KDT/Algorithm/04. 그래프(Graph).md",
     "ALgorithm (code)/무방향 & 유방향 그래프 표현하기.md",
-    "devhump's TIL Index.md",
     "_others_/XML, JSON, YAML, AJAX.md",
     "_others_/IP 주소의 종류.md",
     "_others_/obsidian/markdown for Obsidian.md",
     "_others_/요청 메소드와 응답코드.md",
     "_others_/알고리즘 TIP.md",
     "_others_/Hot-key for windows.md",
-    "_others_/개발 관련 IT 용어 정리.md",
-    "KDT/DB/08. QuerySet API.md",
-    "KDT/DB/07. ORM.md",
     "KDT/DB/assets/08. QuerySet API.png",
     "KDT/DB/assets/07. ORM-3.png",
     "KDT/DB/assets/07. ORM-2.png",
     "KDT/DB/assets/07. ORM-1.png",
-    "KDT/DB/06. Modeling.md",
     "KDT/DB/assets/06. Modeling-1.png",
-    "KDT/DB/assets/07. ORM.png",
-    "KDT/DB/05. JOIN+.md",
-    "KDT/DB/assets/06. Modeling.png",
-    "KDT/DB/assets/er-diagram-erd-tool-lucidchart-regarding-erd-lines.jpg",
-    "KDT/DB/assets/05. JOIN+-7.png",
-    "KDT/DB/assets/05. JOIN+-6.png",
-    "더 공부해 볼 주제.md",
-    "KDT/DB/04. CASE & SubQuery.md",
-    "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
-    "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
-    "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",
