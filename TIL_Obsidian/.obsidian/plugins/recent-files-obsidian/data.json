@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
+      "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
+    },
+    {
+      "basename": "copy — 얕은 복사와 깊은 복사 연산",
+      "path": "Python/copy — 얕은 복사와 깊은 복사 연산.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "BFS 문제",
       "path": "ALgorithm (code)/BFS 문제.md"
     },
@@ -33,20 +45,12 @@
       "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
       "basename": "01. 스택과 큐(Stack & Que)",
       "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
       "basename": "파이썬 05. 에러&예외 처리 (Error & Exception Handling)",
       "path": "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md"
-    },
-    {
-      "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
-      "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
     },
     {
       "basename": "파이썬 08. 파이썬 응용,심화(python advanced)",
@@ -75,10 +79,6 @@
     {
       "basename": "시뮬레이션",
       "path": "ALgorithm (code)/시뮬레이션.md"
-    },
-    {
-      "basename": "BOJ_9455 박스",
-      "path": "ALgorithm (code)/BOJ_9455 박스.md"
     }
   ],
   "omittedPaths": [
