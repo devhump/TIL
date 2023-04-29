@@ -1,5 +1,5 @@
 for _ in range(3):
-    s = str(input())
+    s = input()
     mymax = 1
     cnt = 1
     for i in range(1,len(s)):
