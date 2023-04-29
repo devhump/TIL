@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "BFS 문제",
+      "path": "ALgorithm (code)/BFS 문제.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "05. 깊이 우선 탐색(DFS)",
+      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
+    },
+    {
+      "basename": "DFS 문제",
+      "path": "ALgorithm (code)/DFS 문제.md"
+    },
+    {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "09. DFS 와 BFS 기초 문제 풀이",
+      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
+    },
+    {
       "basename": "파이썬 07. 클래스(Class)",
       "path": "KDT/Python/파이썬 07. 클래스(Class).md"
+    },
+    {
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
+    },
+    {
+      "basename": "04. 그래프(Graph)",
+      "path": "KDT/Algorithm/04. 그래프(Graph).md"
+    },
+    {
+      "basename": "03. 트리(tree)",
+      "path": "Algorithm (theory)/03. 트리(tree).md"
+    },
+    {
+      "basename": "02. 우선순위 큐(Priority Queue)",
+      "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
     },
     {
       "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
@@ -13,14 +53,6 @@
       "path": "Python/copy — 얕은 복사와 깊은 복사 연산.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
-      "basename": "BFS 문제",
-      "path": "ALgorithm (code)/BFS 문제.md"
-    },
-    {
       "basename": "05. 문자열 (String)",
       "path": "KDT/Data structure/05. 문자열 (String).md"
     },
@@ -29,24 +61,8 @@
       "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
     },
     {
-      "basename": "DFS 문제",
-      "path": "ALgorithm (code)/DFS 문제.md"
-    },
-    {
       "basename": "파이썬 04. 데이터 구조 (Data Structure)",
       "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
-    },
-    {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "09. DFS 와 BFS 기초 문제 풀이",
-      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
     },
     {
       "basename": "01. 스택과 큐(Stack & Que)",
@@ -63,18 +79,6 @@
     {
       "basename": "파이썬 03. 함수(Funtion)",
       "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
-    },
-    {
-      "basename": "파이썬 01. Python 기초",
-      "path": "KDT/Python/파이썬 01. Python 기초.md"
-    },
-    {
-      "basename": "델타 탐색 문제",
-      "path": "ALgorithm (code)/델타 탐색 문제.md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
     }
   ],
   "omittedPaths": [

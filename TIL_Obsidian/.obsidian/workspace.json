@@ -23,13 +23,13 @@
             }
           },
           {
-            "id": "48ec7914afc7c38d",
+            "id": "25901e0ce108037b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
-                "mode": "source",
+                "file": "ALgorithm (code)/BFS 문제.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -68,7 +68,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -90,11 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 207.5
   },
   "right": {
     "id": "72535583ef42991f",
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
+                "file": "ALgorithm (code)/BFS 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
+                "file": "ALgorithm (code)/BFS 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Python/파이썬 07. 클래스(Class).md"
+                "file": "ALgorithm (code)/BFS 문제.md"
               }
             }
           }
@@ -190,12 +191,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "48ec7914afc7c38d",
+  "active": "25901e0ce108037b",
   "lastOpenFiles": [
+    "devhump's TIL Index.md",
+    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
+    "ALgorithm (code)/BFS 문제.md",
+    "ALgorithm (code)/DFS 문제.md",
+    "Algorithm (theory)/08. DFS & BFS.md",
+    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
+    "KDT/Python/파이썬 07. 클래스(Class).md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "KDT/Algorithm/04. 그래프(Graph).md",
+    "Algorithm (theory)/03. 트리(tree).md",
+    "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
     "KDT/Python/assets/파이썬 07. 클래스(Class)-2.png",
     "KDT/Python/assets/파이썬 07. 클래스(Class)-1.png",
     "KDT/Python/assets/파이썬 07. 클래스(Class)-1.png",
-    "KDT/Python/파이썬 07. 클래스(Class).md",
     "KDT/Python/assets/파이썬 07. 클래스(Class).png",
     "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
     "KDT/Python/assets/파이썬 06. 객체지향 프로그래밍(OOP)-4.png",
@@ -204,30 +215,20 @@
     "KDT/Python/assets/파이썬 06. 객체지향 프로그래밍(OOP)-2.png",
     "KDT/Python/assets/파이썬 06. 객체지향 프로그래밍(OOP)-2.png",
     "KDT/Python/assets/파이썬 06. 객체지향 프로그래밍(OOP)-1.png",
-    "devhump's TIL Index.md",
-    "ALgorithm (code)/BFS 문제.md",
     "KDT/Data structure/05. 문자열 (String).md",
     "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
-    "ALgorithm (code)/DFS 문제.md",
     "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
-    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
-    "Algorithm (theory)/08. DFS & BFS.md",
-    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
     "ALgorithm (code)/assets/DFS 문제.png",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md",
-    "KDT/Python/assets/파이썬 06. 객체지향 프로그래밍(OOP).png",
     "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
     "KDT/Python/파이썬 03. 함수(Funtion).md",
     "KDT/Python/파이썬 01. Python 기초.md",
     "무제 파일 1.md",
     "무제 파일.md",
     "ALgorithm (code)/델타 탐색 문제.md",
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "ALgorithm (code)/시뮬레이션.md",
     "ALgorithm (code)/BOJ_9455 박스.md",
-    "KDT/Algorithm/04. 그래프(Graph).md",
-    "ALgorithm (code)/무방향 & 유방향 그래프 표현하기.md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",
