@@ -23,13 +23,13 @@
             }
           },
           {
-            "id": "25901e0ce108037b",
+            "id": "b453dbb3755ff17a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md",
-                "mode": "preview",
+                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -90,12 +90,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 207.5,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md",
+                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md",
+                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md"
+                "file": "KDT/Python/파이썬 07. 클래스(Class).md"
               }
             }
           }
@@ -191,15 +191,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25901e0ce108037b",
+  "active": "b453dbb3755ff17a",
   "lastOpenFiles": [
     "devhump's TIL Index.md",
-    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
+    "KDT/Python/파이썬 03. 함수(Funtion).md",
+    "KDT/Python/파이썬 07. 클래스(Class).md",
+    "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
     "ALgorithm (code)/BFS 문제.md",
+    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "ALgorithm (code)/DFS 문제.md",
     "Algorithm (theory)/08. DFS & BFS.md",
     "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
-    "KDT/Python/파이썬 07. 클래스(Class).md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "KDT/Algorithm/04. 그래프(Graph).md",
     "Algorithm (theory)/03. 트리(tree).md",
@@ -208,7 +210,6 @@
     "KDT/Python/assets/파이썬 07. 클래스(Class)-1.png",
     "KDT/Python/assets/파이썬 07. 클래스(Class)-1.png",
     "KDT/Python/assets/파이썬 07. 클래스(Class).png",
-    "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
     "KDT/Python/assets/파이썬 06. 객체지향 프로그래밍(OOP)-4.png",
     "Python/copy — 얕은 복사와 깊은 복사 연산.md",
     "KDT/Python/assets/파이썬 06. 객체지향 프로그래밍(OOP)-3.png",
@@ -222,7 +223,6 @@
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md",
     "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
-    "KDT/Python/파이썬 03. 함수(Funtion).md",
     "KDT/Python/파이썬 01. Python 기초.md",
     "무제 파일 1.md",
     "무제 파일.md",

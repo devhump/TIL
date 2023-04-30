@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "BFS 문제",
-      "path": "ALgorithm (code)/BFS 문제.md"
+      "basename": "파이썬 07. 클래스(Class)",
+      "path": "KDT/Python/파이썬 07. 클래스(Class).md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "파이썬 03. 함수(Funtion)",
+      "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
+    },
+    {
+      "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
+      "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
+    },
+    {
+      "basename": "BFS 문제",
+      "path": "ALgorithm (code)/BFS 문제.md"
     },
     {
       "basename": "05. 깊이 우선 탐색(DFS)",
@@ -25,10 +37,6 @@
       "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
     },
     {
-      "basename": "파이썬 07. 클래스(Class)",
-      "path": "KDT/Python/파이썬 07. 클래스(Class).md"
-    },
-    {
       "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
       "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "02. 우선순위 큐(Priority Queue)",
       "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
-    },
-    {
-      "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
-      "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
     },
     {
       "basename": "copy — 얕은 복사와 깊은 복사 연산",
@@ -75,10 +79,6 @@
     {
       "basename": "파이썬 08. 파이썬 응용,심화(python advanced)",
       "path": "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md"
-    },
-    {
-      "basename": "파이썬 03. 함수(Funtion)",
-      "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
     }
   ],
   "omittedPaths": [
