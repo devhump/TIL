@@ -23,20 +23,46 @@
             }
           },
           {
-            "id": "b453dbb3755ff17a",
+            "id": "457b23f5ebc0a270",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
+                "file": "ALgorithm (code)/BFS & DFS.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a37a67434b4a3a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_others_/templates/BOJ_백준 문제_template.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3257ac84b1e0f78b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -65,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "find",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -90,12 +116,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 207.5,
-    "collapsed": true
+    "width": 207.5
   },
   "right": {
     "id": "72535583ef42991f",
@@ -138,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
+                "file": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Python/파이썬 07. 클래스(Class).md",
+                "file": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,16 +193,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Python/파이썬 07. 클래스(Class).md"
+                "file": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,17 +217,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b453dbb3755ff17a",
+  "active": "3257ac84b1e0f78b",
   "lastOpenFiles": [
+    "ALgorithm (code)/BFS & DFS.md",
+    "_others_/templates/BOJ_백준 문제_template.md",
     "devhump's TIL Index.md",
-    "KDT/Python/파이썬 03. 함수(Funtion).md",
-    "KDT/Python/파이썬 07. 클래스(Class).md",
-    "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
-    "ALgorithm (code)/BFS 문제.md",
+    "ALgorithm (code)/assets/BFS & DFS.png",
+    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
+    "Algorithm (theory)/08. DFS & BFS.md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "ALgorithm (code)/DFS 문제.md",
-    "Algorithm (theory)/08. DFS & BFS.md",
-    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
+    "ALgorithm (code)/BOJ_9455 박스.md",
+    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+    "KDT/Python/파이썬 07. 클래스(Class).md",
+    "KDT/Python/파이썬 03. 함수(Funtion).md",
+    "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "KDT/Algorithm/04. 그래프(Graph).md",
     "Algorithm (theory)/03. 트리(tree).md",
@@ -219,16 +249,12 @@
     "KDT/Data structure/05. 문자열 (String).md",
     "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
     "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
-    "ALgorithm (code)/assets/DFS 문제.png",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md",
     "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
     "KDT/Python/파이썬 01. Python 기초.md",
     "무제 파일 1.md",
     "무제 파일.md",
-    "ALgorithm (code)/델타 탐색 문제.md",
-    "ALgorithm (code)/시뮬레이션.md",
-    "ALgorithm (code)/BOJ_9455 박스.md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",

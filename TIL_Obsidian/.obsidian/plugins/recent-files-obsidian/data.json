@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "파이썬 07. 클래스(Class)",
-      "path": "KDT/Python/파이썬 07. 클래스(Class).md"
+      "basename": "파이썬 04. 데이터 구조 (Data Structure)",
+      "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
+    },
+    {
+      "basename": "BFS & DFS",
+      "path": "ALgorithm (code)/BFS & DFS.md"
+    },
+    {
+      "basename": "BOJ_백준 문제_template",
+      "path": "_others_/templates/BOJ_백준 문제_template.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "09. DFS 와 BFS 기초 문제 풀이",
+      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
+    },
+    {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "05. 깊이 우선 탐색(DFS)",
+      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
+    },
+    {
+      "basename": "BOJ_9455 박스",
+      "path": "ALgorithm (code)/BOJ_9455 박스.md"
+    },
+    {
+      "basename": "03. 완전탐색  I (Exhaustive Search)",
+      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
+    },
+    {
+      "basename": "파이썬 07. 클래스(Class)",
+      "path": "KDT/Python/파이썬 07. 클래스(Class).md"
     },
     {
       "basename": "파이썬 03. 함수(Funtion)",
@@ -15,26 +47,6 @@
     {
       "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
       "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
-    },
-    {
-      "basename": "BFS 문제",
-      "path": "ALgorithm (code)/BFS 문제.md"
-    },
-    {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
-      "basename": "DFS 문제",
-      "path": "ALgorithm (code)/DFS 문제.md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "09. DFS 와 BFS 기초 문제 풀이",
-      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
     },
     {
       "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
@@ -65,20 +77,8 @@
       "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
     },
     {
-      "basename": "파이썬 04. 데이터 구조 (Data Structure)",
-      "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
-    },
-    {
       "basename": "01. 스택과 큐(Stack & Que)",
       "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
-    },
-    {
-      "basename": "파이썬 05. 에러&예외 처리 (Error & Exception Handling)",
-      "path": "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md"
-    },
-    {
-      "basename": "파이썬 08. 파이썬 응용,심화(python advanced)",
-      "path": "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md"
     }
   ],
   "omittedPaths": [

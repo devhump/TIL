@@ -32,6 +32,7 @@ visited = [False] * (num+1)
 res = [0] * (num+1) # todo 여기서 촌수 리스트를 만들면서 0으로 초기화 
 
 bfs(a)
+print(res)
 
 # print(res)
 
