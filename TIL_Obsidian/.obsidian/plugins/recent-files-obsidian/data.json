@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "파이썬 04. 데이터 구조 (Data Structure)",
       "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "BOJ_백준 문제_template",
       "path": "_others_/templates/BOJ_백준 문제_template.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "09. DFS 와 BFS 기초 문제 풀이",
