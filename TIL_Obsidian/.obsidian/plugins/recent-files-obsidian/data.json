@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "02. request & response",
+      "path": "KDT/Django/02. request & response.md"
+    },
+    {
       "basename": "01. Django Intro",
       "path": "KDT/Django/01. Django Intro.md"
     },
     {
       "basename": "markdown (마크다운) +",
       "path": "KDT/markdown & git/markdown (마크다운) +.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "파이썬 07. 클래스(Class)",

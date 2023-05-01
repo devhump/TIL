@@ -57,6 +57,7 @@
 
 #### Django
 - [01. Django Intro](KDT/Django/01.%20Django%20Intro.md)
+- [02. request & response](KDT/Django/02.%20request%20&%20response.md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
 - **스택 & 큐**

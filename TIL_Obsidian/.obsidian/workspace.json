@@ -34,9 +34,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a77363294fcce927",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Django/02. request & response.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/01. Django Intro.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/01. Django Intro.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Django/01. Django Intro.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
@@ -191,11 +203,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cda7f735ccac8a2c",
+  "active": "4f8ed3c371cbde37",
   "lastOpenFiles": [
+    "KDT/Django/02. request & response.md",
+    "KDT/Django/assets/02. request & response-2.png",
+    "KDT/Django/assets/02. request & response-1.png",
+    "KDT/Django/assets/02. request & response.png",
+    "KDT/Django/01. Django Intro.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
     "devhump's TIL Index.md",
-    "KDT/Django/01. Django Intro.md",
     "KDT/Django/assets/01. Django Intro-36.png",
     "KDT/Django/assets/01. Django Intro-35.png",
     "KDT/Django/assets/01. Django Intro-33.png",
@@ -203,9 +219,6 @@
     "KDT/Django/assets/01. Django Intro-34.png",
     "KDT/Django/assets/01. Django Intro-17.png",
     "KDT/Django/assets/01. Django Intro-16.png",
-    "KDT/Django/assets/01. Django Intro-15.png",
-    "KDT/Django/assets/01. Django Intro-14.png",
-    "KDT/Django/assets/01. Django Intro-13.png",
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/Python/파이썬 07. 클래스(Class).md",
@@ -229,7 +242,6 @@
     "KDT/Data structure/05. 문자열 (String).md",
     "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
-    "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",
