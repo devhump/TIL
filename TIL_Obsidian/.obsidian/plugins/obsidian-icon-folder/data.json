@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiDjango",
       "SiStackoverflow",
       "SiSqlite",
       "🦊",
@@ -43,5 +44,6 @@
   "KDT/Web": "IbEarth",
   "MDN": "🦊",
   "KDT/DB": "SiSqlite",
-  "KDT/Data structure": "SiStackoverflow"
+  "KDT/Data structure": "SiStackoverflow",
+  "KDT/Django": "SiDjango"
 }

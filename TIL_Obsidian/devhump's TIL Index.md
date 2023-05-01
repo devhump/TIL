@@ -41,6 +41,7 @@
 - [05. JOIN+](KDT/DB/05.%20JOIN+.md)
 - [06. Modeling](KDT/DB/06.%20Modeling.md)
 - [07. ORM](KDT/DB/07.%20ORM.md)
+- [08. QuerySet API](KDT/DB/08.%20QuerySet%20API.md)
 
 #### Web
 - [01. Happy Web](KDT/Web/01.%20Happy%20Web.md)
@@ -53,6 +54,9 @@
 - [08. Javascript](KDT/Web/08.%20Javascript.md)
 - [09. ECMA Script](KDT/Web/09.%20ECMA%20Script.md)
 - [10. Event](KDT/Web/10.%20Event.md)
+
+#### Django
+- [01. Django Intro](KDT/Django/01.%20Django%20Intro.md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
 - **스택 & 큐**
