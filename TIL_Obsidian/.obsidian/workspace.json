@@ -23,32 +23,20 @@
             }
           },
           {
-            "id": "08508cb88a38427c",
+            "id": "09ff9c9752f77ad6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Django/01. Django Intro.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cda7f735ccac8a2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Django/03. Variable Routing.md",
+                "file": "KDT/Django/04. App URL mapping & Template namespace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "KDT/Django/04. App URL mapping & Template namespace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "KDT/Django/04. App URL mapping & Template namespace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "KDT/Django/04. App URL mapping & Template namespace.md"
               }
             }
           }
@@ -211,23 +199,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f8ed3c371cbde37",
+  "active": "09ff9c9752f77ad6",
   "lastOpenFiles": [
-    "KDT/Django/03. Variable Routing.md",
-    "KDT/Django/01. Django Intro.md",
-    "KDT/Django/assets/03. Variable Routing-5.png",
-    "KDT/Django/assets/03. Variable Routing-4.png",
-    "KDT/Django/assets/03. Variable Routing-3.png",
-    "KDT/Django/assets/03. Variable Routing-2.png",
+    "KDT/Django/assets/04. App URL mapping-6.png",
+    "KDT/Django/assets/04. App URL mapping-5.png",
+    "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md",
     "KDT/Django/02. request & response.md",
+    "KDT/Django/01. Django Intro.md",
+    "KDT/Django/04. App URL mapping & Template namespace.md",
     "devhump's TIL Index.md",
-    "KDT/Django/assets/03. Variable Routing-1.png",
-    "KDT/Django/assets/03. Variable Routing.png",
-    "KDT/Django/assets/02. request & response-2.png",
-    "KDT/Django/assets/02. request & response-1.png",
-    "KDT/Django/assets/02. request & response.png",
+    "KDT/Django/assets/04. App URL mapping-4.png",
+    "KDT/Django/assets/04. App URL mapping-3.png",
+    "KDT/Django/assets/04. App URL mapping-2.png",
+    "KDT/Django/assets/04. App URL mapping-1.png",
+    "KDT/Django/assets/04. App URL mapping.png",
+    "KDT/Django/assets/03. Variable Routing-9.png",
+    "KDT/Django/assets/03. Variable Routing-8.png",
+    "KDT/Django/assets/03. Variable Routing-7.png",
+    "KDT/Django/assets/03. Variable Routing-6.png",
     "KDT/markdown & git/markdown (마크다운) +.md",
-    "KDT/Django/assets/01. Django Intro-36.png",
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/Python/파이썬 07. 클래스(Class).md",
@@ -249,7 +239,6 @@
     "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
     "Python/copy — 얕은 복사와 깊은 복사 연산.md",
     "KDT/Data structure/05. 문자열 (String).md",
-    "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",

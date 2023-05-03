@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "04. App URL mapping & Template namespace",
+      "path": "KDT/Django/04. App URL mapping & Template namespace.md"
     },
     {
-      "basename": "03. Variable Routing",
-      "path": "KDT/Django/03. Variable Routing.md"
+      "basename": "03. Variable Routing & Template inheritance & sending-retrieving data",
+      "path": "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md"
+    },
+    {
+      "basename": "02. request & response",
+      "path": "KDT/Django/02. request & response.md"
     },
     {
       "basename": "01. Django Intro",
       "path": "KDT/Django/01. Django Intro.md"
     },
     {
-      "basename": "02. request & response",
-      "path": "KDT/Django/02. request & response.md"
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "markdown (마크다운) +",
@@ -75,10 +79,6 @@
     {
       "basename": "04. 그래프(Graph)",
       "path": "KDT/Algorithm/04. 그래프(Graph).md"
-    },
-    {
-      "basename": "03. 트리(tree)",
-      "path": "Algorithm (theory)/03. 트리(tree).md"
     }
   ],
   "omittedPaths": [
