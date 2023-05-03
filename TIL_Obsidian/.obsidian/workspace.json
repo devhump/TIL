@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "cda7f735ccac8a2c",
+            "id": "08508cb88a38427c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "a77363294fcce927",
+            "id": "cda7f735ccac8a2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Django/02. request & response.md",
+                "file": "KDT/Django/03. Variable Routing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,6 +99,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "edbbbffb3f7d4463",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -205,20 +213,21 @@
   },
   "active": "4f8ed3c371cbde37",
   "lastOpenFiles": [
+    "KDT/Django/03. Variable Routing.md",
+    "KDT/Django/01. Django Intro.md",
+    "KDT/Django/assets/03. Variable Routing-5.png",
+    "KDT/Django/assets/03. Variable Routing-4.png",
+    "KDT/Django/assets/03. Variable Routing-3.png",
+    "KDT/Django/assets/03. Variable Routing-2.png",
     "KDT/Django/02. request & response.md",
+    "devhump's TIL Index.md",
+    "KDT/Django/assets/03. Variable Routing-1.png",
+    "KDT/Django/assets/03. Variable Routing.png",
     "KDT/Django/assets/02. request & response-2.png",
     "KDT/Django/assets/02. request & response-1.png",
     "KDT/Django/assets/02. request & response.png",
-    "KDT/Django/01. Django Intro.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
-    "devhump's TIL Index.md",
     "KDT/Django/assets/01. Django Intro-36.png",
-    "KDT/Django/assets/01. Django Intro-35.png",
-    "KDT/Django/assets/01. Django Intro-33.png",
-    "KDT/Django/assets/01. Django Intro-12.png",
-    "KDT/Django/assets/01. Django Intro-34.png",
-    "KDT/Django/assets/01. Django Intro-17.png",
-    "KDT/Django/assets/01. Django Intro-16.png",
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/Python/파이썬 07. 클래스(Class).md",
@@ -241,7 +250,6 @@
     "Python/copy — 얕은 복사와 깊은 복사 연산.md",
     "KDT/Data structure/05. 문자열 (String).md",
     "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",

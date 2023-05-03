@@ -5,12 +5,16 @@
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "02. request & response",
-      "path": "KDT/Django/02. request & response.md"
+      "basename": "03. Variable Routing",
+      "path": "KDT/Django/03. Variable Routing.md"
     },
     {
       "basename": "01. Django Intro",
       "path": "KDT/Django/01. Django Intro.md"
+    },
+    {
+      "basename": "02. request & response",
+      "path": "KDT/Django/02. request & response.md"
     },
     {
       "basename": "markdown (마크다운) +",
@@ -75,10 +79,6 @@
     {
       "basename": "03. 트리(tree)",
       "path": "Algorithm (theory)/03. 트리(tree).md"
-    },
-    {
-      "basename": "02. 우선순위 큐(Priority Queue)",
-      "path": "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md"
     }
   ],
   "omittedPaths": [
