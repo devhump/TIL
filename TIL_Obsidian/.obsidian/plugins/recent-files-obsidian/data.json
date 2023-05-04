@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "XML, JSON, YAML, AJAX",
+      "path": "_others_/XML, JSON, YAML, AJAX.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
+    },
+    {
+      "basename": "알고리즘 TIP",
+      "path": "_others_/알고리즘 TIP.md"
+    },
+    {
+      "basename": "22. DP - problem&solution",
+      "path": "Algorithm (theory)/22. DP - problem&solution.md"
+    },
+    {
+      "basename": "09. DFS 와 BFS 기초 문제 풀이",
+      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
+    },
+    {
+      "basename": "02. request & response",
+      "path": "KDT/Django/02. request & response.md"
+    },
+    {
       "basename": "05. Namespace",
       "path": "KDT/Django/05. Namespace.md"
     },
@@ -11,10 +39,6 @@
     {
       "basename": "01. DB & RDBMS & SQL CRUD",
       "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "04. App URL mapping & Template namespace",
@@ -37,10 +61,6 @@
       "path": "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md"
     },
     {
-      "basename": "02. request & response",
-      "path": "KDT/Django/02. request & response.md"
-    },
-    {
       "basename": "markdown (마크다운) +",
       "path": "KDT/markdown & git/markdown (마크다운) +.md"
     },
@@ -59,26 +79,6 @@
     {
       "basename": "파이썬 05. 에러&예외 처리 (Error & Exception Handling)",
       "path": "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md"
-    },
-    {
-      "basename": "BFS & DFS",
-      "path": "ALgorithm (code)/BFS & DFS.md"
-    },
-    {
-      "basename": "BOJ_백준 문제_template",
-      "path": "_others_/templates/BOJ_백준 문제_template.md"
-    },
-    {
-      "basename": "09. DFS 와 BFS 기초 문제 풀이",
-      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
     }
   ],
   "omittedPaths": [

@@ -1058,7 +1058,7 @@ var require_react_development = __commonJS({
           var dispatcher = resolveDispatcher();
           return dispatcher.useRef(initialValue);
         }
-        function useEffect9(create, deps) {
+        function useEffect10(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useEffect(create, deps);
         }
@@ -1838,7 +1838,7 @@ var require_react_development = __commonJS({
         exports.useContext = useContext7;
         exports.useDebugValue = useDebugValue3;
         exports.useDeferredValue = useDeferredValue;
-        exports.useEffect = useEffect9;
+        exports.useEffect = useEffect10;
         exports.useId = useId2;
         exports.useImperativeHandle = useImperativeHandle;
         exports.useInsertionEffect = useInsertionEffect;
@@ -2393,7 +2393,7 @@ var require_react_dom_development = __commonJS({
         var HostPortal = 4;
         var HostComponent = 5;
         var HostText = 6;
-        var Fragment8 = 7;
+        var Fragment10 = 7;
         var Mode = 8;
         var ContextConsumer = 9;
         var ContextProvider = 10;
@@ -3470,7 +3470,7 @@ var require_react_dom_development = __commonJS({
               return "DehydratedFragment";
             case ForwardRef2:
               return getWrappedName$1(type, type.render, "ForwardRef");
-            case Fragment8:
+            case Fragment10:
               return "Fragment";
             case HostComponent:
               return type;
@@ -5406,7 +5406,7 @@ var require_react_dom_development = __commonJS({
             passiveBrowserEventsSupported = false;
           }
         }
-        function invokeGuardedCallbackProd(name, func, context, a2, b2, c2, d2, e, f2) {
+        function invokeGuardedCallbackProd(name, func, context, a2, b2, c2, d2, e, f3) {
           var funcArgs = Array.prototype.slice.call(arguments, 3);
           try {
             func.apply(context, funcArgs);
@@ -5418,7 +5418,7 @@ var require_react_dom_development = __commonJS({
         {
           if (typeof window !== "undefined" && typeof window.dispatchEvent === "function" && typeof document !== "undefined" && typeof document.createEvent === "function") {
             var fakeNode = document.createElement("react");
-            invokeGuardedCallbackImpl = function invokeGuardedCallbackDev(name, func, context, a2, b2, c2, d2, e, f2) {
+            invokeGuardedCallbackImpl = function invokeGuardedCallbackDev(name, func, context, a2, b2, c2, d2, e, f3) {
               if (typeof document === "undefined" || document === null) {
                 throw new Error("The `document` global was defined when React was initialized, but is not defined anymore. This can happen in a test environment if a component schedules an update from an asynchronous callback, but the test has already finished running. To solve this, you can either unmount the component at the end of your test (and ensure that any asynchronous operations get canceled in `componentWillUnmount`), or you can change the test itself to be asynchronous.");
               }
@@ -5493,12 +5493,12 @@ var require_react_dom_development = __commonJS({
             caughtError = error2;
           }
         };
-        function invokeGuardedCallback(name, func, context, a2, b2, c2, d2, e, f2) {
+        function invokeGuardedCallback(name, func, context, a2, b2, c2, d2, e, f3) {
           hasError = false;
           caughtError = null;
           invokeGuardedCallbackImpl$1.apply(reporter, arguments);
         }
-        function invokeGuardedCallbackAndCatchFirstError(name, func, context, a2, b2, c2, d2, e, f2) {
+        function invokeGuardedCallbackAndCatchFirstError(name, func, context, a2, b2, c2, d2, e, f3) {
           invokeGuardedCallback.apply(this, arguments);
           if (hasError) {
             var error2 = clearCaughtError();
@@ -12835,7 +12835,7 @@ var require_react_dom_development = __commonJS({
             }
           }
           function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-            if (current2 === null || current2.tag !== Fragment8) {
+            if (current2 === null || current2.tag !== Fragment10) {
               var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
               created.return = returnFiber;
               return created;
@@ -13237,7 +13237,7 @@ var require_react_dom_development = __commonJS({
               if (child.key === key) {
                 var elementType = element.type;
                 if (elementType === REACT_FRAGMENT_TYPE) {
-                  if (child.tag === Fragment8) {
+                  if (child.tag === Fragment10) {
                     deleteRemainingChildren(returnFiber, child.sibling);
                     var existing = useFiber(child, element.props.children);
                     existing.return = returnFiber;
@@ -17343,7 +17343,7 @@ var require_react_dom_development = __commonJS({
               var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
               return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
             }
-            case Fragment8:
+            case Fragment10:
               return updateFragment(current2, workInProgress2, renderLanes2);
             case Mode:
               return updateMode(current2, workInProgress2, renderLanes2);
@@ -17615,7 +17615,7 @@ var require_react_dom_development = __commonJS({
             case SimpleMemoComponent:
             case FunctionComponent:
             case ForwardRef2:
-            case Fragment8:
+            case Fragment10:
             case Mode:
             case Profiler:
             case ContextConsumer:
@@ -21829,7 +21829,7 @@ var require_react_dom_development = __commonJS({
           return fiber;
         }
         function createFiberFromFragment(elements, mode, lanes, key) {
-          var fiber = createFiber(Fragment8, elements, key, mode);
+          var fiber = createFiber(Fragment10, elements, key, mode);
           fiber.lanes = lanes;
           return fiber;
         }
@@ -22485,7 +22485,7 @@ var require_react_dom_development = __commonJS({
             unmarkContainerAsRoot(container);
           }
         };
-        function createRoot2(container, options2) {
+        function createRoot3(container, options2) {
           if (!isValidContainer(container)) {
             throw new Error("createRoot(...): Target container is not a DOM element.");
           }
@@ -22844,7 +22844,7 @@ var require_react_dom_development = __commonJS({
               error('You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".');
             }
           }
-          return createRoot2(container, options2);
+          return createRoot3(container, options2);
         }
         function hydrateRoot$1(container, initialChildren, options2) {
           {
@@ -22983,7 +22983,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
-        var useState10 = React10.useState, useEffect9 = React10.useEffect, useLayoutEffect2 = React10.useLayoutEffect, useDebugValue3 = React10.useDebugValue;
+        var useState10 = React10.useState, useEffect10 = React10.useEffect, useLayoutEffect2 = React10.useLayoutEffect, useDebugValue3 = React10.useDebugValue;
         var didWarnOld18Alpha = false;
         var didWarnUncachedGetSnapshot = false;
         function useSyncExternalStore3(subscribe, getSnapshot, getServerSnapshot) {
@@ -23020,7 +23020,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
               });
             }
           }, [subscribe, value, getSnapshot]);
-          useEffect9(function() {
+          useEffect10(function() {
             if (checkIfSnapshotChanged(inst)) {
               forceUpdate({
                 inst
@@ -23093,7 +23093,7 @@ var require_with_selector_development = __commonJS({
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
         var useSyncExternalStore3 = shim.useSyncExternalStore;
-        var useRef7 = React10.useRef, useEffect9 = React10.useEffect, useMemo5 = React10.useMemo, useDebugValue3 = React10.useDebugValue;
+        var useRef7 = React10.useRef, useEffect10 = React10.useEffect, useMemo5 = React10.useMemo, useDebugValue3 = React10.useDebugValue;
         function useSyncExternalStoreWithSelector3(subscribe, getSnapshot, getServerSnapshot, selector, isEqual) {
           var instRef = useRef7(null);
           var inst;
@@ -23150,7 +23150,7 @@ var require_with_selector_development = __commonJS({
             return [getSnapshotWithSelector, getServerSnapshotWithSelector];
           }, [getSnapshot, getServerSnapshot, selector, isEqual]), getSelection = _useMemo[0], getServerSelection = _useMemo[1];
           var value = useSyncExternalStore3(subscribe, getSelection, getServerSelection);
-          useEffect9(function() {
+          useEffect10(function() {
             inst.hasValue = true;
             inst.value = value;
           }, [value]);
@@ -23246,7 +23246,7 @@ var require_react_is_development = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element = REACT_ELEMENT_TYPE;
         var ForwardRef2 = REACT_FORWARD_REF_TYPE;
-        var Fragment8 = REACT_FRAGMENT_TYPE;
+        var Fragment10 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo2 = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -23305,7 +23305,7 @@ var require_react_is_development = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element;
         exports.ForwardRef = ForwardRef2;
-        exports.Fragment = Fragment8;
+        exports.Fragment = Fragment10;
         exports.Lazy = Lazy;
         exports.Memo = Memo2;
         exports.Portal = Portal;
@@ -23513,7 +23513,7 @@ var require_react_is_development2 = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element = REACT_ELEMENT_TYPE;
         var ForwardRef2 = REACT_FORWARD_REF_TYPE;
-        var Fragment8 = REACT_FRAGMENT_TYPE;
+        var Fragment10 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo2 = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -23581,7 +23581,7 @@ var require_react_is_development2 = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element;
         exports.ForwardRef = ForwardRef2;
-        exports.Fragment = Fragment8;
+        exports.Fragment = Fragment10;
         exports.Lazy = Lazy;
         exports.Memo = Memo2;
         exports.Portal = Portal;
@@ -24481,11 +24481,11 @@ var require_react_jsx_runtime_development = __commonJS({
             return jsxWithValidation(type, props, key, false);
           }
         }
-        var jsx60 = jsxWithValidationDynamic;
-        var jsxs26 = jsxWithValidationStatic;
+        var jsx69 = jsxWithValidationDynamic;
+        var jsxs30 = jsxWithValidationStatic;
         exports.Fragment = REACT_FRAGMENT_TYPE;
-        exports.jsx = jsx60;
-        exports.jsxs = jsxs26;
+        exports.jsx = jsx69;
+        exports.jsxs = jsxs30;
       })();
     }
   }
@@ -24571,7 +24571,7 @@ var require_react_is_development3 = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element = REACT_ELEMENT_TYPE;
         var ForwardRef2 = REACT_FORWARD_REF_TYPE;
-        var Fragment8 = REACT_FRAGMENT_TYPE;
+        var Fragment10 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo2 = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -24630,7 +24630,7 @@ var require_react_is_development3 = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element;
         exports.ForwardRef = ForwardRef2;
-        exports.Fragment = Fragment8;
+        exports.Fragment = Fragment10;
         exports.Lazy = Lazy;
         exports.Memo = Memo2;
         exports.Portal = Portal;
@@ -24891,7 +24891,7 @@ var require_factoryWithTypeCheckers = __commonJS({
         this.stack = "";
       }
       PropTypeError.prototype = Error.prototype;
-      function createChainableTypeChecker(validate) {
+      function createChainableTypeChecker(validate2) {
         if (true) {
           var manualPropTypeCallCache = {};
           var manualPropTypeWarningCount = 0;
@@ -24926,7 +24926,7 @@ var require_factoryWithTypeCheckers = __commonJS({
             }
             return null;
           } else {
-            return validate(props, propName, componentName, location, propFullName);
+            return validate2(props, propName, componentName, location, propFullName);
           }
         }
         var chainedCheckType = checkType.bind(null, false);
@@ -24934,7 +24934,7 @@ var require_factoryWithTypeCheckers = __commonJS({
         return chainedCheckType;
       }
       function createPrimitiveTypeChecker(expectedType) {
-        function validate(props, propName, componentName, location, propFullName, secret) {
+        function validate2(props, propName, componentName, location, propFullName, secret) {
           var propValue = props[propName];
           var propType = getPropType(propValue);
           if (propType !== expectedType) {
@@ -24946,13 +24946,13 @@ var require_factoryWithTypeCheckers = __commonJS({
           }
           return null;
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function createAnyTypeChecker() {
         return createChainableTypeChecker(emptyFunctionThatReturnsNull);
       }
       function createArrayOfTypeChecker(typeChecker) {
-        function validate(props, propName, componentName, location, propFullName) {
+        function validate2(props, propName, componentName, location, propFullName) {
           if (typeof typeChecker !== "function") {
             return new PropTypeError("Property `" + propFullName + "` of component `" + componentName + "` has invalid PropType notation inside arrayOf.");
           }
@@ -24969,10 +24969,10 @@ var require_factoryWithTypeCheckers = __commonJS({
           }
           return null;
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function createElementTypeChecker() {
-        function validate(props, propName, componentName, location, propFullName) {
+        function validate2(props, propName, componentName, location, propFullName) {
           var propValue = props[propName];
           if (!isValidElement(propValue)) {
             var propType = getPropType(propValue);
@@ -24980,10 +24980,10 @@ var require_factoryWithTypeCheckers = __commonJS({
           }
           return null;
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function createElementTypeTypeChecker() {
-        function validate(props, propName, componentName, location, propFullName) {
+        function validate2(props, propName, componentName, location, propFullName) {
           var propValue = props[propName];
           if (!ReactIs.isValidElementType(propValue)) {
             var propType = getPropType(propValue);
@@ -24991,10 +24991,10 @@ var require_factoryWithTypeCheckers = __commonJS({
           }
           return null;
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function createInstanceTypeChecker(expectedClass) {
-        function validate(props, propName, componentName, location, propFullName) {
+        function validate2(props, propName, componentName, location, propFullName) {
           if (!(props[propName] instanceof expectedClass)) {
             var expectedClassName = expectedClass.name || ANONYMOUS;
             var actualClassName = getClassName(props[propName]);
@@ -25002,7 +25002,7 @@ var require_factoryWithTypeCheckers = __commonJS({
           }
           return null;
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function createEnumTypeChecker(expectedValues) {
         if (!Array.isArray(expectedValues)) {
@@ -25017,7 +25017,7 @@ var require_factoryWithTypeCheckers = __commonJS({
           }
           return emptyFunctionThatReturnsNull;
         }
-        function validate(props, propName, componentName, location, propFullName) {
+        function validate2(props, propName, componentName, location, propFullName) {
           var propValue = props[propName];
           for (var i2 = 0; i2 < expectedValues.length; i2++) {
             if (is(propValue, expectedValues[i2])) {
@@ -25033,10 +25033,10 @@ var require_factoryWithTypeCheckers = __commonJS({
           });
           return new PropTypeError("Invalid " + location + " `" + propFullName + "` of value `" + String(propValue) + "` " + ("supplied to `" + componentName + "`, expected one of " + valuesString + "."));
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function createObjectOfTypeChecker(typeChecker) {
-        function validate(props, propName, componentName, location, propFullName) {
+        function validate2(props, propName, componentName, location, propFullName) {
           if (typeof typeChecker !== "function") {
             return new PropTypeError("Property `" + propFullName + "` of component `" + componentName + "` has invalid PropType notation inside objectOf.");
           }
@@ -25055,7 +25055,7 @@ var require_factoryWithTypeCheckers = __commonJS({
           }
           return null;
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function createUnionTypeChecker(arrayOfTypeCheckers) {
         if (!Array.isArray(arrayOfTypeCheckers)) {
@@ -25071,7 +25071,7 @@ var require_factoryWithTypeCheckers = __commonJS({
             return emptyFunctionThatReturnsNull;
           }
         }
-        function validate(props, propName, componentName, location, propFullName) {
+        function validate2(props, propName, componentName, location, propFullName) {
           var expectedTypes = [];
           for (var i3 = 0; i3 < arrayOfTypeCheckers.length; i3++) {
             var checker2 = arrayOfTypeCheckers[i3];
@@ -25086,16 +25086,16 @@ var require_factoryWithTypeCheckers = __commonJS({
           var expectedTypesMessage = expectedTypes.length > 0 ? ", expected one of type [" + expectedTypes.join(", ") + "]" : "";
           return new PropTypeError("Invalid " + location + " `" + propFullName + "` supplied to " + ("`" + componentName + "`" + expectedTypesMessage + "."));
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function createNodeChecker() {
-        function validate(props, propName, componentName, location, propFullName) {
+        function validate2(props, propName, componentName, location, propFullName) {
           if (!isNode(props[propName])) {
             return new PropTypeError("Invalid " + location + " `" + propFullName + "` supplied to " + ("`" + componentName + "`, expected a ReactNode."));
           }
           return null;
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function invalidValidatorError(componentName, location, propFullName, key, type) {
         return new PropTypeError(
@@ -25103,7 +25103,7 @@ var require_factoryWithTypeCheckers = __commonJS({
         );
       }
       function createShapeTypeChecker(shapeTypes) {
-        function validate(props, propName, componentName, location, propFullName) {
+        function validate2(props, propName, componentName, location, propFullName) {
           var propValue = props[propName];
           var propType = getPropType(propValue);
           if (propType !== "object") {
@@ -25121,10 +25121,10 @@ var require_factoryWithTypeCheckers = __commonJS({
           }
           return null;
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function createStrictShapeTypeChecker(shapeTypes) {
-        function validate(props, propName, componentName, location, propFullName) {
+        function validate2(props, propName, componentName, location, propFullName) {
           var propValue = props[propName];
           var propType = getPropType(propValue);
           if (propType !== "object") {
@@ -25148,7 +25148,7 @@ var require_factoryWithTypeCheckers = __commonJS({
           }
           return null;
         }
-        return createChainableTypeChecker(validate);
+        return createChainableTypeChecker(validate2);
       }
       function isNode(propValue) {
         switch (typeof propValue) {
@@ -25488,7 +25488,7 @@ var require_stylis = __commonJS({
       var i2 = "@page";
       var u2 = "@media";
       var o2 = "@import";
-      var f2 = "@charset";
+      var f3 = "@charset";
       var l2 = "@viewport";
       var h2 = "@supports";
       var p2 = "@document";
@@ -25679,7 +25679,7 @@ var require_stylis = __commonJS({
       }
       function X2(e2, r4, a3, c3, t3, n3, s3, i3, u3) {
         var o3 = 0;
-        var f3 = 0;
+        var f4 = 0;
         var l3 = s3;
         var h3 = 0;
         var p3 = 0;
@@ -25734,16 +25734,16 @@ var require_stylis = __commonJS({
                 case 0:
                 case 125:
                   d3 = 0;
-                case 59 + f3:
+                case 59 + f4:
                   if (p3 > 0 && M2(y3) - l3)
                     R2(p3 > 32 ? ae(y3 + ";", c3, a3, l3 - 1) : ae(T(y3, " ", "") + ";", c3, a3, l3 - 2), u3);
                   break;
                 case 59:
                   y3 += ";";
                 default:
-                  R2(E3 = ee(y3, r4, a3, o3, f3, t3, i3, k3, g3 = [], x3 = [], l3), n3);
+                  R2(E3 = ee(y3, r4, a3, o3, f4, t3, i3, k3, g3 = [], x3 = [], l3), n3);
                   if (w3 === 123)
-                    if (f3 === 0)
+                    if (f4 === 0)
                       X2(y3, r4, E3, E3, g3, n3, l3, i3, x3);
                     else
                       switch (h3) {
@@ -25756,7 +25756,7 @@ var require_stylis = __commonJS({
                           X2(y3, E3, E3, E3, [""], x3, 0, i3, x3);
                       }
               }
-              o3 = f3 = p3 = 0, b3 = m3 = 1, k3 = y3 = "", l3 = s3;
+              o3 = f4 = p3 = 0, b3 = m3 = 1, k3 = y3 = "", l3 = s3;
               break;
             case 58:
               l3 = 1 + M2(y3), p3 = v3;
@@ -25769,7 +25769,7 @@ var require_stylis = __commonJS({
               }
               switch (y3 += $(w3), w3 * b3) {
                 case 38:
-                  m3 = f3 > 0 ? 1 : (y3 += "\f", -1);
+                  m3 = f4 > 0 ? 1 : (y3 += "\f", -1);
                   break;
                 case 44:
                   i3[o3++] = (M2(y3) - 1) * m3, m3 = 1;
@@ -25777,7 +25777,7 @@ var require_stylis = __commonJS({
                 case 64:
                   if (F2() === 45)
                     y3 += W2(_2());
-                  h3 = F2(), f3 = l3 = M2(k3 = y3 += J(I2())), w3++;
+                  h3 = F2(), f4 = l3 = M2(k3 = y3 += J(I2())), w3++;
                   break;
                 case 45:
                   if (v3 === 45 && M2(y3) == 2)
@@ -25786,7 +25786,7 @@ var require_stylis = __commonJS({
           }
         return n3;
       }
-      function ee(e2, r4, a3, c3, t3, s3, i3, u3, o3, f3, l3) {
+      function ee(e2, r4, a3, c3, t3, s3, i3, u3, o3, f4, l3) {
         var h3 = t3 - 1;
         var p3 = t3 === 0 ? s3 : [""];
         var v3 = S2(p3);
@@ -25794,7 +25794,7 @@ var require_stylis = __commonJS({
           for (var w3 = 0, $2 = C(e2, h3 + 1, h3 = k2(d3 = i3[b3])), g3 = e2; w3 < v3; ++w3)
             if (g3 = E2(d3 > 0 ? p3[w3] + " " + $2 : T($2, /&\f/g, p3[w3])))
               o3[m3++] = g3;
-        return N2(e2, r4, a3, t3 === 0 ? n2 : u3, o3, f3, l3);
+        return N2(e2, r4, a3, t3 === 0 ? n2 : u3, o3, f4, l3);
       }
       function re(e2, r4, a3) {
         return N2(e2, r4, a3, t2, $(j2()), C(e2, 2, -2), 0);
@@ -26013,7 +26013,7 @@ var require_stylis = __commonJS({
             });
         }
       }
-      e.CHARSET = f2;
+      e.CHARSET = f3;
       e.COMMENT = t2;
       e.COUNTER_STYLE = m2;
       e.DECLARATION = s2;
@@ -26617,13 +26617,13 @@ var require_emotion_serialize_cjs_dev = __commonJS({
   "node_modules/@emotion/serialize/dist/emotion-serialize.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var hashString = require_emotion_hash_cjs();
+    var hashString2 = require_emotion_hash_cjs();
     var unitless = require_emotion_unitless_cjs();
     var memoize2 = require_emotion_memoize_cjs();
     function _interopDefault(e) {
       return e && e.__esModule ? e : { "default": e };
     }
-    var hashString__default = /* @__PURE__ */ _interopDefault(hashString);
+    var hashString__default = /* @__PURE__ */ _interopDefault(hashString2);
     var unitless__default = /* @__PURE__ */ _interopDefault(unitless);
     var memoize__default = /* @__PURE__ */ _interopDefault(memoize2);
     var ILLEGAL_ESCAPE_SEQUENCE_ERROR = `You have illegal escape sequence in your template literal, most likely inside content's property value.
@@ -27304,7 +27304,7 @@ var require_emotion_react_cjs_dev = __commonJS({
         }
       }
     };
-    var jsx60 = function jsx61(type, props) {
+    var jsx69 = function jsx70(type, props) {
       var args = arguments;
       if (props == null || !emotionElement.hasOwnProperty.call(props, "css")) {
         return React10.createElement.apply(void 0, args);
@@ -27553,9 +27553,9 @@ var require_emotion_react_cjs_dev = __commonJS({
     exports.withTheme = emotionElement.withTheme;
     exports.ClassNames = ClassNames;
     exports.Global = Global;
-    exports.createElement = jsx60;
+    exports.createElement = jsx69;
     exports.css = css;
-    exports.jsx = jsx60;
+    exports.jsx = jsx69;
     exports.keyframes = keyframes;
   }
 });
@@ -27913,7 +27913,7 @@ __export(main_exports, {
   default: () => NLTPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian8 = require("obsidian");
+var import_obsidian10 = require("obsidian");
 
 // src/NLTSettingsTab.ts
 var import_obsidian = require("obsidian");
@@ -28157,8 +28157,8 @@ function R(n2, r3, t2) {
   var e = s(r3) ? b("MapSet").N(r3, t2) : v(r3) ? b("MapSet").T(r3, t2) : n2.g ? function(n3, r4) {
     var t3 = Array.isArray(n3), e2 = { i: t3 ? 1 : 0, A: r4 ? r4.A : _(), P: false, I: false, D: {}, l: r4, t: n3, k: null, o: null, j: null, C: false }, i2 = e2, o2 = en;
     t3 && (i2 = [e2], o2 = on);
-    var u2 = Proxy.revocable(i2, o2), a2 = u2.revoke, f2 = u2.proxy;
-    return e2.k = f2, e2.j = a2, f2;
+    var u2 = Proxy.revocable(i2, o2), a2 = u2.revoke, f3 = u2.proxy;
+    return e2.k = f3, e2.j = a2, f3;
   }(r3, t2) : b("ES5").J(r3, t2);
   return (t2 ? t2.A : _()).p.push(e), e;
 }
@@ -28192,10 +28192,10 @@ function N() {
     var t3 = s2[n2];
     return t3 ? t3.enumerable = r3 : s2[n2] = t3 = { configurable: true, enumerable: r3, get: function() {
       var r4 = this[Q];
-      return f2(r4), en.get(r4, n2);
+      return f3(r4), en.get(r4, n2);
     }, set: function(r4) {
       var t4 = this[Q];
-      f2(t4), en.set(t4, n2, r4);
+      f3(t4), en.set(t4, n2, r4);
     } }, t3;
   }
   function e(n2) {
@@ -28218,8 +28218,8 @@ function N() {
         var a3 = r3[o3];
         if (void 0 === a3 && !u(r3, o3))
           return true;
-        var f3 = t3[o3], s3 = f3 && f3[Q];
-        if (s3 ? s3.t !== a3 : !c(f3, a3))
+        var f4 = t3[o3], s3 = f4 && f4[Q];
+        if (s3 ? s3.t !== a3 : !c(f4, a3))
           return true;
       }
     }
@@ -28238,7 +28238,7 @@ function N() {
         return true;
     return false;
   }
-  function f2(r3) {
+  function f3(r3) {
     r3.O && n(3, JSON.stringify(p(r3)));
   }
   var s2 = {};
@@ -28252,8 +28252,8 @@ function N() {
       var o4 = rn(r4);
       delete o4[Q];
       for (var u2 = nn(o4), a3 = 0; a3 < u2.length; a3++) {
-        var f3 = u2[a3];
-        o4[f3] = t2(f3, n3 || !!o4[f3].enumerable);
+        var f4 = u2[a3];
+        o4[f4] = t2(f4, n3 || !!o4[f4].enumerable);
       }
       return Object.create(Object.getPrototypeOf(r4), o4);
     }(e2, n2), o3 = { i: e2 ? 5 : 4, A: r3 ? r3.A : _(), P: false, I: false, D: {}, l: r3, t: n2, k: i2, o: null, O: false, C: false };
@@ -28263,22 +28263,22 @@ function N() {
       if (r3 && "object" == typeof r3) {
         var t4 = r3[Q];
         if (t4) {
-          var e2 = t4.t, o4 = t4.k, f3 = t4.D, c2 = t4.i;
+          var e2 = t4.t, o4 = t4.k, f4 = t4.D, c2 = t4.i;
           if (4 === c2)
             i(o4, function(r4) {
-              r4 !== Q && (void 0 !== e2[r4] || u(e2, r4) ? f3[r4] || n3(o4[r4]) : (f3[r4] = true, k(t4)));
+              r4 !== Q && (void 0 !== e2[r4] || u(e2, r4) ? f4[r4] || n3(o4[r4]) : (f4[r4] = true, k(t4)));
             }), i(e2, function(n4) {
-              void 0 !== o4[n4] || u(o4, n4) || (f3[n4] = false, k(t4));
+              void 0 !== o4[n4] || u(o4, n4) || (f4[n4] = false, k(t4));
             });
           else if (5 === c2) {
-            if (a2(t4) && (k(t4), f3.length = true), o4.length < e2.length)
+            if (a2(t4) && (k(t4), f4.length = true), o4.length < e2.length)
               for (var s3 = o4.length; s3 < e2.length; s3++)
-                f3[s3] = false;
+                f4[s3] = false;
             else
               for (var v2 = e2.length; v2 < o4.length; v2++)
-                f3[v2] = true;
+                f4[v2] = true;
             for (var p2 = Math.min(o4.length, e2.length), l2 = 0; l2 < p2; l2++)
-              o4.hasOwnProperty(l2) || (f3[l2] = true), void 0 === f3[l2] && n3(o4[l2]);
+              o4.hasOwnProperty(l2) || (f4[l2] = true), void 0 === f4[l2] && n3(o4[l2]);
           }
         }
       }
@@ -28391,26 +28391,26 @@ var un = function() {
           });
         };
       }
-      var f2;
+      var f3;
       if ("function" != typeof i3 && n(6), void 0 !== o2 && "function" != typeof o2 && n(7), t(r4)) {
         var c2 = w(e2), s2 = R(e2, r4, void 0), v2 = true;
         try {
-          f2 = i3(s2), v2 = false;
+          f3 = i3(s2), v2 = false;
         } finally {
           v2 ? O(c2) : g(c2);
         }
-        return "undefined" != typeof Promise && f2 instanceof Promise ? f2.then(function(n2) {
+        return "undefined" != typeof Promise && f3 instanceof Promise ? f3.then(function(n2) {
           return j(c2, o2), P(n2, c2);
         }, function(n2) {
           throw O(c2), n2;
-        }) : (j(c2, o2), P(f2, c2));
+        }) : (j(c2, o2), P(f3, c2));
       }
       if (!r4 || "object" != typeof r4) {
-        if (void 0 === (f2 = i3(r4)) && (f2 = r4), f2 === H && (f2 = void 0), e2.F && d(f2, true), o2) {
+        if (void 0 === (f3 = i3(r4)) && (f3 = r4), f3 === H && (f3 = void 0), e2.F && d(f3, true), o2) {
           var p2 = [], l2 = [];
-          b("Patches").M(r4, f2, p2, l2), o2(p2, l2);
+          b("Patches").M(r4, f3, p2, l2), o2(p2, l2);
         }
-        return f2;
+        return f3;
       }
       n(21, r4);
     }, this.produceWithPatches = function(n2, r4) {
@@ -29666,8 +29666,8 @@ var store = configureStore({
 });
 
 // src/NLTView.tsx
-var import_obsidian5 = require("obsidian");
-var import_client = __toESM(require_client());
+var import_obsidian7 = require("obsidian");
+var import_client2 = __toESM(require_client());
 
 // node_modules/react-redux/es/index.js
 var import_shim = __toESM(require_shim());
@@ -29988,136 +29988,6 @@ function TableStateProvider({ initialState: initialState3, children }) {
   });
 }
 
-// src/services/tableState/types.ts
-var CellType = /* @__PURE__ */ ((CellType3) => {
-  CellType3["TEXT"] = "text";
-  CellType3["NUMBER"] = "number";
-  CellType3["CURRENCY"] = "currency";
-  CellType3["TAG"] = "tag";
-  CellType3["MULTI_TAG"] = "multi-tag";
-  CellType3["DATE"] = "date";
-  CellType3["CHECKBOX"] = "checkbox";
-  CellType3["CREATION_TIME"] = "creation-time";
-  CellType3["LAST_EDITED_TIME"] = "last-edited-time";
-  return CellType3;
-})(CellType || {});
-var DateFormat = /* @__PURE__ */ ((DateFormat5) => {
-  DateFormat5["MM_DD_YYYY"] = "mm/dd/yyyy";
-  DateFormat5["DD_MM_YYYY"] = "dd/mm/yyyy";
-  DateFormat5["YYYY_MM_DD"] = "yyyy/mm/dd";
-  DateFormat5["FULL"] = "full";
-  DateFormat5["RELATIVE"] = "relative";
-  return DateFormat5;
-})(DateFormat || {});
-var CurrencyType = /* @__PURE__ */ ((CurrencyType5) => {
-  CurrencyType5["UNITED_STATES"] = "USD";
-  CurrencyType5["CANADA"] = "CAD";
-  CurrencyType5["SINGAPORE"] = "SGB";
-  CurrencyType5["EUROPE"] = "EUR";
-  CurrencyType5["POUND"] = "GBP";
-  CurrencyType5["RUSSIA"] = "RUB";
-  CurrencyType5["AUSTRALIA"] = "AUD";
-  CurrencyType5["JAPAN"] = "JPY";
-  CurrencyType5["INDIA"] = "INR";
-  CurrencyType5["CHINA"] = "CNY";
-  CurrencyType5["BRAZIL"] = "BRL";
-  CurrencyType5["COLOMBIA"] = "COP";
-  CurrencyType5["MEXICO"] = "MXN";
-  CurrencyType5["ARGENTINA"] = "ARS";
-  return CurrencyType5;
-})(CurrencyType || {});
-
-// src/services/tableState/utils.ts
-var sortCellsForRender = (columns, rows, cells) => {
-  return rows.map((row) => {
-    return cells.filter((c2) => c2.rowId === row.id);
-  }).map((row) => {
-    return row.sort((a2, b2) => {
-      const indexA = columns.findIndex(
-        (column) => column.id === a2.columnId
-      );
-      const indexB = columns.findIndex(
-        (column) => column.id === b2.columnId
-      );
-      return indexA - indexB;
-    });
-  }).flat(1);
-};
-var getDisplayNameForDateFormat = (format) => {
-  switch (format) {
-    case "dd/mm/yyyy" /* DD_MM_YYYY */:
-      return "Day/Month/Year";
-    case "mm/dd/yyyy" /* MM_DD_YYYY */:
-      return "Month/Day/Year";
-    case "yyyy/mm/dd" /* YYYY_MM_DD */:
-      return "Year/Month/Day";
-    case "full" /* FULL */:
-      return "Full";
-    case "relative" /* RELATIVE */:
-      return "Relative";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForCurrencyType = (type) => {
-  switch (type) {
-    case "USD" /* UNITED_STATES */:
-      return "United States Dollar";
-    case "CAD" /* CANADA */:
-      return "Canadian Dollar";
-    case "AUD" /* AUSTRALIA */:
-      return "Australian Dollar";
-    case "SGB" /* SINGAPORE */:
-      return "Singapore Dollar";
-    case "CNY" /* CHINA */:
-      return "Yuan";
-    case "JPY" /* JAPAN */:
-      return "Yen";
-    case "COP" /* COLOMBIA */:
-      return "Colombian Peso";
-    case "EUR" /* EUROPE */:
-      return "Euro";
-    case "BRL" /* BRAZIL */:
-      return "Real";
-    case "GBP" /* POUND */:
-      return "Pound";
-    case "INR" /* INDIA */:
-      return "Rupee";
-    case "ARS" /* ARGENTINA */:
-      return "Argentine Peso";
-    case "MXN" /* MEXICO */:
-      return "Mexican Peso";
-    case "RUB" /* RUSSIA */:
-      return "Ruble";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForCellType = (type) => {
-  switch (type) {
-    case "text" /* TEXT */:
-      return "Text";
-    case "number" /* NUMBER */:
-      return "Number";
-    case "checkbox" /* CHECKBOX */:
-      return "Checkbox";
-    case "date" /* DATE */:
-      return "Date";
-    case "last-edited-time" /* LAST_EDITED_TIME */:
-      return "Last edited";
-    case "creation-time" /* CREATION_TIME */:
-      return "Creation";
-    case "tag" /* TAG */:
-      return "Tag";
-    case "multi-tag" /* MULTI_TAG */:
-      return "Multi-tag";
-    case "currency" /* CURRENCY */:
-      return "Currency";
-    default:
-      return "";
-  }
-};
-
 // src/components/Table/components/TableHeaderRow/components/TableHeaderCell/index.tsx
 var import_jsx_runtime2 = __toESM(require_jsx_runtime());
 function TableHeaderCell({
@@ -30150,7 +30020,7 @@ function TableHeaderCell({
     if (!targetId)
       throw new Error("data-column-id is required for a header cell");
     setTableState((prevState) => {
-      const { columns, rows, cells } = prevState.model;
+      const { columns, bodyRows, bodyCells } = prevState.model;
       const columnsCopy = [...columns];
       const draggedElIndex = columns.findIndex(
         (column) => column.id === draggedId
@@ -30161,11 +30031,9 @@ function TableHeaderCell({
       let temp = columnsCopy[targetElIndex];
       columnsCopy[targetElIndex] = columnsCopy[draggedElIndex];
       columnsCopy[draggedElIndex] = temp;
-      const updatedCells = sortCellsForRender(columnsCopy, rows, cells);
       return __spreadProps(__spreadValues({}, prevState), {
         model: __spreadProps(__spreadValues({}, prevState.model), {
-          columns: columnsCopy,
-          cells: updatedCells
+          columns: columnsCopy
         })
       });
     });
@@ -30209,6 +30077,65 @@ function TableCell({ content }) {
   });
 }
 
+// src/services/tableState/types.ts
+var CellType = /* @__PURE__ */ ((CellType3) => {
+  CellType3["TEXT"] = "text";
+  CellType3["NUMBER"] = "number";
+  CellType3["CURRENCY"] = "currency";
+  CellType3["TAG"] = "tag";
+  CellType3["MULTI_TAG"] = "multi-tag";
+  CellType3["DATE"] = "date";
+  CellType3["CHECKBOX"] = "checkbox";
+  CellType3["CREATION_TIME"] = "creation-time";
+  CellType3["LAST_EDITED_TIME"] = "last-edited-time";
+  return CellType3;
+})(CellType || {});
+var DateFormat = /* @__PURE__ */ ((DateFormat7) => {
+  DateFormat7["MM_DD_YYYY"] = "mm/dd/yyyy";
+  DateFormat7["DD_MM_YYYY"] = "dd/mm/yyyy";
+  DateFormat7["YYYY_MM_DD"] = "yyyy/mm/dd";
+  DateFormat7["FULL"] = "full";
+  DateFormat7["RELATIVE"] = "relative";
+  return DateFormat7;
+})(DateFormat || {});
+var CurrencyType = /* @__PURE__ */ ((CurrencyType7) => {
+  CurrencyType7["UNITED_STATES"] = "USD";
+  CurrencyType7["CANADA"] = "CAD";
+  CurrencyType7["SINGAPORE"] = "SGB";
+  CurrencyType7["EUROPE"] = "EUR";
+  CurrencyType7["POUND"] = "GBP";
+  CurrencyType7["RUSSIA"] = "RUB";
+  CurrencyType7["AUSTRALIA"] = "AUD";
+  CurrencyType7["JAPAN"] = "JPY";
+  CurrencyType7["INDIA"] = "INR";
+  CurrencyType7["CHINA"] = "CNY";
+  CurrencyType7["BRAZIL"] = "BRL";
+  CurrencyType7["COLOMBIA"] = "COP";
+  CurrencyType7["MEXICO"] = "MXN";
+  CurrencyType7["ARGENTINA"] = "ARS";
+  return CurrencyType7;
+})(CurrencyType || {});
+var GeneralFunction = /* @__PURE__ */ ((GeneralFunction2) => {
+  GeneralFunction2["NONE"] = "none";
+  GeneralFunction2["COUNT_ALL"] = "count_all";
+  GeneralFunction2["COUNT_VALUES"] = "count_values";
+  GeneralFunction2["COUNT_UNIQUE"] = "count_unique";
+  GeneralFunction2["COUNT_EMPTY"] = "count_empty";
+  GeneralFunction2["COUNT_NOT_EMPTY"] = "count_not_empty";
+  GeneralFunction2["PERCENT_EMPTY"] = "percent_empty";
+  GeneralFunction2["PERCENT_NOT_EMPTY"] = "percent_not_empty";
+  return GeneralFunction2;
+})(GeneralFunction || {});
+var NumberFunction = /* @__PURE__ */ ((NumberFunction2) => {
+  NumberFunction2["SUM"] = "sum";
+  NumberFunction2["AVG"] = "avg";
+  NumberFunction2["MIN"] = "min";
+  NumberFunction2["MAX"] = "max";
+  NumberFunction2["MEDIAN"] = "median";
+  NumberFunction2["RANGE"] = "range";
+  return NumberFunction2;
+})(NumberFunction || {});
+
 // src/components/Table/components/TableBodyRow/index.tsx
 var import_jsx_runtime5 = __toESM(require_jsx_runtime());
 var TableBodyRow = ({ row }) => {
@@ -30251,12 +30178,14 @@ var TableBodyRow = ({ row }) => {
         return;
     }
     setTableState((prevState) => {
-      const { rows, columns: columns2 } = prevState.model;
-      const rowsCopy = [...rows];
-      const draggedElIndex = rows.findIndex(
+      const { bodyRows, columns: columns2 } = prevState.model;
+      const rowsCopy = [...bodyRows];
+      const draggedElIndex = bodyRows.findIndex(
         (row2) => row2.id === draggedId
       );
-      const targetElIndex = rows.findIndex((row2) => row2.id == targetId);
+      const targetElIndex = bodyRows.findIndex(
+        (row2) => row2.id == targetId
+      );
       let temp = rowsCopy[targetElIndex];
       rowsCopy[targetElIndex] = rowsCopy[draggedElIndex];
       rowsCopy[draggedElIndex] = temp;
@@ -30265,7 +30194,7 @@ var TableBodyRow = ({ row }) => {
       });
       return __spreadProps(__spreadValues({}, prevState), {
         model: __spreadProps(__spreadValues({}, prevState.model), {
-          rows: rowsCopy,
+          bodyRows: rowsCopy,
           columns: columns2.map((column) => {
             return __spreadProps(__spreadValues({}, column), {
               sortDir: "default" /* NONE */
@@ -30489,21 +30418,21 @@ var import_prop_types2 = __toESM(require_prop_types());
 
 // node_modules/clsx/dist/clsx.m.js
 function r2(e) {
-  var t2, f2, n2 = "";
+  var t2, f3, n2 = "";
   if ("string" == typeof e || "number" == typeof e)
     n2 += e;
   else if ("object" == typeof e)
     if (Array.isArray(e))
       for (t2 = 0; t2 < e.length; t2++)
-        e[t2] && (f2 = r2(e[t2])) && (n2 && (n2 += " "), n2 += f2);
+        e[t2] && (f3 = r2(e[t2])) && (n2 && (n2 += " "), n2 += f3);
     else
       for (t2 in e)
         e[t2] && (n2 && (n2 += " "), n2 += t2);
   return n2;
 }
 function clsx() {
-  for (var e, t2, f2 = 0, n2 = ""; f2 < arguments.length; )
-    (e = arguments[f2++]) && (t2 = r2(e)) && (n2 && (n2 += " "), n2 += t2);
+  for (var e, t2, f3 = 0, n2 = ""; f3 < arguments.length; )
+    (e = arguments[f3++]) && (t2 = r2(e)) && (n2 && (n2 += " "), n2 += t2);
   return n2;
 }
 var clsx_m_default = clsx;
@@ -31769,9 +31698,9 @@ function hslToRgb(color2) {
   const s2 = values2[1] / 100;
   const l2 = values2[2] / 100;
   const a2 = s2 * Math.min(l2, 1 - l2);
-  const f2 = (n2, k2 = (n2 + h2 / 30) % 12) => l2 - a2 * Math.max(Math.min(k2 - 3, 9 - k2, 1), -1);
+  const f3 = (n2, k2 = (n2 + h2 / 30) % 12) => l2 - a2 * Math.max(Math.min(k2 - 3, 9 - k2, 1), -1);
   let type = "rgb";
-  const rgb = [Math.round(f2(0) * 255), Math.round(f2(8) * 255), Math.round(f2(4) * 255)];
+  const rgb = [Math.round(f3(0) * 255), Math.round(f3(8) * 255), Math.round(f3(4) * 255)];
   if (color2.type === "hsla") {
     type += "a";
     rgb.push(values2[3]);
@@ -33002,7 +32931,7 @@ function Button({
 }
 
 // src/services/menu/hooks.ts
-var import_react9 = __toESM(require_react());
+var import_react10 = __toESM(require_react());
 
 // node_modules/uuid/dist/esm-browser/rng.js
 var getRandomValues;
@@ -33017,6 +32946,15 @@ function rng() {
   return getRandomValues(rnds8);
 }
 
+// node_modules/uuid/dist/esm-browser/regex.js
+var regex_default = /^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|00000000-0000-0000-0000-000000000000)$/i;
+
+// node_modules/uuid/dist/esm-browser/validate.js
+function validate(uuid) {
+  return typeof uuid === "string" && regex_default.test(uuid);
+}
+var validate_default = validate;
+
 // node_modules/uuid/dist/esm-browser/stringify.js
 var byteToHex = [];
 for (let i2 = 0; i2 < 256; ++i2) {
@@ -33024,6 +32962,80 @@ for (let i2 = 0; i2 < 256; ++i2) {
 }
 function unsafeStringify(arr, offset = 0) {
   return (byteToHex[arr[offset + 0]] + byteToHex[arr[offset + 1]] + byteToHex[arr[offset + 2]] + byteToHex[arr[offset + 3]] + "-" + byteToHex[arr[offset + 4]] + byteToHex[arr[offset + 5]] + "-" + byteToHex[arr[offset + 6]] + byteToHex[arr[offset + 7]] + "-" + byteToHex[arr[offset + 8]] + byteToHex[arr[offset + 9]] + "-" + byteToHex[arr[offset + 10]] + byteToHex[arr[offset + 11]] + byteToHex[arr[offset + 12]] + byteToHex[arr[offset + 13]] + byteToHex[arr[offset + 14]] + byteToHex[arr[offset + 15]]).toLowerCase();
+}
+
+// node_modules/uuid/dist/esm-browser/parse.js
+function parse(uuid) {
+  if (!validate_default(uuid)) {
+    throw TypeError("Invalid UUID");
+  }
+  let v2;
+  const arr = new Uint8Array(16);
+  arr[0] = (v2 = parseInt(uuid.slice(0, 8), 16)) >>> 24;
+  arr[1] = v2 >>> 16 & 255;
+  arr[2] = v2 >>> 8 & 255;
+  arr[3] = v2 & 255;
+  arr[4] = (v2 = parseInt(uuid.slice(9, 13), 16)) >>> 8;
+  arr[5] = v2 & 255;
+  arr[6] = (v2 = parseInt(uuid.slice(14, 18), 16)) >>> 8;
+  arr[7] = v2 & 255;
+  arr[8] = (v2 = parseInt(uuid.slice(19, 23), 16)) >>> 8;
+  arr[9] = v2 & 255;
+  arr[10] = (v2 = parseInt(uuid.slice(24, 36), 16)) / 1099511627776 & 255;
+  arr[11] = v2 / 4294967296 & 255;
+  arr[12] = v2 >>> 24 & 255;
+  arr[13] = v2 >>> 16 & 255;
+  arr[14] = v2 >>> 8 & 255;
+  arr[15] = v2 & 255;
+  return arr;
+}
+var parse_default = parse;
+
+// node_modules/uuid/dist/esm-browser/v35.js
+function stringToBytes(str) {
+  str = unescape(encodeURIComponent(str));
+  const bytes = [];
+  for (let i2 = 0; i2 < str.length; ++i2) {
+    bytes.push(str.charCodeAt(i2));
+  }
+  return bytes;
+}
+var DNS = "6ba7b810-9dad-11d1-80b4-00c04fd430c8";
+var URL = "6ba7b811-9dad-11d1-80b4-00c04fd430c8";
+function v35(name, version, hashfunc) {
+  function generateUUID(value, namespace, buf, offset) {
+    var _namespace;
+    if (typeof value === "string") {
+      value = stringToBytes(value);
+    }
+    if (typeof namespace === "string") {
+      namespace = parse_default(namespace);
+    }
+    if (((_namespace = namespace) === null || _namespace === void 0 ? void 0 : _namespace.length) !== 16) {
+      throw TypeError("Namespace must be array-like (16 iterable integer values, 0-255)");
+    }
+    let bytes = new Uint8Array(16 + value.length);
+    bytes.set(namespace);
+    bytes.set(value, namespace.length);
+    bytes = hashfunc(bytes);
+    bytes[6] = bytes[6] & 15 | version;
+    bytes[8] = bytes[8] & 63 | 128;
+    if (buf) {
+      offset = offset || 0;
+      for (let i2 = 0; i2 < 16; ++i2) {
+        buf[offset + i2] = bytes[i2];
+      }
+      return buf;
+    }
+    return unsafeStringify(bytes);
+  }
+  try {
+    generateUUID.name = name;
+  } catch (err) {
+  }
+  generateUUID.DNS = DNS;
+  generateUUID.URL = URL;
+  return generateUUID;
 }
 
 // node_modules/uuid/dist/esm-browser/native.js
@@ -33052,43 +33064,234 @@ function v4(options, buf, offset) {
 }
 var v4_default = v4;
 
-// src/services/menu/hooks.ts
-var useMenuPosition = () => {
-  const containerRef = (0, import_react9.useRef)(null);
-  let position2 = {
+// node_modules/uuid/dist/esm-browser/sha1.js
+function f2(s2, x2, y2, z2) {
+  switch (s2) {
+    case 0:
+      return x2 & y2 ^ ~x2 & z2;
+    case 1:
+      return x2 ^ y2 ^ z2;
+    case 2:
+      return x2 & y2 ^ x2 & z2 ^ y2 & z2;
+    case 3:
+      return x2 ^ y2 ^ z2;
+  }
+}
+function ROTL(x2, n2) {
+  return x2 << n2 | x2 >>> 32 - n2;
+}
+function sha1(bytes) {
+  const K = [1518500249, 1859775393, 2400959708, 3395469782];
+  const H2 = [1732584193, 4023233417, 2562383102, 271733878, 3285377520];
+  if (typeof bytes === "string") {
+    const msg = unescape(encodeURIComponent(bytes));
+    bytes = [];
+    for (let i2 = 0; i2 < msg.length; ++i2) {
+      bytes.push(msg.charCodeAt(i2));
+    }
+  } else if (!Array.isArray(bytes)) {
+    bytes = Array.prototype.slice.call(bytes);
+  }
+  bytes.push(128);
+  const l2 = bytes.length / 4 + 2;
+  const N2 = Math.ceil(l2 / 16);
+  const M2 = new Array(N2);
+  for (let i2 = 0; i2 < N2; ++i2) {
+    const arr = new Uint32Array(16);
+    for (let j2 = 0; j2 < 16; ++j2) {
+      arr[j2] = bytes[i2 * 64 + j2 * 4] << 24 | bytes[i2 * 64 + j2 * 4 + 1] << 16 | bytes[i2 * 64 + j2 * 4 + 2] << 8 | bytes[i2 * 64 + j2 * 4 + 3];
+    }
+    M2[i2] = arr;
+  }
+  M2[N2 - 1][14] = (bytes.length - 1) * 8 / Math.pow(2, 32);
+  M2[N2 - 1][14] = Math.floor(M2[N2 - 1][14]);
+  M2[N2 - 1][15] = (bytes.length - 1) * 8 & 4294967295;
+  for (let i2 = 0; i2 < N2; ++i2) {
+    const W2 = new Uint32Array(80);
+    for (let t2 = 0; t2 < 16; ++t2) {
+      W2[t2] = M2[i2][t2];
+    }
+    for (let t2 = 16; t2 < 80; ++t2) {
+      W2[t2] = ROTL(W2[t2 - 3] ^ W2[t2 - 8] ^ W2[t2 - 14] ^ W2[t2 - 16], 1);
+    }
+    let a2 = H2[0];
+    let b2 = H2[1];
+    let c2 = H2[2];
+    let d2 = H2[3];
+    let e = H2[4];
+    for (let t2 = 0; t2 < 80; ++t2) {
+      const s2 = Math.floor(t2 / 20);
+      const T = ROTL(a2, 5) + f2(s2, b2, c2, d2) + e + K[s2] + W2[t2] >>> 0;
+      e = d2;
+      d2 = c2;
+      c2 = ROTL(b2, 30) >>> 0;
+      b2 = a2;
+      a2 = T;
+    }
+    H2[0] = H2[0] + a2 >>> 0;
+    H2[1] = H2[1] + b2 >>> 0;
+    H2[2] = H2[2] + c2 >>> 0;
+    H2[3] = H2[3] + d2 >>> 0;
+    H2[4] = H2[4] + e >>> 0;
+  }
+  return [H2[0] >> 24 & 255, H2[0] >> 16 & 255, H2[0] >> 8 & 255, H2[0] & 255, H2[1] >> 24 & 255, H2[1] >> 16 & 255, H2[1] >> 8 & 255, H2[1] & 255, H2[2] >> 24 & 255, H2[2] >> 16 & 255, H2[2] >> 8 & 255, H2[2] & 255, H2[3] >> 24 & 255, H2[3] >> 16 & 255, H2[3] >> 8 & 255, H2[3] & 255, H2[4] >> 24 & 255, H2[4] >> 16 & 255, H2[4] >> 8 & 255, H2[4] & 255];
+}
+var sha1_default = sha1;
+
+// node_modules/uuid/dist/esm-browser/v5.js
+var v5 = v35("v5", 80, sha1_default);
+var v5_default = v5;
+
+// src/services/menu/utils.ts
+var isMenuOpen = (state, menuId) => state.menu.openMenus.find((menu) => menu.id === menuId) != null;
+var getCloseMenuRequestTime = (state, menuId) => {
+  var _a;
+  if (((_a = state.menu.menuRequestingClose) == null ? void 0 : _a.id) === menuId) {
+    return state.menu.menuRequestingClose.requestTime;
+  }
+  return null;
+};
+var isTopLevelMenu = (state, menuId) => {
+  var _a;
+  return ((_a = state.menu.openMenus.last()) == null ? void 0 : _a.id) === menuId;
+};
+var getElementPosition = (el) => {
+  if (el) {
+    const { top: top2, left: left2, width: width2, height: height2 } = el.getBoundingClientRect();
+    return {
+      width: Math.round(width2),
+      height: Math.round(height2),
+      top: Math.round(top2),
+      left: Math.round(left2)
+    };
+  }
+  return {
     top: 0,
     left: 0,
     width: 0,
     height: 0
   };
-  if (containerRef.current) {
-    const node = containerRef.current;
-    const { top: nodeTop, left: nodeLeft } = node.getBoundingClientRect();
-    const { offsetWidth, offsetHeight } = node;
-    position2 = {
-      width: offsetWidth,
-      height: offsetHeight,
-      top: nodeTop,
-      left: nodeLeft
-    };
-  }
-  return { containerRef, position: position2 };
 };
-var useMenu = (level, shouldRequestOnClose = false) => {
-  const menuPosition = useMenuPosition();
-  const [id] = (0, import_react9.useState)("m" + v4_default());
-  const menu = (0, import_react9.useMemo)(() => {
-    return { id, level, shouldRequestOnClose };
-  }, [id, level, shouldRequestOnClose]);
-  return [menu, menuPosition];
+var shiftMenuIntoViewContent = (menuId, menuPositionEl, menuPosition, topOffset, leftOffset) => {
+  if (menuPositionEl !== null) {
+    const viewContentEl = menuPositionEl.closest(
+      ".view-content"
+    );
+    const containerPosition = getElementPosition(viewContentEl);
+    let menuElWidth = menuPosition.width;
+    let menuElHeight = menuPosition.height;
+    const menu = document.body.querySelector(
+      `#${menuId}`
+    );
+    if (menu) {
+      const menuContainerEl = menu.firstChild;
+      const { width: width2, height: height2 } = menuContainerEl.getBoundingClientRect();
+      menuElWidth = Math.round(width2);
+      menuElHeight = Math.round(height2);
+      menuContainerEl.toggleVisibility(true);
+    }
+    return moveElementIntoContainer(containerPosition, {
+      top: menuPosition.top + topOffset,
+      left: menuPosition.left + leftOffset,
+      width: menuElWidth,
+      height: menuElHeight
+    });
+  }
+  return menuPosition;
+};
+var moveElementIntoContainer = (containerPosition, elementPosition) => {
+  if (elementPosition.top >= containerPosition.top && elementPosition.left >= containerPosition.left && elementPosition.top + elementPosition.height <= containerPosition.top + containerPosition.height && elementPosition.left + elementPosition.width <= containerPosition.left + containerPosition.width) {
+    return elementPosition;
+  }
+  if (elementPosition.top + elementPosition.height > containerPosition.top + containerPosition.height) {
+    elementPosition.top = containerPosition.top + containerPosition.height - elementPosition.height;
+  }
+  if (elementPosition.left + elementPosition.width > containerPosition.left + containerPosition.width) {
+    elementPosition.left = containerPosition.left + containerPosition.width - elementPosition.width;
+  }
+  if (elementPosition.top < containerPosition.top) {
+    elementPosition.top = containerPosition.top;
+  }
+  if (elementPosition.left < containerPosition.left) {
+    elementPosition.left = containerPosition.left;
+  }
+  return elementPosition;
+};
+
+// src/services/hooks/index.ts
+var import_react9 = __toESM(require_react());
+var useForceUpdate = () => {
+  const [time, setTime] = (0, import_react9.useState)(0);
+  return [time, (0, import_react9.useCallback)(() => setTime(Date.now()), [])];
+};
+var useCompare = (value) => {
+  const prevValue = usePrevious(value);
+  if (prevValue === void 0)
+    return false;
+  return prevValue !== value;
+};
+var usePrevious = (value) => {
+  const ref = (0, import_react9.useRef)();
+  (0, import_react9.useEffect)(() => {
+    ref.current = value;
+  });
+  return ref.current;
+};
+var useDidMountEffect = (func, deps) => {
+  const didMount = (0, import_react9.useRef)(false);
+  (0, import_react9.useEffect)(() => {
+    if (didMount.current)
+      func();
+    else
+      didMount.current = true;
+  }, deps);
+};
+var useFocusInput = (isMenuVisible) => {
+  const inputRef = (0, import_react9.useRef)(null);
+  (0, import_react9.useEffect)(() => {
+    if (isMenuVisible)
+      focusInput();
+  }, [isMenuVisible]);
+  function focusInput() {
+    if (inputRef.current)
+      inputRef.current.focus();
+  }
+  return inputRef;
 };
 
 // src/services/redux/hooks.ts
 var useAppDispatch = useDispatch;
 var useAppSelector = useSelector;
 
+// src/services/menu/hooks.ts
+var useMenuPosition = () => {
+  const positionRef = (0, import_react10.useRef)(null);
+  const position2 = getElementPosition(positionRef.current);
+  return { positionRef, position: position2 };
+};
+var useMenu = (level, shouldRequestOnClose = false) => {
+  const [id] = (0, import_react10.useState)("m" + v4_default());
+  const menuPosition = useMenuPosition();
+  const isOpen = useAppSelector((state) => isMenuOpen(state, id));
+  const [isVisible, setVisible] = (0, import_react10.useState)(false);
+  const hasOpenChanged = useCompare(isOpen);
+  (0, import_react10.useEffect)(() => {
+    if (hasOpenChanged) {
+      if (isOpen) {
+        setVisible(true);
+      } else {
+        setVisible(false);
+      }
+    }
+  }, [isOpen, hasOpenChanged]);
+  const menu = (0, import_react10.useMemo)(() => {
+    return { id, level, shouldRequestOnClose };
+  }, [id, level, shouldRequestOnClose]);
+  return { menu, menuPosition, isMenuOpen: isOpen, isMenuVisible: isVisible };
+};
+
 // src/components/Menu/index.tsx
-var import_react10 = __toESM(require_react());
+var import_react11 = __toESM(require_react());
 var import_react_dom2 = __toESM(require_react_dom());
 
 // src/services/string/conversion.ts
@@ -33105,20 +33308,6 @@ var stringToCurrencyString = (value, type) => {
   }).format(parseFloat(value));
 };
 
-// src/services/menu/utils.ts
-var isMenuOpen = (state, menuId) => state.menu.openMenus.find((menu) => menu.id === menuId) != null;
-var getCloseMenuRequestTime = (state, menuId) => {
-  var _a;
-  if (((_a = state.menu.menuRequestingClose) == null ? void 0 : _a.id) === menuId) {
-    return state.menu.menuRequestingClose.requestTime;
-  }
-  return null;
-};
-var isTopLevelMenu = (state, menuId) => {
-  var _a;
-  return ((_a = state.menu.openMenus.last()) == null ? void 0 : _a.id) === menuId;
-};
-
 // src/components/Menu/index.tsx
 var import_jsx_runtime47 = __toESM(require_jsx_runtime());
 function Menu({
@@ -33126,7 +33315,6 @@ function Menu({
   isOpen,
   top: top2 = 0,
   left: left2 = 0,
-  maxWidth: maxWidth2,
   width: width2 = 0,
   height: height2 = 0,
   children
@@ -33148,7 +33336,7 @@ function Menu({
         dispatch(closeTopLevelMenu());
     }
   }
-  (0, import_react10.useEffect)(() => {
+  (0, import_react11.useEffect)(() => {
     if (isOpen) {
       window.addEventListener("keyup", handleKeyUp);
       window.addEventListener("mousedown", handleMouseDown);
@@ -33158,14 +33346,6 @@ function Menu({
       window.removeEventListener("mousedown", handleMouseDown);
     };
   }, [isOpen, isTopLevel]);
-  let maxW = "unset";
-  if (maxWidth2) {
-    if (maxWidth2 === 0) {
-      maxW = "maxWidth";
-    } else {
-      maxW = numToPx(maxWidth2);
-    }
-  }
   return /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(import_jsx_runtime47.Fragment, {
     children: isOpen && import_react_dom2.default.createPortal(
       /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("div", {
@@ -33174,9 +33354,9 @@ function Menu({
         children: /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("div", {
           className: "NLT__menu-container",
           style: {
+            visibility: "hidden",
             top: numToPx(top2),
             left: numToPx(left2),
-            maxWidth: maxW,
             width: width2 === 0 ? "max-content" : numToPx(width2),
             height: height2 === 0 ? "max-content" : numToPx(height2)
           },
@@ -33260,6 +33440,8 @@ function Text({ value, variant, size = "sm" }) {
     className += " NLT__text-faint";
   if (variant == "muted")
     className += " NLT__text-muted";
+  if (variant == "semibold")
+    className += " NLT__text-semibold";
   let fontSize2 = "";
   if (size === "xs") {
     fontSize2 = "var(--nlt-font-size--xs)";
@@ -33281,6 +33463,7 @@ function Text({ value, variant, size = "sm" }) {
 var import_jsx_runtime51 = __toESM(require_jsx_runtime());
 function MenuItem({
   iconType,
+  ariaLabel,
   name,
   value,
   onClick,
@@ -33291,6 +33474,7 @@ function MenuItem({
     className += " NLT__selected";
   return /* @__PURE__ */ (0, import_jsx_runtime51.jsx)("div", {
     className,
+    "aria-label": ariaLabel,
     onClick,
     children: /* @__PURE__ */ (0, import_jsx_runtime51.jsxs)(Flex, {
       justify: "space-between",
@@ -33343,13 +33527,10 @@ function RowMenu({
 // src/components/RowOptions/index.tsx
 var import_jsx_runtime53 = __toESM(require_jsx_runtime());
 function RowOptions({ rowId, onDeleteClick }) {
-  const [menu, menuPosition] = useMenu(0 /* ONE */);
+  const { menu, menuPosition, isMenuOpen: isMenuOpen2 } = useMenu(0 /* ONE */);
   const dispatch = useAppDispatch();
-  const shouldOpenMenu = useAppSelector(
-    (state) => isMenuOpen(state, menu.id)
-  );
   function handleButtonClick() {
-    if (shouldOpenMenu) {
+    if (isMenuOpen2) {
       dispatch(closeTopLevelMenu());
     } else {
       dispatch(openMenu(menu));
@@ -33359,37 +33540,51 @@ function RowOptions({ rowId, onDeleteClick }) {
     onDeleteClick(rowId2);
     dispatch(closeTopLevelMenu());
   }
-  const { top: top2, left: left2, height: height2 } = menuPosition.position;
+  const { top: top2, left: left2 } = shiftMenuIntoViewContent(
+    menu.id,
+    menuPosition.positionRef.current,
+    menuPosition.position,
+    0,
+    -95
+  );
   return /* @__PURE__ */ (0, import_jsx_runtime53.jsxs)(import_jsx_runtime53.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime53.jsx)("div", {
-        ref: menuPosition.containerRef,
-        className: "NLT__row-menu-button",
-        children: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(Button, {
-          icon: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(Icon, {
-            type: 31 /* DRAG_INDICATOR */
-          }),
-          ariaLabel: "Drag to move or click to open",
-          onClick: () => handleButtonClick(),
-          onMouseDown: (e) => {
-            const el = e.target;
-            const row = el.closest(".NLT__tr");
-            if (row) {
-              row.setAttr("draggable", true);
-              const dragStartEvent = new DragEvent("dragstart");
-              Object.defineProperty(dragStartEvent, "target", {
-                value: row
-              });
-              row.dispatchEvent(dragStartEvent);
+        className: "NLT__row-options",
+        children: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)("div", {
+          ref: menuPosition.positionRef,
+          children: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(Button, {
+            icon: /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(Icon, {
+              type: 31 /* DRAG_INDICATOR */
+            }),
+            ariaLabel: "Drag to move or click to open",
+            onClick: () => handleButtonClick(),
+            onMouseDown: (e) => {
+              const el = e.target;
+              const row = el.closest(".NLT__tr");
+              if (row) {
+                row.setAttr("draggable", true);
+                const dragStartEvent = new DragEvent(
+                  "dragstart"
+                );
+                Object.defineProperty(
+                  dragStartEvent,
+                  "target",
+                  {
+                    value: row
+                  }
+                );
+                row.dispatchEvent(dragStartEvent);
+              }
             }
-          }
+          })
         })
       }),
       /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(RowMenu, {
         id: menu.id,
         rowId,
-        isOpen: shouldOpenMenu,
-        top: top2 + height2,
+        isOpen: isMenuOpen2,
+        top: top2,
         left: left2,
         onDeleteClick: handleDeleteClick
       })
@@ -33398,7 +33593,7 @@ function RowOptions({ rowId, onDeleteClick }) {
 }
 
 // src/components/OptionBar/index.tsx
-var import_react11 = __toESM(require_react());
+var import_react12 = __toESM(require_react());
 
 // src/services/tableState/error.ts
 var ColumnIdError = class extends Error {
@@ -33498,22 +33693,15 @@ function SortBubble({
 // src/components/Switch/index.tsx
 var import_jsx_runtime56 = __toESM(require_jsx_runtime());
 function Switch({ isChecked, onToggle }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)("label", {
-    className: "NLT__switch",
-    children: [
-      /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("input", {
-        type: "checkbox",
-        checked: isChecked,
-        onChange: () => {
-        },
-        onClick: () => {
-          onToggle(!isChecked);
-        }
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("span", {
-        className: "NLT__slider"
-      })
-    ]
+  let className = "checkbox-container NLT__switch";
+  if (isChecked)
+    className += " is-enabled";
+  return /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("div", {
+    className,
+    onClick: () => onToggle(!isChecked),
+    children: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("input", {
+      type: "checkbox"
+    })
   });
 }
 
@@ -33580,7 +33768,7 @@ function ToggleColumnMenu({
     isOpen,
     id,
     top: top2,
-    left: left2 - 50,
+    left: left2,
     width: 175,
     children: /* @__PURE__ */ (0, import_jsx_runtime58.jsx)("div", {
       className: "NLT__toggle-column-menu",
@@ -33612,17 +33800,20 @@ function ToggleColumnMenu({
 // src/components/OptionBar/components/ToggleColumn/index.tsx
 var import_jsx_runtime59 = __toESM(require_jsx_runtime());
 function ToggleColumn({ columns, onToggle }) {
-  const [menu, menuPosition] = useMenu(0 /* ONE */);
-  const shouldOpenMenu = useAppSelector(
-    (state) => isMenuOpen(state, menu.id)
-  );
+  const { menu, menuPosition, isMenuOpen: isMenuOpen2 } = useMenu(0 /* ONE */);
   const dispatch = useAppDispatch();
-  const { top: top2, left: left2, width: width2 } = menuPosition.position;
+  const { top: top2, left: left2 } = shiftMenuIntoViewContent(
+    menu.id,
+    menuPosition.positionRef.current,
+    menuPosition.position,
+    0,
+    -175
+  );
   return /* @__PURE__ */ (0, import_jsx_runtime59.jsxs)(import_jsx_runtime59.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime59.jsx)("div", {
         className: "NLT__toggle-column",
-        ref: menuPosition.containerRef,
+        ref: menuPosition.positionRef,
         children: /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(Button, {
           icon: /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(Icon, {
             type: 32 /* VIEW_COLUMN */
@@ -33636,8 +33827,8 @@ function ToggleColumn({ columns, onToggle }) {
       /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(ToggleColumnMenu, {
         id: menu.id,
         top: top2,
-        left: left2 - width2 - 100,
-        isOpen: shouldOpenMenu,
+        left: left2,
+        isOpen: isMenuOpen2,
         columns,
         onToggle
       })
@@ -33660,44 +33851,42 @@ var SortBubbleList = ({ bubbles, onRemoveClick }) => {
   });
 };
 function OptionBar({
-  cells,
+  headerCells,
   columns,
   onSortRemoveClick,
   onColumnToggle
 }) {
-  const bubbles = (0, import_react11.useMemo)(() => {
-    return cells.filter((c2) => c2.isHeader).filter((c2) => {
-      const columnId = c2.columnId;
-      const column = columns.find((c3) => c3.id == columnId);
+  const bubbles = (0, import_react12.useMemo)(() => {
+    return headerCells.filter((cell) => {
+      const columnId = cell.columnId;
+      const column = columns.find((c2) => c2.id == columnId);
       if (!column)
         throw new ColumnIdError(columnId);
       return column.sortDir !== "default" /* NONE */;
-    }).map((c2) => {
-      const columnId = c2.columnId;
-      const column = columns.find((c3) => c3.id == columnId);
+    }).map((cell) => {
+      const columnId = cell.columnId;
+      const column = columns.find((c2) => c2.id == columnId);
       if (!column)
         throw new ColumnIdError(columnId);
       return {
-        columnId: c2.columnId,
-        markdown: c2.markdown,
+        columnId: cell.columnId,
+        markdown: cell.markdown,
         sortDir: column.sortDir
       };
     });
-  }, [cells, columns]);
-  const toggleColumns = (0, import_react11.useMemo)(() => {
+  }, [headerCells, columns]);
+  const toggleColumns = (0, import_react12.useMemo)(() => {
     return columns.map((column) => {
-      const headerCell = cells.find(
-        (cell) => cell.isHeader && cell.columnId == column.id
-      );
-      if (!headerCell)
+      const cell = headerCells.find((cell2) => cell2.columnId == column.id);
+      if (!cell)
         throw new CellNotFoundError();
       return {
         id: column.id,
-        name: headerCell.markdown,
+        name: cell.markdown,
         isVisible: column.isVisible
       };
     });
-  }, [cells, columns]);
+  }, [headerCells, columns]);
   return /* @__PURE__ */ (0, import_jsx_runtime60.jsx)("div", {
     className: "NLT__option-bar",
     children: /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(Stack, {
@@ -33769,28 +33958,52 @@ var StateFactory = class {
       type: "text" /* TEXT */,
       currencyType: "USD" /* UNITED_STATES */,
       dateFormat: "mm/dd/yyyy" /* MM_DD_YYYY */,
-      shouldWrapOverflow: false,
-      footerCellId: v4_default()
+      shouldWrapOverflow: false
     };
   }
-  static createRow(totalRowCount) {
+  static createHeaderRow() {
+    return {
+      id: v4_default()
+    };
+  }
+  static createFooterRow() {
+    return {
+      id: v4_default()
+    };
+  }
+  static createBodyRow(currentBodyRowCount) {
     const currentTime = Date.now();
     return {
       id: v4_default(),
-      index: totalRowCount,
+      index: currentBodyRowCount,
       menuCellId: v4_default(),
       creationTime: currentTime,
       lastEditedTime: currentTime
     };
   }
-  static createCell(columnId, rowId, isHeader) {
+  static createHeaderCell(columnId, rowId) {
+    return {
+      id: v4_default(),
+      columnId,
+      rowId,
+      markdown: "New Column"
+    };
+  }
+  static createBodyCell(columnId, rowId) {
     return {
       id: v4_default(),
       columnId,
       rowId,
       dateTime: null,
-      markdown: isHeader ? "New Column" : "",
-      isHeader
+      markdown: ""
+    };
+  }
+  static createFooterCell(columnId, rowId) {
+    return {
+      id: v4_default(),
+      columnId,
+      rowId,
+      functionType: "none" /* NONE */
     };
   }
   static createTag(columnId, cellId, markdown, color2 = randomColor()) {
@@ -33806,26 +34019,26 @@ var StateFactory = class {
 
 // src/services/tableState/row.ts
 var addRow = (prevState) => {
-  const { rows, cells, columns } = prevState.model;
-  const newRow = StateFactory.createRow(rows.length);
-  const cellsCopy = [...cells];
+  const { bodyRows, bodyCells, columns } = prevState.model;
+  const newRow = StateFactory.createBodyRow(bodyRows.length);
+  const cellsCopy = [...bodyCells];
   columns.forEach((column) => {
-    const newCell = StateFactory.createCell(column.id, newRow.id, false);
+    const newCell = StateFactory.createBodyCell(column.id, newRow.id);
     cellsCopy.push(newCell);
   });
   return __spreadProps(__spreadValues({}, prevState), {
     model: __spreadProps(__spreadValues({}, prevState.model), {
-      cells: cellsCopy,
-      rows: [...rows, newRow]
+      bodyCells: cellsCopy,
+      bodyRows: [...bodyRows, newRow]
     })
   });
 };
 var deleteRow = (prevState, rowId) => {
-  const { cells, rows } = prevState.model;
+  const { bodyCells, bodyRows } = prevState.model;
   return __spreadProps(__spreadValues({}, prevState), {
     model: __spreadProps(__spreadValues({}, prevState.model), {
-      rows: rows.filter((row) => row.id !== rowId),
-      cells: cells.filter((cell) => cell.rowId !== rowId)
+      bodyRows: bodyRows.filter((row) => row.id !== rowId),
+      bodyCells: bodyCells.filter((cell) => cell.rowId !== rowId)
     })
   });
 };
@@ -33842,7 +34055,7 @@ var updateLastEditedTime = (rows, rowId) => {
 
 // src/services/tableState/tag.ts
 var addNewTag = (prevState, cellId, columnId, rowId, markdown, color2, canAddMultiple) => {
-  const { tags, rows } = prevState.model;
+  const { tags, bodyRows } = prevState.model;
   const tagsCopy = [...tags];
   if (!canAddMultiple) {
     const tag = tagsCopy.find((t2) => t2.cellIds.find((c2) => c2 === cellId));
@@ -33855,12 +34068,12 @@ var addNewTag = (prevState, cellId, columnId, rowId, markdown, color2, canAddMul
   return __spreadProps(__spreadValues({}, prevState), {
     model: __spreadProps(__spreadValues({}, prevState.model), {
       tags: tagsCopy,
-      rows: updateLastEditedTime(rows, rowId)
+      bodyRows: updateLastEditedTime(bodyRows, rowId)
     })
   });
 };
 var removeCellFromTag = (prevState, cellId, rowId, tagId) => {
-  const { tags, rows } = prevState.model;
+  const { tags, bodyRows } = prevState.model;
   const tagsCopy = [...tags];
   const tag = tagsCopy.find((t2) => t2.id === tagId);
   if (!tag)
@@ -33871,11 +34084,11 @@ var removeCellFromTag = (prevState, cellId, rowId, tagId) => {
     model: __spreadProps(__spreadValues({}, prevState.model), {
       tags: tagsCopy
     }),
-    rows: updateLastEditedTime(rows, rowId)
+    bodyRows: updateLastEditedTime(bodyRows, rowId)
   });
 };
 var addCellToTag = (prevState, cellId, rowId, tagId, canAddMultiple) => {
-  const { tags, rows } = prevState.model;
+  const { tags, bodyRows } = prevState.model;
   const tagsCopy = [...tags];
   if (!canAddMultiple) {
     const tag2 = tagsCopy.find((t2) => t2.cellIds.find((c2) => c2 == cellId));
@@ -33894,7 +34107,7 @@ var addCellToTag = (prevState, cellId, rowId, tagId, canAddMultiple) => {
   return __spreadProps(__spreadValues({}, prevState), {
     model: __spreadProps(__spreadValues({}, prevState.model), {
       tags: tagsCopy,
-      rows: updateLastEditedTime(rows, rowId)
+      bodyRows: updateLastEditedTime(bodyRows, rowId)
     })
   });
 };
@@ -33920,19 +34133,40 @@ var deleteTag = (prevState, tagId) => {
 
 // src/services/tableState/column.ts
 var addColumn = (prevState) => {
-  const { cells, columns, rows } = prevState.model;
+  const {
+    headerCells,
+    bodyCells,
+    footerCells,
+    columns,
+    headerRows,
+    bodyRows,
+    footerRows
+  } = prevState.model;
   const columnsCopy = [...columns];
   const newColumn = StateFactory.createColumn();
   columnsCopy.push(newColumn);
-  let cellsCopy = [...cells];
-  rows.forEach((row, i2) => {
-    cellsCopy.push(StateFactory.createCell(newColumn.id, row.id, i2 === 0));
+  const headerCellsCopy = [...headerCells];
+  headerRows.forEach((row, i2) => {
+    headerCellsCopy.push(
+      StateFactory.createHeaderCell(newColumn.id, row.id)
+    );
   });
-  cellsCopy = sortCellsForRender(columnsCopy, rows, cellsCopy);
+  const bodyCellsCopy = [...bodyCells];
+  bodyRows.forEach((row, i2) => {
+    bodyCellsCopy.push(StateFactory.createBodyCell(newColumn.id, row.id));
+  });
+  const footerCellsCopy = [...footerCells];
+  footerRows.forEach((row, i2) => {
+    footerCellsCopy.push(
+      StateFactory.createFooterCell(newColumn.id, row.id)
+    );
+  });
   return __spreadProps(__spreadValues({}, prevState), {
     model: __spreadProps(__spreadValues({}, prevState.model), {
       columns: columnsCopy,
-      cells: cellsCopy
+      headerCells: headerCellsCopy,
+      bodyCells: bodyCellsCopy,
+      footerCells: footerCellsCopy
     })
   });
 };
@@ -33973,17 +34207,23 @@ var updateColumn = (prevState, columnId, key, value) => {
   });
 };
 var deleteColumn = (prevState, columnId) => {
-  const { cells, columns, tags } = prevState.model;
+  const { bodyCells, headerCells, footerCells, columns, tags } = prevState.model;
   return __spreadProps(__spreadValues({}, prevState), {
     model: __spreadProps(__spreadValues({}, prevState.model), {
       columns: columns.filter((column) => column.id !== columnId),
-      cells: cells.filter((cell) => cell.columnId !== columnId),
+      headerCells: headerCells.filter(
+        (cell) => cell.columnId !== columnId
+      ),
+      bodyCells: bodyCells.filter((cell) => cell.columnId !== columnId),
+      footerCells: footerCells.filter(
+        (cell) => cell.columnId !== columnId
+      ),
       tags: tags.filter((tag) => tag.columnId !== columnId)
     })
   });
 };
 var changeColumnType = (prevState, columnId, newType) => {
-  const { columns, tags } = prevState.model;
+  const { columns, tags, bodyCells } = prevState.model;
   const column = columns.find((column2) => column2.id === columnId);
   if (!column)
     throw new ColumnIdError(columnId);
@@ -33998,8 +34238,8 @@ var changeColumnType = (prevState, columnId, newType) => {
       });
     });
   } else if (newType === "tag" /* TAG */ || "multi-tag" /* MULTI_TAG */) {
-    const cells = prevState.model.cells.filter(
-      (cell) => cell.columnId === columnId && cell.markdown !== "" && !cell.isHeader
+    const cells = bodyCells.filter(
+      (cell) => cell.columnId === columnId && cell.markdown !== ""
     );
     cells.forEach((cell) => {
       cell.markdown.split(",").map((markdown, i2) => {
@@ -34085,12 +34325,6 @@ var sortByMarkdown = (columnId, rows, cells, sortDir) => {
     );
     if (!cellB)
       throw new CellNotFoundError();
-    if (cellA.isHeader && !cellB.isHeader)
-      return -1;
-    if (!cellA.isHeader && cellB.isHeader)
-      return 1;
-    if (cellA.isHeader && cellB.isHeader)
-      return 0;
     const markdownA = cellA.markdown;
     const markdownB = cellB.markdown;
     if (markdownA === "" && markdownB !== "")
@@ -34122,12 +34356,6 @@ var sortByNumber = (columnId, rows, cells, sortDir) => {
     );
     if (!cellB)
       throw new CellNotFoundError();
-    if (cellA.isHeader && !cellB.isHeader)
-      return -1;
-    if (!cellA.isHeader && cellB.isHeader)
-      return 1;
-    if (cellA.isHeader && cellB.isHeader)
-      return 0;
     const markdownA = cellA.markdown;
     const markdownB = cellB.markdown;
     if (markdownA === "" && markdownB !== "")
@@ -34159,12 +34387,6 @@ var sortByCheckbox = (columnId, rows, cells, sortDir) => {
     );
     if (!cellB)
       throw new CellNotFoundError();
-    if (cellA.isHeader && !cellB.isHeader)
-      return -1;
-    if (!cellA.isHeader && cellB.isHeader)
-      return 1;
-    if (cellA.isHeader && cellB.isHeader)
-      return 0;
     const isCheckedA = isCheckboxChecked(cellA.markdown);
     const isCheckedB = isCheckboxChecked(cellB.markdown);
     if (sortDir === "asc" /* ASC */) {
@@ -34198,12 +34420,6 @@ var sortByDate = (columnId, rows, cells, sortDir) => {
     );
     if (!cellB)
       throw new CellNotFoundError();
-    if (cellA.isHeader && !cellB.isHeader)
-      return -1;
-    if (!cellA.isHeader && cellB.isHeader)
-      return 1;
-    if (cellA.isHeader && cellB.isHeader)
-      return 0;
     const dateTimeA = cellA.dateTime || 0;
     const dateTimeB = cellB.dateTime || 0;
     if (sortDir === "asc" /* ASC */) {
@@ -34219,10 +34435,6 @@ var sortByDate = (columnId, rows, cells, sortDir) => {
 var sortByCreationTime = (rows, sortDir) => {
   const rowsCopy = [...rows];
   rowsCopy.sort((a2, b2) => {
-    if (a2.index === 0)
-      return -1;
-    if (b2.index === 0)
-      return 1;
     if (sortDir === "asc" /* ASC */) {
       return a2.creationTime - b2.creationTime;
     } else if (sortDir === "desc" /* DESC */) {
@@ -34236,10 +34448,6 @@ var sortByCreationTime = (rows, sortDir) => {
 var sortByLastEditedTime = (rows, sortDir) => {
   const rowsCopy = [...rows];
   rowsCopy.sort((a2, b2) => {
-    if (a2.index === 0)
-      return -1;
-    if (b2.index === 0)
-      return 1;
     if (sortDir === "asc" /* ASC */) {
       return a2.lastEditedTime - b2.lastEditedTime;
     } else if (sortDir === "desc" /* DESC */) {
@@ -34258,37 +34466,51 @@ var sortByRowIndex = (rows) => {
   return rowsCopy;
 };
 var sortRows = (prevState) => {
-  const { columns, rows, cells } = prevState.model;
+  const { columns, bodyRows, bodyCells } = prevState.model;
   const sortedColumn = columns.find(
     (columns2) => columns2.sortDir !== "default" /* NONE */
   );
   if (sortedColumn) {
     return __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
-        rows: sortByDir(
+        bodyRows: sortByDir(
           sortedColumn.id,
           sortedColumn.type,
           sortedColumn.sortDir,
-          rows,
-          cells
-        ),
-        cells: sortCellsForRender(columns, rows, cells)
+          bodyRows,
+          bodyCells
+        )
       })
     });
   }
   return __spreadProps(__spreadValues({}, prevState), {
     model: __spreadProps(__spreadValues({}, prevState.model), {
-      rows: sortByRowIndex(rows)
+      bodyRows: sortByRowIndex(bodyRows)
     })
   });
 };
 
 // src/services/tableState/cell.ts
-var updateCell = (prevState, cellId, rowId, key, value) => {
-  const { cells, rows } = prevState.model;
+var updateHeaderCell = (prevState, cellId, key, value) => {
+  const { headerCells } = prevState.model;
   return __spreadProps(__spreadValues({}, prevState), {
     model: __spreadProps(__spreadValues({}, prevState.model), {
-      cells: cells.map((cell) => {
+      headerCells: headerCells.map((cell) => {
+        if (cell.id === cellId) {
+          return __spreadProps(__spreadValues({}, cell), {
+            [key]: value
+          });
+        }
+        return cell;
+      })
+    })
+  });
+};
+var updateBodyCell = (prevState, cellId, rowId, key, value) => {
+  const { bodyCells, bodyRows } = prevState.model;
+  return __spreadProps(__spreadValues({}, prevState), {
+    model: __spreadProps(__spreadValues({}, prevState.model), {
+      bodyCells: bodyCells.map((cell) => {
         if (cell.id === cellId) {
           return __spreadProps(__spreadValues({}, cell), {
             [key]: value
@@ -34296,38 +34518,24 @@ var updateCell = (prevState, cellId, rowId, key, value) => {
         }
         return cell;
       }),
-      rows: updateLastEditedTime(rows, rowId)
+      bodyRows: updateLastEditedTime(bodyRows, rowId)
     })
   });
 };
-
-// src/services/hooks/index.ts
-var import_react12 = __toESM(require_react());
-var useForceUpdate = () => {
-  const [time, setTime] = (0, import_react12.useState)(0);
-  return [time, (0, import_react12.useCallback)(() => setTime(Date.now()), [])];
-};
-var useCompare = (value) => {
-  const prevValue = usePrevious(value);
-  if (prevValue === void 0)
-    return false;
-  return prevValue !== value;
-};
-var usePrevious = (value) => {
-  const ref = (0, import_react12.useRef)();
-  (0, import_react12.useEffect)(() => {
-    ref.current = value;
+var updateFooterCell = (prevState, cellId, key, value) => {
+  const { footerCells } = prevState.model;
+  return __spreadProps(__spreadValues({}, prevState), {
+    model: __spreadProps(__spreadValues({}, prevState.model), {
+      footerCells: footerCells.map((cell) => {
+        if (cell.id === cellId) {
+          return __spreadProps(__spreadValues({}, cell), {
+            [key]: value
+          });
+        }
+        return cell;
+      })
+    })
   });
-  return ref.current;
-};
-var useDidMountEffect = (func, deps) => {
-  const didMount = (0, import_react12.useRef)(false);
-  (0, import_react12.useEffect)(() => {
-    if (didMount.current)
-      func();
-    else
-      didMount.current = true;
-  }, deps);
 };
 
 // src/services/random/hooks.ts
@@ -34388,6 +34596,190 @@ function Submenu({ title, children, onBackClick }) {
     ]
   });
 }
+
+// src/services/tableState/utils.ts
+var isGeneralFunction = (value) => {
+  return Object.values(GeneralFunction).includes(value);
+};
+var getShortDisplayNameForFunctionType = (value) => {
+  if (isGeneralFunction(value))
+    return getShortDisplayNameForGeneralFunction(value);
+  return getDisplayNameForNumberFunction(value);
+};
+var getShortDisplayNameForGeneralFunction = (value) => {
+  switch (value) {
+    case "count_all" /* COUNT_ALL */:
+      return "Count";
+    case "count_not_empty" /* COUNT_NOT_EMPTY */:
+      return "Not empty";
+    case "count_values" /* COUNT_VALUES */:
+      return "Values";
+    case "count_empty" /* COUNT_EMPTY */:
+      return "Empty";
+    case "count_unique" /* COUNT_UNIQUE */:
+      return "Unique";
+    case "none" /* NONE */:
+      return "None";
+    case "percent_empty" /* PERCENT_EMPTY */:
+      return "Empty";
+    case "percent_not_empty" /* PERCENT_NOT_EMPTY */:
+      return "Not empty";
+    default:
+      return "";
+  }
+};
+var getAriaLabelForGeneralFunction = (value) => {
+  switch (value) {
+    case "count_all" /* COUNT_ALL */:
+      return "Counts the total number of rows";
+    case "count_empty" /* COUNT_EMPTY */:
+      return "Counts the number of rows with an empty cell value";
+    case "count_not_empty" /* COUNT_NOT_EMPTY */:
+      return "Counts the number of rows with a non-empty cell value";
+    case "count_unique" /* COUNT_UNIQUE */:
+      return "Counts the number of unique values in the column";
+    case "count_values" /* COUNT_VALUES */:
+      return "Counts the number of values in the column";
+    case "percent_empty" /* PERCENT_EMPTY */:
+      return "Displays the percentage of rows with an empty cell value";
+    case "percent_not_empty" /* PERCENT_NOT_EMPTY */:
+      return "Displays the percentage of rows with a non-empty cell value";
+    default:
+      return "";
+  }
+};
+var getAriaLabelForNumberFunction = (value) => {
+  switch (value) {
+    case "sum" /* SUM */:
+      return "Computes the sum of the cells in the column";
+    case "avg" /* AVG */:
+      return "Computes the average of the cells in the column";
+    case "min" /* MIN */:
+      return "Computes the minimum of the cells in the column";
+    case "max" /* MAX */:
+      return "Computes the maximum of the cells in the column";
+    case "median" /* MEDIAN */:
+      return "Computes the median of the cells in the column";
+    case "range" /* RANGE */:
+      return "Computes the range (max - min) of the cells in the column";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForGeneralFunction = (value) => {
+  switch (value) {
+    case "count_all" /* COUNT_ALL */:
+      return "Count all";
+    case "count_not_empty" /* COUNT_NOT_EMPTY */:
+      return "Count not empty";
+    case "count_values" /* COUNT_VALUES */:
+      return "Count values";
+    case "count_empty" /* COUNT_EMPTY */:
+      return "Count empty";
+    case "count_unique" /* COUNT_UNIQUE */:
+      return "Count unique";
+    case "none" /* NONE */:
+      return "None";
+    case "percent_empty" /* PERCENT_EMPTY */:
+      return "Percent empty";
+    case "percent_not_empty" /* PERCENT_NOT_EMPTY */:
+      return "Percent not empty";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForNumberFunction = (value) => {
+  switch (value) {
+    case "sum" /* SUM */:
+      return "Sum";
+    case "avg" /* AVG */:
+      return "Average";
+    case "min" /* MIN */:
+      return "Min";
+    case "max" /* MAX */:
+      return "Max";
+    case "median" /* MEDIAN */:
+      return "Median";
+    case "range" /* RANGE */:
+      return "Range";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForDateFormat = (format) => {
+  switch (format) {
+    case "dd/mm/yyyy" /* DD_MM_YYYY */:
+      return "Day/Month/Year";
+    case "mm/dd/yyyy" /* MM_DD_YYYY */:
+      return "Month/Day/Year";
+    case "yyyy/mm/dd" /* YYYY_MM_DD */:
+      return "Year/Month/Day";
+    case "full" /* FULL */:
+      return "Full";
+    case "relative" /* RELATIVE */:
+      return "Relative";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForCurrencyType = (type) => {
+  switch (type) {
+    case "USD" /* UNITED_STATES */:
+      return "United States Dollar";
+    case "CAD" /* CANADA */:
+      return "Canadian Dollar";
+    case "AUD" /* AUSTRALIA */:
+      return "Australian Dollar";
+    case "SGB" /* SINGAPORE */:
+      return "Singapore Dollar";
+    case "CNY" /* CHINA */:
+      return "Yuan";
+    case "JPY" /* JAPAN */:
+      return "Yen";
+    case "COP" /* COLOMBIA */:
+      return "Colombian Peso";
+    case "EUR" /* EUROPE */:
+      return "Euro";
+    case "BRL" /* BRAZIL */:
+      return "Real";
+    case "GBP" /* POUND */:
+      return "Pound";
+    case "INR" /* INDIA */:
+      return "Rupee";
+    case "ARS" /* ARGENTINA */:
+      return "Argentine Peso";
+    case "MXN" /* MEXICO */:
+      return "Mexican Peso";
+    case "RUB" /* RUSSIA */:
+      return "Ruble";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForCellType = (type) => {
+  switch (type) {
+    case "text" /* TEXT */:
+      return "Text";
+    case "number" /* NUMBER */:
+      return "Number";
+    case "checkbox" /* CHECKBOX */:
+      return "Checkbox";
+    case "date" /* DATE */:
+      return "Date";
+    case "last-edited-time" /* LAST_EDITED_TIME */:
+      return "Last edited";
+    case "creation-time" /* CREATION_TIME */:
+      return "Creation";
+    case "tag" /* TAG */:
+      return "Tag";
+    case "multi-tag" /* MULTI_TAG */:
+      return "Multi-tag";
+    case "currency" /* CURRENCY */:
+      return "Currency";
+    default:
+      return "";
+  }
+};
 
 // src/components/HeaderCell/components/HeaderMenu/components/OptionSubmenu/index.tsx
 var import_jsx_runtime63 = __toESM(require_jsx_runtime());
@@ -34500,7 +34892,7 @@ function TypeSubmenu({
 // src/components/HeaderCell/components/HeaderMenu/components/BaseMenu/index.tsx
 var import_jsx_runtime65 = __toESM(require_jsx_runtime());
 function BaseMenu({
-  rowId,
+  isMenuVisible,
   cellId,
   columnName,
   columnType,
@@ -34509,6 +34901,7 @@ function BaseMenu({
   onSortClick,
   onSubmenuChange
 }) {
+  const inputRef = useFocusInput(isMenuVisible);
   return /* @__PURE__ */ (0, import_jsx_runtime65.jsxs)(Stack, {
     spacing: "sm",
     isVertical: true,
@@ -34521,9 +34914,10 @@ function BaseMenu({
             px: "md",
             py: "sm",
             children: /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("input", {
+              ref: inputRef,
               autoFocus: true,
               value: columnName,
-              onChange: (e) => onColumnNameChange(cellId, rowId, e.target.value)
+              onChange: (e) => onColumnNameChange(cellId, e.target.value)
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(MenuItem, {
@@ -34599,7 +34993,7 @@ var import_jsx_runtime68 = __toESM(require_jsx_runtime());
 function HeaderMenu({
   isOpen,
   id,
-  rowId,
+  isMenuVisible,
   top: top2,
   left: left2,
   cellId,
@@ -34655,7 +35049,7 @@ function HeaderMenu({
       className: "NLT__header-menu",
       children: [
         submenu === null && /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(BaseMenu, {
-          rowId,
+          isMenuVisible,
           cellId,
           columnName: markdown,
           columnType,
@@ -34730,7 +35124,7 @@ var useResizeColumn = (columnId, onWidthChange) => {
 
 // src/components/HeaderCell/index.tsx
 var import_jsx_runtime69 = __toESM(require_jsx_runtime());
-function HeaderCell({
+function HeaderCell3({
   cellId,
   rowId,
   columnId,
@@ -34751,11 +35145,10 @@ function HeaderCell({
   onCurrencyChange,
   onDateFormatChange
 }) {
-  const [menu, menuPosition] = useMenu(0 /* ONE */);
-  const dispatch = useAppDispatch();
-  const shouldOpenMenu = useAppSelector(
-    (state) => isMenuOpen(state, menu.id)
+  const { menu, menuPosition, isMenuOpen: isMenuOpen2, isMenuVisible } = useMenu(
+    0 /* ONE */
   );
+  const dispatch = useAppDispatch();
   const [updateTime, forceUpdate] = useForceUpdate();
   (0, import_react16.useEffect)(() => {
     if (width2 === "unset") {
@@ -34785,7 +35178,13 @@ function HeaderCell({
   function closeHeaderMenu() {
     dispatch(closeTopLevelMenu());
   }
-  const { top: top2, left: left2 } = menuPosition.position;
+  const { top: top2, left: left2 } = shiftMenuIntoViewContent(
+    menu.id,
+    menuPosition.positionRef.current,
+    menuPosition.position,
+    0,
+    0
+  );
   const iconType = getIconTypeFromCellType(type);
   let contentClassName = "NLT__th-content";
   if (resizingColumnId == null)
@@ -34795,14 +35194,15 @@ function HeaderCell({
     resizeClassName += " NLT__th-resize--active";
   return /* @__PURE__ */ (0, import_jsx_runtime69.jsxs)("div", {
     className: "NLT__th-container",
-    ref: menuPosition.containerRef,
+    ref: menuPosition.positionRef,
     onClick: handleHeaderClick,
     style: {
       width: width2
     },
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime69.jsx)(HeaderMenu, {
-        isOpen: shouldOpenMenu,
+        isOpen: isMenuOpen2,
+        isMenuVisible,
         top: top2,
         left: left2,
         id: menu.id,
@@ -34855,255 +35255,6 @@ function HeaderCell({
         })
       })
     ]
-  });
-}
-
-// src/components/Cell/index.tsx
-var import_obsidian4 = require("obsidian");
-
-// src/services/markdown/hooks.ts
-var import_obsidian3 = require("obsidian");
-var import_react17 = __toESM(require_react());
-
-// src/services/markdown/embed.ts
-var handleLinkClick = (event) => {
-  const targetEl = event.target;
-  const closestAnchor = targetEl.tagName === "A" ? targetEl : targetEl.closest("a");
-  if (!closestAnchor) {
-    return;
-  }
-  if (closestAnchor.hasClass("internal-link")) {
-    event.preventDefault();
-    const href = closestAnchor.getAttr("href");
-    const newLeaf = event.ctrlKey || event.metaKey;
-    if (href) {
-      app.workspace.openLinkText(href, "", newLeaf);
-    }
-  }
-};
-
-// src/services/markdown/utils.ts
-var replaceNewLinesWithBreakTag = (markdown) => {
-  const lines = markdown.split("\n");
-  let updated = "";
-  lines.forEach((line) => {
-    if (line === "") {
-      updated += "<br>\n";
-    } else {
-      updated += line + "\n";
-    }
-  });
-  return updated;
-};
-
-// src/services/markdown/hooks.ts
-var useRenderMarkdown = (markdown, shouldWrapOverflow) => {
-  const wrapperRef = (0, import_react17.useRef)(null);
-  const contentRef = (0, import_react17.useRef)(null);
-  function appendOrReplaceFirstChild(wrapper, child) {
-    if (!child || !wrapper)
-      return;
-    if (wrapper && !wrapper.firstChild) {
-      wrapper.appendChild(child);
-    } else if (wrapper.firstChild && wrapper.firstChild !== child) {
-      wrapper.replaceChild(child, wrapper.firstChild);
-    }
-  }
-  (0, import_react17.useEffect)(() => {
-    function renderMarkdown() {
-      return __async(this, null, function* () {
-        const view = app.workspace.getActiveViewOfType(NLTView);
-        if (view) {
-          const dom = document.body.createDiv();
-          dom.detach();
-          try {
-            const updated = replaceNewLinesWithBreakTag(markdown);
-            yield import_obsidian3.MarkdownRenderer.renderMarkdown(
-              updated,
-              dom,
-              view.file.path,
-              view
-            );
-            const embeds = dom.querySelectorAll(".internal-link");
-            embeds.forEach((embed) => {
-              const el = embed;
-              el.onmouseover = (e) => {
-                app.workspace.trigger("hover-link", {
-                  event: e,
-                  source: NOTION_LIKE_TABLES_VIEW,
-                  hoverParent: view.containerEl,
-                  targetEl: el,
-                  linktext: el.getAttr("data-href"),
-                  sourcePath: el.href
-                });
-              };
-              el.onclick = handleLinkClick;
-            });
-          } catch (e) {
-            console.error(e);
-          }
-          return dom;
-        }
-        return null;
-      });
-    }
-    renderMarkdown().then((el) => {
-      if (el) {
-        contentRef.current = el;
-        if (wrapperRef.current)
-          appendOrReplaceFirstChild(wrapperRef.current, el);
-      }
-    });
-  }, [markdown, shouldWrapOverflow]);
-  return {
-    wrapperRef,
-    contentRef,
-    appendOrReplaceFirstChild
-  };
-};
-
-// src/services/spacing/hooks.ts
-var useOverflowClassName = (shouldWrapOverflow) => {
-  if (shouldWrapOverflow) {
-    return "NLT__wrap-overflow";
-  } else {
-    return "NLT__hide-overflow";
-  }
-};
-
-// src/components/Cell/components/TextCell/index.tsx
-var import_jsx_runtime70 = __toESM(require_jsx_runtime());
-function TextCell({ markdown, shouldWrapOverflow }) {
-  const { wrapperRef, contentRef, appendOrReplaceFirstChild } = useRenderMarkdown(markdown, shouldWrapOverflow);
-  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
-  const className = "NLT__text-cell " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime70.jsx)("div", {
-    className,
-    children: /* @__PURE__ */ (0, import_jsx_runtime70.jsx)("div", {
-      ref: (node) => {
-        wrapperRef.current = node;
-        appendOrReplaceFirstChild(node, contentRef.current);
-      }
-    })
-  });
-}
-
-// src/services/color/index.ts
-var findColorClassName = (isDarkMode, color2) => {
-  switch (color2) {
-    case "light gray" /* LIGHT_GRAY */:
-      return isDarkMode ? "NLT__light-gray--dark" : "NLT__light-gray--light";
-    case "gray" /* GRAY */:
-      return isDarkMode ? "NLT__gray--dark" : "NLT__gray--light";
-    case "brown" /* BROWN */:
-      return isDarkMode ? "NLT__brown--dark" : "NLT__brown--light";
-    case "orange" /* ORANGE */:
-      return isDarkMode ? "NLT__orange--dark" : "NLT__orange--light";
-    case "yellow" /* YELLOW */:
-      return isDarkMode ? "NLT__yellow--dark" : "NLT__yellow--light";
-    case "green" /* GREEN */:
-      return isDarkMode ? "NLT__green--dark" : "NLT__green--light";
-    case "blue" /* BLUE */:
-      return isDarkMode ? "NLT__blue--dark" : "NLT__blue--light";
-    case "purple" /* PURPLE */:
-      return isDarkMode ? "NLT__purple--dark" : "NLT__purple--light";
-    case "pink" /* PINK */:
-      return isDarkMode ? "NLT__pink--dark" : "NLT__pink--light";
-    case "red" /* RED */:
-      return isDarkMode ? "NLT__red--dark" : "NLT__red--light";
-    default:
-      return "";
-  }
-};
-
-// src/components/Tag/index.tsx
-var import_jsx_runtime71 = __toESM(require_jsx_runtime());
-function Tag2({
-  isDarkMode,
-  id,
-  color: color2,
-  maxWidth: maxWidth2,
-  markdown,
-  showRemove,
-  onRemoveClick
-}) {
-  let tagClass = "NLT__tag";
-  tagClass += " " + findColorClassName(isDarkMode, color2);
-  if (onRemoveClick && id == void 0) {
-    throw new Error(
-      "An id must defined when the onRemoveClick handler is present."
-    );
-  }
-  let contentClassName = "NLT__tag-content";
-  if (maxWidth2 !== void 0) {
-    contentClassName += " NLT__hide-overflow-ellipsis";
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("div", {
-    className: tagClass,
-    children: /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(Stack, {
-      spacing: "sm",
-      children: [
-        /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("div", __spreadProps(__spreadValues({
-          className: contentClassName
-        }, maxWidth2 !== void 0 && { style: { maxWidth: maxWidth2 } }), {
-          children: markdown
-        })),
-        showRemove && /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Button, {
-          icon: /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Icon, {
-            size: "sm",
-            type: 19 /* CLOSE */
-          }),
-          isSimple: true,
-          onClick: () => {
-            onRemoveClick !== void 0 && onRemoveClick(id);
-          }
-        })
-      ]
-    })
-  });
-}
-
-// src/components/Cell/components/TagCell/index.tsx
-var import_jsx_runtime72 = __toESM(require_jsx_runtime());
-function TagCell({
-  isDarkMode,
-  markdown,
-  color: color2,
-  shouldWrapOverflow
-}) {
-  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
-  const className = "NLT__tag-cell " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime72.jsx)("div", {
-    className,
-    children: /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(Tag2, {
-      isDarkMode,
-      markdown,
-      color: color2
-    })
-  });
-}
-
-// src/components/Cell/components/CheckboxCell/index.tsx
-var import_jsx_runtime73 = __toESM(require_jsx_runtime());
-function CheckboxCell({ value, onCheckboxChange }) {
-  const isChecked = isCheckboxChecked(value);
-  function handleClick() {
-    if (isChecked) {
-      onCheckboxChange(CHECKBOX_MARKDOWN_UNCHECKED);
-    } else {
-      onCheckboxChange(CHECKBOX_MARKDOWN_CHECKED);
-    }
-  }
-  return /* @__PURE__ */ (0, import_jsx_runtime73.jsx)("div", {
-    className: "NLT__checkbox-cell",
-    children: /* @__PURE__ */ (0, import_jsx_runtime73.jsx)("input", {
-      className: "task-list-item-checkbox",
-      type: "checkbox",
-      checked: isChecked,
-      onChange: () => {
-      },
-      onClick: handleClick
-    })
   });
 }
 
@@ -35256,52 +35407,646 @@ DateConversion.unixTimeToDateString = (unixTime, format) => {
   }
 };
 
-// src/components/Cell/components/DateCell/index.tsx
+// src/components/FunctionCell/components/FunctionMenu/index.tsx
+var import_jsx_runtime70 = __toESM(require_jsx_runtime());
+function FunctionMenu({
+  id,
+  value,
+  cellType,
+  isOpen,
+  top: top2,
+  left: left2,
+  onClick
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(Menu, {
+    id,
+    isOpen,
+    top: top2,
+    left: left2,
+    children: /* @__PURE__ */ (0, import_jsx_runtime70.jsxs)("div", {
+      className: "NLT__function-menu",
+      children: [
+        Object.values(GeneralFunction).map((type) => /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(MenuItem, {
+          name: getDisplayNameForGeneralFunction(type),
+          ariaLabel: getAriaLabelForGeneralFunction(type),
+          onClick: () => onClick(type),
+          isSelected: type === value
+        }, type)),
+        (cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */) && Object.values(NumberFunction).map((type) => /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(MenuItem, {
+          ariaLabel: getAriaLabelForNumberFunction(type),
+          name: getDisplayNameForNumberFunction(type),
+          onClick: () => onClick(type),
+          isSelected: type === value
+        }, type))
+      ]
+    })
+  });
+}
+
+// src/services/arithmetic/utils.ts
+var getAverage = (values2) => {
+  return getSum(values2) / values2.length;
+};
+var getSum = (values2) => {
+  return values2.reduce((sum, a2) => sum + a2, 0);
+};
+var getMaximum = (values2) => {
+  return Math.max(...values2);
+};
+var getMinimum = (values2) => {
+  return Math.min(...values2);
+};
+var getMedian = (values2) => {
+  const sortedValues = values2.sort((a2, b2) => a2 - b2);
+  const middle = Math.floor(values2.length / 2);
+  if (values2.length % 2 === 0) {
+    return (sortedValues[middle - 1] + sortedValues[middle]) / 2;
+  } else {
+    return sortedValues[middle];
+  }
+};
+var getRange = (values2) => {
+  return getMaximum(values2) - getMinimum(values2);
+};
+
+// src/components/FunctionCell/services/utils.ts
+var NAMESPACE = "fa23ee5e-43ae-45e0-83ed-97c577913416";
+var hashString = (value) => {
+  return v5_default(value, NAMESPACE);
+};
+var round2Digits = (value) => {
+  if (value.toString().includes("."))
+    return parseFloat(value.toFixed(2));
+  return value;
+};
+
+// src/components/FunctionCell/services/numberFunction.ts
+var getNumberFunctionContent = (values2, cellType, currencyType, functionType) => {
+  const value = getNumberFunctionValue(values2, functionType).toString();
+  if (cellType === "currency" /* CURRENCY */)
+    return stringToCurrencyString(value, currencyType);
+  return value;
+};
+var getNumberFunctionValue = (values2, type) => {
+  if (type === "avg" /* AVG */) {
+    return round2Digits(getAverage(values2));
+  } else if (type === "max" /* MAX */) {
+    return getMaximum(values2);
+  } else if (type === "min" /* MIN */) {
+    return getMinimum(values2);
+  } else if (type === "range" /* RANGE */) {
+    return round2Digits(getRange(values2));
+  } else if (type === "sum" /* SUM */) {
+    return round2Digits(getSum(values2));
+  } else if (type === "median" /* MEDIAN */) {
+    return round2Digits(getMedian(values2));
+  } else {
+    throw new Error("Unhandled number function");
+  }
+};
+
+// src/components/FunctionCell/services/generalFunction.ts
+var getGeneralFunctionContent = (bodyRows, columnCells, columnTags, cellType, functionType, dateFormat) => {
+  return getGeneralFunctionValue(
+    bodyRows,
+    columnCells,
+    columnTags,
+    cellType,
+    functionType,
+    dateFormat
+  ).toString();
+};
+var getGeneralFunctionValue = (bodyRows, columnCells, columnTags, cellType, functionType, dateFormat) => {
+  if (functionType === "count_all" /* COUNT_ALL */) {
+    return countAll(bodyRows);
+  } else if (functionType === "count_empty" /* COUNT_EMPTY */) {
+    return countEmpty(columnCells, columnTags, cellType);
+  } else if (functionType === "count_not_empty" /* COUNT_NOT_EMPTY */) {
+    return countNotEmpty(columnCells, columnTags, cellType);
+  } else if (functionType === "count_unique" /* COUNT_UNIQUE */) {
+    return countUnique(
+      bodyRows,
+      columnCells,
+      columnTags,
+      cellType,
+      dateFormat
+    );
+  } else if (functionType === "count_values" /* COUNT_VALUES */) {
+    return countValues(columnCells, columnTags, cellType);
+  } else if (functionType === "percent_empty" /* PERCENT_EMPTY */) {
+    return percentEmpty(columnCells, columnTags, cellType);
+  } else if (functionType === "percent_not_empty" /* PERCENT_NOT_EMPTY */) {
+    return percentNotEmpty(columnCells, columnTags, cellType);
+  } else if (functionType === "none" /* NONE */) {
+    return "";
+  } else {
+    throw new Error("Unhandled general function");
+  }
+};
+var countAll = (bodyRows) => {
+  return bodyRows.length;
+};
+var countEmpty = (columnCells, columnTags, cellType) => {
+  return columnCells.map((cell) => isCellContentEmpty(cell, columnTags, cellType)).reduce((accum, value) => {
+    if (value === true)
+      return accum + 1;
+    return accum;
+  }, 0);
+};
+var countNotEmpty = (columnCells, columnTags, cellType) => {
+  return columnCells.map((cell) => isCellContentEmpty(cell, columnTags, cellType)).reduce((accum, value) => {
+    if (value === false)
+      return accum + 1;
+    return accum;
+  }, 0);
+};
+var countUnique = (bodyRows, columnCells, columnTags, cellType, dateFormat) => {
+  const hashes = columnCells.map((cell) => {
+    const row = bodyRows.find((row2) => row2.id === cell.rowId);
+    if (!row)
+      throw new RowIdError(cell.rowId);
+    const cellValues = getCellValues(
+      row,
+      cell,
+      columnTags,
+      cellType,
+      dateFormat
+    );
+    return cellValues.map((value) => hashString(value));
+  }).flat(1);
+  const uniqueHashes = new Set(hashes);
+  return uniqueHashes.size;
+};
+var countValues = (columnCells, columnTags, cellType) => {
+  return columnCells.map((cell) => countCellValues(cell, columnTags, cellType)).reduce((accum, value) => accum + value, 0);
+};
+var percentEmpty = (columnCells, columnTags, cellType) => {
+  const percent = countEmpty(columnCells, columnTags, cellType) / columnCells.length * 100;
+  const normalized = round2Digits(percent);
+  return normalized + "%";
+};
+var percentNotEmpty = (columnCells, columnTags, cellType) => {
+  const percent = countNotEmpty(columnCells, columnTags, cellType) / columnCells.length * 100;
+  const normalized = round2Digits(percent);
+  return normalized + "%";
+};
+var getCellValues = (bodyRow, cell, columnTags, cellType, dateFormat) => {
+  if (cellType === "text" /* TEXT */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "checkbox" /* CHECKBOX */) {
+    return [cell.markdown];
+  } else if (cellType === "date" /* DATE */) {
+    if (cell.dateTime)
+      return [cell.dateTime.toString()];
+    return [];
+  } else if (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) {
+    return columnTags.filter((tag) => tag.cellIds.includes(cell.id)).map((tag) => tag.markdown);
+  } else if (cellType === "last-edited-time" /* LAST_EDITED_TIME */) {
+    return [
+      DateConversion.unixTimeToDateTimeString(
+        bodyRow.lastEditedTime,
+        dateFormat
+      )
+    ];
+  } else if (cellType === "creation-time" /* CREATION_TIME */) {
+    return [
+      DateConversion.unixTimeToDateTimeString(
+        bodyRow.creationTime,
+        dateFormat
+      )
+    ];
+  } else {
+    throw new Error("Unhandled cell type");
+  }
+};
+var countCellValues = (cell, columnTags, cellType) => {
+  if (cellType === "text" /* TEXT */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */) {
+    return cell.markdown === "" ? 0 : 1;
+  } else if (cellType === "date" /* DATE */) {
+    return cell.dateTime == null ? 0 : 1;
+  } else if (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) {
+    return columnTags.filter((tag) => tag.cellIds.includes(cell.id)).length;
+  } else if (cellType === "checkbox" /* CHECKBOX */) {
+    return isCheckboxChecked(cell.markdown) ? 1 : 0;
+  } else if (cellType === "last-edited-time" /* LAST_EDITED_TIME */ || cellType === "creation-time" /* CREATION_TIME */) {
+    return 1;
+  } else {
+    throw new Error("Unhandled cell type");
+  }
+};
+var isCellContentEmpty = (cell, columnTags, cellType) => {
+  if (cellType === "text" /* TEXT */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */) {
+    return cell.markdown === "";
+  } else if (cellType === "date" /* DATE */) {
+    return cell.dateTime == null;
+  } else if (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) {
+    return columnTags.find((tag) => tag.cellIds.includes(cell.id)) == void 0;
+  } else if (cellType === "checkbox" /* CHECKBOX */) {
+    return !isCheckboxChecked(cell.markdown);
+  } else if (cellType === "last-edited-time" /* LAST_EDITED_TIME */ || cellType === "creation-time" /* CREATION_TIME */) {
+    return true;
+  } else {
+    throw new Error("Unhandled cell type");
+  }
+};
+
+// src/components/FunctionCell/index.tsx
+var import_jsx_runtime71 = __toESM(require_jsx_runtime());
+function FunctionCell({
+  columnId,
+  cellId,
+  width: width2,
+  tags,
+  bodyCells,
+  dateFormat,
+  bodyRows,
+  functionType,
+  currencyType,
+  cellType,
+  onFunctionTypeChange
+}) {
+  const { menu, menuPosition, isMenuOpen: isMenuOpen2 } = useMenu(0 /* ONE */);
+  const dispatch = useAppDispatch();
+  function handleFunctionTypeClick(value) {
+    onFunctionTypeChange(cellId, value);
+    dispatch(closeTopLevelMenu());
+  }
+  const { top: top2, left: left2 } = shiftMenuIntoViewContent(
+    menu.id,
+    menuPosition.positionRef.current,
+    menuPosition.position,
+    cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ ? -165 : 0,
+    0
+  );
+  const columnCells = bodyCells.filter((cell) => cell.columnId === columnId);
+  let content = "";
+  if (isGeneralFunction(functionType)) {
+    const columnTags = tags.filter((tag) => tag.columnId === columnId);
+    content = getGeneralFunctionContent(
+      bodyRows,
+      columnCells,
+      columnTags,
+      cellType,
+      functionType,
+      dateFormat
+    );
+  } else {
+    const cellValues = columnCells.filter((cell) => cell.markdown !== "").map((cell) => parseFloat(cell.markdown));
+    if (cellValues.length !== 0)
+      content = getNumberFunctionContent(
+        cellValues,
+        cellType,
+        currencyType,
+        functionType
+      );
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(import_jsx_runtime71.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)("div", {
+        className: "NLT__function-cell NLT__selectable",
+        style: {
+          width: width2
+        },
+        ref: menuPosition.positionRef,
+        onClick: () => dispatch(openMenu(menu)),
+        children: [
+          functionType === "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Text, {
+            value: "Calculate",
+            variant: "faint"
+          }),
+          functionType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(Stack, {
+            spacing: "sm",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Text, {
+                value: getShortDisplayNameForFunctionType(
+                  functionType
+                ),
+                variant: "muted"
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Text, {
+                value: content,
+                variant: "semibold"
+              })
+            ]
+          })
+        ]
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(FunctionMenu, {
+        id: menu.id,
+        top: top2,
+        cellType,
+        left: left2,
+        isOpen: isMenuOpen2,
+        value: functionType,
+        onClick: handleFunctionTypeClick
+      })
+    ]
+  });
+}
+
+// src/components/BodyCell/index.tsx
+var import_obsidian4 = require("obsidian");
+
+// src/services/markdown/hooks.ts
+var import_obsidian3 = require("obsidian");
+var import_react17 = __toESM(require_react());
+
+// src/services/markdown/embed.ts
+var handleLinkClick = (event) => {
+  const targetEl = event.target;
+  const closestAnchor = targetEl.tagName === "A" ? targetEl : targetEl.closest("a");
+  if (!closestAnchor) {
+    return;
+  }
+  if (closestAnchor.hasClass("internal-link")) {
+    event.preventDefault();
+    const href = closestAnchor.getAttr("href");
+    const newLeaf = event.ctrlKey || event.metaKey;
+    if (href) {
+      app.workspace.openLinkText(href, "", newLeaf);
+    }
+  }
+};
+
+// src/services/markdown/utils.ts
+var replaceNewLinesWithBreakTag = (markdown) => {
+  const lines = markdown.split("\n");
+  let updated = "";
+  lines.forEach((line) => {
+    if (line === "") {
+      updated += "<br>";
+    } else {
+      updated += line + "\n";
+    }
+  });
+  return updated;
+};
+
+// src/services/markdown/hooks.ts
+var useRenderMarkdown = (markdown, shouldWrapOverflow) => {
+  const containerRef = (0, import_react17.useRef)(null);
+  const contentRef = (0, import_react17.useRef)(null);
+  function appendOrReplaceFirstChild(container, child) {
+    if (!child || !container)
+      return;
+    if (container && !container.firstChild) {
+      container.appendChild(child);
+    } else if (container.firstChild && container.firstChild !== child) {
+      container.replaceChild(child, container.firstChild);
+    }
+  }
+  (0, import_react17.useEffect)(() => {
+    function renderMarkdown() {
+      return __async(this, null, function* () {
+        const view = app.workspace.getActiveViewOfType(NLTView);
+        if (view) {
+          const div = document.body.createDiv();
+          div.detach();
+          try {
+            const updated = replaceNewLinesWithBreakTag(markdown);
+            yield import_obsidian3.MarkdownRenderer.renderMarkdown(
+              updated,
+              div,
+              view.file.path,
+              view
+            );
+            const embeds = div.querySelectorAll(".internal-link");
+            embeds.forEach((embed) => {
+              const el = embed;
+              el.onmouseover = (e) => {
+                app.workspace.trigger("hover-link", {
+                  event: e,
+                  source: NOTION_LIKE_TABLES_VIEW,
+                  hoverParent: view.containerEl,
+                  targetEl: el,
+                  linktext: el.getAttr("data-href"),
+                  sourcePath: el.href
+                });
+              };
+              el.onclick = handleLinkClick;
+            });
+          } catch (e) {
+            console.error(e);
+          }
+          return div;
+        }
+        return null;
+      });
+    }
+    renderMarkdown().then((el) => {
+      if (el) {
+        contentRef.current = el;
+        if (containerRef.current)
+          appendOrReplaceFirstChild(containerRef.current, el);
+      }
+    });
+  }, [markdown, shouldWrapOverflow]);
+  return {
+    containerRef,
+    contentRef,
+    appendOrReplaceFirstChild
+  };
+};
+
+// src/services/spacing/hooks.ts
+var useOverflowClassName = (shouldWrapOverflow) => {
+  if (shouldWrapOverflow) {
+    return "NLT__wrap-overflow";
+  } else {
+    return "NLT__hide-overflow";
+  }
+};
+
+// src/components/BodyCell/components/TextCell/index.tsx
+var import_jsx_runtime72 = __toESM(require_jsx_runtime());
+function TextCell({ markdown, shouldWrapOverflow }) {
+  const { containerRef, contentRef, appendOrReplaceFirstChild } = useRenderMarkdown(markdown, shouldWrapOverflow);
+  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
+  const className = "NLT__text-cell " + overflowClassName;
+  return /* @__PURE__ */ (0, import_jsx_runtime72.jsx)("div", {
+    className,
+    children: /* @__PURE__ */ (0, import_jsx_runtime72.jsx)("div", {
+      ref: (node) => {
+        containerRef.current = node;
+        appendOrReplaceFirstChild(node, contentRef.current);
+      }
+    })
+  });
+}
+
+// src/services/color/index.ts
+var findColorClassName = (isDarkMode, color2) => {
+  switch (color2) {
+    case "light gray" /* LIGHT_GRAY */:
+      return isDarkMode ? "NLT__light-gray--dark" : "NLT__light-gray--light";
+    case "gray" /* GRAY */:
+      return isDarkMode ? "NLT__gray--dark" : "NLT__gray--light";
+    case "brown" /* BROWN */:
+      return isDarkMode ? "NLT__brown--dark" : "NLT__brown--light";
+    case "orange" /* ORANGE */:
+      return isDarkMode ? "NLT__orange--dark" : "NLT__orange--light";
+    case "yellow" /* YELLOW */:
+      return isDarkMode ? "NLT__yellow--dark" : "NLT__yellow--light";
+    case "green" /* GREEN */:
+      return isDarkMode ? "NLT__green--dark" : "NLT__green--light";
+    case "blue" /* BLUE */:
+      return isDarkMode ? "NLT__blue--dark" : "NLT__blue--light";
+    case "purple" /* PURPLE */:
+      return isDarkMode ? "NLT__purple--dark" : "NLT__purple--light";
+    case "pink" /* PINK */:
+      return isDarkMode ? "NLT__pink--dark" : "NLT__pink--light";
+    case "red" /* RED */:
+      return isDarkMode ? "NLT__red--dark" : "NLT__red--light";
+    default:
+      return "";
+  }
+};
+
+// src/components/Tag/index.tsx
+var import_jsx_runtime73 = __toESM(require_jsx_runtime());
+function Tag4({
+  isDarkMode,
+  id,
+  color: color2,
+  maxWidth: maxWidth2,
+  markdown,
+  showRemove,
+  onRemoveClick
+}) {
+  let tagClass = "NLT__tag";
+  tagClass += " " + findColorClassName(isDarkMode, color2);
+  if (onRemoveClick && id == void 0) {
+    throw new Error(
+      "An id must defined when the onRemoveClick handler is present."
+    );
+  }
+  let contentClassName = "NLT__tag-content";
+  if (maxWidth2 !== void 0) {
+    contentClassName += " NLT__hide-overflow-ellipsis";
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime73.jsx)("div", {
+    className: tagClass,
+    children: /* @__PURE__ */ (0, import_jsx_runtime73.jsxs)(Stack, {
+      spacing: "sm",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime73.jsx)("div", __spreadProps(__spreadValues({
+          className: contentClassName
+        }, maxWidth2 !== void 0 && { style: { maxWidth: maxWidth2 } }), {
+          children: markdown
+        })),
+        showRemove && /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(Button, {
+          icon: /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(Icon, {
+            size: "sm",
+            type: 19 /* CLOSE */
+          }),
+          isSimple: true,
+          onClick: () => {
+            onRemoveClick !== void 0 && onRemoveClick(id);
+          }
+        })
+      ]
+    })
+  });
+}
+
+// src/components/BodyCell/components/TagCell/index.tsx
 var import_jsx_runtime74 = __toESM(require_jsx_runtime());
+function TagCell({
+  isDarkMode,
+  markdown,
+  color: color2,
+  shouldWrapOverflow
+}) {
+  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
+  const className = "NLT__tag-cell " + overflowClassName;
+  return /* @__PURE__ */ (0, import_jsx_runtime74.jsx)("div", {
+    className,
+    children: /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(Tag4, {
+      isDarkMode,
+      markdown,
+      color: color2
+    })
+  });
+}
+
+// src/components/BodyCell/components/CheckboxCell/index.tsx
+var import_jsx_runtime75 = __toESM(require_jsx_runtime());
+function CheckboxCell({ value, onCheckboxChange }) {
+  const isChecked = isCheckboxChecked(value);
+  function handleClick() {
+    if (isChecked) {
+      onCheckboxChange(CHECKBOX_MARKDOWN_UNCHECKED);
+    } else {
+      onCheckboxChange(CHECKBOX_MARKDOWN_CHECKED);
+    }
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime75.jsx)("div", {
+    className: "NLT__checkbox-cell",
+    children: /* @__PURE__ */ (0, import_jsx_runtime75.jsx)("input", {
+      className: "task-list-item-checkbox",
+      type: "checkbox",
+      checked: isChecked,
+      onChange: () => {
+      },
+      onClick: handleClick
+    })
+  });
+}
+
+// src/components/BodyCell/components/DateCell/index.tsx
+var import_jsx_runtime76 = __toESM(require_jsx_runtime());
 function DateCell({ value, format }) {
   let content = "";
   if (value !== null)
     content = DateConversion.unixTimeToDateString(value, format);
-  return /* @__PURE__ */ (0, import_jsx_runtime74.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime76.jsx)("div", {
     className: "NLT__date-cell",
     children: content
   });
 }
 
-// src/components/Cell/components/NumberCell/index.tsx
-var import_jsx_runtime75 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/NumberCell/index.tsx
+var import_jsx_runtime77 = __toESM(require_jsx_runtime());
 function NumberCell({ value, shouldWrapOverflow }) {
   const overflowClassName = useOverflowClassName(shouldWrapOverflow);
   const className = "NLT__number-cell " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime75.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime77.jsx)("div", {
     className,
     children: value
   });
 }
 
-// src/components/Cell/components/NumberCellEdit/index.tsx
-var import_jsx_runtime76 = __toESM(require_jsx_runtime());
-function NumberCellEdit({ value, onInputChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime76.jsx)("div", {
+// src/components/BodyCell/components/NumberCellEdit/index.tsx
+var import_jsx_runtime78 = __toESM(require_jsx_runtime());
+function NumberCellEdit({
+  isMenuVisible,
+  value,
+  onChange
+}) {
+  const inputRef = useFocusInput(isMenuVisible);
+  return /* @__PURE__ */ (0, import_jsx_runtime78.jsx)("div", {
     className: "NLT__number-cell-edit",
-    children: /* @__PURE__ */ (0, import_jsx_runtime76.jsx)("input", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime78.jsx)("input", {
+      ref: inputRef,
       type: "number",
       autoFocus: true,
       value,
-      onChange: (e) => onInputChange(e.target.value)
+      onChange: (e) => onChange(e.target.value)
     })
   });
 }
 
-// src/components/Cell/components/TextCellEdit/index.tsx
+// src/components/BodyCell/components/TextCellEdit/index.tsx
 var import_react18 = __toESM(require_react());
-var import_jsx_runtime77 = __toESM(require_jsx_runtime());
-function TextCellEdit({ value, onInputChange }) {
+var import_jsx_runtime79 = __toESM(require_jsx_runtime());
+function TextCellEdit({
+  isMenuVisible,
+  shouldWrapOverflow,
+  value,
+  onChange
+}) {
   const [isShiftDown, setShiftDown] = (0, import_react18.useState)(false);
   const [isEnterPressed, setEnterPressed] = (0, import_react18.useState)(false);
-  const inputRef = (0, import_react18.useRef)(null);
+  const inputRef = useFocusInput(isMenuVisible);
   (0, import_react18.useEffect)(() => {
-    focusInput();
     setSelection(value.length);
   }, []);
   (0, import_react18.useEffect)(() => {
@@ -35312,10 +36057,6 @@ function TextCellEdit({ value, onInputChange }) {
       window.removeEventListener("keyup", handleKeyUp);
     };
   }, []);
-  function focusInput() {
-    var _a;
-    (_a = inputRef.current) == null ? void 0 : _a.focus();
-  }
   function setSelection(pos) {
     if (inputRef.current) {
       inputRef.current.selectionStart = pos;
@@ -35339,30 +36080,34 @@ function TextCellEdit({ value, onInputChange }) {
       if (!isShiftDown && isEnterPressed) {
         newValue = newValue.substring(0, inputRef.current.selectionStart - 1) + newValue.substring(inputRef.current.selectionStart);
       }
-      onInputChange(newValue);
+      onChange(newValue);
     }
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime77.jsx)("textarea", {
-    className: "NLT__textarea",
-    ref: inputRef,
-    autoFocus: true,
-    value,
-    onChange: (e) => handleTextareaChange(e.target.value)
+  const className = useOverflowClassName(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_jsx_runtime79.jsx)("div", {
+    className: "NLT__text-cell-edit",
+    children: /* @__PURE__ */ (0, import_jsx_runtime79.jsx)("textarea", {
+      className,
+      ref: inputRef,
+      autoFocus: true,
+      value,
+      onChange: (e) => handleTextareaChange(e.target.value)
+    })
   });
 }
 
-// src/components/Cell/components/TagCellEdit/index.tsx
+// src/components/BodyCell/components/TagCellEdit/index.tsx
 var import_react19 = __toESM(require_react());
 
 // src/components/Wrap/index.tsx
-var import_jsx_runtime78 = __toESM(require_jsx_runtime());
+var import_jsx_runtime80 = __toESM(require_jsx_runtime());
 function Stack2({
   spacingX = "md",
   spacingY = "md",
   style: style3,
   children
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime78.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("div", {
     style: __spreadProps(__spreadValues({}, style3), {
       display: "flex",
       flexWrap: "wrap",
@@ -35373,22 +36118,24 @@ function Stack2({
   });
 }
 
-// src/components/Cell/components/TagCellEdit/component/MenuHeader/index.tsx
-var import_jsx_runtime79 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/TagCellEdit/component/MenuHeader/index.tsx
+var import_jsx_runtime81 = __toESM(require_jsx_runtime());
 function MenuHeader({
   isDarkMode,
+  isMenuVisible,
   cellId,
   tags,
   inputText,
   onInputTextChange,
   onRemoveTag
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime79.jsx)("div", {
+  const inputRef = useFocusInput(isMenuVisible);
+  return /* @__PURE__ */ (0, import_jsx_runtime81.jsx)("div", {
     className: "NLT__tag-menu-header",
-    children: /* @__PURE__ */ (0, import_jsx_runtime79.jsxs)(Stack2, {
+    children: /* @__PURE__ */ (0, import_jsx_runtime81.jsxs)(Stack2, {
       spacingX: "sm",
       children: [
-        tags.filter((tag) => tag.cellIds.find((c2) => c2 === cellId)).map((tag) => /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(Tag2, {
+        tags.filter((tag) => tag.cellIds.find((c2) => c2 === cellId)).map((tag) => /* @__PURE__ */ (0, import_jsx_runtime81.jsx)(Tag4, {
           isDarkMode,
           id: tag.id,
           color: tag.color,
@@ -35397,8 +36144,9 @@ function MenuHeader({
           showRemove: true,
           onRemoveClick: onRemoveTag
         }, tag.id)),
-        /* @__PURE__ */ (0, import_jsx_runtime79.jsx)("input", {
+        /* @__PURE__ */ (0, import_jsx_runtime81.jsx)("input", {
           autoFocus: true,
+          ref: inputRef,
           type: "text",
           value: inputText,
           onChange: (e) => onInputTextChange(e.target.value)
@@ -35408,24 +36156,24 @@ function MenuHeader({
   });
 }
 
-// src/components/Cell/components/TagCellEdit/component/CreateTag/index.tsx
-var import_jsx_runtime80 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/TagCellEdit/component/CreateTag/index.tsx
+var import_jsx_runtime82 = __toESM(require_jsx_runtime());
 function CreateTag({
   isDarkMode,
   markdown,
   color: color2,
   onAddTag
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime80.jsxs)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime82.jsxs)("div", {
     className: "NLT__create-tag NLT__selectable",
     onClick: () => {
       onAddTag(markdown, color2);
     },
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime82.jsx)("div", {
         children: "Create\xA0"
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(Tag2, {
+      /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(Tag4, {
         isDarkMode,
         markdown,
         color: color2,
@@ -35440,8 +36188,8 @@ var uppercaseFirst = (input) => {
   return input.charAt(0).toUpperCase() + input.slice(1);
 };
 
-// src/components/Cell/components/TagColorMenu/components/ColorItem/index.tsx
-var import_jsx_runtime81 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/TagColorMenu/components/ColorItem/index.tsx
+var import_jsx_runtime83 = __toESM(require_jsx_runtime());
 function ColorItem({
   isDarkMode,
   color: color2,
@@ -35454,24 +36202,24 @@ function ColorItem({
   const colorClass = findColorClassName(isDarkMode, color2);
   let squareClass = "NLT__color-item-square";
   squareClass += " " + colorClass;
-  return /* @__PURE__ */ (0, import_jsx_runtime81.jsxs)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime83.jsxs)("div", {
     className: containerClass,
     onClick: (e) => {
       onColorClick(color2);
     },
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime81.jsx)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("div", {
         className: squareClass
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime81.jsx)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("div", {
         children: uppercaseFirst(color2)
       })
     ]
   });
 }
 
-// src/components/Cell/components/TagColorMenu/index.tsx
-var import_jsx_runtime82 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/TagColorMenu/index.tsx
+var import_jsx_runtime84 = __toESM(require_jsx_runtime());
 function TagColorMenu({
   menuId,
   isOpen,
@@ -35482,34 +36230,34 @@ function TagColorMenu({
   onDeleteClick
 }) {
   const { isDarkMode } = useAppSelector((state) => state.global);
-  return /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(Menu, {
+  return /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(Menu, {
     id: menuId,
     isOpen,
     top: top2,
     left: left2,
-    children: /* @__PURE__ */ (0, import_jsx_runtime82.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime84.jsx)("div", {
       className: "NLT__tag-color-menu",
-      children: /* @__PURE__ */ (0, import_jsx_runtime82.jsxs)(Stack, {
+      children: /* @__PURE__ */ (0, import_jsx_runtime84.jsxs)(Stack, {
         spacing: "sm",
         isVertical: true,
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(Padding, {
+          /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(Padding, {
             px: "lg",
             py: "sm",
-            children: /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(Text, {
+            children: /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(Text, {
               value: "Color"
             })
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime82.jsx)("div", {
-            children: Object.values(Color).map((color2) => /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(ColorItem, {
+          /* @__PURE__ */ (0, import_jsx_runtime84.jsx)("div", {
+            children: Object.values(Color).map((color2) => /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(ColorItem, {
               isDarkMode,
               color: color2,
               onColorClick,
               isSelected: selectedColor === color2
             }, color2))
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(Divider, {}),
-          /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(MenuItem, {
+          /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(Divider, {}),
+          /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(MenuItem, {
             iconType: 11 /* DELETE */,
             name: "Delete",
             onClick: onDeleteClick
@@ -35520,10 +36268,11 @@ function TagColorMenu({
   });
 }
 
-// src/components/Cell/components/TagCellEdit/component/SelectableTag/index.tsx
-var import_jsx_runtime83 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/TagCellEdit/component/SelectableTag/index.tsx
+var import_jsx_runtime85 = __toESM(require_jsx_runtime());
 function SelectableTag({
   isDarkMode,
+  menuPosition,
   id,
   markdown,
   color: color2,
@@ -35531,10 +36280,7 @@ function SelectableTag({
   onColorChange,
   onDeleteClick
 }) {
-  const [menu, menuPosition] = useMenu(1 /* TWO */);
-  const shouldOpenMenu = useAppSelector(
-    (state) => isMenuOpen(state, menu.id)
-  );
+  const { menu, isMenuOpen: isMenuOpen2 } = useMenu(1 /* TWO */);
   const dispatch = useAppDispatch();
   function handleColorChange(color3) {
     onColorChange(id, color3);
@@ -35544,23 +36290,27 @@ function SelectableTag({
     onDeleteClick(id);
     dispatch(closeAllMenus());
   }
-  const { position: position2, containerRef } = menuPosition;
-  const { top: top2, left: left2, width: width2 } = position2;
-  return /* @__PURE__ */ (0, import_jsx_runtime83.jsxs)(import_jsx_runtime83.Fragment, {
+  const { top: top2, left: left2 } = shiftMenuIntoViewContent(
+    menu.id,
+    menuPosition.positionRef.current,
+    menuPosition.position,
+    0,
+    235
+  );
+  return /* @__PURE__ */ (0, import_jsx_runtime85.jsxs)(import_jsx_runtime85.Fragment, {
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime83.jsxs)("div", {
-        ref: containerRef,
+      /* @__PURE__ */ (0, import_jsx_runtime85.jsxs)("div", {
         className: "NLT__selectable-tag NLT__selectable",
         onClick: () => onClick(id),
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(Tag2, {
+          /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(Tag4, {
             isDarkMode,
             markdown,
             color: color2,
             maxWidth: "150px"
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(Button, {
-            icon: /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(Icon, {
+          /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(Button, {
+            icon: /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(Icon, {
               type: 18 /* MORE_HORIZ */
             }),
             isSimple: true,
@@ -35571,11 +36321,11 @@ function SelectableTag({
           })
         ]
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(TagColorMenu, {
+      /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(TagColorMenu, {
         menuId: menu.id,
-        top: top2 - 125,
-        left: left2 + width2 - 50,
-        isOpen: shouldOpenMenu,
+        top: top2,
+        left: left2,
+        isOpen: isMenuOpen2,
         selectedColor: color2,
         onColorClick: (color3) => handleColorChange(color3),
         onDeleteClick: handleDeleteClick
@@ -35584,12 +36334,13 @@ function SelectableTag({
   });
 }
 
-// src/components/Cell/components/TagCellEdit/component/MenuBody/index.tsx
-var import_jsx_runtime84 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/TagCellEdit/component/MenuBody/index.tsx
+var import_jsx_runtime86 = __toESM(require_jsx_runtime());
 function MenuBody({
   isDarkMode,
   tags,
   inputText,
+  menuPosition,
   newTagColor,
   onAddTag,
   onTagClick,
@@ -35598,27 +36349,28 @@ function MenuBody({
 }) {
   const found = tags.find((tag) => tag.markdown === inputText);
   const filteredTags = tags.filter((tag) => tag.markdown.includes(inputText));
-  return /* @__PURE__ */ (0, import_jsx_runtime84.jsxs)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime86.jsxs)("div", {
     className: "NLT__tag-menu-body",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(Padding, {
+      /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(Padding, {
         px: "lg",
         py: "md",
-        children: /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(Text, {
+        children: /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(Text, {
           value: "Select an option or create one"
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime84.jsxs)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime86.jsxs)("div", {
         style: { width: "100%" },
         children: [
-          !found && inputText !== "" && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(CreateTag, {
+          !found && inputText !== "" && /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(CreateTag, {
             isDarkMode,
             markdown: inputText,
             color: newTagColor,
             onAddTag
           }),
-          filteredTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(SelectableTag, {
+          filteredTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(SelectableTag, {
             isDarkMode,
+            menuPosition,
             id: tag.id,
             color: tag.color,
             markdown: tag.markdown,
@@ -35632,11 +36384,13 @@ function MenuBody({
   });
 }
 
-// src/components/Cell/components/TagCellEdit/index.tsx
-var import_jsx_runtime85 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/TagCellEdit/index.tsx
+var import_jsx_runtime87 = __toESM(require_jsx_runtime());
 function TagCellEdit({
   tags,
   cellId,
+  menuPosition,
+  isMenuVisible,
   onTagClick,
   onAddTag,
   onTagColorChange,
@@ -35657,12 +36411,13 @@ function TagCellEdit({
     setInputText("");
     dispatch(closeTopLevelMenu());
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime85.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime87.jsx)("div", {
     className: "NLT__tag-menu",
-    children: /* @__PURE__ */ (0, import_jsx_runtime85.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime87.jsxs)("div", {
       className: "NLT__tag-menu-container",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(MenuHeader, {
+        /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(MenuHeader, {
+          isMenuVisible,
           isDarkMode,
           cellId,
           inputText,
@@ -35670,7 +36425,8 @@ function TagCellEdit({
           onInputTextChange: handleInputTextChange,
           onRemoveTag
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(MenuBody, {
+        /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(MenuBody, {
+          menuPosition,
           isDarkMode,
           inputText,
           tags,
@@ -35685,11 +36441,11 @@ function TagCellEdit({
   });
 }
 
-// src/components/Cell/components/DateCellEdit/index.tsx
+// src/components/BodyCell/components/DateCellEdit/index.tsx
 var import_react20 = __toESM(require_react());
 
-// src/components/Cell/components/DateCellEdit/components/DateFormatMenu/index.tsx
-var import_jsx_runtime86 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/DateCellEdit/components/DateFormatMenu/index.tsx
+var import_jsx_runtime88 = __toESM(require_jsx_runtime());
 function DateFormatMenu({
   id,
   top: top2,
@@ -35698,19 +36454,19 @@ function DateFormatMenu({
   value,
   onChange
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(Menu, {
+  return /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(Menu, {
     isOpen,
     id,
     top: top2,
     left: left2,
     width: 175,
-    children: /* @__PURE__ */ (0, import_jsx_runtime86.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime88.jsx)("div", {
       className: "NLT__currency-menu",
       children: Object.values([
         "dd/mm/yyyy" /* DD_MM_YYYY */,
         "mm/dd/yyyy" /* MM_DD_YYYY */,
         "yyyy/mm/dd" /* YYYY_MM_DD */
-      ]).map((format) => /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(MenuItem, {
+      ]).map((format) => /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(MenuItem, {
         name: getDisplayNameForDateFormat(format),
         isSelected: value === format,
         onClick: () => onChange(format)
@@ -35719,11 +36475,13 @@ function DateFormatMenu({
   });
 }
 
-// src/components/Cell/components/DateCellEdit/index.tsx
-var import_jsx_runtime87 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/DateCellEdit/index.tsx
+var import_jsx_runtime89 = __toESM(require_jsx_runtime());
 function DateCellEdit({
+  isMenuVisible,
   value,
   closeMenuRequestTime,
+  menuPosition,
   dateFormat,
   onDateTimeChange,
   onMenuClose,
@@ -35734,11 +36492,9 @@ function DateCellEdit({
   );
   const [isInputInvalid, setInputInvalid] = (0, import_react20.useState)(false);
   const [closeTime, setCloseTime] = (0, import_react20.useState)(0);
-  const [menu, menuPosition] = useMenu(1 /* TWO */);
-  const shouldOpenMenu = useAppSelector(
-    (state) => isMenuOpen(state, menu.id)
-  );
+  const { menu, isMenuOpen: isMenuOpen2 } = useMenu(1 /* TWO */);
   const dispatch = useAppDispatch();
+  const inputRef = useFocusInput(isMenuVisible);
   (0, import_react20.useEffect)(() => {
     setLocalValue(
       value === null ? "" : DateConversion.unixTimeToDateString(value, dateFormat)
@@ -35779,46 +36535,49 @@ function DateCellEdit({
     onDateTimeChange(null);
     onMenuClose();
   }
-  const { top: top2, left: left2, width: width2 } = menuPosition.position;
-  return /* @__PURE__ */ (0, import_jsx_runtime87.jsxs)(import_jsx_runtime87.Fragment, {
+  const { top: top2, left: left2 } = shiftMenuIntoViewContent(
+    menu.id,
+    menuPosition.positionRef.current,
+    menuPosition.position,
+    50,
+    135
+  );
+  return /* @__PURE__ */ (0, import_jsx_runtime89.jsxs)(import_jsx_runtime89.Fragment, {
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime87.jsx)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime89.jsx)("div", {
         className: "NLT__date-cell-edit",
-        children: /* @__PURE__ */ (0, import_jsx_runtime87.jsxs)(Stack, {
+        children: /* @__PURE__ */ (0, import_jsx_runtime89.jsxs)(Stack, {
           spacing: "md",
           isVertical: true,
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(Padding, {
+            /* @__PURE__ */ (0, import_jsx_runtime89.jsx)(Padding, {
               px: "md",
               py: "md",
-              children: /* @__PURE__ */ (0, import_jsx_runtime87.jsx)("input", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime89.jsx)("input", {
+                ref: inputRef,
                 "aria-invalid": isInputInvalid,
                 autoFocus: true,
                 value: localValue,
                 onChange: (e) => setLocalValue(e.target.value)
               })
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime87.jsx)("div", {
-              ref: menuPosition.containerRef,
-              style: { width: "100%" },
-              children: /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(MenuItem, {
-                name: "Date format",
-                value: getDisplayNameForDateFormat(dateFormat),
-                onClick: () => dispatch(openMenu(menu))
-              })
+            /* @__PURE__ */ (0, import_jsx_runtime89.jsx)(MenuItem, {
+              name: "Date format",
+              value: getDisplayNameForDateFormat(dateFormat),
+              onClick: () => dispatch(openMenu(menu))
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(MenuItem, {
+            /* @__PURE__ */ (0, import_jsx_runtime89.jsx)(MenuItem, {
               name: "Clear",
               onClick: handleClearClick
             })
           ]
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(DateFormatMenu, {
+      /* @__PURE__ */ (0, import_jsx_runtime89.jsx)(DateFormatMenu, {
         id: menu.id,
-        isOpen: shouldOpenMenu,
-        top: top2 - 25,
-        left: left2 + width2 - 25,
+        isOpen: isMenuOpen2,
+        top: top2,
+        left: left2,
         value: dateFormat,
         onChange: handleDateFormatChange
       })
@@ -35826,8 +36585,8 @@ function DateCellEdit({
   });
 }
 
-// src/components/Cell/components/MultiTagCell/index.tsx
-var import_jsx_runtime88 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/MultiTagCell/index.tsx
+var import_jsx_runtime90 = __toESM(require_jsx_runtime());
 function MultiTagCell({
   isDarkMode,
   tags,
@@ -35835,10 +36594,10 @@ function MultiTagCell({
 }) {
   const overflowClassName = useOverflowClassName(shouldWrapOverflow);
   const className = "NLT__multi-tag-cell " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime88.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime90.jsx)("div", {
     className,
-    children: /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(Stack2, {
-      children: tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(Tag2, {
+    children: /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(Stack2, {
+      children: tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(Tag4, {
         isDarkMode,
         markdown: tag.markdown,
         color: tag.color
@@ -35847,8 +36606,8 @@ function MultiTagCell({
   });
 }
 
-// src/components/Cell/components/LastEditedTimeCell/index.tsx
-var import_jsx_runtime89 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/LastEditedTimeCell/index.tsx
+var import_jsx_runtime91 = __toESM(require_jsx_runtime());
 function LastEditedTimeCell({
   value,
   format,
@@ -35856,14 +36615,14 @@ function LastEditedTimeCell({
 }) {
   const overflowClassName = useOverflowClassName(shouldWrapOverflow);
   const className = "NLT__last-edited-time-cell " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime89.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime91.jsx)("div", {
     className,
     children: DateConversion.unixTimeToDateTimeString(value, format)
   });
 }
 
-// src/components/Cell/components/CreationTimeCell/index.tsx
-var import_jsx_runtime90 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/CreationTimeCell/index.tsx
+var import_jsx_runtime92 = __toESM(require_jsx_runtime());
 function CreationTimeCell({
   value,
   format,
@@ -35871,14 +36630,14 @@ function CreationTimeCell({
 }) {
   const overflowClassName = useOverflowClassName(shouldWrapOverflow);
   const className = "NLT__creation-time-cell " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime90.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime92.jsx)("div", {
     className,
     children: DateConversion.unixTimeToDateTimeString(value, format)
   });
 }
 
-// src/components/Cell/components/CurrencyCell/index.tsx
-var import_jsx_runtime91 = __toESM(require_jsx_runtime());
+// src/components/BodyCell/components/CurrencyCell/index.tsx
+var import_jsx_runtime93 = __toESM(require_jsx_runtime());
 function CurrencyCell({
   value,
   currencyType,
@@ -35890,29 +36649,35 @@ function CurrencyCell({
     valueFormatted = stringToCurrencyString(value, currencyType);
   }
   const className = "NLT__currency-cell " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime91.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime93.jsx)("div", {
     className,
     children: valueFormatted
   });
 }
 
-// src/components/Cell/components/CurrencyCellEdit/index.tsx
-var import_jsx_runtime92 = __toESM(require_jsx_runtime());
-function CurrencyCellEdit({ value, onInputChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime92.jsx)("div", {
+// src/components/BodyCell/components/CurrencyCellEdit/index.tsx
+var import_jsx_runtime94 = __toESM(require_jsx_runtime());
+function CurrencyCellEdit({
+  isMenuVisible,
+  value,
+  onChange
+}) {
+  const inputRef = useFocusInput(isMenuVisible);
+  return /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("div", {
     className: "NLT__currency-cell-edit",
-    children: /* @__PURE__ */ (0, import_jsx_runtime92.jsx)("input", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("input", {
+      ref: inputRef,
       type: "number",
       autoFocus: true,
       value,
-      onChange: (e) => onInputChange(e.target.value)
+      onChange: (e) => onChange(e.target.value)
     })
   });
 }
 
-// src/components/Cell/index.tsx
-var import_jsx_runtime93 = __toESM(require_jsx_runtime());
-function Cell5({
+// src/components/BodyCell/index.tsx
+var import_jsx_runtime95 = __toESM(require_jsx_runtime());
+function BodyCell5({
   cellId,
   columnId,
   rowId,
@@ -35935,12 +36700,9 @@ function Cell5({
   onDateTimeChange,
   onAddTag
 }) {
-  const [menu, menuPosition] = useMenu(
+  const { menu, menuPosition, isMenuOpen: isMenuOpen2, isMenuVisible } = useMenu(
     0 /* ONE */,
     columnType === "date" /* DATE */
-  );
-  const shouldOpenMenu = useAppSelector(
-    (state) => isMenuOpen(state, menu.id)
   );
   const closeMenuRequestTime = useAppSelector(
     (state) => getCloseMenuRequestTime(state, menu.id)
@@ -35948,10 +36710,10 @@ function Cell5({
   const dispatch = useAppDispatch();
   const { isDarkMode } = useAppSelector((state) => state.global);
   useDidMountEffect(() => {
-    if (!shouldOpenMenu) {
+    if (!isMenuOpen2) {
       dispatch(updateSortTime());
     }
-  }, [shouldOpenMenu]);
+  }, [isMenuOpen2]);
   function handleCellContextClick() {
     return __async(this, null, function* () {
       try {
@@ -35999,9 +36761,6 @@ function Cell5({
   function handleNumberInputChange(value) {
     onContentChange(cellId, rowId, value);
   }
-  function handleDateChange(value) {
-    onContentChange(cellId, rowId, value);
-  }
   function handleCheckboxChange(value) {
     onContentChange(cellId, rowId, value);
   }
@@ -36017,14 +36776,16 @@ function Cell5({
   function handleMenuClose() {
     dispatch(closeTopLevelMenu());
   }
-  const {
-    width: measuredWidth,
-    height: measuredHeight,
-    top: top2,
-    left: left2
-  } = menuPosition.position;
+  const { top: top2, left: left2 } = shiftMenuIntoViewContent(
+    menu.id,
+    menuPosition.positionRef.current,
+    menuPosition.position,
+    0,
+    0
+  );
+  const { width: measuredWidth, height: measuredHeight } = menuPosition.position;
   let menuHeight = measuredHeight;
-  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */) {
+  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */) {
     menuHeight = 0;
   }
   let menuWidth = measuredWidth;
@@ -36039,8 +36800,8 @@ function Cell5({
   }
   const currentTag = tags.find((t2) => t2.cellIds.find((c2) => c2 === cellId));
   const filteredTags = tags.filter((t2) => t2.cellIds.find((c2) => c2 == cellId));
-  return /* @__PURE__ */ (0, import_jsx_runtime93.jsxs)("div", {
-    ref: menuPosition.containerRef,
+  return /* @__PURE__ */ (0, import_jsx_runtime95.jsxs)("div", {
+    ref: menuPosition.positionRef,
     onClick: handleCellClick,
     onContextMenu: handleCellContextClick,
     className,
@@ -36048,23 +36809,28 @@ function Cell5({
       width: width2
     },
     children: [
-      shouldOpenMenu && /* @__PURE__ */ (0, import_jsx_runtime93.jsxs)(Menu, {
+      /* @__PURE__ */ (0, import_jsx_runtime95.jsxs)(Menu, {
         id: menu.id,
-        isOpen: shouldOpenMenu,
+        isOpen: isMenuOpen2,
         top: top2,
         left: left2,
         width: menuWidth,
         height: menuHeight,
         children: [
-          columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(TextCellEdit, {
+          columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(TextCellEdit, {
+            shouldWrapOverflow,
             value: markdown,
-            onInputChange: handleTextInputChange
+            isMenuVisible,
+            onChange: handleTextInputChange
           }),
-          columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(NumberCellEdit, {
+          columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(NumberCellEdit, {
             value: markdown,
-            onInputChange: handleNumberInputChange
+            isMenuVisible,
+            onChange: handleNumberInputChange
           }),
-          (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(TagCellEdit, {
+          (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(TagCellEdit, {
+            isMenuVisible,
+            menuPosition,
             tags,
             cellId,
             onTagColorChange,
@@ -36073,7 +36839,9 @@ function Cell5({
             onTagClick: handleTagClick,
             onTagDeleteClick
           }),
-          columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(DateCellEdit, {
+          columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(DateCellEdit, {
+            isMenuVisible,
+            menuPosition,
             value: dateTime,
             closeMenuRequestTime,
             dateFormat,
@@ -36081,50 +36849,51 @@ function Cell5({
             onDateFormatChange: handleDateFormatChange,
             onMenuClose: handleMenuClose
           }),
-          columnType === "currency" /* CURRENCY */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(CurrencyCellEdit, {
+          columnType === "currency" /* CURRENCY */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(CurrencyCellEdit, {
+            isMenuVisible,
             value: markdown,
-            onInputChange: handleCurrencyChange
+            onChange: handleCurrencyChange
           })
         ]
       }),
-      columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(TextCell, {
+      columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(TextCell, {
         markdown,
         shouldWrapOverflow
       }),
-      columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(NumberCell, {
+      columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(NumberCell, {
         value: markdown,
         shouldWrapOverflow
       }),
-      columnType === "currency" /* CURRENCY */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(CurrencyCell, {
+      columnType === "currency" /* CURRENCY */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(CurrencyCell, {
         value: markdown,
         currencyType: columnCurrencyType,
         shouldWrapOverflow
       }),
-      columnType === "tag" /* TAG */ && currentTag && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(TagCell, {
+      columnType === "tag" /* TAG */ && currentTag && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(TagCell, {
         isDarkMode,
         markdown: currentTag.markdown,
         color: currentTag.color,
         shouldWrapOverflow
       }),
-      columnType === "multi-tag" /* MULTI_TAG */ && filteredTags.length !== 0 && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(MultiTagCell, {
+      columnType === "multi-tag" /* MULTI_TAG */ && filteredTags.length !== 0 && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(MultiTagCell, {
         isDarkMode,
         tags: filteredTags,
         shouldWrapOverflow
       }),
-      columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(DateCell, {
+      columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(DateCell, {
         value: dateTime,
         format: dateFormat
       }),
-      columnType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(CheckboxCell, {
+      columnType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(CheckboxCell, {
         value: markdown,
         onCheckboxChange: handleCheckboxChange
       }),
-      columnType === "creation-time" /* CREATION_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(CreationTimeCell, {
+      columnType === "creation-time" /* CREATION_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(CreationTimeCell, {
         value: rowCreationTime,
         format: dateFormat,
         shouldWrapOverflow
       }),
-      columnType === "last-edited-time" /* LAST_EDITED_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(LastEditedTimeCell, {
+      columnType === "last-edited-time" /* LAST_EDITED_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(LastEditedTimeCell, {
         value: rowLastEditedTime,
         format: dateFormat,
         shouldWrapOverflow
@@ -36133,17 +36902,43 @@ function Cell5({
   });
 }
 
+// src/components/NewRowButton/index.tsx
+var import_jsx_runtime96 = __toESM(require_jsx_runtime());
+function NewRowButton({ onClick }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime96.jsx)("div", {
+    className: "NLT__new-row",
+    children: /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Button, {
+      onClick: () => onClick(),
+      children: "New row"
+    })
+  });
+}
+
+// src/components/NewColumnButton/index.tsx
+var import_jsx_runtime97 = __toESM(require_jsx_runtime());
+function NewColumnButton({ onClick }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime97.jsx)("div", {
+    className: "NLT__new-column",
+    children: /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Button, {
+      icon: /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Icon, {
+        type: 30 /* ADD */
+      }),
+      ariaLabel: "New column",
+      onClick: () => onClick()
+    })
+  });
+}
+
 // src/App.tsx
-var import_jsx_runtime94 = __toESM(require_jsx_runtime());
+var import_obsidian5 = require("obsidian");
+var import_jsx_runtime98 = __toESM(require_jsx_runtime());
 var FILE_NAME = "App";
 function App2({ onSaveTableState }) {
   const { searchText, sortTime } = useAppSelector((state) => state.global);
   const [tableState, setTableState] = useTableState();
   const { shouldDebug } = useAppSelector((state) => state.global);
   const dispatch = useAppDispatch();
-  const headerRowId = useId();
   const lastColumnId = useId();
-  const footerRowId = useId();
   useDidMountEffect(() => {
     onSaveTableState(tableState);
   }, [tableState]);
@@ -36152,13 +36947,14 @@ function App2({ onSaveTableState }) {
       setTableState((prevState) => sortRows(prevState));
     }
   }, [sortTime]);
-  function handleAddColumn() {
-    logFunc(shouldDebug, FILE_NAME, "handleAddColumn");
+  function handleNewColumnClick() {
+    logFunc(shouldDebug, FILE_NAME, "handleNewColumnClick");
     setTableState((prevState) => addColumn(prevState));
   }
-  function handleAddRow() {
-    logFunc(shouldDebug, FILE_NAME, "handleAddRow");
+  function handleNewRowClick() {
+    logFunc(shouldDebug, FILE_NAME, "handleNewRowClick");
     setTableState((prevState) => addRow(prevState));
+    dispatch(updateSortTime());
   }
   function handleHeaderTypeClick(columnId, type) {
     logFunc(shouldDebug, FILE_NAME, "handleHeaderTypeClick", {
@@ -36179,14 +36975,23 @@ function App2({ onSaveTableState }) {
     );
     dispatch(updateSortTime());
   }
-  function handleCellContentChange(cellId, rowId, value) {
+  function handleHeaderCellContentChange(cellId, value) {
+    logFunc(shouldDebug, FILE_NAME, "handleCellContentChange", {
+      cellId,
+      markdown: value
+    });
+    setTableState(
+      (prevState) => updateHeaderCell(prevState, cellId, "markdown", value)
+    );
+  }
+  function handleBodyCellContentChange(cellId, rowId, value) {
     logFunc(shouldDebug, FILE_NAME, "handleCellContentChange", {
       cellId,
       rowId,
       markdown: value
     });
     setTableState(
-      (prevState) => updateCell(prevState, cellId, rowId, "markdown", value)
+      (prevState) => updateBodyCell(prevState, cellId, rowId, "markdown", value)
     );
   }
   function handleCellDateTimeChange(cellId, rowId, value) {
@@ -36196,7 +37001,16 @@ function App2({ onSaveTableState }) {
       dateTime: value
     });
     setTableState(
-      (prevState) => updateCell(prevState, cellId, rowId, "dateTime", value)
+      (prevState) => updateBodyCell(prevState, cellId, rowId, "dateTime", value)
+    );
+  }
+  function handleFunctionTypeChange(cellId, functionType) {
+    logFunc(shouldDebug, FILE_NAME, "handleFunctionTypeChange", {
+      cellId,
+      functionType
+    });
+    setTableState(
+      (prevState) => updateFooterCell(prevState, cellId, "functionType", functionType)
     );
   }
   function handleAddTag(cellId, columnId, rowId, markdown, color2, canAddMultiple) {
@@ -36321,8 +37135,17 @@ function App2({ onSaveTableState }) {
       (prevState) => updateColumn(prevState, columnId, "shouldWrapOverflow", value)
     );
   }
-  const { rows, columns, cells, tags } = tableState.model;
-  const columnCells = cells.map((cell) => {
+  const {
+    headerRows,
+    bodyRows,
+    footerRows,
+    columns,
+    headerCells,
+    bodyCells,
+    footerCells,
+    tags
+  } = tableState.model;
+  const columnBodyCells = bodyCells.map((cell) => {
     const column = columns.find((column2) => column2.id === cell.columnId);
     if (!column)
       throw new ColumnIdError(cell.columnId);
@@ -36330,16 +37153,14 @@ function App2({ onSaveTableState }) {
       column
     });
   });
-  const filteredRows = rows.filter((row) => {
-    const filteredCells = columnCells.filter(
+  const filteredBodyRows = bodyRows.filter((row) => {
+    const filteredCells = columnBodyCells.filter(
       (cell) => cell.rowId === row.id
     );
     const matchedCell = filteredCells.find((cell) => {
-      const { dateTime, isHeader, markdown } = cell;
+      const { dateTime, markdown } = cell;
       const { currencyType, type, dateFormat } = cell.column;
       const { lastEditedTime, creationTime } = row;
-      if (isHeader)
-        return true;
       if (markdown.toLowerCase().includes(searchText.toLowerCase()))
         return true;
       if (type === "currency" /* CURRENCY */) {
@@ -36380,26 +37201,28 @@ function App2({ onSaveTableState }) {
     return false;
   });
   const visibleColumns = columns.filter((column) => column.isVisible);
-  const visibleCells = cells.filter(
-    (cell) => visibleColumns.find((column) => column.id === cell.columnId)
-  );
-  return /* @__PURE__ */ (0, import_jsx_runtime94.jsxs)("div", {
+  const isMobile = import_obsidian5.Platform.isMobile || import_obsidian5.Platform.isMobileApp;
+  let innerClassName = "NLT__table-inner";
+  if (isMobile) {
+    innerClassName += " NLT__table-inner--mobile";
+  }
+  return /* @__PURE__ */ (0, import_jsx_runtime98.jsxs)("div", {
     className: "NLT__app",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(OptionBar, {
-        cells,
+      /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(OptionBar, {
+        headerCells,
         columns,
         onColumnToggle: handleColumnToggle,
         onSortRemoveClick: handleSortRemoveClick
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime98.jsx)("div", {
         className: "NLT__table-outer",
-        children: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("div", {
-          className: "NLT__table-inner",
-          children: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Table, {
-            headerRows: [
-              {
-                id: headerRowId,
+        children: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)("div", {
+          className: innerClassName,
+          children: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(Table, {
+            headerRows: headerRows.map((row) => {
+              return {
+                id: row.id,
                 cells: [
                   ...visibleColumns.map((column) => {
                     const {
@@ -36411,8 +37234,8 @@ function App2({ onSaveTableState }) {
                       currencyType,
                       dateFormat
                     } = column;
-                    const cell = cells.find(
-                      (cell2) => cell2.columnId === columnId && cell2.isHeader
+                    const cell = headerCells.find(
+                      (cell2) => cell2.columnId === columnId
                     );
                     if (!cell)
                       throw new CellNotFoundError();
@@ -36424,7 +37247,7 @@ function App2({ onSaveTableState }) {
                     return {
                       id: cellId,
                       columnId,
-                      content: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(HeaderCell, {
+                      content: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(HeaderCell3, {
                         cellId,
                         rowId,
                         dateFormat,
@@ -36442,7 +37265,7 @@ function App2({ onSaveTableState }) {
                         onTypeSelect: handleHeaderTypeClick,
                         onDateFormatChange: handleDateFormatChange,
                         onWrapOverflowToggle: handleWrapContentToggle,
-                        onNameChange: handleCellContentChange,
+                        onNameChange: handleHeaderCellContentChange,
                         onCurrencyChange: handleCurrencyChange
                       }, columnId)
                     };
@@ -36450,26 +37273,14 @@ function App2({ onSaveTableState }) {
                   {
                     id: lastColumnId,
                     columnId: lastColumnId,
-                    content: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("div", {
-                      style: {
-                        paddingLeft: "10px"
-                      },
-                      children: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Button, {
-                        icon: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Icon, {
-                          type: 30 /* ADD */
-                        }),
-                        ariaLabel: "Add column",
-                        onClick: () => handleAddColumn()
-                      })
+                    content: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(NewColumnButton, {
+                      onClick: handleNewColumnClick
                     })
                   }
                 ]
-              }
-            ],
-            bodyRows: filteredRows.filter((_row, i2) => i2 !== 0).map((row) => {
-              const rowCells = visibleCells.filter(
-                (cell) => cell.rowId === row.id
-              );
+              };
+            }),
+            bodyRows: filteredBodyRows.map((row) => {
               const {
                 id: rowId,
                 menuCellId,
@@ -36479,25 +37290,23 @@ function App2({ onSaveTableState }) {
               return {
                 id: rowId,
                 cells: [
-                  ...rowCells.map((cell) => {
-                    const column = columns.find(
-                      (column2) => column2.id == cell.columnId
-                    );
-                    if (!column)
-                      throw new ColumnIdError(
-                        cell.columnId
-                      );
+                  ...visibleColumns.map((column) => {
                     const {
+                      id: columnId,
                       width: width2,
                       type,
                       shouldWrapOverflow,
                       currencyType,
                       dateFormat
                     } = column;
+                    const cell = bodyCells.find(
+                      (cell2) => cell2.columnId === columnId && cell2.rowId === row.id
+                    );
+                    if (!cell)
+                      throw new CellNotFoundError();
                     const {
                       id: cellId,
                       markdown,
-                      columnId,
                       dateTime
                     } = cell;
                     const filteredTags = tags.filter(
@@ -36505,7 +37314,7 @@ function App2({ onSaveTableState }) {
                     );
                     return {
                       id: cellId,
-                      content: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Cell5, {
+                      content: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(BodyCell5, {
                         cellId,
                         rowId,
                         tags: filteredTags,
@@ -36521,7 +37330,7 @@ function App2({ onSaveTableState }) {
                         width: width2,
                         onTagClick: handleAddCellToTag,
                         onRemoveTagClick: handleRemoveCellFromTag,
-                        onContentChange: handleCellContentChange,
+                        onContentChange: handleBodyCellContentChange,
                         onTagColorChange: handleTagChangeColor,
                         onTagDeleteClick: handleTagDeleteClick,
                         onDateTimeChange: handleCellDateTimeChange,
@@ -36532,53 +37341,91 @@ function App2({ onSaveTableState }) {
                   }),
                   {
                     id: menuCellId,
-                    content: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("div", {
-                      style: {
-                        paddingLeft: "10px"
-                      },
-                      children: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(RowOptions, {
-                        rowId,
-                        onDeleteClick: handleRowDeleteClick
-                      })
+                    content: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(RowOptions, {
+                      rowId,
+                      onDeleteClick: handleRowDeleteClick
                     })
                   }
                 ]
               };
             }),
-            footerRows: [
-              {
-                id: footerRowId,
-                cells: [
-                  ...columns.map((_column, i2) => {
-                    const { width: width2, footerCellId } = columns[i2];
-                    if (i2 === 0) {
+            footerRows: footerRows.map((row, i2) => {
+              if (i2 === 0) {
+                return {
+                  id: row.id,
+                  cells: [
+                    ...visibleColumns.map((column) => {
+                      const {
+                        id: columnId,
+                        type,
+                        currencyType,
+                        dateFormat,
+                        width: width2
+                      } = column;
+                      const cell = footerCells.find(
+                        (cell2) => cell2.rowId == row.id && cell2.columnId == column.id
+                      );
+                      if (!cell)
+                        throw new CellNotFoundError();
+                      const { id: cellId, functionType } = cell;
+                      const filteredBodyCells = bodyCells.filter(
+                        (cell2) => filteredBodyRows.find(
+                          (row2) => row2.id === cell2.rowId
+                        ) !== void 0
+                      );
                       return {
-                        id: footerCellId,
-                        content: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("div", {
-                          style: {
-                            paddingTop: "10px",
-                            paddingLeft: "var(--size-4-4)",
-                            width: width2
-                          },
-                          children: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Button, {
-                            onClick: () => handleAddRow(),
-                            children: "New row"
-                          })
+                        id: cell.id,
+                        content: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(FunctionCell, {
+                          columnId,
+                          width: width2,
+                          tags,
+                          cellId,
+                          currencyType,
+                          dateFormat,
+                          bodyCells: filteredBodyCells,
+                          bodyRows: filteredBodyRows,
+                          functionType,
+                          cellType: type,
+                          onFunctionTypeChange: handleFunctionTypeChange
+                        })
+                      };
+                    }),
+                    {
+                      id: lastColumnId,
+                      content: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(import_jsx_runtime98.Fragment, {})
+                    }
+                  ]
+                };
+              }
+              return {
+                id: row.id,
+                cells: [
+                  ...visibleColumns.map((column, i3) => {
+                    const cell = footerCells.find(
+                      (cell2) => cell2.rowId == row.id && cell2.columnId == column.id
+                    );
+                    if (!cell)
+                      throw new CellNotFoundError();
+                    if (i3 === 0) {
+                      return {
+                        id: cell.id,
+                        content: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(NewRowButton, {
+                          onClick: handleNewRowClick
                         })
                       };
                     }
                     return {
-                      id: footerCellId,
-                      content: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(import_jsx_runtime94.Fragment, {})
+                      id: cell.id,
+                      content: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(import_jsx_runtime98.Fragment, {})
                     };
                   }),
                   {
                     id: lastColumnId,
-                    content: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(import_jsx_runtime94.Fragment, {})
+                    content: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(import_jsx_runtime98.Fragment, {})
                   }
                 ]
-              }
-            ]
+              };
+            })
           })
         })
       })
@@ -36587,18 +37434,19 @@ function App2({ onSaveTableState }) {
 }
 
 // src/constants.ts
-var CURRENT_PLUGIN_VERSION = 632;
+var CURRENT_PLUGIN_VERSION = 650;
 
-// src/services/file/Json.ts
+// src/services/io/Json.ts
 var Json = class {
   static serializeTableState(tableState) {
     return JSON.stringify(tableState, null, 2);
   }
   static deserializeTableState(data) {
-    const tableState = JSON.parse(data);
-    const { pluginVersion } = tableState;
-    const { columns, rows, cells } = tableState.model;
-    if (pluginVersion < CURRENT_PLUGIN_VERSION) {
+    const parsedState = JSON.parse(data);
+    const { pluginVersion } = parsedState;
+    if (pluginVersion <= 633) {
+      const tableState = parsedState;
+      const { columns, rows, cells } = tableState.model;
       if (pluginVersion < 610) {
         columns.forEach((column) => {
           column.currencyType = "USD" /* UNITED_STATES */;
@@ -36632,15 +37480,328 @@ var Json = class {
         });
       }
     }
-    tableState.pluginVersion = CURRENT_PLUGIN_VERSION;
-    return tableState;
+    if (pluginVersion < 640) {
+      const tableState = parsedState;
+      const { columns, tags, rows, cells } = tableState.model;
+      const updatedState = __spreadProps(__spreadValues({}, tableState), {
+        model: {
+          columns: [],
+          headerRows: [],
+          bodyRows: [],
+          footerRows: [],
+          headerCells: [],
+          bodyCells: [],
+          footerCells: [],
+          tags: []
+        }
+      });
+      updatedState.model.headerRows = [];
+      updatedState.model.headerRows.push(StateFactory.createHeaderRow());
+      updatedState.model.bodyRows = rows.filter((_row, i2) => i2 !== 0).map((row) => {
+        return {
+          id: row.id,
+          index: row.index - 1,
+          creationTime: row.creationTime,
+          lastEditedTime: row.lastEditedTime,
+          menuCellId: row.menuCellId
+        };
+      });
+      updatedState.model.footerRows = [];
+      updatedState.model.footerRows.push(StateFactory.createFooterRow());
+      updatedState.model.footerRows.push(StateFactory.createFooterRow());
+      updatedState.model.columns = columns.map((column) => {
+        return {
+          id: column.id,
+          sortDir: column.sortDir,
+          width: column.width,
+          type: column.type,
+          isVisible: column.isVisible,
+          dateFormat: column.dateFormat,
+          currencyType: column.currencyType,
+          shouldWrapOverflow: column.shouldWrapOverflow
+        };
+      });
+      updatedState.model.headerCells = cells.filter((cell) => cell.isHeader).map((cell) => {
+        return {
+          id: cell.id,
+          columnId: cell.columnId,
+          rowId: updatedState.model.headerRows[0].id,
+          markdown: cell.markdown
+        };
+      });
+      updatedState.model.bodyCells = cells.filter((cell) => !cell.isHeader).map((cell) => {
+        return {
+          id: cell.id,
+          columnId: cell.columnId,
+          rowId: cell.rowId,
+          dateTime: cell.dateTime,
+          markdown: cell.markdown
+        };
+      });
+      for (let i2 = 0; i2 < 2; i2++) {
+        columns.forEach((column) => {
+          updatedState.model.footerCells.push(
+            StateFactory.createFooterCell(
+              column.id,
+              updatedState.model.footerRows[i2].id
+            )
+          );
+        });
+      }
+      updatedState.model.tags = tags;
+      updatedState.pluginVersion = CURRENT_PLUGIN_VERSION;
+      return updatedState;
+    }
+    parsedState.pluginVersion = CURRENT_PLUGIN_VERSION;
+    return parsedState;
+  }
+};
+
+// src/obsidian/NLTImportModal/index.tsx
+var import_obsidian6 = require("obsidian");
+var import_client = __toESM(require_client());
+
+// src/obsidian/NLTImportModal/components/ImportApp/constants.ts
+var MARKDOWN_LIST_ITEM_REGEX = new RegExp(/^([ \t]*-[\t ]+.+)$/);
+var ERROR_TEXT_DEFAULT = "none";
+
+// src/obsidian/NLTImportModal/components/ImportApp/types.ts
+var ImportType = /* @__PURE__ */ ((ImportType2) => {
+  ImportType2[ImportType2["MARKDOWN_LIST"] = 0] = "MARKDOWN_LIST";
+  return ImportType2;
+})(ImportType || {});
+
+// src/obsidian/NLTImportModal/components/ImportApp/services/utils.ts
+var getDisplayNameForImportType = (type) => {
+  switch (type) {
+    case 0 /* MARKDOWN_LIST */:
+      return "Markdown list";
+    default:
+      return "";
+  }
+};
+var validateMarkdownList = (text) => {
+  const lines = text.split("\n");
+  return lines.every((line) => line.match(MARKDOWN_LIST_ITEM_REGEX));
+};
+var getMarkdownListItems = (text) => {
+  const lines = text.split("\n");
+  return lines.map((line) => line.trim().replace("-", "").trim());
+};
+var importMarkdownListItems = (listItems, columnId, state) => {
+  let stateCopy = structuredClone(state);
+  for (let i2 = 0; i2 < listItems.length; i2++)
+    stateCopy = addRow(stateCopy);
+  const { bodyRows, bodyCells } = stateCopy.model;
+  listItems.forEach((item, i2) => {
+    const row = bodyRows[bodyRows.length - listItems.length + i2];
+    const cell = bodyCells.find(
+      (cell2) => cell2.columnId === columnId && cell2.rowId === row.id
+    );
+    if (!cell)
+      throw new CellNotFoundError();
+    cell.markdown = item;
+  });
+  return stateCopy;
+};
+
+// src/obsidian/NLTImportModal/components/ImportApp/index.tsx
+var import_react22 = __toESM(require_react());
+
+// src/obsidian/NLTImportModal/components/ImportApp/components/ImportTypeSelect/index.tsx
+var import_jsx_runtime99 = __toESM(require_jsx_runtime());
+function ImportTypeSelect({ value, onChange }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime99.jsxs)(Stack, {
+    isVertical: true,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime99.jsx)("label", {
+        htmlFor: "import-type-select",
+        children: "Import Type"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime99.jsxs)("select", {
+        id: "import-type-select",
+        value,
+        onChange: (e) => onChange(parseInt(e.target.value)),
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime99.jsx)("option", {
+            value: "-1",
+            children: "Select an option"
+          }),
+          Object.values(ImportType).filter((type) => !isNaN(Number(type))).map((type) => /* @__PURE__ */ (0, import_jsx_runtime99.jsx)("option", {
+            value: type.toString(),
+            children: getDisplayNameForImportType(type)
+          }, type))
+        ]
+      })
+    ]
+  });
+}
+
+// src/obsidian/NLTImportModal/components/ImportApp/components/ColumnSelect/index.tsx
+var import_jsx_runtime100 = __toESM(require_jsx_runtime());
+function ColumnSelect({
+  columns,
+  headerCells,
+  value,
+  onChange
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime100.jsxs)(Stack, {
+    isVertical: true,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime100.jsx)("label", {
+        htmlFor: "column-select",
+        children: "Column"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime100.jsxs)("select", {
+        id: "column-select",
+        value,
+        onChange: (e) => onChange(e.target.value),
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime100.jsx)("option", {
+            value: "",
+            children: "Select column"
+          }),
+          columns.filter((column) => column.type == "text" /* TEXT */).map((column) => {
+            const cell = headerCells.find(
+              (cell2) => cell2.columnId === column.id
+            );
+            if (!cell)
+              throw new CellNotFoundError();
+            return /* @__PURE__ */ (0, import_jsx_runtime100.jsx)("option", {
+              value: column.id,
+              children: cell.markdown
+            }, column.id);
+          })
+        ]
+      })
+    ]
+  });
+}
+
+// src/obsidian/NLTImportModal/components/ImportApp/components/MarkdownInput/index.tsx
+var import_jsx_runtime101 = __toESM(require_jsx_runtime());
+function MarkdownInput({ value, onChange }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("textarea", {
+    placeholder: "Paste your markdown here...",
+    style: {
+      height: "150px",
+      width: "100%"
+    },
+    value,
+    onChange: (e) => onChange(e.target.value)
+  });
+}
+
+// src/obsidian/NLTImportModal/components/ImportApp/index.tsx
+var import_jsx_runtime102 = __toESM(require_jsx_runtime());
+function ImportApp({ initialState: initialState3, onStateSave }) {
+  const [inputText, setInputText] = (0, import_react22.useState)("");
+  const [importType, setImportType] = (0, import_react22.useState)(-1);
+  const [columnId, setColumnId] = (0, import_react22.useState)("");
+  const [errorText, setErrorText] = (0, import_react22.useState)(ERROR_TEXT_DEFAULT);
+  function handleImportClick() {
+    if (importType === 0 /* MARKDOWN_LIST */) {
+      if (validateMarkdownList(inputText)) {
+        const listItems = getMarkdownListItems(inputText);
+        const updatedState = importMarkdownListItems(
+          listItems,
+          columnId,
+          initialState3
+        );
+        onStateSave(updatedState);
+        return;
+      }
+      setErrorText("Invalid markdown");
+    }
+  }
+  let errorTextClassName = "error-text";
+  if (errorText !== ERROR_TEXT_DEFAULT)
+    errorTextClassName += " error-text--visible";
+  const { columns, headerCells } = initialState3.model;
+  return /* @__PURE__ */ (0, import_jsx_runtime102.jsx)("div", {
+    className: "NLT__import-app",
+    children: /* @__PURE__ */ (0, import_jsx_runtime102.jsxs)(Stack, {
+      spacing: "lg",
+      isVertical: true,
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime102.jsxs)(Stack, {
+          spacing: "lg",
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(ImportTypeSelect, {
+              value: importType,
+              onChange: setImportType
+            }),
+            importType !== -1 && /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(ColumnSelect, {
+              columns,
+              headerCells,
+              value: columnId,
+              onChange: setColumnId
+            })
+          ]
+        }),
+        importType !== -1 && columnId !== "" && /* @__PURE__ */ (0, import_jsx_runtime102.jsxs)(import_jsx_runtime102.Fragment, {
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(MarkdownInput, {
+              value: inputText,
+              onChange: setInputText
+            }),
+            /* @__PURE__ */ (0, import_jsx_runtime102.jsx)("div", {
+              className: errorTextClassName,
+              children: errorText
+            }),
+            /* @__PURE__ */ (0, import_jsx_runtime102.jsx)("button", {
+              className: "mod-cta",
+              onClick: handleImportClick,
+              children: "Import"
+            })
+          ]
+        })
+      ]
+    })
+  });
+}
+
+// src/obsidian/NLTImportModal/index.tsx
+var import_jsx_runtime103 = __toESM(require_jsx_runtime());
+var NLTImportModal = class extends import_obsidian6.Modal {
+  constructor(app2) {
+    super(app2);
+    this.handleStateSave = (view, state) => {
+      const serialized = Json.serializeTableState(state);
+      view.setViewData(serialized, true);
+      this.close();
+    };
+    this.app = app2;
+  }
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.createDiv({ text: "Notion-Like Tables Import" });
+    const appContainer = contentEl.createDiv();
+    const view = app.workspace.getActiveViewOfType(NLTView);
+    if (view) {
+      const data = view.getViewData();
+      const state = Json.deserializeTableState(data);
+      this.root = (0, import_client.createRoot)(appContainer);
+      this.root.render(
+        /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(ImportApp, {
+          initialState: state,
+          onStateSave: (state2) => this.handleStateSave(view, state2)
+        })
+      );
+    }
+  }
+  onClose() {
+    const { contentEl } = this;
+    if (this.root)
+      this.root.unmount();
+    contentEl.empty();
   }
 };
 
 // src/NLTView.tsx
-var import_jsx_runtime95 = __toESM(require_jsx_runtime());
+var import_jsx_runtime104 = __toESM(require_jsx_runtime());
 var NOTION_LIKE_TABLES_VIEW = "notion-like-tables";
-var NLTView = class extends import_obsidian5.TextFileView {
+var NLTView = class extends import_obsidian7.TextFileView {
   constructor(leaf) {
     super(leaf);
     this.root = null;
@@ -36659,16 +37820,16 @@ var NLTView = class extends import_obsidian5.TextFileView {
     if (clear) {
       if (this.root) {
         this.root.unmount();
-        this.root = (0, import_client.createRoot)(this.containerEl.children[1]);
+        this.root = (0, import_client2.createRoot)(this.containerEl.children[1]);
       }
     }
     if (this.root) {
       this.root.render(
-        /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(Provider_default, {
+        /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(Provider_default, {
           store,
-          children: /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(TableStateProvider, {
+          children: /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(TableStateProvider, {
             initialState: tableState,
-            children: /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(App2, {
+            children: /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(App2, {
               onSaveTableState: this.handleSaveTableState
             })
           })
@@ -36694,10 +37855,13 @@ var NLTView = class extends import_obsidian5.TextFileView {
   onOpen() {
     return __async(this, null, function* () {
       const container = this.containerEl.children[1];
-      this.root = (0, import_client.createRoot)(container);
+      this.root = (0, import_client2.createRoot)(container);
       this.addAction("settings", "Settings", () => {
         this.app.setting.open();
         this.app.setting.openTabById("notion-like-tables");
+      });
+      this.addAction("import", "Import", () => {
+        new NLTImportModal(this.app).open();
       });
     });
   }
@@ -36711,38 +37875,61 @@ var NLTView = class extends import_obsidian5.TextFileView {
   }
 };
 
-// src/services/file/TableFile.ts
-var import_obsidian6 = require("obsidian");
+// src/services/io/TableFile.ts
+var import_obsidian8 = require("obsidian");
 
 // src/services/mock/index.ts
 var mockTableState = (numColumns, numRows) => {
   const columns = [];
   for (let i2 = 0; i2 < numColumns; i2++)
     columns.push(StateFactory.createColumn());
-  const rows = [];
+  const headerRows = [];
+  headerRows.push(StateFactory.createHeaderRow());
+  const headerCells = [];
+  for (let x2 = 0; x2 < numColumns; x2++) {
+    headerCells.push(
+      StateFactory.createHeaderCell(columns[x2].id, headerRows[0].id)
+    );
+  }
+  const bodyRows = [];
   for (let i2 = 0; i2 < numRows; i2++)
-    rows.push(StateFactory.createRow(i2));
-  const cells = [];
+    bodyRows.push(StateFactory.createBodyRow(i2));
+  const bodyCells = [];
   for (let y2 = 0; y2 < numRows; y2++) {
     for (let x2 = 0; x2 < numColumns; x2++) {
-      cells.push(
-        StateFactory.createCell(columns[x2].id, rows[y2].id, y2 === 0)
+      bodyCells.push(
+        StateFactory.createBodyCell(columns[x2].id, bodyRows[y2].id)
+      );
+    }
+  }
+  const footerRows = [];
+  footerRows.push(StateFactory.createFooterRow());
+  footerRows.push(StateFactory.createFooterRow());
+  const footerCells = [];
+  for (let y2 = 0; y2 < 2; y2++) {
+    for (let x2 = 0; x2 < numColumns; x2++) {
+      footerCells.push(
+        StateFactory.createFooterCell(columns[x2].id, footerRows[y2].id)
       );
     }
   }
   const tags = [];
   return {
     model: {
-      rows,
       columns,
-      cells,
+      headerRows,
+      bodyRows,
+      footerRows,
+      headerCells,
+      bodyCells,
+      footerCells,
       tags
     },
     pluginVersion: CURRENT_PLUGIN_VERSION
   };
 };
 
-// src/services/file/File.ts
+// src/services/io/File.ts
 var File = class {
   static createFile(filePath, data) {
     return __async(this, null, function* () {
@@ -36751,14 +37938,14 @@ var File = class {
   }
 };
 
-// src/services/file/TableFile.ts
-var import_obsidian7 = require("obsidian");
+// src/services/io/TableFile.ts
+var import_obsidian9 = require("obsidian");
 
-// src/services/file/constants.ts
+// src/services/io/constants.ts
 var TABLE_EXTENSION = "table";
 var DEFAULT_TABLE_FILENAME = "Untitled";
 
-// src/services/file/TableFile.ts
+// src/services/io/TableFile.ts
 function getAvailableTablePath(_0) {
   return __async(this, arguments, function* ({
     createAtObsidianAttachmentFolder,
@@ -36766,11 +37953,11 @@ function getAvailableTablePath(_0) {
     nameWithActiveFileNameAndTimestamp
   }) {
     var _a;
-    const activeNote = (_a = app.workspace.getActiveViewOfType(import_obsidian6.MarkdownView)) == null ? void 0 : _a.file;
+    const activeNote = (_a = app.workspace.getActiveViewOfType(import_obsidian8.MarkdownView)) == null ? void 0 : _a.file;
     let tableFileName = DEFAULT_TABLE_FILENAME;
     if (activeNote !== void 0) {
       if (nameWithActiveFileNameAndTimestamp) {
-        tableFileName = `${activeNote.basename}-${(0, import_obsidian7.moment)().format().replaceAll(":", ".")}`;
+        tableFileName = `${activeNote.basename}-${(0, import_obsidian9.moment)().format().replaceAll(":", ".")}`;
       }
     }
     if (createAtObsidianAttachmentFolder) {
@@ -36797,11 +37984,11 @@ var TableFile = class {
     return __async(this, null, function* () {
       try {
         const filePath = yield getAvailableTablePath(params);
-        const tableState = mockTableState(1, 2);
+        const tableState = mockTableState(1, 1);
         const serialized = Json.serializeTableState(tableState);
         return yield File.createFile(filePath, serialized);
       } catch (err) {
-        new import_obsidian6.Notice("Could not create Notion-Like table");
+        new import_obsidian8.Notice("Could not create Notion-Like table");
         throw err;
       }
     });
@@ -36815,7 +38002,7 @@ var DEFAULT_SETTINGS = {
   customFolderForNewTables: "",
   nameWithActiveFileNameAndTimestamp: false
 };
-var NLTPlugin = class extends import_obsidian8.Plugin {
+var NLTPlugin = class extends import_obsidian10.Plugin {
   constructor() {
     super(...arguments);
     this.focusedTableId = null;
@@ -36875,8 +38062,46 @@ var NLTPlugin = class extends import_obsidian8.Plugin {
       name: "Create table",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "=" }],
       callback: () => __async(this, null, function* () {
-        this.createTableFile();
+        yield this.createTableFile();
       })
+    });
+    this.addCommand({
+      id: "nlt-add-column",
+      name: "Add column",
+      hotkeys: [{ modifiers: ["Mod", "Shift"], key: "\\" }],
+      checkCallback: (checking) => {
+        const view = this.app.workspace.getActiveViewOfType(NLTView);
+        if (view) {
+          if (!checking) {
+            const data = view.getViewData();
+            const tableState = Json.deserializeTableState(data);
+            const updatedState = addColumn(tableState);
+            const serialized = Json.serializeTableState(updatedState);
+            view.setViewData(serialized, true);
+          }
+          return true;
+        }
+        return false;
+      }
+    });
+    this.addCommand({
+      id: "nlt-add-row",
+      name: "Add row",
+      hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Enter" }],
+      checkCallback: (checking) => {
+        const view = this.app.workspace.getActiveViewOfType(NLTView);
+        if (view) {
+          if (!checking) {
+            const data = view.getViewData();
+            const tableState = Json.deserializeTableState(data);
+            const updatedState = addRow(tableState);
+            const serialized = Json.serializeTableState(updatedState);
+            view.setViewData(serialized, true);
+          }
+          return true;
+        }
+        return false;
+      }
     });
   }
   loadSettings() {

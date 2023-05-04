@@ -23,13 +23,13 @@
             }
           },
           {
-            "id": "4f4d5d620e3b439a",
+            "id": "9f8784805a23f952",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Django/05. Namespace.md",
-                "mode": "source",
+                "file": "_others_/XML, JSON, YAML, AJAX.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -60,18 +60,11 @@
             }
           },
           {
-            "id": "5cf7950fa45882c6",
+            "id": "edbbbffb3f7d4463",
             "type": "leaf",
             "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
+              "type": "bookmarks",
+              "state": {}
             }
           },
           {
@@ -83,26 +76,26 @@
             }
           },
           {
-            "id": "4fc031c8ca77a2e8",
+            "id": "5cf7950fa45882c6",
             "type": "leaf",
             "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "edbbbffb3f7d4463",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
+              "type": "search",
+              "state": {
+                "query": "xml",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 229.5
   },
   "right": {
     "id": "72535583ef42991f",
@@ -145,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/05. Namespace.md",
+                "file": "_others_/XML, JSON, YAML, AJAX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/05. Namespace.md",
+                "file": "_others_/XML, JSON, YAML, AJAX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Django/05. Namespace.md"
+                "file": "_others_/XML, JSON, YAML, AJAX.md"
               }
             }
           }
@@ -199,29 +192,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f4d5d620e3b439a",
+  "active": "9f8784805a23f952",
   "lastOpenFiles": [
+    "devhump's TIL Index.md",
+    "더 공부해 볼 주제.md",
+    "_others_/알고리즘 TIP.md",
+    "Algorithm (theory)/22. DP - problem&solution.md",
+    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
+    "KDT/Django/02. request & response.md",
+    "KDT/Django/05. Namespace.md",
     "KDT/Django/assets/05. Namespace-17.png",
     "KDT/Django/django-shortcuts 1.6.md",
-    "KDT/Django/05. Namespace.md",
     "KDT/Django/assets/05. Namespace-16.png",
     "KDT/Django/assets/05. Namespace-15.png",
     "KDT/Django/assets/05. Namespace-14.png",
     "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
     "KDT/Django/assets/05. Namespace-13.png",
-    "devhump's TIL Index.md",
     "KDT/Django/assets/django-shortcuts 1.6.png",
     "KDT/Django/assets/05. Namespace-12.png",
     "KDT/Django/assets/05. Namespace-11.png",
     "KDT/Django/assets/05. Namespace-10.png",
     "KDT/Django/assets/05. Namespace-9.png",
-    "KDT/Django/assets/05. Namespace-8.png",
     "KDT/Django/04. App URL mapping & Template namespace.md",
     "KDT/Django/01. Django Intro.md",
     "ALgorithm (code)/시뮬레이션.md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md",
-    "KDT/Django/02. request & response.md",
     "KDT/markdown & git/markdown (마크다운) +.md",
     "KDT/Django/assets",
     "KDT/Django",
@@ -231,14 +227,11 @@
     "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md",
     "ALgorithm (code)/BFS & DFS.md",
     "_others_/templates/BOJ_백준 문제_template.md",
-    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
     "Algorithm (theory)/08. DFS & BFS.md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "ALgorithm (code)/DFS 문제.md",
     "ALgorithm (code)/BOJ_9455 박스.md",
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
-    "KDT/Python/파이썬 03. 함수(Funtion).md",
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",
