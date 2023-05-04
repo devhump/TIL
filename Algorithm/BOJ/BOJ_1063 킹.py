@@ -22,16 +22,32 @@ queue = deque()
 for _ in range(int(n)):
     queue.append(input())
 
-k_x = int(chr(ord(king[0])-17))-1
-k_y = (int(king[1])-1) % 8
-s_x = int(chr(ord(stone[0])-17))-1
-s_y = (int(stone[1])-1) % 8
+k_x = (int(chr(ord(king[0])-17))%8)
+k_y = (int(king[1])) -1
+s_x = (int(chr(ord(stone[0])-17))%8)
+s_y = (int(stone[1])) -1
 
 chess[k_x][k_y] = 'k'
-chess[int(chr(ord(stone[0])-17))][int(stone[1])-1] = 's'
+chess[s_x][s_y] = 's'
+
 
 p_print(chess)
-print("===========")
+
+rot_chess = [[0]*8 for _ in range(8)]
+for i in range(8):
+    for j in range(8):
+        rot_chess[i][j] = chess[j][8-i-1]
+
+for i in range(8):
+    for j in range(8):
+        if rot_chess[i][j] == 'k':
+            chess[k_x][k_y] == 0
+            k_x, k_y = i, j
+        if rot_chess[i][j] == 's':
+            chess[s_x][s_y] == 0
+            s_x, s_y = i, j
+
+print([k_x,k_y], [s_x,s_y])
 while queue:
     temp = queue.popleft()
 
@@ -55,24 +71,24 @@ while queue:
     nx = k_x + dx[i]
     ny = k_y + dy[i]
 
-    if 0 <= nx < 8 and 0 <= ny < 8 and chess[nx][ny] == 0:
-        chess[nx][ny] = 'k'
-        chess[k_x][k_y] = 0
+    if 0 <= nx < 8 and 0 <= ny < 8 and rot_chess[nx][ny] == 0:
+        rot_chess[nx][ny] = 'k'
+        rot_chess[k_x][k_y] = 0
         k_x, k_y = nx, ny
-    elif 0 <= nx < 8 and 0 <= ny < 8 and chess[nx][ny] == 's':
+    elif 0 <= nx < 8 and 0 <= ny < 8 and rot_chess[nx][ny] == 's':
         nsx = s_x + dx[i]
         nsy = s_y + dy[i]
 
         if 0 <= nsx < 8 and 0 <= nsy < 8:
-            chess[nsx][nsy] = 's'
-            chess[s_x][s_y] = 'k'
-            chess[k_x][k_y] = 0
+            rot_chess[nsx][nsy] = 's'
+            rot_chess[s_x][s_y] = 'k'
+            rot_chess[k_x][k_y] = 0
             s_x, s_y = nsx, nsy
             k_x, k_y = s_x, s_y
     
-    p_print(chess)
+    p_print(rot_chess)
     print()
-print(chr((k_x+66))+str(k_y+1))
-print(chr((s_x+66))+str(s_y+1))
+print(chr((k_x+65))+str(k_y+1))
+print(chr((s_x+65))+str(s_y+1))
 
 

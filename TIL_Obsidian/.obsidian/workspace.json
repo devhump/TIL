@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "09ff9c9752f77ad6",
+            "id": "4f4d5d620e3b439a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Django/04. App URL mapping & Template namespace.md",
+                "file": "KDT/Django/05. Namespace.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "content: footnote",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/04. App URL mapping & Template namespace.md",
+                "file": "KDT/Django/05. Namespace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/04. App URL mapping & Template namespace.md",
+                "file": "KDT/Django/05. Namespace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Django/04. App URL mapping & Template namespace.md"
+                "file": "KDT/Django/05. Namespace.md"
               }
             }
           }
@@ -199,24 +199,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "09ff9c9752f77ad6",
+  "active": "4f4d5d620e3b439a",
   "lastOpenFiles": [
-    "KDT/Django/assets/04. App URL mapping-6.png",
-    "KDT/Django/assets/04. App URL mapping-5.png",
+    "KDT/Django/assets/05. Namespace-17.png",
+    "KDT/Django/django-shortcuts 1.6.md",
+    "KDT/Django/05. Namespace.md",
+    "KDT/Django/assets/05. Namespace-16.png",
+    "KDT/Django/assets/05. Namespace-15.png",
+    "KDT/Django/assets/05. Namespace-14.png",
+    "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
+    "KDT/Django/assets/05. Namespace-13.png",
+    "devhump's TIL Index.md",
+    "KDT/Django/assets/django-shortcuts 1.6.png",
+    "KDT/Django/assets/05. Namespace-12.png",
+    "KDT/Django/assets/05. Namespace-11.png",
+    "KDT/Django/assets/05. Namespace-10.png",
+    "KDT/Django/assets/05. Namespace-9.png",
+    "KDT/Django/assets/05. Namespace-8.png",
+    "KDT/Django/04. App URL mapping & Template namespace.md",
+    "KDT/Django/01. Django Intro.md",
+    "ALgorithm (code)/시뮬레이션.md",
+    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
     "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md",
     "KDT/Django/02. request & response.md",
-    "KDT/Django/01. Django Intro.md",
-    "KDT/Django/04. App URL mapping & Template namespace.md",
-    "devhump's TIL Index.md",
-    "KDT/Django/assets/04. App URL mapping-4.png",
-    "KDT/Django/assets/04. App URL mapping-3.png",
-    "KDT/Django/assets/04. App URL mapping-2.png",
-    "KDT/Django/assets/04. App URL mapping-1.png",
-    "KDT/Django/assets/04. App URL mapping.png",
-    "KDT/Django/assets/03. Variable Routing-9.png",
-    "KDT/Django/assets/03. Variable Routing-8.png",
-    "KDT/Django/assets/03. Variable Routing-7.png",
-    "KDT/Django/assets/03. Variable Routing-6.png",
     "KDT/markdown & git/markdown (마크다운) +.md",
     "KDT/Django/assets",
     "KDT/Django",
@@ -234,11 +239,6 @@
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "KDT/Python/파이썬 03. 함수(Funtion).md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
-    "KDT/Algorithm/04. 그래프(Graph).md",
-    "Algorithm (theory)/03. 트리(tree).md",
-    "Algorithm (theory)/02. 우선순위 큐(Priority Queue).md",
-    "Python/copy — 얕은 복사와 깊은 복사 연산.md",
-    "KDT/Data structure/05. 문자열 (String).md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",

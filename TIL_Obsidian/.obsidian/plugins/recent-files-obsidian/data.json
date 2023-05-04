@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "05. Namespace",
+      "path": "KDT/Django/05. Namespace.md"
+    },
+    {
+      "basename": "django-shortcuts 1.6",
+      "path": "KDT/Django/django-shortcuts 1.6.md"
+    },
+    {
+      "basename": "01. DB & RDBMS & SQL CRUD",
+      "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "04. App URL mapping & Template namespace",
       "path": "KDT/Django/04. App URL mapping & Template namespace.md"
+    },
+    {
+      "basename": "01. Django Intro",
+      "path": "KDT/Django/01. Django Intro.md"
+    },
+    {
+      "basename": "시뮬레이션",
+      "path": "ALgorithm (code)/시뮬레이션.md"
+    },
+    {
+      "basename": "02. 이차원 리스트(2-2)",
+      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
     },
     {
       "basename": "03. Variable Routing & Template inheritance & sending-retrieving data",
@@ -11,14 +39,6 @@
     {
       "basename": "02. request & response",
       "path": "KDT/Django/02. request & response.md"
-    },
-    {
-      "basename": "01. Django Intro",
-      "path": "KDT/Django/01. Django Intro.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "markdown (마크다운) +",
@@ -59,26 +79,6 @@
     {
       "basename": "05. 깊이 우선 탐색(DFS)",
       "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
-      "basename": "BOJ_9455 박스",
-      "path": "ALgorithm (code)/BOJ_9455 박스.md"
-    },
-    {
-      "basename": "03. 완전탐색  I (Exhaustive Search)",
-      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
-    },
-    {
-      "basename": "파이썬 03. 함수(Funtion)",
-      "path": "KDT/Python/파이썬 03. 함수(Funtion).md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "04. 그래프(Graph)",
-      "path": "KDT/Algorithm/04. 그래프(Graph).md"
     }
   ],
   "omittedPaths": [
