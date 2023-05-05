@@ -1069,3 +1069,172 @@ while True:
 
 - DFS로 푸는 코드 👉 [블로그 주소](https://velog.io/@hamfan524/%EB%B0%B1%EC%A4%80-4963%EB%B2%88-Python-%ED%8C%8C%EC%9D%B4%EC%8D%AC)
 - [ ] 유사한 문제 [BOJ_2667 단지번호붙이기](https://www.acmicpc.net/problem/2667)
+
+### <문제> BOJ_1926 그림: 문제 설명
+- [BOJ_1926 그림](https://www.acmicpc.net/problem/1926)
+```ad-question
+ - 어떤 큰 도화지에 그림이 그려져 있을 때, 그 그림의 개수와, 그 그림 중 넓이가 가장 넓은 것의 넓이를 출력하여라. 단, 그림이라는 것은 1로 연결된 것을 한 그림이라고 정의하자. 가로나 세로로 연결된 것은 연결이 된 것이고 대각선으로 연결이 된 것은 떨어진 그림이다. 그림의 넓이란 그림에 포함된 1의 개수이다.
+```
+
+```ad-attention
+- 난이도: Silver 1
+- 시간제한: ==1초==
+- 메모리 제한: ==256MB==
+
+- ==입력== 
+	- 첫째 줄에 도화지의 세로 크기 n(1 ≤ n ≤ 500)과 가로 크기 m(1 ≤ m ≤ 500)이 차례로 주어진다. 두 번째 줄부터 n+1 줄 까지 그림의 정보가 주어진다. (단 그림의 정보는 0과 1이 공백을 두고 주어지며, 0은 색칠이 안된 부분, 1은 색칠이 된 부분을 의미한다)
+
+- ==출력==
+	- 첫째 줄에는 그림의 개수, 둘째 줄에는 그 중 가장 넓은 그림의 넓이를 출력하여라. 단, 그림이 하나도 없는 경우에는 가장 넓은 그림의 넓이는 0이다.
+
+- ==예제 입력==
+	```python
+	6 5
+	1 1 0 1 1
+	0 1 1 0 0
+	0 0 0 0 0
+	1 0 1 1 1
+	0 0 1 1 1
+	0 0 1 1 1
+	```
+- ==예제 출력==
+	```python
+	4
+	9
+	```
+```
+
+#### 문제 해결 아이디어
+```ad-example
+- 이 문제에서는 4방향 델타 탐색을 사용한다. 
+- 1로 연결된 '그림'의 개수와 가장 넓은 그림의 너비를 계산하라고 해서 BFS를 사용해 카운팅을 하고, 해당 함수 내에 최대치를 기록하면 될 거라고 생각헀다. 
+```
+
+#### 최초 내 코드 
+```python
+# BOJ_1926 그림
+# ! 테케를 바꿔본 결과, 가장 넓은 그림의 넓이는 구해지는데, 
+# ! 1의 개수 구하는 부분이 자꾸 틀렸다. 
+
+def p_print(list):
+    for row in list:
+        print(row)
+
+import sys
+sys.stdin = open('BOJ_1926_input.txt', 'r')
+
+from collections import deque
+
+def bfs(x, y):
+    global max_cnt
+    global cnt
+    queue = deque([(x,y)])    
+    cnt = 0
+    while queue:
+        x, y = queue.popleft()
+        visited[x][y] = True
+        for i in range(4):
+
+            nx = x + dx[i]
+            ny = y + dy[i]
+            if 0 <= nx < n and 0 <= ny < m:
+                if matrix[nx][ny] == 1:
+                    if not visited[nx][ny]:
+                        visited[nx][ny] = True
+                        queue.append((nx, ny))
+                        cnt += 1
+                    if max_cnt < cnt:
+                        max_cnt = cnt
+                else:
+                    if not visited[nx][ny]:
+                        visited[nx][ny] = True
+
+
+# @ 입력 파트
+n, m = map(int, input().split())
+
+matrix = []
+for _ in range(n):
+    matrix.append(list(map(int, input().split())))
+
+dx = [-1, 1, 0, 0]
+dy = [0, 0, -1, 1]
+
+cnt = 0
+cnt2 = 0
+max_cnt = 0
+visited = [[False] * m for _ in range(n)]
+for i in range(n):
+    for j in range(m):
+        if not visited[i][j]:
+            if matrix[i][j] == 1:
+                cnt2 += 1
+            bfs(i, j)
+
+print(cnt2)
+print(max_cnt)
+```
+
+#### 수정한 코드 
+```python
+# BOJ_1926 그림
+
+def p_print(list):
+    for row in list:
+        print(row)
+
+import sys
+sys.stdin = open('BOJ_1926_input.txt', 'r')
+
+from collections import deque
+
+def bfs(x, y):
+    queue = deque([(x,y)])    
+    matrix[x][y] = 0
+    cnt = 1
+    while queue:
+        x, y = queue.popleft()
+        for i in range(4):
+            nx = x + dx[i]
+            ny = y + dy[i]
+            if 0 <= nx < n and 0 <= ny < m and matrix[nx][ny] == 1:
+                matrix[nx][ny] = 0 # ! 이게 포인트...
+                queue.append((nx,ny))
+                cnt += 1 
+                # * 여기서 1이 연속된 수치, 
+                # *즉 가장 큰 너비의 그림 넓이를 구한다.
+    return cnt # ! 포인트2
+
+# @ 입력 파트
+n, m = map(int, input().split())
+
+matrix = []
+for _ in range(n):
+    matrix.append(list(map(int, input().split())))
+
+dx = [-1, 1, 0, 0]
+dy = [0, 0, -1, 1]
+
+# @ 실행파트
+paint = []
+for i in range(n):
+    for j in range(m):
+        if matrix[i][j] == 1:
+            paint.append(bfs(i,j)) # * 여기서 매 그림의 넓이를 빈 리스트에 넣는다.
+
+if len(paint) == 0:
+    print(len(paint))
+    print(0)
+else:
+    print(len(paint))
+    print(max(paint))
+
+
+```
+
+- [잘 정리된 블로그](https://lakelouise.tistory.com/72)
+- [DFS 풀이된 블로그](https://velog.io/@y7y1h13/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EB%B0%B1%EC%A4%80-1926%EB%B2%88-%EA%B7%B8%EB%A6%BCpython)
+
+```ad-tip
+- 매트릭스 확인하면서 0으로 처리하는 건 지난번(BOJ_4963 섬) 에도 풀었는데, 왜 생각이 안 났지 하면서도, 또 return 값을 받아 처리하는 코드는 또 배워간다!
+```

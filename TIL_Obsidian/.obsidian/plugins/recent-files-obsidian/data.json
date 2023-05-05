@@ -5,12 +5,24 @@
       "path": "KDT/Django/05. Namespace.md"
     },
     {
-      "basename": "요청 메소드와 응답코드",
-      "path": "_others_/요청 메소드와 응답코드.md"
+      "basename": "BFS & DFS",
+      "path": "ALgorithm (code)/BFS & DFS.md"
+    },
+    {
+      "basename": "Python error",
+      "path": "Python/Python error.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "문자열 치환 하기",
+      "path": "ALgorithm (code)/문자열 치환 하기.md"
+    },
+    {
+      "basename": "요청 메소드와 응답코드",
+      "path": "_others_/요청 메소드와 응답코드.md"
     },
     {
       "basename": "IP 주소의 종류",
@@ -67,18 +79,6 @@
     {
       "basename": "02. 이차원 리스트(2-2)",
       "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
-    },
-    {
-      "basename": "03. Variable Routing & Template inheritance & sending-retrieving data",
-      "path": "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md"
-    },
-    {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown & git/markdown (마크다운) +.md"
-    },
-    {
-      "basename": "파이썬 07. 클래스(Class)",
-      "path": "KDT/Python/파이썬 07. 클래스(Class).md"
     }
   ],
   "omittedPaths": [
