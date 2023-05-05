@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "05. Namespace",
+      "path": "KDT/Django/05. Namespace.md"
+    },
+    {
+      "basename": "요청 메소드와 응답코드",
+      "path": "_others_/요청 메소드와 응답코드.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "05. Namespace",
-      "path": "KDT/Django/05. Namespace.md"
+      "basename": "IP 주소의 종류",
+      "path": "_others_/IP 주소의 종류.md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
     },
     {
       "basename": "XML, JSON, YAML, AJAX",
@@ -67,18 +79,6 @@
     {
       "basename": "파이썬 07. 클래스(Class)",
       "path": "KDT/Python/파이썬 07. 클래스(Class).md"
-    },
-    {
-      "basename": "파이썬 06. 객체지향 프로그래밍(OOP)",
-      "path": "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md"
-    },
-    {
-      "basename": "파이썬 04. 데이터 구조 (Data Structure)",
-      "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
-    },
-    {
-      "basename": "파이썬 05. 에러&예외 처리 (Error & Exception Handling)",
-      "path": "KDT/Python/파이썬 05. 에러&예외 처리 (Error & Exception Handling).md"
     }
   ],
   "omittedPaths": [
