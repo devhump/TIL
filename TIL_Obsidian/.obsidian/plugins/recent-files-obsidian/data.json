@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "XML, JSON, YAML, AJAX",
-      "path": "_others_/XML, JSON, YAML, AJAX.md"
+      "basename": "05. Namespace",
+      "path": "KDT/Django/05. Namespace.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "XML, JSON, YAML, AJAX",
+      "path": "_others_/XML, JSON, YAML, AJAX.md"
     },
     {
       "basename": "더 공부해 볼 주제",
@@ -27,10 +31,6 @@
     {
       "basename": "02. request & response",
       "path": "KDT/Django/02. request & response.md"
-    },
-    {
-      "basename": "05. Namespace",
-      "path": "KDT/Django/05. Namespace.md"
     },
     {
       "basename": "django-shortcuts 1.6",

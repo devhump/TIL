@@ -23,13 +23,13 @@
             }
           },
           {
-            "id": "9f8784805a23f952",
+            "id": "dd4f36f33533f284",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/XML, JSON, YAML, AJAX.md",
-                "mode": "preview",
+                "file": "KDT/Django/05. Namespace.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xml",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/XML, JSON, YAML, AJAX.md",
+                "file": "KDT/Django/05. Namespace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/XML, JSON, YAML, AJAX.md",
+                "file": "KDT/Django/05. Namespace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/XML, JSON, YAML, AJAX.md"
+                "file": "KDT/Django/05. Namespace.md"
               }
             }
           }
@@ -192,9 +191,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9f8784805a23f952",
+  "active": "dd4f36f33533f284",
   "lastOpenFiles": [
+    "KDT/Django/assets/05. Namespace-19.png",
+    "KDT/Django/assets/05. Namespace-18.png",
     "devhump's TIL Index.md",
+    "_others_/XML, JSON, YAML, AJAX.md",
     "더 공부해 볼 주제.md",
     "_others_/알고리즘 TIP.md",
     "Algorithm (theory)/22. DP - problem&solution.md",
@@ -212,7 +214,6 @@
     "KDT/Django/assets/05. Namespace-12.png",
     "KDT/Django/assets/05. Namespace-11.png",
     "KDT/Django/assets/05. Namespace-10.png",
-    "KDT/Django/assets/05. Namespace-9.png",
     "KDT/Django/04. App URL mapping & Template namespace.md",
     "KDT/Django/01. Django Intro.md",
     "ALgorithm (code)/시뮬레이션.md",
@@ -230,8 +231,6 @@
     "Algorithm (theory)/08. DFS & BFS.md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "ALgorithm (code)/DFS 문제.md",
-    "ALgorithm (code)/BOJ_9455 박스.md",
-    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",
