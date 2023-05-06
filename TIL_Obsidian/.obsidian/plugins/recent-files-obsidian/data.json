@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "06. UPDATE",
+      "path": "KDT/Django/06. UPDATE.md"
+    },
+    {
       "basename": "05. Namespace",
       "path": "KDT/Django/05. Namespace.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "시뮬레이션",
       "path": "ALgorithm (code)/시뮬레이션.md"
-    },
-    {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
     }
   ],
   "omittedPaths": [
