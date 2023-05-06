@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "08. Admin site & Static files",
+      "path": "KDT/Django/08. Admin site & Static files.md"
+    },
+    {
       "basename": "07. Django ModelForm",
       "path": "KDT/Django/07. Django ModelForm.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "django-shortcuts 1.6",
       "path": "KDT/Django/django-shortcuts 1.6.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "BFS & DFS",
@@ -71,14 +75,6 @@
     {
       "basename": "01. DB & RDBMS & SQL CRUD",
       "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
-    },
-    {
-      "basename": "04. App URL mapping & Template namespace",
-      "path": "KDT/Django/04. App URL mapping & Template namespace.md"
-    },
-    {
-      "basename": "01. Django Intro",
-      "path": "KDT/Django/01. Django Intro.md"
     }
   ],
   "omittedPaths": [

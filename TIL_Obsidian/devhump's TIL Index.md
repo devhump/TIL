@@ -60,6 +60,10 @@
 - [02. request & response](KDT/Django/02.%20request%20&%20response.md)
 - [03. Variable Routing & Template inheritance & sending-retrieving data](KDT/Django/03.%20Variable%20Routing%20&%20Template%20inheritance%20&%20sending-retrieving%20data.md)
 - [04. App URL mapping & Template namespace](KDT/Django/04.%20App%20URL%20mapping%20&%20Template%20namespace.md)
+- [05. Namespace](KDT/Django/05.%20Namespace.md)
+- [06. UPDATE](KDT/Django/06.%20UPDATE.md)
+- [07. Django ModelForm](KDT/Django/07.%20Django%20ModelForm.md)
+- [08. Admin site & Static files](KDT/Django/08.%20Admin%20site%20&%20Static%20files.md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
 - **스택 & 큐**

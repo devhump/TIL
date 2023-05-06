@@ -15,28 +15,14 @@
               "type": "markdown",
               "state": {
                 "file": "devhump's TIL Index.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "ba385f3d46a35bc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Django/07. Django ModelForm.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/07. Django ModelForm.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/07. Django ModelForm.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Django/07. Django ModelForm.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
@@ -191,24 +177,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ba385f3d46a35bc7",
+  "active": "37b215b9d2bd0073",
   "lastOpenFiles": [
-    "KDT/Django/assets/07. Django ModelForm-13.png",
-    "KDT/Django/assets/07. Django ModelForm-12.png",
-    "KDT/Django/assets/07. Django ModelForm-11.png",
-    "KDT/Django/assets/07. Django ModelForm-10.png",
-    "KDT/Django/assets/07. Django ModelForm-9.png",
-    "KDT/Django/assets/07. Django ModelForm-8.png",
-    "KDT/Django/assets/07. Django ModelForm-7.png",
-    "KDT/Django/assets/07. Django ModelForm-6.png",
-    "KDT/Django/assets/07. Django ModelForm-5.png",
-    "KDT/Django/assets/07. Django ModelForm-4.png",
-    "KDT/Django/assets/07. Django ModelForm-3.png",
-    "KDT/Django/06. UPDATE.md",
+    "KDT/Django/08. Admin site & Static files.md",
+    "devhump's TIL Index.md",
+    "KDT/Django/assets/08. Admin site-7.png",
+    "KDT/Django/assets/08. Admin site-6.png",
+    "KDT/Django/assets/08. Admin site-6.png",
+    "KDT/Django/assets/08. Admin site-5.png",
+    "KDT/Django/assets/08. Admin site-4.png",
+    "KDT/Django/assets/08. Admin site-3.png",
+    "KDT/Django/assets/08. Admin site-2.png",
+    "KDT/Django/assets/08. Admin site-1.png",
+    "KDT/Django/assets/08. Admin site.png",
     "KDT/Django/07. Django ModelForm.md",
+    "KDT/Django/assets/07. Django ModelForm-13.png",
+    "KDT/Django/06. UPDATE.md",
     "KDT/Django/05. Namespace.md",
     "KDT/Django/django-shortcuts 1.6.md",
-    "devhump's TIL Index.md",
     "ALgorithm (code)/BFS & DFS.md",
     "Python/Python error.md",
     "ALgorithm (code)/문자열 치환 하기.md",
@@ -230,7 +216,6 @@
     "KDT/markdown & git/markdown (마크다운) +.md",
     "KDT/Django/assets",
     "KDT/Django",
-    "KDT/Python/파이썬 07. 클래스(Class).md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",
