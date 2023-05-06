@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Django/06. UPDATE.md",
+                "file": "KDT/Django/07. Django ModelForm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/06. UPDATE.md",
+                "file": "KDT/Django/07. Django ModelForm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/06. UPDATE.md",
+                "file": "KDT/Django/07. Django ModelForm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Django/06. UPDATE.md"
+                "file": "KDT/Django/07. Django ModelForm.md"
               }
             }
           }
@@ -193,19 +193,20 @@
   },
   "active": "ba385f3d46a35bc7",
   "lastOpenFiles": [
-    "KDT/Django/assets/06. UPDATE-4.png",
-    "KDT/Django/assets/06. UPDATE-3.png",
-    "KDT/Django/assets/06. UPDATE-2.png",
-    "KDT/Django/assets/06. UPDATE-1.png",
-    "KDT/Django/assets/06. UPDATE.png",
-    "KDT/Django/05. Namespace.md",
+    "KDT/Django/assets/07. Django ModelForm-13.png",
+    "KDT/Django/assets/07. Django ModelForm-12.png",
+    "KDT/Django/assets/07. Django ModelForm-11.png",
+    "KDT/Django/assets/07. Django ModelForm-10.png",
+    "KDT/Django/assets/07. Django ModelForm-9.png",
+    "KDT/Django/assets/07. Django ModelForm-8.png",
+    "KDT/Django/assets/07. Django ModelForm-7.png",
+    "KDT/Django/assets/07. Django ModelForm-6.png",
+    "KDT/Django/assets/07. Django ModelForm-5.png",
+    "KDT/Django/assets/07. Django ModelForm-4.png",
+    "KDT/Django/assets/07. Django ModelForm-3.png",
     "KDT/Django/06. UPDATE.md",
-    "KDT/Django/assets/05. Namespace-36.png",
-    "KDT/Django/assets/05. Namespace-35.png",
-    "KDT/Django/assets/05. Namespace-34.png",
-    "KDT/Django/assets/05. Namespace-33.png",
-    "KDT/Django/assets/05. Namespace-32.png",
-    "KDT/Django/assets/05. Namespace-31.png",
+    "KDT/Django/07. Django ModelForm.md",
+    "KDT/Django/05. Namespace.md",
     "KDT/Django/django-shortcuts 1.6.md",
     "devhump's TIL Index.md",
     "ALgorithm (code)/BFS & DFS.md",
@@ -230,7 +231,6 @@
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/Python/파이썬 07. 클래스(Class).md",
-    "KDT/Python/파이썬 06. 객체지향 프로그래밍(OOP).md",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",

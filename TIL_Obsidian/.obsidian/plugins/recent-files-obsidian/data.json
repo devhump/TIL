@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "07. Django ModelForm",
+      "path": "KDT/Django/07. Django ModelForm.md"
+    },
+    {
       "basename": "06. UPDATE",
       "path": "KDT/Django/06. UPDATE.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "01. Django Intro",
       "path": "KDT/Django/01. Django Intro.md"
-    },
-    {
-      "basename": "시뮬레이션",
-      "path": "ALgorithm (code)/시뮬레이션.md"
     }
   ],
   "omittedPaths": [
