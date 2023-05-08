@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BFS & DFS",
+      "path": "ALgorithm (code)/BFS & DFS.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "django-shortcuts 1.6",
       "path": "KDT/Django/django-shortcuts 1.6.md"
-    },
-    {
-      "basename": "BFS & DFS",
-      "path": "ALgorithm (code)/BFS & DFS.md"
     },
     {
       "basename": "Python error",
