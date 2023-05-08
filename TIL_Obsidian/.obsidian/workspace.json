@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Django/09. Django Auth.md",
+                "file": "KDT/Django/10. 로그인에 대한 이해.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/09. Django Auth.md",
+                "file": "KDT/Django/10. 로그인에 대한 이해.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/09. Django Auth.md",
+                "file": "KDT/Django/10. 로그인에 대한 이해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Django/09. Django Auth.md"
+                "file": "KDT/Django/10. 로그인에 대한 이해.md"
               }
             }
           }
@@ -193,18 +193,19 @@
   },
   "active": "26e7ed8f178a6aa9",
   "lastOpenFiles": [
-    "KDT/Django/assets/09. Django Auth-9.png",
-    "KDT/Django/assets/09. Django Auth-8.png",
-    "KDT/Django/assets/09. Django Auth-7.png",
-    "KDT/Django/assets/09. Django Auth-6.png",
-    "KDT/Django/assets/09. Django Auth-5.png",
-    "KDT/Django/assets/09. Django Auth-4.png",
-    "KDT/Django/assets/09. Django Auth-4.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-11.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-10.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-9.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-8.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-7.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-6.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-5.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-4.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-3.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-2.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-1.png",
     "KDT/Django/09. Django Auth.md",
-    "KDT/Django/assets/09. Django Auth-3.png",
-    "KDT/Django/assets/09. Django Auth-2.png",
-    "KDT/Django/assets/09. Django Auth-1.png",
-    "KDT/Django/assets/09. Django Auth.png",
+    "KDT/Django/10. 로그인에 대한 이해.md",
     "KDT/Django/08. Admin site & Static files.md",
     "KDT/DB/08. QuerySet API.md",
     "devhump's TIL Index.md",
@@ -228,7 +229,6 @@
     "KDT/Django/02. request & response.md",
     "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
     "KDT/Django/04. App URL mapping & Template namespace.md",
-    "KDT/Django/01. Django Intro.md",
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/DB/assets",
