@@ -1,31 +1,28 @@
-# BOJ_2178 미로 탐색 
-
 from collections import deque
-import sys
-input = sys.stdin.readline
 N, M = map(int, input().split())
 
-#sys.stdin = open('BOJ_2178_input.txt', 'r')
+maze = []
+for _ in range(N):
+    maze.append(list(map(int, input())))
 
-graph = [list(map(int, ' '.join(input().split()))) for _ in range(N)]
+# p_print(maze)
 
-queue = deque([(0,0)])
+x , y = 0, 0
+# 상, 하, 좌, 우
+dx = [-1, 1, 0, 0]
+dy = [0, 0, -1, 1]
 
-# 우 좌 하 상
-dx = [0, 0, 1, -1]
-dy = [1, -1, 0, 0]
-cnt = 0
+def bfs(x,y):
+    queue = deque([(x,y)])
+    while queue:
+        temp = queue.popleft() 
+        for i in range(4):
+            nx = temp[0] + dx[i] 
+            ny = temp[1] + dy[i]
 
-# BFS
-while queue:
-    x, y = queue.popleft()
-	
-    for i in range(4):
-        nx, ny = x + dx[i], y + dy[i]
-        if 0 <= nx < N and 0 <= ny < M: # 범위 확인
-            if graph[nx][ny] == 1: # 경로 확인
-                queue.append((nx, ny))
-                graph[nx][ny] = graph[x][y] + 1 # value 자체를 이동 횟수로 사용
+            if 0 <= nx < N and 0 <= ny < M and maze[nx][ny] == 1:
+                maze[nx][ny] = maze[temp[0]][temp[1]] + 1
+                queue.append((nx,ny))
 
-print(graph[N-1][M-1])
-
+bfs(x, y)
+print(maze[N-1][M-1])

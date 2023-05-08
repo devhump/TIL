@@ -1,32 +1,27 @@
-
 com = int(input())
-graph = [[] for _ in range(com+1)]
+edges_num = int(input())
 
-for _ in range(int(input())):
-    s, e = map(int, input().split())
-    graph[s].append(e)
-    graph[e].append(s) 
+
+graph = [[] for _ in range(com+1)]
+for _ in range(edges_num):
+    a, b = map(int, input().split())
+    graph[a].append(b)
+    graph[b].append(a)
+
+# print(graph)
 
 visited = [False] * (com+1)
-# print(visited)
-
-
 def dfs(start):
-    cnt = 0
-    stack = [start]
     visited[start] = True
-
+    stack = [start]
+    cnt = 0
     while stack:
-        # print(f'stack: {stack}')
-        
-        cur = stack.pop()
-
-        for adj in graph[cur]:
+        temp = stack.pop()
+        for adj in graph[temp]:
             if not visited[adj]:
+                cnt += 1
                 visited[adj] = True
                 stack.append(adj)
-                cnt += 1
-
     print(cnt)
 
 dfs(1)
