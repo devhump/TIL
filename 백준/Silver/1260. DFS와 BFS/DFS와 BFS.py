@@ -1,58 +1,49 @@
-import sys
 from collections import deque
-input = sys.stdin.readline
 
-#정점 개수 n, 간선 개수 m, 탐색을 시작할 정점 번호 v
-n, m, v = map(int,(input().rstrip().rsplit()))
-nodes = []
-graph = {}
+N, M, V = map(int, input().split())
 
+graph = [[] for i in range(N+1)]
 
-def dfs(graph, start_node):
-    visit = []
-    stack = []
-    
-    stack.append(start_node)
-    while stack:
-        #가장 뒤에 있는 요소 pop
-        node = stack.pop()
-        if node not in visit:
-            visit.append(node)
-            if node in graph:
-                temp = list(set(graph[node])-set(visit))
-                temp.sort(reverse=True)
-                stack += temp
-    return " ".join(str(i) for i in visit)
-
-def bfs(graph, start_node):
-    visit = []
-    queue = deque()
-
-    queue.append(start_node)
+def bfs(start, bfs_visited):
+    queue = deque([start])
+    bfs_visited[start] = True
+    bfs_res = [start]
     while queue:
-        #가장 앞에 있는 요소 pop
-        node = queue.popleft()
-        if node not in visit:
-            visit.append(node)
-            if node in graph:
-                temp = list(set(graph[node])-set(visit))
-                temp.sort()
-                queue += temp
-    return " ".join(str(i) for i in visit)
+        v = queue.popleft()
+        for adj in graph[v]:
+            if not bfs_visited[adj]:
+                queue.append(adj)
+                bfs_res.append(adj)
+                bfs_visited[adj] = True
+    return bfs_res
 
-for i in range(m):
-    x,y = map(int,input().rstrip().rsplit())
-    nodes.append([x,y])
+def dfs_re(start, dfs_visited):
+    dfs_visited[start] = True
+    dfs_res.append(start)
+    
+    for i in graph[start]:
+        if not dfs_visited[i]:
+            dfs_re(i, dfs_visited)
 
-    if x not in graph:
-        graph[x]=[y]
-    else:
-        graph[x].append(y)
+    return dfs_res
 
-    if y not in graph:
-        graph[y]=[x]
-    else:
-        graph[y].append(x)
+dfs_visited = [False] * (N +1)
+bfs_visited = [False] * (N +1)
 
-print(dfs(graph,v))
-print(bfs(graph,v))
+for _ in range(M):
+    v1, v2 = map(int, input().split())
+    graph[v1].append(v2)
+    graph[v2].append(v1)
+
+for i in range(1, N+1):
+    graph[i].sort()
+    
+dfs_res = []
+ans1 = dfs_re(V, dfs_visited)
+ans2 = bfs(V, bfs_visited)
+
+for i in ans1:
+    print(i, end=" ")
+print()
+for i in ans2:
+    print(i, end=" ")
