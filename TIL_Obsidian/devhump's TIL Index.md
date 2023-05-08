@@ -64,6 +64,9 @@
 - [06. UPDATE](KDT/Django/06.%20UPDATE.md)
 - [07. Django ModelForm](KDT/Django/07.%20Django%20ModelForm.md)
 - [08. Admin site & Static files](KDT/Django/08.%20Admin%20site%20&%20Static%20files.md)
+- [09. Django Auth](KDT/Django/09.%20Django%20Auth.md)
+- [10. 로그인에 대한 이해](KDT/Django/10.%20로그인에%20대한%20이해.md)
+- [11. 회원정보 수정](KDT/Django/11.%20회원정보%20수정.md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
 - **스택 & 큐**

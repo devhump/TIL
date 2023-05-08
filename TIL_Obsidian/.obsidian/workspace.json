@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "26e7ed8f178a6aa9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Django/10. 로그인에 대한 이해.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "right": {
     "id": "72535583ef42991f",
@@ -137,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/10. 로그인에 대한 이해.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/10. 로그인에 대한 이해.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Django/10. 로그인에 대한 이해.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
@@ -191,24 +178,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "26e7ed8f178a6aa9",
+  "active": "37b215b9d2bd0073",
   "lastOpenFiles": [
-    "KDT/Django/assets/10. 로그인에 대한 이해-11.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-10.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-9.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-8.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-7.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-6.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-5.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-4.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-3.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-2.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-1.png",
-    "KDT/Django/09. Django Auth.md",
     "KDT/Django/10. 로그인에 대한 이해.md",
+    "KDT/Django/11. 회원정보 수정.md",
+    "devhump's TIL Index.md",
+    "KDT/Django/assets/11. 회원정보 수정-8.png",
+    "KDT/Django/assets/11. 회원정보 수정-7.png",
+    "KDT/Django/assets/11. 회원정보 수정-6.png",
+    "KDT/Django/assets/11. 회원정보 수정-5.png",
+    "KDT/Django/assets/11. 회원정보 수정-4.png",
+    "KDT/Django/assets/11. 회원정보 수정-3.png",
+    "KDT/Django/assets/11. 회원정보 수정-2.png",
+    "KDT/Django/assets/11. 회원정보 수정-1.png",
+    "KDT/Django/assets/11. 회원정보 수정.png",
+    "KDT/Django/assets/10. 로그인에 대한 이해-11.png",
+    "KDT/Django/09. Django Auth.md",
     "KDT/Django/08. Admin site & Static files.md",
     "KDT/DB/08. QuerySet API.md",
-    "devhump's TIL Index.md",
     "Algorithm (theory)/08. DFS & BFS.md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "KDT/Django/07. Django ModelForm.md",
@@ -228,7 +215,6 @@
     "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
     "KDT/Django/02. request & response.md",
     "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
-    "KDT/Django/04. App URL mapping & Template namespace.md",
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/DB/assets",

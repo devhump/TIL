@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "10. 로그인에 대한 이해",
       "path": "KDT/Django/10. 로그인에 대한 이해.md"
+    },
+    {
+      "basename": "11. 회원정보 수정",
+      "path": "KDT/Django/11. 회원정보 수정.md"
     },
     {
       "basename": "09. Django Auth",
@@ -15,10 +23,6 @@
     {
       "basename": "08. QuerySet API",
       "path": "KDT/DB/08. QuerySet API.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "08. DFS & BFS",
@@ -75,10 +79,6 @@
     {
       "basename": "더 공부해 볼 주제",
       "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "알고리즘 TIP",
-      "path": "_others_/알고리즘 TIP.md"
     }
   ],
   "omittedPaths": [
