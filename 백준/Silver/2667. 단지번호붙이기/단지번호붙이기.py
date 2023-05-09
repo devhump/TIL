@@ -1,30 +1,44 @@
-n = int(input())
-s = []
-dx = [1, -1, 0, 0]
+
+
+from collections import deque
+
+# 상, 하, 좌, 우
+dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
-cnt = []
-for i in range(n):
-    s.append(list(input()))
-def bfs(i, j):
-    queue = [[i, j]]
-    s[i][j] = "0"
-    count = 1
+
+def bfs(a, b):
+    queue = deque([(a, b)])
+
+    matrix[a][b] = 0
+    cnt = 1
     while queue:
-        a, b = queue[0][0], queue[0][1]
-        del queue[0]
-        for k in range(4):
-            x = a + dx[k]
-            y = b + dy[k]
-            if 0 <= x < n and 0 <= y < n and s[x][y] == "1":
-                s[x][y] = "0"
-                queue.append([x, y])
-                count += 1
-    cnt.append(count)
-for i in range(n):
-    for j in range(n):
-        if s[i][j] == "1":
-            bfs(i, j)
-cnt.sort()
-print(len(cnt))
-for i in cnt:
-    print(i)
+        x, y = queue.popleft() # @ 이렇게 한번에 뽑기가 가능하군!
+
+        for i in range(4):
+            nx = x + dx[i]
+            ny = y + dy[i]
+
+            if 0 <= nx < N and 0 <= ny < N:
+                if matrix[nx][ny] == 1:
+                    queue.append((nx,ny))
+                    matrix[nx][ny] = 0
+                    cnt += 1
+    if cnt != 0:
+        ans.append(cnt)
+                    
+N = int(input())
+
+matrix = []
+for _ in range(N):
+    matrix.append(list(map(int, input())))
+
+ans = []
+for i in range(N):
+    for j in range(N):
+        if matrix[i][j] == 1:
+            bfs(i,j)
+
+print(len(ans))
+ans.sort()
+for i in range(len(ans)):
+    print(ans[i])
