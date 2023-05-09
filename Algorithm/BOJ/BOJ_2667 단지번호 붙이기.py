@@ -1,5 +1,9 @@
-# BOJ_2667 단지번호 붙이기
-# ! 테케는 통과하는데, 제출하면 틀린다..ㅠㅠ
+from collections import deque, Counter
+from functools import reduce
+
+def p_print(list):
+    for row in list:
+        print(row)
 
 import sys
 sys.stdin = open('BOJ_2667_input.txt', 'r')
@@ -8,54 +12,58 @@ sys.stdin = open('BOJ_2667_input.txt', 'r')
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 
-def dfs(x, y, cnt):
-    stack = [(x, y)]
-
-    while stack:
-        temp = stack.pop()
-
-        for i in range(4):
-            nx = temp[0] + dx[i]
-            ny = temp[1] + dy[i]
-
-            if 0 <= nx < N and 0 <= ny < N and visited[nx][ny] == False:
-                if matrix[nx][ny] == 1:
-                    matrix[nx][ny] = cnt
-                    visited[nx][ny] = True
-                    stack.append((nx,ny))
-                else:
-                    visited[nx][ny] = True
 N = int(input())
 
 matrix = []
-
 for _ in range(N):
     matrix.append(list(map(int, input())))
+# @ a = [list(map(int,list(input()))) for _ in range(n)]
+# @ 이렇게 한 줄로도 입력 가능!
 
-visited = [[False]*N for _ in range(N)]
+group =[[0]*N for _ in range(N)]
+
+def bfs(a, b, cnt):
+    queue = deque([(a, b)])
+    group[a][b] = cnt
+
+    while queue:
+        x, y = queue.popleft()
+
+        for i in range(4):
+            nx, ny = x + dx[i], y + dy[i]
+            if 0 <= nx < N and 0 <= ny < N:
+                if matrix[nx][ny] == 1 and group[nx][ny] == 0:
+                    queue.append((nx, ny))
+                    group[nx][ny] = cnt
 
 cnt = 0
 for i in range(N):
     for j in range(N):
-        if not visited[i][j]:
+        if matrix[i][j] == 1 and group[i][j] == 0:
             cnt += 1
-            dfs(i,j, cnt)
+            bfs(i, j, cnt)
 
-# def p_print(list):
-#     for row in list:
-#         print(row)
+# p_print(group)
+# [0, 1, 1, 0, 2, 0, 0]
+# [0, 1, 1, 0, 2, 0, 2]
+# [1, 1, 1, 0, 2, 0, 2]
+# [0, 0, 0, 0, 2, 2, 2]
+# [0, 3, 0, 0, 0, 0, 0]
+# [0, 3, 3, 3, 3, 3, 0]
+# [0, 3, 3, 3, 0, 0, 0]
 
-# p_print(matrix)
+print(cnt)
+# 각 단지마다 집 개수 출력
+# 2차원 배열을 1차원으로 쭈욱 펼치기 
+ans = reduce(lambda x,y : x+y, group) 
+# [0, 1, 1, 0, 2, 0, 0, 0, 1, 1, 0, 2, 0, 2, 1, 1, 1, 0, 2, 0, 2, 0, 0, 0, 0, 2, 2, 2, 0, 3, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 0, 0, 3, 3, 3, 0, 0, 0]
 
-res = []
-for i in range(N):
-    res.extend(matrix[i])
+# 단지로 등록?된 집들만 ans 리스트에 남기기
+ans = [x for x in ans if x > 0]
+# [1, 1, 2, 1, 1, 2, 2, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3]
 
-apt_cnt = max(res)
-ans = []
-for i in range(1, apt_cnt+1):
-    ans.append(res.count(i))
-ans.sort()
-print(apt_cnt)
-for i in range(apt_cnt):
-    print(ans[i])
+# cnt(단지번호) 별 개수(Counter.values()) 구하고 출력
+ans = sorted(list(Counter(ans).values()))
+# [7, 8, 9]
+
+print('\n'.join(map(str,ans))) # ! 모르는 문법도 아닌데, 이렇게 쓰이니 신구하구만!

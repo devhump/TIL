@@ -41,8 +41,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Django/11. 회원정보 수정.md",
-                "mode": "source",
+                "file": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/11. 회원정보 수정.md",
+                "file": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/11. 회원정보 수정.md",
+                "file": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Django/11. 회원정보 수정.md"
+                "file": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md"
               }
             }
           }
@@ -207,6 +207,11 @@
   "active": "2b465d9938dcc7a9",
   "lastOpenFiles": [
     "KDT/Django/12. image upload.md",
+    "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
+    "Python/Python 유용한 문법 정리.md",
+    "Python/assets/Python 유용한 문법 정리.png",
+    "Algorithm (theory)/08. DFS & BFS.md",
+    "KDT/Django/11. 회원정보 수정.md",
     "KDT/Django/assets/12. image upload-12.png",
     "KDT/Django/assets/12. image upload-11.png",
     "KDT/Django/assets/12. image upload-10.png",
@@ -216,15 +221,11 @@
     "KDT/Django/assets/12. image upload-7.png",
     "KDT/Django/assets/12. image upload-6.png",
     "KDT/Django/assets/12. image upload-6.png",
-    "KDT/Django/assets/12. image upload-5.png",
-    "KDT/Django/11. 회원정보 수정.md",
     "devhump's TIL Index.md",
-    "ALgorithm (code)/BFS & DFS.md",
     "KDT/Django/10. 로그인에 대한 이해.md",
     "KDT/Django/09. Django Auth.md",
     "KDT/Django/08. Admin site & Static files.md",
     "KDT/DB/08. QuerySet API.md",
-    "Algorithm (theory)/08. DFS & BFS.md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "KDT/Django/07. Django ModelForm.md",
     "KDT/Django/06. UPDATE.md",

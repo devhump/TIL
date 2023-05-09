@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "11. 회원정보 수정",
-      "path": "KDT/Django/11. 회원정보 수정.md"
+      "basename": "BFS & DFS 실전 문제 풀이",
+      "path": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md"
     },
     {
       "basename": "12. image upload",
       "path": "KDT/Django/12. image upload.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "Python 유용한 문법 정리",
+      "path": "Python/Python 유용한 문법 정리.md"
     },
     {
-      "basename": "BFS & DFS",
-      "path": "ALgorithm (code)/BFS & DFS.md"
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "11. 회원정보 수정",
+      "path": "KDT/Django/11. 회원정보 수정.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "10. 로그인에 대한 이해",
@@ -31,10 +39,6 @@
     {
       "basename": "08. QuerySet API",
       "path": "KDT/DB/08. QuerySet API.md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
     },
     {
       "basename": "05. 깊이 우선 탐색(DFS)",

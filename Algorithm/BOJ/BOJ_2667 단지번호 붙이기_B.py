@@ -1,4 +1,4 @@
-# BOJ_2667 단지번호 붙이기_B
+# BOJ_2667 단지번호 붙이기_B (queue)
 
 import sys
 sys.stdin = open('BOJ_2667_input.txt', 'r')
@@ -9,54 +9,39 @@ from collections import deque
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 
-def bfs(x, y, cnt):
-    queue = deque([(x, y)])
+def bfs(a, b):
+    queue = deque([(a, b)])
 
+    matrix[a][b] = 0
+    cnt = 1
     while queue:
-        temp = queue.pop()
+        x, y = queue.popleft() # @ 이렇게 한번에 뽑기가 가능하군!
 
         for i in range(4):
-            nx = temp[0] + dx[i]
-            ny = temp[1] + dy[i]
+            nx = x + dx[i]
+            ny = y + dy[i]
 
-            if 0 <= nx < N and 0 <= ny < N and visited[nx][ny] == False:
+            if 0 <= nx < N and 0 <= ny < N:
                 if matrix[nx][ny] == 1:
-                    matrix[nx][ny] = cnt
-                    visited[nx][ny] = True
                     queue.append((nx,ny))
-                else:
-                    visited[nx][ny] = True
+                    matrix[nx][ny] = 0
+                    cnt += 1
+    if cnt != 0:
+        ans.append(cnt)
+                    
 N = int(input())
 
 matrix = []
-
 for _ in range(N):
     matrix.append(list(map(int, input())))
 
-visited = [[False]*N for _ in range(N)]
-
-cnt = 0
+ans = []
 for i in range(N):
     for j in range(N):
-        if not visited[i][j]:
-            cnt += 1
-            bfs(i,j, cnt)
+        if matrix[i][j] == 1:
+            bfs(i,j)
 
-# def p_print(list):
-#     for row in list:
-#         print(row)
-
-# p_print(matrix)
-
-res = []
-for i in range(N):
-    res.extend(matrix[i])
-
-apt_cnt = max(res)
-ans = []
-for i in range(1, apt_cnt+1):
-    ans.append(res.count(i))
+print(len(ans))
 ans.sort()
-print(apt_cnt)
-for i in range(apt_cnt):
+for i in range(len(ans)):
     print(ans[i])

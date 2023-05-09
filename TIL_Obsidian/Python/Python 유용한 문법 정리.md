@@ -208,6 +208,109 @@ print(numbers)
 >>> [1, 2, 2]  # 숫자 3이 전부 삭제
 ```
 
+#### reduce
+- reduce 함수는 \***반복 가능한** **객체(iterable object)** 내 각 요소를 연산한 뒤 이전 연산 결과들과 누적해서 반환해 주는 함수입니다.
+- \*임포트가 필요하다
+```python
+from function import reduce
+```
+
+```ad-question
+- 가령, 1부터 20까지의 정수가 담긴 리스트가 있을 때, 리스트 모든 요소의 합을 구하는 코드를 작성해 보자.
+```
+
+```python
+
+# 1) reduce 함수를 사용하지 않은 코드
+
+def SumFunction(x, y):
+    return x + y
+
+target = list(range(1, 21))
+result = 0
+for value in target:
+    result = SumFunction(result, value)
+print(result) # 실행 결과: 210
+
+################################################
+
+# 2) reduce 함수를 사용한 코드
+
+from functools import reduce
+
+def SumFunction(x, y):
+    return x + y
+    
+target = list(range(1, 21))
+print(reduce(SumFunction, target)) # 실행 결과: 210
+
+################################################
+
+# 3) reduce 함수와 lambda 표현식을 사용한 코
+
+from functools import reduce
+
+target = list(range(1, 21))
+print(reduce(lambda x, y: x + y, target)) # 실행 결과: 210
+
+```
+- 👉 이처럼 불팔요한 구문과 코드를 획기적으로 줄여준다! 
+- 출처: https://heytech.tistory.com/49
+
+#### Lamda 함수는 언제 사용하면 좋을까? 
+- 일회성으로 사용하기 위한 함수(기능)을 구현할 때!
+	- 메모리 누수 예방에도 도움을 준다. 
+```python
+# 일반적인 함수를 만들어 사용할 때 
+def squareOut(input_data):
+   return input_data**2
+
+squared_value = squareOut(7)
+print(squared_value) # 49 출력
+
+#######################################
+# 람다함수를 사용할 때
+squared_value = lambda(x:x**2)
+print(squared_value(7)) # 49 출력
+```
+
+![](assets/Python%20유용한%20문법%20정리.png)
+
+#### Counter
+- [Python Docs - Counter](https://docs.python.org/ko/3/library/collections.html?highlight=counter#collections.Counter)
+- \*임포트가 필요하다
+```python
+from collections import Counter
+```
+
+```python
+my_list  = ['Tick', 'Tock', 'Tock'] # 나의 리스트
+new_list = ['Tick', 'Tock', 'Song'] # 추가로 나타난 리스트
+```
+
+```python
+# 나의 리스트를 센다
+from collections import Counter
+
+counter = Counter(my_list)
+print(counter)
+# Counter({'Tock': 2, 'Tick': 1})
+
+# 추가된 리스트를 누적하여 센다
+counter.update(new_list)
+print(counter)
+# Counter({'Tock': 3, 'Tick': 2, 'Song': 1})
+
+
+# 가장 많이 나타난 2개를 출력한다
+print(counter.most_common(n=2))
+# [('Tock', 3), ('Tick', 2)]
+```
+
+- 더 자세한 설명 [블로그](https://ek-koh.github.io/python/counter/)
+
+##### Counter.values()
+- 카운터 객체의 value, 즉 카운트들을 반환
 
 ### 반올림, 내림, 올림 (round, floor, trunc, ceil)
 ![반올림, 내림, 올림(python)](반올림,%20내림,%20올림(python).md)
