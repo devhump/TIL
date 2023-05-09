@@ -28,7 +28,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALgorithm (code)/BFS & DFS.md",
+                "file": "KDT/Django/12. image upload.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b465d9938dcc7a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Django/11. 회원정보 수정.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "right": {
     "id": "72535583ef42991f",
@@ -138,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ALgorithm (code)/BFS & DFS.md",
+                "file": "KDT/Django/11. 회원정보 수정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ALgorithm (code)/BFS & DFS.md",
+                "file": "KDT/Django/11. 회원정보 수정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALgorithm (code)/BFS & DFS.md"
+                "file": "KDT/Django/11. 회원정보 수정.md"
               }
             }
           }
@@ -192,21 +204,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ab50dd8134b8d6af",
+  "active": "2b465d9938dcc7a9",
   "lastOpenFiles": [
-    "devhump's TIL Index.md",
-    "KDT/Django/10. 로그인에 대한 이해.md",
+    "KDT/Django/12. image upload.md",
+    "KDT/Django/assets/12. image upload-12.png",
+    "KDT/Django/assets/12. image upload-11.png",
+    "KDT/Django/assets/12. image upload-10.png",
+    "KDT/Django/assets/12. image upload-9.png",
+    "KDT/Django/assets/12. image upload-8.png",
+    "KDT/Django/assets/12. image upload-8.png",
+    "KDT/Django/assets/12. image upload-7.png",
+    "KDT/Django/assets/12. image upload-6.png",
+    "KDT/Django/assets/12. image upload-6.png",
+    "KDT/Django/assets/12. image upload-5.png",
     "KDT/Django/11. 회원정보 수정.md",
-    "KDT/Django/assets/11. 회원정보 수정-8.png",
-    "KDT/Django/assets/11. 회원정보 수정-7.png",
-    "KDT/Django/assets/11. 회원정보 수정-6.png",
-    "KDT/Django/assets/11. 회원정보 수정-5.png",
-    "KDT/Django/assets/11. 회원정보 수정-4.png",
-    "KDT/Django/assets/11. 회원정보 수정-3.png",
-    "KDT/Django/assets/11. 회원정보 수정-2.png",
-    "KDT/Django/assets/11. 회원정보 수정-1.png",
-    "KDT/Django/assets/11. 회원정보 수정.png",
-    "KDT/Django/assets/10. 로그인에 대한 이해-11.png",
+    "devhump's TIL Index.md",
+    "ALgorithm (code)/BFS & DFS.md",
+    "KDT/Django/10. 로그인에 대한 이해.md",
     "KDT/Django/09. Django Auth.md",
     "KDT/Django/08. Admin site & Static files.md",
     "KDT/DB/08. QuerySet API.md",
@@ -216,7 +230,6 @@
     "KDT/Django/06. UPDATE.md",
     "KDT/Django/05. Namespace.md",
     "KDT/Django/django-shortcuts 1.6.md",
-    "ALgorithm (code)/BFS & DFS.md",
     "Python/Python error.md",
     "ALgorithm (code)/문자열 치환 하기.md",
     "_others_/요청 메소드와 응답코드.md",
@@ -228,7 +241,6 @@
     "Algorithm (theory)/22. DP - problem&solution.md",
     "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
     "KDT/Django/02. request & response.md",
-    "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/DB/assets",

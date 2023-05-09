@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "BFS & DFS",
-      "path": "ALgorithm (code)/BFS & DFS.md"
+      "basename": "11. 회원정보 수정",
+      "path": "KDT/Django/11. 회원정보 수정.md"
+    },
+    {
+      "basename": "12. image upload",
+      "path": "KDT/Django/12. image upload.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "10. 로그인에 대한 이해",
-      "path": "KDT/Django/10. 로그인에 대한 이해.md"
+      "basename": "BFS & DFS",
+      "path": "ALgorithm (code)/BFS & DFS.md"
     },
     {
-      "basename": "11. 회원정보 수정",
-      "path": "KDT/Django/11. 회원정보 수정.md"
+      "basename": "10. 로그인에 대한 이해",
+      "path": "KDT/Django/10. 로그인에 대한 이해.md"
     },
     {
       "basename": "09. Django Auth",
@@ -71,14 +75,6 @@
     {
       "basename": "개발 관련 IT 용어 정리",
       "path": "_others_/개발 관련 IT 용어 정리.md"
-    },
-    {
-      "basename": "XML, JSON, YAML, AJAX",
-      "path": "_others_/XML, JSON, YAML, AJAX.md"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
     }
   ],
   "omittedPaths": [
