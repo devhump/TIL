@@ -23,33 +23,19 @@
             }
           },
           {
-            "id": "ab50dd8134b8d6af",
+            "id": "017d2282f8a87ca7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Django/12. image upload.md",
+                "file": "KDT/Django/13. A one-to-many relationship.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "2b465d9938dcc7a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
@@ -204,24 +190,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2b465d9938dcc7a9",
+  "active": "31c996407033f3d5",
   "lastOpenFiles": [
+    "KDT/Django/13. A one-to-many relationship.md",
+    "KDT/Django/assets/13. A one-to-many relationship-27.png",
+    "KDT/Django/assets/13. A one-to-many relationship-26.png",
+    "KDT/Django/assets/13. A one-to-many relationship-25.png",
+    "KDT/Django/assets/13. A one-to-many relationship-24.png",
+    "KDT/Django/assets/13. A one-to-many relationship-23.png",
+    "KDT/Django/assets/13. A one-to-many relationship-22.png",
+    "KDT/Django/assets/13. A one-to-many relationship-21.png",
+    "KDT/Django/assets/13. A one-to-many relationship-20.png",
+    "KDT/Django/assets/13. A one-to-many relationship-19.png",
+    "KDT/Django/assets/13. A one-to-many relationship-18.png",
+    "KDT/Django/05. Namespace.md",
+    "devhump's TIL Index.md",
     "KDT/Django/12. image upload.md",
     "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
     "Python/Python 유용한 문법 정리.md",
-    "Python/assets/Python 유용한 문법 정리.png",
     "Algorithm (theory)/08. DFS & BFS.md",
     "KDT/Django/11. 회원정보 수정.md",
-    "KDT/Django/assets/12. image upload-12.png",
-    "KDT/Django/assets/12. image upload-11.png",
-    "KDT/Django/assets/12. image upload-10.png",
-    "KDT/Django/assets/12. image upload-9.png",
-    "KDT/Django/assets/12. image upload-8.png",
-    "KDT/Django/assets/12. image upload-8.png",
-    "KDT/Django/assets/12. image upload-7.png",
-    "KDT/Django/assets/12. image upload-6.png",
-    "KDT/Django/assets/12. image upload-6.png",
-    "devhump's TIL Index.md",
     "KDT/Django/10. 로그인에 대한 이해.md",
     "KDT/Django/09. Django Auth.md",
     "KDT/Django/08. Admin site & Static files.md",
@@ -229,7 +217,6 @@
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "KDT/Django/07. Django ModelForm.md",
     "KDT/Django/06. UPDATE.md",
-    "KDT/Django/05. Namespace.md",
     "KDT/Django/django-shortcuts 1.6.md",
     "Python/Python error.md",
     "ALgorithm (code)/문자열 치환 하기.md",
@@ -240,8 +227,6 @@
     "더 공부해 볼 주제.md",
     "_others_/알고리즘 TIP.md",
     "Algorithm (theory)/22. DP - problem&solution.md",
-    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
-    "KDT/Django/02. request & response.md",
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/DB/assets",

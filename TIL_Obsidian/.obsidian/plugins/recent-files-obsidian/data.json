@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "BFS & DFS 실전 문제 풀이",
-      "path": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md"
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "13. A one-to-many relationship",
+      "path": "KDT/Django/13. A one-to-many relationship.md"
+    },
+    {
+      "basename": "05. Namespace",
+      "path": "KDT/Django/05. Namespace.md"
     },
     {
       "basename": "12. image upload",
       "path": "KDT/Django/12. image upload.md"
+    },
+    {
+      "basename": "BFS & DFS 실전 문제 풀이",
+      "path": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md"
     },
     {
       "basename": "Python 유용한 문법 정리",
@@ -19,10 +31,6 @@
     {
       "basename": "11. 회원정보 수정",
       "path": "KDT/Django/11. 회원정보 수정.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "10. 로그인에 대한 이해",
@@ -53,10 +61,6 @@
       "path": "KDT/Django/06. UPDATE.md"
     },
     {
-      "basename": "05. Namespace",
-      "path": "KDT/Django/05. Namespace.md"
-    },
-    {
       "basename": "django-shortcuts 1.6",
       "path": "KDT/Django/django-shortcuts 1.6.md"
     },
@@ -71,14 +75,6 @@
     {
       "basename": "요청 메소드와 응답코드",
       "path": "_others_/요청 메소드와 응답코드.md"
-    },
-    {
-      "basename": "IP 주소의 종류",
-      "path": "_others_/IP 주소의 종류.md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "_others_/개발 관련 IT 용어 정리.md"
     }
   ],
   "omittedPaths": [
