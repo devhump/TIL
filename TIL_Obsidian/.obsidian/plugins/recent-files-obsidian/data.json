@@ -5,8 +5,28 @@
       "path": "devhump's TIL Index.md"
     },
     {
+      "basename": "14. 1 to N  (User - Comment)",
+      "path": "KDT/Django/14. 1 to N  (User - Comment).md"
+    },
+    {
       "basename": "13. A one-to-many relationship",
       "path": "KDT/Django/13. A one-to-many relationship.md"
+    },
+    {
+      "basename": "08. DFS & BFS",
+      "path": "Algorithm (theory)/08. DFS & BFS.md"
+    },
+    {
+      "basename": "05. 깊이 우선 탐색(DFS)",
+      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
+    },
+    {
+      "basename": "04. 그래프(Graph)",
+      "path": "KDT/Algorithm/04. 그래프(Graph).md"
+    },
+    {
+      "basename": "BFS & DFS",
+      "path": "BFS & DFS.md"
     },
     {
       "basename": "05. Namespace",
@@ -23,10 +43,6 @@
     {
       "basename": "Python 유용한 문법 정리",
       "path": "Python/Python 유용한 문법 정리.md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
     },
     {
       "basename": "11. 회원정보 수정",
@@ -49,10 +65,6 @@
       "path": "KDT/DB/08. QuerySet API.md"
     },
     {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
       "basename": "07. Django ModelForm",
       "path": "KDT/Django/07. Django ModelForm.md"
     },
@@ -67,14 +79,6 @@
     {
       "basename": "Python error",
       "path": "Python/Python error.md"
-    },
-    {
-      "basename": "문자열 치환 하기",
-      "path": "ALgorithm (code)/문자열 치환 하기.md"
-    },
-    {
-      "basename": "요청 메소드와 응답코드",
-      "path": "_others_/요청 메소드와 응답코드.md"
     }
   ],
   "omittedPaths": [

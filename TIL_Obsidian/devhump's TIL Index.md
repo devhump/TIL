@@ -69,6 +69,8 @@
 - [11. 회원정보 수정](KDT/Django/11.%20회원정보%20수정.md)
 - [12. image upload](KDT/Django/12.%20image%20upload.md)
 - [13. A one-to-many relationship](KDT/Django/13.%20A%20one-to-many%20relationship.md)
+- [14. 1 to N  (User - Comment)](KDT/Django/14.%201%20to%20N%20%20(User%20-%20Comment).md)
+
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
 - **스택 & 큐**
