@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "django-shortcuts 1.6",
       "path": "KDT/Django/django-shortcuts 1.6.md"
-    },
-    {
-      "basename": "Python error",
-      "path": "Python/Python error.md"
     }
   ],
   "omittedPaths": [
