@@ -1,8 +1,6 @@
 # BOJ_7569 토마토_google
 
-import sys
 from collections import deque
-input = sys.stdin.readline
 m, n, h = map(int, input().split())
 box = [[list(map(int, input().split())) for _ in range(n)] for _ in range(h)]
 
