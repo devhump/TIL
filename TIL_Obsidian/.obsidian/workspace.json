@@ -28,21 +28,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md",
+                "file": "KDT/Django/15. Many to many relationship.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4402f83ad67c13eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Django/13. A one-to-many relationship.md",
-                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -151,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md",
+                "file": "KDT/Django/15. Many to many relationship.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md",
+                "file": "KDT/Django/15. Many to many relationship.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/개발 관련 IT 용어 정리.md"
+                "file": "KDT/Django/15. Many to many relationship.md"
               }
             }
           }
@@ -207,25 +194,27 @@
   },
   "active": "cfba3d007b84c621",
   "lastOpenFiles": [
-    "_others_/assets/개발 관련 IT 용어 정리.png",
     "devhump's TIL Index.md",
-    "KDT/Django/14. 1 to N  (User - Comment).md",
-    "KDT/Django/assets/14. 1 to N  (User - Comment)-17.png",
-    "KDT/Django/assets/14. 1 to N  (User - Comment)-16.png",
-    "KDT/Django/assets/14. 1 to N  (User - Comment)-15.png",
-    "KDT/Django/assets/14. 1 to N  (User - Comment)-14.png",
-    "KDT/Django/assets/14. 1 to N  (User - Comment)-13.png",
-    "KDT/Django/assets/14. 1 to N  (User - Comment)-12.png",
-    "KDT/Django/assets/14. 1 to N  (User - Comment)-11.png",
-    "KDT/Django/assets/14. 1 to N  (User - Comment)-10.png",
-    "KDT/Django/assets/14. 1 to N  (User - Comment)-9.png",
-    "KDT/Django/assets/14. 1 to N  (User - Comment)-8.png",
+    "KDT/Django/15. Many to many relationship.md",
+    "KDT/Django/assets/15. Many to many relationship-18.png",
+    "KDT/Django/assets/15. Many to many relationship-17.png",
+    "KDT/Django/assets/15. Many to many relationship-16.png",
+    "KDT/Django/assets/15. Many to many relationship-15.png",
+    "KDT/Django/assets/15. Many to many relationship-14.png",
+    "KDT/Django/assets/15. Many to many relationship-13.png",
+    "KDT/Django/assets/15. Many to many relationship-12.png",
+    "KDT/Django/assets/15. Many to many relationship-11.png",
+    "KDT/Django/assets/15. Many to many relationship-10.png",
+    "KDT/Django/assets/15. Many to many relationship-9.png",
+    "KDT/Django/django-shortcuts 1.6.md",
     "KDT/Django/13. A one-to-many relationship.md",
+    "KDT/Django/05. Namespace.md",
+    "_others_/개발 관련 IT 용어 정리.md",
+    "KDT/Django/14. 1 to N  (User - Comment).md",
     "Algorithm (theory)/08. DFS & BFS.md",
     "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
     "KDT/Algorithm/04. 그래프(Graph).md",
     "BFS & DFS.md",
-    "KDT/Django/05. Namespace.md",
     "KDT/Django/12. image upload.md",
     "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
     "Python/Python 유용한 문법 정리.md",
@@ -236,13 +225,10 @@
     "KDT/DB/08. QuerySet API.md",
     "KDT/Django/07. Django ModelForm.md",
     "KDT/Django/06. UPDATE.md",
-    "KDT/Django/django-shortcuts 1.6.md",
     "Python/Python error.md",
     "ALgorithm (code)/문자열 치환 하기.md",
     "_others_/요청 메소드와 응답코드.md",
     "_others_/IP 주소의 종류.md",
-    "_others_/개발 관련 IT 용어 정리.md",
-    "_others_/XML, JSON, YAML, AJAX.md",
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/DB/assets",

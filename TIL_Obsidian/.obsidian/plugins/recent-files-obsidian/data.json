@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "_others_/개발 관련 IT 용어 정리.md"
+      "basename": "15. Many to many relationship",
+      "path": "KDT/Django/15. Many to many relationship.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "14. 1 to N  (User - Comment)",
-      "path": "KDT/Django/14. 1 to N  (User - Comment).md"
+      "basename": "django-shortcuts 1.6",
+      "path": "KDT/Django/django-shortcuts 1.6.md"
     },
     {
       "basename": "13. A one-to-many relationship",
       "path": "KDT/Django/13. A one-to-many relationship.md"
+    },
+    {
+      "basename": "05. Namespace",
+      "path": "KDT/Django/05. Namespace.md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "_others_/개발 관련 IT 용어 정리.md"
+    },
+    {
+      "basename": "14. 1 to N  (User - Comment)",
+      "path": "KDT/Django/14. 1 to N  (User - Comment).md"
     },
     {
       "basename": "08. DFS & BFS",
@@ -31,10 +43,6 @@
     {
       "basename": "BFS & DFS",
       "path": "BFS & DFS.md"
-    },
-    {
-      "basename": "05. Namespace",
-      "path": "KDT/Django/05. Namespace.md"
     },
     {
       "basename": "12. image upload",
@@ -71,14 +79,6 @@
     {
       "basename": "07. Django ModelForm",
       "path": "KDT/Django/07. Django ModelForm.md"
-    },
-    {
-      "basename": "06. UPDATE",
-      "path": "KDT/Django/06. UPDATE.md"
-    },
-    {
-      "basename": "django-shortcuts 1.6",
-      "path": "KDT/Django/django-shortcuts 1.6.md"
     }
   ],
   "omittedPaths": [
