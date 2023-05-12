@@ -1,84 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "16. Many to many relationship (User-User)",
-      "path": "KDT/Django/assets/16. Many to many relationship (User-User).png"
-    },
-    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "15. Many to many relationship",
-      "path": "KDT/Django/15. Many to many relationship.md"
+      "basename": "문자열 치환 하기",
+      "path": "ALgorithm (code)/문자열 치환 하기.md"
     },
     {
-      "basename": "16. Many to many relationship (User-User)",
-      "path": "16. Many to many relationship (User-User).md"
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
     },
     {
-      "basename": "django-shortcuts 1.6",
-      "path": "KDT/Django/django-shortcuts 1.6.md"
+      "basename": "델타 탐색 문제",
+      "path": "ALgorithm (code)/델타 탐색 문제.md"
     },
     {
-      "basename": "13. A one-to-many relationship",
-      "path": "KDT/Django/13. A one-to-many relationship.md"
-    },
-    {
-      "basename": "05. Namespace",
-      "path": "KDT/Django/05. Namespace.md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "_others_/개발 관련 IT 용어 정리.md"
-    },
-    {
-      "basename": "14. 1 to N  (User - Comment)",
-      "path": "KDT/Django/14. 1 to N  (User - Comment).md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
-      "basename": "04. 그래프(Graph)",
-      "path": "KDT/Algorithm/04. 그래프(Graph).md"
-    },
-    {
-      "basename": "BFS & DFS",
-      "path": "BFS & DFS.md"
-    },
-    {
-      "basename": "12. image upload",
-      "path": "KDT/Django/12. image upload.md"
+      "basename": "시뮬레이션",
+      "path": "ALgorithm (code)/시뮬레이션.md"
     },
     {
       "basename": "BFS & DFS 실전 문제 풀이",
       "path": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md"
     },
     {
-      "basename": "Python 유용한 문법 정리",
-      "path": "Python/Python 유용한 문법 정리.md"
+      "basename": "BOJ_1926 그림",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_1926 그림.md"
     },
     {
-      "basename": "11. 회원정보 수정",
-      "path": "KDT/Django/11. 회원정보 수정.md"
+      "basename": "BOJ_11724 연결 요소의 개수",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_11724 연결 요소의 개수.md"
     },
     {
-      "basename": "10. 로그인에 대한 이해",
-      "path": "KDT/Django/10. 로그인에 대한 이해.md"
+      "basename": "BOJ_4963 섬의 개수",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_4963 섬의 개수.md"
     },
     {
-      "basename": "09. Django Auth",
-      "path": "KDT/Django/09. Django Auth.md"
+      "basename": "BOJ_2644 촌수계산",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_2644 촌수계산.md"
     },
     {
-      "basename": "08. Admin site & Static files",
-      "path": "KDT/Django/08. Admin site & Static files.md"
+      "basename": "BOJ_2606 바이러스",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_2606 바이러스.md"
+    },
+    {
+      "basename": "BOJ_1260 DFS와 BFS",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_1260 DFS와 BFS.md"
+    },
+    {
+      "basename": "BOJ_2178 미로 탐색",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_2178 미로 탐색.md"
+    },
+    {
+      "basename": "BOJ_1697 숨바꼭질",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_1697 숨바꼭질.md"
+    },
+    {
+      "basename": "BOJ_9455 박스",
+      "path": "ALgorithm (code)/BOJ_9455 박스.md"
+    },
+    {
+      "basename": "16. Many to many relationship (User-User)",
+      "path": "KDT/Django/16. Many to many relationship (User-User).md"
+    },
+    {
+      "basename": "MDN_HTML",
+      "path": "MDN/MDN_HTML.md"
+    },
+    {
+      "basename": "MDN_CSS",
+      "path": "MDN/MDN_CSS.md"
+    },
+    {
+      "basename": "16. Many to many relationship (User-User)",
+      "path": "KDT/Django/assets/16. Many to many relationship (User-User).png"
+    },
+    {
+      "basename": "15. Many to many relationship",
+      "path": "KDT/Django/15. Many to many relationship.md"
     }
   ],
   "omittedPaths": [

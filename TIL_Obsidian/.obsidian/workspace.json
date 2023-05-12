@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "fb6c230eb6ad199f",
+        "id": "197590f31c267e36",
         "type": "tabs",
         "children": [
           {
-            "id": "37b215b9d2bd0073",
+            "id": "c2f6c2b214b38b9f",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "devhump's TIL Index.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -23,13 +23,11 @@
             }
           },
           {
-            "id": "94278d9c0fee6e9d",
+            "id": "bfc8762c14d763ab",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "KDT/Django/assets/16. Many to many relationship (User-User).png"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -134,7 +132,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/assets/16. Many to many relationship (User-User).png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +148,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/assets/16. Many to many relationship (User-User).png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,9 +158,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "KDT/Django/assets/16. Many to many relationship (User-User).png"
-              }
+              "state": {}
             }
           }
         ],
@@ -188,11 +182,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "31c996407033f3d5",
+  "active": "bfc8762c14d763ab",
   "lastOpenFiles": [
     "devhump's TIL Index.md",
+    "ALgorithm (code)/문자열 치환 하기.md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "ALgorithm (code)/델타 탐색 문제.md",
+    "ALgorithm (code)/시뮬레이션.md",
+    "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_1926 그림.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_11724 연결 요소의 개수.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_4963 섬의 개수.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_2644 촌수계산.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_2606 바이러스.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_1260 DFS와 BFS.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_2178 미로 탐색.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_1697 숨바꼭질.md",
+    "ALgorithm (code)/BOJ_9455 박스.md",
+    "ALgorithm (code)/DFS&BFS",
+    "BFS & DFS.md",
+    "KDT/Django/16. Many to many relationship (User-User).md",
+    "MDN/MDN_HTML.md",
+    "MDN/MDN_CSS.md",
+    "KDT/Django/assets/16. Many to many relationship (User-User).png",
     "KDT/Django/15. Many to many relationship.md",
-    "16. Many to many relationship (User-User).md",
     "KDT/Django/assets/16. Many to many relationship (User-User)-11.png",
     "KDT/Django/assets/16. Many to many relationship (User-User)-10.png",
     "KDT/Django/assets/16. Many to many relationship (User-User)-9.png",
@@ -202,7 +215,6 @@
     "KDT/Django/assets/16. Many to many relationship (User-User)-5.png",
     "KDT/Django/assets/16. Many to many relationship (User-User)-4.png",
     "KDT/Django/assets/16. Many to many relationship (User-User)-3.png",
-    "KDT/Django/assets/16. Many to many relationship (User-User)-2.png",
     "assets",
     "KDT/Django/django-shortcuts 1.6.md",
     "KDT/Django/13. A one-to-many relationship.md",
@@ -210,22 +222,6 @@
     "_others_/개발 관련 IT 용어 정리.md",
     "KDT/Django/14. 1 to N  (User - Comment).md",
     "Algorithm (theory)/08. DFS & BFS.md",
-    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
-    "KDT/Algorithm/04. 그래프(Graph).md",
-    "BFS & DFS.md",
-    "KDT/Django/12. image upload.md",
-    "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
-    "Python/Python 유용한 문법 정리.md",
-    "KDT/Django/11. 회원정보 수정.md",
-    "KDT/Django/10. 로그인에 대한 이해.md",
-    "KDT/Django/09. Django Auth.md",
-    "KDT/Django/08. Admin site & Static files.md",
-    "KDT/DB/08. QuerySet API.md",
-    "KDT/Django/07. Django ModelForm.md",
-    "KDT/Django/06. UPDATE.md",
-    "Python/Python error.md",
-    "ALgorithm (code)/문자열 치환 하기.md",
-    "_others_/요청 메소드와 응답코드.md",
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/DB/assets",
@@ -234,7 +230,6 @@
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "MDN/assets",
     "MDN",
-    "KDT/Web/assets",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
   ]
