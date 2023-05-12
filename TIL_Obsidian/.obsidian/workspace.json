@@ -23,15 +23,12 @@
             }
           },
           {
-            "id": "cfba3d007b84c621",
+            "id": "94278d9c0fee6e9d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "KDT/Django/15. Many to many relationship.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "KDT/Django/assets/16. Many to many relationship (User-User).png"
               }
             }
           }
@@ -94,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 229.5
   },
   "right": {
     "id": "72535583ef42991f",
@@ -138,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/15. Many to many relationship.md",
+                "file": "KDT/Django/assets/16. Many to many relationship (User-User).png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/15. Many to many relationship.md",
+                "file": "KDT/Django/assets/16. Many to many relationship (User-User).png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Django/15. Many to many relationship.md"
+                "file": "KDT/Django/assets/16. Many to many relationship (User-User).png"
               }
             }
           }
@@ -192,20 +188,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cfba3d007b84c621",
+  "active": "31c996407033f3d5",
   "lastOpenFiles": [
     "devhump's TIL Index.md",
     "KDT/Django/15. Many to many relationship.md",
-    "KDT/Django/assets/15. Many to many relationship-18.png",
-    "KDT/Django/assets/15. Many to many relationship-17.png",
-    "KDT/Django/assets/15. Many to many relationship-16.png",
-    "KDT/Django/assets/15. Many to many relationship-15.png",
-    "KDT/Django/assets/15. Many to many relationship-14.png",
-    "KDT/Django/assets/15. Many to many relationship-13.png",
-    "KDT/Django/assets/15. Many to many relationship-12.png",
-    "KDT/Django/assets/15. Many to many relationship-11.png",
-    "KDT/Django/assets/15. Many to many relationship-10.png",
-    "KDT/Django/assets/15. Many to many relationship-9.png",
+    "16. Many to many relationship (User-User).md",
+    "KDT/Django/assets/16. Many to many relationship (User-User)-11.png",
+    "KDT/Django/assets/16. Many to many relationship (User-User)-10.png",
+    "KDT/Django/assets/16. Many to many relationship (User-User)-9.png",
+    "KDT/Django/assets/16. Many to many relationship (User-User)-8.png",
+    "KDT/Django/assets/16. Many to many relationship (User-User)-7.png",
+    "KDT/Django/assets/16. Many to many relationship (User-User)-6.png",
+    "KDT/Django/assets/16. Many to many relationship (User-User)-5.png",
+    "KDT/Django/assets/16. Many to many relationship (User-User)-4.png",
+    "KDT/Django/assets/16. Many to many relationship (User-User)-3.png",
+    "KDT/Django/assets/16. Many to many relationship (User-User)-2.png",
+    "assets",
     "KDT/Django/django-shortcuts 1.6.md",
     "KDT/Django/13. A one-to-many relationship.md",
     "KDT/Django/05. Namespace.md",
@@ -228,7 +226,6 @@
     "Python/Python error.md",
     "ALgorithm (code)/문자열 치환 하기.md",
     "_others_/요청 메소드와 응답코드.md",
-    "_others_/IP 주소의 종류.md",
     "KDT/Django/assets",
     "KDT/Django",
     "KDT/DB/assets",
@@ -238,7 +235,6 @@
     "MDN/assets",
     "MDN",
     "KDT/Web/assets",
-    "KDT/Web",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
   ]

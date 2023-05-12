@@ -71,7 +71,7 @@
 - [13. A one-to-many relationship](KDT/Django/13.%20A%20one-to-many%20relationship.md)
 - [14. 1 to N  (User - Comment)](KDT/Django/14.%201%20to%20N%20%20(User%20-%20Comment).md)
 - [15. Many to many relationship](KDT/Django/15.%20Many%20to%20many%20relationship.md)
-
+- [16. Many to many relationship (User-User)](16.%20Many%20to%20many%20relationship%20(User-User).md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
 - **스택 & 큐**

@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "15. Many to many relationship",
-      "path": "KDT/Django/15. Many to many relationship.md"
+      "basename": "16. Many to many relationship (User-User)",
+      "path": "KDT/Django/assets/16. Many to many relationship (User-User).png"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "15. Many to many relationship",
+      "path": "KDT/Django/15. Many to many relationship.md"
+    },
+    {
+      "basename": "16. Many to many relationship (User-User)",
+      "path": "16. Many to many relationship (User-User).md"
     },
     {
       "basename": "django-shortcuts 1.6",
@@ -71,14 +79,6 @@
     {
       "basename": "08. Admin site & Static files",
       "path": "KDT/Django/08. Admin site & Static files.md"
-    },
-    {
-      "basename": "08. QuerySet API",
-      "path": "KDT/DB/08. QuerySet API.md"
-    },
-    {
-      "basename": "07. Django ModelForm",
-      "path": "KDT/Django/07. Django ModelForm.md"
     }
   ],
   "omittedPaths": [
