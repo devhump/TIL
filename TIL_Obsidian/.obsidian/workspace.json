@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALgorithm (code)/BFS 문제.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           }
@@ -203,13 +202,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a3c0c91073421eed",
+  "active": "4f8ed3c371cbde37",
   "lastOpenFiles": [
+    "ALgorithm (code)/BFS 문제.md",
+    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "ALgorithm (code)/델타 탐색 문제.md",
     "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "Algorithm (theory)/08. DFS & BFS.md",
-    "ALgorithm (code)/BFS 문제.md",
-    "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
     "ALgorithm (code)/시뮬레이션.md",
     "ALgorithm (code)/BOJ_9455 박스.md",
     "KDT/Algorithm/04. 그래프(Graph).md",

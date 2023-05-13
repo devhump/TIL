@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "BFS 문제",
       "path": "ALgorithm (code)/BFS 문제.md"
+    },
+    {
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
       "basename": "델타 탐색 문제",
@@ -15,10 +23,6 @@
     {
       "basename": "08. DFS & BFS",
       "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "01. 스택과 큐(Stack & Que)",
-      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
       "basename": "시뮬레이션",
@@ -35,10 +39,6 @@
     {
       "basename": "무방향 & 유방향 그래프 표현하기",
       "path": "ALgorithm (code)/무방향 & 유방향 그래프 표현하기.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "XML, JSON, YAML, AJAX",
