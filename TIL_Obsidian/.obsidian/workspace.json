@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b99d76d2c8891b89",
+        "id": "197590f31c267e36",
         "type": "tabs",
         "children": [
           {
-            "id": "4f8ed3c371cbde37",
+            "id": "c2f6c2b214b38b9f",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,36 +17,10 @@
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "a3c0c91073421eed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ALgorithm (code)/BFS 문제.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45bd08e66781fc49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
               }
             }
           }
+        ]
         ]
       }
     ],
@@ -72,18 +45,11 @@
             }
           },
           {
-            "id": "5cf7950fa45882c6",
+            "id": "edbbbffb3f7d4463",
             "type": "leaf",
             "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
+              "type": "bookmarks",
+              "state": {}
             }
           },
           {
@@ -95,18 +61,25 @@
             }
           },
           {
-            "id": "4fc031c8ca77a2e8",
+            "id": "5cf7950fa45882c6",
             "type": "leaf",
             "state": {
-              "type": "starred",
-              "state": {}
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 233.5
   },
   "right": {
     "id": "72535583ef42991f",
@@ -182,7 +155,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -206,50 +180,51 @@
   "lastOpenFiles": [
     "ALgorithm (code)/BFS 문제.md",
     "Algorithm (theory)/01. 스택과 큐(Stack & Que).md",
-    "ALgorithm (code)/델타 탐색 문제.md",
-    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
-    "Algorithm (theory)/08. DFS & BFS.md",
-    "ALgorithm (code)/시뮬레이션.md",
-    "ALgorithm (code)/BOJ_9455 박스.md",
-    "KDT/Algorithm/04. 그래프(Graph).md",
-    "ALgorithm (code)/무방향 & 유방향 그래프 표현하기.md",
+    "KDT/Django/17. Axios.md",
+    "KDT/Data structure/assets/ASCII code_2.gif",
+    "KDT/Data structure/assets/ASCII code.png",
+    "KDT/Data structure/05. 문자열 (String).md",
     "devhump's TIL Index.md",
-    "_others_/XML, JSON, YAML, AJAX.md",
-    "_others_/IP 주소의 종류.md",
-    "_others_/obsidian/markdown for Obsidian.md",
-    "_others_/요청 메소드와 응답코드.md",
-    "_others_/알고리즘 TIP.md",
-    "_others_/Hot-key for windows.md",
-    "_others_/개발 관련 IT 용어 정리.md",
-    "KDT/DB/08. QuerySet API.md",
-    "KDT/DB/07. ORM.md",
-    "KDT/DB/assets/08. QuerySet API.png",
-    "KDT/DB/assets/07. ORM-3.png",
-    "KDT/DB/assets/07. ORM-2.png",
-    "KDT/DB/assets/07. ORM-1.png",
-    "KDT/DB/06. Modeling.md",
-    "KDT/DB/assets/06. Modeling-1.png",
-    "KDT/DB/assets/07. ORM.png",
-    "KDT/DB/05. JOIN+.md",
-    "KDT/DB/assets/06. Modeling.png",
-    "KDT/DB/assets/er-diagram-erd-tool-lucidchart-regarding-erd-lines.jpg",
-    "KDT/DB/assets/05. JOIN+-7.png",
-    "KDT/DB/assets/05. JOIN+-6.png",
-    "더 공부해 볼 주제.md",
-    "KDT/DB/04. CASE & SubQuery.md",
-    "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
-    "Algorithm (theory)/18. 유용한 표준 라이브러리 소개.md",
-    "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
+    "KDT/Django/assets/17. Axios-18.png",
+    "KDT/Django/assets/17. Axios-17.png",
+    "KDT/Django/assets/17. Axios-16.png",
+    "KDT/Django/assets/17. Axios-15.png",
+    "KDT/Django/assets/17. Axios-14.png",
+    "KDT/Django/assets/17. Axios-13.png",
+    "KDT/Django/assets/17. Axios-12.png",
+    "KDT/Django/assets/17. Axios-11.png",
+    "ALgorithm (code)/DFS&BFS/BOJ_1260 DFS와 BFS.md",
+    "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md",
+    "_others_/obsidian/Obsidian setting - Community plugin.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_11724 연결 요소의 개수.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_2667 단지 번호 붙이기.md",
+    "ALgorithm (code)/문자열 치환 하기.md",
+    "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "ALgorithm (code)/델타 탐색 문제.md",
+    "ALgorithm (code)/시뮬레이션.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_1926 그림.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_4963 섬의 개수.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_2644 촌수계산.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_2606 바이러스.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_2178 미로 탐색.md",
+    "ALgorithm (code)/DFS&BFS/BOJ_1697 숨바꼭질.md",
+    "ALgorithm (code)/BOJ_9455 박스.md",
+    "ALgorithm (code)/DFS&BFS",
+    "BFS & DFS.md",
+    "KDT/Django/16. Many to many relationship (User-User).md",
+    "MDN/MDN_HTML.md",
+    "MDN/MDN_CSS.md",
+    "KDT/Django/15. Many to many relationship.md",
+    "assets",
+    "KDT/Django/django-shortcuts 1.6.md",
+    "KDT/Django/assets",
+    "KDT/Django",
     "KDT/DB/assets",
     "KDT/DB",
     "ALgorithm (code)/assets",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "MDN/assets",
     "MDN",
-    "KDT/Web/assets",
-    "KDT/Web",
-    "assets",
-    "Algorithm (theory)/assets/open.url",
     "무제 파일 1.canvas",
     "무제 파일.canvas"
   ]

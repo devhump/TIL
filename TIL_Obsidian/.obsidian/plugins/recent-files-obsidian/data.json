@@ -5,80 +5,96 @@
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "BFS 문제",
-      "path": "ALgorithm (code)/BFS 문제.md"
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "01. 스택과 큐(Stack & Que)",
       "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
     },
     {
-      "basename": "델타 탐색 문제",
-      "path": "ALgorithm (code)/델타 탐색 문제.md"
+      "basename": "01. 스택과 큐(Stack & Que)",
+      "path": "Algorithm (theory)/01. 스택과 큐(Stack & Que).md"
+    },
+    {
+      "basename": "17. Axios",
+      "path": "KDT/Django/17. Axios.md"
+    },
+    {
+      "basename": "ASCII code_2",
+      "path": "KDT/Data structure/assets/ASCII code_2.gif"
+    },
+    {
+      "basename": "ASCII code",
+      "path": "KDT/Data structure/assets/ASCII code.png"
+    },
+    {
+      "basename": "05. 문자열 (String)",
+      "path": "KDT/Data structure/05. 문자열 (String).md"
+    },
+    {
+      "basename": "BOJ_1260 DFS와 BFS",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_1260 DFS와 BFS.md"
+    },
+    {
+      "basename": "BFS & DFS 실전 문제 풀이",
+      "path": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md"
+    },
+    {
+      "basename": "Obsidian setting - Community plugin",
+      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
+    },
+    {
+      "basename": "BOJ_11724 연결 요소의 개수",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_11724 연결 요소의 개수.md"
+    },
+    {
+      "basename": "BOJ_2667 단지 번호 붙이기",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_2667 단지 번호 붙이기.md"
+    },
+    {
+      "basename": "문자열 치환 하기",
+      "path": "ALgorithm (code)/문자열 치환 하기.md"
     },
     {
       "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
       "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
     },
     {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
+      "basename": "델타 탐색 문제",
+      "path": "ALgorithm (code)/델타 탐색 문제.md"
     },
     {
       "basename": "시뮬레이션",
       "path": "ALgorithm (code)/시뮬레이션.md"
     },
     {
-      "basename": "BOJ_9455 박스",
-      "path": "ALgorithm (code)/BOJ_9455 박스.md"
+      "basename": "BOJ_1926 그림",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_1926 그림.md"
     },
     {
-      "basename": "04. 그래프(Graph)",
-      "path": "KDT/Algorithm/04. 그래프(Graph).md"
+      "basename": "BOJ_4963 섬의 개수",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_4963 섬의 개수.md"
     },
     {
-      "basename": "무방향 & 유방향 그래프 표현하기",
-      "path": "ALgorithm (code)/무방향 & 유방향 그래프 표현하기.md"
+      "basename": "BOJ_2644 촌수계산",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_2644 촌수계산.md"
     },
     {
-      "basename": "XML, JSON, YAML, AJAX",
-      "path": "_others_/XML, JSON, YAML, AJAX.md"
+      "basename": "BOJ_2606 바이러스",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_2606 바이러스.md"
     },
     {
-      "basename": "IP 주소의 종류",
-      "path": "_others_/IP 주소의 종류.md"
+      "basename": "BOJ_2178 미로 탐색",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_2178 미로 탐색.md"
     },
     {
-      "basename": "markdown for Obsidian",
-      "path": "_others_/obsidian/markdown for Obsidian.md"
-    },
-    {
-      "basename": "요청 메소드와 응답코드",
-      "path": "_others_/요청 메소드와 응답코드.md"
-    },
-    {
-      "basename": "알고리즘 TIP",
-      "path": "_others_/알고리즘 TIP.md"
-    },
-    {
-      "basename": "Hot-key for windows",
-      "path": "_others_/Hot-key for windows.md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "_others_/개발 관련 IT 용어 정리.md"
-    },
-    {
-      "basename": "08. QuerySet API",
-      "path": "KDT/DB/08. QuerySet API.md"
-    },
-    {
-      "basename": "07. ORM",
-      "path": "KDT/DB/07. ORM.md"
-    },
-    {
-      "basename": "06. Modeling",
-      "path": "KDT/DB/06. Modeling.md"
+      "basename": "BOJ_1697 숨바꼭질",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_1697 숨바꼭질.md"
     }
   ],
   "omittedPaths": [

@@ -41,6 +41,7 @@
 - [05. JOIN+](KDT/DB/05.%20JOIN+.md)
 - [06. Modeling](KDT/DB/06.%20Modeling.md)
 - [07. ORM](KDT/DB/07.%20ORM.md)
+- [08. QuerySet API](KDT/DB/08.%20QuerySet%20API.md)
 
 #### Web
 - [01. Happy Web](KDT/Web/01.%20Happy%20Web.md)
@@ -53,6 +54,24 @@
 - [08. Javascript](KDT/Web/08.%20Javascript.md)
 - [09. ECMA Script](KDT/Web/09.%20ECMA%20Script.md)
 - [10. Event](KDT/Web/10.%20Event.md)
+
+#### Django
+- [01. Django Intro](KDT/Django/01.%20Django%20Intro.md)
+- [02. request & response](KDT/Django/02.%20request%20&%20response.md)
+- [03. Variable Routing & Template inheritance & sending-retrieving data](KDT/Django/03.%20Variable%20Routing%20&%20Template%20inheritance%20&%20sending-retrieving%20data.md)
+- [04. App URL mapping & Template namespace](KDT/Django/04.%20App%20URL%20mapping%20&%20Template%20namespace.md)
+- [05. Namespace](KDT/Django/05.%20Namespace.md)
+- [06. UPDATE](KDT/Django/06.%20UPDATE.md)
+- [07. Django ModelForm](KDT/Django/07.%20Django%20ModelForm.md)
+- [08. Admin site & Static files](KDT/Django/08.%20Admin%20site%20&%20Static%20files.md)
+- [09. Django Auth](KDT/Django/09.%20Django%20Auth.md)
+- [10. 로그인에 대한 이해](KDT/Django/10.%20로그인에%20대한%20이해.md)
+- [11. 회원정보 수정](KDT/Django/11.%20회원정보%20수정.md)
+- [12. image upload](KDT/Django/12.%20image%20upload.md)
+- [13. A one-to-many relationship](KDT/Django/13.%20A%20one-to-many%20relationship.md)
+- [14. 1 to N  (User - Comment)](KDT/Django/14.%201%20to%20N%20%20(User%20-%20Comment).md)
+- [15. Many to many relationship](KDT/Django/15.%20Many%20to%20many%20relationship.md)
+- [16. Many to many relationship (User-User)](KDT/Django/16.%20Many%20to%20many%20relationship%20(User-User).md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
 - **스택 & 큐**
