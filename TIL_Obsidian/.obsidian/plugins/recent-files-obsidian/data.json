@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "리눅스",
+      "path": "리눅스.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -75,26 +79,6 @@
     {
       "basename": "BOJ_1926 그림",
       "path": "ALgorithm (code)/DFS&BFS/BOJ_1926 그림.md"
-    },
-    {
-      "basename": "BOJ_4963 섬의 개수",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_4963 섬의 개수.md"
-    },
-    {
-      "basename": "BOJ_2644 촌수계산",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_2644 촌수계산.md"
-    },
-    {
-      "basename": "BOJ_2606 바이러스",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_2606 바이러스.md"
-    },
-    {
-      "basename": "BOJ_2178 미로 탐색",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_2178 미로 탐색.md"
-    },
-    {
-      "basename": "BOJ_1697 숨바꼭질",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_1697 숨바꼭질.md"
     }
   ],
   "omittedPaths": [

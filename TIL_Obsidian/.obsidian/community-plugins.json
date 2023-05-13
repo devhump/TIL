@@ -1,5 +1,4 @@
 [
-  "table-editor-obsidian",
   "obsidian-emoji-toolbar",
   "emoji-shortcodes",
   "obsidian-admonition",
@@ -12,5 +11,6 @@
   "obsidian-icon-folder",
   "uri-commands",
   "obsidian-paste-image-rename",
-  "file-explorer-note-count"
+  "file-explorer-note-count",
+  "table-editor-obsidian"
 ]
