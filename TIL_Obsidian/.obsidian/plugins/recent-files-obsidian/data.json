@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "17. Axios",
+      "path": "KDT/Django/17. Axios.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "BOJ_1260 DFS와 BFS",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_1260 DFS와 BFS.md"
+    },
+    {
+      "basename": "BFS & DFS 실전 문제 풀이",
+      "path": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md"
+    },
+    {
+      "basename": "Obsidian setting - Community plugin",
+      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
+    },
+    {
+      "basename": "BOJ_11724 연결 요소의 개수",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_11724 연결 요소의 개수.md"
+    },
+    {
+      "basename": "BOJ_2667 단지 번호 붙이기",
+      "path": "ALgorithm (code)/DFS&BFS/BOJ_2667 단지 번호 붙이기.md"
     },
     {
       "basename": "문자열 치환 하기",
@@ -21,16 +45,8 @@
       "path": "ALgorithm (code)/시뮬레이션.md"
     },
     {
-      "basename": "BFS & DFS 실전 문제 풀이",
-      "path": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md"
-    },
-    {
       "basename": "BOJ_1926 그림",
       "path": "ALgorithm (code)/DFS&BFS/BOJ_1926 그림.md"
-    },
-    {
-      "basename": "BOJ_11724 연결 요소의 개수",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_11724 연결 요소의 개수.md"
     },
     {
       "basename": "BOJ_4963 섬의 개수",
@@ -43,10 +59,6 @@
     {
       "basename": "BOJ_2606 바이러스",
       "path": "ALgorithm (code)/DFS&BFS/BOJ_2606 바이러스.md"
-    },
-    {
-      "basename": "BOJ_1260 DFS와 BFS",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_1260 DFS와 BFS.md"
     },
     {
       "basename": "BOJ_2178 미로 탐색",
@@ -63,22 +75,6 @@
     {
       "basename": "16. Many to many relationship (User-User)",
       "path": "KDT/Django/16. Many to many relationship (User-User).md"
-    },
-    {
-      "basename": "MDN_HTML",
-      "path": "MDN/MDN_HTML.md"
-    },
-    {
-      "basename": "MDN_CSS",
-      "path": "MDN/MDN_CSS.md"
-    },
-    {
-      "basename": "16. Many to many relationship (User-User)",
-      "path": "KDT/Django/assets/16. Many to many relationship (User-User).png"
-    },
-    {
-      "basename": "15. Many to many relationship",
-      "path": "KDT/Django/15. Many to many relationship.md"
     }
   ],
   "omittedPaths": [

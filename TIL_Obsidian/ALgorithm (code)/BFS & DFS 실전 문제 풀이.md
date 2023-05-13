@@ -8,3 +8,10 @@
 		- DFS & BFS 기초 문제 풀이 👉 [[09. DFS 와 BFS 기초 문제 풀이]]
 		- BFS 문제는 👉 [[BFS & DFS]]
 ```
+
+```dataview
+TABLE 
+	column
+FROM "ALgorithm (code)/DFS&BFS"
+SORT file.name ASC
+```
