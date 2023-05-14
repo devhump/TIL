@@ -21,8 +21,19 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c9caf0df2de991ce",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Python/assets/defaultdict.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "Python/assets/defaultdict.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "Python/assets/defaultdict.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "Python/assets/defaultdict.png"
               }
             }
           },
@@ -161,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 358.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,10 +188,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3599e6f314e15e12",
+  "active": "b2fec09aa046b5f4",
   "lastOpenFiles": [
-    "KDT/Django/django-shortcuts 1.6.md",
+    "Python/defaultdict.md",
     "devhump's TIL Index.md",
+    "Python/람다함수(Lambda Func, 익명함수).md",
+    "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
+    "Algo Solving/SWEA_1928 Base64 Decoder.md",
+    "Algo Solving/assets/SWEA_1928 Base64 Decoder-1.png",
+    "Algo Solving/assets/SWEA_1928 Base64 Decoder.png",
+    "Python/assets/defaultdict-2.png",
+    "Python/assets/defaultdict-1.png",
+    "Python/assets/defaultdict.png",
+    "assets",
+    "KDT/Django/django-shortcuts 1.6.md",
     "_others_/500 mile.md",
     "_others_/obsidian/Obsidian setting.md",
     "_others_/obsidian/assets/Obsidian setting0.png",
@@ -187,13 +209,8 @@
     "_others_/obsidian/assets/Obsidian setting0-4.png",
     "_others_/obsidian/assets/Obsidian setting0-3.png",
     "_others_/obsidian/assets/Obsidian setting0-2.png",
-    "_others_/obsidian/assets/Obsidian setting0-1.png",
     "_others_/obsidian/Obsidian setting - Community plugin.md",
-    "_others_/obsidian/assets/Obsidian setting - Community plugin-1.png",
     "_others_/obsidian/markdown for Obsidian.md",
-    "_others_/obsidian/assets/markdown for Obsidian-5.png",
-    "_others_/obsidian/assets/markdown for Obsidian-4.png",
-    "_others_/obsidian/assets/Obsidian setting - Community plugin-8.png",
     "Algo Solving/DFS&BFS/BOJ_1260 DFS와 BFS.md",
     "_others_/Git basic - rollback.md",
     "_others_/Hot-key for Mac.md",
@@ -211,11 +228,6 @@
     "IT & SC Basic/IP 주소의 종류.md",
     "IT & SC Basic/XML, JSON, YAML, AJAX.md",
     "IT & SC Basic/Linux note.md",
-    "IT & SC Basic/모바일 앱의 종류.md",
-    "IT & SC Basic",
-    "IT & SC Basic/URI & URL.md",
-    "Python/Python 용어 정리.md",
-    "Algo Solving/SWEA_1928 Base64 Decoder.md",
-    "assets"
+    "IT & SC Basic"
   ]
 }

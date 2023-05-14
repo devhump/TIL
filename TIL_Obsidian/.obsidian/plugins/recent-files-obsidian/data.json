@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "defaultdict",
+      "path": "Python/assets/defaultdict.png"
+    },
+    {
+      "basename": "defaultdict",
+      "path": "Python/defaultdict.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "람다함수(Lambda Func, 익명함수)",
+      "path": "Python/람다함수(Lambda Func, 익명함수).md"
+    },
+    {
+      "basename": "파이썬 04. 데이터 구조 (Data Structure)",
+      "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
+    },
+    {
+      "basename": "SWEA_1928 Base64 Decoder",
+      "path": "Algo Solving/SWEA_1928 Base64 Decoder.md"
     },
     {
       "basename": "django-shortcuts 1.6",
@@ -59,26 +79,6 @@
     {
       "basename": "markdown for Obsidian-5",
       "path": "_others_/obsidian/assets/markdown for Obsidian-5.png"
-    },
-    {
-      "basename": "markdown for Obsidian-4",
-      "path": "_others_/obsidian/assets/markdown for Obsidian-4.png"
-    },
-    {
-      "basename": "Obsidian setting - Community plugin-8",
-      "path": "_others_/obsidian/assets/Obsidian setting - Community plugin-8.png"
-    },
-    {
-      "basename": "Obsidian setting - Community plugin-9",
-      "path": "_others_/obsidian/assets/Obsidian setting - Community plugin-9.png"
-    },
-    {
-      "basename": "Obsidian setting - Community plugin-10",
-      "path": "_others_/obsidian/assets/Obsidian setting - Community plugin-10.png"
-    },
-    {
-      "basename": "Obsidian setting - Community plugin-7",
-      "path": "_others_/obsidian/assets/Obsidian setting - Community plugin-7.png"
     }
   ],
   "omittedPaths": [
