@@ -106,13 +106,12 @@ tags: [단축키, shortcut]
 | `ctrl(⌃)` + `opt(⌥)` + `delete`      | 화면 크기 복구                      |
 
 
-
 ![Hot-key (VS Code)](Hot-key%20(VS%20Code).md)
 
 
-![](assets/Pasted%20image%2020230215172150.png)
+![](assets/Hot-key%20for%20Mac.png)
 
-![](assets/Pasted%20image%2020230215172228.png)
+![](assets/Hot-key%20for%20Mac-1.png)
 
-![](assets/Pasted%20image%2020230215172247.png)
+![](assets/Hot-key%20for%20Mac-2.png)
 

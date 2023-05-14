@@ -134,12 +134,12 @@
 - [MDN_HTML](MDN/MDN_HTML.md)
 
 ### others
-- [개발 관련 IT 용어 정리](_others_/개발%20관련%20IT%20용어%20정리.md)
+- [개발 관련 IT 용어 정리](IT%20&%20SC%20Basic/개발%20관련%20IT%20용어%20정리.md)
 - [[500 mile]]
-- [[알고리즘 TIP]]
+- [[_others_/알고리즘 TIP]]
 - [Git의 기초 - 되돌리기](_others_/Git%20basic%20-%20rollback.md)
 	- [git_cheat_sheet.pdf](KDT/markdown%20&%20git/git_cheat_sheet.pdf)
-- [[CLI]]
+- [[IT & SC Basic/CLI]]
 - [[Templates List]]
 - [VS Code를 이용한 파이썬 소스코드 디버깅](_others_/Debugging%20with%20VS%20Code+.md)
 
@@ -154,7 +154,7 @@
 - [Callout](_others_/obsidian/Callout.md)
 - [Diagram](_others_/obsidian/Diagram.md)
 - [LaTeX](_others_/obsidian/LaTeX.md)
-- [[Obsidian setting]]
+- [[_others_/obsidian/Obsidian setting]]
 
 
 ![더 공부해 볼 주제](더%20공부해%20볼%20주제.md)

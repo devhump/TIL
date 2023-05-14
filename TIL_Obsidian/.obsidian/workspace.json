@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "043ce5450f3b143c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algo Solving/SWEA_1928 Base64 Decoder.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 200
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -118,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algo Solving/SWEA_1928 Base64 Decoder.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algo Solving/SWEA_1928 Base64 Decoder.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algo Solving/SWEA_1928 Base64 Decoder.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           },
@@ -171,12 +157,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 358.5,
-    "collapsed": true
+    "width": 358.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,21 +176,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "043ce5450f3b143c",
+  "active": "3599e6f314e15e12",
   "lastOpenFiles": [
-    "base64.md",
-    "Algo Solving/SWEA_1928 Base64 Decoder.md",
+    "KDT/Django/django-shortcuts 1.6.md",
     "devhump's TIL Index.md",
-    "Linux note.md",
-    "assets/base64-1.png",
-    "assets/base64.png",
-    "assets",
-    "Algo Solving/DFS&BFS/BOJ_5014 스타트링크.md",
-    "더 공부해 볼 주제.md",
-    "_others_/Templates List.md",
-    "_others_/XML, JSON, YAML, AJAX.md",
-    "_others_/templates/무제 파일.md",
-    "_others_/templates/meta data_template.md",
-    "Algo Solving/DFS&BFS/BOJ_1697 숨바꼭질.md"
+    "_others_/500 mile.md",
+    "_others_/obsidian/Obsidian setting.md",
+    "_others_/obsidian/assets/Obsidian setting0.png",
+    "_others_/obsidian/assets/Obsidian setting0-5.png",
+    "_others_/obsidian/assets/Obsidian setting0-4.png",
+    "_others_/obsidian/assets/Obsidian setting0-3.png",
+    "_others_/obsidian/assets/Obsidian setting0-2.png",
+    "_others_/obsidian/assets/Obsidian setting0-1.png",
+    "_others_/obsidian/Obsidian setting - Community plugin.md",
+    "_others_/obsidian/assets/Obsidian setting - Community plugin-1.png",
+    "_others_/obsidian/markdown for Obsidian.md",
+    "_others_/obsidian/assets/markdown for Obsidian-5.png",
+    "_others_/obsidian/assets/markdown for Obsidian-4.png",
+    "_others_/obsidian/assets/Obsidian setting - Community plugin-8.png",
+    "Algo Solving/DFS&BFS/BOJ_1260 DFS와 BFS.md",
+    "_others_/Git basic - rollback.md",
+    "_others_/Hot-key for Mac.md",
+    "_others_/알고리즘 TIP.md",
+    "_others_/Hot-key (VS Code).md",
+    "IT & SC Basic/OSI 7 Layer vs TCP-IP 4 Layer.md",
+    "_others_/Debugging with VS Code+.md",
+    "IT & SC Basic/개발 관련 IT 용어 정리.md",
+    "IT & SC Basic/assets",
+    "IT & SC Basic/요청 메소드와 응답코드.md",
+    "IT & SC Basic/쿠키 vs 세션 vs 토큰 + 캐시, CDN.md",
+    "IT & SC Basic/base64.md",
+    "IT & SC Basic/CLI.md",
+    "IT & SC Basic/IaaS vs PaaS vs SaaS.md",
+    "IT & SC Basic/IP 주소의 종류.md",
+    "IT & SC Basic/XML, JSON, YAML, AJAX.md",
+    "IT & SC Basic/Linux note.md",
+    "IT & SC Basic/모바일 앱의 종류.md",
+    "IT & SC Basic",
+    "IT & SC Basic/URI & URL.md",
+    "Python/Python 용어 정리.md",
+    "Algo Solving/SWEA_1928 Base64 Decoder.md",
+    "assets"
   ]
 }

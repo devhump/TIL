@@ -6,6 +6,9 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiObsidian",
+      "👨‍🏫",
+      "⁉",
       "FasCalculator",
       "SiDjango",
       "SiStackoverflow",
@@ -17,10 +20,7 @@
       "🧰",
       "📋",
       "SiPythonWhite",
-      "SiThealgorithms",
-      "SiGit",
-      "SiPython-white",
-      "🖥"
+      "SiThealgorithms"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [],
@@ -32,8 +32,14 @@
     },
     "iconInTabsEnabled": false
   },
-  "Algorithm (theory)": "👨‍💻",
-  "Python": "🖥",
+  "Algorithm (theory)": {
+    "iconName": "👨‍🏫",
+    "inheritanceIcon": "👨‍🏫"
+  },
+  "Python": {
+    "iconName": "SiPythonWhite",
+    "inheritanceIcon": "SiPythonWhite"
+  },
   "_others_": "📥",
   "KDT": "🧑‍🎓",
   "더 공부해 볼 주제.md": "🧭",
@@ -43,9 +49,24 @@
   "_others_/Templates List.md": "📋",
   "devhump's TIL Index.md": "📌",
   "KDT/Web": "IbEarth",
-  "MDN": "🦊",
+  "MDN": {
+    "iconName": "🦊",
+    "inheritanceIcon": "🦊"
+  },
   "KDT/DB": "SiSqlite",
   "KDT/Data structure": "SiStackoverflow",
   "KDT/Django": "SiDjango",
-  "Algo Solving": "FasCalculator"
+  "Algo Solving": {
+    "iconName": "⁉",
+    "inheritanceIcon": "⁉"
+  },
+  "IT & SC Basic/개발 관련 IT 용어 정리.md": "📋",
+  "IT & SC Basic": {
+    "iconName": "🖥",
+    "inheritanceIcon": "🖥"
+  },
+  "_others_/obsidian": {
+    "iconName": "SiObsidian",
+    "inheritanceIcon": "SiObsidian"
+  }
 }

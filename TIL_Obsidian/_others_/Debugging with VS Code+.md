@@ -7,7 +7,7 @@ tags: [vscode, debugging]
 - 참조 영상 👉 https://youtu.be/GEGXVzegNew
 
 ### 디버그  도구 모음 버튼들의 의미 
-![](assets/Pasted%20image%2020230409001322.png)
+![](assets/Debugging%20with%20VS%20Code+.png)
 
 -   중앙 위에 나오는 버튼이 도구모음입니다. 각 버튼은 순서대로 아래와 같이 의미합니다.
 	1.  continue : 다음 중단점까지 실행합니다.
@@ -31,8 +31,8 @@ tags: [vscode, debugging]
 
 ### WATCH 패널 활용
 - 처음에는 비어져 있는데, 여기에 내가 **원하는 변수명을 입력**하면(코드 내에 쓰이는) ***디버깅 과정에서 변화되는 변수의 값을 확인***할 수 있다. 
-	- ![](_others_/assets/debugging%20with%20vs%20code.png)
+	- ![](assets/Debugging%20with%20VS%20Code+-1.png)
 
 - 👇 아직 해당 변수에 값이 할당되지 않았으면 에러가 발생한다.
 	- 👉 어떤 코드 라인에서 변수가 할당되는지 알 수 있다. 
-		- ![](_others_/assets/debugging%20with%20vs%20code-1.png)
+		- ![](assets/Debugging%20with%20VS%20Code+-2.png)

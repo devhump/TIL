@@ -61,22 +61,22 @@ alias: [옵시디언]
 	- [내 보관소로 이동](obsidian://open?vault=ramy_ob2)
 2. 바탕화면에 보관소별 바로가기를 만든다. 
 	- window 환경에서 → 마우스 우클릭  → 새로 만들기  →  바로가기
-![|400](assets/Obsidian%20setting.png)
+![|400](assets/Obsidian%20setting0.png)
 
 - 해당 주소에 내 보관소의 URI를 입력한다. 
-![|500](assets/Obsidian%20setting-1.png)
+![|500](assets/Obsidian%20setting0-1.png)
 
 - 바탕화면에 보관소별 바로가기 아이콘이 생성된다.
-![](assets/Obsidian%20setting-2.png)
+![](assets/Obsidian%20setting0-2.png)
 
 3. Community plugin을 이용한다. 
 	- **URI Commands** 설치
-![](assets/Obsidian%20setting-3.png)
+![](assets/Obsidian%20setting0-3.png)
 - 옵션에서 **Add Command**를 누르고, 내 보관소 주소를 입력한다. 
-![](assets/Obsidian%20setting-4.png)
+![](assets/Obsidian%20setting0-4.png)
 
 - 단축키 설정까지하면 끝!
-![](assets/Obsidian%20setting-5.png)
+![](assets/Obsidian%20setting0-5.png)
 
 - 이후에는 단축키만으로 다른 보관소로 이동할 수 있다. 
 - **보관소 A, B 두가지를 사용 중일 경우, 각각 해당 설정을 하면 단축키로 상호 보관소를 쉽게 오갈 수 있다!**

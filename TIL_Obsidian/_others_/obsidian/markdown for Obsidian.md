@@ -71,8 +71,8 @@ tags: [markdown, obsidian, syntax]
 ```
 
 - 예시
+	- ![](assets/markdown%20for%20Obsidian-3.png)
 	- ![](assets/markdown%20for%20Obsidian.png)
-	- ![](assets/markdown%20for%20Obsidian-1.png)
 
 ---
 
@@ -84,13 +84,13 @@ tags: [markdown, obsidian, syntax]
 
 #### 다른 문서의 특정 문단을 Embed 하고 싶은 경우
 1) `[[ ]]` 를 입력하고, 해당 문서의 제목을 입력한다.
-![](assets/Pasted%20image%2020230226003835.png)
+![](assets/markdown%20for%20Obsidian-4.png)
 
 2) 해당문서를 찾아, 포인터가 올려져 있는 상태에서
 	1) 제목을 찾을 경우 `#`를, 
 	2) 문단을 찾을 경우 `^`를 입력한다.
 
-![](assets/Pasted%20image%2020230226003908.png)
+![](assets/markdown%20for%20Obsidian-5.png)
 
 3) 이후 해당 내용을 찾아 `enter`를 누르면 해당 내용이 삽입되는 걸 확인 할 수 있다. 
 
@@ -112,7 +112,7 @@ You can also use inline footnotes. ^[notice that the carat goes outside of the b
 ```
 
 - You can also use inline footnotes. ^[notice that the carat goes outside of the brackets on this one.]
-- ![](assets/markdown%20for%20Obsidian-2.png)
+- ![](assets/markdown%20for%20Obsidian-6.png)
 
 ---
 

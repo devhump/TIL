@@ -2,7 +2,7 @@
 tags: [dictionary, python]
 ---
 
-- 비슷한 문서 👉 [개발 관련 IT 용어 정리](../_others_/개발%20관련%20IT%20용어%20정리.md)
+- 비슷한 문서 👉 [개발 관련 IT 용어 정리](../IT%20&%20SC%20Basic/개발%20관련%20IT%20용어%20정리.md)
 
 - [Iterable (이터러블)](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-iterable)
 	- 이터러블은 [`for`](https://docs.python.org/ko/3/reference/compound_stmts.html#for) 루프에 사용될 수 있고, 시퀀스를 필요로 하는 다른 많은 곳 ([`zip()`](https://docs.python.org/ko/3/library/functions.html#zip "zip"), [`map()`](https://docs.python.org/ko/3/library/functions.html#map "map"), …) 에 사용될 수 있습니다. 이터러블 객체가 내장 함수 [`iter()`](https://docs.python.org/ko/3/library/functions.html#iter "iter") 에 인자로 전달되면, 그 객체의 이터레이터를 돌려줍니다. 이 이터레이터는 값들의 집합을 한 번 거치는 동안 유효합니다. 이터러블을 사용할 때, 보통은 [`iter()`](https://docs.python.org/ko/3/library/functions.html#iter "iter") 를 호출하거나, 이터레이터 객체를 직접 다룰 필요는 없습니다. `for` 문은 이것들을 여러분을 대신해서 자동으로 해주는데, 루프를 도는 동안 이터레이터를 잡아둘 이름 없는 변수를 만듭니다. [이터레이터](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-iterator), [시퀀스](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-sequence), [제너레이터](https://docs.python.org/ko/3/glossary.html?highlight=mutable#term-generator) 도 보세요.

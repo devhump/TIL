@@ -1,7 +1,7 @@
 - [SWEA_1928 Base64 Decoder](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PR4DKAG0DFAUq)문제
-- 한참 봐도 무슨 말인지 모르겠다가, 위키에서 [base64](../base64.md) 내용 찾아 보고 나니까 조금 알 것 같네.
+- 한참 봐도 무슨 말인지 모르겠다가, 위키에서 [base64](../IT%20&%20SC%20Basic/base64.md) 내용 찾아 보고 나니까 조금 알 것 같네.
 
-![예시](../base64.md#예시)
+![예시](../IT%20&%20SC%20Basic/base64.md#예시)
 
 - 위 문서에 나와있는 마지막 도표를 역순으로 진행하면 된다. 즉, 어떤 천사 같은 분이 정리해주신 내용 대로다. 
 
