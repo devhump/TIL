@@ -7,6 +7,7 @@ def bfs(n):
 
     while queue:
         x = queue.popleft() # 처음 시작점은 x = 5, q = deque([])
+        print(f'x == {x}')
         if x == K:
             print(dist[x])
             break
@@ -17,7 +18,10 @@ def bfs(n):
 
 Max_dist = 10 ** 5
 dist = [0] * (Max_dist + 1)
-N, K = map(int, input().split())
-# N, K = 5, 17
+# N, K = map(int, input().split())
+N, K = 5, 17
 
 bfs(N)
+
+print(dist[:41])
+

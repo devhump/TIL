@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasCalculator",
       "SiDjango",
       "SiStackoverflow",
       "SiSqlite",
@@ -40,11 +41,11 @@
   "KDT/markdown & git": "SiGit",
   "KDT/Algorithm": "SiThealgorithms",
   "_others_/Templates List.md": "📋",
-  "ALgorithm (code)": "FasCode",
   "devhump's TIL Index.md": "📌",
   "KDT/Web": "IbEarth",
   "MDN": "🦊",
   "KDT/DB": "SiSqlite",
   "KDT/Data structure": "SiStackoverflow",
-  "KDT/Django": "SiDjango"
+  "KDT/Django": "SiDjango",
+  "Algo Solving": "FasCalculator"
 }

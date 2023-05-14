@@ -5,32 +5,32 @@ sys.stdin = open('BOJ_5014_input.txt', 'r')
 
 from collections import deque
 
-def bfs(n):
+def bfs(n, check):
     queue = deque([n])
-
     while queue:
-
-        if S > G and D == 0:
-            print("use the stairs")
-            break
 
         x = queue.popleft()
 
         if x == G:
-            print(dist[x])
-            break
-        elif dist[x] > F:
-            print("use the stairs")
-            break
+            return visited[x]
         for nx in (x + U, x - D):
-            if 0 <= nx <= F and not dist[nx]:
-                dist[nx] = dist[x] + 1
+            if 0 < nx <= F and not visited[nx] and (nx != S):
+                # @ 한참 삽질하다가 겨우 찾았다. 
+                # @ nx 가 자기 자신일 경우를 빼니 통과했다.ㅋ
+                visited[nx] = visited[x] + 1
                 queue.append(nx)
+    return -1
 
 F, S, G, U, D = map(int, input().split())
 
+visited = [0] *(F+1)
+check = False 
 
-Max_dist = 10**6
-dist = [0] * (Max_dist+1)
+ans = bfs(S, check)
 
-bfs(S)
+if ans >= 0:
+	print(ans)
+else:
+	print("use the stairs")
+        
+# print(visited)

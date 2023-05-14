@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "567844cfb027ecec",
+            "id": "043ce5450f3b143c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux note.md",
+                "file": "Algo Solving/SWEA_1928 Base64 Decoder.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "숨바꼭",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux note.md",
+                "file": "Algo Solving/SWEA_1928 Base64 Decoder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux note.md",
+                "file": "Algo Solving/SWEA_1928 Base64 Decoder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux note.md"
+                "file": "Algo Solving/SWEA_1928 Base64 Decoder.md"
               }
             }
           },
@@ -191,10 +191,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "567844cfb027ecec",
+  "active": "043ce5450f3b143c",
   "lastOpenFiles": [
+    "base64.md",
+    "Algo Solving/SWEA_1928 Base64 Decoder.md",
     "devhump's TIL Index.md",
-    "ALgorithm (code)/DFS&BFS/BOJ_1697 숨바꼭질.md",
-    "Linux note.md"
+    "Linux note.md",
+    "assets/base64-1.png",
+    "assets/base64.png",
+    "assets",
+    "Algo Solving/DFS&BFS/BOJ_5014 스타트링크.md",
+    "더 공부해 볼 주제.md",
+    "_others_/Templates List.md",
+    "_others_/XML, JSON, YAML, AJAX.md",
+    "_others_/templates/무제 파일.md",
+    "_others_/templates/meta data_template.md",
+    "Algo Solving/DFS&BFS/BOJ_1697 숨바꼭질.md"
   ]
 }

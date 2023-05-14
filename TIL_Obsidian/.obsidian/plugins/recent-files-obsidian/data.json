@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux note",
-      "path": "Linux note.md"
+      "basename": "SWEA_1928 Base64 Decoder",
+      "path": "Algo Solving/SWEA_1928 Base64 Decoder.md"
+    },
+    {
+      "basename": "base64",
+      "path": "base64.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
+      "basename": "Linux note",
+      "path": "Linux note.md"
+    },
+    {
+      "basename": "BOJ_5014 스타트링크",
+      "path": "Algo Solving/DFS&BFS/BOJ_5014 스타트링크.md"
+    },
+    {
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
+    },
+    {
+      "basename": "Templates List",
+      "path": "_others_/Templates List.md"
+    },
+    {
+      "basename": "XML, JSON, YAML, AJAX",
+      "path": "_others_/XML, JSON, YAML, AJAX.md"
+    },
+    {
+      "basename": "meta data_template",
+      "path": "_others_/templates/meta data_template.md"
+    },
+    {
       "basename": "BOJ_1697 숨바꼭질",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_1697 숨바꼭질.md"
+      "path": "Algo Solving/DFS&BFS/BOJ_1697 숨바꼭질.md"
     },
     {
       "basename": "01. 스택과 큐(Stack & Que)",
@@ -38,11 +66,11 @@
     },
     {
       "basename": "BOJ_1260 DFS와 BFS",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_1260 DFS와 BFS.md"
+      "path": "Algo Solving/DFS&BFS/BOJ_1260 DFS와 BFS.md"
     },
     {
       "basename": "BFS & DFS 실전 문제 풀이",
-      "path": "ALgorithm (code)/BFS & DFS 실전 문제 풀이.md"
+      "path": "Algo Solving/BFS & DFS 실전 문제 풀이.md"
     },
     {
       "basename": "Obsidian setting - Community plugin",
@@ -50,31 +78,7 @@
     },
     {
       "basename": "BOJ_11724 연결 요소의 개수",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_11724 연결 요소의 개수.md"
-    },
-    {
-      "basename": "BOJ_2667 단지 번호 붙이기",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_2667 단지 번호 붙이기.md"
-    },
-    {
-      "basename": "문자열 치환 하기",
-      "path": "ALgorithm (code)/문자열 치환 하기.md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "ALgorithm (code)/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "델타 탐색 문제",
-      "path": "ALgorithm (code)/델타 탐색 문제.md"
-    },
-    {
-      "basename": "시뮬레이션",
-      "path": "ALgorithm (code)/시뮬레이션.md"
-    },
-    {
-      "basename": "BOJ_1926 그림",
-      "path": "ALgorithm (code)/DFS&BFS/BOJ_1926 그림.md"
+      "path": "Algo Solving/DFS&BFS/BOJ_11724 연결 요소의 개수.md"
     }
   ],
   "omittedPaths": [
