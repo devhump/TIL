@@ -23,12 +23,15 @@
             }
           },
           {
-            "id": "c9caf0df2de991ce",
+            "id": "429d622ca0f4eb92",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Python/assets/defaultdict.png"
+                "file": "IT & SC Basic/Linux note.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -91,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -115,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/assets/defaultdict.png",
+                "file": "IT & SC Basic/Linux note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/assets/defaultdict.png",
+                "file": "IT & SC Basic/Linux note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/assets/defaultdict.png"
+                "file": "IT & SC Basic/Linux note.md"
               }
             }
           },
@@ -188,10 +192,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b2fec09aa046b5f4",
+  "active": "429d622ca0f4eb92",
   "lastOpenFiles": [
-    "Python/defaultdict.md",
+    "IT & SC Basic/assets/Linux note.png",
     "devhump's TIL Index.md",
+    "IT & SC Basic/Linux note.md",
+    "Python/defaultdict.md",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
     "Algo Solving/SWEA_1928 Base64 Decoder.md",
@@ -226,8 +232,6 @@
     "IT & SC Basic/CLI.md",
     "IT & SC Basic/IaaS vs PaaS vs SaaS.md",
     "IT & SC Basic/IP 주소의 종류.md",
-    "IT & SC Basic/XML, JSON, YAML, AJAX.md",
-    "IT & SC Basic/Linux note.md",
     "IT & SC Basic"
   ]
 }

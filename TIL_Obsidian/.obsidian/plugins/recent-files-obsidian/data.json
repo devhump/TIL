@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux note",
+      "path": "IT & SC Basic/Linux note.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "defaultdict",
       "path": "Python/assets/defaultdict.png"
     },
     {
       "basename": "defaultdict",
       "path": "Python/defaultdict.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "람다함수(Lambda Func, 익명함수)",
@@ -75,10 +79,6 @@
     {
       "basename": "markdown for Obsidian",
       "path": "_others_/obsidian/markdown for Obsidian.md"
-    },
-    {
-      "basename": "markdown for Obsidian-5",
-      "path": "_others_/obsidian/assets/markdown for Obsidian-5.png"
     }
   ],
   "omittedPaths": [
