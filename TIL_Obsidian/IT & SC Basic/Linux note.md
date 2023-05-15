@@ -110,6 +110,12 @@ ls -a # 숨김파일 (.dot 파일)도 전부 나타낸다.
 
 
 #### 파일 및 디렉터리 작성/삭제 관련
+##### touch
+- 파일 생성
+```shell
+touch test1
+touch sample.txt
+```
 ##### mv
 - mv(MoVe file): 파일명을 변경하거나 파일을 이동할 때 사용
 ```shell
