@@ -344,3 +344,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,macos,windows,visualstudiocode,django
+TIL_Obsidian/.obsidian/plugins/obsidian-icon-folder/icons/remix-icons/BookMarkFill.svg
+TIL_Obsidian/.obsidian/plugins/obsidian-icon-folder/icons/remix-icons/BookMarkLine.svg
