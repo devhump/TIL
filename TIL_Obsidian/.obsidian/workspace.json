@@ -34,9 +34,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "df63bfa430bd1074",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algo Solving/SWEA_1974 스도쿠 검증.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT & SC Basic/Linux note.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT & SC Basic/Linux note.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT & SC Basic/Linux note.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           },
@@ -191,8 +203,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dc00b173e6b4d0b9",
+  "active": "3599e6f314e15e12",
   "lastOpenFiles": [
+    "Algo Solving/SWEA_1974 스도쿠 검증.md",
+    "IT & SC Basic/Linux note.md",
+    "Algo Solving/SWEA_1928 Base64 Decoder.md",
+    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
+    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+    "KDT/Algorithm/04. 그래프(Graph).md",
+    "_others_/알고리즘 TIP.md",
+    "Algo Solving/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "Algo Solving/델타 탐색 문제.md",
+    "Algo Solving/무방향 & 유방향 그래프 표현하기.md",
+    "Algo Solving/문자열 치환 하기.md",
+    "Algo Solving/시뮬레이션.md",
+    "Algo Solving/BFS & DFS 실전 문제 풀이.md",
+    "Algo Solving/BOJ_9455 박스.md",
     "IT & SC Basic/assets/Linux note-9.png",
     "IT & SC Basic/assets/Linux note-8.png",
     "IT & SC Basic/assets/Linux note-7.png",
@@ -209,27 +235,13 @@
     "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md",
     "KDT/Django/02. request & response.md",
     "KDT/Django/01. Django Intro.md",
-    "IT & SC Basic/Linux note.md",
     "IT & SC Basic/assets/Linux note.png",
     "Python/defaultdict.md",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
-    "Algo Solving/SWEA_1928 Base64 Decoder.md",
-    "Algo Solving/assets/SWEA_1928 Base64 Decoder-1.png",
     "assets",
     "KDT/Django/django-shortcuts 1.6.md",
     "_others_/500 mile.md",
-    "_others_/obsidian/Obsidian setting.md",
-    "_others_/obsidian/Obsidian setting - Community plugin.md",
-    "_others_/obsidian/markdown for Obsidian.md",
-    "Algo Solving/DFS&BFS/BOJ_1260 DFS와 BFS.md",
-    "_others_/Git basic - rollback.md",
-    "_others_/Hot-key for Mac.md",
-    "_others_/알고리즘 TIP.md",
-    "_others_/Hot-key (VS Code).md",
-    "IT & SC Basic/OSI 7 Layer vs TCP-IP 4 Layer.md",
-    "_others_/Debugging with VS Code+.md",
-    "IT & SC Basic/개발 관련 IT 용어 정리.md",
     "IT & SC Basic/assets",
     "IT & SC Basic"
   ]

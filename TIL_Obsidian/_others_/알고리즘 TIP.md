@@ -30,8 +30,9 @@ lecture_list = [list(map(int, input().split())) for _ in range(n)]
 
 ```
 
-- 몇줄일지 모를 때 입력 받기
-	- https://pchild.tistory.com/2
+#### 몇줄일지 모를 때 입력 받기
+- 여러 줄 입력 받기
+- https://pchild.tistory.com/2
 
 - [readline vs readlines](https://docs.python.org/ko/3/library/io.html?highlight=readlines#io.IOBase.readline)
 ![](assets/알고리즘%20TIP-1.png)

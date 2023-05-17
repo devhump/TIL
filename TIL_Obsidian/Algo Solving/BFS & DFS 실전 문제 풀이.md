@@ -12,6 +12,6 @@
 ```dataview
 TABLE 
 	column
-FROM "ALgorithm (code)/DFS&BFS"
+FROM "Algo Solving/DFS&BFS"
 SORT file.name ASC
 ```

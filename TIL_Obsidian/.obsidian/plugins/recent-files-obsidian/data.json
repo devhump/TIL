@@ -1,12 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "SWEA_1974 스도쿠 검증",
+      "path": "Algo Solving/SWEA_1974 스도쿠 검증.md"
+    },
+    {
       "basename": "Linux note",
       "path": "IT & SC Basic/Linux note.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "SWEA_1928 Base64 Decoder",
+      "path": "Algo Solving/SWEA_1928 Base64 Decoder.md"
+    },
+    {
+      "basename": "02. 이차원 리스트(2-2)",
+      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
+      "basename": "03. 완전탐색  I (Exhaustive Search)",
+      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
+    },
+    {
+      "basename": "04. 그래프(Graph)",
+      "path": "KDT/Algorithm/04. 그래프(Graph).md"
+    },
+    {
+      "basename": "알고리즘 TIP",
+      "path": "_others_/알고리즘 TIP.md"
+    },
+    {
+      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
+      "path": "Algo Solving/다양한 방법으로 정렬하기 (BOJ_1931).md"
+    },
+    {
+      "basename": "델타 탐색 문제",
+      "path": "Algo Solving/델타 탐색 문제.md"
+    },
+    {
+      "basename": "무방향 & 유방향 그래프 표현하기",
+      "path": "Algo Solving/무방향 & 유방향 그래프 표현하기.md"
+    },
+    {
+      "basename": "문자열 치환 하기",
+      "path": "Algo Solving/문자열 치환 하기.md"
+    },
+    {
+      "basename": "시뮬레이션",
+      "path": "Algo Solving/시뮬레이션.md"
+    },
+    {
+      "basename": "BFS & DFS 실전 문제 풀이",
+      "path": "Algo Solving/BFS & DFS 실전 문제 풀이.md"
+    },
+    {
+      "basename": "BOJ_9455 박스",
+      "path": "Algo Solving/BOJ_9455 박스.md"
     },
     {
       "basename": "06. UPDATE",
@@ -27,58 +79,6 @@
     {
       "basename": "02. request & response",
       "path": "KDT/Django/02. request & response.md"
-    },
-    {
-      "basename": "01. Django Intro",
-      "path": "KDT/Django/01. Django Intro.md"
-    },
-    {
-      "basename": "defaultdict",
-      "path": "Python/assets/defaultdict.png"
-    },
-    {
-      "basename": "defaultdict",
-      "path": "Python/defaultdict.md"
-    },
-    {
-      "basename": "람다함수(Lambda Func, 익명함수)",
-      "path": "Python/람다함수(Lambda Func, 익명함수).md"
-    },
-    {
-      "basename": "파이썬 04. 데이터 구조 (Data Structure)",
-      "path": "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md"
-    },
-    {
-      "basename": "SWEA_1928 Base64 Decoder",
-      "path": "Algo Solving/SWEA_1928 Base64 Decoder.md"
-    },
-    {
-      "basename": "django-shortcuts 1.6",
-      "path": "KDT/Django/django-shortcuts 1.6.md"
-    },
-    {
-      "basename": "500 mile",
-      "path": "_others_/500 mile.md"
-    },
-    {
-      "basename": "알고리즘 TIP",
-      "path": "_others_/알고리즘 TIP.md"
-    },
-    {
-      "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
-    },
-    {
-      "basename": "Obsidian setting0",
-      "path": "_others_/obsidian/assets/Obsidian setting0.png"
-    },
-    {
-      "basename": "Obsidian setting0-5",
-      "path": "_others_/obsidian/assets/Obsidian setting0-5.png"
-    },
-    {
-      "basename": "Obsidian setting0-4",
-      "path": "_others_/obsidian/assets/Obsidian setting0-4.png"
     }
   ],
   "omittedPaths": [
