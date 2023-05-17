@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "429d622ca0f4eb92",
+            "id": "dc00b173e6b4d0b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -171,11 +171,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 358.5,
+    "width": 259.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -191,29 +191,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b2fec09aa046b5f4",
+  "active": "dc00b173e6b4d0b9",
   "lastOpenFiles": [
-    "IT & SC Basic/assets/Linux note.png",
+    "IT & SC Basic/assets/Linux note-9.png",
+    "IT & SC Basic/assets/Linux note-8.png",
+    "IT & SC Basic/assets/Linux note-7.png",
+    "IT & SC Basic/assets/Linux note-6.png",
+    "IT & SC Basic/assets/Linux note-5.png",
+    "IT & SC Basic/assets/Linux note-4.png",
+    "IT & SC Basic/assets/Linux note-3.png",
+    "IT & SC Basic/assets/Linux note-2.png",
+    "IT & SC Basic/assets/Linux note-1.png",
     "devhump's TIL Index.md",
+    "KDT/Django/06. UPDATE.md",
+    "KDT/Django/05. Namespace.md",
+    "KDT/Django/04. App URL mapping & Template namespace.md",
+    "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md",
+    "KDT/Django/02. request & response.md",
+    "KDT/Django/01. Django Intro.md",
     "IT & SC Basic/Linux note.md",
+    "IT & SC Basic/assets/Linux note.png",
     "Python/defaultdict.md",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
     "Algo Solving/SWEA_1928 Base64 Decoder.md",
     "Algo Solving/assets/SWEA_1928 Base64 Decoder-1.png",
-    "Algo Solving/assets/SWEA_1928 Base64 Decoder.png",
-    "Python/assets/defaultdict-2.png",
-    "Python/assets/defaultdict-1.png",
-    "Python/assets/defaultdict.png",
     "assets",
     "KDT/Django/django-shortcuts 1.6.md",
     "_others_/500 mile.md",
     "_others_/obsidian/Obsidian setting.md",
-    "_others_/obsidian/assets/Obsidian setting0.png",
-    "_others_/obsidian/assets/Obsidian setting0-5.png",
-    "_others_/obsidian/assets/Obsidian setting0-4.png",
-    "_others_/obsidian/assets/Obsidian setting0-3.png",
-    "_others_/obsidian/assets/Obsidian setting0-2.png",
     "_others_/obsidian/Obsidian setting - Community plugin.md",
     "_others_/obsidian/markdown for Obsidian.md",
     "Algo Solving/DFS&BFS/BOJ_1260 DFS와 BFS.md",
@@ -225,12 +231,6 @@
     "_others_/Debugging with VS Code+.md",
     "IT & SC Basic/개발 관련 IT 용어 정리.md",
     "IT & SC Basic/assets",
-    "IT & SC Basic/요청 메소드와 응답코드.md",
-    "IT & SC Basic/쿠키 vs 세션 vs 토큰 + 캐시, CDN.md",
-    "IT & SC Basic/base64.md",
-    "IT & SC Basic/CLI.md",
-    "IT & SC Basic/IaaS vs PaaS vs SaaS.md",
-    "IT & SC Basic/IP 주소의 종류.md",
     "IT & SC Basic"
   ]
 }
