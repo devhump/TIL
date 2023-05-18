@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "IT & SC Basic/Linux note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "IT & SC Basic/Linux note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "IT & SC Basic/Linux note.md"
               }
             }
           },
@@ -203,8 +204,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3599e6f314e15e12",
+  "active": "dc00b173e6b4d0b9",
   "lastOpenFiles": [
+    "IT & SC Basic/assets/Linux note-12.png",
+    "IT & SC Basic/assets/Linux note-11.png",
+    "IT & SC Basic/assets/Linux note-10.png",
+    "devhump's TIL Index.md",
     "Algo Solving/SWEA_1974 스도쿠 검증.md",
     "IT & SC Basic/Linux note.md",
     "Algo Solving/SWEA_1928 Base64 Decoder.md",
@@ -227,21 +232,17 @@
     "IT & SC Basic/assets/Linux note-4.png",
     "IT & SC Basic/assets/Linux note-3.png",
     "IT & SC Basic/assets/Linux note-2.png",
-    "IT & SC Basic/assets/Linux note-1.png",
-    "devhump's TIL Index.md",
     "KDT/Django/06. UPDATE.md",
     "KDT/Django/05. Namespace.md",
     "KDT/Django/04. App URL mapping & Template namespace.md",
     "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md",
     "KDT/Django/02. request & response.md",
     "KDT/Django/01. Django Intro.md",
-    "IT & SC Basic/assets/Linux note.png",
     "Python/defaultdict.md",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "KDT/Python/파이썬 04. 데이터 구조 (Data Structure).md",
     "assets",
     "KDT/Django/django-shortcuts 1.6.md",
-    "_others_/500 mile.md",
     "IT & SC Basic/assets",
     "IT & SC Basic"
   ]
