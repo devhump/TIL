@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 308.5
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -190,7 +190,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3599e6f314e15e12",
+  "active": "b2fec09aa046b5f4",
   "lastOpenFiles": [
     "더 공부해 볼 주제.md",
     "devhump's TIL Index.md",
