@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
+      "basename": "정규표현식 (regex)",
+      "path": "정규표현식 (regex).md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
     },
     {
       "basename": "SWEA_1979 어디에 단어가 들어갈 수 있을까",
@@ -75,10 +79,6 @@
     {
       "basename": "무방향 & 유방향 그래프 표현하기",
       "path": "Algo Solving/무방향 & 유방향 그래프 표현하기.md"
-    },
-    {
-      "basename": "문자열 치환 하기",
-      "path": "Algo Solving/문자열 치환 하기.md"
     }
   ],
   "omittedPaths": [

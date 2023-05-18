@@ -148,7 +148,7 @@
 - [[vscode_shortcuts_(mac).pdf]] 
 - [[Hot-key for Mac]]
 - [[Hot-key for windows]]
-- [Hot-key (VS Code)](_others_/Hot-key%20(VS%20Code).md)
+- [[Hot-key (VS Code)]]
 
 #### Obsidian
 - [[markdown for Obsidian]]

@@ -23,19 +23,20 @@
             }
           },
           {
-            "id": "cc342a0ab3406a06",
+            "id": "463bbbb712ceac4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "더 공부해 볼 주제.md",
-                "mode": "preview",
+                "file": "정규표현식 (regex).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 308.5,
+    "collapsed": true
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -117,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "정규표현식 (regex).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "정규표현식 (regex).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "정규표현식 (regex).md"
               }
             }
           },
@@ -190,10 +192,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b2fec09aa046b5f4",
+  "active": "463bbbb712ceac4d",
   "lastOpenFiles": [
-    "더 공부해 볼 주제.md",
     "devhump's TIL Index.md",
+    "더 공부해 볼 주제.md",
+    "정규표현식 (regex).md",
+    "assets/정규표현식 (regex)-3.png",
+    "assets/정규표현식 (regex)-2.png",
+    "assets/정규표현식 (regex)-1.png",
+    "assets/정규표현식 (regex).png",
+    "assets",
     "Algo Solving/SWEA_1979 어디에 단어가 들어갈 수 있을까.md",
     "Python/반올림, 내림, 올림(python).md",
     "Algo Solving/BOJ_9455 박스.md",
@@ -220,15 +228,8 @@
     "Algo Solving/BFS & DFS 실전 문제 풀이.md",
     "IT & SC Basic/assets/Linux note-9.png",
     "IT & SC Basic/assets/Linux note-8.png",
-    "IT & SC Basic/assets/Linux note-7.png",
-    "IT & SC Basic/assets/Linux note-6.png",
-    "IT & SC Basic/assets/Linux note-5.png",
-    "IT & SC Basic/assets/Linux note-4.png",
     "KDT/Django/06. UPDATE.md",
     "KDT/Django/05. Namespace.md",
-    "KDT/Django/04. App URL mapping & Template namespace.md",
-    "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md",
-    "assets",
     "IT & SC Basic/assets",
     "IT & SC Basic"
   ]
