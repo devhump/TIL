@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux note",
+      "path": "IT & SC Basic/Linux note.md"
+    },
+    {
       "basename": "개발 관련 IT 용어 정리",
       "path": "IT & SC Basic/개발 관련 IT 용어 정리.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "BOJ_9455 박스",
       "path": "Algo Solving/BOJ_9455 박스.md"
-    },
-    {
-      "basename": "Linux note",
-      "path": "IT & SC Basic/Linux note.md"
     },
     {
       "basename": "02. 이차원 리스트(2-2)",
