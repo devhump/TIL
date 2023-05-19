@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "정규표현식 (regex)",
-      "path": "정규표현식 (regex).md"
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "IT & SC Basic/개발 관련 IT 용어 정리.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "정규표현식 (regex)",
+      "path": "IT & SC Basic/정규표현식 (regex).md"
+    },
+    {
+      "basename": "(regex)",
+      "path": "IT & SC Basic/assets/(regex).png"
+    },
+    {
+      "basename": "vscode_shortcuts_(mac)",
+      "path": "_others_/vscode_shortcuts_(mac).pdf"
     },
     {
       "basename": "더 공부해 볼 주제",
@@ -67,18 +79,6 @@
     {
       "basename": "알고리즘 TIP",
       "path": "_others_/알고리즘 TIP.md"
-    },
-    {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "Algo Solving/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "델타 탐색 문제",
-      "path": "Algo Solving/델타 탐색 문제.md"
-    },
-    {
-      "basename": "무방향 & 유방향 그래프 표현하기",
-      "path": "Algo Solving/무방향 & 유방향 그래프 표현하기.md"
     }
   ],
   "omittedPaths": [

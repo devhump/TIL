@@ -71,11 +71,11 @@ Q3.
 ```
 
 #### `?:`의 유무에 따른 차이
-![](assets/정규표현식%20(regex)-1.png)
+![](assets/(regex).png)
 
-![](assets/정규표현식%20(regex).png)
+![](assets/(regex)-1.png)
 
 ### 실 사용 예시 (feat. JS)
-![](assets/정규표현식%20(regex)-2.png)
+![](assets/(regex)-2.png)
 
-![](assets/정규표현식%20(regex)-3.png)
+![](assets/(regex)-3.png)
