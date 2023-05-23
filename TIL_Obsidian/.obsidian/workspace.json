@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "00719948e5e03429",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_others_/obsidian/LaTeX.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "_others_/obsidian/LaTeX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index.md",
+                "file": "_others_/obsidian/LaTeX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index.md"
+                "file": "_others_/obsidian/LaTeX.md"
               }
             }
           },
@@ -178,14 +192,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3599e6f314e15e12",
+  "active": "00719948e5e03429",
   "lastOpenFiles": [
+    "KDT/markdown & git/markdown (마크다운) +.md",
+    "devhump's TIL Index.md",
     "IT & SC Basic/Linux note.md",
     "IT & SC Basic/assets/Linux note-14.png",
     "IT & SC Basic/assets/Linux note-13.png",
     "IT & SC Basic/개발 관련 IT 용어 정리.md",
     "IT & SC Basic/assets/개발 관련 IT 용어 정리.png",
-    "devhump's TIL Index.md",
     "IT & SC Basic/정규표현식 (regex).md",
     "IT & SC Basic/assets/(regex).png",
     "_others_/vscode_shortcuts_(mac).pdf",

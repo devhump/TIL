@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "LaTeX",
+      "path": "_others_/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown & git/markdown (마크다운) +.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "03. 완전탐색  I (Exhaustive Search)",
       "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
-    },
-    {
-      "basename": "04. 그래프(Graph)",
-      "path": "KDT/Algorithm/04. 그래프(Graph).md"
-    },
-    {
-      "basename": "알고리즘 TIP",
-      "path": "_others_/알고리즘 TIP.md"
     }
   ],
   "omittedPaths": [
