@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+    },
+    {
       "basename": "05. 문자열 (String)",
       "path": "KDT/Data structure/05. 문자열 (String).md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "반올림, 내림, 올림(python)",
       "path": "Python/반올림, 내림, 올림(python).md"
-    },
-    {
-      "basename": "BOJ_9455 박스",
-      "path": "Algo Solving/BOJ_9455 박스.md"
     }
   ],
   "omittedPaths": [

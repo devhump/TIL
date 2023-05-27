@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Data structure/05. 문자열 (String).md",
+                "file": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Data structure/05. 문자열 (String).md",
+                "file": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Data structure/05. 문자열 (String).md",
+                "file": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Data structure/05. 문자열 (String).md"
+                "file": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
               }
             }
           },
@@ -193,6 +193,8 @@
   },
   "active": "00719948e5e03429",
   "lastOpenFiles": [
+    "KDT/Data structure/05. 문자열 (String).md",
+    "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
     "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md",
     "KDT/Data structure/04. 리스트(List).md",
     "KDT/Data structure/02. basic_IO.md",
@@ -229,8 +231,6 @@
     "Python/Python error.md",
     "Algo Solving/SWEA_1928 Base64 Decoder.md",
     "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
-    "KDT/Algorithm/04. 그래프(Graph).md",
-    "_others_/알고리즘 TIP.md",
     "IT & SC Basic/assets",
     "IT & SC Basic"
   ]
