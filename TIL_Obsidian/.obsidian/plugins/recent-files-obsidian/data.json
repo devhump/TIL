@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SWEA_1928 Base64 Decoder",
+      "path": "Algo Solving/SWEA_1928 Base64 Decoder.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "vscode_shortcuts_(mac)",
       "path": "_others_/vscode_shortcuts_(mac).pdf"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
     }
   ],
   "omittedPaths": [
