@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "Linux note",
+      "path": "IT & SC Basic/Linux note.md"
+    },
+    {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
       "path": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+    },
+    {
+      "basename": "Git basic - rollback",
+      "path": "_others_/Git basic - rollback.md"
     },
     {
       "basename": "05. 문자열 (String)",
@@ -37,20 +53,12 @@
       "path": "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
       "basename": "LaTeX",
       "path": "_others_/obsidian/LaTeX.md"
     },
     {
       "basename": "markdown (마크다운) +",
       "path": "KDT/markdown & git/markdown (마크다운) +.md"
-    },
-    {
-      "basename": "Linux note",
-      "path": "IT & SC Basic/Linux note.md"
     },
     {
       "basename": "개발 관련 IT 용어 정리",
@@ -71,14 +79,6 @@
     {
       "basename": "더 공부해 볼 주제",
       "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "SWEA_1979 어디에 단어가 들어갈 수 있을까",
-      "path": "Algo Solving/SWEA_1979 어디에 단어가 들어갈 수 있을까.md"
-    },
-    {
-      "basename": "반올림, 내림, 올림(python)",
-      "path": "Python/반올림, 내림, 올림(python).md"
     }
   ],
   "omittedPaths": [

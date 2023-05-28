@@ -286,6 +286,8 @@ $env:MY_DIR = "dir1"
 ls env:
 # 모든 환경 변수 출력
 
+set Path
+
 cd $env:MY_DIR
 # dir1 디렉터리로 이동
 
