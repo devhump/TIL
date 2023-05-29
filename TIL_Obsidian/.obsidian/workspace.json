@@ -21,35 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "493f7fc3f5e2ff3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devhump's TIL Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d532a29c5e1606c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zfill",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -103,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 353.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,14 +177,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "330c7d57431f1ad6",
+  "active": "3599e6f314e15e12",
   "lastOpenFiles": [
+    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
+    "devhump's TIL Index.md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
-    "KDT/Data structure/assets/08. 힙(Heap), 셋(set)-2.png",
+    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
     "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+    "KDT/Data structure/assets/08. 힙(Heap), 셋(set)-2.png",
     "KDT/Data structure/assets/08. 힙(Heap), 셋(set)-1.png",
     "KDT/Data structure/assets/08. 힙(Heap), 셋(set).png",
-    "devhump's TIL Index.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/assets/06. 딕셔너리(Dictionary).png",
     "KDT/Data structure/05. 문자열 (String).md",
@@ -226,7 +201,6 @@
     "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md",
     "KDT/Data structure/02. basic_IO.md",
     "KDT/Data structure/assets/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).png",
-    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
     "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
     "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
     "KDT/Python/assets/파이썬 08. 파이썬 응용,심화(python advanced)-1.png",
