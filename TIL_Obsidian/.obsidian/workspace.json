@@ -23,20 +23,19 @@
             }
           },
           {
-            "id": "2a0a6bfada5ac5dd",
+            "id": "493f7fc3f5e2ff3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_others_/Git basic - rollback.md",
-                "mode": "preview",
+                "file": "KDT/Data structure/08. 힙(Heap), 셋(set).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,12 +89,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 268.5
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -119,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_others_/Git basic - rollback.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_others_/Git basic - rollback.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_others_/Git basic - rollback.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           },
@@ -176,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5,
-    "collapsed": true
+    "width": 259.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,20 +189,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2a0a6bfada5ac5dd",
+  "active": "3599e6f314e15e12",
   "lastOpenFiles": [
-    "KDT/markdown & git/Git.md",
+    "KDT/Data structure/08. 힙(Heap), 셋(set).md",
+    "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+    "KDT/Data structure/assets/06. 딕셔너리(Dictionary).png",
+    "KDT/Data structure/05. 문자열 (String).md",
+    "KDT/Data structure/04. 리스트(List).md",
+    "KDT/Data structure/01. about Algorithm (Intro).md",
+    "무제 파일.md",
     "devhump's TIL Index.md",
+    "_others_/Git basic - rollback.md",
+    "KDT/markdown & git/Git.md",
     "Algo Solving/SWEA_1928 Base64 Decoder.md",
     "IT & SC Basic/Linux note.md",
     "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
-    "_others_/Git basic - rollback.md",
-    "KDT/Data structure/05. 문자열 (String).md",
     "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md",
-    "KDT/Data structure/04. 리스트(List).md",
     "KDT/Data structure/02. basic_IO.md",
     "KDT/Data structure/assets/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).png",
-    "KDT/Data structure/01. about Algorithm (Intro).md",
     "KDT/Algorithm/01. 이차원 리스트(1-2).md",
     "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
     "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
@@ -223,15 +225,10 @@
     "더 공부해 볼 주제.md",
     "IT & SC Basic/assets/(regex)-3.png",
     "IT & SC Basic/assets/(regex)-2.png",
-    "IT & SC Basic/assets/(regex)-1.png",
     "assets",
     "Algo Solving/SWEA_1979 어디에 단어가 들어갈 수 있을까.md",
     "Python/반올림, 내림, 올림(python).md",
     "Algo Solving/BOJ_9455 박스.md",
-    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
-    "Algo Solving/SWEA_1974 스도쿠 검증.md",
-    "Python/Python 유용한 문법 정리.md",
-    "Python/Python 용어 정리.md",
     "IT & SC Basic/assets",
     "IT & SC Basic"
   ]

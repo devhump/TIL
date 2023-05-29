@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "08. 힙(Heap), 셋(set)",
+      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
+    },
+    {
+      "basename": "07. 스택 & 큐 (Stack & Queue)",
+      "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
+    },
+    {
+      "basename": "06. 딕셔너리(Dictionary)",
+      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+    },
+    {
+      "basename": "05. 문자열 (String)",
+      "path": "KDT/Data structure/05. 문자열 (String).md"
+    },
+    {
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
+    },
+    {
+      "basename": "01. about Algorithm (Intro)",
+      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
+    },
+    {
       "basename": "Git basic - rollback",
       "path": "_others_/Git basic - rollback.md"
     },
     {
       "basename": "Git",
       "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "SWEA_1928 Base64 Decoder",
@@ -25,24 +49,12 @@
       "path": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
     },
     {
-      "basename": "05. 문자열 (String)",
-      "path": "KDT/Data structure/05. 문자열 (String).md"
-    },
-    {
       "basename": "03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)",
       "path": "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md"
     },
     {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
-    },
-    {
       "basename": "02. basic_IO",
       "path": "KDT/Data structure/02. basic_IO.md"
-    },
-    {
-      "basename": "01. about Algorithm (Intro)",
-      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
     },
     {
       "basename": "01. 이차원 리스트(1-2)",
@@ -67,18 +79,6 @@
     {
       "basename": "개발 관련 IT 용어 정리",
       "path": "IT & SC Basic/개발 관련 IT 용어 정리.md"
-    },
-    {
-      "basename": "정규표현식 (regex)",
-      "path": "IT & SC Basic/정규표현식 (regex).md"
-    },
-    {
-      "basename": "(regex)",
-      "path": "IT & SC Basic/assets/(regex).png"
-    },
-    {
-      "basename": "vscode_shortcuts_(mac)",
-      "path": "_others_/vscode_shortcuts_(mac).pdf"
     }
   ],
   "omittedPaths": [
