@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "SWEA_1928 Base64 Decoder",
-      "path": "Algo Solving/SWEA_1928 Base64 Decoder.md"
+      "basename": "Git basic - rollback",
+      "path": "_others_/Git basic - rollback.md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
+      "basename": "SWEA_1928 Base64 Decoder",
+      "path": "Algo Solving/SWEA_1928 Base64 Decoder.md"
     },
     {
       "basename": "Linux note",
@@ -19,10 +23,6 @@
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
       "path": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "Git basic - rollback",
-      "path": "_others_/Git basic - rollback.md"
     },
     {
       "basename": "05. 문자열 (String)",
