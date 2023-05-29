@@ -28,14 +28,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Data structure/08. 힙(Heap), 셋(set).md",
+                "file": "devhump's TIL Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d532a29c5e1606c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +103,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -170,11 +185,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 353.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,17 +204,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3599e6f314e15e12",
+  "active": "330c7d57431f1ad6",
   "lastOpenFiles": [
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
+    "KDT/Data structure/assets/08. 힙(Heap), 셋(set)-2.png",
     "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+    "KDT/Data structure/assets/08. 힙(Heap), 셋(set)-1.png",
+    "KDT/Data structure/assets/08. 힙(Heap), 셋(set).png",
+    "devhump's TIL Index.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/assets/06. 딕셔너리(Dictionary).png",
     "KDT/Data structure/05. 문자열 (String).md",
     "KDT/Data structure/04. 리스트(List).md",
     "KDT/Data structure/01. about Algorithm (Intro).md",
     "무제 파일.md",
-    "devhump's TIL Index.md",
     "_others_/Git basic - rollback.md",
     "KDT/markdown & git/Git.md",
     "Algo Solving/SWEA_1928 Base64 Decoder.md",
@@ -220,15 +238,11 @@
     "IT & SC Basic/개발 관련 IT 용어 정리.md",
     "IT & SC Basic/assets/개발 관련 IT 용어 정리.png",
     "IT & SC Basic/정규표현식 (regex).md",
-    "IT & SC Basic/assets/(regex).png",
     "_others_/vscode_shortcuts_(mac).pdf",
     "더 공부해 볼 주제.md",
-    "IT & SC Basic/assets/(regex)-3.png",
-    "IT & SC Basic/assets/(regex)-2.png",
     "assets",
     "Algo Solving/SWEA_1979 어디에 단어가 들어갈 수 있을까.md",
     "Python/반올림, 내림, 올림(python).md",
-    "Algo Solving/BOJ_9455 박스.md",
     "IT & SC Basic/assets",
     "IT & SC Basic"
   ]
