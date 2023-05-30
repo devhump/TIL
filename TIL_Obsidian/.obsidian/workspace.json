@@ -28,8 +28,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Data structure/05. 문자열 (String).md",
-                "mode": "preview",
+                "file": "KDT/Web/04. Semantic tag.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 200
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Data structure/05. 문자열 (String).md",
+                "file": "KDT/Web/04. Semantic tag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Data structure/05. 문자열 (String).md",
+                "file": "KDT/Web/04. Semantic tag.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Data structure/05. 문자열 (String).md"
+                "file": "KDT/Web/04. Semantic tag.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -193,44 +193,44 @@
   },
   "active": "82d036799a2d70fd",
   "lastOpenFiles": [
+    "KDT/Web/08. Javascript.md",
+    "KDT/Web/07. Bootstrap Grid System.md",
+    "KDT/Web/assets/07. Bootstrap Grid System-20.png",
+    "KDT/Web/assets/07. Bootstrap Grid System-19.png",
+    "KDT/Web/assets/07. Bootstrap Grid System-18.png",
+    "KDT/Web/06. Bootstrap Component.md",
+    "KDT/Web/assets/06. Bootstrap Component-10.png",
+    "KDT/Web/assets/06. Bootstrap Component-9.png",
+    "KDT/Web/05. HTML & Bootstrap.md",
+    "KDT/Web/assets/05. HTML & Bootstrap-36.png",
+    "KDT/Web/04. Semantic tag.md",
+    "KDT/Web/04. Symantic tag.md",
+    "KDT/Web/assets/04. Semantic tag-1.png",
+    "KDT/Web/assets/04. Semantic tag.png",
+    "KDT/Web/03. CSS Position.md",
+    "KDT/Web/assets/03. CSS Position-17.png",
+    "KDT/Web/assets/03. CSS Position-16.png",
+    "KDT/Web/02. CSS.md",
     "devhump's TIL Index.md",
-    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
-    "KDT/Data structure/08. 힙(Heap), 셋(set).md",
-    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
-    "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
-    "KDT/Data structure/assets/08. 힙(Heap), 셋(set)-2.png",
-    "KDT/Data structure/assets/08. 힙(Heap), 셋(set)-1.png",
-    "KDT/Data structure/assets/08. 힙(Heap), 셋(set).png",
-    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
-    "KDT/Data structure/assets/06. 딕셔너리(Dictionary).png",
-    "KDT/Data structure/05. 문자열 (String).md",
-    "KDT/Data structure/04. 리스트(List).md",
-    "KDT/Data structure/01. about Algorithm (Intro).md",
-    "무제 파일.md",
-    "_others_/Git basic - rollback.md",
-    "KDT/markdown & git/Git.md",
-    "Algo Solving/SWEA_1928 Base64 Decoder.md",
-    "IT & SC Basic/Linux note.md",
-    "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
-    "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md",
-    "KDT/Data structure/02. basic_IO.md",
-    "KDT/Data structure/assets/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).png",
+    "KDT/Web/01. Happy Web.md",
+    "KDT/DB/04. CASE & SubQuery.md",
+    "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
+    "KDT/DB/02. WHERE & LIKE & ORDER BY.md",
+    "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
+    "_others_/Debugging with VS Code+.md",
     "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md",
-    "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
-    "KDT/Python/assets/파이썬 08. 파이썬 응용,심화(python advanced)-1.png",
-    "KDT/Python/assets/파이썬 08. 파이썬 응용,심화(python advanced).png",
-    "_others_/obsidian/LaTeX.md",
-    "KDT/markdown & git/markdown (마크다운) +.md",
-    "IT & SC Basic/assets/Linux note-14.png",
-    "IT & SC Basic/assets/Linux note-13.png",
-    "IT & SC Basic/개발 관련 IT 용어 정리.md",
-    "IT & SC Basic/assets/개발 관련 IT 용어 정리.png",
-    "IT & SC Basic/정규표현식 (regex).md",
+    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
+    "KDT/Algorithm/04. 그래프(Graph).md",
+    "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md",
+    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
+    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
+    "KDT/Data structure/05. 문자열 (String).md",
+    "KDT/Data structure/08. 힙(Heap), 셋(set).md",
+    "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md",
+    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+    "KDT/Data structure/04. 리스트(List).md",
     "_others_/vscode_shortcuts_(mac).pdf",
-    "더 공부해 볼 주제.md",
     "assets",
-    "Algo Solving/SWEA_1979 어디에 단어가 들어갈 수 있을까.md",
-    "Python/반올림, 내림, 올림(python).md",
     "IT & SC Basic/assets",
     "IT & SC Basic"
   ]

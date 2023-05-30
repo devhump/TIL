@@ -1,84 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "05. 문자열 (String)",
-      "path": "KDT/Data structure/05. 문자열 (String).md"
+      "basename": "04. Semantic tag",
+      "path": "KDT/Web/04. Semantic tag.md"
+    },
+    {
+      "basename": "08. Javascript",
+      "path": "KDT/Web/08. Javascript.md"
+    },
+    {
+      "basename": "07. Bootstrap Grid System",
+      "path": "KDT/Web/07. Bootstrap Grid System.md"
+    },
+    {
+      "basename": "06. Bootstrap Component",
+      "path": "KDT/Web/06. Bootstrap Component.md"
+    },
+    {
+      "basename": "05. HTML & Bootstrap",
+      "path": "KDT/Web/05. HTML & Bootstrap.md"
+    },
+    {
+      "basename": "03. CSS Position",
+      "path": "KDT/Web/03. CSS Position.md"
+    },
+    {
+      "basename": "02. CSS",
+      "path": "KDT/Web/02. CSS.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+      "basename": "01. Happy Web",
+      "path": "KDT/Web/01. Happy Web.md"
     },
     {
-      "basename": "08. 힙(Heap), 셋(set)",
-      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
+      "basename": "04. CASE & SubQuery",
+      "path": "KDT/DB/04. CASE & SubQuery.md"
     },
     {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
+      "basename": "03. Basic Func & GROUP BY & HAVING & ALTER TABLE",
+      "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
     },
     {
-      "basename": "07. 스택 & 큐 (Stack & Queue)",
-      "path": "KDT/Data structure/07. 스택 & 큐 (Stack & Queue).md"
+      "basename": "02. WHERE & LIKE & ORDER BY",
+      "path": "KDT/DB/02. WHERE & LIKE & ORDER BY.md"
     },
     {
-      "basename": "06. 딕셔너리(Dictionary)",
-      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+      "basename": "01. DB & RDBMS & SQL CRUD",
+      "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
     },
     {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
-    },
-    {
-      "basename": "01. about Algorithm (Intro)",
-      "path": "KDT/Data structure/01. about Algorithm (Intro).md"
-    },
-    {
-      "basename": "Git basic - rollback",
-      "path": "_others_/Git basic - rollback.md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "SWEA_1928 Base64 Decoder",
-      "path": "Algo Solving/SWEA_1928 Base64 Decoder.md"
-    },
-    {
-      "basename": "Linux note",
-      "path": "IT & SC Basic/Linux note.md"
-    },
-    {
-      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
-      "path": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)",
-      "path": "KDT/Data structure/03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation).md"
-    },
-    {
-      "basename": "02. basic_IO",
-      "path": "KDT/Data structure/02. basic_IO.md"
+      "basename": "Debugging with VS Code+",
+      "path": "_others_/Debugging with VS Code+.md"
     },
     {
       "basename": "06. 코딩 테스트 준비 (기본)",
       "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
     },
     {
-      "basename": "파이썬 08. 파이썬 응용,심화(python advanced)",
-      "path": "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md"
+      "basename": "05. 깊이 우선 탐색(DFS)",
+      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
     },
     {
-      "basename": "LaTeX",
-      "path": "_others_/obsidian/LaTeX.md"
+      "basename": "04. 그래프(Graph)",
+      "path": "KDT/Algorithm/04. 그래프(Graph).md"
     },
     {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown & git/markdown (마크다운) +.md"
+      "basename": "03. 완전탐색  I (Exhaustive Search)",
+      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
+    },
+    {
+      "basename": "02. 이차원 리스트(2-2)",
+      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
+      "basename": "01. 이차원 리스트(1-2)",
+      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
     }
   ],
   "omittedPaths": [
