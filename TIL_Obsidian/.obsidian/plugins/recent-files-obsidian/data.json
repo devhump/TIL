@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+      "basename": "04. App URL mapping & Template namespace",
+      "path": "KDT/Django/04. App URL mapping & Template namespace.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "05. Namespace",
+      "path": "KDT/Django/05. Namespace.md"
     },
     {
-      "basename": "04. Semantic tag",
-      "path": "KDT/Web/04. Semantic tag.md"
+      "basename": "03. Variable Routing & Template inheritance & sending-retrieving data",
+      "path": "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md"
+    },
+    {
+      "basename": "02. request & response",
+      "path": "KDT/Django/02. request & response.md"
+    },
+    {
+      "basename": "17. Axios",
+      "path": "KDT/Django/17. Axios.md"
+    },
+    {
+      "basename": "01. Django Intro",
+      "path": "KDT/Django/01. Django Intro.md"
+    },
+    {
+      "basename": "10. Event",
+      "path": "KDT/Web/10. Event.md"
+    },
+    {
+      "basename": "09. ECMA Script",
+      "path": "KDT/Web/09. ECMA Script.md"
     },
     {
       "basename": "08. Javascript",
@@ -27,6 +47,18 @@
     {
       "basename": "05. HTML & Bootstrap",
       "path": "KDT/Web/05. HTML & Bootstrap.md"
+    },
+    {
+      "basename": "02. 이차원 리스트(2-2)",
+      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "04. Semantic tag",
+      "path": "KDT/Web/04. Semantic tag.md"
     },
     {
       "basename": "03. CSS Position",
@@ -47,38 +79,6 @@
     {
       "basename": "03. Basic Func & GROUP BY & HAVING & ALTER TABLE",
       "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
-    },
-    {
-      "basename": "02. WHERE & LIKE & ORDER BY",
-      "path": "KDT/DB/02. WHERE & LIKE & ORDER BY.md"
-    },
-    {
-      "basename": "01. DB & RDBMS & SQL CRUD",
-      "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
-    },
-    {
-      "basename": "Debugging with VS Code+",
-      "path": "_others_/Debugging with VS Code+.md"
-    },
-    {
-      "basename": "06. 코딩 테스트 준비 (기본)",
-      "path": "KDT/Algorithm/06. 코딩 테스트 준비 (기본).md"
-    },
-    {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
-      "basename": "04. 그래프(Graph)",
-      "path": "KDT/Algorithm/04. 그래프(Graph).md"
-    },
-    {
-      "basename": "03. 완전탐색  I (Exhaustive Search)",
-      "path": "KDT/Algorithm/03. 완전탐색  I (Exhaustive Search).md"
-    },
-    {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
     }
   ],
   "omittedPaths": [
