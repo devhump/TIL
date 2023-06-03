@@ -277,6 +277,7 @@ whereis ls
 	- `*sample`, `pict?data` 등
 
 - 주요 와일드 카드
+
 | 기호           | 기능                              | 표기 예               | 의미                                               |
 | :--------------: | :--------------------------------: | :---------------------: | :-------------------------------------------------- |
 | [ ]             | [] 안의 임의의 1문자              | `[dog]` <br>`[a-z]`   | d,o,g라는 세개의 문자<br>a부터 z까지의 모든 알파벳 |
@@ -646,6 +647,7 @@ chmod o+w sample.txt
 ![|500](assets/Linux%20note-10.png)
 
 #### 수치를 사용한 권한 설정
+
 | 권한              | 수치 |
 | ----------------- | ---- |
 | r (읽기 허가)     | 4    |
@@ -1104,3 +1106,228 @@ systemctl enable gdm.service # GNOME을 시작
 - UNIX가 **EUC** (한국어의 경우 **EUC-KR**)을 표준으로 한데 비해, Windows는 **CP949**를 표준으로 삼아 왔다. 
 - 최근에는 다국어를 나타낼 수 있는 **UTF-8**이라는 문자 코드가 표준으로 사용되고 있다. 
 - 지역 설정의 한 예로는 로케일(locale)이 있는데, 한국어를 나타내는 LANG 변수 값은 **ko_KR.UTF-8**이다.
+
+#### 문자코드 
+- 한국어를 이용할 수 있는 주요 코드에는 **EUR_KR, CP949**가 있다. 이 문자 코드가 정확하게 전당되어야 문자/기호가 바르게 표시된다.
+- 최근에는 Unicode의 일종인 **UTF-8**이 표준으로 사용된다. 
+
+| 한국어 대응 문자 코드 | 특징                                                                                                                                                             |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EUR_KR                   | windows나 osX 이전의 Mac에서 표준으로 채택 되었다.                                                                                                               |
+| CP949                    | windows의 기본 코드 페이지로, EUR-KR의 확장형이다.                                                                                                               |
+| EUR-KR                   | UNIX를 중심으로 인터넷에서 자주 사용된다. <br>EUR(Extended UNIX Code)라는 이름에서 알 수 있듯이,<br> UNIX로 영어 이외의 언어를 표현하는데 사용된다.                  |
+| UTF-8                    | Unicode의 일종으로, ASCII 코드와 호환이 된다.                                                                                                                    |
+| UTF-16                   | Unicode의 일종으로, ASCII 코드와 호환이 되지 않는다.<br>BE(Big Endian)와 LE(Little Endian)의 두 종료가 있다.<br>Windows에서 Unicode인 경우 UFF_16 LE를 가르킨다. |
+
+
+#### 로케일
+- 언어나 통화 등을 포함한 지역 정보를 **로케일**이라고 한다. 로케일은 쉘이나 애플리케이션의 표시 및 동작에 영향을 준다. 
+
+##### 현재의 로케일 확인
+- **locale** 명령을 사용하면 현재 로케일의 설정을 확인할 수 있다.
+```shell
+$ locale
+# LANG 변수 → 환경변수의 일종이다
+LANG=ko_KR.eucKR # 언어_지역.문자코드
+LC_CTYPE="ko_KR.eucKR"     # 문자종별
+LC_NUMERIC="ko_KR.eucKR"   # 수치 표기
+LC_TIME="ko_KR.eucKR"      # 일시 표기
+LC_COLLATE="ko_KR.eucKR"   # 조합 순서
+LC_MONETARY="ko_KR.eucKR"  # 통화 표기
+```
+
+![](assets/Linux%20note-15.png)
+
+##### 로케일 설정
+- 사용 언어, 지역, 문자코드는 LANG이라고 하는 환경 변수로 통합하여 설정한다. LANG 변수를 설정하려면 export 명령을 사용한다. 
+```shell
+export LANG=ko_KR.UTF-8
+```
+- 👉 export : 환경변수나 쉘 변수 값을 설정한다. 
+
+##### 기타 로케일
+- en_GB.UTF-8 : 영국
+- en_CA.UTF-8 : 캐나다
+- en_US.UTF-8 : 미국
+- `export LANG=C` 라고 지정하면, 로케일 지정이 없는 상태, 컴퓨터 본래의 언어를 사용하는 설정이 된다. C는 common의 약자이다. 
+
+- `windows키` + `스페이스`로 일반적인 입력(영어)와 한국어 입력을 전환할 수 있다. 
+
+### 고도의 조작 
+### SSH에 의한 원격 조작
+- SSH(Secure SHell)는 네트워크로 연결된 다른 컴퓨터를 원격으로 조작하기 위한 프로그램이다. 통신이 암호화되므로 안전하게 통신할 수 있다. 
+
+#### ssh 명령
+- SSH를 사용해 처음 접속하려면 **ssh** 명령을 사용해야 한다. 
+- 종료하는 경우는 exit라고 입력한다. 
+```shell
+ssh testman02@sample2.cyber.co.kr
+# ssh 사용자명@호스트명
+```
+- 현재의 사용자명으로 로그인할 경우, 호스트명만 입력해도 된다. 
+
+
+#### SFTP
+- SFTP(SSH File Transfer Protocol)은 TCP/IP 네트워크로 연결된 다른 컴퓨터와 파일을 전송하기 위한 프로토콜이다. 
+
+##### SFTP 접속
+- SFTP 서버에 접속하려면 **sftp** 명령을 사용한다. 
+- 종료하려면 quit을 입력한다. 
+```shell
+sftp user-name@sample2.cyber.co.kr
+# sftp 사용자명@호스트명
+```
+
+- 다운로드에는 **get**명령, 업로드에는 **put** 명령을 이용한다. (FTP 명령어)
+
+
+#### 애플리케이션의 설치
+```shell
+sample-1.0.1a-1.tar.gz
+# 프로크램 또는 패키지명.버전.개정.확장자
+```
+- 해당 프로그램을 다운받은 뒤,  `tar xvzf 파일명`으로 실행한다.
+
+- 배포형식이 바이너리 형식인 경우 컴파일 과정이 필요하다. 
+```shell
+./configure
+
+make
+
+make install
+```
+
+#### 패키지 관리 시스템이란
+- 패키지 관리 시스템은 설치에 필요한 파일을 한데 모은 **패키지 파일**을 사용해 설치부터 삭제까지 관리한다. 
+	- centOS → RPM 형식
+	- Ubuntu → deb 형식
+	- 그 외 → tgz 형식
+
+##### RPM
+- RPM(Redhat Package Manager)
+```shell
+# 설치 및 업그레이드
+rpm -ivh sample-1.0.1a-1.rpm
+# rpm -옵션 패키지의 파일명
+# -ivh 신규설치
+# 이때, vh는 진행 상황 등 상세 표시를 하는 옵션
+# -Uvh 강제적으로 최신 버전으로 업그레이드(없는 것은 신규설치)
+# -Fvh 설치 완료된 패키지만 갱신
+
+## 삭제
+rpm -e sample
+
+## 설치 상태 확인
+rpm -qa | grep sample
+# qa 모든 설치가 완료된 패키지(a)를 리스트 업(q)
+```
+
+
+### dnf
+- dnf(Dandified Yum)는 네트워크를 통한 RPM용 패키지 파일의 업데이트(갱신) 정보를 섬색하여 필요에 따라 업데이트 하는 시스템이다. 의존 관계가 있는 패키지도 찾아서 한꺼번에 설치한다. 
+
+```shell
+# 업데이트 정보 확인 
+dnf check-update 
+
+# 업데이트
+dnf update sample02 sample03
+# 파일명 지정하지 않으면 갱신 가능한 모든 패키지가 대상이 된다.
+
+# 설치
+dnf install sample03
+
+# 삭제
+dnf remove sample03
+```
+
+- Yum(Yellow dog updater, Modified)
+	- dnf의 전신인 명령어로 yum이 있다. dnf는 yum과의 호환성을 유지하면서 안정성과 속도를 향상 시켰다. yum 명령 조작은 dnf와 거의 같다. 
+
+
+#### 로그 관리
+- 시스템의 로그 → 정상적으로 작동하고 있음을 나타내는 정보나 오류, 트러블 정보는 로그로 로그파일에 남겨진다. 
+
+- Linux의 대표적인 로그 파일(CentOS 8 기준)
+
+| 로그 파일         | 역할                      |
+| ----------------- | ------------------------- |
+| /var/log/boot.log | 커널 시작 시의 기록       |
+| /var/log/cron     | cron의 처리와 관련된 기록 |
+| /var/log/lastlog  | 마지막의 로그인 기록      |
+| /var/log/messages | 시스템 전체의 기록        |
+| /var/log/secure   | 인증과 관련된 기록        |
+| /var/log/wtmp     | 로그인 기록               |
+
+- logrotate는 점점 커지는 로그파일을 정기적으로 파일에 백업하기 위한 프로그램이다. 
+	- 백업 시점이나 남겨둘 파일 수를 /etc/logrotate.conf 파일에서 설정할 수 있다. 
+
+
+### 부록
+#### GUI 활성 및 비활성 명령어
+
+- GUI 활성 및 비활성 (centOS)
+```shell
+# GUI 비활성
+sudo systemctl disable gdm
+
+# GUI 재활성
+sudo systemctl enable gdm
+sudo reboot
+```
+
+- GUI 활성 및 비활성 (ubuntu)
+```shell
+# GUI 비활성
+sudo systemctl set-default multi-user.target
+
+# GUI 재활성
+sudo systemctl set-default graphical.target
+sudo reboot
+```
+
+
+#### 마운트
+- 마운트란 HDD, CD-ROM 등의 드라이브를 이용하기 위한 장치이다. 
+- LInux 시스템에서는 개별 드라이브라는 개념이 없고, 모두 루트 디렉터리에 접속(마운트)된 디렉터리로 취급한다.
+
+```shell
+mount -t iso9660 /dev/cdrom /mnt/cdrom
+
+unmount /mnt/cdrom
+```
+
+#### 주요 파일 형식
+
+| BMP        | .bmp       | 바이너리             | 일반적인 비트맵 이미지 파일이다.                                                                                                             |
+| ---------- | ---------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| CSV        | .csv       | 텍스트               | Comma-Seperated Valuese<br>,(콤마) 등의 구분된 문자로 파일을 구분하여 한 줄에 하나의 레코드를 나타내는 데이터 파일이다.                                                 |
+| DAT        | .dat       | 텍스트               | 데이터 저장용 파일이다.                                                                                                                      |
+| Document   | .doc       | 텍스트               | 문서 저장용 파일이다. MS word도 같은 확장자를 사용하고 있는데, 이것은 서식 데이터를 포함하는 바이너리 데이터로 되어 있다.                    |
+| EPS        | .eps       | 텍스트 또는 바이너리 | PostScript에서 사용하는 이미지 파일이다.                                                                                                     |
+| Gzip       | .gz        | 바이너리             | 비가역 압축 파일이다.                                                                                                                        |
+| JSON       | .json      | 텍스트               | JavaScript Object Notation<br>사람이 읽고 쓰기가 용이하고, 컴퓨터도 이해하기 쉬운 데이터 형식이다.                                                                         |
+| LOG        | .log       | 텍스트               | 로그를 저장하기 위한 파일이다.                                                                                                               |
+| mp3        | .mp3       | 바이너리             | MPEG-1 Audio Layer-3<br>비가역 압축 사운드 파일이다.                                                                                                                 |
+| mp4        | .mp4       | 바이너리             | MPEG-4 Part14<br>다양한 사운드 및 동영상을 기록하기 위한 파일이다.                                                                                            |
+| MPEG       | .mpg/.mpeg | 바이너리             | 비가역 압축 동영상 파일이다.                                                                                                                 |
+| PDF        | .pdf       | 바이너리             | Adobe Acrobat에서 사용하는 문서 파일이다.                                                                                                    |
+| PNG        | .png       | 바이너리             | Portable Network Graphics<br>이미지 파일이다.                                                                                                                             |
+| PostScript | .ps        | 텍스트 또는 바이너리 | PostScript에서 사용하는 문서 파일이다.                                                                                                       |
+| svg        | .svg       | 텍스트               | Scalable Vector Graphics<br>벡터 형식의 이미지 파일이다.                                                                                                                 |
+| S shell    | .sh        | 텍스트               | 쉘 스크립트 파일이다.                                                                                                                        |
+| TAR        | .tar       | 바이너리             | TAR에서 사용하는 압축파일이다.<br>`tar svf sample.tar` 명령어로 압축해제 할 수 있다.<br>옵션으로 gzip기능을 쓰면, .tar.gz라는 확장자가 된다. |
+| Z 형식     | .z         | 바이너리             | compress 명령에서 사용하는 압축파일이다.<br>`uncompress sample.z`로 압축해제 할 수 있다.                                                     |
+
+
+#### 주요 디스트리뷰션
+
+| 계열                    | 디스트리뷰션                                                     |
+| ----------------------- | ---------------------------------------------------------------- |
+| Red hat                 | RHEL(Red Hat Enterprise Linux), CentOS, Fedora, Scientific Linux |
+| Debian                  | Ununtu, Debian GUN/Linux, Raspdian                               |
+| 그 외                   | openSuSE                                                         |
+| BSD (오픈 소스 Unix OS) | FreeBSD, NetBSD, OpenBSD, Darwin                                 |
+| Linux에서 파생한 OS     | Android                                                          |
+
+

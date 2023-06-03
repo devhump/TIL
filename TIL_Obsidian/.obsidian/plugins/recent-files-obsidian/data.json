@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux note",
+      "path": "IT & SC Basic/Linux note.md"
+    },
+    {
       "basename": "09. Django Auth",
       "path": "KDT/Django/09. Django Auth.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
-    },
-    {
-      "basename": "04. Semantic tag",
-      "path": "KDT/Web/04. Semantic tag.md"
     }
   ],
   "omittedPaths": [
