@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Jump to Python",
+      "path": "Jump to Python.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "Linux note",
       "path": "IT & SC Basic/Linux note.md"
+    },
+    {
+      "basename": "06. 딕셔너리(Dictionary)",
+      "path": "KDT/Data structure/06. 딕셔너리(Dictionary).md"
+    },
+    {
+      "basename": "08. 힙(Heap), 셋(set)",
+      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
+    },
+    {
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
     },
     {
       "basename": "09. Django Auth",
@@ -55,30 +75,6 @@
     {
       "basename": "09. ECMA Script",
       "path": "KDT/Web/09. ECMA Script.md"
-    },
-    {
-      "basename": "08. Javascript",
-      "path": "KDT/Web/08. Javascript.md"
-    },
-    {
-      "basename": "07. Bootstrap Grid System",
-      "path": "KDT/Web/07. Bootstrap Grid System.md"
-    },
-    {
-      "basename": "06. Bootstrap Component",
-      "path": "KDT/Web/06. Bootstrap Component.md"
-    },
-    {
-      "basename": "05. HTML & Bootstrap",
-      "path": "KDT/Web/05. HTML & Bootstrap.md"
-    },
-    {
-      "basename": "02. 이차원 리스트(2-2)",
-      "path": "KDT/Algorithm/02. 이차원 리스트(2-2).md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     }
   ],
   "omittedPaths": [

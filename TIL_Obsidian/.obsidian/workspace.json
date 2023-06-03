@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "dd9947aa6c2b6074",
+            "id": "3ede37c2c4daef8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT & SC Basic/Linux note.md",
+                "file": "Jump to Python.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT & SC Basic/Linux note.md",
+                "file": "Jump to Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT & SC Basic/Linux note.md",
+                "file": "Jump to Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT & SC Basic/Linux note.md"
+                "file": "Jump to Python.md"
               }
             }
           },
@@ -193,26 +193,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dd9947aa6c2b6074",
+  "active": "3ede37c2c4daef8b",
   "lastOpenFiles": [
+    "devhump's TIL Index.md",
+    "Jump to Python.md",
+    "assets/Jump to Python-7.png",
+    "assets/Jump to Python-6.png",
+    "assets/Jump to Python-5.png",
+    "assets/Jump to Python-4.png",
+    "assets/Jump to Python-4.png",
+    "assets/Jump to Python-3.png",
+    "assets/Jump to Python-2.png",
+    "assets/Jump to Python-1.png",
+    "assets/Jump to Python.png",
+    "assets",
+    "IT & SC Basic/Linux note.md",
+    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
+    "KDT/Data structure/08. 힙(Heap), 셋(set).md",
+    "KDT/Data structure/04. 리스트(List).md",
     "IT & SC Basic/assets/Linux note-15.png",
     "KDT/Django/09. Django Auth.md",
-    "KDT/Django/assets/09. Django Auth-11.png",
-    "KDT/Django/assets/09. Django Auth-10.png",
     "KDT/Django/05. Namespace & Model.md",
     "KDT/Django/16. Many to many relationship (User-User).md",
     "KDT/Django/15. Many to many relationship.md",
     "KDT/Django/07. Django ModelForm.md",
-    "KDT/Django/assets/05. Namespace & Model.png",
     "KDT/Django/06. UPDATE.md",
     "KDT/Django/04. App URL mapping & Template namespace.md",
-    "KDT/Django/assets/04. App URL mapping & Template namespace-7.png",
-    "KDT/Django/assets/04. App URL mapping & Template namespace-6.png",
-    "KDT/Django/assets/04. App URL mapping & Template namespace-5.png",
-    "KDT/Django/assets/04. App URL mapping & Template namespace-2.png",
-    "KDT/Django/assets/04. App URL mapping & Template namespace-4.png",
-    "KDT/Django/assets/04. App URL mapping & Template namespace-3.png",
-    "KDT/Django/assets/04. App URL mapping & Template namespace-1.png",
     "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md",
     "KDT/Django/02. request & response.md",
     "KDT/Django/17. Axios.md",
@@ -224,15 +230,8 @@
     "KDT/Web/06. Bootstrap Component.md",
     "KDT/Web/05. HTML & Bootstrap.md",
     "KDT/Algorithm/02. 이차원 리스트(2-2).md",
-    "devhump's TIL Index.md",
     "KDT/Web/04. Semantic tag.md",
-    "KDT/Web/04. Symantic tag.md",
-    "KDT/Web/03. CSS Position.md",
-    "KDT/Web/02. CSS.md",
-    "KDT/Web/01. Happy Web.md",
-    "KDT/DB/04. CASE & SubQuery.md",
     "_others_/vscode_shortcuts_(mac).pdf",
-    "assets",
     "IT & SC Basic/assets",
     "IT & SC Basic"
   ]
