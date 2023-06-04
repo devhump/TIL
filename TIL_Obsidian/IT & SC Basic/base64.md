@@ -33,4 +33,4 @@ LCBleGNlZWRzIHRoZSBzaG9ydCB2ZWhlbWVuY2Ugb2YgYW55IGNhcm5hbCBwbGVhc3VyZS4=
 
 ![](assets/base64-1.png)
 
-- [[SWEA_1928 Base64 Decoder]]
+- [[../Algo Solving/SWEA/SWEA_1928 Base64 Decoder]]

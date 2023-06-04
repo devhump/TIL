@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "3ede37c2c4daef8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jump to Python.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -118,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jump to Python.md",
+                "file": "devhump's TIL Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jump to Python.md",
+                "file": "devhump's TIL Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jump to Python.md"
+                "file": "devhump's TIL Index.md"
               }
             }
           },
@@ -191,45 +178,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3ede37c2c4daef8b",
+  "active": "3599e6f314e15e12",
   "lastOpenFiles": [
+    "Algo Solving/SWEA/assets/SWEA_1928 Base64 Decoder.png",
+    "Algo Solving/SWEA/SWEA_1220 Magnetic.md",
+    "Algo Solving/SWEA/assets/SWEA_1974 스도쿠 검증.png",
+    "Algo Solving/SWEA/assets/SWEA_1928 Base64 Decoder-1.png",
+    "Algo Solving/SWEA/assets",
+    "Algo Solving/assets/code.png",
+    "Algo Solving/assets/code2.png",
+    "Algo Solving/assets/code (1).png",
+    "Algo Solving/SWEA/SWEA_1979 어디에 단어가 들어갈 수 있을까.md",
+    "devhump's TIL Index.md",
+    "Algo Solving/SWEA",
+    "Algo Solving/SWEA/SWEA_1217 거듭제곱.md",
+    "KDT/Data structure/04. 리스트(List).md",
+    "Jump to Python.md",
+    "무제 파일.md",
+    "Algo Solving/BOJ_9455 박스.md",
+    "Algo Solving/다양한 방법으로 정렬하기 (BOJ_1931).md",
+    "Algo Solving/델타 탐색 문제.md",
+    "Algo Solving/무방향 & 유방향 그래프 표현하기.md",
+    "Algo Solving/문자열 치환 하기.md",
+    "Algo Solving/시뮬레이션.md",
+    "Algo Solving/BFS & DFS 실전 문제 풀이.md",
+    "Algo Solving/SWEA/SWEA_1974 스도쿠 검증.md",
+    "Algo Solving/SWEA/SWEA_1928 Base64 Decoder.md",
     "assets/Jump to Python-17.png",
     "assets/Jump to Python-16.png",
     "assets/Jump to Python-15.png",
     "assets/Jump to Python-14.png",
-    "assets/Jump to Python-13.png",
-    "devhump's TIL Index.md",
-    "assets/Jump to Python-14.png",
-    "Jump to Python.md",
-    "assets/Jump to Python-12.png",
-    "assets/Jump to Python-11.png",
-    "assets/Jump to Python-10.png",
-    "assets/Jump to Python-9.png",
-    "assets/Jump to Python-8.png",
     "assets",
     "IT & SC Basic/Linux note.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
-    "KDT/Data structure/04. 리스트(List).md",
     "KDT/Django/09. Django Auth.md",
     "KDT/Django/05. Namespace & Model.md",
     "KDT/Django/16. Many to many relationship (User-User).md",
     "KDT/Django/15. Many to many relationship.md",
     "KDT/Django/07. Django ModelForm.md",
     "KDT/Django/06. UPDATE.md",
-    "KDT/Django/04. App URL mapping & Template namespace.md",
-    "KDT/Django/03. Variable Routing & Template inheritance & sending-retrieving data.md",
-    "KDT/Django/02. request & response.md",
-    "KDT/Django/17. Axios.md",
-    "KDT/Django/01. Django Intro.md",
-    "KDT/Web/10. Event.md",
-    "KDT/Web/09. ECMA Script.md",
-    "KDT/Web/08. Javascript.md",
-    "KDT/Web/07. Bootstrap Grid System.md",
-    "KDT/Web/06. Bootstrap Component.md",
-    "KDT/Web/05. HTML & Bootstrap.md",
-    "KDT/Algorithm/02. 이차원 리스트(2-2).md",
-    "KDT/Web/04. Semantic tag.md",
     "_others_/vscode_shortcuts_(mac).pdf",
     "IT & SC Basic/assets",
     "IT & SC Basic"
