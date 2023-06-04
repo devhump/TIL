@@ -5,6 +5,10 @@
       "path": "Jump to Python.md"
     },
     {
+      "basename": "Jump to Python-13",
+      "path": "assets/Jump to Python-13.png"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "10. Event",
       "path": "KDT/Web/10. Event.md"
-    },
-    {
-      "basename": "09. ECMA Script",
-      "path": "KDT/Web/09. ECMA Script.md"
     }
   ],
   "omittedPaths": [

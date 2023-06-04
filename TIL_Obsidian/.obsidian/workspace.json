@@ -90,13 +90,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -195,23 +193,24 @@
   },
   "active": "3ede37c2c4daef8b",
   "lastOpenFiles": [
+    "assets/Jump to Python-17.png",
+    "assets/Jump to Python-16.png",
+    "assets/Jump to Python-15.png",
+    "assets/Jump to Python-14.png",
+    "assets/Jump to Python-13.png",
     "devhump's TIL Index.md",
+    "assets/Jump to Python-14.png",
     "Jump to Python.md",
-    "assets/Jump to Python-7.png",
-    "assets/Jump to Python-6.png",
-    "assets/Jump to Python-5.png",
-    "assets/Jump to Python-4.png",
-    "assets/Jump to Python-4.png",
-    "assets/Jump to Python-3.png",
-    "assets/Jump to Python-2.png",
-    "assets/Jump to Python-1.png",
-    "assets/Jump to Python.png",
+    "assets/Jump to Python-12.png",
+    "assets/Jump to Python-11.png",
+    "assets/Jump to Python-10.png",
+    "assets/Jump to Python-9.png",
+    "assets/Jump to Python-8.png",
     "assets",
     "IT & SC Basic/Linux note.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
     "KDT/Data structure/04. 리스트(List).md",
-    "IT & SC Basic/assets/Linux note-15.png",
     "KDT/Django/09. Django Auth.md",
     "KDT/Django/05. Namespace & Model.md",
     "KDT/Django/16. Many to many relationship (User-User).md",
