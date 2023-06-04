@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Jump to Python",
+      "path": "Jump to Python.md"
+    },
+    {
+      "basename": "SWEA_1979 어디에 단어가 들어갈 수 있을까",
+      "path": "Algo Solving/SWEA/SWEA_1979 어디에 단어가 들어갈 수 있을까.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -33,24 +41,12 @@
       "path": "Algo Solving/assets/code (1).png"
     },
     {
-      "basename": "SWEA_1979 어디에 단어가 들어갈 수 있을까",
-      "path": "Algo Solving/SWEA/SWEA_1979 어디에 단어가 들어갈 수 있을까.md"
-    },
-    {
       "basename": "SWEA_1217 거듭제곱",
       "path": "Algo Solving/SWEA/SWEA_1217 거듭제곱.md"
     },
     {
       "basename": "04. 리스트(List)",
       "path": "KDT/Data structure/04. 리스트(List).md"
-    },
-    {
-      "basename": "Jump to Python",
-      "path": "Jump to Python.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "무제 파일.md"
     },
     {
       "basename": "BOJ_9455 박스",
