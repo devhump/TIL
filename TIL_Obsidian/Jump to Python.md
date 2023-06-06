@@ -1545,3 +1545,460 @@ Mo Tu We Th Fr Sa Su
 >>> calendar.monthrange(2015, 12)
 (1, 31) # 15.12.01은 화요일이고, 31일까지 있다. 
 ```
+
+
+#### random
+- random은 난수를 발생 시키는 모듈이다
+- random.random() 은 0.0에서 1.0 사이의 실수 중에서 난수 값을 돌려준다
+- random.randint(1, 10) 는 1에서 10 사이의 정수 중에서 난수 값을 돌려준다.
+```python
+>>> import random
+>>> random.random()
+0.05884093823005654
+
+>>> random.randint(1,10)
+9
+```
+
+```python
+# random_pop.py
+import random
+def random_pop(data):
+	number = random.randint(0, len(data)-1)
+	return data.pop(number)
+
+if __name__ == "__main__":
+	data = [1, 2, 3, 4, 5]
+	while data: print(random_pop(data))
+```
+
+```shell
+PS C:\doit> python .\random_pop.py
+5
+2
+1
+3
+4
+```
+
+- 이때, random 모듈의 choice 함수를 이용하여 더 직관적으로 만들 수 있다.
+```python
+def random_pop(data):
+	number = random.choice(data)
+	data.remove(number)
+	return number
+```
+
+- 리스트 항목을 무작위로 섞고 싶을 떄는 random.shuffle 함수를 사용한다.
+```python
+>>> import random
+>>> data = [1, 2, 3, 4, 5]
+>>> random.shuffle(data)
+>>> data
+[5, 1, 3, 4, 2]
+```
+
+#### webbrowser
+- webbrowser는 자신의 시스템에서 사용하는 기본 웹 브라우저를 자동으로 실행하는 모듈이다. 다음 예제는 웹 브라우저를 자동으로  실행하고 해당 URL인 google.com으로 가게 해준다.
+```python
+>>> import webbrowser
+>>> webbrowser.open("http://google.com")
+```
+- webbrowser의 open 함수는 웹 브라우저가 이미 실행된 상태라면 입력 주소로 이동하며, 웹 브라우저가 실행되지 않은 상태라면 새로 웹 브라우저를 실행한 후 해당 주소로 이동한다. 
+
+```python
+>>> webbrowser.open_new("http://google.com")
+```
+- open_new 함수는 이미 웹 브라우저가 실행된 상태이더라도 새로운 창으로 해당 주소가 열리게 한다.
+
+```ad-tip
+- threading 모듈
+	- 컴퓨터에서 동작하고 있는 프로그램을 프로세스라고 한다. 보통 1개의 프로세스는 한 가지 일만 하지만, 스레드를 사용하면 한 프로세스 안에서 2가지 또는 그 이상의 일을 동시에 수행할 수 있다.
+```
+
+
+### 간단한 메모장 만들기
+```python
+# C:/doit/memo.py
+import sys 
+
+option = sys.argv[1]
+memo = sys.argv[2]
+
+print(option)
+print(memo)
+```
+
+![](assets/Jump%20to%20Python-21.png)
+
+- txt 파일에 값 저장하도록 수정하기
+```python
+# C:/doit/memo.py
+import sys 
+
+option = sys.argv[1]
+
+if option == '-a':
+	memo = sys.argv[2]
+	f = open('memo.txt', 'a')
+	f.write(memo)
+	f.write('\n')
+	f.close()
+```
+![](assets/Jump%20to%20Python-22.png)
+
+![](assets/Jump%20to%20Python-23.png)
+
+- 메모 파일(txt) 읽도록 수정하기
+```python
+# C:/doit/memo.py
+import sys 
+
+option = sys.argv[1]
+
+if option == '-a':
+	memo = sys.argv[2]
+	f = open('memo.txt', 'a')
+	f.write(memo)
+	f.write('\n')
+	f.close()
+elif option == '-v':
+	f = open('memo.txt')
+	memo = f.read()
+	f.close()
+	print(memo)
+```
+
+![](assets/Jump%20to%20Python-24.png)
+
+### 하위 디렉터리 검색하기
+```python
+# C:/doit/sub_dir_search.py
+
+import os
+
+def search(dirname):
+	filenames = os.listdir(dirname)
+	for filename in filenames:
+		full_filename = os.path.join(dirname, filename)
+		print(full_filename)
+
+search("C:/")
+```
+
+![](assets/Jump%20to%20Python-25.png)
+
+- 파이썬 파일(.py)만 출력하게 수정하기
+```python
+# C:/doit/sub_dir_search.py
+
+import os
+
+def search(dirname):
+	filenames = os.listdir(dirname)
+	for filename in filenames:
+		full_filename = os.path.join(dirname, filename)
+		ext = os.path.splitext(full_filename)[-1]
+		if ext == '.py':
+			print(full_filename)
+
+search("C:/")
+```
+
+- c:/ 하위 디렉터리에 있는 모든 파이썬 파일 이름 출력하기
+```python
+# C:/doit/sub_dir_search.py
+
+import os
+
+def search(dirname):
+	try:
+		filenames = os.listdir(dirname)
+		for filename in filenames:
+			full_filename = os.path.join(dirname, filename)
+			if os.path.isdir(full_filename):
+				search(full_filename) # 재귀 호출
+			else:
+				ext = os.path.splitext(full_filename)[-1]
+				if ext == '.py':
+					print(full_filename)
+	except PermissionError: 
+	# 접근 권한이 없는 파일 만나도 오류 발생없이 pass
+		pass
+
+search("C:/")
+```
+
+```ad-tip
+- 하위 디렉터리 검색을 쉽게 해주는 os.walk
+	- os.walk를 사용하면 위에서 작성한 코드를 보다 간편하게 만들 수 있다. os.walk는 시작 디렉터리부터 시작하여 그 하위 모든 디렉터리를 차례대로 방문하게 해주는 함수이다.
+	```python
+	import sys
+
+	for (path, dir , files) in os.walk("C:/"):
+		for filename in files:
+		ext = os.path.splitext(filename)[-1]
+		if ext == '.py':
+			print("%s%s" % (path, filename))
+	```
+```
+
+
+### 정규표현식
+- 정규 표현식에서 사용되는 메타문자
+```
+.^$*+?{}[]\|()
+```
+
+#### 문자 클래스 `[]`
+
+- 정규표현식 `[abc]`
+	- a, b, c 증 한 개의 문자와 매치
+
+| 문자열 | 매치여부 | 설명                                                                                        |
+| ------ | -------- | ------------------------------------------------------------------------------------------- |
+| a      | yes      | 'a'는 정규식과 일치하는 'a'가 있으므로 매치                                                 |
+| before | yes      | 'before'는 정규식과 일치하는 'b'가 있으므로 매치                                            |
+| dude   | no       | 'dude'는 정규식과 일치하는 문자인 a,b,c 중 어느 하나도 포함하고 있지 않으므로 매치되지 않음 |
+
+- 하이픈(`-`)을 이용하면 여러 문자열을 한번에 표시할 수 있다.
+```re
+[a-c] : a, b, c
+[a-zA-Z] : 모든 알파벳
+[0-9] : 모든 숫자
+```
+
+- `^`은 반대(not)의 의미를 갖는다
+	- `[^0-9]` : 숫자가 아닌 문자
+
+#### 자주 사용하는 문자 클래스
+
+| 정규표현식 | 설명                                                                                                    |
+| ---------- | ------------------------------------------------------------------------------------------------------- |
+| `\d`       | 숫자와 매치, `[0-9]`와 동일한 표현식이다                                                                |
+| `\D`       | 숫자가 아닌 것과 매치, `[^0-9]`와 동일한 표현식이다.                                                    |
+| `\s`       | whitespace 문자와 매치 `[ \t\n\r\f\v]`와 동일한 표현식.<br> 맨 앞의 빈칸은 공백 문자(space)를 의미한다. |
+| `\S`       | whitespace 문자가 아닌 것과 매치, `[^ \t\n\r\f\v]`와 동일한 표현식.                                     |
+| `\w`       | 문자+숫자(alphanumeric)와 매치, `[a-zA-Z0-9_]`와 동일한 표현식                                          |
+| `\W`       | 문자+숫자(alphanumeric)가 아닌 문자와 매치, `[^a-zA-Z0-9_]`와 동일한 표현식                             |
+
+- whitespace 문자? → space나 tab 처럼 공백을 표현하는 문자
+- ==대문자로 사용된 것은 소문자의 반대임을 추측할 수 있다.==
+
+#### Dot(`.`)
+- 줄바꿈 문자인 `\n`을 제외한 모든 문자와 매치됨을 의미한다. 
+```
+a.b 
+```
+- 👉 a와 b사이에 줄바꿈 문자를 제외한 어떤 문자가 들어가도 모두 매치
+
+- 정규식 `a.b`
+
+| 문자열 | 매치 여부 |
+| ------ | --------- |
+| aab    | yes       |
+| a0b    | yes       |
+| abc    | No        |
+
+```
+a[.]b
+```
+- 👉`"a.b"` 문자열과는 매치, `"a0b"`와는 매치되지 않음
+
+#### 반복(`*`)
+- `*` 앞의 문자가 **0부터** 무한대로 반복될 수 있다는 의미
+```
+ca*t
+```
+
+| 문자열 | 매치여부 | 설명             |
+| ------ | -------- | ---------------- |
+| ct     | yes      | ==a가 0회 반복== |
+| cat    | yes      | a가 1회 반복     |
+| caaat  | yes      | a가 3회 반복     |
+
+#### 반복(`+`)
+- `+` 앞의 문자가  **최소 1번이상** 무한대로 반복될 수 있다는 의미
+```
+ca+t
+```
+
+| 문자열 | 매치여부 | 설명             |
+| ------ | -------- | :----------------: |
+| ct     | No      | ==a가 0회 반복<br>(최소 1회 이상이어야 함)== |
+| cat    | yes      | a가 1회 반복     |
+| caaat  | yes      | a가 3회 반복     |
+
+#### 반복(`{m,n},?`)
+```
+ca{2}t # a가 2번 반복되면 매치
+ca{2,5}t # a가 2~5번 반복되면 매치
+
+ab?c # ← b가 0~1번 사용되면 매치
+```
+
+
+### 파이썬에서 정규 표현식을 지원하는 re 모듈
+- regular expression
+```python
+improt re
+p = re.compile('ab*')
+```
+
+#### 정규식을 사용한 문자열 검색
+- 이제 컴파일된 패턴 객체를 사용하여 문자열 검색을 수행 할 수 있다. 컴파일 된 패턴 객체는 다음과 같은 4가지 메서드를 제공한다.
+	- 패턴이란 정규식을 컴파일한 결과이다.
+
+| 메서드     | 목적                                                                    |
+| ---------- | ----------------------------------------------------------------------- |
+| match()    | 문자열의 처음부터 정규식과 매치되는지 조사한다.                         |
+| search()   | 문자열의 전체를 검색하여 정규식과 매치되는지 조사한다.                  |
+| findall()  | 정규식과 매치되는 모든 문자열(substring)을 리스트로 돌려준다.           |
+| finditer() | 정규식과 매치되는 모든 문자열(substring)을 반복 가능한 객체로 돌려준다. |
+
+- 👉 match, search는 정규식과 매치될 떄는 match 객체를 돌려주고, 매치되지 않을 때는 None을 돌려준다.
+
+#### 예시
+
+```python
+import re
+p = compile('[a-z]+')
+```
+
+##### match 
+- 매치되면 match 객체를, 아닐 경우 None을 돌려준다.
+```python
+m = p.match("python")
+print(m)
+```
+![](assets/Jump%20to%20Python-26.png)
+
+```python
+m = p.match("3 python")
+print(m)
+```
+![](assets/Jump%20to%20Python-27.png)
+
+- 파이썬 정규식 프로그램의 예시
+```python
+p = re.compile(정규표현식)
+m = p.match("조사할 문자열")
+if m:
+	print('Match found', m.group())
+else:
+	print('No match')
+```
+
+
+#### search
+```python
+m = p.search("python")
+print(m)
+```
+![](assets/Jump%20to%20Python-28.png)
+
+```python
+m = p.search("3 python")
+print(m)
+```
+
+![](assets/Jump%20to%20Python-29.png)
+
+
+#### findall
+```python
+>>> result = p.findall("life is too short")
+>>> print(result)
+```
+
+![](assets/Jump%20to%20Python-30.png)
+
+#### finditer
+```python
+>>> result = p.finditer("life is too short")
+>>> print(result)
+```
+![](assets/Jump%20to%20Python-31.png)
+
+```python
+>>> result = p.finditer("life is too short")
+>>> for r in result: print(r)
+```
+
+![](assets/Jump%20to%20Python-32.png)
+
+#### match 객체의 메서드
+
+| 메서드  | 목적                                                   |
+| ------- | ------------------------------------------------------ |
+| group() | 매치된 문자열을 돌려준다.                              |
+| start() | 매치된 문자열의 시작위치를 돌려준다.                   |
+| end()   | 매치된 문자열의 끝 위치를 돌려준다.                    |
+| span()  | 매치된 문자열의 (시작, 끝)에 해당하는 튜플을 돌려준다. |
+
+```python
+>>> import re
+>>> p = re.compile('[a-z]+')
+>>> m = p.match("python")
+>>> m.group()
+'python'
+>>> m.start()
+0
+>>> m.end()
+6
+>>> m.span()
+(0, 6)
+```
+
+```python
+>>> import re
+>>> p = re.compile('[a-z]+')
+>>> m = p.match("3 python")
+>>> m.group()
+'python'
+>>> m.start()
+2
+>>> m.end()
+8
+>>> m.span()
+(2, 8)
+```
+
+```ad-tip 
+- 모듈 단위로 수행하기
+	- 지금까지 우리는 re.compile을 사용하여 컴파일된 패턴 객체로 그 이후의 작업을 수행했다. re 모듈은 이를 조금 더 축약한 형태로 사용할 수 있는 방법을 제공한다. 
+	```python
+	>>> p = re.compile('[a-z]+')
+	>>> m = p.match("python")
+	
+	###########################
+	>>> m = re.match('[a-z]+', "python")
+	```
+	- 위 예처럼 컴파일과 match 메서드를 한번에 수행할 수 있다. 보통 한 번 만든 패턴 객체를 여러번 사용할 때는 이 방법보다 re.compile을 사용하는 것이 편하다.
+```
+
+#### 컴파일 옵션
+
+| 옵션이름   | 약어 | 설명 |
+| ---------- | ---- | ---- |
+| DOTALL     | S    | dot 문자(`.`)가 줄바꿈 문자를 포함하여 모든 문자와 매치한다.    |
+| IGNORECASE | I    | 대/소문자와 관계없이 매치한다.      |
+| MULTILINE  | M    |  여러 줄과 매치한다. <br> (`^, $` 메타문자 사용과 관계있는 옵션이다.)    |
+| VERVOSE           |  X    | verbose 모드를 사용한다. <br>(정규식을 보기 편하게 만들 수도 있고, 주석들을 사용할 수도 있다.)     |
+
+- 옵션을 사용할 때는 `re.DOTALL` 처럼 전체 옵션 이름을 써도 되고, `re.S` 처럼 약어를 써도 된다.
+
+##### DOTALL, S
+- `.`메타 문자는 줄바꿈 문자 (`\n`)을 제외한 모든 문자와 매치되는 규칙이 있다. 만약 `\n` 문자도 포함하여 매치하고 싶다면, re.DOTALL 또는 re.S 옵션을 사용해 정규식을 컴파일 하면 된다. 
+```python
+>>> import re
+>>> p = re.compile('a.b')
+>>> m = p.match('a\nb')
+>>> print(m)
+None
+
+>>> p = re.compile('a.b', re.DOTALL)
+>>> m = p.match('a\nb')
+>>> print(m)
+```
+![](assets/Jump%20to%20Python-33.png)
