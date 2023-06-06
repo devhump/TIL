@@ -4,39 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2939e776244ac4fe",
+        "id": "66b541673ed6d64d",
         "type": "tabs",
         "children": [
           {
-            "id": "3599e6f314e15e12",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devhump's TIL Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "999d1ee1d42cae9d",
+            "id": "e366014ab3479655",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jump to Python.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -119,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jump to Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jump to Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Jump to Python.md"
-              }
+              "state": {}
             }
           },
           {
@@ -192,8 +166,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "999d1ee1d42cae9d",
+  "active": "e366014ab3479655",
   "lastOpenFiles": [
+    "devhump's TIL Index.md",
+    "IT & SC Basic/Linux note.md",
+    "Jump to Python.md",
     "assets/Jump to Python-33.png",
     "assets/Jump to Python-32.png",
     "assets/Jump to Python-31.png",
@@ -204,16 +181,13 @@
     "assets/Jump to Python-26.png",
     "assets/Jump to Python-25.png",
     "assets/Jump to Python-24.png",
-    "assets/Jump to Python-23.png",
     "Algo Solving/SWEA/SWEA_1979 어디에 단어가 들어갈 수 있을까.md",
     "무제 파일.md",
-    "devhump's TIL Index.md",
     "Algo Solving/SWEA/SWEA_1220 Magnetic.md",
     "Algo Solving/SWEA/assets",
     "Algo Solving/SWEA",
     "Algo Solving/SWEA/SWEA_1217 거듭제곱.md",
     "KDT/Data structure/04. 리스트(List).md",
-    "Jump to Python.md",
     "Algo Solving/BOJ_9455 박스.md",
     "Algo Solving/다양한 방법으로 정렬하기 (BOJ_1931).md",
     "Algo Solving/델타 탐색 문제.md",
@@ -224,7 +198,6 @@
     "Algo Solving/SWEA/SWEA_1974 스도쿠 검증.md",
     "Algo Solving/SWEA/SWEA_1928 Base64 Decoder.md",
     "assets",
-    "IT & SC Basic/Linux note.md",
     "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "KDT/Data structure/08. 힙(Heap), 셋(set).md",
     "KDT/Django/09. Django Auth.md",

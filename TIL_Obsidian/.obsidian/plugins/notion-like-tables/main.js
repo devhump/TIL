@@ -1058,7 +1058,7 @@ var require_react_development = __commonJS({
           }
           return dispatcher.useContext(Context);
         }
-        function useState4(initialState2) {
+        function useState2(initialState2) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useState(initialState2);
         }
@@ -1066,11 +1066,11 @@ var require_react_development = __commonJS({
           var dispatcher = resolveDispatcher();
           return dispatcher.useReducer(reducer, initialArg, init2);
         }
-        function useRef4(initialValue) {
+        function useRef3(initialValue) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useRef(initialValue);
         }
-        function useEffect4(create, deps) {
+        function useEffect2(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useEffect(create, deps);
         }
@@ -1850,15 +1850,15 @@ var require_react_development = __commonJS({
         exports.useContext = useContext5;
         exports.useDebugValue = useDebugValue2;
         exports.useDeferredValue = useDeferredValue;
-        exports.useEffect = useEffect4;
+        exports.useEffect = useEffect2;
         exports.useId = useId;
         exports.useImperativeHandle = useImperativeHandle;
         exports.useInsertionEffect = useInsertionEffect;
         exports.useLayoutEffect = useLayoutEffect2;
         exports.useMemo = useMemo3;
         exports.useReducer = useReducer;
-        exports.useRef = useRef4;
-        exports.useState = useState4;
+        exports.useRef = useRef3;
+        exports.useState = useState2;
         exports.useSyncExternalStore = useSyncExternalStore3;
         exports.useTransition = useTransition;
         exports.version = ReactVersion;
@@ -2354,9 +2354,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React32 = require_react();
+        var React44 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React32.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React44.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -3877,7 +3877,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React32.Children.forEach(props.children, function(child) {
+                React44.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -4308,7 +4308,7 @@ var require_react_dom_development = __commonJS({
           var warnedForNaNValue = false;
           var warnedForInfinityValue = false;
           var camelize = function(string) {
-            return string.replace(hyphenPattern, function(_3, character) {
+            return string.replace(hyphenPattern, function(_4, character) {
               return character.toUpperCase();
             });
           };
@@ -6124,14 +6124,14 @@ var require_react_dom_development = __commonJS({
         var StrictLegacyMode = 8;
         var StrictEffectsMode = 16;
         var clz32 = Math.clz32 ? Math.clz32 : clz32Fallback;
-        var log = Math.log;
+        var log2 = Math.log;
         var LN2 = Math.LN2;
         function clz32Fallback(x2) {
           var asUint = x2 >>> 0;
           if (asUint === 0) {
             return 32;
           }
-          return 31 - (log(asUint) / LN2 | 0) | 0;
+          return 31 - (log2(asUint) / LN2 | 0) | 0;
         }
         var TotalLanes = 31;
         var NoLanes = 0;
@@ -12038,7 +12038,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React32.Component().refs;
+        var emptyRefsObject = new React44.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -22497,7 +22497,7 @@ var require_react_dom_development = __commonJS({
             unmarkContainerAsRoot(container);
           }
         };
-        function createRoot3(container, options2) {
+        function createRoot4(container, options2) {
           if (!isValidContainer(container)) {
             throw new Error("createRoot(...): Target container is not a DOM element.");
           }
@@ -22856,7 +22856,7 @@ var require_react_dom_development = __commonJS({
               error('You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".');
             }
           }
-          return createRoot3(container, options2);
+          return createRoot4(container, options2);
         }
         function hydrateRoot$1(container, initialChildren, options2) {
           {
@@ -22964,8 +22964,8 @@ var require_use_sync_external_store_shim_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React32 = require_react();
-        var ReactSharedInternals = React32.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var React44 = require_react();
+        var ReactSharedInternals = React44.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -22995,13 +22995,13 @@ var require_use_sync_external_store_shim_development = __commonJS({
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
-        var useState4 = React32.useState, useEffect4 = React32.useEffect, useLayoutEffect2 = React32.useLayoutEffect, useDebugValue2 = React32.useDebugValue;
+        var useState2 = React44.useState, useEffect2 = React44.useEffect, useLayoutEffect2 = React44.useLayoutEffect, useDebugValue2 = React44.useDebugValue;
         var didWarnOld18Alpha = false;
         var didWarnUncachedGetSnapshot = false;
         function useSyncExternalStore3(subscribe2, getSnapshot, getServerSnapshot) {
           {
             if (!didWarnOld18Alpha) {
-              if (React32.startTransition !== void 0) {
+              if (React44.startTransition !== void 0) {
                 didWarnOld18Alpha = true;
                 error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
               }
@@ -23017,7 +23017,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
               }
             }
           }
-          var _useState = useState4({
+          var _useState = useState2({
             inst: {
               value,
               getSnapshot
@@ -23032,7 +23032,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
               });
             }
           }, [subscribe2, value, getSnapshot]);
-          useEffect4(function() {
+          useEffect2(function() {
             if (checkIfSnapshotChanged(inst)) {
               forceUpdate({
                 inst
@@ -23066,7 +23066,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
         var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
         var isServerEnvironment = !canUseDOM2;
         var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore3;
-        var useSyncExternalStore$2 = React32.useSyncExternalStore !== void 0 ? React32.useSyncExternalStore : shim;
+        var useSyncExternalStore$2 = React44.useSyncExternalStore !== void 0 ? React44.useSyncExternalStore : shim;
         exports.useSyncExternalStore = useSyncExternalStore$2;
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
@@ -23098,16 +23098,16 @@ var require_with_selector_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React32 = require_react();
+        var React44 = require_react();
         var shim = require_shim();
         function is(x2, y2) {
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
         var useSyncExternalStore3 = shim.useSyncExternalStore;
-        var useRef4 = React32.useRef, useEffect4 = React32.useEffect, useMemo3 = React32.useMemo, useDebugValue2 = React32.useDebugValue;
+        var useRef3 = React44.useRef, useEffect2 = React44.useEffect, useMemo3 = React44.useMemo, useDebugValue2 = React44.useDebugValue;
         function useSyncExternalStoreWithSelector3(subscribe2, getSnapshot, getServerSnapshot, selector, isEqual) {
-          var instRef = useRef4(null);
+          var instRef = useRef3(null);
           var inst;
           if (instRef.current === null) {
             inst = {
@@ -23162,7 +23162,7 @@ var require_with_selector_development = __commonJS({
             return [getSnapshotWithSelector, getServerSnapshotWithSelector];
           }, [getSnapshot, getServerSnapshot, selector, isEqual]), getSelection = _useMemo[0], getServerSelection = _useMemo[1];
           var value = useSyncExternalStore3(subscribe2, getSelection, getServerSelection);
-          useEffect4(function() {
+          useEffect2(function() {
             inst.hasValue = true;
             inst.value = value;
           }, [value]);
@@ -24322,7 +24322,7 @@ var require_lodash = __commonJS({
         return string.match(reUnicodeWord) || [];
       }
       var runInContext = function runInContext2(context) {
-        context = context == null ? root : _3.defaults(root.Object(), context, _3.pick(root, contextProps));
+        context = context == null ? root : _4.defaults(root.Object(), context, _4.pick(root, contextProps));
         var Array2 = context.Array, Date2 = context.Date, Error2 = context.Error, Function2 = context.Function, Math2 = context.Math, Object2 = context.Object, RegExp2 = context.RegExp, String2 = context.String, TypeError2 = context.TypeError;
         var arrayProto = Array2.prototype, funcProto = Function2.prototype, objectProto = Object2.prototype;
         var coreJsData = context["__core-js_shared__"];
@@ -29056,17 +29056,17 @@ var require_lodash = __commonJS({
         }
         return lodash;
       };
-      var _3 = runInContext();
+      var _4 = runInContext();
       if (typeof define == "function" && typeof define.amd == "object" && define.amd) {
-        root._ = _3;
+        root._ = _4;
         define(function() {
-          return _3;
+          return _4;
         });
       } else if (freeModule) {
-        (freeModule.exports = _3)._ = _3;
-        freeExports._ = _3;
+        (freeModule.exports = _4)._ = _4;
+        freeExports._ = _4;
       } else {
-        root._ = _3;
+        root._ = _4;
       }
     }).call(exports);
   }
@@ -29079,7 +29079,7 @@ var require_react_jsx_runtime_development = __commonJS({
     if (true) {
       (function() {
         "use strict";
-        var React32 = require_react();
+        var React44 = require_react();
         var REACT_ELEMENT_TYPE = Symbol.for("react.element");
         var REACT_PORTAL_TYPE = Symbol.for("react.portal");
         var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
@@ -29105,7 +29105,7 @@ var require_react_jsx_runtime_development = __commonJS({
           }
           return null;
         }
-        var ReactSharedInternals = React32.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React44.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -30142,7 +30142,7 @@ var require_stylis = __commonJS({
       function U2() {
         return e.character;
       }
-      function _3() {
+      function _4() {
         e.character = e.position > 0 ? M2(e.characters, --e.position) : 0;
         if (e.column--, e.character === 10)
           e.column = 1, e.line--;
@@ -30361,7 +30361,7 @@ var require_stylis = __commonJS({
               if (d3 < 1) {
                 if (m3 == 123)
                   --d3;
-                else if (m3 == 125 && d3++ == 0 && _3() == 125)
+                else if (m3 == 125 && d3++ == 0 && _4() == 125)
                   continue;
               }
               switch (y3 += $(m3), m3 * d3) {
@@ -30696,7 +30696,7 @@ var require_stylis = __commonJS({
       e.peek = I2;
       e.prefix = ne;
       e.prefixer = oe;
-      e.prev = _3;
+      e.prev = _4;
       e.replace = A2;
       e.ruleset = re;
       e.rulesheet = ue;
@@ -31731,7 +31731,7 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs_dev = __commonJS({
   "node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var React32 = require_react();
+    var React44 = require_react();
     function _interopNamespace(e) {
       if (e && e.__esModule)
         return e;
@@ -31752,7 +31752,7 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React32);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React44);
     var isBrowser = typeof document !== "undefined";
     var syncFallback = function syncFallback2(create) {
       return create();
@@ -31781,13 +31781,13 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs = __commonJS({
 var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
   "node_modules/@emotion/react/dist/emotion-element-48d2c2e4.cjs.dev.js"(exports) {
     "use strict";
-    var React32 = require_react();
+    var React44 = require_react();
     var createCache = require_emotion_cache_cjs();
     var _extends2 = require_extends();
     var weakMemoize = require_emotion_weak_memoize_cjs();
     var _isolatedHnrs_dist_emotionReact_isolatedHnrs = require_emotion_react_isolated_hnrs_cjs_dev();
     var utils = require_emotion_utils_cjs();
-    var serialize = require_emotion_serialize_cjs();
+    var serialize2 = require_emotion_serialize_cjs();
     var useInsertionEffectWithFallbacks = require_emotion_use_insertion_effect_with_fallbacks_cjs();
     function _interopDefault(e) {
       return e && e.__esModule ? e : { "default": e };
@@ -31812,7 +31812,7 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React32);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React44);
     var createCache__default = /* @__PURE__ */ _interopDefault(createCache);
     var weakMemoize__default = /* @__PURE__ */ _interopDefault(weakMemoize);
     var isBrowser = typeof document !== "undefined";
@@ -31827,18 +31827,18 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
     }
     var CacheProvider2 = EmotionCacheContext.Provider;
     var __unsafe_useEmotionCache2 = function useEmotionCache() {
-      return React32.useContext(EmotionCacheContext);
+      return React44.useContext(EmotionCacheContext);
     };
     exports.withEmotionCache = function withEmotionCache2(func) {
-      return /* @__PURE__ */ React32.forwardRef(function(props, ref) {
-        var cache = React32.useContext(EmotionCacheContext);
+      return /* @__PURE__ */ React44.forwardRef(function(props, ref) {
+        var cache = React44.useContext(EmotionCacheContext);
         return func(props, cache, ref);
       });
     };
     if (!isBrowser) {
       exports.withEmotionCache = function withEmotionCache2(func) {
         return function(props) {
-          var cache = React32.useContext(EmotionCacheContext);
+          var cache = React44.useContext(EmotionCacheContext);
           if (cache === null) {
             cache = createCache__default["default"]({
               key: "css"
@@ -31984,11 +31984,11 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
       } else if (props.className != null) {
         className = props.className + " ";
       }
-      var serialized = serialize.serializeStyles(registeredStyles, void 0, React__namespace.useContext(ThemeContext2));
+      var serialized = serialize2.serializeStyles(registeredStyles, void 0, React__namespace.useContext(ThemeContext2));
       if (serialized.name.indexOf("-") === -1) {
         var labelFromStack = props[labelPropName];
         if (labelFromStack) {
-          serialized = serialize.serializeStyles([serialized, "label:" + labelFromStack + ";"]);
+          serialized = serialize2.serializeStyles([serialized, "label:" + labelFromStack + ";"]);
         }
       }
       className += cache.key + "-" + serialized.name;
@@ -32097,10 +32097,10 @@ var require_emotion_react_cjs_dev = __commonJS({
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var emotionElement = require_emotion_element_48d2c2e4_cjs_dev();
-    var React32 = require_react();
+    var React44 = require_react();
     var utils = require_emotion_utils_cjs();
     var useInsertionEffectWithFallbacks = require_emotion_use_insertion_effect_with_fallbacks_cjs();
-    var serialize = require_emotion_serialize_cjs();
+    var serialize2 = require_emotion_serialize_cjs();
     require_emotion_cache_cjs();
     require_extends();
     require_emotion_weak_memoize_cjs();
@@ -32126,7 +32126,7 @@ var require_emotion_react_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React32);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React44);
     var pkg = {
       name: "@emotion/react",
       version: "11.11.0",
@@ -32279,7 +32279,7 @@ var require_emotion_react_cjs_dev = __commonJS({
         warnedAboutCssPropForGlobal = true;
       }
       var styles = props.styles;
-      var serialized = serialize.serializeStyles([styles], void 0, React__namespace.useContext(emotionElement.ThemeContext));
+      var serialized = serialize2.serializeStyles([styles], void 0, React__namespace.useContext(emotionElement.ThemeContext));
       if (!emotionElement.isBrowser) {
         var _ref;
         var serializedNames = serialized.name;
@@ -32352,7 +32352,7 @@ var require_emotion_react_cjs_dev = __commonJS({
       for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
         args[_key] = arguments[_key];
       }
-      return serialize.serializeStyles(args);
+      return serialize2.serializeStyles(args);
     }
     var keyframes2 = function keyframes3() {
       var insertable = css2.apply(void 0, arguments);
@@ -32448,7 +32448,7 @@ var require_emotion_react_cjs_dev = __commonJS({
         for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
           args[_key] = arguments[_key];
         }
-        var serialized = serialize.serializeStyles(args, cache.registered);
+        var serialized = serialize2.serializeStyles(args, cache.registered);
         serializedArr.push(serialized);
         utils.registerStyles(cache, serialized, false);
         return cache.key + "-" + serialized.name;
@@ -32526,10 +32526,60 @@ var require_emotion_react_cjs = __commonJS({
   }
 });
 
+// node_modules/@babel/runtime/helpers/typeof.js
+var require_typeof = __commonJS({
+  "node_modules/@babel/runtime/helpers/typeof.js"(exports, module2) {
+    function _typeof2(obj) {
+      "@babel/helpers - typeof";
+      return module2.exports = _typeof2 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(obj2) {
+        return typeof obj2;
+      } : function(obj2) {
+        return obj2 && "function" == typeof Symbol && obj2.constructor === Symbol && obj2 !== Symbol.prototype ? "symbol" : typeof obj2;
+      }, module2.exports.__esModule = true, module2.exports["default"] = module2.exports, _typeof2(obj);
+    }
+    module2.exports = _typeof2, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
+  }
+});
+
+// node_modules/@babel/runtime/helpers/toPrimitive.js
+var require_toPrimitive = __commonJS({
+  "node_modules/@babel/runtime/helpers/toPrimitive.js"(exports, module2) {
+    var _typeof2 = require_typeof()["default"];
+    function _toPrimitive2(input, hint) {
+      if (_typeof2(input) !== "object" || input === null)
+        return input;
+      var prim = input[Symbol.toPrimitive];
+      if (prim !== void 0) {
+        var res = prim.call(input, hint || "default");
+        if (_typeof2(res) !== "object")
+          return res;
+        throw new TypeError("@@toPrimitive must return a primitive value.");
+      }
+      return (hint === "string" ? String : Number)(input);
+    }
+    module2.exports = _toPrimitive2, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
+  }
+});
+
+// node_modules/@babel/runtime/helpers/toPropertyKey.js
+var require_toPropertyKey = __commonJS({
+  "node_modules/@babel/runtime/helpers/toPropertyKey.js"(exports, module2) {
+    var _typeof2 = require_typeof()["default"];
+    var toPrimitive = require_toPrimitive();
+    function _toPropertyKey2(arg) {
+      var key = toPrimitive(arg, "string");
+      return _typeof2(key) === "symbol" ? key : String(key);
+    }
+    module2.exports = _toPropertyKey2, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
+  }
+});
+
 // node_modules/@babel/runtime/helpers/defineProperty.js
 var require_defineProperty = __commonJS({
   "node_modules/@babel/runtime/helpers/defineProperty.js"(exports, module2) {
+    var toPropertyKey = require_toPropertyKey();
     function _defineProperty2(obj, key, value) {
+      key = toPropertyKey(key);
       if (key in obj) {
         Object.defineProperty(obj, key, {
           value,
@@ -32590,32 +32640,30 @@ var require_arrayWithHoles = __commonJS({
 var require_iterableToArrayLimit = __commonJS({
   "node_modules/@babel/runtime/helpers/iterableToArrayLimit.js"(exports, module2) {
     function _iterableToArrayLimit(arr, i2) {
-      var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"];
-      if (_i == null)
-        return;
-      var _arr = [];
-      var _n = true;
-      var _d = false;
-      var _s, _e;
-      try {
-        for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) {
-          _arr.push(_s.value);
-          if (i2 && _arr.length === i2)
-            break;
-        }
-      } catch (err) {
-        _d = true;
-        _e = err;
-      } finally {
+      var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"];
+      if (null != _i) {
+        var _s, _e, _x, _r, _arr = [], _n = true, _d = false;
         try {
-          if (!_n && _i["return"] != null)
-            _i["return"]();
+          if (_x = (_i = _i.call(arr)).next, 0 === i2) {
+            if (Object(_i) !== _i)
+              return;
+            _n = false;
+          } else
+            for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i2); _n = true)
+              ;
+        } catch (err) {
+          _d = true, _e = err;
         } finally {
-          if (_d)
-            throw _e;
+          try {
+            if (!_n && null != _i["return"] && (_r = _i["return"](), Object(_r) !== _r))
+              return;
+          } finally {
+            if (_d)
+              throw _e;
+          }
         }
+        return _arr;
       }
-      return _arr;
     }
     module2.exports = _iterableToArrayLimit, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
   }
@@ -32627,9 +32675,8 @@ var require_arrayLikeToArray = __commonJS({
     function _arrayLikeToArray(arr, len) {
       if (len == null || len > arr.length)
         len = arr.length;
-      for (var i2 = 0, arr2 = new Array(len); i2 < len; i2++) {
+      for (var i2 = 0, arr2 = new Array(len); i2 < len; i2++)
         arr2[i2] = arr[i2];
-      }
       return arr2;
     }
     module2.exports = _arrayLikeToArray, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
@@ -32735,33 +32782,33 @@ var require_useStateManager_7748b351_cjs_dev = __commonJS({
     var _objectSpread = require_objectSpread2();
     var _slicedToArray = require_slicedToArray();
     var _objectWithoutProperties = require_objectWithoutProperties();
-    var React32 = require_react();
+    var React44 = require_react();
     var _excluded = ["defaultInputValue", "defaultMenuIsOpen", "defaultValue", "inputValue", "menuIsOpen", "onChange", "onInputChange", "onMenuClose", "onMenuOpen", "value"];
     function useStateManager(_ref) {
       var _ref$defaultInputValu = _ref.defaultInputValue, defaultInputValue = _ref$defaultInputValu === void 0 ? "" : _ref$defaultInputValu, _ref$defaultMenuIsOpe = _ref.defaultMenuIsOpen, defaultMenuIsOpen = _ref$defaultMenuIsOpe === void 0 ? false : _ref$defaultMenuIsOpe, _ref$defaultValue = _ref.defaultValue, defaultValue = _ref$defaultValue === void 0 ? null : _ref$defaultValue, propsInputValue = _ref.inputValue, propsMenuIsOpen = _ref.menuIsOpen, propsOnChange = _ref.onChange, propsOnInputChange = _ref.onInputChange, propsOnMenuClose = _ref.onMenuClose, propsOnMenuOpen = _ref.onMenuOpen, propsValue = _ref.value, restSelectProps = _objectWithoutProperties(_ref, _excluded);
-      var _useState = React32.useState(propsInputValue !== void 0 ? propsInputValue : defaultInputValue), _useState2 = _slicedToArray(_useState, 2), stateInputValue = _useState2[0], setStateInputValue = _useState2[1];
-      var _useState3 = React32.useState(propsMenuIsOpen !== void 0 ? propsMenuIsOpen : defaultMenuIsOpen), _useState4 = _slicedToArray(_useState3, 2), stateMenuIsOpen = _useState4[0], setStateMenuIsOpen = _useState4[1];
-      var _useState5 = React32.useState(propsValue !== void 0 ? propsValue : defaultValue), _useState6 = _slicedToArray(_useState5, 2), stateValue = _useState6[0], setStateValue = _useState6[1];
-      var onChange = React32.useCallback(function(value2, actionMeta) {
+      var _useState = React44.useState(propsInputValue !== void 0 ? propsInputValue : defaultInputValue), _useState2 = _slicedToArray(_useState, 2), stateInputValue = _useState2[0], setStateInputValue = _useState2[1];
+      var _useState3 = React44.useState(propsMenuIsOpen !== void 0 ? propsMenuIsOpen : defaultMenuIsOpen), _useState4 = _slicedToArray(_useState3, 2), stateMenuIsOpen = _useState4[0], setStateMenuIsOpen = _useState4[1];
+      var _useState5 = React44.useState(propsValue !== void 0 ? propsValue : defaultValue), _useState6 = _slicedToArray(_useState5, 2), stateValue = _useState6[0], setStateValue = _useState6[1];
+      var onChange = React44.useCallback(function(value2, actionMeta) {
         if (typeof propsOnChange === "function") {
           propsOnChange(value2, actionMeta);
         }
         setStateValue(value2);
       }, [propsOnChange]);
-      var onInputChange = React32.useCallback(function(value2, actionMeta) {
+      var onInputChange = React44.useCallback(function(value2, actionMeta) {
         var newValue;
         if (typeof propsOnInputChange === "function") {
           newValue = propsOnInputChange(value2, actionMeta);
         }
         setStateInputValue(newValue !== void 0 ? newValue : value2);
       }, [propsOnInputChange]);
-      var onMenuOpen = React32.useCallback(function() {
+      var onMenuOpen = React44.useCallback(function() {
         if (typeof propsOnMenuOpen === "function") {
           propsOnMenuOpen();
         }
         setStateMenuIsOpen(true);
       }, [propsOnMenuOpen]);
-      var onMenuClose = React32.useCallback(function() {
+      var onMenuClose = React44.useCallback(function() {
         if (typeof propsOnMenuClose === "function") {
           propsOnMenuClose();
         }
@@ -32799,6 +32846,7 @@ var require_classCallCheck = __commonJS({
 // node_modules/@babel/runtime/helpers/createClass.js
 var require_createClass = __commonJS({
   "node_modules/@babel/runtime/helpers/createClass.js"(exports, module2) {
+    var toPropertyKey = require_toPropertyKey();
     function _defineProperties(target, props) {
       for (var i2 = 0; i2 < props.length; i2++) {
         var descriptor = props[i2];
@@ -32806,7 +32854,7 @@ var require_createClass = __commonJS({
         descriptor.configurable = true;
         if ("value" in descriptor)
           descriptor.writable = true;
-        Object.defineProperty(target, descriptor.key, descriptor);
+        Object.defineProperty(target, toPropertyKey(descriptor.key), descriptor);
       }
     }
     function _createClass(Constructor, protoProps, staticProps) {
@@ -32897,21 +32945,6 @@ var require_isNativeReflectConstruct = __commonJS({
   }
 });
 
-// node_modules/@babel/runtime/helpers/typeof.js
-var require_typeof = __commonJS({
-  "node_modules/@babel/runtime/helpers/typeof.js"(exports, module2) {
-    function _typeof(obj) {
-      "@babel/helpers - typeof";
-      return module2.exports = _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(obj2) {
-        return typeof obj2;
-      } : function(obj2) {
-        return obj2 && "function" == typeof Symbol && obj2.constructor === Symbol && obj2 !== Symbol.prototype ? "symbol" : typeof obj2;
-      }, module2.exports.__esModule = true, module2.exports["default"] = module2.exports, _typeof(obj);
-    }
-    module2.exports = _typeof, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
-  }
-});
-
 // node_modules/@babel/runtime/helpers/assertThisInitialized.js
 var require_assertThisInitialized = __commonJS({
   "node_modules/@babel/runtime/helpers/assertThisInitialized.js"(exports, module2) {
@@ -32928,10 +32961,10 @@ var require_assertThisInitialized = __commonJS({
 // node_modules/@babel/runtime/helpers/possibleConstructorReturn.js
 var require_possibleConstructorReturn = __commonJS({
   "node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"(exports, module2) {
-    var _typeof = require_typeof()["default"];
+    var _typeof2 = require_typeof()["default"];
     var assertThisInitialized = require_assertThisInitialized();
     function _possibleConstructorReturn(self2, call2) {
-      if (call2 && (_typeof(call2) === "object" || typeof call2 === "function")) {
+      if (call2 && (_typeof2(call2) === "object" || typeof call2 === "function")) {
         return call2;
       } else if (call2 !== void 0) {
         throw new TypeError("Derived constructors may only return object or undefined");
@@ -34725,10 +34758,10 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
     var react = require_emotion_react_cjs();
     var _slicedToArray = require_slicedToArray();
     var _objectWithoutProperties = require_objectWithoutProperties();
-    var _typeof = require_typeof();
+    var _typeof2 = require_typeof();
     var _taggedTemplateLiteral = require_taggedTemplateLiteral();
     var _defineProperty2 = require_defineProperty();
-    var React32 = require_react();
+    var React44 = require_react();
     var reactDom = require_react_dom();
     var dom = require_floating_ui_dom_umd();
     var useLayoutEffect2 = require_use_isomorphic_layout_effect_browser_cjs();
@@ -34769,7 +34802,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
     var cleanValue = function cleanValue2(value) {
       if (isArray(value))
         return value.filter(Boolean);
-      if (_typeof(value) === "object" && value !== null)
+      if (_typeof2(value) === "object" && value !== null)
         return [value];
       return [];
     };
@@ -35077,13 +35110,13 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
         marginTop: spacing.menuGutter
       });
     };
-    var PortalPlacementContext = /* @__PURE__ */ React32.createContext(null);
+    var PortalPlacementContext = /* @__PURE__ */ React44.createContext(null);
     var MenuPlacer = function MenuPlacer2(props) {
       var children = props.children, minMenuHeight = props.minMenuHeight, maxMenuHeight = props.maxMenuHeight, menuPlacement = props.menuPlacement, menuPosition = props.menuPosition, menuShouldScrollIntoView = props.menuShouldScrollIntoView, theme = props.theme;
-      var _ref3 = React32.useContext(PortalPlacementContext) || {}, setPortalPlacement = _ref3.setPortalPlacement;
-      var ref = React32.useRef(null);
-      var _useState = React32.useState(maxMenuHeight), _useState2 = _slicedToArray(_useState, 2), maxHeight = _useState2[0], setMaxHeight = _useState2[1];
-      var _useState3 = React32.useState(null), _useState4 = _slicedToArray(_useState3, 2), placement = _useState4[0], setPlacement = _useState4[1];
+      var _ref3 = React44.useContext(PortalPlacementContext) || {}, setPortalPlacement = _ref3.setPortalPlacement;
+      var ref = React44.useRef(null);
+      var _useState = React44.useState(maxMenuHeight), _useState2 = _slicedToArray(_useState, 2), maxHeight = _useState2[0], setMaxHeight = _useState2[1];
+      var _useState3 = React44.useState(null), _useState4 = _slicedToArray(_useState3, 2), placement = _useState4[0], setPlacement = _useState4[1];
       var controlHeight = theme.spacing.controlHeight;
       useLayoutEffect__default["default"](function() {
         var menuEl = ref.current;
@@ -35185,16 +35218,16 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
     };
     var MenuPortal = function MenuPortal2(props) {
       var appendTo = props.appendTo, children = props.children, controlElement = props.controlElement, innerProps = props.innerProps, menuPlacement = props.menuPlacement, menuPosition = props.menuPosition;
-      var menuPortalRef = React32.useRef(null);
-      var cleanupRef = React32.useRef(null);
-      var _useState5 = React32.useState(coercePlacement(menuPlacement)), _useState6 = _slicedToArray(_useState5, 2), placement = _useState6[0], setPortalPlacement = _useState6[1];
-      var portalPlacementContext = React32.useMemo(function() {
+      var menuPortalRef = React44.useRef(null);
+      var cleanupRef = React44.useRef(null);
+      var _useState5 = React44.useState(coercePlacement(menuPlacement)), _useState6 = _slicedToArray(_useState5, 2), placement = _useState6[0], setPortalPlacement = _useState6[1];
+      var portalPlacementContext = React44.useMemo(function() {
         return {
           setPortalPlacement
         };
       }, []);
-      var _useState7 = React32.useState(null), _useState8 = _slicedToArray(_useState7, 2), computedPosition = _useState8[0], setComputedPosition = _useState8[1];
-      var updateComputedPosition = React32.useCallback(function() {
+      var _useState7 = React44.useState(null), _useState8 = _slicedToArray(_useState7, 2), computedPosition = _useState8[0], setComputedPosition = _useState8[1];
+      var updateComputedPosition = React44.useCallback(function() {
         if (!controlElement)
           return;
         var rect = getBoundingClientObj(controlElement);
@@ -35210,7 +35243,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
       useLayoutEffect__default["default"](function() {
         updateComputedPosition();
       }, [updateComputedPosition]);
-      var runAutoUpdate = React32.useCallback(function() {
+      var runAutoUpdate = React44.useCallback(function() {
         if (typeof cleanupRef.current === "function") {
           cleanupRef.current();
           cleanupRef.current = null;
@@ -35224,7 +35257,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
       useLayoutEffect__default["default"](function() {
         runAutoUpdate();
       }, [runAutoUpdate]);
-      var setMenuPortalElement = React32.useCallback(function(menuPortalElement) {
+      var setMenuPortalElement = React44.useCallback(function(menuPortalElement) {
         menuPortalRef.current = menuPortalElement;
         runAutoUpdate();
       }, [runAutoUpdate]);
@@ -35871,7 +35904,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     var _inherits = require_inherits();
     var _createSuper = require_createSuper();
     var _toConsumableArray = require_toConsumableArray();
-    var React32 = require_react();
+    var React44 = require_react();
     var index = require_index_2fe3dc33_cjs_dev();
     var react = require_emotion_react_cjs();
     var memoizeOne = require_memoize_one_cjs();
@@ -35899,7 +35932,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React32);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React44);
     var memoizeOne__default = /* @__PURE__ */ _interopDefault(memoizeOne);
     function _EMOTION_STRINGIFIED_CSS_ERROR__$2() {
       return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop).";
@@ -35975,10 +36008,10 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
       var ariaLiveMessages = selectProps.ariaLiveMessages, getOptionLabel2 = selectProps.getOptionLabel, inputValue = selectProps.inputValue, isMulti = selectProps.isMulti, isOptionDisabled2 = selectProps.isOptionDisabled, isSearchable = selectProps.isSearchable, menuIsOpen = selectProps.menuIsOpen, options = selectProps.options, screenReaderStatus = selectProps.screenReaderStatus, tabSelectsValue = selectProps.tabSelectsValue;
       var ariaLabel = selectProps["aria-label"];
       var ariaLive = selectProps["aria-live"];
-      var messages = React32.useMemo(function() {
+      var messages = React44.useMemo(function() {
         return _objectSpread(_objectSpread({}, defaultAriaLiveMessages), ariaLiveMessages || {});
       }, [ariaLiveMessages]);
-      var ariaSelected = React32.useMemo(function() {
+      var ariaSelected = React44.useMemo(function() {
         var message = "";
         if (ariaSelection && messages.onChange) {
           var option = ariaSelection.option, selectedOptions = ariaSelection.options, removedValue = ariaSelection.removedValue, removedValues = ariaSelection.removedValues, value = ariaSelection.value;
@@ -35998,7 +36031,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return message;
       }, [ariaSelection, messages, isOptionDisabled2, selectValue, getOptionLabel2]);
-      var ariaFocused = React32.useMemo(function() {
+      var ariaFocused = React44.useMemo(function() {
         var focusMsg = "";
         var focused = focusedOption || focusedValue;
         var isSelected = !!(focusedOption && selectValue && selectValue.includes(focusedOption));
@@ -36016,7 +36049,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return focusMsg;
       }, [focusedOption, focusedValue, getOptionLabel2, isOptionDisabled2, messages, focusableOptions, selectValue]);
-      var ariaResults = React32.useMemo(function() {
+      var ariaResults = React44.useMemo(function() {
         var resultsMsg = "";
         if (menuIsOpen && options.length && messages.onFilter) {
           var resultsMessage = screenReaderStatus({
@@ -36029,7 +36062,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return resultsMsg;
       }, [focusableOptions, inputValue, menuIsOpen, messages, options, screenReaderStatus]);
-      var ariaGuidance = React32.useMemo(function() {
+      var ariaGuidance = React44.useMemo(function() {
         var guidanceMsg = "";
         if (messages.guidance) {
           var context = focusedValue ? "value" : menuIsOpen ? "menu" : "input";
@@ -36045,13 +36078,13 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         return guidanceMsg;
       }, [ariaLabel, focusedOption, focusedValue, isMulti, isOptionDisabled2, isSearchable, menuIsOpen, messages, selectValue, tabSelectsValue]);
       var ariaContext = "".concat(ariaFocused, " ").concat(ariaResults, " ").concat(ariaGuidance);
-      var ScreenReaderText = react.jsx(React32.Fragment, null, react.jsx("span", {
+      var ScreenReaderText = react.jsx(React44.Fragment, null, react.jsx("span", {
         id: "aria-selection"
       }, ariaSelected), react.jsx("span", {
         id: "aria-context"
       }, ariaContext));
       var isInitialFocus = (ariaSelection === null || ariaSelection === void 0 ? void 0 : ariaSelection.action) === "initial-input-focus";
-      return react.jsx(React32.Fragment, null, react.jsx(A11yText$1, {
+      return react.jsx(React44.Fragment, null, react.jsx(A11yText$1, {
         id: id2
       }, isInitialFocus && ScreenReaderText), react.jsx(A11yText$1, {
         "aria-live": ariaLive,
@@ -36393,11 +36426,11 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     };
     function useScrollCapture(_ref3) {
       var isEnabled = _ref3.isEnabled, onBottomArrive = _ref3.onBottomArrive, onBottomLeave = _ref3.onBottomLeave, onTopArrive = _ref3.onTopArrive, onTopLeave = _ref3.onTopLeave;
-      var isBottom = React32.useRef(false);
-      var isTop = React32.useRef(false);
-      var touchStart = React32.useRef(0);
-      var scrollTarget = React32.useRef(null);
-      var handleEventDelta = React32.useCallback(function(event, delta) {
+      var isBottom = React44.useRef(false);
+      var isTop = React44.useRef(false);
+      var touchStart = React44.useRef(0);
+      var scrollTarget = React44.useRef(null);
+      var handleEventDelta = React44.useCallback(function(event, delta) {
         if (scrollTarget.current === null)
           return;
         var _scrollTarget$current = scrollTarget.current, scrollTop = _scrollTarget$current.scrollTop, scrollHeight = _scrollTarget$current.scrollHeight, clientHeight = _scrollTarget$current.clientHeight;
@@ -36434,17 +36467,17 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
           cancelScroll(event);
         }
       }, [onBottomArrive, onBottomLeave, onTopArrive, onTopLeave]);
-      var onWheel = React32.useCallback(function(event) {
+      var onWheel = React44.useCallback(function(event) {
         handleEventDelta(event, event.deltaY);
       }, [handleEventDelta]);
-      var onTouchStart = React32.useCallback(function(event) {
+      var onTouchStart = React44.useCallback(function(event) {
         touchStart.current = event.changedTouches[0].clientY;
       }, []);
-      var onTouchMove = React32.useCallback(function(event) {
+      var onTouchMove = React44.useCallback(function(event) {
         var deltaY = touchStart.current - event.changedTouches[0].clientY;
         handleEventDelta(event, deltaY);
       }, [handleEventDelta]);
-      var startListening = React32.useCallback(function(el) {
+      var startListening = React44.useCallback(function(el) {
         if (!el)
           return;
         var notPassive = index.supportsPassiveEvents ? {
@@ -36454,14 +36487,14 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         el.addEventListener("touchstart", onTouchStart, notPassive);
         el.addEventListener("touchmove", onTouchMove, notPassive);
       }, [onTouchMove, onTouchStart, onWheel]);
-      var stopListening = React32.useCallback(function(el) {
+      var stopListening = React44.useCallback(function(el) {
         if (!el)
           return;
         el.removeEventListener("wheel", onWheel, false);
         el.removeEventListener("touchstart", onTouchStart, false);
         el.removeEventListener("touchmove", onTouchMove, false);
       }, [onTouchMove, onTouchStart, onWheel]);
-      React32.useEffect(function() {
+      React44.useEffect(function() {
         if (!isEnabled)
           return;
         var element = scrollTarget.current;
@@ -36508,9 +36541,9 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     };
     function useScrollLock(_ref3) {
       var isEnabled = _ref3.isEnabled, _ref$accountForScroll = _ref3.accountForScrollbars, accountForScrollbars = _ref$accountForScroll === void 0 ? true : _ref$accountForScroll;
-      var originalStyles = React32.useRef({});
-      var scrollTarget = React32.useRef(null);
-      var addScrollLock = React32.useCallback(function(touchScrollTarget) {
+      var originalStyles = React44.useRef({});
+      var scrollTarget = React44.useRef(null);
+      var addScrollLock = React44.useCallback(function(touchScrollTarget) {
         if (!canUseDOM2)
           return;
         var target = document.body;
@@ -36544,7 +36577,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         activeScrollLocks += 1;
       }, [accountForScrollbars]);
-      var removeScrollLock = React32.useCallback(function(touchScrollTarget) {
+      var removeScrollLock = React44.useCallback(function(touchScrollTarget) {
         if (!canUseDOM2)
           return;
         var target = document.body;
@@ -36566,7 +36599,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
           }
         }
       }, [accountForScrollbars]);
-      React32.useEffect(function() {
+      React44.useEffect(function() {
         if (!isEnabled)
           return;
         var element = scrollTarget.current;
@@ -36610,7 +36643,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         setScrollCaptureTarget(element);
         setScrollLockTarget(element);
       };
-      return react.jsx(React32.Fragment, null, lockEnabled && react.jsx("div", {
+      return react.jsx(React44.Fragment, null, lockEnabled && react.jsx("div", {
         onClick: blurSelectInput,
         css: _ref2$1
       }), children(targetRef));
@@ -38126,7 +38159,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
       }]);
       return Select2;
-    }(React32.Component);
+    }(React44.Component);
     Select.defaultProps = defaultProps;
     exports.Select = Select;
     exports.createFilter = createFilter;
@@ -38145,7 +38178,7 @@ var require_react_select_cjs_dev = __commonJS({
     Object.defineProperty(exports, "__esModule", { value: true });
     var useStateManager = require_useStateManager_7748b351_cjs_dev();
     var _extends2 = require_extends();
-    var React32 = require_react();
+    var React44 = require_react();
     var Select = require_Select_5041a4f3_cjs_dev();
     var react = require_emotion_react_cjs();
     var createCache = require_emotion_cache_cjs();
@@ -38188,9 +38221,9 @@ var require_react_select_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React32);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React44);
     var createCache__default = /* @__PURE__ */ _interopDefault(createCache);
-    var StateManagedSelect = /* @__PURE__ */ React32.forwardRef(function(props, ref) {
+    var StateManagedSelect = /* @__PURE__ */ React44.forwardRef(function(props, ref) {
       var baseSelectProps = useStateManager.useStateManager(props);
       return /* @__PURE__ */ React__namespace.createElement(Select.Select, _extends2({
         ref
@@ -38199,7 +38232,7 @@ var require_react_select_cjs_dev = __commonJS({
     var StateManagedSelect$1 = StateManagedSelect;
     var NonceProvider = function(_ref) {
       var nonce = _ref.nonce, children = _ref.children, cacheKey = _ref.cacheKey;
-      var emotionCache = React32.useMemo(function() {
+      var emotionCache = React44.useMemo(function() {
         return createCache__default["default"]({
           key: cacheKey,
           nonce
@@ -38238,6 +38271,1150 @@ var require_react_select_cjs_default = __commonJS({
   }
 });
 
+// node_modules/fuzzysort/fuzzysort.js
+var require_fuzzysort = __commonJS({
+  "node_modules/fuzzysort/fuzzysort.js"(exports, module2) {
+    ((root, UMD) => {
+      if (typeof define === "function" && define.amd)
+        define([], UMD);
+      else if (typeof module2 === "object" && module2.exports)
+        module2.exports = UMD();
+      else
+        root["fuzzysort"] = UMD();
+    })(exports, (_4) => {
+      "use strict";
+      var single = (search, target) => {
+        if (search == "farzher")
+          return { target: "farzher was here (^-^*)/", score: 0, _indexes: [0] };
+        if (!search || !target)
+          return NULL;
+        var preparedSearch = getPreparedSearch(search);
+        if (!isObj(target))
+          target = getPrepared(target);
+        var searchBitflags = preparedSearch.bitflags;
+        if ((searchBitflags & target._bitflags) !== searchBitflags)
+          return NULL;
+        return algorithm(preparedSearch, target);
+      };
+      var go = (search, targets, options) => {
+        if (search == "farzher")
+          return [{ target: "farzher was here (^-^*)/", score: 0, _indexes: [0], obj: targets ? targets[0] : NULL }];
+        if (!search)
+          return options && options.all ? all(search, targets, options) : noResults;
+        var preparedSearch = getPreparedSearch(search);
+        var searchBitflags = preparedSearch.bitflags;
+        var containsSpace = preparedSearch.containsSpace;
+        var threshold = options && options.threshold || INT_MIN;
+        var limit = options && options["limit"] || INT_MAX;
+        var resultsLen = 0;
+        var limitedCount = 0;
+        var targetsLen = targets.length;
+        if (options && options.key) {
+          var key = options.key;
+          for (var i2 = 0; i2 < targetsLen; ++i2) {
+            var obj = targets[i2];
+            var target = getValue2(obj, key);
+            if (!target)
+              continue;
+            if (!isObj(target))
+              target = getPrepared(target);
+            if ((searchBitflags & target._bitflags) !== searchBitflags)
+              continue;
+            var result = algorithm(preparedSearch, target);
+            if (result === NULL)
+              continue;
+            if (result.score < threshold)
+              continue;
+            result = { target: result.target, _targetLower: "", _targetLowerCodes: NULL, _nextBeginningIndexes: NULL, _bitflags: 0, score: result.score, _indexes: result._indexes, obj };
+            if (resultsLen < limit) {
+              q2.add(result);
+              ++resultsLen;
+            } else {
+              ++limitedCount;
+              if (result.score > q2.peek().score)
+                q2.replaceTop(result);
+            }
+          }
+        } else if (options && options.keys) {
+          var scoreFn = options["scoreFn"] || defaultScoreFn;
+          var keys = options.keys;
+          var keysLen = keys.length;
+          for (var i2 = 0; i2 < targetsLen; ++i2) {
+            var obj = targets[i2];
+            var objResults = new Array(keysLen);
+            for (var keyI = 0; keyI < keysLen; ++keyI) {
+              var key = keys[keyI];
+              var target = getValue2(obj, key);
+              if (!target) {
+                objResults[keyI] = NULL;
+                continue;
+              }
+              if (!isObj(target))
+                target = getPrepared(target);
+              if ((searchBitflags & target._bitflags) !== searchBitflags)
+                objResults[keyI] = NULL;
+              else
+                objResults[keyI] = algorithm(preparedSearch, target);
+            }
+            objResults.obj = obj;
+            var score = scoreFn(objResults);
+            if (score === NULL)
+              continue;
+            if (score < threshold)
+              continue;
+            objResults.score = score;
+            if (resultsLen < limit) {
+              q2.add(objResults);
+              ++resultsLen;
+            } else {
+              ++limitedCount;
+              if (score > q2.peek().score)
+                q2.replaceTop(objResults);
+            }
+          }
+        } else {
+          for (var i2 = 0; i2 < targetsLen; ++i2) {
+            var target = targets[i2];
+            if (!target)
+              continue;
+            if (!isObj(target))
+              target = getPrepared(target);
+            if ((searchBitflags & target._bitflags) !== searchBitflags)
+              continue;
+            var result = algorithm(preparedSearch, target);
+            if (result === NULL)
+              continue;
+            if (result.score < threshold)
+              continue;
+            if (resultsLen < limit) {
+              q2.add(result);
+              ++resultsLen;
+            } else {
+              ++limitedCount;
+              if (result.score > q2.peek().score)
+                q2.replaceTop(result);
+            }
+          }
+        }
+        if (resultsLen === 0)
+          return noResults;
+        var results = new Array(resultsLen);
+        for (var i2 = resultsLen - 1; i2 >= 0; --i2)
+          results[i2] = q2.poll();
+        results.total = resultsLen + limitedCount;
+        return results;
+      };
+      var highlight = (result, hOpen, hClose) => {
+        if (typeof hOpen === "function")
+          return highlightCallback(result, hOpen);
+        if (result === NULL)
+          return NULL;
+        if (hOpen === void 0)
+          hOpen = "<b>";
+        if (hClose === void 0)
+          hClose = "</b>";
+        var highlighted = "";
+        var matchesIndex = 0;
+        var opened = false;
+        var target = result.target;
+        var targetLen = target.length;
+        var indexes2 = result._indexes;
+        indexes2 = indexes2.slice(0, indexes2.len).sort((a2, b2) => a2 - b2);
+        for (var i2 = 0; i2 < targetLen; ++i2) {
+          var char = target[i2];
+          if (indexes2[matchesIndex] === i2) {
+            ++matchesIndex;
+            if (!opened) {
+              opened = true;
+              highlighted += hOpen;
+            }
+            if (matchesIndex === indexes2.length) {
+              highlighted += char + hClose + target.substr(i2 + 1);
+              break;
+            }
+          } else {
+            if (opened) {
+              opened = false;
+              highlighted += hClose;
+            }
+          }
+          highlighted += char;
+        }
+        return highlighted;
+      };
+      var highlightCallback = (result, cb) => {
+        if (result === NULL)
+          return NULL;
+        var target = result.target;
+        var targetLen = target.length;
+        var indexes2 = result._indexes;
+        indexes2 = indexes2.slice(0, indexes2.len).sort((a2, b2) => a2 - b2);
+        var highlighted = "";
+        var matchI = 0;
+        var indexesI = 0;
+        var opened = false;
+        var result = [];
+        for (var i2 = 0; i2 < targetLen; ++i2) {
+          var char = target[i2];
+          if (indexes2[indexesI] === i2) {
+            ++indexesI;
+            if (!opened) {
+              opened = true;
+              result.push(highlighted);
+              highlighted = "";
+            }
+            if (indexesI === indexes2.length) {
+              highlighted += char;
+              result.push(cb(highlighted, matchI++));
+              highlighted = "";
+              result.push(target.substr(i2 + 1));
+              break;
+            }
+          } else {
+            if (opened) {
+              opened = false;
+              result.push(cb(highlighted, matchI++));
+              highlighted = "";
+            }
+          }
+          highlighted += char;
+        }
+        return result;
+      };
+      var indexes = (result) => result._indexes.slice(0, result._indexes.len).sort((a2, b2) => a2 - b2);
+      var prepare = (target) => {
+        if (typeof target !== "string")
+          target = "";
+        var info = prepareLowerInfo(target);
+        return { "target": target, _targetLower: info._lower, _targetLowerCodes: info.lowerCodes, _nextBeginningIndexes: NULL, _bitflags: info.bitflags, "score": NULL, _indexes: [0], "obj": NULL };
+      };
+      var prepareSearch = (search) => {
+        if (typeof search !== "string")
+          search = "";
+        search = search.trim();
+        var info = prepareLowerInfo(search);
+        var spaceSearches = [];
+        if (info.containsSpace) {
+          var searches = search.split(/\s+/);
+          searches = [...new Set(searches)];
+          for (var i2 = 0; i2 < searches.length; i2++) {
+            if (searches[i2] === "")
+              continue;
+            var _info = prepareLowerInfo(searches[i2]);
+            spaceSearches.push({ lowerCodes: _info.lowerCodes, _lower: searches[i2].toLowerCase(), containsSpace: false });
+          }
+        }
+        return { lowerCodes: info.lowerCodes, bitflags: info.bitflags, containsSpace: info.containsSpace, _lower: info._lower, spaceSearches };
+      };
+      var getPrepared = (target) => {
+        if (target.length > 999)
+          return prepare(target);
+        var targetPrepared = preparedCache.get(target);
+        if (targetPrepared !== void 0)
+          return targetPrepared;
+        targetPrepared = prepare(target);
+        preparedCache.set(target, targetPrepared);
+        return targetPrepared;
+      };
+      var getPreparedSearch = (search) => {
+        if (search.length > 999)
+          return prepareSearch(search);
+        var searchPrepared = preparedSearchCache.get(search);
+        if (searchPrepared !== void 0)
+          return searchPrepared;
+        searchPrepared = prepareSearch(search);
+        preparedSearchCache.set(search, searchPrepared);
+        return searchPrepared;
+      };
+      var all = (search, targets, options) => {
+        var results = [];
+        results.total = targets.length;
+        var limit = options && options.limit || INT_MAX;
+        if (options && options.key) {
+          for (var i2 = 0; i2 < targets.length; i2++) {
+            var obj = targets[i2];
+            var target = getValue2(obj, options.key);
+            if (!target)
+              continue;
+            if (!isObj(target))
+              target = getPrepared(target);
+            target.score = INT_MIN;
+            target._indexes.len = 0;
+            var result = target;
+            result = { target: result.target, _targetLower: "", _targetLowerCodes: NULL, _nextBeginningIndexes: NULL, _bitflags: 0, score: target.score, _indexes: NULL, obj };
+            results.push(result);
+            if (results.length >= limit)
+              return results;
+          }
+        } else if (options && options.keys) {
+          for (var i2 = 0; i2 < targets.length; i2++) {
+            var obj = targets[i2];
+            var objResults = new Array(options.keys.length);
+            for (var keyI = options.keys.length - 1; keyI >= 0; --keyI) {
+              var target = getValue2(obj, options.keys[keyI]);
+              if (!target) {
+                objResults[keyI] = NULL;
+                continue;
+              }
+              if (!isObj(target))
+                target = getPrepared(target);
+              target.score = INT_MIN;
+              target._indexes.len = 0;
+              objResults[keyI] = target;
+            }
+            objResults.obj = obj;
+            objResults.score = INT_MIN;
+            results.push(objResults);
+            if (results.length >= limit)
+              return results;
+          }
+        } else {
+          for (var i2 = 0; i2 < targets.length; i2++) {
+            var target = targets[i2];
+            if (!target)
+              continue;
+            if (!isObj(target))
+              target = getPrepared(target);
+            target.score = INT_MIN;
+            target._indexes.len = 0;
+            results.push(target);
+            if (results.length >= limit)
+              return results;
+          }
+        }
+        return results;
+      };
+      var algorithm = (preparedSearch, prepared, allowSpaces = false) => {
+        if (allowSpaces === false && preparedSearch.containsSpace)
+          return algorithmSpaces(preparedSearch, prepared);
+        var searchLower = preparedSearch._lower;
+        var searchLowerCodes = preparedSearch.lowerCodes;
+        var searchLowerCode = searchLowerCodes[0];
+        var targetLowerCodes = prepared._targetLowerCodes;
+        var searchLen = searchLowerCodes.length;
+        var targetLen = targetLowerCodes.length;
+        var searchI = 0;
+        var targetI = 0;
+        var matchesSimpleLen = 0;
+        for (; ; ) {
+          var isMatch = searchLowerCode === targetLowerCodes[targetI];
+          if (isMatch) {
+            matchesSimple[matchesSimpleLen++] = targetI;
+            ++searchI;
+            if (searchI === searchLen)
+              break;
+            searchLowerCode = searchLowerCodes[searchI];
+          }
+          ++targetI;
+          if (targetI >= targetLen)
+            return NULL;
+        }
+        var searchI = 0;
+        var successStrict = false;
+        var matchesStrictLen = 0;
+        var nextBeginningIndexes = prepared._nextBeginningIndexes;
+        if (nextBeginningIndexes === NULL)
+          nextBeginningIndexes = prepared._nextBeginningIndexes = prepareNextBeginningIndexes(prepared.target);
+        var firstPossibleI = targetI = matchesSimple[0] === 0 ? 0 : nextBeginningIndexes[matchesSimple[0] - 1];
+        var backtrackCount = 0;
+        if (targetI !== targetLen)
+          for (; ; ) {
+            if (targetI >= targetLen) {
+              if (searchI <= 0)
+                break;
+              ++backtrackCount;
+              if (backtrackCount > 200)
+                break;
+              --searchI;
+              var lastMatch = matchesStrict[--matchesStrictLen];
+              targetI = nextBeginningIndexes[lastMatch];
+            } else {
+              var isMatch = searchLowerCodes[searchI] === targetLowerCodes[targetI];
+              if (isMatch) {
+                matchesStrict[matchesStrictLen++] = targetI;
+                ++searchI;
+                if (searchI === searchLen) {
+                  successStrict = true;
+                  break;
+                }
+                ++targetI;
+              } else {
+                targetI = nextBeginningIndexes[targetI];
+              }
+            }
+          }
+        var substringIndex = prepared._targetLower.indexOf(searchLower, matchesSimple[0]);
+        var isSubstring = ~substringIndex;
+        if (isSubstring && !successStrict) {
+          for (var i2 = 0; i2 < matchesSimpleLen; ++i2)
+            matchesSimple[i2] = substringIndex + i2;
+        }
+        var isSubstringBeginning = false;
+        if (isSubstring) {
+          isSubstringBeginning = prepared._nextBeginningIndexes[substringIndex - 1] === substringIndex;
+        }
+        {
+          if (successStrict) {
+            var matchesBest = matchesStrict;
+            var matchesBestLen = matchesStrictLen;
+          } else {
+            var matchesBest = matchesSimple;
+            var matchesBestLen = matchesSimpleLen;
+          }
+          var score = 0;
+          var extraMatchGroupCount = 0;
+          for (var i2 = 1; i2 < searchLen; ++i2) {
+            if (matchesBest[i2] - matchesBest[i2 - 1] !== 1) {
+              score -= matchesBest[i2];
+              ++extraMatchGroupCount;
+            }
+          }
+          var unmatchedDistance = matchesBest[searchLen - 1] - matchesBest[0] - (searchLen - 1);
+          score -= (12 + unmatchedDistance) * extraMatchGroupCount;
+          if (matchesBest[0] !== 0)
+            score -= matchesBest[0] * matchesBest[0] * 0.2;
+          if (!successStrict) {
+            score *= 1e3;
+          } else {
+            var uniqueBeginningIndexes = 1;
+            for (var i2 = nextBeginningIndexes[0]; i2 < targetLen; i2 = nextBeginningIndexes[i2])
+              ++uniqueBeginningIndexes;
+            if (uniqueBeginningIndexes > 24)
+              score *= (uniqueBeginningIndexes - 24) * 10;
+          }
+          if (isSubstring)
+            score /= 1 + searchLen * searchLen * 1;
+          if (isSubstringBeginning)
+            score /= 1 + searchLen * searchLen * 1;
+          score -= targetLen - searchLen;
+          prepared.score = score;
+          for (var i2 = 0; i2 < matchesBestLen; ++i2)
+            prepared._indexes[i2] = matchesBest[i2];
+          prepared._indexes.len = matchesBestLen;
+          return prepared;
+        }
+      };
+      var algorithmSpaces = (preparedSearch, target) => {
+        var seen_indexes = /* @__PURE__ */ new Set();
+        var score = 0;
+        var result = NULL;
+        var first_seen_index_last_search = 0;
+        var searches = preparedSearch.spaceSearches;
+        for (var i2 = 0; i2 < searches.length; ++i2) {
+          var search = searches[i2];
+          result = algorithm(search, target);
+          if (result === NULL)
+            return NULL;
+          score += result.score;
+          if (result._indexes[0] < first_seen_index_last_search) {
+            score -= first_seen_index_last_search - result._indexes[0];
+          }
+          first_seen_index_last_search = result._indexes[0];
+          for (var j2 = 0; j2 < result._indexes.len; ++j2)
+            seen_indexes.add(result._indexes[j2]);
+        }
+        var allowSpacesResult = algorithm(preparedSearch, target, true);
+        if (allowSpacesResult !== NULL && allowSpacesResult.score > score) {
+          return allowSpacesResult;
+        }
+        result.score = score;
+        var i2 = 0;
+        for (let index of seen_indexes)
+          result._indexes[i2++] = index;
+        result._indexes.len = i2;
+        return result;
+      };
+      var prepareLowerInfo = (str) => {
+        var strLen = str.length;
+        var lower = str.toLowerCase();
+        var lowerCodes = [];
+        var bitflags = 0;
+        var containsSpace = false;
+        for (var i2 = 0; i2 < strLen; ++i2) {
+          var lowerCode = lowerCodes[i2] = lower.charCodeAt(i2);
+          if (lowerCode === 32) {
+            containsSpace = true;
+            continue;
+          }
+          var bit = lowerCode >= 97 && lowerCode <= 122 ? lowerCode - 97 : lowerCode >= 48 && lowerCode <= 57 ? 26 : lowerCode <= 127 ? 30 : 31;
+          bitflags |= 1 << bit;
+        }
+        return { lowerCodes, bitflags, containsSpace, _lower: lower };
+      };
+      var prepareBeginningIndexes = (target) => {
+        var targetLen = target.length;
+        var beginningIndexes = [];
+        var beginningIndexesLen = 0;
+        var wasUpper = false;
+        var wasAlphanum = false;
+        for (var i2 = 0; i2 < targetLen; ++i2) {
+          var targetCode = target.charCodeAt(i2);
+          var isUpper = targetCode >= 65 && targetCode <= 90;
+          var isAlphanum = isUpper || targetCode >= 97 && targetCode <= 122 || targetCode >= 48 && targetCode <= 57;
+          var isBeginning = isUpper && !wasUpper || !wasAlphanum || !isAlphanum;
+          wasUpper = isUpper;
+          wasAlphanum = isAlphanum;
+          if (isBeginning)
+            beginningIndexes[beginningIndexesLen++] = i2;
+        }
+        return beginningIndexes;
+      };
+      var prepareNextBeginningIndexes = (target) => {
+        var targetLen = target.length;
+        var beginningIndexes = prepareBeginningIndexes(target);
+        var nextBeginningIndexes = [];
+        var lastIsBeginning = beginningIndexes[0];
+        var lastIsBeginningI = 0;
+        for (var i2 = 0; i2 < targetLen; ++i2) {
+          if (lastIsBeginning > i2) {
+            nextBeginningIndexes[i2] = lastIsBeginning;
+          } else {
+            lastIsBeginning = beginningIndexes[++lastIsBeginningI];
+            nextBeginningIndexes[i2] = lastIsBeginning === void 0 ? targetLen : lastIsBeginning;
+          }
+        }
+        return nextBeginningIndexes;
+      };
+      var cleanup = () => {
+        preparedCache.clear();
+        preparedSearchCache.clear();
+        matchesSimple = [];
+        matchesStrict = [];
+      };
+      var preparedCache = /* @__PURE__ */ new Map();
+      var preparedSearchCache = /* @__PURE__ */ new Map();
+      var matchesSimple = [];
+      var matchesStrict = [];
+      var defaultScoreFn = (a2) => {
+        var max2 = INT_MIN;
+        var len = a2.length;
+        for (var i2 = 0; i2 < len; ++i2) {
+          var result = a2[i2];
+          if (result === NULL)
+            continue;
+          var score = result.score;
+          if (score > max2)
+            max2 = score;
+        }
+        if (max2 === INT_MIN)
+          return NULL;
+        return max2;
+      };
+      var getValue2 = (obj, prop) => {
+        var tmp = obj[prop];
+        if (tmp !== void 0)
+          return tmp;
+        var segs = prop;
+        if (!Array.isArray(prop))
+          segs = prop.split(".");
+        var len = segs.length;
+        var i2 = -1;
+        while (obj && ++i2 < len)
+          obj = obj[segs[i2]];
+        return obj;
+      };
+      var isObj = (x2) => {
+        return typeof x2 === "object";
+      };
+      var INT_MAX = Infinity;
+      var INT_MIN = -INT_MAX;
+      var noResults = [];
+      noResults.total = 0;
+      var NULL = null;
+      var fastpriorityqueue = (r2) => {
+        var e = [], o2 = 0, a2 = {}, v2 = (r3) => {
+          for (var a3 = 0, v3 = e[a3], c2 = 1; c2 < o2; ) {
+            var s2 = c2 + 1;
+            a3 = c2, s2 < o2 && e[s2].score < e[c2].score && (a3 = s2), e[a3 - 1 >> 1] = e[a3], c2 = 1 + (a3 << 1);
+          }
+          for (var f3 = a3 - 1 >> 1; a3 > 0 && v3.score < e[f3].score; f3 = (a3 = f3) - 1 >> 1)
+            e[a3] = e[f3];
+          e[a3] = v3;
+        };
+        return a2.add = (r3) => {
+          var a3 = o2;
+          e[o2++] = r3;
+          for (var v3 = a3 - 1 >> 1; a3 > 0 && r3.score < e[v3].score; v3 = (a3 = v3) - 1 >> 1)
+            e[a3] = e[v3];
+          e[a3] = r3;
+        }, a2.poll = (r3) => {
+          if (0 !== o2) {
+            var a3 = e[0];
+            return e[0] = e[--o2], v2(), a3;
+          }
+        }, a2.peek = (r3) => {
+          if (0 !== o2)
+            return e[0];
+        }, a2.replaceTop = (r3) => {
+          e[0] = r3, v2();
+        }, a2;
+      };
+      var q2 = fastpriorityqueue();
+      return { "single": single, "go": go, "highlight": highlight, "prepare": prepare, "indexes": indexes, "cleanup": cleanup };
+    });
+  }
+});
+
+// node_modules/papaparse/papaparse.min.js
+var require_papaparse_min = __commonJS({
+  "node_modules/papaparse/papaparse.min.js"(exports, module2) {
+    !function(e, t2) {
+      "function" == typeof define && define.amd ? define([], t2) : "object" == typeof module2 && "undefined" != typeof exports ? module2.exports = t2() : e.Papa = t2();
+    }(exports, function s2() {
+      "use strict";
+      var f3 = "undefined" != typeof self ? self : "undefined" != typeof window ? window : void 0 !== f3 ? f3 : {};
+      var n2 = !f3.document && !!f3.postMessage, o2 = f3.IS_PAPA_WORKER || false, a2 = {}, u2 = 0, b2 = { parse: function(e, t2) {
+        var r3 = (t2 = t2 || {}).dynamicTyping || false;
+        J(r3) && (t2.dynamicTypingFunction = r3, r3 = {});
+        if (t2.dynamicTyping = r3, t2.transform = !!J(t2.transform) && t2.transform, t2.worker && b2.WORKERS_SUPPORTED) {
+          var i2 = function() {
+            if (!b2.WORKERS_SUPPORTED)
+              return false;
+            var e2 = (r4 = f3.URL || f3.webkitURL || null, i3 = s2.toString(), b2.BLOB_URL || (b2.BLOB_URL = r4.createObjectURL(new Blob(["var global = (function() { if (typeof self !== 'undefined') { return self; } if (typeof window !== 'undefined') { return window; } if (typeof global !== 'undefined') { return global; } return {}; })(); global.IS_PAPA_WORKER=true; ", "(", i3, ")();"], { type: "text/javascript" })))), t3 = new f3.Worker(e2);
+            var r4, i3;
+            return t3.onmessage = _4, t3.id = u2++, a2[t3.id] = t3;
+          }();
+          return i2.userStep = t2.step, i2.userChunk = t2.chunk, i2.userComplete = t2.complete, i2.userError = t2.error, t2.step = J(t2.step), t2.chunk = J(t2.chunk), t2.complete = J(t2.complete), t2.error = J(t2.error), delete t2.worker, void i2.postMessage({ input: e, config: t2, workerId: i2.id });
+        }
+        var n3 = null;
+        b2.NODE_STREAM_INPUT, "string" == typeof e ? (e = function(e2) {
+          if (65279 === e2.charCodeAt(0))
+            return e2.slice(1);
+          return e2;
+        }(e), n3 = t2.download ? new l2(t2) : new p2(t2)) : true === e.readable && J(e.read) && J(e.on) ? n3 = new g2(t2) : (f3.File && e instanceof File || e instanceof Object) && (n3 = new c2(t2));
+        return n3.stream(e);
+      }, unparse: function(e, t2) {
+        var n3 = false, _5 = true, m3 = ",", y3 = "\r\n", s3 = '"', a3 = s3 + s3, r3 = false, i2 = null, o3 = false;
+        !function() {
+          if ("object" != typeof t2)
+            return;
+          "string" != typeof t2.delimiter || b2.BAD_DELIMITERS.filter(function(e2) {
+            return -1 !== t2.delimiter.indexOf(e2);
+          }).length || (m3 = t2.delimiter);
+          ("boolean" == typeof t2.quotes || "function" == typeof t2.quotes || Array.isArray(t2.quotes)) && (n3 = t2.quotes);
+          "boolean" != typeof t2.skipEmptyLines && "string" != typeof t2.skipEmptyLines || (r3 = t2.skipEmptyLines);
+          "string" == typeof t2.newline && (y3 = t2.newline);
+          "string" == typeof t2.quoteChar && (s3 = t2.quoteChar);
+          "boolean" == typeof t2.header && (_5 = t2.header);
+          if (Array.isArray(t2.columns)) {
+            if (0 === t2.columns.length)
+              throw new Error("Option columns is empty");
+            i2 = t2.columns;
+          }
+          void 0 !== t2.escapeChar && (a3 = t2.escapeChar + s3);
+          ("boolean" == typeof t2.escapeFormulae || t2.escapeFormulae instanceof RegExp) && (o3 = t2.escapeFormulae instanceof RegExp ? t2.escapeFormulae : /^[=+\-@\t\r].*$/);
+        }();
+        var u3 = new RegExp(Q2(s3), "g");
+        "string" == typeof e && (e = JSON.parse(e));
+        if (Array.isArray(e)) {
+          if (!e.length || Array.isArray(e[0]))
+            return h3(null, e, r3);
+          if ("object" == typeof e[0])
+            return h3(i2 || Object.keys(e[0]), e, r3);
+        } else if ("object" == typeof e)
+          return "string" == typeof e.data && (e.data = JSON.parse(e.data)), Array.isArray(e.data) && (e.fields || (e.fields = e.meta && e.meta.fields || i2), e.fields || (e.fields = Array.isArray(e.data[0]) ? e.fields : "object" == typeof e.data[0] ? Object.keys(e.data[0]) : []), Array.isArray(e.data[0]) || "object" == typeof e.data[0] || (e.data = [e.data])), h3(e.fields || [], e.data || [], r3);
+        throw new Error("Unable to serialize unrecognized input");
+        function h3(e2, t3, r4) {
+          var i3 = "";
+          "string" == typeof e2 && (e2 = JSON.parse(e2)), "string" == typeof t3 && (t3 = JSON.parse(t3));
+          var n4 = Array.isArray(e2) && 0 < e2.length, s4 = !Array.isArray(t3[0]);
+          if (n4 && _5) {
+            for (var a4 = 0; a4 < e2.length; a4++)
+              0 < a4 && (i3 += m3), i3 += v3(e2[a4], a4);
+            0 < t3.length && (i3 += y3);
+          }
+          for (var o4 = 0; o4 < t3.length; o4++) {
+            var u4 = n4 ? e2.length : t3[o4].length, h4 = false, f4 = n4 ? 0 === Object.keys(t3[o4]).length : 0 === t3[o4].length;
+            if (r4 && !n4 && (h4 = "greedy" === r4 ? "" === t3[o4].join("").trim() : 1 === t3[o4].length && 0 === t3[o4][0].length), "greedy" === r4 && n4) {
+              for (var d3 = [], l3 = 0; l3 < u4; l3++) {
+                var c3 = s4 ? e2[l3] : l3;
+                d3.push(t3[o4][c3]);
+              }
+              h4 = "" === d3.join("").trim();
+            }
+            if (!h4) {
+              for (var p3 = 0; p3 < u4; p3++) {
+                0 < p3 && !f4 && (i3 += m3);
+                var g3 = n4 && s4 ? e2[p3] : p3;
+                i3 += v3(t3[o4][g3], p3);
+              }
+              o4 < t3.length - 1 && (!r4 || 0 < u4 && !f4) && (i3 += y3);
+            }
+          }
+          return i3;
+        }
+        function v3(e2, t3) {
+          if (null == e2)
+            return "";
+          if (e2.constructor === Date)
+            return JSON.stringify(e2).slice(1, 25);
+          var r4 = false;
+          o3 && "string" == typeof e2 && o3.test(e2) && (e2 = "'" + e2, r4 = true);
+          var i3 = e2.toString().replace(u3, a3);
+          return (r4 = r4 || true === n3 || "function" == typeof n3 && n3(e2, t3) || Array.isArray(n3) && n3[t3] || function(e3, t4) {
+            for (var r5 = 0; r5 < t4.length; r5++)
+              if (-1 < e3.indexOf(t4[r5]))
+                return true;
+            return false;
+          }(i3, b2.BAD_DELIMITERS) || -1 < i3.indexOf(m3) || " " === i3.charAt(0) || " " === i3.charAt(i3.length - 1)) ? s3 + i3 + s3 : i3;
+        }
+      } };
+      if (b2.RECORD_SEP = String.fromCharCode(30), b2.UNIT_SEP = String.fromCharCode(31), b2.BYTE_ORDER_MARK = "\uFEFF", b2.BAD_DELIMITERS = ["\r", "\n", '"', b2.BYTE_ORDER_MARK], b2.WORKERS_SUPPORTED = !n2 && !!f3.Worker, b2.NODE_STREAM_INPUT = 1, b2.LocalChunkSize = 10485760, b2.RemoteChunkSize = 5242880, b2.DefaultDelimiter = ",", b2.Parser = E2, b2.ParserHandle = r2, b2.NetworkStreamer = l2, b2.FileStreamer = c2, b2.StringStreamer = p2, b2.ReadableStreamStreamer = g2, f3.jQuery) {
+        var d2 = f3.jQuery;
+        d2.fn.parse = function(o3) {
+          var r3 = o3.config || {}, u3 = [];
+          return this.each(function(e2) {
+            if (!("INPUT" === d2(this).prop("tagName").toUpperCase() && "file" === d2(this).attr("type").toLowerCase() && f3.FileReader) || !this.files || 0 === this.files.length)
+              return true;
+            for (var t2 = 0; t2 < this.files.length; t2++)
+              u3.push({ file: this.files[t2], inputElem: this, instanceConfig: d2.extend({}, r3) });
+          }), e(), this;
+          function e() {
+            if (0 !== u3.length) {
+              var e2, t2, r4, i2, n3 = u3[0];
+              if (J(o3.before)) {
+                var s3 = o3.before(n3.file, n3.inputElem);
+                if ("object" == typeof s3) {
+                  if ("abort" === s3.action)
+                    return e2 = "AbortError", t2 = n3.file, r4 = n3.inputElem, i2 = s3.reason, void (J(o3.error) && o3.error({ name: e2 }, t2, r4, i2));
+                  if ("skip" === s3.action)
+                    return void h3();
+                  "object" == typeof s3.config && (n3.instanceConfig = d2.extend(n3.instanceConfig, s3.config));
+                } else if ("skip" === s3)
+                  return void h3();
+              }
+              var a3 = n3.instanceConfig.complete;
+              n3.instanceConfig.complete = function(e3) {
+                J(a3) && a3(e3, n3.file, n3.inputElem), h3();
+              }, b2.parse(n3.file, n3.instanceConfig);
+            } else
+              J(o3.complete) && o3.complete();
+          }
+          function h3() {
+            u3.splice(0, 1), e();
+          }
+        };
+      }
+      function h2(e) {
+        this._handle = null, this._finished = false, this._completed = false, this._halted = false, this._input = null, this._baseIndex = 0, this._partialLine = "", this._rowCount = 0, this._start = 0, this._nextChunk = null, this.isFirstChunk = true, this._completeResults = { data: [], errors: [], meta: {} }, function(e2) {
+          var t2 = w2(e2);
+          t2.chunkSize = parseInt(t2.chunkSize), e2.step || e2.chunk || (t2.chunkSize = null);
+          this._handle = new r2(t2), (this._handle.streamer = this)._config = t2;
+        }.call(this, e), this.parseChunk = function(e2, t2) {
+          if (this.isFirstChunk && J(this._config.beforeFirstChunk)) {
+            var r3 = this._config.beforeFirstChunk(e2);
+            void 0 !== r3 && (e2 = r3);
+          }
+          this.isFirstChunk = false, this._halted = false;
+          var i2 = this._partialLine + e2;
+          this._partialLine = "";
+          var n3 = this._handle.parse(i2, this._baseIndex, !this._finished);
+          if (!this._handle.paused() && !this._handle.aborted()) {
+            var s3 = n3.meta.cursor;
+            this._finished || (this._partialLine = i2.substring(s3 - this._baseIndex), this._baseIndex = s3), n3 && n3.data && (this._rowCount += n3.data.length);
+            var a3 = this._finished || this._config.preview && this._rowCount >= this._config.preview;
+            if (o2)
+              f3.postMessage({ results: n3, workerId: b2.WORKER_ID, finished: a3 });
+            else if (J(this._config.chunk) && !t2) {
+              if (this._config.chunk(n3, this._handle), this._handle.paused() || this._handle.aborted())
+                return void (this._halted = true);
+              n3 = void 0, this._completeResults = void 0;
+            }
+            return this._config.step || this._config.chunk || (this._completeResults.data = this._completeResults.data.concat(n3.data), this._completeResults.errors = this._completeResults.errors.concat(n3.errors), this._completeResults.meta = n3.meta), this._completed || !a3 || !J(this._config.complete) || n3 && n3.meta.aborted || (this._config.complete(this._completeResults, this._input), this._completed = true), a3 || n3 && n3.meta.paused || this._nextChunk(), n3;
+          }
+          this._halted = true;
+        }, this._sendError = function(e2) {
+          J(this._config.error) ? this._config.error(e2) : o2 && this._config.error && f3.postMessage({ workerId: b2.WORKER_ID, error: e2, finished: false });
+        };
+      }
+      function l2(e) {
+        var i2;
+        (e = e || {}).chunkSize || (e.chunkSize = b2.RemoteChunkSize), h2.call(this, e), this._nextChunk = n2 ? function() {
+          this._readChunk(), this._chunkLoaded();
+        } : function() {
+          this._readChunk();
+        }, this.stream = function(e2) {
+          this._input = e2, this._nextChunk();
+        }, this._readChunk = function() {
+          if (this._finished)
+            this._chunkLoaded();
+          else {
+            if (i2 = new XMLHttpRequest(), this._config.withCredentials && (i2.withCredentials = this._config.withCredentials), n2 || (i2.onload = v2(this._chunkLoaded, this), i2.onerror = v2(this._chunkError, this)), i2.open(this._config.downloadRequestBody ? "POST" : "GET", this._input, !n2), this._config.downloadRequestHeaders) {
+              var e2 = this._config.downloadRequestHeaders;
+              for (var t2 in e2)
+                i2.setRequestHeader(t2, e2[t2]);
+            }
+            if (this._config.chunkSize) {
+              var r3 = this._start + this._config.chunkSize - 1;
+              i2.setRequestHeader("Range", "bytes=" + this._start + "-" + r3);
+            }
+            try {
+              i2.send(this._config.downloadRequestBody);
+            } catch (e3) {
+              this._chunkError(e3.message);
+            }
+            n2 && 0 === i2.status && this._chunkError();
+          }
+        }, this._chunkLoaded = function() {
+          4 === i2.readyState && (i2.status < 200 || 400 <= i2.status ? this._chunkError() : (this._start += this._config.chunkSize ? this._config.chunkSize : i2.responseText.length, this._finished = !this._config.chunkSize || this._start >= function(e2) {
+            var t2 = e2.getResponseHeader("Content-Range");
+            if (null === t2)
+              return -1;
+            return parseInt(t2.substring(t2.lastIndexOf("/") + 1));
+          }(i2), this.parseChunk(i2.responseText)));
+        }, this._chunkError = function(e2) {
+          var t2 = i2.statusText || e2;
+          this._sendError(new Error(t2));
+        };
+      }
+      function c2(e) {
+        var i2, n3;
+        (e = e || {}).chunkSize || (e.chunkSize = b2.LocalChunkSize), h2.call(this, e);
+        var s3 = "undefined" != typeof FileReader;
+        this.stream = function(e2) {
+          this._input = e2, n3 = e2.slice || e2.webkitSlice || e2.mozSlice, s3 ? ((i2 = new FileReader()).onload = v2(this._chunkLoaded, this), i2.onerror = v2(this._chunkError, this)) : i2 = new FileReaderSync(), this._nextChunk();
+        }, this._nextChunk = function() {
+          this._finished || this._config.preview && !(this._rowCount < this._config.preview) || this._readChunk();
+        }, this._readChunk = function() {
+          var e2 = this._input;
+          if (this._config.chunkSize) {
+            var t2 = Math.min(this._start + this._config.chunkSize, this._input.size);
+            e2 = n3.call(e2, this._start, t2);
+          }
+          var r3 = i2.readAsText(e2, this._config.encoding);
+          s3 || this._chunkLoaded({ target: { result: r3 } });
+        }, this._chunkLoaded = function(e2) {
+          this._start += this._config.chunkSize, this._finished = !this._config.chunkSize || this._start >= this._input.size, this.parseChunk(e2.target.result);
+        }, this._chunkError = function() {
+          this._sendError(i2.error);
+        };
+      }
+      function p2(e) {
+        var r3;
+        h2.call(this, e = e || {}), this.stream = function(e2) {
+          return r3 = e2, this._nextChunk();
+        }, this._nextChunk = function() {
+          if (!this._finished) {
+            var e2, t2 = this._config.chunkSize;
+            return t2 ? (e2 = r3.substring(0, t2), r3 = r3.substring(t2)) : (e2 = r3, r3 = ""), this._finished = !r3, this.parseChunk(e2);
+          }
+        };
+      }
+      function g2(e) {
+        h2.call(this, e = e || {});
+        var t2 = [], r3 = true, i2 = false;
+        this.pause = function() {
+          h2.prototype.pause.apply(this, arguments), this._input.pause();
+        }, this.resume = function() {
+          h2.prototype.resume.apply(this, arguments), this._input.resume();
+        }, this.stream = function(e2) {
+          this._input = e2, this._input.on("data", this._streamData), this._input.on("end", this._streamEnd), this._input.on("error", this._streamError);
+        }, this._checkIsFinished = function() {
+          i2 && 1 === t2.length && (this._finished = true);
+        }, this._nextChunk = function() {
+          this._checkIsFinished(), t2.length ? this.parseChunk(t2.shift()) : r3 = true;
+        }, this._streamData = v2(function(e2) {
+          try {
+            t2.push("string" == typeof e2 ? e2 : e2.toString(this._config.encoding)), r3 && (r3 = false, this._checkIsFinished(), this.parseChunk(t2.shift()));
+          } catch (e3) {
+            this._streamError(e3);
+          }
+        }, this), this._streamError = v2(function(e2) {
+          this._streamCleanUp(), this._sendError(e2);
+        }, this), this._streamEnd = v2(function() {
+          this._streamCleanUp(), i2 = true, this._streamData("");
+        }, this), this._streamCleanUp = v2(function() {
+          this._input.removeListener("data", this._streamData), this._input.removeListener("end", this._streamEnd), this._input.removeListener("error", this._streamError);
+        }, this);
+      }
+      function r2(m3) {
+        var a3, o3, u3, i2 = Math.pow(2, 53), n3 = -i2, s3 = /^\s*-?(\d+\.?|\.\d+|\d+\.\d+)([eE][-+]?\d+)?\s*$/, h3 = /^((\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z)))$/, t2 = this, r3 = 0, f4 = 0, d3 = false, e = false, l3 = [], c3 = { data: [], errors: [], meta: {} };
+        if (J(m3.step)) {
+          var p3 = m3.step;
+          m3.step = function(e2) {
+            if (c3 = e2, _5())
+              g3();
+            else {
+              if (g3(), 0 === c3.data.length)
+                return;
+              r3 += e2.data.length, m3.preview && r3 > m3.preview ? o3.abort() : (c3.data = c3.data[0], p3(c3, t2));
+            }
+          };
+        }
+        function y3(e2) {
+          return "greedy" === m3.skipEmptyLines ? "" === e2.join("").trim() : 1 === e2.length && 0 === e2[0].length;
+        }
+        function g3() {
+          return c3 && u3 && (k2("Delimiter", "UndetectableDelimiter", "Unable to auto-detect delimiting character; defaulted to '" + b2.DefaultDelimiter + "'"), u3 = false), m3.skipEmptyLines && (c3.data = c3.data.filter(function(e2) {
+            return !y3(e2);
+          })), _5() && function() {
+            if (!c3)
+              return;
+            function e2(e3, t4) {
+              J(m3.transformHeader) && (e3 = m3.transformHeader(e3, t4)), l3.push(e3);
+            }
+            if (Array.isArray(c3.data[0])) {
+              for (var t3 = 0; _5() && t3 < c3.data.length; t3++)
+                c3.data[t3].forEach(e2);
+              c3.data.splice(0, 1);
+            } else
+              c3.data.forEach(e2);
+          }(), function() {
+            if (!c3 || !m3.header && !m3.dynamicTyping && !m3.transform)
+              return c3;
+            function e2(e3, t4) {
+              var r4, i3 = m3.header ? {} : [];
+              for (r4 = 0; r4 < e3.length; r4++) {
+                var n4 = r4, s4 = e3[r4];
+                m3.header && (n4 = r4 >= l3.length ? "__parsed_extra" : l3[r4]), m3.transform && (s4 = m3.transform(s4, n4)), s4 = v3(n4, s4), "__parsed_extra" === n4 ? (i3[n4] = i3[n4] || [], i3[n4].push(s4)) : i3[n4] = s4;
+              }
+              return m3.header && (r4 > l3.length ? k2("FieldMismatch", "TooManyFields", "Too many fields: expected " + l3.length + " fields but parsed " + r4, f4 + t4) : r4 < l3.length && k2("FieldMismatch", "TooFewFields", "Too few fields: expected " + l3.length + " fields but parsed " + r4, f4 + t4)), i3;
+            }
+            var t3 = 1;
+            !c3.data.length || Array.isArray(c3.data[0]) ? (c3.data = c3.data.map(e2), t3 = c3.data.length) : c3.data = e2(c3.data, 0);
+            m3.header && c3.meta && (c3.meta.fields = l3);
+            return f4 += t3, c3;
+          }();
+        }
+        function _5() {
+          return m3.header && 0 === l3.length;
+        }
+        function v3(e2, t3) {
+          return r4 = e2, m3.dynamicTypingFunction && void 0 === m3.dynamicTyping[r4] && (m3.dynamicTyping[r4] = m3.dynamicTypingFunction(r4)), true === (m3.dynamicTyping[r4] || m3.dynamicTyping) ? "true" === t3 || "TRUE" === t3 || "false" !== t3 && "FALSE" !== t3 && (function(e3) {
+            if (s3.test(e3)) {
+              var t4 = parseFloat(e3);
+              if (n3 < t4 && t4 < i2)
+                return true;
+            }
+            return false;
+          }(t3) ? parseFloat(t3) : h3.test(t3) ? new Date(t3) : "" === t3 ? null : t3) : t3;
+          var r4;
+        }
+        function k2(e2, t3, r4, i3) {
+          var n4 = { type: e2, code: t3, message: r4 };
+          void 0 !== i3 && (n4.row = i3), c3.errors.push(n4);
+        }
+        this.parse = function(e2, t3, r4) {
+          var i3 = m3.quoteChar || '"';
+          if (m3.newline || (m3.newline = function(e3, t4) {
+            e3 = e3.substring(0, 1048576);
+            var r5 = new RegExp(Q2(t4) + "([^]*?)" + Q2(t4), "gm"), i4 = (e3 = e3.replace(r5, "")).split("\r"), n5 = e3.split("\n"), s5 = 1 < n5.length && n5[0].length < i4[0].length;
+            if (1 === i4.length || s5)
+              return "\n";
+            for (var a4 = 0, o4 = 0; o4 < i4.length; o4++)
+              "\n" === i4[o4][0] && a4++;
+            return a4 >= i4.length / 2 ? "\r\n" : "\r";
+          }(e2, i3)), u3 = false, m3.delimiter)
+            J(m3.delimiter) && (m3.delimiter = m3.delimiter(e2), c3.meta.delimiter = m3.delimiter);
+          else {
+            var n4 = function(e3, t4, r5, i4, n5) {
+              var s5, a4, o4, u4;
+              n5 = n5 || [",", "	", "|", ";", b2.RECORD_SEP, b2.UNIT_SEP];
+              for (var h4 = 0; h4 < n5.length; h4++) {
+                var f5 = n5[h4], d4 = 0, l4 = 0, c4 = 0;
+                o4 = void 0;
+                for (var p4 = new E2({ comments: i4, delimiter: f5, newline: t4, preview: 10 }).parse(e3), g4 = 0; g4 < p4.data.length; g4++)
+                  if (r5 && y3(p4.data[g4]))
+                    c4++;
+                  else {
+                    var _6 = p4.data[g4].length;
+                    l4 += _6, void 0 !== o4 ? 0 < _6 && (d4 += Math.abs(_6 - o4), o4 = _6) : o4 = _6;
+                  }
+                0 < p4.data.length && (l4 /= p4.data.length - c4), (void 0 === a4 || d4 <= a4) && (void 0 === u4 || u4 < l4) && 1.99 < l4 && (a4 = d4, s5 = f5, u4 = l4);
+              }
+              return { successful: !!(m3.delimiter = s5), bestDelimiter: s5 };
+            }(e2, m3.newline, m3.skipEmptyLines, m3.comments, m3.delimitersToGuess);
+            n4.successful ? m3.delimiter = n4.bestDelimiter : (u3 = true, m3.delimiter = b2.DefaultDelimiter), c3.meta.delimiter = m3.delimiter;
+          }
+          var s4 = w2(m3);
+          return m3.preview && m3.header && s4.preview++, a3 = e2, o3 = new E2(s4), c3 = o3.parse(a3, t3, r4), g3(), d3 ? { meta: { paused: true } } : c3 || { meta: { paused: false } };
+        }, this.paused = function() {
+          return d3;
+        }, this.pause = function() {
+          d3 = true, o3.abort(), a3 = J(m3.chunk) ? "" : a3.substring(o3.getCharIndex());
+        }, this.resume = function() {
+          t2.streamer._halted ? (d3 = false, t2.streamer.parseChunk(a3, true)) : setTimeout(t2.resume, 3);
+        }, this.aborted = function() {
+          return e;
+        }, this.abort = function() {
+          e = true, o3.abort(), c3.meta.aborted = true, J(m3.complete) && m3.complete(c3), a3 = "";
+        };
+      }
+      function Q2(e) {
+        return e.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }
+      function E2(j2) {
+        var z2, M2 = (j2 = j2 || {}).delimiter, P2 = j2.newline, U2 = j2.comments, q2 = j2.step, N2 = j2.preview, B2 = j2.fastMode, K = z2 = void 0 === j2.quoteChar || null === j2.quoteChar ? '"' : j2.quoteChar;
+        if (void 0 !== j2.escapeChar && (K = j2.escapeChar), ("string" != typeof M2 || -1 < b2.BAD_DELIMITERS.indexOf(M2)) && (M2 = ","), U2 === M2)
+          throw new Error("Comment character same as delimiter");
+        true === U2 ? U2 = "#" : ("string" != typeof U2 || -1 < b2.BAD_DELIMITERS.indexOf(U2)) && (U2 = false), "\n" !== P2 && "\r" !== P2 && "\r\n" !== P2 && (P2 = "\n");
+        var W2 = 0, H2 = false;
+        this.parse = function(i2, t2, r3) {
+          if ("string" != typeof i2)
+            throw new Error("Input must be a string");
+          var n3 = i2.length, e = M2.length, s3 = P2.length, a3 = U2.length, o3 = J(q2), u3 = [], h3 = [], f4 = [], d3 = W2 = 0;
+          if (!i2)
+            return L2();
+          if (j2.header && !t2) {
+            var l3 = i2.split(P2)[0].split(M2), c3 = [], p3 = {}, g3 = false;
+            for (var _5 in l3) {
+              var m3 = l3[_5];
+              J(j2.transformHeader) && (m3 = j2.transformHeader(m3, _5));
+              var y3 = m3, v3 = p3[m3] || 0;
+              for (0 < v3 && (g3 = true, y3 = m3 + "_" + v3), p3[m3] = v3 + 1; c3.includes(y3); )
+                y3 = y3 + "_" + v3;
+              c3.push(y3);
+            }
+            if (g3) {
+              var k2 = i2.split(P2);
+              k2[0] = c3.join(M2), i2 = k2.join(P2);
+            }
+          }
+          if (B2 || false !== B2 && -1 === i2.indexOf(z2)) {
+            for (var b3 = i2.split(P2), E3 = 0; E3 < b3.length; E3++) {
+              if (f4 = b3[E3], W2 += f4.length, E3 !== b3.length - 1)
+                W2 += P2.length;
+              else if (r3)
+                return L2();
+              if (!U2 || f4.substring(0, a3) !== U2) {
+                if (o3) {
+                  if (u3 = [], I2(f4.split(M2)), F2(), H2)
+                    return L2();
+                } else
+                  I2(f4.split(M2));
+                if (N2 && N2 <= E3)
+                  return u3 = u3.slice(0, N2), L2(true);
+              }
+            }
+            return L2();
+          }
+          for (var w3 = i2.indexOf(M2, W2), R2 = i2.indexOf(P2, W2), C = new RegExp(Q2(K) + Q2(z2), "g"), S2 = i2.indexOf(z2, W2); ; )
+            if (i2[W2] !== z2)
+              if (U2 && 0 === f4.length && i2.substring(W2, W2 + a3) === U2) {
+                if (-1 === R2)
+                  return L2();
+                W2 = R2 + s3, R2 = i2.indexOf(P2, W2), w3 = i2.indexOf(M2, W2);
+              } else if (-1 !== w3 && (w3 < R2 || -1 === R2))
+                f4.push(i2.substring(W2, w3)), W2 = w3 + e, w3 = i2.indexOf(M2, W2);
+              else {
+                if (-1 === R2)
+                  break;
+                if (f4.push(i2.substring(W2, R2)), D2(R2 + s3), o3 && (F2(), H2))
+                  return L2();
+                if (N2 && u3.length >= N2)
+                  return L2(true);
+              }
+            else
+              for (S2 = W2, W2++; ; ) {
+                if (-1 === (S2 = i2.indexOf(z2, S2 + 1)))
+                  return r3 || h3.push({ type: "Quotes", code: "MissingQuotes", message: "Quoted field unterminated", row: u3.length, index: W2 }), T();
+                if (S2 === n3 - 1)
+                  return T(i2.substring(W2, S2).replace(C, z2));
+                if (z2 !== K || i2[S2 + 1] !== K) {
+                  if (z2 === K || 0 === S2 || i2[S2 - 1] !== K) {
+                    -1 !== w3 && w3 < S2 + 1 && (w3 = i2.indexOf(M2, S2 + 1)), -1 !== R2 && R2 < S2 + 1 && (R2 = i2.indexOf(P2, S2 + 1));
+                    var O2 = A2(-1 === R2 ? w3 : Math.min(w3, R2));
+                    if (i2.substr(S2 + 1 + O2, e) === M2) {
+                      f4.push(i2.substring(W2, S2).replace(C, z2)), i2[W2 = S2 + 1 + O2 + e] !== z2 && (S2 = i2.indexOf(z2, W2)), w3 = i2.indexOf(M2, W2), R2 = i2.indexOf(P2, W2);
+                      break;
+                    }
+                    var x2 = A2(R2);
+                    if (i2.substring(S2 + 1 + x2, S2 + 1 + x2 + s3) === P2) {
+                      if (f4.push(i2.substring(W2, S2).replace(C, z2)), D2(S2 + 1 + x2 + s3), w3 = i2.indexOf(M2, W2), S2 = i2.indexOf(z2, W2), o3 && (F2(), H2))
+                        return L2();
+                      if (N2 && u3.length >= N2)
+                        return L2(true);
+                      break;
+                    }
+                    h3.push({ type: "Quotes", code: "InvalidQuotes", message: "Trailing quote on quoted field is malformed", row: u3.length, index: W2 }), S2++;
+                  }
+                } else
+                  S2++;
+              }
+          return T();
+          function I2(e2) {
+            u3.push(e2), d3 = W2;
+          }
+          function A2(e2) {
+            var t3 = 0;
+            if (-1 !== e2) {
+              var r4 = i2.substring(S2 + 1, e2);
+              r4 && "" === r4.trim() && (t3 = r4.length);
+            }
+            return t3;
+          }
+          function T(e2) {
+            return r3 || (void 0 === e2 && (e2 = i2.substring(W2)), f4.push(e2), W2 = n3, I2(f4), o3 && F2()), L2();
+          }
+          function D2(e2) {
+            W2 = e2, I2(f4), f4 = [], R2 = i2.indexOf(P2, W2);
+          }
+          function L2(e2) {
+            return { data: u3, errors: h3, meta: { delimiter: M2, linebreak: P2, aborted: H2, truncated: !!e2, cursor: d3 + (t2 || 0) } };
+          }
+          function F2() {
+            q2(L2()), u3 = [], h3 = [];
+          }
+        }, this.abort = function() {
+          H2 = true;
+        }, this.getCharIndex = function() {
+          return W2;
+        };
+      }
+      function _4(e) {
+        var t2 = e.data, r3 = a2[t2.workerId], i2 = false;
+        if (t2.error)
+          r3.userError(t2.error, t2.file);
+        else if (t2.results && t2.results.data) {
+          var n3 = { abort: function() {
+            i2 = true, m2(t2.workerId, { data: [], errors: [], meta: { aborted: true } });
+          }, pause: y2, resume: y2 };
+          if (J(r3.userStep)) {
+            for (var s3 = 0; s3 < t2.results.data.length && (r3.userStep({ data: t2.results.data[s3], errors: t2.results.errors, meta: t2.results.meta }, n3), !i2); s3++)
+              ;
+            delete t2.results;
+          } else
+            J(r3.userChunk) && (r3.userChunk(t2.results, n3, t2.file), delete t2.results);
+        }
+        t2.finished && !i2 && m2(t2.workerId, t2.results);
+      }
+      function m2(e, t2) {
+        var r3 = a2[e];
+        J(r3.userComplete) && r3.userComplete(t2), r3.terminate(), delete a2[e];
+      }
+      function y2() {
+        throw new Error("Not implemented.");
+      }
+      function w2(e) {
+        if ("object" != typeof e || null === e)
+          return e;
+        var t2 = Array.isArray(e) ? [] : {};
+        for (var r3 in e)
+          t2[r3] = w2(e[r3]);
+        return t2;
+      }
+      function v2(e, t2) {
+        return function() {
+          e.apply(t2, arguments);
+        };
+      }
+      function J(e) {
+        return "function" == typeof e;
+      }
+      return o2 && (f3.onmessage = function(e) {
+        var t2 = e.data;
+        void 0 === b2.WORKER_ID && t2 && (b2.WORKER_ID = t2.workerId);
+        if ("string" == typeof t2.input)
+          f3.postMessage({ workerId: b2.WORKER_ID, results: b2.parse(t2.input, t2.config), finished: true });
+        else if (f3.File && t2.input instanceof File || t2.input instanceof Object) {
+          var r3 = b2.parse(t2.input, t2.config);
+          r3 && f3.postMessage({ workerId: b2.WORKER_ID, results: r3, finished: true });
+        }
+      }), (l2.prototype = Object.create(h2.prototype)).constructor = l2, (c2.prototype = Object.create(h2.prototype)).constructor = c2, (p2.prototype = Object.create(p2.prototype)).constructor = p2, (g2.prototype = Object.create(h2.prototype)).constructor = g2, b2;
+    });
+  }
+});
+
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
@@ -38245,7 +39422,7 @@ __export(main_exports, {
   default: () => NLTPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian11 = require("obsidian");
+var import_obsidian15 = require("obsidian");
 
 // src/obsidian/nlt-settings-tab.ts
 var import_obsidian = require("obsidian");
@@ -38256,7 +39433,7 @@ var NLTSettingsTab = class extends import_obsidian.PluginSettingTab {
     this.plugin = plugin;
   }
   display() {
-    let { containerEl } = this;
+    const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Notion-Like Tables" });
     containerEl.createSpan(
@@ -38802,8 +39979,39 @@ var ln = an.createDraft.bind(an);
 var dn = an.finishDraft.bind(an);
 var immer_esm_default = fn;
 
+// node_modules/@babel/runtime/helpers/esm/typeof.js
+function _typeof(obj) {
+  "@babel/helpers - typeof";
+  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(obj2) {
+    return typeof obj2;
+  } : function(obj2) {
+    return obj2 && "function" == typeof Symbol && obj2.constructor === Symbol && obj2 !== Symbol.prototype ? "symbol" : typeof obj2;
+  }, _typeof(obj);
+}
+
+// node_modules/@babel/runtime/helpers/esm/toPrimitive.js
+function _toPrimitive(input, hint) {
+  if (_typeof(input) !== "object" || input === null)
+    return input;
+  var prim = input[Symbol.toPrimitive];
+  if (prim !== void 0) {
+    var res = prim.call(input, hint || "default");
+    if (_typeof(res) !== "object")
+      return res;
+    throw new TypeError("@@toPrimitive must return a primitive value.");
+  }
+  return (hint === "string" ? String : Number)(input);
+}
+
+// node_modules/@babel/runtime/helpers/esm/toPropertyKey.js
+function _toPropertyKey(arg) {
+  var key = _toPrimitive(arg, "string");
+  return _typeof(key) === "symbol" ? key : String(key);
+}
+
 // node_modules/@babel/runtime/helpers/esm/defineProperty.js
 function _defineProperty(obj, key, value) {
+  key = _toPropertyKey(key);
   if (key in obj) {
     Object.defineProperty(obj, key, {
       value,
@@ -39355,7 +40563,7 @@ function stringify(obj, serializer, indent, decycler) {
 function getSerialize(serializer, decycler) {
   var stack = [], keys = [];
   if (!decycler)
-    decycler = function(_3, value) {
+    decycler = function(_4, value) {
       if (stack[0] === value)
         return "[Circular ~]";
       return "[Circular ~." + keys.slice(0, stack.indexOf(value)).join(".") + "]";
@@ -39885,10 +41093,7 @@ N();
 // src/redux/global/global-slice.ts
 var initialState = {
   isDarkMode: false,
-  shouldDebug: false,
-  searchText: "",
-  isSearchBarVisible: false,
-  resizingColumnId: null
+  shouldDebug: false
 };
 var globalSlice = createSlice({
   name: "global",
@@ -39899,25 +41104,10 @@ var globalSlice = createSlice({
     },
     setDebugMode(state, action) {
       state.shouldDebug = action.payload;
-    },
-    setSearchText(state, action) {
-      state.searchText = action.payload;
-    },
-    toggleSearchBar(state) {
-      state.isSearchBarVisible = !state.isSearchBarVisible;
-    },
-    setResizingColumnId(state, action) {
-      state.resizingColumnId = action.payload;
     }
   }
 });
-var {
-  setDarkMode,
-  setDebugMode,
-  setSearchText,
-  toggleSearchBar,
-  setResizingColumnId
-} = globalSlice.actions;
+var { setDarkMode, setDebugMode } = globalSlice.actions;
 var global_slice_default = globalSlice.reducer;
 
 // src/redux/global/store.ts
@@ -39928,278 +41118,15 @@ var store = configureStore({
 });
 
 // src/obsidian/nlt-view.tsx
-var import_obsidian8 = require("obsidian");
+var import_obsidian11 = require("obsidian");
 var import_client2 = __toESM(require_client());
 
-// node_modules/react-redux/es/index.js
-var import_shim = __toESM(require_shim());
-var import_with_selector = __toESM(require_with_selector());
-
-// node_modules/react-redux/es/utils/reactBatchedUpdates.js
-var import_react_dom = __toESM(require_react_dom());
-
-// node_modules/react-redux/es/utils/batch.js
-function defaultNoopBatch(callback) {
-  callback();
-}
-var batch = defaultNoopBatch;
-var setBatch = (newBatch) => batch = newBatch;
-var getBatch = () => batch;
-
-// node_modules/react-redux/es/hooks/useSelector.js
-var import_react3 = __toESM(require_react());
-
-// node_modules/react-redux/es/hooks/useReduxContext.js
-var import_react2 = __toESM(require_react());
-
-// node_modules/react-redux/es/components/Context.js
-var import_react = __toESM(require_react());
-var ReactReduxContext = /* @__PURE__ */ (0, import_react.createContext)(null);
-if (true) {
-  ReactReduxContext.displayName = "ReactRedux";
-}
-
-// node_modules/react-redux/es/hooks/useReduxContext.js
-function useReduxContext() {
-  const contextValue = (0, import_react2.useContext)(ReactReduxContext);
-  if (!contextValue) {
-    throw new Error("could not find react-redux context value; please ensure the component is wrapped in a <Provider>");
-  }
-  return contextValue;
-}
-
-// node_modules/react-redux/es/utils/useSyncExternalStore.js
-var notInitialized = () => {
-  throw new Error("uSES not initialized!");
-};
-
-// node_modules/react-redux/es/hooks/useSelector.js
-var useSyncExternalStoreWithSelector = notInitialized;
-var initializeUseSelector = (fn2) => {
-  useSyncExternalStoreWithSelector = fn2;
-};
-var refEquality = (a2, b2) => a2 === b2;
-function createSelectorHook(context = ReactReduxContext) {
-  const useReduxContext2 = context === ReactReduxContext ? useReduxContext : () => (0, import_react3.useContext)(context);
-  return function useSelector2(selector, equalityFn = refEquality) {
-    if (true) {
-      if (!selector) {
-        throw new Error(`You must pass a selector to useSelector`);
-      }
-      if (typeof selector !== "function") {
-        throw new Error(`You must pass a function as a selector to useSelector`);
-      }
-      if (typeof equalityFn !== "function") {
-        throw new Error(`You must pass a function as an equality function to useSelector`);
-      }
-    }
-    const {
-      store: store2,
-      subscription,
-      getServerState
-    } = useReduxContext2();
-    const selectedState = useSyncExternalStoreWithSelector(subscription.addNestedSub, store2.getState, getServerState || store2.getState, selector, equalityFn);
-    (0, import_react3.useDebugValue)(selectedState);
-    return selectedState;
-  };
-}
-var useSelector = /* @__PURE__ */ createSelectorHook();
-
-// node_modules/react-redux/es/components/connect.js
-var import_hoist_non_react_statics = __toESM(require_hoist_non_react_statics_cjs());
-var import_react5 = __toESM(require_react());
-var import_react_is = __toESM(require_react_is2());
-
-// node_modules/react-redux/es/utils/Subscription.js
-function createListenerCollection() {
-  const batch2 = getBatch();
-  let first = null;
-  let last2 = null;
-  return {
-    clear() {
-      first = null;
-      last2 = null;
-    },
-    notify() {
-      batch2(() => {
-        let listener2 = first;
-        while (listener2) {
-          listener2.callback();
-          listener2 = listener2.next;
-        }
-      });
-    },
-    get() {
-      let listeners = [];
-      let listener2 = first;
-      while (listener2) {
-        listeners.push(listener2);
-        listener2 = listener2.next;
-      }
-      return listeners;
-    },
-    subscribe(callback) {
-      let isSubscribed = true;
-      let listener2 = last2 = {
-        callback,
-        next: null,
-        prev: last2
-      };
-      if (listener2.prev) {
-        listener2.prev.next = listener2;
-      } else {
-        first = listener2;
-      }
-      return function unsubscribe() {
-        if (!isSubscribed || first === null)
-          return;
-        isSubscribed = false;
-        if (listener2.next) {
-          listener2.next.prev = listener2.prev;
-        } else {
-          last2 = listener2.prev;
-        }
-        if (listener2.prev) {
-          listener2.prev.next = listener2.next;
-        } else {
-          first = listener2.next;
-        }
-      };
-    }
-  };
-}
-var nullListeners = {
-  notify() {
-  },
-  get: () => []
-};
-function createSubscription(store2, parentSub) {
-  let unsubscribe;
-  let listeners = nullListeners;
-  function addNestedSub(listener2) {
-    trySubscribe();
-    return listeners.subscribe(listener2);
-  }
-  function notifyNestedSubs() {
-    listeners.notify();
-  }
-  function handleChangeWrapper() {
-    if (subscription.onStateChange) {
-      subscription.onStateChange();
-    }
-  }
-  function isSubscribed() {
-    return Boolean(unsubscribe);
-  }
-  function trySubscribe() {
-    if (!unsubscribe) {
-      unsubscribe = parentSub ? parentSub.addNestedSub(handleChangeWrapper) : store2.subscribe(handleChangeWrapper);
-      listeners = createListenerCollection();
-    }
-  }
-  function tryUnsubscribe() {
-    if (unsubscribe) {
-      unsubscribe();
-      unsubscribe = void 0;
-      listeners.clear();
-      listeners = nullListeners;
-    }
-  }
-  const subscription = {
-    addNestedSub,
-    notifyNestedSubs,
-    handleChangeWrapper,
-    isSubscribed,
-    trySubscribe,
-    tryUnsubscribe,
-    getListeners: () => listeners
-  };
-  return subscription;
-}
-
-// node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js
-var import_react4 = __toESM(require_react());
-var canUseDOM = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
-var useIsomorphicLayoutEffect = canUseDOM ? import_react4.useLayoutEffect : import_react4.useEffect;
-
-// node_modules/react-redux/es/components/connect.js
-var useSyncExternalStore = notInitialized;
-var initializeConnect = (fn2) => {
-  useSyncExternalStore = fn2;
-};
-
-// node_modules/react-redux/es/components/Provider.js
-var import_react6 = __toESM(require_react());
-function Provider({
-  store: store2,
-  context,
-  children,
-  serverState
-}) {
-  const contextValue = (0, import_react6.useMemo)(() => {
-    const subscription = createSubscription(store2);
-    return {
-      store: store2,
-      subscription,
-      getServerState: serverState ? () => serverState : void 0
-    };
-  }, [store2, serverState]);
-  const previousState = (0, import_react6.useMemo)(() => store2.getState(), [store2]);
-  useIsomorphicLayoutEffect(() => {
-    const {
-      subscription
-    } = contextValue;
-    subscription.onStateChange = subscription.notifyNestedSubs;
-    subscription.trySubscribe();
-    if (previousState !== store2.getState()) {
-      subscription.notifyNestedSubs();
-    }
-    return () => {
-      subscription.tryUnsubscribe();
-      subscription.onStateChange = void 0;
-    };
-  }, [contextValue, previousState]);
-  const Context = context || ReactReduxContext;
-  return /* @__PURE__ */ import_react6.default.createElement(Context.Provider, {
-    value: contextValue
-  }, children);
-}
-var Provider_default = Provider;
-
-// node_modules/react-redux/es/hooks/useStore.js
-var import_react7 = __toESM(require_react());
-function createStoreHook(context = ReactReduxContext) {
-  const useReduxContext2 = context === ReactReduxContext ? useReduxContext : () => (0, import_react7.useContext)(context);
-  return function useStore2() {
-    const {
-      store: store2
-    } = useReduxContext2();
-    return store2;
-  };
-}
-var useStore = /* @__PURE__ */ createStoreHook();
-
-// node_modules/react-redux/es/hooks/useDispatch.js
-function createDispatchHook(context = ReactReduxContext) {
-  const useStore2 = context === ReactReduxContext ? useStore : createStoreHook(context);
-  return function useDispatch2() {
-    const store2 = useStore2();
-    return store2.dispatch;
-  };
-}
-var useDispatch = /* @__PURE__ */ createDispatchHook();
-
-// node_modules/react-redux/es/index.js
-initializeUseSelector(import_with_selector.useSyncExternalStoreWithSelector);
-initializeConnect(import_shim.useSyncExternalStore);
-setBatch(import_react_dom.unstable_batchedUpdates);
-
 // src/react/table-app/table/index.tsx
-var import_react13 = __toESM(require_react());
+var import_react15 = __toESM(require_react());
 
 // node_modules/react-virtuoso/dist/index.mjs
-var import_react8 = __toESM(require_react(), 1);
-var import_react_dom2 = __toESM(require_react_dom(), 1);
+var import_react = __toESM(require_react(), 1);
+var import_react_dom = __toESM(require_react_dom(), 1);
 var PUBLISH = 0;
 var SUBSCRIBE = 1;
 var RESET = 2;
@@ -40522,13 +41449,13 @@ function omit(keys, obj) {
   }
   return result;
 }
-var useIsomorphicLayoutEffect$2 = typeof document !== "undefined" ? import_react8.default.useLayoutEffect : import_react8.default.useEffect;
-function systemToComponent(systemSpec, map2, Root3) {
+var useIsomorphicLayoutEffect$2 = typeof document !== "undefined" ? import_react.default.useLayoutEffect : import_react.default.useEffect;
+function systemToComponent(systemSpec, map2, Root4) {
   const requiredPropNames = Object.keys(map2.required || {});
   const optionalPropNames = Object.keys(map2.optional || {});
   const methodNames = Object.keys(map2.methods || {});
   const eventNames = Object.keys(map2.events || {});
-  const Context = import_react8.default.createContext({});
+  const Context = import_react.default.createContext({});
   function applyPropsToSystem(system2, props) {
     if (system2["propsReady"]) {
       publish(system2["propsReady"], false);
@@ -40562,12 +41489,12 @@ function systemToComponent(systemSpec, map2, Root3) {
       return handlers;
     }, {});
   }
-  const Component = import_react8.default.forwardRef((propsWithChildren, ref) => {
+  const Component = import_react.default.forwardRef((propsWithChildren, ref) => {
     const _a = propsWithChildren, { children } = _a, props = __objRest(_a, ["children"]);
-    const [system2] = import_react8.default.useState(() => {
+    const [system2] = import_react.default.useState(() => {
       return tap(init(systemSpec), (system22) => applyPropsToSystem(system22, props));
     });
-    const [handlers] = import_react8.default.useState(curry1to0(buildEventHandlers, system2));
+    const [handlers] = import_react.default.useState(curry1to0(buildEventHandlers, system2));
     useIsomorphicLayoutEffect$2(() => {
       for (const eventName of eventNames) {
         if (eventName in props) {
@@ -40581,24 +41508,24 @@ function systemToComponent(systemSpec, map2, Root3) {
     useIsomorphicLayoutEffect$2(() => {
       applyPropsToSystem(system2, props);
     });
-    import_react8.default.useImperativeHandle(ref, always(buildMethods(system2)));
-    return import_react8.default.createElement(
+    import_react.default.useImperativeHandle(ref, always(buildMethods(system2)));
+    return import_react.default.createElement(
       Context.Provider,
       { value: system2 },
-      Root3 ? import_react8.default.createElement(
-        Root3,
+      Root4 ? import_react.default.createElement(
+        Root4,
         omit([...requiredPropNames, ...optionalPropNames, ...eventNames], props),
         children
       ) : children
     );
   });
   const usePublisher2 = (key) => {
-    return import_react8.default.useCallback(curry2to1(publish, import_react8.default.useContext(Context)[key]), [key]);
+    return import_react.default.useCallback(curry2to1(publish, import_react.default.useContext(Context)[key]), [key]);
   };
   const useEmitterValue2 = (key) => {
-    const system2 = import_react8.default.useContext(Context);
+    const system2 = import_react.default.useContext(Context);
     const source = system2[key];
-    const [value, setValue] = import_react8.default.useState(curry1to0(getValue, source));
+    const [value, setValue] = import_react.default.useState(curry1to0(getValue, source));
     useIsomorphicLayoutEffect$2(
       () => subscribe(source, (next) => {
         if (next !== value) {
@@ -40610,7 +41537,7 @@ function systemToComponent(systemSpec, map2, Root3) {
     return value;
   };
   const useEmitter2 = (key, callback) => {
-    const context = import_react8.default.useContext(Context);
+    const context = import_react.default.useContext(Context);
     const source = context[key];
     useIsomorphicLayoutEffect$2(() => subscribe(source, callback), [callback, source]);
   };
@@ -40621,8 +41548,8 @@ function systemToComponent(systemSpec, map2, Root3) {
     useEmitter: useEmitter2
   };
 }
-var useIsomorphicLayoutEffect2 = typeof document !== "undefined" ? import_react8.default.useLayoutEffect : import_react8.default.useEffect;
-var useIsomorphicLayoutEffect$1 = useIsomorphicLayoutEffect2;
+var useIsomorphicLayoutEffect = typeof document !== "undefined" ? import_react.default.useLayoutEffect : import_react.default.useEffect;
+var useIsomorphicLayoutEffect$1 = useIsomorphicLayoutEffect;
 var LogLevel = /* @__PURE__ */ ((LogLevel2) => {
   LogLevel2[LogLevel2["DEBUG"] = 0] = "DEBUG";
   LogLevel2[LogLevel2["INFO"] = 1] = "INFO";
@@ -40640,7 +41567,7 @@ var getGlobalThis = () => typeof globalThis === "undefined" ? window : globalThi
 var loggerSystem = system(
   () => {
     const logLevel = statefulStream(3);
-    const log = statefulStream((label, message, level = 1) => {
+    const log2 = statefulStream((label, message, level = 1) => {
       var _a;
       const currentLevel = (_a = getGlobalThis()["VIRTUOSO_LOG_LEVEL"]) != null ? _a : getValue(logLevel);
       if (level >= currentLevel) {
@@ -40654,7 +41581,7 @@ var loggerSystem = system(
       }
     });
     return {
-      log,
+      log: log2,
       logLevel
     };
   },
@@ -40662,11 +41589,11 @@ var loggerSystem = system(
   { singleton: true }
 );
 function useSizeWithElRef(callback, enabled = true) {
-  const ref = import_react8.default.useRef(null);
+  const ref = import_react.default.useRef(null);
   let callbackRef = (_el) => {
   };
   if (typeof ResizeObserver !== "undefined") {
-    const observer = import_react8.default.useMemo(() => {
+    const observer = import_react.default.useMemo(() => {
       return new ResizeObserver((entries) => {
         const element = entries[0].target;
         if (element.offsetParent !== null) {
@@ -40691,10 +41618,10 @@ function useSizeWithElRef(callback, enabled = true) {
 function useSize(callback, enabled = true) {
   return useSizeWithElRef(callback, enabled).callbackRef;
 }
-function useChangedListContentsSizes(callback, itemSize, enabled, scrollContainerStateCallback, log, gap, customScrollParent) {
-  const memoedCallback = import_react8.default.useCallback(
+function useChangedListContentsSizes(callback, itemSize, enabled, scrollContainerStateCallback, log2, gap, customScrollParent) {
+  const memoedCallback = import_react.default.useCallback(
     (el) => {
-      const ranges = getChangedChildSizes(el.children, itemSize, "offsetHeight", log);
+      const ranges = getChangedChildSizes(el.children, itemSize, "offsetHeight", log2);
       let scrollableElement = el.parentElement;
       while (!scrollableElement.dataset["virtuosoScroller"]) {
         scrollableElement = scrollableElement.parentElement;
@@ -40708,16 +41635,16 @@ function useChangedListContentsSizes(callback, itemSize, enabled, scrollContaine
         scrollHeight,
         viewportHeight
       });
-      gap == null ? void 0 : gap(resolveGapValue$1("row-gap", getComputedStyle(el).rowGap, log));
+      gap == null ? void 0 : gap(resolveGapValue$1("row-gap", getComputedStyle(el).rowGap, log2));
       if (ranges !== null) {
         callback(ranges);
       }
     },
-    [callback, itemSize, log, gap, customScrollParent, scrollContainerStateCallback]
+    [callback, itemSize, log2, gap, customScrollParent, scrollContainerStateCallback]
   );
   return useSizeWithElRef(memoedCallback, enabled);
 }
-function getChangedChildSizes(children, itemSize, field, log) {
+function getChangedChildSizes(children, itemSize, field, log2) {
   const length = children.length;
   if (length === 0) {
     return null;
@@ -40732,7 +41659,7 @@ function getChangedChildSizes(children, itemSize, field, log) {
     const knownSize = parseFloat(child.dataset.knownSize);
     const size = itemSize(child, field);
     if (size === 0) {
-      log("Zero-sized element, this should not happen", { child }, LogLevel.ERROR);
+      log2("Zero-sized element, this should not happen", { child }, LogLevel.ERROR);
     }
     if (size === knownSize) {
       continue;
@@ -40746,9 +41673,9 @@ function getChangedChildSizes(children, itemSize, field, log) {
   }
   return results;
 }
-function resolveGapValue$1(property, value, log) {
+function resolveGapValue$1(property, value, log2) {
   if (value !== "normal" && !(value == null ? void 0 : value.endsWith("px"))) {
-    log(`${property} was not resolved to pixel value correctly`, value, LogLevel.WARN);
+    log2(`${property} was not resolved to pixel value correctly`, value, LogLevel.WARN);
   }
   if (value === "normal") {
     return 0;
@@ -40762,10 +41689,10 @@ function approximatelyEqual(num1, num2) {
   return Math.abs(num1 - num2) < 1.01;
 }
 function useScrollTop(scrollContainerStateCallback, smoothScrollTargetReached, scrollerElement, scrollerRefCallback = noop, customScrollParent) {
-  const scrollerRef = import_react8.default.useRef(null);
-  const scrollTopTarget = import_react8.default.useRef(null);
-  const timeoutRef = import_react8.default.useRef(null);
-  const handler = import_react8.default.useCallback(
+  const scrollerRef = import_react.default.useRef(null);
+  const scrollTopTarget = import_react.default.useRef(null);
+  const timeoutRef = import_react.default.useRef(null);
+  const handler = import_react.default.useCallback(
     (ev) => {
       const el = ev.target;
       const windowScroll = el === window || el === document;
@@ -40782,7 +41709,7 @@ function useScrollTop(scrollContainerStateCallback, smoothScrollTargetReached, s
       if (ev.suppressFlushSync) {
         call2();
       } else {
-        import_react_dom2.default.flushSync(call2);
+        import_react_dom.default.flushSync(call2);
       }
       if (scrollTopTarget.current !== null) {
         if (scrollTop === scrollTopTarget.current || scrollTop <= 0 || scrollTop === scrollHeight - viewportHeight) {
@@ -40797,7 +41724,7 @@ function useScrollTop(scrollContainerStateCallback, smoothScrollTargetReached, s
     },
     [scrollContainerStateCallback, smoothScrollTargetReached]
   );
-  import_react8.default.useEffect(() => {
+  import_react.default.useEffect(() => {
     const localRef = customScrollParent ? customScrollParent : scrollerRef.current;
     scrollerRefCallback(customScrollParent ? customScrollParent : scrollerRef.current);
     handler({ target: localRef, suppressFlushSync: true });
@@ -41251,9 +42178,9 @@ function createOffsetTree(prevOffsetTree, syncStart, sizeTree, gap) {
     lastSize: prevSize
   };
 }
-function sizeStateReducer(state, [ranges, groupIndices, log, gap]) {
+function sizeStateReducer(state, [ranges, groupIndices, log2, gap]) {
   if (ranges.length > 0) {
-    log("received item sizes", ranges, LogLevel.DEBUG);
+    log2("received item sizes", ranges, LogLevel.DEBUG);
   }
   const sizeTree = state.sizeTree;
   let newSizeTree = sizeTree;
@@ -41330,7 +42257,7 @@ var SIZE_MAP = {
   offsetWidth: "width"
 };
 var sizeSystem = system(
-  ([{ log }, { recalcInProgress }]) => {
+  ([{ log: log2 }, { recalcInProgress }]) => {
     const sizeRanges = stream();
     const totalCount = stream();
     const statefulTotalCount = statefulStreamFromEmitter(totalCount, 0);
@@ -41345,7 +42272,7 @@ var sizeSystem = system(
     const gap = statefulStream(0);
     const initial = initialSizeState();
     const sizes = statefulStreamFromEmitter(
-      pipe(sizeRanges, withLatestFrom(groupIndices, log, gap), scan(sizeStateReducer, initial), distinctUntilChanged()),
+      pipe(sizeRanges, withLatestFrom(groupIndices, log2, gap), scan(sizeStateReducer, initial), distinctUntilChanged()),
       initial
     );
     const prevGroupIndices = statefulStreamFromEmitter(
@@ -41419,7 +42346,7 @@ var sizeSystem = system(
         sizeRanges,
         withLatestFrom(sizes),
         scan(
-          ({ sizes: oldSizes }, [_3, newSizes]) => {
+          ({ sizes: oldSizes }, [_4, newSizes]) => {
             return {
               changed: newSizes !== oldSizes,
               sizes: newSizes
@@ -41454,9 +42381,9 @@ var sizeSystem = system(
         }
       }
     );
-    subscribe(pipe(firstItemIndex, withLatestFrom(log)), ([index, log2]) => {
+    subscribe(pipe(firstItemIndex, withLatestFrom(log2)), ([index, log22]) => {
       if (index < 0) {
-        log2(
+        log22(
           "`firstItemIndex` prop should not be set to less than zero. If you don't know the total count, just use a very high value",
           { firstItemIndex },
           LogLevel.ERROR
@@ -41644,7 +42571,7 @@ var scrollToIndexSystem = system(
       fixedHeaderHeight,
       fixedFooterHeight
     },
-    { log }
+    { log: log2 }
   ]) => {
     const scrollToIndex = stream();
     const topListHeight = statefulStream(0);
@@ -41669,11 +42596,11 @@ var scrollToIndexSystem = system(
     connect(
       pipe(
         scrollToIndex,
-        withLatestFrom(sizes, viewportHeight, totalCount, topListHeight, headerHeight, footerHeight, log),
+        withLatestFrom(sizes, viewportHeight, totalCount, topListHeight, headerHeight, footerHeight, log2),
         withLatestFrom(gap, fixedHeaderHeight, fixedFooterHeight),
         map(
           ([
-            [location, sizes2, viewportHeight2, totalCount2, topListHeight2, headerHeight2, footerHeight2, log2],
+            [location, sizes2, viewportHeight2, totalCount2, topListHeight2, headerHeight2, footerHeight2, log22],
             gap2,
             fixedHeaderHeight2,
             fixedFooterHeight2
@@ -41699,10 +42626,10 @@ var scrollToIndexSystem = system(
             const retry = (listChanged) => {
               cleanup();
               if (listChanged) {
-                log2("retrying to scroll to", { location }, LogLevel.DEBUG);
+                log22("retrying to scroll to", { location }, LogLevel.DEBUG);
                 publish(scrollToIndex, location);
               } else {
-                log2("list did not change, scroll successful", {}, LogLevel.DEBUG);
+                log22("list did not change, scroll successful", {}, LogLevel.DEBUG);
               }
             };
             cleanup();
@@ -41721,7 +42648,7 @@ var scrollToIndexSystem = system(
               cleanup();
             }, 1200);
             publish(scrollingInProgress, true);
-            log2("scrolling from index to", { index, top, behavior }, LogLevel.DEBUG);
+            log22("scrolling from index to", { index, top, behavior }, LogLevel.DEBUG);
             return { top, behavior };
           }
         )
@@ -41918,8 +42845,8 @@ var stateFlagsSystem = system(([{ scrollContainerState, scrollTop, viewportHeigh
       scrollTop,
       throttleTime(100),
       withLatestFrom(isScrolling),
-      filter(([_3, isScrolling2]) => !!isScrolling2),
-      scan(([_3, prev], [next]) => [prev, next], [0, 0]),
+      filter(([_4, isScrolling2]) => !!isScrolling2),
+      scan(([_4, prev], [next]) => [prev, next], [0, 0]),
       map(([prev, next]) => next - prev)
     ),
     scrollVelocity
@@ -41939,7 +42866,7 @@ var stateFlagsSystem = system(([{ scrollContainerState, scrollTop, viewportHeigh
   };
 }, tup(domIOSystem));
 var propsReadySystem = system(
-  ([{ log }]) => {
+  ([{ log: log2 }]) => {
     const propsReady = statefulStream(false);
     const didMount = streamFromEmitter(
       pipe(
@@ -41949,7 +42876,7 @@ var propsReadySystem = system(
       )
     );
     subscribe(propsReady, (value) => {
-      value && getValue(log)("props updated", {}, LogLevel.DEBUG);
+      value && getValue(log2)("props updated", {}, LogLevel.DEBUG);
     });
     return { propsReady, didMount };
   },
@@ -41977,7 +42904,7 @@ var initialTopMostItemIndexSystem = system(
       pipe(
         didMount,
         withLatestFrom(initialTopMostItemIndex),
-        filter(([_3, location]) => !!location),
+        filter(([_4, location]) => !!location),
         mapTo(false)
       ),
       scrolledToInitialItem
@@ -42026,7 +42953,7 @@ var followOutputSystem = system(
     { scrollToIndex },
     { scrolledToInitialItem },
     { propsReady, didMount },
-    { log },
+    { log: log2 },
     { scrollingInProgress }
   ]) => {
     const followOutput = statefulStream(false);
@@ -42060,7 +42987,7 @@ var followOutputSystem = system(
           pendingScrollHandle = null;
         }
         pendingScrollHandle = handleNext(listRefresh, () => {
-          getValue(log)("following output to ", { totalCount: totalCount2 }, LogLevel.DEBUG);
+          getValue(log2)("following output to ", { totalCount: totalCount2 }, LogLevel.DEBUG);
           scrollToBottom(followOutputBehavior);
           pendingScrollHandle = null;
         });
@@ -42069,7 +42996,7 @@ var followOutputSystem = system(
     function trapNextSizeIncrease(followOutput2) {
       const cancel = handleNext(atBottomState, (state) => {
         if (followOutput2 && !state.atBottom && state.notAtBottomBecause === "SIZE_INCREASED" && !pendingScrollHandle) {
-          getValue(log)("scrolling to bottom due to increased size", {}, LogLevel.DEBUG);
+          getValue(log2)("scrolling to bottom due to increased size", {}, LogLevel.DEBUG);
           scrollToBottom("auto");
         }
       });
@@ -42138,7 +43065,7 @@ var groupedListSystem = system(([{ totalCount, groupIndices, sizes }, { scrollTo
   connect(
     pipe(
       combineLatest(scrollTop, sizes, headerHeight),
-      filter(([_3, sizes2]) => hasGroups(sizes2)),
+      filter(([_4, sizes2]) => hasGroups(sizes2)),
       map(([scrollTop2, state, headerHeight2]) => findMaxKeyValue(state.groupOffsetTree, Math.max(scrollTop2 - headerHeight2, 0), "v")[0]),
       distinctUntilChanged(),
       map((index) => [index])
@@ -42554,7 +43481,7 @@ var initialItemCountSystem = system(
             }
           }
           const adjustedCount = count + includedGroupsCount;
-          const items = Array.from({ length: adjustedCount }).map((_3, index) => ({ index, size: 0, offset: 0, data: data2[index] }));
+          const items = Array.from({ length: adjustedCount }).map((_4, index) => ({ index, size: 0, offset: 0, data: data2[index] }));
           return buildListState(items, [], adjustedCount, gap2, sizes2, firstItemIndex2);
         })
       ),
@@ -42574,7 +43501,7 @@ var scrollSeekSystem = system(
       pipe(
         scrollVelocity,
         withLatestFrom(scrollSeekConfiguration, isSeeking, rangeChanged),
-        filter(([_3, config]) => !!config),
+        filter(([_4, config]) => !!config),
         map(([speed, config, isSeeking2, range]) => {
           const { exit, enter } = config;
           if (isSeeking2) {
@@ -42607,7 +43534,7 @@ var topItemCountSystem = system(([{ topItemsIndexes }]) => {
     pipe(
       topItemCount,
       filter((length) => length > 0),
-      map((length) => Array.from({ length }).map((_3, index) => index))
+      map((length) => Array.from({ length }).map((_4, index) => index))
     ),
     topItemsIndexes
   );
@@ -42651,7 +43578,7 @@ var upwardScrollFixSystem = system(
     { isScrolling, isAtBottom, scrollDirection, lastJumpDueToItemResize },
     { listState },
     { beforeUnshiftWith, shiftWithOffset, sizes, gap },
-    { log },
+    { log: log2 },
     { recalcInProgress }
   ]) => {
     const deviationOffset = streamFromEmitter(
@@ -42678,12 +43605,12 @@ var upwardScrollFixSystem = system(
           [0, [], 0, 0]
         ),
         filter(([amount]) => amount !== 0),
-        withLatestFrom(scrollTop, scrollDirection, scrollingInProgress, isAtBottom, log, recalcInProgress),
+        withLatestFrom(scrollTop, scrollDirection, scrollingInProgress, isAtBottom, log2, recalcInProgress),
         filter(([, scrollTop2, scrollDirection2, scrollingInProgress2, , , recalcInProgress2]) => {
           return !recalcInProgress2 && !scrollingInProgress2 && scrollTop2 !== 0 && scrollDirection2 === UP;
         }),
-        map(([[amount], , , , , log2]) => {
-          log2("Upward scrolling compensation", { amount }, LogLevel.DEBUG);
+        map(([[amount], , , , , log22]) => {
+          log22("Upward scrolling compensation", { amount }, LogLevel.DEBUG);
           return amount;
         })
       )
@@ -42708,7 +43635,7 @@ var upwardScrollFixSystem = system(
       pipe(
         combineLatest(statefulStreamFromEmitter(isScrolling, false), deviation, recalcInProgress),
         filter(([is, deviation2, recalc]) => !is && !recalc && deviation2 !== 0),
-        map(([_3, deviation2]) => deviation2),
+        map(([_4, deviation2]) => deviation2),
         throttleTime(1)
       ),
       scrollByWith
@@ -43007,7 +43934,7 @@ var listSystem = system(
       ..._c
     ] = _a, _d = _b, { listState, topItemsIndexes } = _d, flags = __objRest(_d, ["listState", "topItemsIndexes"]), [
       { scrollToIndex },
-      _3,
+      _4,
       { topItemCount },
       { groupCounts },
       featureGroup1
@@ -43069,8 +43996,8 @@ var positionStickyCssValue = simpleMemoize(() => {
   return node.style.position === WEBKIT_STICKY ? WEBKIT_STICKY : STICKY;
 });
 function useWindowViewportRectRef(callback, customScrollParent) {
-  const viewportInfo = import_react8.default.useRef(null);
-  const calculateInfo = import_react8.default.useCallback(
+  const viewportInfo = import_react.default.useRef(null);
+  const calculateInfo = import_react.default.useCallback(
     (element) => {
       if (element === null || !element.offsetParent) {
         return;
@@ -43097,10 +44024,10 @@ function useWindowViewportRectRef(callback, customScrollParent) {
     [callback, customScrollParent]
   );
   const { callbackRef, ref } = useSizeWithElRef(calculateInfo);
-  const scrollAndResizeEventHandler = import_react8.default.useCallback(() => {
+  const scrollAndResizeEventHandler = import_react.default.useCallback(() => {
     calculateInfo(ref.current);
   }, [calculateInfo, ref]);
-  import_react8.default.useEffect(() => {
+  import_react.default.useEffect(() => {
     if (customScrollParent) {
       customScrollParent.addEventListener("scroll", scrollAndResizeEventHandler);
       const observer = new ResizeObserver(scrollAndResizeEventHandler);
@@ -43120,8 +44047,8 @@ function useWindowViewportRectRef(callback, customScrollParent) {
   }, [scrollAndResizeEventHandler, customScrollParent]);
   return callbackRef;
 }
-var VirtuosoMockContext = import_react8.default.createContext(void 0);
-var VirtuosoGridMockContext = import_react8.default.createContext(void 0);
+var VirtuosoMockContext = import_react.default.createContext(void 0);
+var VirtuosoGridMockContext = import_react.default.createContext(void 0);
 function identity(value) {
   return value;
 }
@@ -43165,10 +44092,10 @@ var listComponentPropsSystem = /* @__PURE__ */ system(() => {
 var combinedSystem$2 = /* @__PURE__ */ system(([listSystem2, propsSystem]) => {
   return __spreadValues(__spreadValues({}, listSystem2), propsSystem);
 }, tup(listSystem, listComponentPropsSystem));
-var DefaultScrollSeekPlaceholder$1 = ({ height }) => /* @__PURE__ */ import_react8.default.createElement("div", { style: { height } });
+var DefaultScrollSeekPlaceholder$1 = ({ height }) => /* @__PURE__ */ import_react.default.createElement("div", { style: { height } });
 var GROUP_STYLE = { position: positionStickyCssValue(), zIndex: 1, overflowAnchor: "none" };
 var ITEM_STYLE = { overflowAnchor: "none" };
-var Items$1 = /* @__PURE__ */ import_react8.default.memo(function VirtuosoItems({ showTopList = false }) {
+var Items$1 = /* @__PURE__ */ import_react.default.memo(function VirtuosoItems({ showTopList = false }) {
   const listState = useEmitterValue$2("listState");
   const sizeRanges = usePublisher$2("sizeRanges");
   const useWindowScroll = useEmitterValue$2("useWindowScroll");
@@ -43181,18 +44108,18 @@ var Items$1 = /* @__PURE__ */ import_react8.default.memo(function VirtuosoItems(
   const groupContent = useEmitterValue$2("groupContent");
   const trackItemSizes = useEmitterValue$2("trackItemSizes");
   const itemSize = useEmitterValue$2("itemSize");
-  const log = useEmitterValue$2("log");
+  const log2 = useEmitterValue$2("log");
   const listGap = usePublisher$2("gap");
   const { callbackRef } = useChangedListContentsSizes(
     sizeRanges,
     itemSize,
     trackItemSizes,
     showTopList ? noop : scrollContainerStateCallback,
-    log,
+    log2,
     listGap,
     customScrollParent
   );
-  const [deviation, setDeviation] = import_react8.default.useState(0);
+  const [deviation, setDeviation] = import_react.default.useState(0);
   useEmitter$2("deviation", (value) => {
     if (deviation !== value) {
       setDeviation(value);
@@ -43215,9 +44142,9 @@ var Items$1 = /* @__PURE__ */ import_react8.default.memo(function VirtuosoItems(
     marginTop: deviation
   }, scrolledToInitialItem ? {} : { visibility: "hidden" });
   if (!showTopList && listState.totalCount === 0 && EmptyPlaceholder) {
-    return import_react8.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
+    return import_react.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
   }
-  return import_react8.default.createElement(
+  return import_react.default.createElement(
     ListComponent,
     __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ListComponent, context)), {
       ref: callbackRef,
@@ -43228,7 +44155,7 @@ var Items$1 = /* @__PURE__ */ import_react8.default.memo(function VirtuosoItems(
       const index = item.originalIndex;
       const key = computeItemKey(index + listState.firstItemIndex, item.data, context);
       if (isSeeking) {
-        return import_react8.default.createElement(ScrollSeekPlaceholder, __spreadValues(__spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
+        return import_react.default.createElement(ScrollSeekPlaceholder, __spreadValues(__spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
           key,
           index: item.index,
           height: item.size,
@@ -43236,7 +44163,7 @@ var Items$1 = /* @__PURE__ */ import_react8.default.memo(function VirtuosoItems(
         }), item.type === "group" ? {} : { groupIndex: item.groupIndex }));
       }
       if (item.type === "group") {
-        return import_react8.default.createElement(
+        return import_react.default.createElement(
           GroupComponent,
           __spreadProps(__spreadValues({}, contextPropIfNotDomElement(GroupComponent, context)), {
             key,
@@ -43248,7 +44175,7 @@ var Items$1 = /* @__PURE__ */ import_react8.default.memo(function VirtuosoItems(
           groupContent(item.index, context)
         );
       } else {
-        return import_react8.default.createElement(
+        return import_react.default.createElement(
           ItemComponent,
           __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ItemComponent, context)), {
             key,
@@ -43290,24 +44217,24 @@ function contextPropIfNotDomElement(element, context) {
   }
   return { context };
 }
-var Header$1 = /* @__PURE__ */ import_react8.default.memo(function VirtuosoHeader() {
+var Header$1 = /* @__PURE__ */ import_react.default.memo(function VirtuosoHeader() {
   const Header2 = useEmitterValue$2("HeaderComponent");
   const headerHeight = usePublisher$2("headerHeight");
   const headerFooterTag = useEmitterValue$2("headerFooterTag");
   const ref = useSize((el) => headerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$2("context");
-  return Header2 ? import_react8.default.createElement(headerFooterTag, { ref }, import_react8.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
+  return Header2 ? import_react.default.createElement(headerFooterTag, { ref }, import_react.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
 });
-var Footer$1 = /* @__PURE__ */ import_react8.default.memo(function VirtuosoFooter() {
+var Footer$1 = /* @__PURE__ */ import_react.default.memo(function VirtuosoFooter() {
   const Footer2 = useEmitterValue$2("FooterComponent");
   const footerHeight = usePublisher$2("footerHeight");
   const headerFooterTag = useEmitterValue$2("headerFooterTag");
   const ref = useSize((el) => footerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$2("context");
-  return Footer2 ? import_react8.default.createElement(headerFooterTag, { ref }, import_react8.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
+  return Footer2 ? import_react.default.createElement(headerFooterTag, { ref }, import_react.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
 });
 function buildScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, useEmitterValue: useEmitterValue2 }) {
-  const Scroller2 = import_react8.default.memo(function VirtuosoScroller(_a) {
+  const Scroller2 = import_react.default.memo(function VirtuosoScroller(_a) {
     var _b = _a, { style, children } = _b, props = __objRest(_b, ["style", "children"]);
     const scrollContainerStateCallback = usePublisher2("scrollContainerState");
     const ScrollerComponent = useEmitterValue2("ScrollerComponent");
@@ -43322,7 +44249,7 @@ function buildScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, u
     );
     useEmitter2("scrollTo", scrollToCallback);
     useEmitter2("scrollBy", scrollByCallback);
-    return import_react8.default.createElement(
+    return import_react.default.createElement(
       ScrollerComponent,
       __spreadValues(__spreadValues({
         ref: scrollerRef,
@@ -43337,7 +44264,7 @@ function buildScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, u
   return Scroller2;
 }
 function buildWindowScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, useEmitterValue: useEmitterValue2 }) {
-  const Scroller2 = import_react8.default.memo(function VirtuosoWindowScroller(_a) {
+  const Scroller2 = import_react.default.memo(function VirtuosoWindowScroller(_a) {
     var _b = _a, { style, children } = _b, props = __objRest(_b, ["style", "children"]);
     const scrollContainerStateCallback = usePublisher2("windowScrollContainerState");
     const ScrollerComponent = useEmitterValue2("ScrollerComponent");
@@ -43361,7 +44288,7 @@ function buildWindowScroller({ usePublisher: usePublisher2, useEmitter: useEmitt
     }, [scrollerRef, customScrollParent]);
     useEmitter2("windowScrollTo", scrollToCallback);
     useEmitter2("scrollBy", scrollByCallback);
-    return import_react8.default.createElement(
+    return import_react.default.createElement(
       ScrollerComponent,
       __spreadValues(__spreadValues({
         style: __spreadValues(__spreadValues({ position: "relative" }, style), totalListHeight !== 0 ? { height: totalListHeight + deviation } : {}),
@@ -43373,46 +44300,46 @@ function buildWindowScroller({ usePublisher: usePublisher2, useEmitter: useEmitt
   return Scroller2;
 }
 var Viewport$2 = ({ children }) => {
-  const ctx = import_react8.default.useContext(VirtuosoMockContext);
+  const ctx = import_react.default.useContext(VirtuosoMockContext);
   const viewportHeight = usePublisher$2("viewportHeight");
   const fixedItemHeight = usePublisher$2("fixedItemHeight");
   const viewportRef = useSize(compose2(viewportHeight, (el) => correctItemSize(el, "height")));
-  import_react8.default.useEffect(() => {
+  import_react.default.useEffect(() => {
     if (ctx) {
       viewportHeight(ctx.viewportHeight);
       fixedItemHeight(ctx.itemHeight);
     }
   }, [ctx, viewportHeight, fixedItemHeight]);
-  return /* @__PURE__ */ import_react8.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
+  return /* @__PURE__ */ import_react.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
 };
 var WindowViewport$2 = ({ children }) => {
-  const ctx = import_react8.default.useContext(VirtuosoMockContext);
+  const ctx = import_react.default.useContext(VirtuosoMockContext);
   const windowViewportRect = usePublisher$2("windowViewportRect");
   const fixedItemHeight = usePublisher$2("fixedItemHeight");
   const customScrollParent = useEmitterValue$2("customScrollParent");
   const viewportRef = useWindowViewportRectRef(windowViewportRect, customScrollParent);
-  import_react8.default.useEffect(() => {
+  import_react.default.useEffect(() => {
     if (ctx) {
       fixedItemHeight(ctx.itemHeight);
       windowViewportRect({ offsetTop: 0, visibleHeight: ctx.viewportHeight, visibleWidth: 100 });
     }
   }, [ctx, windowViewportRect, fixedItemHeight]);
-  return /* @__PURE__ */ import_react8.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
+  return /* @__PURE__ */ import_react.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
 };
 var TopItemListContainer = ({ children }) => {
   const TopItemList = useEmitterValue$2("TopItemListComponent");
   const headerHeight = useEmitterValue$2("headerHeight");
   const style = __spreadProps(__spreadValues({}, topItemListStyle), { marginTop: `${headerHeight}px` });
   const context = useEmitterValue$2("context");
-  return import_react8.default.createElement(TopItemList || "div", { style, context }, children);
+  return import_react.default.createElement(TopItemList || "div", { style, context }, children);
 };
-var ListRoot = /* @__PURE__ */ import_react8.default.memo(function VirtuosoRoot(props) {
+var ListRoot = /* @__PURE__ */ import_react.default.memo(function VirtuosoRoot(props) {
   const useWindowScroll = useEmitterValue$2("useWindowScroll");
   const showTopList = useEmitterValue$2("topItemsIndexes").length > 0;
   const customScrollParent = useEmitterValue$2("customScrollParent");
   const TheScroller = customScrollParent || useWindowScroll ? WindowScroller$2 : Scroller$2;
   const TheViewport = customScrollParent || useWindowScroll ? WindowViewport$2 : Viewport$2;
-  return /* @__PURE__ */ import_react8.default.createElement(TheScroller, __spreadValues({}, props), showTopList && /* @__PURE__ */ import_react8.default.createElement(TopItemListContainer, null, /* @__PURE__ */ import_react8.default.createElement(Items$1, { showTopList: true })), /* @__PURE__ */ import_react8.default.createElement(TheViewport, null, /* @__PURE__ */ import_react8.default.createElement(Header$1, null), /* @__PURE__ */ import_react8.default.createElement(Items$1, null), /* @__PURE__ */ import_react8.default.createElement(Footer$1, null)));
+  return /* @__PURE__ */ import_react.default.createElement(TheScroller, __spreadValues({}, props), showTopList && /* @__PURE__ */ import_react.default.createElement(TopItemListContainer, null, /* @__PURE__ */ import_react.default.createElement(Items$1, { showTopList: true })), /* @__PURE__ */ import_react.default.createElement(TheViewport, null, /* @__PURE__ */ import_react.default.createElement(Header$1, null), /* @__PURE__ */ import_react.default.createElement(Items$1, null), /* @__PURE__ */ import_react.default.createElement(Footer$1, null)));
 });
 var {
   Component: List,
@@ -43504,7 +44431,7 @@ function buildProbeGridState(items) {
 }
 function buildItems(startIndex, endIndex, data) {
   return Array.from({ length: endIndex - startIndex + 1 }).map(
-    (_3, i2) => ({ index: i2 + startIndex, data: data == null ? void 0 : data[i2 + startIndex] })
+    (_4, i2) => ({ index: i2 + startIndex, data: data == null ? void 0 : data[i2 + startIndex] })
   );
 }
 function gapComparator(prev, next) {
@@ -43521,7 +44448,7 @@ var gridSystem = /* @__PURE__ */ system(
     scrollSeek,
     { propsReady, didMount },
     { windowViewportRect, windowScrollTo, useWindowScroll, customScrollParent, windowScrollContainerState },
-    log
+    log2
   ]) => {
     const totalCount = statefulStream(0);
     const initialItemCount = statefulStream(0);
@@ -43731,7 +44658,7 @@ var gridSystem = /* @__PURE__ */ system(
       endReached,
       rangeChanged,
       propsReady
-    }), log);
+    }), log2);
   },
   tup(sizeRangeSystem, domIOSystem, stateFlagsSystem, scrollSeekSystem, propsReadySystem, windowScrollerSystem, loggerSystem)
 );
@@ -43792,7 +44719,7 @@ var gridComponentPropsSystem = /* @__PURE__ */ system(() => {
 var combinedSystem$1 = /* @__PURE__ */ system(([gridSystem2, gridComponentPropsSystem2]) => {
   return __spreadValues(__spreadValues({}, gridSystem2), gridComponentPropsSystem2);
 }, tup(gridSystem, gridComponentPropsSystem));
-var GridItems = /* @__PURE__ */ import_react8.default.memo(function GridItems2() {
+var GridItems = /* @__PURE__ */ import_react.default.memo(function GridItems2() {
   const gridState = useEmitterValue$1("gridState");
   const listClassName = useEmitterValue$1("listClassName");
   const itemClassName = useEmitterValue$1("itemClassName");
@@ -43806,7 +44733,7 @@ var GridItems = /* @__PURE__ */ import_react8.default.memo(function GridItems2()
   const context = useEmitterValue$1("context");
   const itemDimensions = usePublisher$1("itemDimensions");
   const gridGap = usePublisher$1("gap");
-  const log = useEmitterValue$1("log");
+  const log2 = useEmitterValue$1("log");
   const listRef = useSize((el) => {
     const scrollHeight = el.parentElement.parentElement.scrollHeight;
     scrollHeightCallback(scrollHeight);
@@ -43815,11 +44742,11 @@ var GridItems = /* @__PURE__ */ import_react8.default.memo(function GridItems2()
       itemDimensions(firstItem.getBoundingClientRect());
     }
     gridGap({
-      row: resolveGapValue("row-gap", getComputedStyle(el).rowGap, log),
-      column: resolveGapValue("column-gap", getComputedStyle(el).columnGap, log)
+      row: resolveGapValue("row-gap", getComputedStyle(el).rowGap, log2),
+      column: resolveGapValue("column-gap", getComputedStyle(el).columnGap, log2)
     });
   });
-  return import_react8.default.createElement(
+  return import_react.default.createElement(
     ListComponent,
     __spreadProps(__spreadValues({
       ref: listRef,
@@ -43830,13 +44757,13 @@ var GridItems = /* @__PURE__ */ import_react8.default.memo(function GridItems2()
     }),
     gridState.items.map((item) => {
       const key = computeItemKey(item.index, item.data, context);
-      return isSeeking ? import_react8.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({
+      return isSeeking ? import_react.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({
         key
       }, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
         index: item.index,
         height: gridState.itemHeight,
         width: gridState.itemWidth
-      })) : import_react8.default.createElement(
+      })) : import_react.default.createElement(
         ItemComponent,
         __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ItemComponent, context)), { className: itemClassName, "data-index": item.index, key }),
         itemContent(item.index, item.data, context)
@@ -43844,58 +44771,58 @@ var GridItems = /* @__PURE__ */ import_react8.default.memo(function GridItems2()
     })
   );
 });
-var Header = import_react8.default.memo(function VirtuosoHeader2() {
+var Header = import_react.default.memo(function VirtuosoHeader2() {
   const Header2 = useEmitterValue$1("HeaderComponent");
   const headerHeight = usePublisher$1("headerHeight");
   const headerFooterTag = useEmitterValue$1("headerFooterTag");
   const ref = useSize((el) => headerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$1("context");
-  return Header2 ? import_react8.default.createElement(headerFooterTag, { ref }, import_react8.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
+  return Header2 ? import_react.default.createElement(headerFooterTag, { ref }, import_react.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
 });
-var Footer = import_react8.default.memo(function VirtuosoGridFooter() {
+var Footer = import_react.default.memo(function VirtuosoGridFooter() {
   const Footer2 = useEmitterValue$1("FooterComponent");
   const footerHeight = usePublisher$1("footerHeight");
   const headerFooterTag = useEmitterValue$1("headerFooterTag");
   const ref = useSize((el) => footerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$1("context");
-  return Footer2 ? import_react8.default.createElement(headerFooterTag, { ref }, import_react8.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
+  return Footer2 ? import_react.default.createElement(headerFooterTag, { ref }, import_react.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
 });
 var Viewport$1 = ({ children }) => {
-  const ctx = import_react8.default.useContext(VirtuosoGridMockContext);
+  const ctx = import_react.default.useContext(VirtuosoGridMockContext);
   const itemDimensions = usePublisher$1("itemDimensions");
   const viewportDimensions = usePublisher$1("viewportDimensions");
   const viewportRef = useSize((el) => {
     viewportDimensions(el.getBoundingClientRect());
   });
-  import_react8.default.useEffect(() => {
+  import_react.default.useEffect(() => {
     if (ctx) {
       viewportDimensions({ height: ctx.viewportHeight, width: ctx.viewportWidth });
       itemDimensions({ height: ctx.itemHeight, width: ctx.itemWidth });
     }
   }, [ctx, viewportDimensions, itemDimensions]);
-  return /* @__PURE__ */ import_react8.default.createElement("div", { style: viewportStyle, ref: viewportRef }, children);
+  return /* @__PURE__ */ import_react.default.createElement("div", { style: viewportStyle, ref: viewportRef }, children);
 };
 var WindowViewport$1 = ({ children }) => {
-  const ctx = import_react8.default.useContext(VirtuosoGridMockContext);
+  const ctx = import_react.default.useContext(VirtuosoGridMockContext);
   const windowViewportRect = usePublisher$1("windowViewportRect");
   const itemDimensions = usePublisher$1("itemDimensions");
   const customScrollParent = useEmitterValue$1("customScrollParent");
   const viewportRef = useWindowViewportRectRef(windowViewportRect, customScrollParent);
-  import_react8.default.useEffect(() => {
+  import_react.default.useEffect(() => {
     if (ctx) {
       itemDimensions({ height: ctx.itemHeight, width: ctx.itemWidth });
       windowViewportRect({ offsetTop: 0, visibleHeight: ctx.viewportHeight, visibleWidth: ctx.viewportWidth });
     }
   }, [ctx, windowViewportRect, itemDimensions]);
-  return /* @__PURE__ */ import_react8.default.createElement("div", { ref: viewportRef, style: viewportStyle }, children);
+  return /* @__PURE__ */ import_react.default.createElement("div", { ref: viewportRef, style: viewportStyle }, children);
 };
-var GridRoot = /* @__PURE__ */ import_react8.default.memo(function GridRoot2(_a) {
+var GridRoot = /* @__PURE__ */ import_react.default.memo(function GridRoot2(_a) {
   var props = __objRest(_a, []);
   const useWindowScroll = useEmitterValue$1("useWindowScroll");
   const customScrollParent = useEmitterValue$1("customScrollParent");
   const TheScroller = customScrollParent || useWindowScroll ? WindowScroller$1 : Scroller$1;
   const TheViewport = customScrollParent || useWindowScroll ? WindowViewport$1 : Viewport$1;
-  return /* @__PURE__ */ import_react8.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react8.default.createElement(TheViewport, null, /* @__PURE__ */ import_react8.default.createElement(Header, null), /* @__PURE__ */ import_react8.default.createElement(GridItems, null), /* @__PURE__ */ import_react8.default.createElement(Footer, null)));
+  return /* @__PURE__ */ import_react.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react.default.createElement(TheViewport, null, /* @__PURE__ */ import_react.default.createElement(Header, null), /* @__PURE__ */ import_react.default.createElement(GridItems, null), /* @__PURE__ */ import_react.default.createElement(Footer, null)));
 });
 var {
   Component: Grid,
@@ -43940,9 +44867,9 @@ var {
 );
 var Scroller$1 = /* @__PURE__ */ buildScroller({ usePublisher: usePublisher$1, useEmitterValue: useEmitterValue$1, useEmitter: useEmitter$1 });
 var WindowScroller$1 = /* @__PURE__ */ buildWindowScroller({ usePublisher: usePublisher$1, useEmitterValue: useEmitterValue$1, useEmitter: useEmitter$1 });
-function resolveGapValue(property, value, log) {
+function resolveGapValue(property, value, log2) {
   if (value !== "normal" && !(value == null ? void 0 : value.endsWith("px"))) {
-    log(`${property} was not resolved to pixel value correctly`, value, LogLevel.WARN);
+    log2(`${property} was not resolved to pixel value correctly`, value, LogLevel.WARN);
   }
   if (value === "normal") {
     return 0;
@@ -43950,7 +44877,7 @@ function resolveGapValue(property, value, log) {
   return parseInt(value != null ? value : "0", 10);
 }
 var tableComponentPropsSystem = /* @__PURE__ */ system(() => {
-  const itemContent = statefulStream((index) => /* @__PURE__ */ import_react8.default.createElement("td", null, "Item $", index));
+  const itemContent = statefulStream((index) => /* @__PURE__ */ import_react.default.createElement("td", null, "Item $", index));
   const context = statefulStream(null);
   const fixedHeaderContent = statefulStream(null);
   const fixedFooterContent = statefulStream(null);
@@ -43989,9 +44916,9 @@ var tableComponentPropsSystem = /* @__PURE__ */ system(() => {
 var combinedSystem = /* @__PURE__ */ system(([listSystem2, propsSystem]) => {
   return __spreadValues(__spreadValues({}, listSystem2), propsSystem);
 }, tup(listSystem, tableComponentPropsSystem));
-var DefaultScrollSeekPlaceholder = ({ height }) => /* @__PURE__ */ import_react8.default.createElement("tr", null, /* @__PURE__ */ import_react8.default.createElement("td", { style: { height } }));
-var DefaultFillerRow = ({ height }) => /* @__PURE__ */ import_react8.default.createElement("tr", null, /* @__PURE__ */ import_react8.default.createElement("td", { style: { height, padding: 0, border: 0 } }));
-var Items = /* @__PURE__ */ import_react8.default.memo(function VirtuosoItems2() {
+var DefaultScrollSeekPlaceholder = ({ height }) => /* @__PURE__ */ import_react.default.createElement("tr", null, /* @__PURE__ */ import_react.default.createElement("td", { style: { height } }));
+var DefaultFillerRow = ({ height }) => /* @__PURE__ */ import_react.default.createElement("tr", null, /* @__PURE__ */ import_react.default.createElement("td", { style: { height, padding: 0, border: 0 } }));
+var Items = /* @__PURE__ */ import_react.default.memo(function VirtuosoItems2() {
   const listState = useEmitterValue("listState");
   const sizeRanges = usePublisher("sizeRanges");
   const useWindowScroll = useEmitterValue("useWindowScroll");
@@ -44002,17 +44929,17 @@ var Items = /* @__PURE__ */ import_react8.default.memo(function VirtuosoItems2()
   const itemContent = useEmitterValue("itemContent");
   const trackItemSizes = useEmitterValue("trackItemSizes");
   const itemSize = useEmitterValue("itemSize");
-  const log = useEmitterValue("log");
+  const log2 = useEmitterValue("log");
   const { callbackRef, ref } = useChangedListContentsSizes(
     sizeRanges,
     itemSize,
     trackItemSizes,
     scrollContainerStateCallback,
-    log,
+    log2,
     void 0,
     customScrollParent
   );
-  const [deviation, setDeviation] = import_react8.default.useState(0);
+  const [deviation, setDeviation] = import_react.default.useState(0);
   useEmitter("deviation", (value) => {
     if (deviation !== value) {
       ref.current.style.marginTop = `${value}px`;
@@ -44031,24 +44958,24 @@ var Items = /* @__PURE__ */ import_react8.default.memo(function VirtuosoItems2()
   const statefulTotalCount = useEmitterValue("statefulTotalCount");
   const context = useEmitterValue("context");
   if (statefulTotalCount === 0 && EmptyPlaceholder) {
-    return import_react8.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
+    return import_react.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
   }
   const paddingTop = listState.offsetTop + paddingTopAddition + deviation;
   const paddingBottom = listState.offsetBottom;
-  const paddingTopEl = paddingTop > 0 ? /* @__PURE__ */ import_react8.default.createElement(FillerRow, { height: paddingTop, key: "padding-top", context }) : null;
-  const paddingBottomEl = paddingBottom > 0 ? /* @__PURE__ */ import_react8.default.createElement(FillerRow, { height: paddingBottom, key: "padding-bottom", context }) : null;
+  const paddingTopEl = paddingTop > 0 ? /* @__PURE__ */ import_react.default.createElement(FillerRow, { height: paddingTop, key: "padding-top", context }) : null;
+  const paddingBottomEl = paddingBottom > 0 ? /* @__PURE__ */ import_react.default.createElement(FillerRow, { height: paddingBottom, key: "padding-bottom", context }) : null;
   const items = listState.items.map((item) => {
     const index = item.originalIndex;
     const key = computeItemKey(index + firstItemIndex, item.data, context);
     if (isSeeking) {
-      return import_react8.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
+      return import_react.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
         key,
         index: item.index,
         height: item.size,
         type: item.type || "item"
       }));
     }
-    return import_react8.default.createElement(
+    return import_react.default.createElement(
       TableRowComponent,
       __spreadProps(__spreadValues({}, contextPropIfNotDomElement(TableRowComponent, context)), {
         key,
@@ -44061,40 +44988,40 @@ var Items = /* @__PURE__ */ import_react8.default.memo(function VirtuosoItems2()
       itemContent(item.index, item.data, context)
     );
   });
-  return import_react8.default.createElement(
+  return import_react.default.createElement(
     TableBodyComponent,
     __spreadValues({ ref: callbackRef, "data-test-id": "virtuoso-item-list" }, contextPropIfNotDomElement(TableBodyComponent, context)),
     [paddingTopEl, ...items, paddingBottomEl]
   );
 });
 var Viewport = ({ children }) => {
-  const ctx = import_react8.default.useContext(VirtuosoMockContext);
+  const ctx = import_react.default.useContext(VirtuosoMockContext);
   const viewportHeight = usePublisher("viewportHeight");
   const fixedItemHeight = usePublisher("fixedItemHeight");
   const viewportRef = useSize(compose2(viewportHeight, (el) => correctItemSize(el, "height")));
-  import_react8.default.useEffect(() => {
+  import_react.default.useEffect(() => {
     if (ctx) {
       viewportHeight(ctx.viewportHeight);
       fixedItemHeight(ctx.itemHeight);
     }
   }, [ctx, viewportHeight, fixedItemHeight]);
-  return /* @__PURE__ */ import_react8.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
+  return /* @__PURE__ */ import_react.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
 };
 var WindowViewport = ({ children }) => {
-  const ctx = import_react8.default.useContext(VirtuosoMockContext);
+  const ctx = import_react.default.useContext(VirtuosoMockContext);
   const windowViewportRect = usePublisher("windowViewportRect");
   const fixedItemHeight = usePublisher("fixedItemHeight");
   const customScrollParent = useEmitterValue("customScrollParent");
   const viewportRef = useWindowViewportRectRef(windowViewportRect, customScrollParent);
-  import_react8.default.useEffect(() => {
+  import_react.default.useEffect(() => {
     if (ctx) {
       fixedItemHeight(ctx.itemHeight);
       windowViewportRect({ offsetTop: 0, visibleHeight: ctx.viewportHeight, visibleWidth: 100 });
     }
   }, [ctx, windowViewportRect, fixedItemHeight]);
-  return /* @__PURE__ */ import_react8.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
+  return /* @__PURE__ */ import_react.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
 };
-var TableRoot = /* @__PURE__ */ import_react8.default.memo(function TableVirtuosoRoot(props) {
+var TableRoot = /* @__PURE__ */ import_react.default.memo(function TableVirtuosoRoot(props) {
   const useWindowScroll = useEmitterValue("useWindowScroll");
   const customScrollParent = useEmitterValue("customScrollParent");
   const fixedHeaderHeight = usePublisher("fixedHeaderHeight");
@@ -44109,7 +45036,7 @@ var TableRoot = /* @__PURE__ */ import_react8.default.memo(function TableVirtuos
   const TheTable = useEmitterValue("TableComponent");
   const TheTHead = useEmitterValue("TableHeadComponent");
   const TheTFoot = useEmitterValue("TableFooterComponent");
-  const theHead = fixedHeaderContent ? import_react8.default.createElement(
+  const theHead = fixedHeaderContent ? import_react.default.createElement(
     TheTHead,
     __spreadValues({
       key: "TableHead",
@@ -44118,7 +45045,7 @@ var TableRoot = /* @__PURE__ */ import_react8.default.memo(function TableVirtuos
     }, contextPropIfNotDomElement(TheTHead, context)),
     fixedHeaderContent()
   ) : null;
-  const theFoot = fixedFooterContent ? import_react8.default.createElement(
+  const theFoot = fixedFooterContent ? import_react.default.createElement(
     TheTFoot,
     __spreadValues({
       key: "TableFoot",
@@ -44127,9 +45054,9 @@ var TableRoot = /* @__PURE__ */ import_react8.default.memo(function TableVirtuos
     }, contextPropIfNotDomElement(TheTFoot, context)),
     fixedFooterContent()
   ) : null;
-  return /* @__PURE__ */ import_react8.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react8.default.createElement(TheViewport, null, import_react8.default.createElement(TheTable, __spreadValues({ style: { borderSpacing: 0 } }, contextPropIfNotDomElement(TheTable, context)), [
+  return /* @__PURE__ */ import_react.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react.default.createElement(TheViewport, null, import_react.default.createElement(TheTable, __spreadValues({ style: { borderSpacing: 0 } }, contextPropIfNotDomElement(TheTable, context)), [
     theHead,
-    /* @__PURE__ */ import_react8.default.createElement(Items, { key: "TableBody" }),
+    /* @__PURE__ */ import_react.default.createElement(Items, { key: "TableBody" }),
     theFoot
   ])));
 });
@@ -44196,8 +45123,1226 @@ var Scroller = /* @__PURE__ */ buildScroller({ usePublisher, useEmitterValue, us
 var WindowScroller = /* @__PURE__ */ buildWindowScroller({ usePublisher, useEmitterValue, useEmitter });
 var TableVirtuoso = Table;
 
-// src/shared/hooks.ts
+// src/shared/table-state/table-state-context.tsx
+var import_react11 = __toESM(require_react());
+
+// src/shared/logger.ts
 var import_react9 = __toESM(require_react());
+
+// node_modules/react-redux/es/index.js
+var import_shim = __toESM(require_shim());
+var import_with_selector = __toESM(require_with_selector());
+
+// node_modules/react-redux/es/utils/reactBatchedUpdates.js
+var import_react_dom2 = __toESM(require_react_dom());
+
+// node_modules/react-redux/es/utils/batch.js
+function defaultNoopBatch(callback) {
+  callback();
+}
+var batch = defaultNoopBatch;
+var setBatch = (newBatch) => batch = newBatch;
+var getBatch = () => batch;
+
+// node_modules/react-redux/es/hooks/useSelector.js
+var import_react4 = __toESM(require_react());
+
+// node_modules/react-redux/es/hooks/useReduxContext.js
+var import_react3 = __toESM(require_react());
+
+// node_modules/react-redux/es/components/Context.js
+var import_react2 = __toESM(require_react());
+var ReactReduxContext = /* @__PURE__ */ (0, import_react2.createContext)(null);
+if (true) {
+  ReactReduxContext.displayName = "ReactRedux";
+}
+
+// node_modules/react-redux/es/hooks/useReduxContext.js
+function useReduxContext() {
+  const contextValue = (0, import_react3.useContext)(ReactReduxContext);
+  if (!contextValue) {
+    throw new Error("could not find react-redux context value; please ensure the component is wrapped in a <Provider>");
+  }
+  return contextValue;
+}
+
+// node_modules/react-redux/es/utils/useSyncExternalStore.js
+var notInitialized = () => {
+  throw new Error("uSES not initialized!");
+};
+
+// node_modules/react-redux/es/hooks/useSelector.js
+var useSyncExternalStoreWithSelector = notInitialized;
+var initializeUseSelector = (fn2) => {
+  useSyncExternalStoreWithSelector = fn2;
+};
+var refEquality = (a2, b2) => a2 === b2;
+function createSelectorHook(context = ReactReduxContext) {
+  const useReduxContext2 = context === ReactReduxContext ? useReduxContext : () => (0, import_react4.useContext)(context);
+  return function useSelector2(selector, equalityFn = refEquality) {
+    if (true) {
+      if (!selector) {
+        throw new Error(`You must pass a selector to useSelector`);
+      }
+      if (typeof selector !== "function") {
+        throw new Error(`You must pass a function as a selector to useSelector`);
+      }
+      if (typeof equalityFn !== "function") {
+        throw new Error(`You must pass a function as an equality function to useSelector`);
+      }
+    }
+    const {
+      store: store2,
+      subscription,
+      getServerState
+    } = useReduxContext2();
+    const selectedState = useSyncExternalStoreWithSelector(subscription.addNestedSub, store2.getState, getServerState || store2.getState, selector, equalityFn);
+    (0, import_react4.useDebugValue)(selectedState);
+    return selectedState;
+  };
+}
+var useSelector = /* @__PURE__ */ createSelectorHook();
+
+// node_modules/react-redux/es/components/connect.js
+var import_hoist_non_react_statics = __toESM(require_hoist_non_react_statics_cjs());
+var import_react6 = __toESM(require_react());
+var import_react_is = __toESM(require_react_is2());
+
+// node_modules/react-redux/es/utils/Subscription.js
+function createListenerCollection() {
+  const batch2 = getBatch();
+  let first = null;
+  let last2 = null;
+  return {
+    clear() {
+      first = null;
+      last2 = null;
+    },
+    notify() {
+      batch2(() => {
+        let listener2 = first;
+        while (listener2) {
+          listener2.callback();
+          listener2 = listener2.next;
+        }
+      });
+    },
+    get() {
+      let listeners = [];
+      let listener2 = first;
+      while (listener2) {
+        listeners.push(listener2);
+        listener2 = listener2.next;
+      }
+      return listeners;
+    },
+    subscribe(callback) {
+      let isSubscribed = true;
+      let listener2 = last2 = {
+        callback,
+        next: null,
+        prev: last2
+      };
+      if (listener2.prev) {
+        listener2.prev.next = listener2;
+      } else {
+        first = listener2;
+      }
+      return function unsubscribe() {
+        if (!isSubscribed || first === null)
+          return;
+        isSubscribed = false;
+        if (listener2.next) {
+          listener2.next.prev = listener2.prev;
+        } else {
+          last2 = listener2.prev;
+        }
+        if (listener2.prev) {
+          listener2.prev.next = listener2.next;
+        } else {
+          first = listener2.next;
+        }
+      };
+    }
+  };
+}
+var nullListeners = {
+  notify() {
+  },
+  get: () => []
+};
+function createSubscription(store2, parentSub) {
+  let unsubscribe;
+  let listeners = nullListeners;
+  function addNestedSub(listener2) {
+    trySubscribe();
+    return listeners.subscribe(listener2);
+  }
+  function notifyNestedSubs() {
+    listeners.notify();
+  }
+  function handleChangeWrapper() {
+    if (subscription.onStateChange) {
+      subscription.onStateChange();
+    }
+  }
+  function isSubscribed() {
+    return Boolean(unsubscribe);
+  }
+  function trySubscribe() {
+    if (!unsubscribe) {
+      unsubscribe = parentSub ? parentSub.addNestedSub(handleChangeWrapper) : store2.subscribe(handleChangeWrapper);
+      listeners = createListenerCollection();
+    }
+  }
+  function tryUnsubscribe() {
+    if (unsubscribe) {
+      unsubscribe();
+      unsubscribe = void 0;
+      listeners.clear();
+      listeners = nullListeners;
+    }
+  }
+  const subscription = {
+    addNestedSub,
+    notifyNestedSubs,
+    handleChangeWrapper,
+    isSubscribed,
+    trySubscribe,
+    tryUnsubscribe,
+    getListeners: () => listeners
+  };
+  return subscription;
+}
+
+// node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js
+var import_react5 = __toESM(require_react());
+var canUseDOM = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
+var useIsomorphicLayoutEffect2 = canUseDOM ? import_react5.useLayoutEffect : import_react5.useEffect;
+
+// node_modules/react-redux/es/components/connect.js
+var useSyncExternalStore = notInitialized;
+var initializeConnect = (fn2) => {
+  useSyncExternalStore = fn2;
+};
+
+// node_modules/react-redux/es/components/Provider.js
+var import_react7 = __toESM(require_react());
+function Provider({
+  store: store2,
+  context,
+  children,
+  serverState
+}) {
+  const contextValue = (0, import_react7.useMemo)(() => {
+    const subscription = createSubscription(store2);
+    return {
+      store: store2,
+      subscription,
+      getServerState: serverState ? () => serverState : void 0
+    };
+  }, [store2, serverState]);
+  const previousState = (0, import_react7.useMemo)(() => store2.getState(), [store2]);
+  useIsomorphicLayoutEffect2(() => {
+    const {
+      subscription
+    } = contextValue;
+    subscription.onStateChange = subscription.notifyNestedSubs;
+    subscription.trySubscribe();
+    if (previousState !== store2.getState()) {
+      subscription.notifyNestedSubs();
+    }
+    return () => {
+      subscription.tryUnsubscribe();
+      subscription.onStateChange = void 0;
+    };
+  }, [contextValue, previousState]);
+  const Context = context || ReactReduxContext;
+  return /* @__PURE__ */ import_react7.default.createElement(Context.Provider, {
+    value: contextValue
+  }, children);
+}
+var Provider_default = Provider;
+
+// node_modules/react-redux/es/hooks/useStore.js
+var import_react8 = __toESM(require_react());
+
+// node_modules/react-redux/es/index.js
+initializeUseSelector(import_with_selector.useSyncExternalStoreWithSelector);
+initializeConnect(import_shim.useSyncExternalStore);
+setBatch(import_react_dom2.unstable_batchedUpdates);
+
+// src/redux/global/hooks.ts
+var useAppSelector = useSelector;
+
+// src/shared/logger.ts
+var log = (shouldDebug) => (message, args = {}) => {
+  if (shouldDebug) {
+    console.log(message);
+    if (Object.keys(args).length !== 0)
+      console.log(args);
+  }
+};
+var useLogger = () => {
+  const { shouldDebug } = useAppSelector((state) => state.global);
+  const logger = import_react9.default.useCallback(
+    (message, args) => log(shouldDebug)(message, args),
+    [shouldDebug]
+  );
+  return logger;
+};
+
+// src/shared/table-state/table-state-context.tsx
+var import_lodash = __toESM(require_lodash());
+
+// src/shared/table-state/table-error.ts
+var ColumNotFoundError = class extends Error {
+  constructor(id2) {
+    super(`Column ${id2} is undefined`);
+    this.name = "ColumNotFoundError";
+  }
+};
+var TagNotFoundError = class extends Error {
+  constructor(id2) {
+    super(`Tag ${id2} is undefined`);
+    this.name = "TagNotFoundError";
+  }
+};
+var RowNotFoundError = class extends Error {
+  constructor(id2) {
+    super(`Reference row ${id2} is undefined`);
+    this.name = "RowNotFoundError";
+  }
+};
+var CellIdError = class extends Error {
+  constructor(id2) {
+    super(`Reference cell ${id2} is undefined`);
+    this.name = "CellIdError";
+  }
+};
+var CellNotFoundError = class extends Error {
+  constructor() {
+    super("Cell not found");
+    this.name = "CellNotFoundError";
+  }
+};
+
+// src/shared/commands/command-errors.ts
+var CommandUndoError = class extends Error {
+  constructor() {
+    super(`execute() must be called before undo() is available`);
+    this.name = "CommandUndoError";
+  }
+};
+var CommandRedoError = class extends Error {
+  constructor() {
+    super(`undo() must be called before redo() is available`);
+    this.name = "CommandRedoError";
+  }
+};
+var DeleteCommandArgumentsError = class extends Error {
+  constructor() {
+    super(`Either 'id' or 'last' must be defined`);
+    this.name = "DeleteCommandArgumentsError";
+  }
+};
+
+// src/shared/table-state/table-state-command.ts
+var TableStateCommand = class {
+  constructor(shouldSortRows = false) {
+    this.hasExecuteBeenCalled = false;
+    this.hasUndoBeenCalled = false;
+    this.shouldSortRows = shouldSortRows;
+  }
+  onExecute() {
+    this.hasExecuteBeenCalled = true;
+  }
+  onRedo() {
+    if (!this.hasUndoBeenCalled)
+      throw new CommandRedoError();
+    this.hasUndoBeenCalled = false;
+  }
+  onUndo() {
+    if (!this.hasExecuteBeenCalled)
+      throw new CommandUndoError();
+    this.hasUndoBeenCalled = true;
+  }
+};
+
+// src/shared/types/types.ts
+var Color = /* @__PURE__ */ ((Color2) => {
+  Color2["LIGHT_GRAY"] = "light gray";
+  Color2["GRAY"] = "gray";
+  Color2["BROWN"] = "brown";
+  Color2["ORANGE"] = "orange";
+  Color2["YELLOW"] = "yellow";
+  Color2["GREEN"] = "green";
+  Color2["BLUE"] = "blue";
+  Color2["PURPLE"] = "purple";
+  Color2["PINK"] = "pink";
+  Color2["RED"] = "red";
+  return Color2;
+})(Color || {});
+var CellType = /* @__PURE__ */ ((CellType5) => {
+  CellType5["TEXT"] = "text";
+  CellType5["EMBED"] = "embed";
+  CellType5["FILE"] = "file";
+  CellType5["NUMBER"] = "number";
+  CellType5["CURRENCY"] = "currency";
+  CellType5["TAG"] = "tag";
+  CellType5["MULTI_TAG"] = "multi-tag";
+  CellType5["DATE"] = "date";
+  CellType5["CHECKBOX"] = "checkbox";
+  CellType5["CREATION_TIME"] = "creation-time";
+  CellType5["LAST_EDITED_TIME"] = "last-edited-time";
+  return CellType5;
+})(CellType || {});
+var DateFormat = /* @__PURE__ */ ((DateFormat10) => {
+  DateFormat10["MM_DD_YYYY"] = "mm/dd/yyyy";
+  DateFormat10["DD_MM_YYYY"] = "dd/mm/yyyy";
+  DateFormat10["YYYY_MM_DD"] = "yyyy/mm/dd";
+  DateFormat10["FULL"] = "full";
+  DateFormat10["RELATIVE"] = "relative";
+  return DateFormat10;
+})(DateFormat || {});
+var CurrencyType = /* @__PURE__ */ ((CurrencyType10) => {
+  CurrencyType10["UNITED_STATES"] = "USD";
+  CurrencyType10["CANADA"] = "CAD";
+  CurrencyType10["SINGAPORE"] = "SGB";
+  CurrencyType10["EUROPE"] = "EUR";
+  CurrencyType10["SWEDEN"] = "SEK";
+  CurrencyType10["DENMARK"] = "DKK";
+  CurrencyType10["NORWAY"] = "NOK";
+  CurrencyType10["ICELAND"] = "ISK";
+  CurrencyType10["POUND"] = "GBP";
+  CurrencyType10["RUSSIA"] = "RUB";
+  CurrencyType10["AUSTRALIA"] = "AUD";
+  CurrencyType10["JAPAN"] = "JPY";
+  CurrencyType10["INDIA"] = "INR";
+  CurrencyType10["CHINA"] = "CNY";
+  CurrencyType10["BRAZIL"] = "BRL";
+  CurrencyType10["COLOMBIA"] = "COP";
+  CurrencyType10["MEXICO"] = "MXN";
+  CurrencyType10["ARGENTINA"] = "ARS";
+  return CurrencyType10;
+})(CurrencyType || {});
+var GeneralFunction = /* @__PURE__ */ ((GeneralFunction3) => {
+  GeneralFunction3["NONE"] = "none";
+  GeneralFunction3["COUNT_ALL"] = "count-all";
+  GeneralFunction3["COUNT_VALUES"] = "count-values";
+  GeneralFunction3["COUNT_UNIQUE"] = "count-unique";
+  GeneralFunction3["COUNT_EMPTY"] = "count-empty";
+  GeneralFunction3["COUNT_NOT_EMPTY"] = "count-not-empty";
+  GeneralFunction3["PERCENT_EMPTY"] = "percent-empty";
+  GeneralFunction3["PERCENT_NOT_EMPTY"] = "percent-not-empty";
+  return GeneralFunction3;
+})(GeneralFunction || {});
+var NumberFunction = /* @__PURE__ */ ((NumberFunction2) => {
+  NumberFunction2["SUM"] = "sum";
+  NumberFunction2["AVG"] = "avg";
+  NumberFunction2["MIN"] = "min";
+  NumberFunction2["MAX"] = "max";
+  NumberFunction2["MEDIAN"] = "median";
+  NumberFunction2["RANGE"] = "range";
+  return NumberFunction2;
+})(NumberFunction || {});
+
+// src/shared/regex.ts
+var NUMBER_REGEX = new RegExp(/^-?\d+\.?\d*$/);
+var NUMBER_INPUT_REGEX = new RegExp(/(^$)|(^-$)|(^-?\d+\.?\d*$)/);
+var CSS_MEASUREMENT_PIXEL_REGEX = new RegExp(/^([1-9])([0-9]*)px$/);
+var DATE_REGEX = new RegExp(/^\d{4}\/\d{2}\/\d{2}$/);
+var CHECKBOX_REGEX = new RegExp(/^\[[x ]{0,1}\]$/);
+var CHECKBOX_CHECKED_REGEX = new RegExp(/^\[[x]\]$/);
+var URL_REGEX = new RegExp(
+  /^https?:\/\/(www\.)?[\w.-]+\.[\w.-]+(\/[\w.-]+)*(\/?(\?[\w.-]+=[\w.-]+(&[\w.-]+=[\w.-]+)*)?)?$/i
+);
+
+// src/shared/validators.ts
+var isNumber = (input) => {
+  return input.match(NUMBER_REGEX) !== null;
+};
+var isValidNumberInput = (input) => {
+  return input.match(NUMBER_INPUT_REGEX) !== null;
+};
+var isCheckbox = (input) => {
+  return input.match(CHECKBOX_REGEX) !== null;
+};
+var isCheckboxChecked = (input) => {
+  return input.match(CHECKBOX_CHECKED_REGEX) !== null;
+};
+var isURL = (input) => {
+  return input.match(URL_REGEX) !== null;
+};
+var isGeneralFunction = (value) => {
+  return Object.values(GeneralFunction).includes(value);
+};
+var isNumberFunction = (value) => {
+  return Object.values(NumberFunction).includes(value);
+};
+
+// src/shared/commands/row-sort-command.ts
+var RowSortCommand = class extends TableStateCommand {
+  constructor() {
+    super(...arguments);
+    this.previousRowSort = [];
+  }
+  sortByTag(columnId, columns, rows, cells, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      const cellA = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === a2.id
+      );
+      if (!cellA)
+        throw new CellNotFoundError();
+      const cellB = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === b2.id
+      );
+      if (!cellB)
+        throw new CellNotFoundError();
+      const column = columns.find((c2) => c2.id === columnId);
+      if (!column)
+        throw new ColumNotFoundError(columnId);
+      if (cellA.tagIds.length === 0 && cellB.tagIds.length > 0)
+        return 1;
+      if (cellA.tagIds.length > 0 && cellB.tagIds.length === 0)
+        return -1;
+      if (cellA.tagIds.length === 0 && cellB.tagIds.length === 0)
+        return 0;
+      let tagLength = cellA.tagIds.length;
+      if (cellB.tagIds.length > cellA.tagIds.length) {
+        tagLength = cellB.tagIds.length;
+      }
+      for (let i2 = 0; i2 < tagLength; i2++) {
+        const tagIdA = cellA.tagIds[i2];
+        if (tagIdA === void 0)
+          return -1;
+        const tagA = column.tags.find((t2) => t2.id === tagIdA);
+        if (!tagA)
+          throw new TagNotFoundError(tagIdA);
+        const tagIdB = cellB.tagIds[i2];
+        if (tagIdB === void 0)
+          return 1;
+        const tagB = column.tags.find((t2) => t2.id === tagIdB);
+        if (!tagB)
+          throw new TagNotFoundError(tagIdA);
+        if (sortDir === "asc" /* ASC */) {
+          const result = tagA.markdown.localeCompare(tagB.markdown);
+          if (result !== 0)
+            return result;
+        } else if (sortDir === "desc" /* DESC */) {
+          const result = tagB.markdown.localeCompare(tagA.markdown);
+          if (result !== 0)
+            return result;
+        }
+      }
+      return 0;
+    });
+    return newRows;
+  }
+  sortByMarkdown(columnId, rows, cells, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      const cellA = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === a2.id
+      );
+      if (!cellA)
+        throw new CellNotFoundError();
+      const cellB = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === b2.id
+      );
+      if (!cellB)
+        throw new CellNotFoundError();
+      const markdownA = cellA.markdown;
+      const markdownB = cellB.markdown;
+      if (markdownA === "" && markdownB !== "")
+        return 1;
+      if (markdownA !== "" && markdownB === "")
+        return -1;
+      if (markdownA === "" && markdownB === "")
+        return 0;
+      if (sortDir === "asc" /* ASC */) {
+        return markdownA.localeCompare(markdownB);
+      } else if (sortDir === "desc" /* DESC */) {
+        return markdownB.localeCompare(markdownA);
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByNumber(columnId, rows, cells, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      const cellA = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === a2.id
+      );
+      if (!cellA)
+        throw new CellNotFoundError();
+      const cellB = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === b2.id
+      );
+      if (!cellB)
+        throw new CellNotFoundError();
+      const markdownA = cellA.markdown;
+      const markdownB = cellB.markdown;
+      if (markdownA === "" && markdownB !== "")
+        return 1;
+      if (markdownA !== "" && markdownB === "")
+        return -1;
+      if (markdownA === "" && markdownB === "")
+        return 0;
+      if (sortDir === "asc" /* ASC */) {
+        return parseFloat(markdownA) - parseFloat(markdownB);
+      } else if (sortDir === "desc" /* DESC */) {
+        return parseFloat(markdownB) - parseFloat(markdownA);
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByCheckbox(columnId, rows, cells, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      const cellA = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === a2.id
+      );
+      if (!cellA)
+        throw new CellNotFoundError();
+      const cellB = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === b2.id
+      );
+      if (!cellB)
+        throw new CellNotFoundError();
+      const isCheckedA = isCheckboxChecked(cellA.markdown);
+      const isCheckedB = isCheckboxChecked(cellB.markdown);
+      if (sortDir === "asc" /* ASC */) {
+        if (isCheckedA && !isCheckedB)
+          return 1;
+        if (!isCheckedA && isCheckedB)
+          return -1;
+        return 0;
+      } else if (sortDir === "desc" /* DESC */) {
+        if (!isCheckedA && isCheckedB)
+          return 1;
+        if (isCheckedA && !isCheckedB)
+          return -1;
+        return 0;
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByDate(columnId, rows, cells, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      const cellA = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === a2.id
+      );
+      if (!cellA)
+        throw new CellNotFoundError();
+      const cellB = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === b2.id
+      );
+      if (!cellB)
+        throw new CellNotFoundError();
+      const dateTimeA = cellA.dateTime || 0;
+      const dateTimeB = cellB.dateTime || 0;
+      if (sortDir === "asc" /* ASC */) {
+        return dateTimeA - dateTimeB;
+      } else if (sortDir === "desc" /* DESC */) {
+        return dateTimeB - dateTimeA;
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByCreationTime(rows, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      if (sortDir === "asc" /* ASC */) {
+        return a2.creationTime - b2.creationTime;
+      } else if (sortDir === "desc" /* DESC */) {
+        return b2.creationTime - a2.creationTime;
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByLastEditedTime(rows, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      if (sortDir === "asc" /* ASC */) {
+        return a2.lastEditedTime - b2.lastEditedTime;
+      } else if (sortDir === "desc" /* DESC */) {
+        return b2.lastEditedTime - a2.lastEditedTime;
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByDir(columnId, columnType, sortDir, columns, rows, cells) {
+    if (columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */) {
+      return this.sortByNumber(columnId, rows, cells, sortDir);
+    } else if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
+      return this.sortByTag(columnId, columns, rows, cells, sortDir);
+    } else if (columnType === "date" /* DATE */) {
+      return this.sortByDate(columnId, rows, cells, sortDir);
+    } else if (columnType === "last-edited-time" /* LAST_EDITED_TIME */) {
+      return this.sortByLastEditedTime(rows, sortDir);
+    } else if (columnType === "creation-time" /* CREATION_TIME */) {
+      return this.sortByCreationTime(rows, sortDir);
+    } else if (columnType === "checkbox" /* CHECKBOX */) {
+      return this.sortByCheckbox(columnId, rows, cells, sortDir);
+    } else {
+      return this.sortByMarkdown(columnId, rows, cells, sortDir);
+    }
+  }
+  sortByIndex(rows) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      return a2.index - b2.index;
+    });
+    return newRows;
+  }
+  execute(prevState) {
+    super.onExecute();
+    const { columns, bodyRows, bodyCells } = prevState.model;
+    const sortedColumn = columns.find(
+      (columns2) => columns2.sortDir !== "default" /* NONE */
+    );
+    this.previousRowSort = bodyRows.map((row) => ({
+      id: row.id,
+      index: row.index
+    }));
+    let newBodyRows = [...bodyRows];
+    if (sortedColumn) {
+      newBodyRows = this.sortByDir(
+        sortedColumn.id,
+        sortedColumn.type,
+        sortedColumn.sortDir,
+        columns,
+        bodyRows,
+        bodyCells
+      );
+    } else {
+      newBodyRows = this.sortByIndex(bodyRows);
+    }
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        bodyRows: newBodyRows
+      })
+    });
+  }
+  redo(prevState) {
+    super.onRedo();
+    return this.execute(prevState);
+  }
+  undo(prevState) {
+    super.onUndo();
+    const { bodyRows } = prevState.model;
+    const newBodyRows = this.previousRowSort.map((prev) => {
+      const row = bodyRows.find((row2) => row2.id === prev.id);
+      if (!row)
+        throw new RowNotFoundError(prev.id);
+      return __spreadProps(__spreadValues({}, row), {
+        index: prev.index
+      });
+    });
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        bodyRows: newBodyRows
+      })
+    });
+  }
+};
+
+// src/shared/keyboard-event.ts
+var isWindowsUndoDown = (e) => e.ctrlKey && e.key === "z";
+var isWindowsRedoDown = (e) => e.ctrlKey && e.key === "y";
+var isMacUndoDown = (e) => e.metaKey && e.key === "z";
+var isMacRedoDown = (e) => e.metaKey && e.shiftKey && e.key === "z";
+var isSpecialActionDown = (e) => e.shiftKey;
+
+// src/shared/event-system/event-system.ts
+var EventSystem = class {
+  constructor() {
+    this.eventListeners = [];
+  }
+  addEventListener(name, callback, priority = 0) {
+    this.eventListeners.push({
+      name,
+      callback,
+      priority
+    });
+    this.eventListeners.sort((a2, b2) => b2.priority - a2.priority);
+  }
+  removeEventListener(name, callback) {
+    this.eventListeners = this.eventListeners.filter(
+      (l2) => l2.name !== name || l2.callback !== callback
+    );
+  }
+  dispatchEvent(name, event, ...data) {
+    const listeners = this.eventListeners.filter((l2) => l2.name === name);
+    listeners.forEach((listener2) => {
+      listener2.callback(event, data);
+    });
+  }
+};
+var eventSystem = new EventSystem();
+
+// src/shared/view-context.tsx
+var import_react10 = __toESM(require_react());
+
+// node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.mjs
+var import_emotion_react_jsx_runtime_cjs = __toESM(require_emotion_react_jsx_runtime_cjs(), 1);
+
+// src/shared/view-context.tsx
+var MountContext = import_react10.default.createContext(null);
+var useMountContext = () => {
+  const value = import_react10.default.useContext(MountContext);
+  if (value === null) {
+    throw new Error(
+      "useMountContext() called without a <MountProvider /> in the tree."
+    );
+  }
+  return value;
+};
+function MountProvider({
+  appId,
+  isEmbedded,
+  filePath,
+  leaf,
+  children
+}) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MountContext.Provider, {
+    value: { isEmbedded, appId, filePath, leaf },
+    children
+  });
+}
+
+// src/shared/table-state/table-state-context.tsx
+var TableStateContext = import_react11.default.createContext(null);
+var useTableState = () => {
+  const value = import_react11.default.useContext(TableStateContext);
+  if (value === null) {
+    throw new Error(
+      "useTableState() called without a <TableStateProvider /> in the tree."
+    );
+  }
+  return value;
+};
+function TableStateProvider({
+  initialState: initialState2,
+  onSaveState,
+  children
+}) {
+  const [tableState, setTableState] = import_react11.default.useState(initialState2);
+  const [searchText, setSearchText] = import_react11.default.useState("");
+  const [isSearchBarVisible, setSearchBarVisible] = import_react11.default.useState(false);
+  const [resizingColumnId, setResizingColumnId] = import_react11.default.useState(null);
+  const [history, setHistory] = import_react11.default.useState([
+    null
+  ]);
+  const [position, setPosition] = import_react11.default.useState(0);
+  const logger = useLogger();
+  const { appId } = useMountContext();
+  const isMountedRef = import_react11.default.useRef(false);
+  import_react11.default.useEffect(() => {
+    if (!isMountedRef.current) {
+      isMountedRef.current = true;
+      return;
+    }
+    onSaveState(appId, tableState);
+  }, [appId, tableState, onSaveState]);
+  function handleToggleSearchBar() {
+    setSearchBarVisible((prevState) => !prevState);
+  }
+  const undo = import_react11.default.useCallback(() => {
+    if (position > 0) {
+      logger("handleUndoEvent");
+      const currentPosition = position - 1;
+      setPosition(currentPosition);
+      const command = history[position];
+      if (command !== null) {
+        logger(command.constructor.name + ".undo");
+        let newState = command.undo(tableState);
+        if (command.shouldSortRows) {
+          newState = new RowSortCommand().execute(newState);
+        }
+        setTableState(newState);
+      }
+    }
+  }, [position, history, tableState, logger]);
+  const redo = import_react11.default.useCallback(() => {
+    if (position < history.length - 1) {
+      logger("handleRedoEvent");
+      const currentPosition = position + 1;
+      setPosition(currentPosition);
+      const command = history[currentPosition];
+      if (command !== null) {
+        logger(command.constructor.name + ".redo");
+        let newState = command.redo(tableState);
+        if (command.shouldSortRows) {
+          newState = new RowSortCommand().execute(newState);
+        }
+        setTableState(newState);
+      }
+    }
+  }, [position, history, tableState, logger]);
+  import_react11.default.useEffect(() => {
+    function handleKeyDown(e) {
+      if (isWindowsRedoDown(e) || isMacRedoDown(e)) {
+        e.preventDefault();
+        redo();
+      } else if (isWindowsUndoDown(e) || isMacUndoDown(e)) {
+        e.preventDefault();
+        undo();
+      }
+    }
+    const throttleKeyDownEvent = import_lodash.default.throttle(handleKeyDown, 40);
+    eventSystem.addEventListener("keydown", throttleKeyDownEvent);
+    return () => {
+      eventSystem.removeEventListener("keydown", throttleKeyDownEvent);
+    };
+  }, [redo, undo]);
+  const doCommand = import_react11.default.useCallback(
+    (command) => {
+      setHistory((prevState) => {
+        if (position < history.length - 1) {
+          const newState2 = prevState.slice(0, position + 1);
+          return [...newState2, command];
+        } else {
+          return [...prevState, command];
+        }
+      });
+      setPosition((prevState) => prevState + 1);
+      let newState = command.execute(tableState);
+      if (command.shouldSortRows) {
+        newState = new RowSortCommand().execute(newState);
+      }
+      setTableState(newState);
+    },
+    [position, history, tableState]
+  );
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableStateContext.Provider, {
+    value: {
+      tableState,
+      setTableState,
+      doCommand,
+      isSearchBarVisible,
+      searchText,
+      resizingColumnId,
+      setResizingColumnId,
+      toggleSearchBar: handleToggleSearchBar,
+      setSearchText
+    },
+    children
+  });
+}
+
+// src/shared/dragging/drag-context.tsx
+var import_react12 = __toESM(require_react());
+var DragContext = import_react12.default.createContext(null);
+var useDragContext = () => {
+  const value = import_react12.default.useContext(DragContext);
+  if (value === null) {
+    throw new Error(
+      "useDragContext() called without a <DragProvider /> in the tree."
+    );
+  }
+  return value;
+};
+function DragProvider({ children }) {
+  const [dragData, setDragData] = import_react12.default.useState(null);
+  const [touchDropZone, setTouchDropZone] = import_react12.default.useState(null);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragContext.Provider, {
+    value: { dragData, touchDropZone, setDragData, setTouchDropZone },
+    children
+  });
+}
+
+// src/shared/dragging/utils.ts
+var getRowId = (rowEl) => {
+  const td = rowEl.firstChild;
+  if (!td)
+    return null;
+  const id2 = td.getAttr("data-row-id");
+  return id2 != null ? id2 : null;
+};
+var dropDrag = (targetRowId, dragData, tableState, onTableStateChange) => {
+  if (dragData === null)
+    throw Error("No drag data found");
+  if (dragData.type !== "row")
+    return;
+  const { columns } = tableState.model;
+  const isSorted = columns.find((column) => column.sortDir !== "default" /* NONE */);
+  if (isSorted) {
+    if (!window.confirm(
+      "This will set your default sorting to the current sort filter. Do you wish to continue?\n\nIf not, please remove your sort filter before dragging a row."
+    ))
+      return;
+  }
+  onTableStateChange((prevState) => {
+    const { bodyRows, columns: columns2 } = prevState.model;
+    const draggedElIndex = bodyRows.findIndex(
+      (row) => row.id === dragData.id
+    );
+    const targetElIndex = bodyRows.findIndex(
+      (row) => row.id === targetRowId
+    );
+    const newRows = structuredClone(bodyRows);
+    const draggedEl = newRows[draggedElIndex];
+    newRows.splice(draggedElIndex, 1);
+    newRows.splice(targetElIndex, 0, draggedEl);
+    newRows.forEach((row, index) => {
+      row.index = index;
+    });
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        bodyRows: newRows,
+        columns: columns2.map((column) => {
+          return __spreadProps(__spreadValues({}, column), {
+            sortDir: "default" /* NONE */
+          });
+        })
+      })
+    });
+  });
+};
+
+// src/react/table-app/table/table-body-row.tsx
+function TableBodyRow(_a) {
+  var _b = _a, {
+    children
+  } = _b, props = __objRest(_b, [
+    "children"
+  ]);
+  const { tableState, setTableState } = useTableState();
+  const { dragData, setDragData } = useDragContext();
+  function handleDragStart(e) {
+    const el = e.target;
+    const rowId = getRowId(el);
+    if (!rowId)
+      return;
+    setDragData({
+      type: "row",
+      id: rowId
+    });
+  }
+  function handleDragEnd(e) {
+    const el = e.target;
+    el.draggable = false;
+    setDragData(null);
+  }
+  function handleDrop(e) {
+    e.preventDefault();
+    const target = e.currentTarget;
+    const targetId = getRowId(target);
+    if (!targetId)
+      return;
+    dropDrag(targetId, dragData, tableState, setTableState);
+  }
+  function handleDragOver(e) {
+    e.preventDefault();
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tr", __spreadProps(__spreadValues({
+    onDrop: handleDrop,
+    onDragStart: handleDragStart,
+    onDragEnd: handleDragEnd,
+    onDragOver: handleDragOver
+  }, props), {
+    children
+  }));
+}
+
+// node_modules/@emotion/react/dist/emotion-react.cjs.mjs
+var import_emotion_react_cjs = __toESM(require_emotion_react_cjs(), 1);
+
+// src/react/table-app/table/table-header-cell.tsx
+function TableHeaderCell({
+  columnId,
+  content,
+  isDraggable
+}) {
+  const { setTableState } = useTableState();
+  const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
+  function startDrag(el) {
+    const columnId2 = getColumnId(el);
+    if (!columnId2)
+      return;
+    setDragData({
+      type: "column",
+      id: columnId2
+    });
+  }
+  function endDrag(_el) {
+    setDragData(null);
+  }
+  function dropDrag2(targetRowId) {
+    if (dragData == null)
+      throw new Error("No drag data found");
+    if (dragData.type !== "column")
+      return;
+    setTableState((prevState) => {
+      const { columns } = prevState.model;
+      const draggedElIndex = columns.findIndex(
+        (column) => column.id === dragData.id
+      );
+      const targetElIndex = columns.findIndex(
+        (column) => column.id === targetRowId
+      );
+      const newColumns = structuredClone(columns);
+      const draggedEl = newColumns[draggedElIndex];
+      newColumns.splice(draggedElIndex, 1);
+      newColumns.splice(targetElIndex, 0, draggedEl);
+      return __spreadProps(__spreadValues({}, prevState), {
+        model: __spreadProps(__spreadValues({}, prevState.model), {
+          columns: newColumns
+        })
+      });
+    });
+  }
+  function addDragHover(thEl) {
+    const child = thEl.firstChild;
+    if (!child)
+      return;
+    if (child.classList.contains("NLT__focusable"))
+      thEl.classList.add("NLT__th--drag-over");
+  }
+  function removeDragHover() {
+    const el = document.querySelector(".NLT__th--drag-over");
+    if (el)
+      el.classList.remove("NLT__th--drag-over");
+  }
+  function getColumnId(columnEl) {
+    const id2 = columnEl.getAttr("data-column-id");
+    if (!id2)
+      return null;
+    return id2;
+  }
+  function handleDragStart(e) {
+    const el = e.target;
+    startDrag(el);
+  }
+  function handleDrop(e) {
+    e.preventDefault();
+    const target = e.currentTarget;
+    const targetId = getColumnId(target);
+    if (!targetId)
+      return;
+    dropDrag2(targetId);
+  }
+  function handleDragEnd(e) {
+    const el = e.target;
+    endDrag(el);
+  }
+  function handleDragOver(e) {
+    e.preventDefault();
+  }
+  function handleTouchStart(e) {
+    e.stopPropagation();
+    const el = e.currentTarget;
+    startDrag(el);
+  }
+  const handleTouchMove = (e) => {
+    e.stopPropagation();
+    if (dragData == null)
+      return;
+    const { clientX, clientY } = e.touches[0];
+    const elementUnderneath = document.elementFromPoint(clientX, clientY);
+    if (!elementUnderneath)
+      return;
+    const thEl = elementUnderneath.closest("th");
+    if (!thEl)
+      return;
+    const targetId = getColumnId(thEl);
+    if (!targetId)
+      return;
+    if (targetId === dragData.id)
+      return;
+    const { top, left, bottom, right } = thEl.getBoundingClientRect();
+    setTouchDropZone({
+      id: targetId,
+      top,
+      left,
+      bottom,
+      right
+    });
+    removeDragHover();
+    if (thEl.lastChild)
+      addDragHover(thEl);
+  };
+  function handleTouchEnd(e) {
+    const el = e.target;
+    if (touchDropZone) {
+      const touchX = e.changedTouches[0].clientX;
+      const touchY = e.changedTouches[0].clientY;
+      const isInsideDropZone = touchX >= touchDropZone.left && touchX <= touchDropZone.right && touchY >= touchDropZone.top && touchY <= touchDropZone.bottom;
+      if (isInsideDropZone) {
+        dropDrag2(touchDropZone.id);
+      }
+    }
+    endDrag(el);
+    setTouchDropZone(null);
+    removeDragHover();
+  }
+  function handleTouchCancel(e) {
+    const el = e.target;
+    endDrag(el);
+    setTouchDropZone(null);
+    removeDragHover();
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("th", __spreadProps(__spreadValues({
+    "data-column-id": columnId,
+    css: import_emotion_react_cjs.css`
+				border-bottom: 1px solid var(--table-border-color);
+				border-left: 1px solid var(--table-border-color);
+				border-right: 0;
+				padding: 0;
+				font-weight: 400;
+				overflow: visible;
+				text-align: start;
+				background-color: var(--table-header-background);
+				position: sticky;
+				top: 0;
+				z-index: 1;
+
+				&:first-of-type {
+					border-top: 0;
+					border-left: 0;
+					border-bottom: 0;
+					background-color: var(--background-primary);
+				}
+
+				&:last-of-type {
+					border-top: 0;
+					border-bottom: 0;
+					background-color: var(--background-primary);
+				}
+			`
+  }, isDraggable && {
+    draggable: true,
+    onDrop: handleDrop,
+    onDragStart: handleDragStart,
+    onDragOver: handleDragOver,
+    onDragEnd: handleDragEnd,
+    onTouchStart: handleTouchStart,
+    onTouchMove: handleTouchMove,
+    onTouchEnd: handleTouchEnd,
+    onTouchCancel: handleTouchCancel
+  }), {
+    children: content
+  }));
+}
+
+// src/shared/hooks.ts
+var import_react14 = __toESM(require_react());
 
 // node_modules/uuid/dist/esm-browser/rng.js
 var getRandomValues;
@@ -44410,28 +46555,28 @@ var v5_default = v5;
 
 // src/shared/hooks.ts
 var useForceUpdate = () => {
-  const [time, setTime] = import_react9.default.useState(0);
-  return [time, import_react9.default.useCallback(() => setTime(Date.now()), [])];
+  const [time, setTime] = import_react14.default.useState(0);
+  return [time, import_react14.default.useCallback(() => setTime(Date.now()), [])];
 };
-var useCompare = (value, runOnMount = false) => {
+var useCompare = (value, runOnMount = true) => {
   const prevValue = usePrevious(value);
   if (prevValue === void 0)
     return runOnMount;
   return prevValue !== value;
 };
 var usePrevious = (value) => {
-  const ref = import_react9.default.useRef();
-  import_react9.default.useEffect(() => {
+  const ref = import_react14.default.useRef();
+  import_react14.default.useEffect(() => {
     ref.current = value;
   });
   return ref.current;
 };
 var useInputSelection = (inputRef, value) => {
-  const [previousSelectionStart, setPreviousSelectionStart] = import_react9.default.useState(
+  const [previousSelectionStart, setPreviousSelectionStart] = import_react14.default.useState(
     value.length
   );
-  const didValueChange = useCompare(value, true);
-  import_react9.default.useEffect(() => {
+  const didValueChange = useCompare(value);
+  import_react14.default.useEffect(() => {
     function setSelection() {
       if (inputRef.current) {
         inputRef.current.selectionStart = previousSelectionStart;
@@ -44440,970 +46585,40 @@ var useInputSelection = (inputRef, value) => {
     }
     if (didValueChange)
       setSelection();
-  }, [previousSelectionStart, value, didValueChange]);
-  return { setPreviousSelectionStart };
+  }, [previousSelectionStart, value, didValueChange, inputRef]);
+  return { setPreviousSelectionStart, previousSelectionStart };
 };
 var useUUID = () => {
-  const [uuid] = import_react9.default.useState(v4_default());
+  const [uuid] = import_react14.default.useState(v4_default());
   return uuid;
 };
 
-// src/shared/table-state/table-state-context.tsx
-var import_react10 = __toESM(require_react());
-
-// src/redux/global/hooks.ts
-var useAppDispatch = useDispatch;
-var useAppSelector = useSelector;
-
-// src/shared/logger.ts
-var useLogger = () => {
-  const { shouldDebug } = useAppSelector((state) => state.global);
-  function logFunctionCall(funcName, args = {}) {
-    if (shouldDebug) {
-      console.log(funcName);
-      if (Object.keys(args).length !== 0)
-        console.log(args);
-    }
-  }
-  return logFunctionCall;
-};
-
-// src/shared/table-state/table-state-context.tsx
-var import_lodash = __toESM(require_lodash());
-
-// src/shared/keyboard-event.ts
-var isWindowsRedo = (e) => e.ctrlKey && e.key === "y";
-var isWindowsUndo = (e) => e.ctrlKey && e.key === "z";
-var isMacRedo = (e) => e.metaKey && e.shiftKey && e.key === "z";
-var isMacUndo = (e) => e.metaKey && e.key === "z";
-
-// src/shared/table-state/table-error.ts
-var ColumNotFoundError = class extends Error {
-  constructor(id2) {
-    super(`Column ${id2} is undefined`);
-    this.name = "ColumNotFoundError";
-  }
-};
-var TagNotFoundError = class extends Error {
-  constructor(id2) {
-    super(`Tag ${id2} is undefined`);
-    this.name = "TagNotFoundError";
-  }
-};
-var RowNotFoundError = class extends Error {
-  constructor(id2) {
-    super(`Reference row ${id2} is undefined`);
-    this.name = "RowNotFoundError";
-  }
-};
-var CellIdError = class extends Error {
-  constructor(id2) {
-    super(`Reference cell ${id2} is undefined`);
-    this.name = "CellIdError";
-  }
-};
-var CellNotFoundError = class extends Error {
-  constructor() {
-    super("Cell not found");
-    this.name = "CellNotFoundError";
-  }
-};
-
-// src/shared/commands/command-errors.ts
-var CommandUndoError = class extends Error {
-  constructor() {
-    super(`execute() must be called before undo() is available`);
-    this.name = "CommandUndoError";
-  }
-};
-var CommandRedoError = class extends Error {
-  constructor() {
-    super(`undo() must be called before redo() is available`);
-    this.name = "CommandRedoError";
-  }
-};
-var DeleteCommandArgumentsError = class extends Error {
-  constructor() {
-    super(`Either 'id' or 'last' must be defined`);
-    this.name = "DeleteCommandArgumentsError";
-  }
-};
-
-// src/shared/table-state/table-state-command.ts
-var TableStateCommand = class {
-  constructor(shouldSortRows = false) {
-    this.hasExecuteBeenCalled = false;
-    this.hasUndoBeenCalled = false;
-    this.shouldSortRows = shouldSortRows;
-  }
-  onExecute() {
-    this.hasExecuteBeenCalled = true;
-  }
-  onRedo() {
-    if (!this.hasUndoBeenCalled)
-      throw new CommandRedoError();
-    this.hasUndoBeenCalled = false;
-  }
-  onUndo() {
-    if (!this.hasExecuteBeenCalled)
-      throw new CommandUndoError();
-    this.hasUndoBeenCalled = true;
-  }
-};
-
-// src/shared/types/types.ts
-var Color = /* @__PURE__ */ ((Color2) => {
-  Color2["LIGHT_GRAY"] = "light gray";
-  Color2["GRAY"] = "gray";
-  Color2["BROWN"] = "brown";
-  Color2["ORANGE"] = "orange";
-  Color2["YELLOW"] = "yellow";
-  Color2["GREEN"] = "green";
-  Color2["BLUE"] = "blue";
-  Color2["PURPLE"] = "purple";
-  Color2["PINK"] = "pink";
-  Color2["RED"] = "red";
-  return Color2;
-})(Color || {});
-var CellType = /* @__PURE__ */ ((CellType6) => {
-  CellType6["TEXT"] = "text";
-  CellType6["NUMBER"] = "number";
-  CellType6["CURRENCY"] = "currency";
-  CellType6["TAG"] = "tag";
-  CellType6["MULTI_TAG"] = "multi-tag";
-  CellType6["DATE"] = "date";
-  CellType6["CHECKBOX"] = "checkbox";
-  CellType6["CREATION_TIME"] = "creation-time";
-  CellType6["LAST_EDITED_TIME"] = "last-edited-time";
-  return CellType6;
-})(CellType || {});
-var DateFormat = /* @__PURE__ */ ((DateFormat9) => {
-  DateFormat9["MM_DD_YYYY"] = "mm/dd/yyyy";
-  DateFormat9["DD_MM_YYYY"] = "dd/mm/yyyy";
-  DateFormat9["YYYY_MM_DD"] = "yyyy/mm/dd";
-  DateFormat9["FULL"] = "full";
-  DateFormat9["RELATIVE"] = "relative";
-  return DateFormat9;
-})(DateFormat || {});
-var CurrencyType = /* @__PURE__ */ ((CurrencyType9) => {
-  CurrencyType9["UNITED_STATES"] = "USD";
-  CurrencyType9["CANADA"] = "CAD";
-  CurrencyType9["SINGAPORE"] = "SGB";
-  CurrencyType9["EUROPE"] = "EUR";
-  CurrencyType9["SWEDEN"] = "SEK";
-  CurrencyType9["DENMARK"] = "DKK";
-  CurrencyType9["NORWAY"] = "NOK";
-  CurrencyType9["ICELAND"] = "ISK";
-  CurrencyType9["POUND"] = "GBP";
-  CurrencyType9["RUSSIA"] = "RUB";
-  CurrencyType9["AUSTRALIA"] = "AUD";
-  CurrencyType9["JAPAN"] = "JPY";
-  CurrencyType9["INDIA"] = "INR";
-  CurrencyType9["CHINA"] = "CNY";
-  CurrencyType9["BRAZIL"] = "BRL";
-  CurrencyType9["COLOMBIA"] = "COP";
-  CurrencyType9["MEXICO"] = "MXN";
-  CurrencyType9["ARGENTINA"] = "ARS";
-  return CurrencyType9;
-})(CurrencyType || {});
-var GeneralFunction = /* @__PURE__ */ ((GeneralFunction3) => {
-  GeneralFunction3["NONE"] = "none";
-  GeneralFunction3["COUNT_ALL"] = "count-all";
-  GeneralFunction3["COUNT_VALUES"] = "count-values";
-  GeneralFunction3["COUNT_UNIQUE"] = "count-unique";
-  GeneralFunction3["COUNT_EMPTY"] = "count-empty";
-  GeneralFunction3["COUNT_NOT_EMPTY"] = "count-not-empty";
-  GeneralFunction3["PERCENT_EMPTY"] = "percent-empty";
-  GeneralFunction3["PERCENT_NOT_EMPTY"] = "percent-not-empty";
-  return GeneralFunction3;
-})(GeneralFunction || {});
-var NumberFunction = /* @__PURE__ */ ((NumberFunction2) => {
-  NumberFunction2["SUM"] = "sum";
-  NumberFunction2["AVG"] = "avg";
-  NumberFunction2["MIN"] = "min";
-  NumberFunction2["MAX"] = "max";
-  NumberFunction2["MEDIAN"] = "median";
-  NumberFunction2["RANGE"] = "range";
-  return NumberFunction2;
-})(NumberFunction || {});
-
-// src/shared/regex.ts
-var NUMBER_REGEX = new RegExp(/^-?\d+\.?\d*$/);
-var NUMBER_INPUT_REGEX = new RegExp(/(^$)|(^-$)|(^-?\d+\.?\d*$)/);
-var CSS_MEASUREMENT_PIXEL_REGEX = new RegExp(/^([1-9])([0-9]*)px$/);
-var DATE_REGEX = new RegExp(/^\d{4}\/\d{2}\/\d{2}$/);
-var CHECKBOX_REGEX = new RegExp(/^\[[x ]{0,1}\]$/);
-var CHECKBOX_CHECKED_REGEX = new RegExp(/^\[[x]\]$/);
-
-// src/shared/validators.ts
-var isNumber = (input) => {
-  return input.match(NUMBER_REGEX) !== null;
-};
-var isValidNumberInput = (input) => {
-  return input.match(NUMBER_INPUT_REGEX) !== null;
-};
-var isCheckbox = (input) => {
-  return input.match(CHECKBOX_REGEX) !== null;
-};
-var isCheckboxChecked = (input) => {
-  return input.match(CHECKBOX_CHECKED_REGEX) !== null;
-};
-var isGeneralFunction = (value) => {
-  return Object.values(GeneralFunction).includes(value);
-};
-
-// src/shared/commands/row-sort-command.ts
-var RowSortCommand = class extends TableStateCommand {
-  constructor() {
-    super(...arguments);
-    this.previousRowSort = [];
-  }
-  sortByTag(columnId, columns, rows, cells, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      const cellA = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === a2.id
-      );
-      if (!cellA)
-        throw new CellNotFoundError();
-      const cellB = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === b2.id
-      );
-      if (!cellB)
-        throw new CellNotFoundError();
-      const column = columns.find((c2) => c2.id === columnId);
-      if (!column)
-        throw new ColumNotFoundError(columnId);
-      if (cellA.tagIds.length === 0 && cellB.tagIds.length > 0)
-        return 1;
-      if (cellA.tagIds.length > 0 && cellB.tagIds.length === 0)
-        return -1;
-      if (cellA.tagIds.length === 0 && cellB.tagIds.length === 0)
-        return 0;
-      let tagLength = cellA.tagIds.length;
-      if (cellB.tagIds.length > cellA.tagIds.length) {
-        tagLength = cellB.tagIds.length;
-      }
-      for (let i2 = 0; i2 < tagLength; i2++) {
-        const tagIdA = cellA.tagIds[i2];
-        if (tagIdA === void 0)
-          return -1;
-        const tagA = column.tags.find((t2) => t2.id === tagIdA);
-        if (!tagA)
-          throw new TagNotFoundError(tagIdA);
-        const tagIdB = cellB.tagIds[i2];
-        if (tagIdB === void 0)
-          return 1;
-        const tagB = column.tags.find((t2) => t2.id === tagIdB);
-        if (!tagB)
-          throw new TagNotFoundError(tagIdA);
-        if (sortDir === "asc" /* ASC */) {
-          const result = tagA.markdown.localeCompare(tagB.markdown);
-          if (result !== 0)
-            return result;
-        } else if (sortDir === "desc" /* DESC */) {
-          const result = tagB.markdown.localeCompare(tagA.markdown);
-          if (result !== 0)
-            return result;
-        }
-      }
-      return 0;
-    });
-    return newRows;
-  }
-  sortByMarkdown(columnId, rows, cells, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      const cellA = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === a2.id
-      );
-      if (!cellA)
-        throw new CellNotFoundError();
-      const cellB = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === b2.id
-      );
-      if (!cellB)
-        throw new CellNotFoundError();
-      const markdownA = cellA.markdown;
-      const markdownB = cellB.markdown;
-      if (markdownA === "" && markdownB !== "")
-        return 1;
-      if (markdownA !== "" && markdownB === "")
-        return -1;
-      if (markdownA === "" && markdownB === "")
-        return 0;
-      if (sortDir === "asc" /* ASC */) {
-        return markdownA.localeCompare(markdownB);
-      } else if (sortDir === "desc" /* DESC */) {
-        return markdownB.localeCompare(markdownA);
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByNumber(columnId, rows, cells, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      const cellA = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === a2.id
-      );
-      if (!cellA)
-        throw new CellNotFoundError();
-      const cellB = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === b2.id
-      );
-      if (!cellB)
-        throw new CellNotFoundError();
-      const markdownA = cellA.markdown;
-      const markdownB = cellB.markdown;
-      if (markdownA === "" && markdownB !== "")
-        return 1;
-      if (markdownA !== "" && markdownB === "")
-        return -1;
-      if (markdownA === "" && markdownB === "")
-        return 0;
-      if (sortDir === "asc" /* ASC */) {
-        return parseFloat(markdownA) - parseFloat(markdownB);
-      } else if (sortDir === "desc" /* DESC */) {
-        return parseFloat(markdownB) - parseFloat(markdownA);
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByCheckbox(columnId, rows, cells, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      const cellA = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === a2.id
-      );
-      if (!cellA)
-        throw new CellNotFoundError();
-      const cellB = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === b2.id
-      );
-      if (!cellB)
-        throw new CellNotFoundError();
-      const isCheckedA = isCheckboxChecked(cellA.markdown);
-      const isCheckedB = isCheckboxChecked(cellB.markdown);
-      if (sortDir === "asc" /* ASC */) {
-        if (isCheckedA && !isCheckedB)
-          return 1;
-        if (!isCheckedA && isCheckedB)
-          return -1;
-        return 0;
-      } else if (sortDir === "desc" /* DESC */) {
-        if (!isCheckedA && isCheckedB)
-          return 1;
-        if (isCheckedA && !isCheckedB)
-          return -1;
-        return 0;
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByDate(columnId, rows, cells, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      const cellA = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === a2.id
-      );
-      if (!cellA)
-        throw new CellNotFoundError();
-      const cellB = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === b2.id
-      );
-      if (!cellB)
-        throw new CellNotFoundError();
-      const dateTimeA = cellA.dateTime || 0;
-      const dateTimeB = cellB.dateTime || 0;
-      if (sortDir === "asc" /* ASC */) {
-        return dateTimeA - dateTimeB;
-      } else if (sortDir === "desc" /* DESC */) {
-        return dateTimeB - dateTimeA;
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByCreationTime(rows, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      if (sortDir === "asc" /* ASC */) {
-        return a2.creationTime - b2.creationTime;
-      } else if (sortDir === "desc" /* DESC */) {
-        return b2.creationTime - a2.creationTime;
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByLastEditedTime(rows, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      if (sortDir === "asc" /* ASC */) {
-        return a2.lastEditedTime - b2.lastEditedTime;
-      } else if (sortDir === "desc" /* DESC */) {
-        return b2.lastEditedTime - a2.lastEditedTime;
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByDir(columnId, columnType, sortDir, columns, rows, cells) {
-    if (columnType == "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */) {
-      return this.sortByNumber(columnId, rows, cells, sortDir);
-    } else if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
-      return this.sortByTag(columnId, columns, rows, cells, sortDir);
-    } else if (columnType === "date" /* DATE */) {
-      return this.sortByDate(columnId, rows, cells, sortDir);
-    } else if (columnType == "last-edited-time" /* LAST_EDITED_TIME */) {
-      return this.sortByLastEditedTime(rows, sortDir);
-    } else if (columnType == "creation-time" /* CREATION_TIME */) {
-      return this.sortByCreationTime(rows, sortDir);
-    } else if (columnType == "checkbox" /* CHECKBOX */) {
-      return this.sortByCheckbox(columnId, rows, cells, sortDir);
-    } else {
-      return this.sortByMarkdown(columnId, rows, cells, sortDir);
-    }
-  }
-  sortByIndex(rows) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      return a2.index - b2.index;
-    });
-    return newRows;
-  }
-  execute(prevState) {
-    super.onExecute();
-    const { columns, bodyRows, bodyCells } = prevState.model;
-    const sortedColumn = columns.find(
-      (columns2) => columns2.sortDir !== "default" /* NONE */
-    );
-    this.previousRowSort = bodyRows.map((row) => ({
-      id: row.id,
-      index: row.index
-    }));
-    let newBodyRows = [...bodyRows];
-    if (sortedColumn) {
-      newBodyRows = this.sortByDir(
-        sortedColumn.id,
-        sortedColumn.type,
-        sortedColumn.sortDir,
-        columns,
-        bodyRows,
-        bodyCells
-      );
-    } else {
-      newBodyRows = this.sortByIndex(bodyRows);
-    }
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        bodyRows: newBodyRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { bodyRows } = prevState.model;
-    const newBodyRows = this.previousRowSort.map((prev) => {
-      const row = bodyRows.find((row2) => row2.id === prev.id);
-      if (!row)
-        throw new RowNotFoundError(prev.id);
-      return __spreadProps(__spreadValues({}, row), {
-        index: prev.index
-      });
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        bodyRows: newBodyRows
-      })
-    });
-  }
-};
-
-// node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.mjs
-var import_emotion_react_jsx_runtime_cjs = __toESM(require_emotion_react_jsx_runtime_cjs(), 1);
-
-// src/shared/table-state/table-state-context.tsx
-var TableStateContext = import_react10.default.createContext(null);
-var useTableState = () => {
-  const value = import_react10.default.useContext(TableStateContext);
-  if (value === null) {
-    throw new Error(
-      "useTableState() called without a <TableStateProvider /> in the tree."
-    );
-  }
-  return value;
-};
-function TableStateProvider({
-  initialState: initialState2,
-  onSaveState,
-  children
-}) {
-  const [tableState, setTableState] = import_react10.default.useState(initialState2);
-  const [tableId] = useUUID();
-  const [history, setHistory] = import_react10.default.useState([
-    null
-  ]);
-  const [position, setPosition] = import_react10.default.useState(0);
-  const logger = useLogger();
-  const dispatch = useAppDispatch();
-  const undo = import_react10.default.useCallback(() => {
-    if (position > 0) {
-      logger("handleUndoEvent");
-      const currentPosition = position - 1;
-      setPosition(currentPosition);
-      const command = history[position];
-      if (command !== null) {
-        logger(command.constructor.name + ".undo");
-        let newState = command.undo(tableState);
-        if (command.shouldSortRows) {
-          newState = new RowSortCommand().execute(newState);
-        }
-        setTableState(newState);
-      }
-    }
-  }, [position, history, tableState, dispatch]);
-  const redo = import_react10.default.useCallback(() => {
-    if (position < history.length - 1) {
-      logger("handleRedoEvent");
-      const currentPosition = position + 1;
-      setPosition(currentPosition);
-      const command = history[currentPosition];
-      if (command !== null) {
-        logger(command.constructor.name + ".redo");
-        let newState = command.redo(tableState);
-        if (command.shouldSortRows) {
-          newState = new RowSortCommand().execute(newState);
-        }
-        setTableState(newState);
-      }
-    }
-  }, [position, history, tableState, dispatch]);
-  import_react10.default.useEffect(() => {
-    function handleKeyDown(e) {
-      if (isWindowsRedo(e) || isMacRedo(e)) {
-        e.preventDefault();
-        redo();
-      } else if (isWindowsUndo(e) || isMacUndo(e)) {
-        e.preventDefault();
-        undo();
-      }
-    }
-    const throttleKeyDownEvent = import_lodash.default.throttle(handleKeyDown, 100);
-    document.addEventListener("keydown", throttleKeyDownEvent);
-    return () => {
-      document.removeEventListener("keydown", throttleKeyDownEvent);
-    };
-  }, [redo, undo]);
-  import_react10.default.useEffect(() => {
-    onSaveState(tableState);
-  }, [tableState]);
-  const doCommand = import_react10.default.useCallback(
-    (command) => {
-      setHistory((prevState) => {
-        if (position < history.length - 1) {
-          const newState2 = prevState.slice(0, position + 1);
-          return [...newState2, command];
-        } else {
-          return [...prevState, command];
-        }
-      });
-      setPosition((prevState) => prevState + 1);
-      let newState = command.execute(tableState);
-      if (command.shouldSortRows) {
-        newState = new RowSortCommand().execute(newState);
-      }
-      setTableState(newState);
-    },
-    [position, history, tableState, dispatch]
-  );
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableStateContext.Provider, {
-    value: { tableState, setTableState, doCommand, tableId },
-    children
-  });
-}
-
-// src/shared/dragging/drag-context.tsx
-var import_react11 = __toESM(require_react());
-var DragContext = import_react11.default.createContext(null);
-var useDragContext = () => {
-  const value = import_react11.default.useContext(DragContext);
-  if (value === null) {
-    throw new Error(
-      "useDragContext() called without a <DragProvider /> in the tree."
-    );
-  }
-  return value;
-};
-function DragProvider({ children }) {
-  const [dragData, setDragData] = import_react11.default.useState(null);
-  const [touchDropZone, setTouchDropZone] = import_react11.default.useState(null);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragContext.Provider, {
-    value: { dragData, touchDropZone, setDragData, setTouchDropZone },
-    children
-  });
-}
-
-// src/shared/dragging/utils.ts
-var getRowId = (rowEl) => {
-  const td = rowEl.firstChild;
-  if (!td)
-    return null;
-  const id2 = td.getAttr("data-row-id");
-  return id2 != null ? id2 : null;
-};
-var dropDrag = (targetRowId, dragData, tableState, onTableStateChange) => {
-  if (dragData === null)
-    throw Error("No drag data found");
-  if (dragData.type !== "row")
-    return;
-  const { columns } = tableState.model;
-  const isSorted = columns.find((column) => column.sortDir !== "default" /* NONE */);
-  if (isSorted) {
-    if (!window.confirm(
-      "This will set your default sorting to the current sort filter. Do you wish to continue?\n\nIf not, please remove your sort filter before dragging a row."
-    ))
-      return;
-  }
-  onTableStateChange((prevState) => {
-    const { bodyRows, columns: columns2 } = prevState.model;
-    const draggedElIndex = bodyRows.findIndex(
-      (row) => row.id === dragData.id
-    );
-    const targetElIndex = bodyRows.findIndex(
-      (row) => row.id == targetRowId
-    );
-    const newRows = structuredClone(bodyRows);
-    const draggedEl = newRows[draggedElIndex];
-    newRows.splice(draggedElIndex, 1);
-    newRows.splice(targetElIndex, 0, draggedEl);
-    newRows.forEach((row, index) => {
-      row.index = index;
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        bodyRows: newRows,
-        columns: columns2.map((column) => {
-          return __spreadProps(__spreadValues({}, column), {
-            sortDir: "default" /* NONE */
-          });
-        })
-      })
-    });
-  });
-};
-
-// src/react/table-app/table/table-body-row.tsx
-function TableBodyRow(_a) {
-  var _b = _a, {
-    children
-  } = _b, props = __objRest(_b, [
-    "children"
-  ]);
-  const { tableState, setTableState } = useTableState();
-  const { dragData, setDragData } = useDragContext();
-  function handleDragStart(e) {
-    const el = e.target;
-    const rowId = getRowId(el);
-    if (!rowId)
-      return;
-    setDragData({
-      type: "row",
-      id: rowId
-    });
-  }
-  function handleDragEnd(e) {
-    const el = e.target;
-    el.draggable = false;
-    setDragData(null);
-  }
-  function handleDrop(e) {
-    e.preventDefault();
-    const target = e.currentTarget;
-    const targetId = getRowId(target);
-    if (!targetId)
-      return;
-    dropDrag(targetId, dragData, tableState, setTableState);
-  }
-  function handleDragOver(e) {
-    e.preventDefault();
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tr", __spreadProps(__spreadValues({
-    onDrop: handleDrop,
-    onDragStart: handleDragStart,
-    onDragEnd: handleDragEnd,
-    onDragOver: handleDragOver
-  }, props), {
-    children
-  }));
-}
-
-// node_modules/@emotion/react/dist/emotion-react.cjs.mjs
-var import_emotion_react_cjs = __toESM(require_emotion_react_cjs(), 1);
-
-// src/shared/color.ts
-var RED_GRAPHITE_THEME = "Red Graphite";
-var findColorClassName = (isDarkMode, color) => {
-  switch (color) {
-    case "light gray" /* LIGHT_GRAY */:
-      return isDarkMode ? "NLT__light-gray--dark" : "NLT__light-gray--light";
-    case "gray" /* GRAY */:
-      return isDarkMode ? "NLT__gray--dark" : "NLT__gray--light";
-    case "brown" /* BROWN */:
-      return isDarkMode ? "NLT__brown--dark" : "NLT__brown--light";
-    case "orange" /* ORANGE */:
-      return isDarkMode ? "NLT__orange--dark" : "NLT__orange--light";
-    case "yellow" /* YELLOW */:
-      return isDarkMode ? "NLT__yellow--dark" : "NLT__yellow--light";
-    case "green" /* GREEN */:
-      return isDarkMode ? "NLT__green--dark" : "NLT__green--light";
-    case "blue" /* BLUE */:
-      return isDarkMode ? "NLT__blue--dark" : "NLT__blue--light";
-    case "purple" /* PURPLE */:
-      return isDarkMode ? "NLT__purple--dark" : "NLT__purple--light";
-    case "pink" /* PINK */:
-      return isDarkMode ? "NLT__pink--dark" : "NLT__pink--light";
-    case "red" /* RED */:
-      return isDarkMode ? "NLT__red--dark" : "NLT__red--light";
-    default:
-      return "";
-  }
-};
-var randomColor = () => {
-  const index = Math.floor(Math.random() * Object.values(Color).length);
-  return Object.values(Color)[index];
-};
-var getTableBorderColor = () => {
-  const theme = app.vault.getConfig("cssTheme");
-  if (theme == RED_GRAPHITE_THEME) {
-    return "var(--table-border-color)";
-  }
-  return "var(--background-modifier-border)";
-};
-var getTableBackgroundColor = () => {
-  const theme = app.vault.getConfig("cssTheme");
-  if (theme == RED_GRAPHITE_THEME) {
-    return "var(--table-header-background)";
-  }
-  return "var(--background-secondary)";
-};
-
-// src/react/table-app/table/table-header-cell.tsx
-function TableHeaderCell({
-  columnId,
-  content,
-  isDraggable
-}) {
-  const { setTableState } = useTableState();
-  const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
-  function startDrag(el) {
-    const columnId2 = getColumnId(el);
-    if (!columnId2)
-      return;
-    setDragData({
-      type: "column",
-      id: columnId2
-    });
-  }
-  function endDrag(_el) {
-    setDragData(null);
-  }
-  function dropDrag2(targetRowId) {
-    if (dragData == null)
-      throw new Error("No drag data found");
-    if (dragData.type !== "column")
-      return;
-    setTableState((prevState) => {
-      const { columns } = prevState.model;
-      const draggedElIndex = columns.findIndex(
-        (column) => column.id === dragData.id
-      );
-      const targetElIndex = columns.findIndex(
-        (column) => column.id == targetRowId
-      );
-      const newColumns = structuredClone(columns);
-      const draggedEl = newColumns[draggedElIndex];
-      newColumns.splice(draggedElIndex, 1);
-      newColumns.splice(targetElIndex, 0, draggedEl);
-      return __spreadProps(__spreadValues({}, prevState), {
-        model: __spreadProps(__spreadValues({}, prevState.model), {
-          columns: newColumns
-        })
-      });
-    });
-  }
-  function addDragHover(thEl) {
-    const child = thEl.firstChild;
-    if (!child)
-      return;
-    if (child.classList.contains("NLT__focusable"))
-      thEl.classList.add("NLT__th--drag-over");
-  }
-  function removeDragHover() {
-    const el = document.querySelector(".NLT__th--drag-over");
-    if (el)
-      el.classList.remove("NLT__th--drag-over");
-  }
-  function getColumnId(columnEl) {
-    const id2 = columnEl.getAttr("data-column-id");
-    if (!id2)
-      return null;
-    return id2;
-  }
-  function handleDragStart(e) {
-    const el = e.target;
-    startDrag(el);
-  }
-  function handleDrop(e) {
-    e.preventDefault();
-    const target = e.currentTarget;
-    const targetId = getColumnId(target);
-    if (!targetId)
-      return;
-    dropDrag2(targetId);
-  }
-  function handleDragEnd(e) {
-    const el = e.target;
-    endDrag(el);
-  }
-  function handleDragOver(e) {
-    e.preventDefault();
-  }
-  function handleTouchStart(e) {
-    e.stopPropagation();
-    const el = e.currentTarget;
-    startDrag(el);
-  }
-  const handleTouchMove = (e) => {
-    e.stopPropagation();
-    if (dragData == null)
-      return;
-    const { clientX, clientY } = e.touches[0];
-    const elementUnderneath = document.elementFromPoint(clientX, clientY);
-    if (!elementUnderneath)
-      return;
-    const thEl = elementUnderneath.closest("th");
-    if (!thEl)
-      return;
-    const targetId = getColumnId(thEl);
-    if (!targetId)
-      return;
-    if (targetId === dragData.id)
-      return;
-    const { top, left, bottom, right } = thEl.getBoundingClientRect();
-    setTouchDropZone({
-      id: targetId,
-      top,
-      left,
-      bottom,
-      right
-    });
-    removeDragHover();
-    if (thEl.lastChild)
-      addDragHover(thEl);
-  };
-  function handleTouchEnd(e) {
-    const el = e.target;
-    if (touchDropZone) {
-      const touchX = e.changedTouches[0].clientX;
-      const touchY = e.changedTouches[0].clientY;
-      const isInsideDropZone = touchX >= touchDropZone.left && touchX <= touchDropZone.right && touchY >= touchDropZone.top && touchY <= touchDropZone.bottom;
-      if (isInsideDropZone) {
-        dropDrag2(touchDropZone.id);
-      }
-    }
-    endDrag(el);
-    setTouchDropZone(null);
-    removeDragHover();
-  }
-  function handleTouchCancel(e) {
-    const el = e.target;
-    endDrag(el);
-    setTouchDropZone(null);
-    removeDragHover();
-  }
-  const tableBorderColor2 = getTableBorderColor();
-  const tableBackgroundColor = getTableBackgroundColor();
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("th", __spreadProps(__spreadValues({
-    "data-column-id": columnId,
-    css: import_emotion_react_cjs.css`
-				border-bottom: 1px solid ${tableBorderColor2};
-				border-left: 1px solid ${tableBorderColor2};
-				border-right: 0;
-				padding: 0;
-				font-weight: 400;
-				overflow: visible;
-				text-align: start;
-				background-color: ${tableBackgroundColor};
-				position: sticky;
-				top: 0;
-				z-index: 1;
-
-				&:first-of-type {
-					border-top: 0;
-					border-left: 0;
-					border-bottom: 0;
-					background-color: var(--background-primary);
-				}
-
-				&:last-of-type {
-					border-top: 0;
-					border-bottom: 0;
-					background-color: var(--background-primary);
-				}
-			`
-  }, isDraggable && {
-    draggable: true,
-    onDrop: handleDrop,
-    onDragStart: handleDragStart,
-    onDragOver: handleDragOver,
-    onDragEnd: handleDragEnd,
-    onTouchStart: handleTouchStart,
-    onTouchMove: handleTouchMove,
-    onTouchEnd: handleTouchEnd,
-    onTouchCancel: handleTouchCancel
-  }), {
-    children: content
-  }));
-}
-
 // src/react/table-app/table/index.tsx
-var tableBorderColor = getTableBorderColor();
 function Table2({ headerRows, bodyRows, footerRows }) {
-  const tableRef = import_react13.default.useRef(null);
-  const didRowsChange = useCompare(bodyRows.length);
-  import_react13.default.useEffect(() => {
-    var _a, _b;
-    if (didRowsChange)
+  const tableRef = import_react15.default.useRef(null);
+  const previousRowLength = usePrevious(bodyRows.length);
+  import_react15.default.useEffect(() => {
+    var _a;
+    if (previousRowLength === void 0)
+      return;
+    if (previousRowLength < bodyRows.length)
       (_a = tableRef.current) == null ? void 0 : _a.scrollToIndex(bodyRows.length - 1);
-    (_b = tableRef.current) == null ? void 0 : _b.scrollTo;
-  }, [didRowsChange, bodyRows.length]);
+  }, [previousRowLength, bodyRows.length]);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableVirtuoso, {
     ref: tableRef,
     overscan: 10,
     style: {
       width: "100%",
-      height: "100%",
-      marginBottom: "48px"
+      height: "100%"
     },
     totalCount: bodyRows.length,
     components: Components,
     fixedHeaderContent: () => headerRows.map((row) => {
       const { id: rowId, cells } = row;
       return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tr", {
+        css: import_emotion_react_cjs.css`
+								background-color: var(--background-secondary);
+							`,
         children: cells.map((cell, i2) => {
           const { id: cellId, columnId, content } = cell;
           return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableHeaderCell, {
@@ -45419,6 +46634,9 @@ function Table2({ headerRows, bodyRows, footerRows }) {
         const { id: id2, content } = cell;
         return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("td", {
           className: "NLT__footer-td",
+          css: import_emotion_react_cjs.css`
+										padding: 0px;
+									`,
           children: content
         }, id2);
       })
@@ -45432,8 +46650,9 @@ function Table2({ headerRows, bodyRows, footerRows }) {
           "data-row-id": i2 === 0 ? rowId : void 0,
           css: import_emotion_react_cjs.css`
 								border-top: 0;
-								border-bottom: 1px solid ${tableBorderColor};
-								border-left: 1px solid ${tableBorderColor};
+								border-bottom: 1px solid
+									var(--table-border-color);
+								border-left: 1px solid var(--table-border-color);
 								border-right: 0;
 								padding: 0;
 								overflow: visible;
@@ -45479,13 +46698,13 @@ var Components = {
     var _d = _c, { style } = _d, props = __objRest(_d, ["style"]);
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableBodyRow, __spreadValues({}, props));
   },
-  TableBody: import_react13.default.forwardRef((_e, ref) => {
+  TableBody: import_react15.default.forwardRef((_e, ref) => {
     var _f = _e, { style } = _f, props = __objRest(_f, ["style"]);
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tbody", __spreadProps(__spreadValues({}, props), {
       ref
     }));
   }),
-  TableFoot: import_react13.default.forwardRef((_g, ref) => {
+  TableFoot: import_react15.default.forwardRef((_g, ref) => {
     var _h = _g, { style } = _h, props = __objRest(_h, ["style"]);
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tfoot", __spreadProps(__spreadValues({
       css: import_emotion_react_cjs.css`
@@ -45494,7 +46713,7 @@ var Components = {
 				background-color: var(--background-primary);
 
 				& > tr:first-of-type > td {
-					border-bottom: 1px solid ${tableBorderColor};
+					border-bottom: 1px solid var(--table-border-color);
 				}
 
 				& > tr:first-of-type > td:nth-of-type(1) {
@@ -45502,11 +46721,11 @@ var Components = {
 				}
 
 				& > tr:first-of-type > td:nth-of-type(2) {
-					border-left: 1px solid ${tableBorderColor};
+					border-left: 1px solid var(--table-border-color);
 				}
 
 				& > tr:first-of-type > td:last-child {
-					border-left: 1px solid ${tableBorderColor};
+					border-left: 1px solid var(--table-border-color);
 					border-bottom: 0;
 				}
 			`
@@ -45517,7 +46736,7 @@ var Components = {
 };
 
 // src/react/shared/icon/index.tsx
-var import_react15 = __toESM(require_react());
+var import_react17 = __toESM(require_react());
 var import_obsidian3 = require("obsidian");
 
 // src/shared/renderUtils.ts
@@ -45531,7 +46750,7 @@ var appendOrReplaceFirstChild = (container, child) => {
   }
 };
 var getDynamicSize = (defaultValue, value) => {
-  if (value == void 0)
+  if (value === void 0)
     return defaultValue;
   if (typeof value === "string")
     return value;
@@ -45545,6 +46764,11 @@ var getDynamicSize = (defaultValue, value) => {
 var isMobileSize = () => {
   return window.innerWidth <= 480;
 };
+var hasDarkTheme = () => {
+  var _a;
+  const el = document.querySelector("body");
+  return (_a = el == null ? void 0 : el.className.includes("theme-dark")) != null ? _a : false;
+};
 
 // src/react/shared/icon/index.tsx
 function Icon({
@@ -45552,7 +46776,7 @@ function Icon({
   size = "md",
   color = "unset"
 }) {
-  const ref = import_react15.default.useRef(null);
+  const ref = import_react17.default.useRef(null);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     ref: (node) => {
       ref.current = node;
@@ -45653,18 +46877,18 @@ var MenuButton = ({
 };
 
 // src/react/table-app/row-options/components/RowMenu/index.tsx
-var import_react23 = __toESM(require_react());
+var import_react25 = __toESM(require_react());
 
 // src/react/shared/menu/index.tsx
-var import_react17 = __toESM(require_react());
+var import_react19 = __toESM(require_react());
 var import_react_dom3 = __toESM(require_react_dom());
 
 // src/shared/conversion.ts
-var pxToNum = (pixels) => {
-  return parseFloat(pixels.split("px")[0]);
+var pxToNum = (value) => {
+  return parseFloat(value.split("px")[0]);
 };
-var numToPx = (num) => {
-  return `${num}px`;
+var numToPx = (value) => {
+  return `${value}px`;
 };
 var stringToCurrencyString = (value, type) => {
   return new Intl.NumberFormat("en-US", {
@@ -45674,7 +46898,7 @@ var stringToCurrencyString = (value, type) => {
 };
 
 // src/react/shared/menu/index.tsx
-var Menu = import_react17.default.forwardRef(function Menu2({
+var Menu = import_react19.default.forwardRef(function Menu2({
   id: id2,
   isOpen,
   top = 0,
@@ -45685,12 +46909,11 @@ var Menu = import_react17.default.forwardRef(function Menu2({
   maxWidth = 0,
   children
 }, ref) {
-  const tableBorderColor2 = getTableBorderColor();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: isOpen && import_react_dom3.default.createPortal(
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
         className: "NLT__menu",
-        "data-menu-id": id2,
+        "data-id": id2,
         css: import_emotion_react_cjs.css`
 							width: 0;
 							height: 0;
@@ -45708,7 +46931,8 @@ var Menu = import_react17.default.forwardRef(function Menu2({
 								max-height: ${maxHeight !== 0 ? numToPx(maxHeight) : "unset"};
 								overflow-y: ${maxHeight !== 0 ? "scroll" : "unset"};
 								background-color: var(--background-primary);
-								border: 1px solid ${tableBorderColor2};
+								border: 1px solid
+									var(--background-modifier-border);
 								box-shadow: 0 2px 8px
 									var(--background-modifier-box-shadow);
 								border-radius: 4px;
@@ -45815,20 +47039,20 @@ function Text({
   whiteSpace = "nowrap"
 }) {
   let className = "NLT__p";
-  if (variant == "faint")
+  if (variant === "faint")
     className += " NLT__text-faint";
-  if (variant == "muted")
+  if (variant === "muted")
     className += " NLT__text-muted";
-  if (variant == "semibold")
+  if (variant === "semibold")
     className += " NLT__text-semibold";
   let fontSize = "";
   if (size === "xs") {
     fontSize = "var(--nlt-font-size--xs)";
-  } else if (size == "sm") {
+  } else if (size === "sm") {
     fontSize = "var(--nlt-font-size--sm)";
-  } else if (size == "md") {
+  } else if (size === "md") {
     fontSize = "var(--nlt-font-size--md)";
-  } else if (size == "lg") {
+  } else if (size === "lg") {
     fontSize = "var(--nlt-font-size--lg)";
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("p", {
@@ -45851,6 +47075,8 @@ function Padding({
   py,
   pt,
   pb,
+  pl,
+  pr,
   p: p2,
   children
 }) {
@@ -45874,7 +47100,7 @@ function Padding({
       renderPt = spacing;
       renderPb = spacing;
     }
-  } else if (pb || pt) {
+  } else if (pb || pt || pl || pr) {
     if (pb) {
       const spacing = getSpacing(pb);
       renderPb = spacing;
@@ -45882,6 +47108,14 @@ function Padding({
     if (pt) {
       const spacing = getSpacing(pt);
       renderPt = spacing;
+    }
+    if (pl) {
+      const spacing = getSpacing(pl);
+      renderPl = spacing;
+    }
+    if (pr) {
+      const spacing = getSpacing(pr);
+      renderPr = spacing;
     }
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
@@ -45938,7 +47172,7 @@ function MenuItem({
 }
 
 // src/react/table-app/row-options/components/RowMenu/index.tsx
-var RowMenu = import_react23.default.forwardRef(function RowMenu2({ id: id2, rowId, isOpen, top, left, onDeleteClick }, ref) {
+var RowMenu = import_react25.default.forwardRef(function RowMenu2({ id: id2, rowId, isOpen, top, left, onDeleteClick }, ref) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
     id: id2,
     isOpen,
@@ -45958,10 +47192,10 @@ var RowMenu = import_react23.default.forwardRef(function RowMenu2({ id: id2, row
 var RowMenu_default = RowMenu;
 
 // src/shared/menu/hooks.ts
-var import_react25 = __toESM(require_react());
+var import_react28 = __toESM(require_react());
 
 // src/shared/menu/menu-context.tsx
-var import_react24 = __toESM(require_react());
+var import_react27 = __toESM(require_react());
 
 // src/shared/menu/focus-visible.ts
 var focusMenuElement = (menuId) => {
@@ -45984,233 +47218,75 @@ var removeFocusVisibleClass = () => {
     el.classList.remove("NLT__focus-visible");
 };
 
-// src/shared/menu/menu-context.tsx
-var MenuContext = import_react24.default.createContext(null);
-var useMenuContext = () => {
-  const value = import_react24.default.useContext(MenuContext);
-  if (value === null) {
-    throw new Error(
-      "useMenu() called without a <MenuProvider /> in the tree."
-    );
-  }
-  return value;
+// src/shared/menu/arrow-move-focus.ts
+var moveFocusLeft = (focusableEls, index) => {
+  if (index === 0)
+    return focusableEls[index];
+  return focusableEls[index - 1];
 };
-function MenuProvider({ children }) {
-  const [openMenus, setOpenMenus] = import_react24.default.useState([]);
-  const { tableId, tableState } = useTableState();
-  const [menuCloseRequestTime, setMenuCloseRequestTime] = import_react24.default.useState(null);
-  const isMenuOpen = import_react24.default.useCallback(() => {
-    return openMenus.length !== 0;
-  }, [openMenus]);
-  const topLevelMenu = import_react24.default.useCallback(() => {
-    return openMenus.last();
-  }, [openMenus]);
-  const openMenu = import_react24.default.useCallback(
-    (menu) => {
-      const canOpen = openMenus.find((m2) => m2.level < menu.level) || openMenus.length === 0;
-      if (!canOpen)
-        return;
-      setOpenMenus((prev) => [...prev, menu]);
-      removeFocusVisibleClass();
-    },
-    [openMenus]
-  );
-  function closeTopMenu(shouldFocusTrigger = true) {
-    const menu = topLevelMenu();
-    if (!menu)
-      return;
-    const { id: id2, level } = menu;
-    if (shouldFocusTrigger) {
-      if (level === 0 /* ONE */) {
-        focusMenuElement(id2);
-        addFocusVisibleClass(id2);
-      }
-    }
-    setOpenMenus((prev) => prev.slice(0, prev.length - 1));
-    setMenuCloseRequestTime(null);
+var moveFocusRight = (focusableEls, index) => {
+  if (index === focusableEls.length - 1)
+    return focusableEls[index];
+  return focusableEls[index + 1];
+};
+var moveFocusUp = (focusableEls, numColumns, numBodyRows, numSortedColumns, index) => {
+  const searchInputIndex = numSortedColumns;
+  const optionBarIndexEnd = numSortedColumns + 2;
+  const newRowButtonIndex = focusableEls.length - 1;
+  if (index <= optionBarIndexEnd)
+    return focusableEls[index];
+  if (index > optionBarIndexEnd && index <= optionBarIndexEnd + numColumns) {
+    return focusableEls[searchInputIndex];
   }
-  import_react24.default.useEffect(() => {
-    function handleClick(e) {
-      const target = e.target;
-      if (isMenuOpen()) {
-        const menu = topLevelMenu();
-        if (!menu)
-          throw new Error("Menu is open but no menu exists");
-        const { id: id2 } = menu;
-        const isElementMounted = document.contains(target);
-        if (!isElementMounted)
-          return;
-        if (target.closest(`.NLT__menu[data-menu-id="${id2}"]`) !== null)
-          return;
-        if (target.closest(`.NLT__focusable[data-menu-id="${id2}"]`) !== null)
-          return;
-        closeTopMenu();
-      } else {
-        removeFocusVisibleClass();
-      }
-    }
-    function openMenuFromFocusedTrigger() {
-      const focusedEl = document.activeElement;
-      if (focusedEl) {
-        if (focusedEl.className.includes("NLT__focusable")) {
-          const menuId = focusedEl.getAttribute("data-menu-id");
-          const shouldRequestOnClose = focusedEl.getAttribute(
-            "data-menu-should-request-on-close"
-          );
-          if (menuId && shouldRequestOnClose)
-            openMenu({
-              id: menuId,
-              level: 0 /* ONE */,
-              shouldRequestOnClose: shouldRequestOnClose === "true"
-            });
-        }
-      }
-    }
-    function handleEnterDown(e) {
-      const target = e.target;
-      if (e.shiftKey)
-        return;
-      if (target.getAttribute("data-menu-id") !== null) {
-        e.preventDefault();
-      }
-      if (isMenuOpen()) {
-        const menu = topLevelMenu();
-        if (!menu)
-          throw new Error("Menu is open but no menu exists");
-        if (menu.shouldRequestOnClose) {
-          setMenuCloseRequestTime(Date.now());
-        } else {
-          closeTopMenu();
-        }
-      } else {
-        openMenuFromFocusedTrigger();
-        removeFocusVisibleClass();
-      }
-    }
-    function handleEscapeDown(e) {
-      if (isMenuOpen())
-        closeTopMenu();
-    }
-    function handleTabDown(e) {
-      if (isMenuOpen()) {
-        e.preventDefault();
-      } else {
-        removeFocusVisibleClass();
-      }
-    }
-    function handleArrowDown(e) {
-      if (!isMenuOpen()) {
-        e.preventDefault();
-        let focusedEl = document.activeElement;
-        if (focusedEl) {
-          removeFocusVisibleClass();
-          const tableEl = document.getElementById(tableId);
-          if (!tableEl)
-            throw new Error("Table element not found");
-          const focusableEls = tableEl.querySelectorAll(".NLT__focusable");
-          const index = Array.from(focusableEls).indexOf(focusedEl);
-          switch (e.key) {
-            case "ArrowUp": {
-              const numColumns = tableState.model.columns.length + 1;
-              const numColumnsFunctionRow = numColumns - 1;
-              if (index === focusableEls.length - 1) {
-                focusedEl = focusableEls[index - numColumnsFunctionRow];
-              } else if (index - numColumns >= 0) {
-                focusedEl = focusableEls[index - numColumns];
-              }
-              break;
-            }
-            case "ArrowLeft":
-              if (index - 1 >= 0)
-                focusedEl = focusableEls[index - 1];
-              break;
-            case "ArrowRight":
-              if (index + 1 < focusableEls.length)
-                focusedEl = focusableEls[index + 1];
-              break;
-            case "ArrowDown":
-              {
-                const rowIndexEnd = focusableEls.length - 1;
-                const numColumns = tableState.model.columns.length + 1;
-                const numColumnsFunctionRow = numColumns - 1;
-                if (index + numColumns <= rowIndexEnd - 1) {
-                  focusedEl = focusableEls[index + numColumns];
-                } else if (index >= rowIndexEnd - numColumnsFunctionRow && index <= rowIndexEnd) {
-                  focusedEl = focusableEls[rowIndexEnd];
-                }
-              }
-              break;
-          }
-          focusedEl.focus();
-        }
-      }
-    }
-    function handleKeyDown(e) {
-      switch (e.code) {
-        case "Enter":
-          handleEnterDown(e);
-          break;
-        case "Escape":
-          handleEscapeDown(e);
-        case "Tab":
-          handleTabDown(e);
-          break;
-        case "ArrowLeft":
-        case "ArrowRight":
-        case "ArrowUp":
-        case "ArrowDown":
-          handleArrowDown(e);
-          break;
-        default:
-          if (isMacUndo(e) || isMacRedo(e) || isWindowsUndo(e) || isWindowsRedo(e))
-            return;
-          if (e.key.length !== 1)
-            return;
-          openMenuFromFocusedTrigger();
-          break;
-      }
-    }
-    document.addEventListener("click", handleClick);
-    document.addEventListener("keydown", handleKeyDown);
-    return () => {
-      document.removeEventListener("click", handleClick);
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [isMenuOpen, openMenu, tableState.model.columns.length]);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuContext.Provider, {
-    value: {
-      openMenus,
-      openMenu,
-      menuCloseRequestTime,
-      closeTopMenu
-    },
-    children
-  });
-}
-
-// src/shared/menu/hooks.ts
-var useMenu = (level, options) => {
-  const { shouldRequestOnClose = false } = options || {};
-  const [id2] = import_react25.default.useState("m" + v4_default());
-  const menuRef = import_react25.default.useRef(null);
-  const { openMenus, openMenu, closeTopMenu, menuCloseRequestTime } = useMenuContext();
-  const isOpen = openMenus.find((menu2) => menu2.id == id2) ? true : false;
-  const menu = import_react25.default.useMemo(() => {
-    return { id: id2, level, shouldRequestOnClose };
-  }, [id2, level, shouldRequestOnClose]);
-  return {
-    menu,
-    menuRef,
-    isMenuOpen: isOpen,
-    menuCloseRequestTime,
-    openMenu,
-    closeTopMenu
-  };
+  if (index >= newRowButtonIndex - numColumns && index < newRowButtonIndex) {
+    if (numBodyRows === 0)
+      return focusableEls[index - numColumns - 1];
+    return focusableEls[index - numColumns];
+  }
+  if (index === newRowButtonIndex)
+    return focusableEls[newRowButtonIndex - numColumns];
+  if (index > optionBarIndexEnd && index <= optionBarIndexEnd + numColumns)
+    return focusableEls[0];
+  if (index === optionBarIndexEnd + numColumns + 2)
+    return focusableEls[index - 1 - numColumns];
+  if (index > optionBarIndexEnd + numColumns + 2 && index <= optionBarIndexEnd + numColumns + 2 + numColumns)
+    return focusableEls[index - 2 - numColumns];
+  return focusableEls[index - 1 - numColumns];
+};
+var moveFocusDown = (focusableEls, numColumns, numBodyRows, numSortedColumns, index) => {
+  const firstColumnIndex = numSortedColumns + 3;
+  const optionBarIndexEnd = numSortedColumns + 2;
+  const newRowButtonIndex = focusableEls.length - 1;
+  if (index === newRowButtonIndex)
+    return focusableEls[index];
+  if (index >= 0 && index <= optionBarIndexEnd)
+    return focusableEls[firstColumnIndex];
+  if (index >= newRowButtonIndex - numColumns && index < newRowButtonIndex)
+    return focusableEls[newRowButtonIndex];
+  if (index > optionBarIndexEnd && index <= optionBarIndexEnd + numColumns) {
+    if (numBodyRows === 0)
+      return focusableEls[index + numColumns + 1];
+    return focusableEls[index + numColumns + 2];
+  }
+  if (index >= newRowButtonIndex - numColumns - numColumns && index < newRowButtonIndex - numColumns)
+    return focusableEls[index + numColumns];
+  if (index === optionBarIndexEnd + numColumns + 1)
+    return focusableEls[index + numColumns + 1];
+  return focusableEls[index + numColumns + 1];
 };
 
 // src/shared/menu/utils.ts
 var import_react26 = __toESM(require_react());
 var import_obsidian4 = require("obsidian");
+
+// src/shared/menu/constants.ts
+var MENU_SHIFT_PADDING = 5;
+
+// src/shared/menu/utils.ts
+var isTextSelected = () => {
+  const selection = window.getSelection();
+  return (selection == null ? void 0 : selection.type) === "Range";
+};
 var getElementPosition = (el) => {
   if (el) {
     const { top, left, width, height } = el.getBoundingClientRect();
@@ -46231,6 +47307,7 @@ var getElementPosition = (el) => {
 var useShiftMenu = (triggerRef, menuRef, isOpen, options) => {
   import_react26.default.useEffect(() => {
     function shiftMenuIntoView() {
+      var _a;
       if (menuRef.current === null)
         return;
       if (triggerRef.current === null)
@@ -46240,14 +47317,14 @@ var useShiftMenu = (triggerRef, menuRef, isOpen, options) => {
         topOffset = 0,
         leftOffset = 0
       } = options || {};
-      const activeView = app.workspace.getActiveViewOfType(NLTView);
+      const activeView = (_a = app.workspace.getActiveViewOfType(NLTView)) != null ? _a : app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
       if (!activeView)
         return;
       const viewContentEl = activeView.contentEl;
       const viewContentRect = viewContentEl.getBoundingClientRect();
       const triggerRefRect = triggerRef.current.getBoundingClientRect();
       const menuRect = menuRef.current.getBoundingClientRect();
-      let top = triggerRefRect.top + topOffset;
+      const top = triggerRefRect.top + topOffset;
       let left = triggerRefRect.left + leftOffset;
       if (openDirection === "left") {
         left = left - menuRect.width;
@@ -46284,25 +47361,314 @@ var useMenuTriggerPosition = () => {
   const position = getElementPosition(ref.current);
   return { triggerRef: ref, triggerPosition: position };
 };
-var PADDING_OFFSET = 5;
 var shiftElementIntoContainer = (container, element) => {
   let newTop = element.top;
   let newLeft = element.left;
   if (element.top + element.height > container.top + container.height) {
-    newTop = container.top + container.height - element.height - PADDING_OFFSET;
+    newTop = container.top + container.height - element.height - MENU_SHIFT_PADDING;
   }
   if (element.left + element.width > container.left + container.width) {
-    newLeft = container.left + container.width - element.width - PADDING_OFFSET;
+    newLeft = container.left + container.width - element.width - MENU_SHIFT_PADDING;
   }
   if (element.top < container.top) {
-    newTop = container.top + PADDING_OFFSET;
+    newTop = container.top + MENU_SHIFT_PADDING;
   }
   if (element.left < container.left) {
-    newLeft = container.left + PADDING_OFFSET;
+    newLeft = container.left + MENU_SHIFT_PADDING;
   }
   return {
     top: Math.ceil(newTop),
     left: Math.ceil(newLeft)
+  };
+};
+
+// src/shared/menu/menu-context.tsx
+var MenuContext = import_react27.default.createContext(null);
+var useMenuContext = () => {
+  const value = import_react27.default.useContext(MenuContext);
+  if (value === null) {
+    throw new Error(
+      "useMenu() called without a <MenuProvider /> in the tree."
+    );
+  }
+  return value;
+};
+function MenuProvider({ children }) {
+  const { tableState } = useTableState();
+  const { appId } = useMountContext();
+  const [openMenus, setOpenMenus] = import_react27.default.useState([]);
+  const [menuCloseRequest, setMenuCloseRequest] = import_react27.default.useState(null);
+  const isTextHighlighted = import_react27.default.useRef(false);
+  const isMenuOpen = import_react27.default.useCallback(() => {
+    return openMenus.length !== 0;
+  }, [openMenus]);
+  const openMenu = import_react27.default.useCallback(
+    (menu) => {
+      const canOpen = openMenus.find((m2) => m2.level < menu.level) || openMenus.length === 0;
+      if (!canOpen)
+        return;
+      setOpenMenus((prev) => [...prev, menu]);
+      removeFocusVisibleClass();
+    },
+    [openMenus]
+  );
+  function closeAllMenus(shouldFocusTrigger = true) {
+    const menu = openMenus.first();
+    if (!menu)
+      return;
+    if (shouldFocusTrigger) {
+      const { id: id2, level } = menu;
+      if (level === 0 /* ONE */) {
+        focusMenuElement(id2);
+        addFocusVisibleClass(id2);
+      }
+    }
+    setOpenMenus([]);
+    setMenuCloseRequest(null);
+    isTextHighlighted.current = false;
+  }
+  const closeTopMenu = import_react27.default.useCallback(
+    (options) => {
+      const { shouldFocusTrigger = true } = options || {};
+      const menu = openMenus.last();
+      if (!menu)
+        return;
+      if (shouldFocusTrigger) {
+        const { id: id2, level } = menu;
+        if (level === 0 /* ONE */) {
+          focusMenuElement(id2);
+          addFocusVisibleClass(id2);
+        }
+      }
+      setOpenMenus((prev) => prev.slice(0, prev.length - 1));
+      setMenuCloseRequest(null);
+      isTextHighlighted.current = false;
+    },
+    [openMenus]
+  );
+  const requestCloseTopMenu = import_react27.default.useCallback(
+    (type) => {
+      const menu = openMenus.last();
+      if (!menu)
+        return;
+      if (menu.shouldRequestOnClose) {
+        setMenuCloseRequest({
+          id: menu.id,
+          requestTime: Date.now(),
+          type
+        });
+        return;
+      }
+      closeTopMenu();
+    },
+    [openMenus, closeTopMenu]
+  );
+  import_react27.default.useEffect(() => {
+    function handleClick(e) {
+      if (isMenuOpen()) {
+        const menu = openMenus.last();
+        if (!menu)
+          throw new Error("Menu is open but no menu exists");
+        const { id: id2 } = menu;
+        const target = e.target;
+        const isElementMounted = document.contains(target);
+        if (!isElementMounted)
+          return;
+        if (target.closest(`.NLT__menu[data-id="${id2}"]`))
+          return;
+        if (target.closest(`.NLT__focusable[data-menu-id="${id2}"]`))
+          return;
+        if (isTextHighlighted.current)
+          return;
+        requestCloseTopMenu("click");
+      } else {
+        removeFocusVisibleClass();
+      }
+    }
+    function openMenuFromFocusedTrigger() {
+      const focusedEl = document.activeElement;
+      if (focusedEl) {
+        if (focusedEl.className.includes("NLT__focusable")) {
+          const menuId = focusedEl.getAttribute("data-menu-id");
+          const shouldRequestOnClose = focusedEl.getAttribute(
+            "data-menu-should-request-on-close"
+          );
+          if (menuId && shouldRequestOnClose)
+            openMenu({
+              id: menuId,
+              level: 0 /* ONE */,
+              shouldRequestOnClose: shouldRequestOnClose === "true"
+            });
+        }
+      }
+    }
+    function handleMouseDown() {
+      isTextHighlighted.current = false;
+    }
+    function handleSelectionChange() {
+      isTextHighlighted.current = isTextSelected();
+    }
+    function handleEnterDown(e) {
+      const target = e.target;
+      if (isSpecialActionDown(e))
+        return;
+      if (target.getAttribute("data-menu-id"))
+        e.preventDefault();
+      if (isMenuOpen()) {
+        const menu = openMenus.last();
+        if (!menu)
+          throw new Error("Menu is open but no menu exists");
+        if (isTextHighlighted.current)
+          return;
+        requestCloseTopMenu("enter");
+      } else {
+        openMenuFromFocusedTrigger();
+        removeFocusVisibleClass();
+      }
+    }
+    function handleEscapeDown() {
+      if (isMenuOpen())
+        closeTopMenu();
+    }
+    function handleTabDown(e) {
+      if (isMenuOpen()) {
+        e.preventDefault();
+        return;
+      }
+      removeFocusVisibleClass();
+    }
+    function handleArrowDown(e) {
+      if (isMenuOpen())
+        return;
+      const focusedEl = document.activeElement;
+      if (!focusedEl)
+        return;
+      const tableEl = focusedEl.closest(`.NLT__app[data-id="${appId}"]`);
+      if (!tableEl)
+        throw new Error("Table el not found");
+      const focusableEls = tableEl.querySelectorAll(".NLT__focusable");
+      const index = Array.from(focusableEls).indexOf(focusedEl);
+      if (index === -1)
+        return;
+      removeFocusVisibleClass();
+      const numVisibleColumns = tableState.model.columns.filter(
+        (column) => column.isVisible
+      ).length;
+      const numBodyRows = tableState.model.bodyRows.length;
+      const numSortedColumns = tableState.model.columns.filter(
+        (column) => column.sortDir !== "default" /* NONE */
+      ).length;
+      let elementToFocus = null;
+      switch (e.key) {
+        case "ArrowUp":
+          elementToFocus = moveFocusUp(
+            focusableEls,
+            numVisibleColumns,
+            numBodyRows,
+            numSortedColumns,
+            index
+          );
+          break;
+        case "ArrowLeft":
+          elementToFocus = moveFocusLeft(focusableEls, index);
+          break;
+        case "ArrowRight":
+          elementToFocus = moveFocusRight(focusableEls, index);
+          break;
+        case "ArrowDown":
+          elementToFocus = moveFocusDown(
+            focusableEls,
+            numVisibleColumns,
+            numBodyRows,
+            numSortedColumns,
+            index
+          );
+          break;
+      }
+      if (elementToFocus !== null)
+        elementToFocus.focus();
+    }
+    function handleKeyDown(e) {
+      switch (e.code) {
+        case "Enter":
+          handleEnterDown(e);
+          break;
+        case "Escape":
+          handleEscapeDown();
+          break;
+        case "Tab":
+          handleTabDown(e);
+          break;
+        case "ArrowLeft":
+        case "ArrowRight":
+        case "ArrowUp":
+        case "ArrowDown":
+          handleArrowDown(e);
+          break;
+        default:
+          if (isMacUndoDown(e) || isMacRedoDown(e) || isWindowsUndoDown(e) || isWindowsRedoDown(e))
+            return;
+          if (e.key.length !== 1)
+            return;
+          openMenuFromFocusedTrigger();
+          break;
+      }
+    }
+    eventSystem.addEventListener("click", handleClick, 2);
+    eventSystem.addEventListener("keydown", handleKeyDown);
+    eventSystem.addEventListener("mousedown", handleMouseDown);
+    eventSystem.addEventListener("selectionchange", handleSelectionChange);
+    return () => {
+      eventSystem.removeEventListener("click", handleClick);
+      eventSystem.removeEventListener("keydown", handleKeyDown);
+      eventSystem.removeEventListener("mousedown", handleMouseDown);
+      eventSystem.removeEventListener("mouseup", handleSelectionChange);
+    };
+  }, [
+    isMenuOpen,
+    closeTopMenu,
+    openMenu,
+    requestCloseTopMenu,
+    openMenus,
+    appId,
+    tableState
+  ]);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuContext.Provider, {
+    value: {
+      openMenus,
+      openMenu,
+      menuCloseRequest,
+      closeTopMenu,
+      closeAllMenus
+    },
+    children
+  });
+}
+
+// src/shared/menu/hooks.ts
+var useMenu = (level, options) => {
+  const { shouldRequestOnClose = false } = options || {};
+  const [id2] = import_react28.default.useState("m" + v4_default());
+  const menuRef = import_react28.default.useRef(null);
+  const {
+    openMenus,
+    openMenu,
+    closeTopMenu,
+    menuCloseRequest,
+    closeAllMenus
+  } = useMenuContext();
+  const isOpen = openMenus.find((menu2) => menu2.id === id2) ? true : false;
+  const menu = import_react28.default.useMemo(() => {
+    return { id: id2, level, shouldRequestOnClose };
+  }, [id2, level, shouldRequestOnClose]);
+  return {
+    menu,
+    menuRef,
+    isMenuOpen: isOpen,
+    menuCloseRequest: (menuCloseRequest == null ? void 0 : menuCloseRequest.id) === id2 ? menuCloseRequest : null,
+    openMenu,
+    closeTopMenu,
+    closeAllMenus
   };
 };
 
@@ -46313,8 +47679,7 @@ function RowOptions({ rowId, onDeleteClick }) {
   );
   const { triggerRef, triggerPosition } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen, {
-    openDirection: "right",
-    topOffset: 4
+    openDirection: "right"
   });
   const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
   const { tableState, setTableState } = useTableState();
@@ -46403,13 +47768,13 @@ function RowOptions({ rowId, onDeleteClick }) {
   }
   function addDragHover(rowEl) {
     const children = rowEl.querySelectorAll("td:not(:last-child)");
-    for (var i2 = 0; i2 < children.length; i2++) {
+    for (let i2 = 0; i2 < children.length; i2++) {
       children[i2].classList.add("NLT__tr--drag-over");
     }
   }
   function removeDragHover() {
     const children = document.querySelectorAll(".NLT__tr--drag-over");
-    for (var i2 = 0; i2 < children.length; i2++) {
+    for (let i2 = 0; i2 < children.length; i2++) {
       children[i2].classList.remove("NLT__tr--drag-over");
     }
   }
@@ -46548,8 +47913,8 @@ function Wrap({
 }
 
 // src/react/table-app/option-bar/toggle-column-menu.tsx
-var import_react30 = __toESM(require_react());
-var ToggleColumnMenu = import_react30.default.forwardRef(
+var import_react32 = __toESM(require_react());
+var ToggleColumnMenu = import_react32.default.forwardRef(
   function ToggleColumnMenu2({ id: id2, top, left, isOpen, columns, onToggle }, ref) {
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
       isOpen,
@@ -46630,7 +47995,7 @@ function ToggleColumn({ columns, onToggle }) {
 }
 
 // src/react/table-app/option-bar/filter/filter.tsx
-var import_react35 = __toESM(require_react());
+var import_react37 = __toESM(require_react());
 
 // src/react/table-app/option-bar/filter/filter-type-select.tsx
 function FilterRowDropdown({
@@ -46639,9 +48004,6 @@ function FilterRowDropdown({
   value,
   onChange
 }) {
-  if (cellType !== "checkbox" /* CHECKBOX */ && cellType !== "tag" /* TAG */ && cellType !== "multi-tag" /* MULTI_TAG */ && cellType !== "text" /* TEXT */) {
-    throw new Error("Cell type not yet supported");
-  }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
     value,
     onChange: (e) => onChange(id2, e.target.value),
@@ -46698,7 +48060,7 @@ function FilterRowDropdown({
           })
         ]
       }),
-      cellType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+      (cellType === "text" /* TEXT */ || cellType === "file" /* FILE */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
         children: [
           /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("option", {
             value: "is" /* IS */,
@@ -46792,7 +48154,7 @@ function FilterTextInput({
         type: "text",
         onChange: (e) => onTextChange(id2, e.target.value)
       }),
-      cellType == "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
+      cellType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
         value: text,
         onChange: (e) => onTextChange(id2, e.target.value),
         children: [
@@ -46810,7 +48172,7 @@ function FilterTextInput({
           })
         ]
       }),
-      (cellType === "tag" /* TAG */ || cellType == "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_react_select_cjs_default._default, {
+      (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_react_select_cjs_default._default, {
         className: "react-select",
         styles: {
           placeholder: (baseStyles) => __spreadProps(__spreadValues({}, baseStyles), {
@@ -46962,8 +48324,8 @@ function FilterRow({
 }
 
 // src/react/table-app/option-bar/filter/filter-menu.tsx
-var import_react33 = __toESM(require_react());
-var FilterMenu = import_react33.default.forwardRef(function FilterMenu2({
+var import_react35 = __toESM(require_react());
+var FilterMenu = import_react35.default.forwardRef(function FilterMenu2({
   id: id2,
   top,
   left,
@@ -47006,7 +48368,7 @@ var FilterMenu = import_react33.default.forwardRef(function FilterMenu2({
                 tagIds
               } = rule;
               const column = columns.find(
-                (column2) => column2.id == columnId
+                (column2) => column2.id === columnId
               );
               if (!column)
                 throw new ColumNotFoundError(columnId);
@@ -47038,7 +48400,7 @@ var FilterMenu = import_react33.default.forwardRef(function FilterMenu2({
                   ariaLabel: "Add filter rule",
                   onClick: () => onAddClick(columns[0].id)
                 }),
-                filterRules.length == 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+                filterRules.length === 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
                   value: "No rules to display"
                 })
               ]
@@ -47071,7 +48433,7 @@ function Filter({
     openDirection: "left"
   });
   const previousLength = usePrevious(filterRules.length);
-  import_react35.default.useEffect(() => {
+  import_react37.default.useEffect(() => {
     if (previousLength !== void 0) {
       if (previousLength < filterRules.length) {
         if (menuRef.current) {
@@ -47079,7 +48441,7 @@ function Filter({
         }
       }
     }
-  }, [previousLength, filterRules.length]);
+  }, [previousLength, filterRules.length, menuRef]);
   function handleClick() {
     if (isMenuOpen) {
       closeTopMenu();
@@ -47120,34 +48482,27 @@ function Filter({
 
 // src/react/table-app/option-bar/search-bar.tsx
 function SearchBar() {
-  const { searchText, isSearchBarVisible } = useAppSelector(
-    (state) => state.global
-  );
-  const dispatch = useAppDispatch();
+  const { searchText, setSearchText, isSearchBarVisible, toggleSearchBar } = useTableState();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
     spacing: "lg",
     children: [
       isSearchBarVisible && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
         css: import_emotion_react_cjs.css`
 						max-width: 200px;
-						border-top: 0 !important;
-						border-left: 0 !important;
-						border-right: 0 !important;
-						border-bottom: 1px solid;
-						var(--background-modifier-border) !important;
+						border: 1px solid var(--background-modifier-border) !important;
 					`,
         autoFocus: true,
         type: "text",
         placeholder: "Type to search...",
         value: searchText,
-        onChange: (e) => dispatch(setSearchText(e.target.value))
+        onChange: (e) => setSearchText(e.target.value)
       }),
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
         icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
           lucideId: "search"
         }),
         ariaLabel: "Search",
-        onClick: () => dispatch(toggleSearchBar())
+        onClick: () => toggleSearchBar()
       })
     ]
   });
@@ -47155,7 +48510,7 @@ function SearchBar() {
 
 // src/react/shared/divider/index.tsx
 function Divider({
-  isVertical,
+  isVertical = false,
   width = "100%",
   height = "100%"
 }) {
@@ -47164,7 +48519,8 @@ function Divider({
 				margin: 0;
 				width: ${!isVertical ? width : "unset"};
 				height: ${isVertical === true ? height : "unset"};
-				border-left: ${isVertical === true ? "var(--hr-thickness) var(--hr-color) solid" : "unset"};
+				border-top: ${isVertical === false ? "1px solid var(--hr-color)" : "unset"};
+				border-left: ${isVertical === true ? "1px var(--hr-color) solid" : "unset"};
 			`
   });
 }
@@ -47193,6 +48549,7 @@ function ActiveFilterBubble({ numActive }) {
 var isCellTypeFilterable = (cellType) => {
   switch (cellType) {
     case "text" /* TEXT */:
+    case "file" /* FILE */:
     case "tag" /* TAG */:
     case "multi-tag" /* MULTI_TAG */:
     case "checkbox" /* CHECKBOX */:
@@ -47233,7 +48590,7 @@ var doesCellMatchRule = (cell, cellType, tags, rule) => {
   if (!isCellTypeFilterable(cellType))
     return true;
   if (rule.isEnabled) {
-    if (cellType === "text" /* TEXT */) {
+    if (cellType === "text" /* TEXT */ || cellType === "file" /* FILE */) {
       return doesTextMatch(cell.markdown, rule.text, rule.type);
     } else if (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) {
       const cellTags = tags.filter((tag) => cell.tagIds.includes(tag.id)).map((tag) => tag.markdown);
@@ -47269,8 +48626,8 @@ var doesTagMatch = (markdown, ruleText, filterType) => {
 var doesTextMatch = (markdown, ruleText, filterType) => {
   const compareMarkdown = markdown.toLowerCase().trim();
   const compareRuleText = ruleText.toLowerCase().trim();
-  if (filterType != "is-not-empty" /* IS_NOT_EMPTY */ && filterType != "is-empty" /* IS_EMPTY */) {
-    if (compareRuleText == "")
+  if (filterType !== "is-not-empty" /* IS_NOT_EMPTY */ && filterType !== "is-empty" /* IS_EMPTY */) {
+    if (compareRuleText === "")
       return true;
     if (markdown === "")
       return true;
@@ -47333,9 +48690,10 @@ function OptionBar({
   onRuleAddClick,
   onRuleTagsChange
 }) {
+  const { isEmbedded } = useMountContext();
   const sortedCells = headerCells.filter((cell) => {
     const columnId = cell.columnId;
-    const column = columns.find((c2) => c2.id == columnId);
+    const column = columns.find((c2) => c2.id === columnId);
     if (!column)
       throw new ColumNotFoundError(columnId);
     return column.sortDir !== "default" /* NONE */;
@@ -47360,59 +48718,70 @@ function OptionBar({
   const sortedColumn = columns.find((c2) => c2.sortDir !== "default" /* NONE */);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     className: "NLT__option-bar",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
-      spacing: "lg",
-      isVertical: true,
-      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
-        justify: { base: "space-between", mobile: "flex-end" },
-        children: [
-          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-            spacing: "md",
-            children: [
-              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SortBubbleList, {
-                headerCells: sortedCells,
-                columns,
-                onRemoveClick: onSortRemoveClick
-              }),
-              activeRules.length !== 0 && sortedColumn !== void 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {
-                isVertical: true,
-                height: "1.5rem"
-              }),
-              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ActiveFilterBubble, {
-                numActive: activeRules.length
-              })
-            ]
-          }),
-          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-            spacing: "sm",
-            justify: "flex-end",
-            children: [
-              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SearchBar, {}),
-              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Filter, {
-                columns: filterableColumns,
-                filterRules,
-                onAddClick: onRuleAddClick,
-                onToggle: onRuleToggle,
-                onColumnChange: onRuleColumnChange,
-                onFilterTypeChange: onRuleFilterTypeChange,
-                onTextChange: onRuleTextChange,
-                onDeleteClick: onRuleDeleteClick,
-                onTagsChange: onRuleTagsChange
-              }),
-              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ToggleColumn, {
-                columns: columnsWithMarkdown,
-                onToggle: onColumnToggle
-              })
-            ]
-          })
-        ]
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				padding-left: var(--nlt-spacing--lg);
+				padding-bottom: var(--nlt-spacing--md);
+				padding-top: var(--nlt-spacing--md);
+				border-bottom: 1px solid var(--background-modifier-border);
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+      pl: "xl",
+      pr: isEmbedded ? "unset" : "xl",
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
+        spacing: "lg",
+        isVertical: true,
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
+          justify: { base: "space-between", mobile: "flex-end" },
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              spacing: "md",
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SortBubbleList, {
+                  headerCells: sortedCells,
+                  columns,
+                  onRemoveClick: onSortRemoveClick
+                }),
+                activeRules.length !== 0 && sortedColumn !== void 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {
+                  isVertical: true,
+                  height: "1.5rem"
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ActiveFilterBubble, {
+                  numActive: activeRules.length
+                })
+              ]
+            }),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              spacing: "sm",
+              justify: "flex-end",
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SearchBar, {}),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Filter, {
+                  columns: filterableColumns,
+                  filterRules,
+                  onAddClick: onRuleAddClick,
+                  onToggle: onRuleToggle,
+                  onColumnChange: onRuleColumnChange,
+                  onFilterTypeChange: onRuleFilterTypeChange,
+                  onTextChange: onRuleTextChange,
+                  onDeleteClick: onRuleDeleteClick,
+                  onTagsChange: onRuleTagsChange
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ToggleColumn, {
+                  columns: columnsWithMarkdown,
+                  onToggle: onColumnToggle
+                })
+              ]
+            })
+          ]
+        })
       })
     })
   });
 }
 
 // src/react/table-app/function-cell/function-menu.tsx
-var import_react39 = __toESM(require_react());
+var import_react42 = __toESM(require_react());
 
 // src/shared/table-state/display-name.ts
 var getShortDisplayNameForGeneralFunction = (value) => {
@@ -47582,6 +48951,10 @@ var getDisplayNameForCellType = (type) => {
   switch (type) {
     case "text" /* TEXT */:
       return "Text";
+    case "embed" /* EMBED */:
+      return "Embed";
+    case "file" /* FILE */:
+      return "File";
     case "number" /* NUMBER */:
       return "Number";
     case "checkbox" /* CHECKBOX */:
@@ -47604,7 +48977,7 @@ var getDisplayNameForCellType = (type) => {
 };
 
 // src/react/table-app/function-cell/function-menu.tsx
-var FunctionMenu = import_react39.default.forwardRef(
+var FunctionMenu = import_react42.default.forwardRef(
   function FunctionMenu2({ id: id2, value, cellType, isOpen, top, left, onClick }, ref) {
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
       ref,
@@ -47669,31 +49042,6 @@ var round2Digits = (value) => {
   if (value.toString().includes("."))
     return parseFloat(value.toFixed(2));
   return value;
-};
-
-// src/react/table-app/function-cell/number-function.ts
-var getNumberFunctionContent = (values, cellType, currencyType, functionType) => {
-  const value = getNumberFunctionValue(values, functionType).toString();
-  if (cellType === "currency" /* CURRENCY */)
-    return stringToCurrencyString(value, currencyType);
-  return value;
-};
-var getNumberFunctionValue = (values, type) => {
-  if (type === "avg" /* AVG */) {
-    return round2Digits(getAverage(values));
-  } else if (type === "max" /* MAX */) {
-    return getMaximum(values);
-  } else if (type === "min" /* MIN */) {
-    return getMinimum(values);
-  } else if (type === "range" /* RANGE */) {
-    return round2Digits(getRange(values));
-  } else if (type === "sum" /* SUM */) {
-    return round2Digits(getSum(values));
-  } else if (type === "median" /* MEDIAN */) {
-    return round2Digits(getMedian(values));
-  } else {
-    throw new Error("Unhandled number function");
-  }
 };
 
 // src/shared/date/constants.ts
@@ -47791,7 +49139,7 @@ var unixTimeToDateTimeString = (unixTime, format) => {
       return `${day}/${month}/${year} ${time}`;
     case "yyyy/mm/dd" /* YYYY_MM_DD */:
       return `${year}/${month}/${day} ${time}`;
-    case "full" /* FULL */:
+    case "full" /* FULL */: {
       const value = date.toLocaleString("en-US", {
         month: "short",
         day: "numeric",
@@ -47801,6 +49149,7 @@ var unixTimeToDateTimeString = (unixTime, format) => {
         hour12: true
       });
       return removeLastComma(value);
+    }
     case "relative" /* RELATIVE */: {
       const diff = Date.now() - date.getTime();
       const time2 = date.toLocaleString("en-US", {
@@ -47815,7 +49164,7 @@ var unixTimeToDateTimeString = (unixTime, format) => {
       } else if (diff < MILLIS_IN_DAY * 7) {
         return date.toLocaleString("en-US", { weekday: "long" }) + " " + time2;
       } else {
-        const value2 = date.toLocaleString("en-US", {
+        const value = date.toLocaleString("en-US", {
           month: "short",
           day: "numeric",
           year: "numeric",
@@ -47823,7 +49172,7 @@ var unixTimeToDateTimeString = (unixTime, format) => {
           minute: "numeric",
           hour12: true
         });
-        return removeLastComma(value2);
+        return removeLastComma(value);
       }
     }
     default:
@@ -47843,6 +49192,86 @@ var isValidDateFormat = (value, dateFormat) => {
   }
 };
 
+// src/shared/export/cell-content.ts
+var getTagCellContent = (column, cell) => {
+  return column.tags.filter((tag) => cell.tagIds.includes(tag.id)).map((tag) => tag.markdown).join(",");
+};
+var getDateCellContent = (dateTime, format) => {
+  if (dateTime !== null)
+    return unixTimeToDateString(dateTime, format);
+  return "";
+};
+var getTimeCellContent = (dateTime, format) => {
+  if (dateTime !== null)
+    return unixTimeToDateTimeString(dateTime, format);
+  return "";
+};
+var getCheckboxContent = (markdown) => {
+  if (isCheckboxChecked(markdown))
+    return "true";
+  return "false";
+};
+var getEmbedContent = (markdown) => {
+  if (isURL(markdown))
+    return `![](${markdown})`;
+  return markdown;
+};
+var getCurrencyCellContent = (value, currencyType) => {
+  if (isNumber(value))
+    return stringToCurrencyString(value, currencyType);
+  return value;
+};
+var getCellContent = (column, row, cell) => {
+  switch (column.type) {
+    case "text" /* TEXT */:
+    case "file" /* FILE */:
+    case "number" /* NUMBER */:
+      return cell.markdown;
+    case "embed" /* EMBED */:
+      return getEmbedContent(cell.markdown);
+    case "checkbox" /* CHECKBOX */:
+      return getCheckboxContent(cell.markdown);
+    case "currency" /* CURRENCY */:
+      return getCurrencyCellContent(cell.markdown, column.currencyType);
+    case "tag" /* TAG */:
+    case "multi-tag" /* MULTI_TAG */:
+      return getTagCellContent(column, cell);
+    case "date" /* DATE */:
+      return getDateCellContent(cell.dateTime, column.dateFormat);
+    case "creation-time" /* CREATION_TIME */:
+      return getTimeCellContent(row.creationTime, column.dateFormat);
+    case "last-edited-time" /* LAST_EDITED_TIME */:
+      return getTimeCellContent(row.lastEditedTime, column.dateFormat);
+    default:
+      throw new Error("Unsupported cell type");
+  }
+};
+
+// src/react/table-app/function-cell/number-function.ts
+var getNumberFunctionContent = (values, cellType, currencyType, functionType) => {
+  const value = getNumberFunctionValue(values, functionType).toString();
+  if (cellType === "currency" /* CURRENCY */)
+    return getCurrencyCellContent(value, currencyType);
+  return value;
+};
+var getNumberFunctionValue = (values, type) => {
+  if (type === "avg" /* AVG */) {
+    return round2Digits(getAverage(values));
+  } else if (type === "max" /* MAX */) {
+    return getMaximum(values);
+  } else if (type === "min" /* MIN */) {
+    return getMinimum(values);
+  } else if (type === "range" /* RANGE */) {
+    return round2Digits(getRange(values));
+  } else if (type === "sum" /* SUM */) {
+    return round2Digits(getSum(values));
+  } else if (type === "median" /* MEDIAN */) {
+    return round2Digits(getMedian(values));
+  } else {
+    throw new Error("Unhandled number function");
+  }
+};
+
 // src/react/table-app/function-cell/general-function.ts
 var getGeneralFunctionContent = (bodyRows, columnCells, columnTags, cellType, functionType, dateFormat) => {
   return getGeneralFunctionValue(
@@ -47858,9 +49287,9 @@ var getGeneralFunctionValue = (bodyRows, columnCells, columnTags, cellType, func
   if (functionType === "count-all" /* COUNT_ALL */) {
     return countAll(bodyRows);
   } else if (functionType === "count-empty" /* COUNT_EMPTY */) {
-    return countEmpty(columnCells, columnTags, cellType);
+    return countEmpty(columnCells, cellType);
   } else if (functionType === "count-not-empty" /* COUNT_NOT_EMPTY */) {
-    return countNotEmpty(columnCells, columnTags, cellType);
+    return countNotEmpty(columnCells, cellType);
   } else if (functionType === "count-unique" /* COUNT_UNIQUE */) {
     return countUnique(
       bodyRows,
@@ -47870,11 +49299,11 @@ var getGeneralFunctionValue = (bodyRows, columnCells, columnTags, cellType, func
       dateFormat
     );
   } else if (functionType === "count-values" /* COUNT_VALUES */) {
-    return countValues(columnCells, columnTags, cellType);
+    return countValues(columnCells, cellType);
   } else if (functionType === "percent-empty" /* PERCENT_EMPTY */) {
-    return percentEmpty(columnCells, columnTags, cellType);
+    return percentEmpty(columnCells, cellType);
   } else if (functionType === "percent-not-empty" /* PERCENT_NOT_EMPTY */) {
-    return percentNotEmpty(columnCells, columnTags, cellType);
+    return percentNotEmpty(columnCells, cellType);
   } else if (functionType === "none" /* NONE */) {
     return "";
   } else {
@@ -47884,15 +49313,15 @@ var getGeneralFunctionValue = (bodyRows, columnCells, columnTags, cellType, func
 var countAll = (bodyRows) => {
   return bodyRows.length;
 };
-var countEmpty = (columnCells, columnTags, cellType) => {
-  return columnCells.map((cell) => isCellContentEmpty(cell, columnTags, cellType)).reduce((accum, value) => {
+var countEmpty = (columnCells, cellType) => {
+  return columnCells.map((cell) => isCellContentEmpty(cell, cellType)).reduce((accum, value) => {
     if (value === true)
       return accum + 1;
     return accum;
   }, 0);
 };
-var countNotEmpty = (columnCells, columnTags, cellType) => {
-  return columnCells.map((cell) => isCellContentEmpty(cell, columnTags, cellType)).reduce((accum, value) => {
+var countNotEmpty = (columnCells, cellType) => {
+  return columnCells.map((cell) => isCellContentEmpty(cell, cellType)).reduce((accum, value) => {
     if (value === false)
       return accum + 1;
     return accum;
@@ -47910,26 +49339,26 @@ var countUnique = (bodyRows, columnCells, columnTags, cellType, dateFormat) => {
       cellType,
       dateFormat
     );
-    return cellValues.map((value) => hashString(value));
+    return cellValues.filter((value) => value !== "").map((value) => hashString(value));
   }).flat(1);
   const uniqueHashes = new Set(hashes);
   return uniqueHashes.size;
 };
-var countValues = (columnCells, columnTags, cellType) => {
-  return columnCells.map((cell) => countCellValues(cell, columnTags, cellType)).reduce((accum, value) => accum + value, 0);
+var countValues = (columnCells, cellType) => {
+  return columnCells.map((cell) => countCellValues(cell, cellType)).reduce((accum, value) => accum + value, 0);
 };
-var percentEmpty = (columnCells, columnTags, cellType) => {
-  const percent = countEmpty(columnCells, columnTags, cellType) / columnCells.length * 100;
+var percentEmpty = (columnCells, cellType) => {
+  const percent = countEmpty(columnCells, cellType) / columnCells.length * 100;
   const normalized = round2Digits(percent);
   return normalized + "%";
 };
-var percentNotEmpty = (columnCells, columnTags, cellType) => {
-  const percent = countNotEmpty(columnCells, columnTags, cellType) / columnCells.length * 100;
+var percentNotEmpty = (columnCells, cellType) => {
+  const percent = countNotEmpty(columnCells, cellType) / columnCells.length * 100;
   const normalized = round2Digits(percent);
   return normalized + "%";
 };
 var getCellValues = (bodyRow, cell, columnTags, cellType, dateFormat) => {
-  if (cellType === "text" /* TEXT */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "checkbox" /* CHECKBOX */) {
+  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "checkbox" /* CHECKBOX */ || cellType === "file" /* FILE */) {
     return [cell.markdown];
   } else if (cellType === "date" /* DATE */) {
     if (cell.dateTime)
@@ -47950,8 +49379,8 @@ var getCellValues = (bodyRow, cell, columnTags, cellType, dateFormat) => {
     throw new Error("Unhandled cell type");
   }
 };
-var countCellValues = (cell, columnTags, cellType) => {
-  if (cellType === "text" /* TEXT */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */) {
+var countCellValues = (cell, cellType) => {
+  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "file" /* FILE */) {
     return cell.markdown === "" ? 0 : 1;
   } else if (cellType === "date" /* DATE */) {
     return cell.dateTime == null ? 0 : 1;
@@ -47965,8 +49394,8 @@ var countCellValues = (cell, columnTags, cellType) => {
     throw new Error("Unhandled cell type");
   }
 };
-var isCellContentEmpty = (cell, columnTags, cellType) => {
-  if (cellType === "text" /* TEXT */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */) {
+var isCellContentEmpty = (cell, cellType) => {
+  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "file" /* FILE */) {
     return cell.markdown === "";
   } else if (cellType === "date" /* DATE */) {
     return cell.dateTime == null;
@@ -47982,6 +49411,7 @@ var isCellContentEmpty = (cell, columnTags, cellType) => {
 };
 
 // src/react/shared/menu-trigger/index.tsx
+var import_react44 = __toESM(require_react());
 var MenuTrigger = ({
   canMenuOpen = true,
   shouldMenuRequestOnClose = false,
@@ -47991,20 +49421,35 @@ var MenuTrigger = ({
   onEnterDown,
   onBackspaceDown
 }) => {
+  const id2 = useUUID();
+  import_react44.default.useEffect(() => {
+    function handleClick(e) {
+      const target = e.target;
+      if (target.closest(`.NLT__focusable[data-id="${id2}"]`))
+        onClick(e);
+    }
+    eventSystem.addEventListener("click", handleClick, 1);
+    return () => {
+      eventSystem.removeEventListener("click", handleClick);
+    };
+  }, [id2, onClick]);
   function handleKeyDown(e) {
     if (e.key === "Enter") {
       onEnterDown == null ? void 0 : onEnterDown();
-    } else if (e.key == "Backspace") {
+    } else if (e.key === "Backspace") {
       onBackspaceDown == null ? void 0 : onBackspaceDown();
     }
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     tabIndex: 0,
+    "data-id": id2,
     "data-menu-id": canMenuOpen ? menuId : void 0,
     "data-menu-should-request-on-close": shouldMenuRequestOnClose,
     className: "NLT__focusable",
-    style: { width: "100%", height: "100%" },
-    onClick,
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 100%;
+			`,
     onKeyDown: handleKeyDown,
     children
   });
@@ -48014,7 +49459,6 @@ var menu_trigger_default = MenuTrigger;
 // src/react/table-app/function-cell/index.tsx
 function FunctionCell({
   columnId,
-  cellId,
   columnTags,
   bodyCells,
   dateFormat,
@@ -48030,7 +49474,7 @@ function FunctionCell({
   const { triggerPosition, triggerRef } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen);
   function handleFunctionTypeClick(value) {
-    onFunctionTypeChange(cellId, value);
+    onFunctionTypeChange(columnId, value);
     closeTopMenu();
   }
   const columnCells = bodyCells.filter((cell) => cell.columnId === columnId);
@@ -48054,11 +49498,18 @@ function FunctionCell({
         functionType
       );
   }
+  function handleClick() {
+    if (isMenuOpen) {
+      closeTopMenu();
+    } else {
+      openMenu(menu);
+    }
+  }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
         menuId: menu.id,
-        onClick: () => openMenu(menu),
+        onClick: handleClick,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
           className: "NLT__function-cell NLT__selectable",
           ref: triggerRef,
@@ -48100,14 +49551,14 @@ function FunctionCell({
 }
 
 // src/react/table-app/body-cell/index.tsx
-var import_react55 = __toESM(require_react());
+var import_react72 = __toESM(require_react());
 var import_obsidian6 = require("obsidian");
 
-// src/shared/markdown/hooks.ts
+// src/shared/render/hooks.ts
+var import_react45 = __toESM(require_react());
 var import_obsidian5 = require("obsidian");
-var import_react40 = __toESM(require_react());
 
-// src/shared/markdown/embed.ts
+// src/shared/render/embed.ts
 var handleLinkClick = (event) => {
   const targetEl = event.target;
   const closestAnchor = targetEl.tagName === "A" ? targetEl : targetEl.closest("a");
@@ -48118,14 +49569,13 @@ var handleLinkClick = (event) => {
     event.preventDefault();
     const href = closestAnchor.getAttr("href");
     const newLeaf = event.ctrlKey || event.metaKey;
-    if (href) {
+    if (href)
       app.workspace.openLinkText(href, "", newLeaf);
-    }
   }
 };
 
-// src/shared/markdown/utils.ts
-var replaceNewLinesWithBreakTag = (markdown) => {
+// src/shared/render/utils.ts
+var replaceNewLinesWithBr = (markdown) => {
   const lines = markdown.split("\n");
   let updated = "";
   lines.forEach((line) => {
@@ -48138,12 +49588,13 @@ var replaceNewLinesWithBreakTag = (markdown) => {
   return updated;
 };
 
-// src/shared/markdown/hooks.ts
+// src/shared/render/hooks.ts
 var useRenderMarkdown = (markdown, shouldWrapOverflow) => {
-  const containerRef = (0, import_react40.useRef)(null);
-  const contentRef = (0, import_react40.useRef)(null);
+  const { leaf } = useMountContext();
+  const containerRef = import_react45.default.useRef(null);
+  const markdownRef = import_react45.default.useRef(null);
   function appendOrReplaceFirstChild2(container, child) {
-    if (!child || !container)
+    if (!container || !child)
       return;
     if (container && !container.firstChild) {
       container.appendChild(child);
@@ -48151,83 +49602,151 @@ var useRenderMarkdown = (markdown, shouldWrapOverflow) => {
       container.replaceChild(child, container.firstChild);
     }
   }
-  (0, import_react40.useEffect)(() => {
+  import_react45.default.useEffect(() => {
     function renderMarkdown() {
       return __async(this, null, function* () {
-        const view = app.workspace.getActiveViewOfType(NLTView);
-        if (view) {
-          const div = document.body.createDiv();
-          div.detach();
-          try {
-            const updated = replaceNewLinesWithBreakTag(markdown);
+        const div = document.body.createDiv();
+        div.style.height = "100%";
+        div.style.width = "100%";
+        const view = leaf.view;
+        if (view instanceof NLTView)
+          div.classList.add("markdown-rendered");
+        div.detach();
+        try {
+          const updated = replaceNewLinesWithBr(markdown);
+          const view2 = leaf.view;
+          if (view2 instanceof import_obsidian5.MarkdownView || view2 instanceof NLTView) {
             yield import_obsidian5.MarkdownRenderer.renderMarkdown(
               updated,
               div,
-              view.file.path,
-              view
+              view2.file.path,
+              view2
             );
             const embeds = div.querySelectorAll(".internal-link");
             embeds.forEach((embed) => {
               const el = embed;
-              el.onmouseover = (e) => {
+              const href = el.getAttr("data-href");
+              if (!href)
+                return;
+              const destination = app.metadataCache.getFirstLinkpathDest(
+                href,
+                view2.file.path
+              );
+              if (!destination)
+                embed.classList.add("is-unresolved");
+              el.addEventListener("mouseover", (e) => {
+                e.stopPropagation();
                 app.workspace.trigger("hover-link", {
                   event: e,
                   source: NOTION_LIKE_TABLES_VIEW,
-                  hoverParent: view.containerEl,
+                  hoverParent: view2.containerEl,
                   targetEl: el,
-                  linktext: el.getAttr("data-href"),
+                  linktext: href,
                   sourcePath: el.href
                 });
-              };
-              el.onclick = handleLinkClick;
+              });
+              el.addEventListener("click", handleLinkClick);
             });
-          } catch (e) {
-            console.error(e);
           }
-          return div;
+        } catch (e) {
+          console.error(e);
         }
-        return null;
+        return div;
       });
     }
-    renderMarkdown().then((el) => {
-      if (el) {
-        contentRef.current = el;
-        if (containerRef.current)
-          appendOrReplaceFirstChild2(containerRef.current, el);
-      }
-    });
-  }, [markdown, shouldWrapOverflow]);
+    function updateContainerRef() {
+      return __async(this, null, function* () {
+        const el = yield renderMarkdown();
+        if (el) {
+          markdownRef.current = el;
+          if (containerRef.current)
+            appendOrReplaceFirstChild2(containerRef.current, el);
+        }
+      });
+    }
+    updateContainerRef();
+  }, [markdown, shouldWrapOverflow, leaf]);
   return {
     containerRef,
-    contentRef,
+    markdownRef,
     appendOrReplaceFirstChild: appendOrReplaceFirstChild2
   };
 };
 
 // src/shared/spacing/hooks.ts
-var useOverflowClassName = (shouldWrapOverflow) => {
-  if (shouldWrapOverflow) {
-    return "NLT__wrap-overflow";
-  } else {
-    return "NLT__hide-overflow";
-  }
+var wrapOverflow = import_emotion_react_cjs.css`
+	overflow-wrap: break-word;
+	overflow: hidden;
+`;
+var hideOverflow = import_emotion_react_cjs.css`
+	overflow: hidden;
+	overflow-wrap: normal;
+	white-space: nowrap;
+`;
+var useOverflow = (shouldWrapOverflow) => {
+  if (shouldWrapOverflow)
+    return wrapOverflow;
+  return hideOverflow;
 };
 
 // src/react/table-app/text-cell/index.tsx
 function TextCell({ markdown, shouldWrapOverflow }) {
-  const { containerRef, contentRef, appendOrReplaceFirstChild: appendOrReplaceFirstChild2 } = useRenderMarkdown(markdown, shouldWrapOverflow);
-  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
-  const className = "NLT__text-cell " + overflowClassName;
+  const { containerRef, markdownRef, appendOrReplaceFirstChild: appendOrReplaceFirstChild2 } = useRenderMarkdown(markdown, shouldWrapOverflow);
+  const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className,
+    className: "NLT__text-cell",
+    css: overflowStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      css: import_emotion_react_cjs.css`
+					p {
+						margin: 0;
+						text-align: left;
+					}
+
+					ul {
+						padding: 0 var(--nlt-spacing--lg);
+						margin: 0;
+					}
+				`,
       ref: (node) => {
         containerRef.current = node;
-        appendOrReplaceFirstChild2(node, contentRef.current);
+        appendOrReplaceFirstChild2(node, markdownRef.current);
       }
     })
   });
 }
+
+// src/shared/color.ts
+var findColorClassName = (isDarkMode, color) => {
+  switch (color) {
+    case "light gray" /* LIGHT_GRAY */:
+      return isDarkMode ? "NLT__light-gray--dark" : "NLT__light-gray--light";
+    case "gray" /* GRAY */:
+      return isDarkMode ? "NLT__gray--dark" : "NLT__gray--light";
+    case "brown" /* BROWN */:
+      return isDarkMode ? "NLT__brown--dark" : "NLT__brown--light";
+    case "orange" /* ORANGE */:
+      return isDarkMode ? "NLT__orange--dark" : "NLT__orange--light";
+    case "yellow" /* YELLOW */:
+      return isDarkMode ? "NLT__yellow--dark" : "NLT__yellow--light";
+    case "green" /* GREEN */:
+      return isDarkMode ? "NLT__green--dark" : "NLT__green--light";
+    case "blue" /* BLUE */:
+      return isDarkMode ? "NLT__blue--dark" : "NLT__blue--light";
+    case "purple" /* PURPLE */:
+      return isDarkMode ? "NLT__purple--dark" : "NLT__purple--light";
+    case "pink" /* PINK */:
+      return isDarkMode ? "NLT__pink--dark" : "NLT__pink--light";
+    case "red" /* RED */:
+      return isDarkMode ? "NLT__red--dark" : "NLT__red--light";
+    default:
+      return "";
+  }
+};
+var randomColor = () => {
+  const index = Math.floor(Math.random() * Object.values(Color).length);
+  return Object.values(Color)[index];
+};
 
 // src/react/shared/tag/index.tsx
 function Tag6({
@@ -48241,7 +49760,7 @@ function Tag6({
   const { isDarkMode } = useAppSelector((state) => state.global);
   let tagClass = "NLT__tag";
   tagClass += " " + findColorClassName(isDarkMode, color);
-  if (onRemoveClick && id2 == void 0) {
+  if (onRemoveClick !== void 0 && id2 === void 0) {
     throw new Error(
       "An id must defined when the onRemoveClick handler is present."
     );
@@ -48286,10 +49805,10 @@ function TagCell({
   color,
   shouldWrapOverflow
 }) {
-  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
-  const className = "NLT__tag-cell " + overflowClassName;
+  const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className,
+    className: "NLT__tag-cell",
+    css: overflowStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
       markdown,
       color
@@ -48298,57 +49817,86 @@ function TagCell({
 }
 
 // src/react/table-app/checkbox-cell/index.tsx
-function CheckboxCell({ value, onCheckboxChange }) {
+function CheckboxCell({ value }) {
   const isChecked = isCheckboxChecked(value);
-  function handleClick() {
-    if (isChecked) {
-      onCheckboxChange(CHECKBOX_MARKDOWN_UNCHECKED);
-    } else {
-      onCheckboxChange(CHECKBOX_MARKDOWN_CHECKED);
-    }
-  }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     className: "NLT__checkbox-cell",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				padding: var(--nlt-cell-spacing);
+			`,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
       className: "task-list-item-checkbox",
+      css: import_emotion_react_cjs.css`
+					cursor: pointer;
+				`,
       type: "checkbox",
       checked: isChecked,
       onChange: () => {
-      },
-      onClick: handleClick
+      }
     })
   });
 }
 
 // src/react/table-app/date-cell/index.tsx
 function DateCell({ value, format }) {
-  let content = "";
-  if (value !== null)
-    content = unixTimeToDateString(value, format);
+  const content = getDateCellContent(value, format);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     className: "NLT__date-cell",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				text-align: left;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				padding: var(--nlt-cell-spacing);
+			`,
     children: content
   });
 }
 
 // src/react/table-app/number-cell/index.tsx
 function NumberCell({ value, shouldWrapOverflow }) {
-  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
-  const className = "NLT__number-cell " + overflowClassName;
+  const overflowStyle = useOverflow(shouldWrapOverflow);
   let valueString = "";
   if (isNumber(value))
     valueString = value;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className,
+    className: "NLT__number-cell",
+    css: overflowStyle,
     children: valueString
   });
 }
 
 // src/react/table-app/number-cell-edit/index.tsx
-var import_react41 = __toESM(require_react());
-function NumberCellEdit({ value, onChange }) {
-  const inputRef = import_react41.default.useRef(null);
-  const { setPreviousSelectionStart } = useInputSelection(inputRef, value);
+var import_react50 = __toESM(require_react());
+function NumberCellEdit({
+  menuCloseRequest,
+  value,
+  onChange,
+  onMenuClose
+}) {
+  const [localValue, setLocalValue] = import_react50.default.useState(value);
+  const inputRef = import_react50.default.useRef(null);
+  const { setPreviousSelectionStart } = useInputSelection(
+    inputRef,
+    localValue
+  );
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react50.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      onChange(localValue);
+      onMenuClose();
+    }
+  }, [
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
   function handleChange(inputValue, setSelectionToLength = false) {
     if (!isValidNumberInput(inputValue))
       return;
@@ -48359,7 +49907,7 @@ function NumberCellEdit({ value, onChange }) {
         setPreviousSelectionStart(inputRef.current.selectionStart);
       }
     }
-    onChange(inputValue);
+    setLocalValue(inputValue);
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     className: "NLT__number-cell-edit",
@@ -48368,67 +49916,464 @@ function NumberCellEdit({ value, onChange }) {
       type: "text",
       ref: inputRef,
       inputMode: "numeric",
-      value,
+      value: localValue,
       onChange: (e) => handleChange(e.target.value)
     })
   });
 }
 
 // src/react/table-app/text-cell-edit/index.tsx
-var import_react42 = __toESM(require_react());
-function TextCellEdit({
-  shouldWrapOverflow,
-  value,
-  onChange
-}) {
-  const inputRef = import_react42.default.useRef(null);
-  const { setPreviousSelectionStart } = useInputSelection(inputRef, value);
-  function handleTextareaChange(inputValue, setSelectionToLength = false) {
-    if (inputRef.current) {
-      if (setSelectionToLength) {
-        setPreviousSelectionStart(inputValue.length);
+var import_react56 = __toESM(require_react());
+
+// src/react/shared/suggest-menu/suggest-menu.tsx
+var import_react55 = __toESM(require_react());
+
+// src/react/shared/suggest-menu/suggest-menu-content.tsx
+var import_react53 = __toESM(require_react());
+var import_fuzzysort = __toESM(require_fuzzysort());
+
+// src/react/shared/suggest-menu/suggest-item.tsx
+var import_react52 = __toESM(require_react());
+var SuggestItem = import_react52.default.forwardRef(
+  function SuggestItem2({ file, isHighlighted, isFileNameUnique, onItemClick }, ref) {
+    const handleClick = import_react52.default.useCallback(() => {
+      onItemClick(file, isFileNameUnique);
+    }, [file, isFileNameUnique, onItemClick]);
+    import_react52.default.useEffect(() => {
+      function handleKeyDown(e) {
+        if (e.key === "Enter")
+          handleClick();
+      }
+      if (isHighlighted)
+        eventSystem.addEventListener("keydown", handleKeyDown, 1);
+      return () => eventSystem.removeEventListener("keydown", handleKeyDown);
+    }, [isHighlighted, handleClick]);
+    let name = "No match found";
+    if (file) {
+      if (file.extension === "md") {
+        name = file.basename;
       } else {
-        setPreviousSelectionStart(inputRef.current.selectionStart);
+        name = file.name;
       }
     }
-    onChange(inputValue);
+    let path = null;
+    if (file) {
+      if (file.parent && file.parent.path !== "/") {
+        path = file.parent.path + "/";
+      }
+    }
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+      className: "NLT__suggest-item",
+      ref,
+      css: import_emotion_react_cjs.css`
+					padding: 4px 6px;
+					margin: 2px 0;
+					background-color: ${isHighlighted ? "var(--background-modifier-hover)" : "var(--background-primary)"};
+					&:hover {
+						background-color: var(--background-modifier-hover);
+					}
+				`,
+      onClick: handleClick,
+      children: [
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+          variant: "semibold",
+          size: "xs",
+          value: name
+        }),
+        path && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+          value: path,
+          size: "xs"
+        })
+      ]
+    });
   }
-  const className = useOverflowClassName(shouldWrapOverflow);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__text-cell-edit",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
-      autoFocus: true,
-      className,
-      ref: inputRef,
-      value,
-      onChange: (e) => handleTextareaChange(e.target.value)
-    })
+);
+var suggest_item_default = SuggestItem;
+
+// src/react/shared/suggest-menu/constants.ts
+var DOUBLE_BRACKET_REGEX = new RegExp(/\[\[(.*?)]]/g);
+
+// src/react/shared/suggest-menu/utils.ts
+var isSurroundedByDoubleBrackets = (inputValue, selectionStart) => {
+  let match;
+  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
+  while ((match = regex.exec(inputValue)) !== null) {
+    const innerText = match[1];
+    const startIndex = match.index + 2;
+    const endIndex = startIndex + innerText.length - 1;
+    const index = selectionStart - 1;
+    if (innerText === "" && index === startIndex - 1)
+      return true;
+    if (index >= startIndex && index <= endIndex)
+      return true;
+  }
+  return false;
+};
+var doubleBracketsInnerReplace = (inputValue, selectionStart, replacement) => {
+  let match;
+  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
+  while ((match = regex.exec(inputValue)) !== null) {
+    const innerText = match[1];
+    const startIndex = match.index + 2;
+    const endIndex = startIndex + innerText.length - 1;
+    const index = selectionStart - 1;
+    if (innerText === "" && index === startIndex - 1) {
+      return inputValue.slice(0, startIndex) + replacement + inputValue.slice(endIndex + 1);
+    }
+    if (index >= startIndex && index <= endIndex) {
+      return inputValue.slice(0, startIndex) + replacement + inputValue.slice(endIndex + 1);
+    }
+  }
+  return inputValue;
+};
+var getFilterValue = (inputValue, selectionStart) => {
+  let match;
+  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
+  while ((match = regex.exec(inputValue)) !== null) {
+    const innerText = match[1];
+    const startIndex = match.index + 2;
+    const endIndex = startIndex + innerText.length - 1;
+    const index = selectionStart - 1;
+    if (innerText === "" && index === startIndex - 1) {
+      return innerText;
+    }
+    if (index >= startIndex && index <= endIndex) {
+      return innerText;
+    }
+  }
+  return null;
+};
+var addClosingBracket = (value, selectionStart) => {
+  const char = value[selectionStart - 1];
+  if (char === "[")
+    value = value + "]";
+  return value;
+};
+var removeClosingBracket = (previousValue, value, selectionStart) => {
+  const previousChar = previousValue[selectionStart];
+  const nextChar = value[selectionStart];
+  if (previousChar === "[" && nextChar === "]") {
+    const updatedValue = value.slice(0, selectionStart) + value.slice(selectionStart + 1);
+    value = updatedValue;
+  }
+  return value;
+};
+var filterUniqueStrings = (arr) => {
+  const frequencyMap = /* @__PURE__ */ new Map();
+  arr.forEach((string) => {
+    frequencyMap.set(string, (frequencyMap.get(string) || 0) + 1);
+  });
+  const uniqueStrings = [];
+  for (const string of frequencyMap.keys()) {
+    if (frequencyMap.get(string) === 1) {
+      uniqueStrings.push(string);
+    }
+  }
+  return uniqueStrings;
+};
+
+// src/react/shared/suggest-menu/suggest-menu-content.tsx
+function SuggestMenuContent({
+  showInput,
+  filterValue,
+  onItemClick
+}) {
+  const [localFilterValue, setLocalFilterValue] = import_react53.default.useState(
+    filterValue != null ? filterValue : ""
+  );
+  const highlightItemRef = import_react53.default.useRef(null);
+  const [highlightIndex, setHighlightIndex] = import_react53.default.useState(-1);
+  const files = app.vault.getFiles();
+  let filteredFiles = [];
+  if (localFilterValue !== "") {
+    const results = import_fuzzysort.default.go(localFilterValue, files, {
+      key: "path",
+      limit: 20
+    });
+    filteredFiles = results.map((result) => result.obj);
+  } else {
+    filteredFiles = files;
+    filteredFiles.sort((a2, b2) => b2.stat.mtime - a2.stat.mtime);
+    filteredFiles = filteredFiles.slice(0, 20);
+  }
+  import_react53.default.useEffect(() => {
+    setLocalFilterValue(filterValue != null ? filterValue : "");
+  }, [filterValue]);
+  const isMountedRef = import_react53.default.useRef(false);
+  import_react53.default.useEffect(() => {
+    if (!isMountedRef.current) {
+      isMountedRef.current = true;
+    } else {
+      setHighlightIndex(0);
+    }
+  }, [localFilterValue]);
+  import_react53.default.useEffect(() => {
+    if (highlightItemRef.current) {
+      highlightItemRef.current.scrollIntoView({
+        behavior: "auto",
+        block: "nearest"
+      });
+    }
+  }, [highlightIndex]);
+  import_react53.default.useEffect(() => {
+    function handleKeyDown(e) {
+      if (e.key === "ArrowUp") {
+        e.preventDefault();
+        setHighlightIndex((prevIndex) => {
+          const newIndex = Math.max(prevIndex - 1, 0);
+          return newIndex;
+        });
+      } else if (e.key === "ArrowDown") {
+        e.preventDefault();
+        setHighlightIndex((prevIndex) => {
+          const newIndex = Math.min(
+            prevIndex + 1,
+            filteredFiles.length - 1
+          );
+          return newIndex;
+        });
+      }
+    }
+    eventSystem.addEventListener("keydown", handleKeyDown);
+    return () => eventSystem.removeEventListener("keydown", handleKeyDown);
+  }, [filteredFiles.length]);
+  const fileNames = filteredFiles.map((file) => file.name);
+  const uniqueFileNames = filterUniqueStrings(fileNames);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+    className: "NLT__suggest-menu",
+    children: [
+      showInput && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+        css: import_emotion_react_cjs.css`
+						background-color: var(--background-secondary);
+						border-bottom: 1px solid var(--table-border-color);
+						padding: 4px 10px;
+					`,
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+          css: import_emotion_react_cjs.css`
+							background-color: transparent !important;
+							border: 0 !important;
+							box-shadow: none !important;
+							width: 100%;
+							padding-left: 5px !important;
+							padding-right: 5px !important;
+						`,
+          autoFocus: true,
+          value: localFilterValue,
+          onChange: (e) => setLocalFilterValue(e.target.value)
+        })
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+        css: import_emotion_react_cjs.css`
+					max-height: 175px;
+					overflow-y: auto;
+				`,
+        children: [
+          filteredFiles.length === 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_item_default, {
+            file: null,
+            ref: null,
+            isHighlighted: true,
+            isFileNameUnique: false,
+            onItemClick
+          }),
+          filteredFiles.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+            children: filteredFiles.map((file, index) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_item_default, {
+              ref: highlightIndex === index ? highlightItemRef : null,
+              file,
+              isHighlighted: index === highlightIndex,
+              isFileNameUnique: uniqueFileNames.includes(
+                file.name
+              ),
+              onItemClick
+            }, file.path))
+          })
+        ]
+      })
+    ]
+  });
+}
+
+// src/react/shared/suggest-menu/suggest-menu.tsx
+var SuggestMenu = import_react55.default.forwardRef(
+  function SuggestMenu2({ id: id2, isOpen, top, left, filterValue, onItemClick }, ref) {
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
+      id: id2,
+      isOpen,
+      top,
+      left,
+      ref,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestMenuContent, {
+        filterValue,
+        onItemClick
+      })
+    });
+  }
+);
+var suggest_menu_default = SuggestMenu;
+
+// src/shared/link/link-utils.ts
+var getBasename = (filePath) => {
+  const fileName = stripDirectory(filePath);
+  return stripFileExtension(fileName);
+};
+var stripFileExtension = (filePath) => {
+  return filePath.substring(0, filePath.lastIndexOf("."));
+};
+var stripDirectory = (filePath) => {
+  return filePath.substring(filePath.lastIndexOf("/") + 1);
+};
+var isMarkdownFile = (extension) => {
+  return extension === "md";
+};
+var getWikiLinkText = (fileInfo, isFileNameUnique) => {
+  const { basename, name, path, extension } = fileInfo;
+  let text = basename;
+  if (!isMarkdownFile(extension)) {
+    text = name;
+    if (!isFileNameUnique)
+      text = `${path}|${basename}`;
+  } else {
+    const pathWithoutExtension = stripFileExtension(path);
+    if (!isFileNameUnique)
+      text = `${pathWithoutExtension}|${basename}`;
+  }
+  return text;
+};
+
+// src/react/table-app/text-cell-edit/index.tsx
+function TextCellEdit({
+  shouldWrapOverflow,
+  menuCloseRequest,
+  value,
+  onChange,
+  onMenuClose
+}) {
+  var _a;
+  const { menu, isMenuOpen, menuRef, openMenu, closeAllMenus, closeTopMenu } = useMenu(1 /* TWO */);
+  const { triggerRef, triggerPosition } = useMenuTriggerPosition();
+  useShiftMenu(triggerRef, menuRef, isMenuOpen, {
+    topOffset: 35
+  });
+  const [localValue, setLocalValue] = import_react56.default.useState(value);
+  const inputRef = import_react56.default.useRef(null);
+  const { setPreviousSelectionStart, previousSelectionStart } = useInputSelection(inputRef, localValue);
+  const previousValue = import_react56.default.useRef("");
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react56.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      onChange(localValue);
+      onMenuClose();
+    }
+  }, [
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
+  function handleKeyDown(e) {
+    const el = e.target;
+    if (e.key === "Enter") {
+      if (isSpecialActionDown(e))
+        return;
+      e.preventDefault();
+    } else if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+      const cursorPosition = el.selectionStart;
+      if (isMenuOpen) {
+        if (!isSurroundedByDoubleBrackets(value, cursorPosition))
+          closeTopMenu();
+      }
+      setPreviousSelectionStart(cursorPosition);
+    }
+  }
+  function handleTextareaChange(e) {
+    const inputValue = e.target.value;
+    let newValue = inputValue;
+    if (inputRef.current) {
+      const inputEl = inputRef.current;
+      if (inputValue.length > previousValue.current.length) {
+        newValue = addClosingBracket(newValue, inputEl.selectionStart);
+      } else {
+        newValue = removeClosingBracket(
+          previousValue.current,
+          inputValue,
+          inputEl.selectionStart
+        );
+      }
+      if (isSurroundedByDoubleBrackets(newValue, inputEl.selectionStart)) {
+        if (!isMenuOpen) {
+          openMenu(menu);
+        }
+      }
+      if (inputEl.selectionStart)
+        setPreviousSelectionStart(inputEl.selectionStart);
+    }
+    previousValue.current = newValue;
+    setLocalValue(newValue);
+  }
+  function handleSuggestItemClick(file, isFileNameUnique) {
+    if (file) {
+      const fileName = getWikiLinkText(file, isFileNameUnique);
+      const newValue = doubleBracketsInnerReplace(
+        localValue,
+        previousSelectionStart,
+        fileName
+      );
+      onChange(newValue);
+    }
+    closeAllMenus();
+  }
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  const filterValue = (_a = getFilterValue(localValue, previousSelectionStart)) != null ? _a : "";
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+        className: "NLT__text-cell-edit",
+        ref: triggerRef,
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
+          autoFocus: true,
+          css: overflowStyle,
+          ref: inputRef,
+          value: localValue,
+          onKeyDown: handleKeyDown,
+          onChange: handleTextareaChange
+        })
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_menu_default, {
+        id: menu.id,
+        ref: menuRef,
+        isOpen: isMenuOpen,
+        top: triggerPosition.top,
+        left: triggerPosition.left,
+        filterValue,
+        onItemClick: handleSuggestItemClick
+      })
+    ]
   });
 }
 
 // src/react/table-app/tag-cell-edit/index.tsx
-var import_react49 = __toESM(require_react());
+var import_react63 = __toESM(require_react());
 
 // src/react/table-app/tag-cell-edit/menu-header.tsx
-var import_react44 = __toESM(require_react());
+var import_react58 = __toESM(require_react());
 function MenuHeader({
   cellTags,
   inputValue,
   onInputValueChange,
   onRemoveTag
 }) {
-  const inputRef = import_react44.default.useRef(null);
+  const inputRef = import_react58.default.useRef(null);
   function handleInputChange(value) {
-    if (value.match(/^\s+$/))
+    if (value.match(/^\s/))
       return;
     onInputValueChange(value);
   }
-  const tableBackgroundColor = getTableBackgroundColor();
-  const tableBorderColor2 = getTableBorderColor();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     css: import_emotion_react_cjs.css`
-				background-color: ${tableBackgroundColor};
-				border-bottom: 1px solid ${tableBorderColor2};
+				background-color: var(--background-secondary);
+				border-bottom: 1px solid var(--table-border-color);
 				padding: 4px 10px;
 			`,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
@@ -48493,7 +50438,7 @@ function CreateTag({ markdown, color, onTagAdd }) {
 }
 
 // src/react/table-app/tag-color-menu/index.tsx
-var import_react46 = __toESM(require_react());
+var import_react60 = __toESM(require_react());
 
 // src/shared/stringUtils.ts
 var uppercaseFirst = (input) => {
@@ -48530,7 +50475,7 @@ function ColorItem({
 }
 
 // src/react/table-app/tag-color-menu/index.tsx
-var TagColorMenu = import_react46.default.forwardRef(
+var TagColorMenu = import_react60.default.forwardRef(
   function TagColorMenu2({
     menuId,
     isOpen,
@@ -48597,8 +50542,8 @@ function SelectableTag({
   const { triggerRef, triggerPosition } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen, {
     openDirection: "right",
-    leftOffset: 25,
-    topOffset: -50
+    leftOffset: -55,
+    topOffset: -100
   });
   function handleColorChange(color2) {
     onColorChange(id2, color2);
@@ -48710,7 +50655,7 @@ function MenuBody({
 function TagCellEdit({
   columnTags,
   cellTags,
-  menuCloseRequestTime,
+  menuCloseRequest,
   onTagClick,
   onTagAdd,
   onTagColorChange,
@@ -48718,25 +50663,39 @@ function TagCellEdit({
   onRemoveTag,
   onMenuClose
 }) {
-  const [inputValue, setInputValue] = import_react49.default.useState("");
-  const [newTagColor] = import_react49.default.useState(randomColor());
-  function handleTagAdd(markdown, color) {
-    onTagAdd(markdown, color);
-    setInputValue("");
-  }
-  const hasCloseRequestTimeChange = useCompare(menuCloseRequestTime);
-  import_react49.default.useEffect(() => {
-    if (hasCloseRequestTimeChange && menuCloseRequestTime !== null) {
-      const shouldAddTag = columnTags.find((tag) => tag.markdown === inputValue) === void 0;
-      if (shouldAddTag)
-        handleTagAdd(inputValue, newTagColor);
+  const [inputValue, setInputValue] = import_react63.default.useState("");
+  const [newTagColor, setNewTagColor] = import_react63.default.useState(randomColor());
+  const handleTagAdd = import_react63.default.useCallback(
+    (markdown, color) => {
+      onTagAdd(markdown, color);
+      setInputValue("");
+      setNewTagColor(randomColor());
+    },
+    [onTagAdd]
+  );
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react63.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      if (menuCloseRequest.type === "enter") {
+        const shouldAddTag = columnTags.find((tag) => tag.markdown === inputValue) === void 0;
+        if (shouldAddTag)
+          handleTagAdd(inputValue, newTagColor);
+      }
       onMenuClose();
     }
-  }, [columnTags, inputValue, newTagColor, hasCloseRequestTimeChange]);
+  }, [
+    handleTagAdd,
+    columnTags,
+    inputValue,
+    newTagColor,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose
+  ]);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    css: import_emotion_react_cjs.css`
-				background-color: var(--background-primary);
-			`,
+    className: "NLT__tag-cell-edit",
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuHeader, {
         inputValue,
@@ -48758,11 +50717,11 @@ function TagCellEdit({
 }
 
 // src/react/table-app/date-cell-edit/index.tsx
-var import_react52 = __toESM(require_react());
+var import_react65 = __toESM(require_react());
 
 // src/react/table-app/date-cell-edit/components/DateFormatMenu/index.tsx
-var import_react51 = __toESM(require_react());
-var DateFormatMenu = import_react51.default.forwardRef(
+var import_react64 = __toESM(require_react());
+var DateFormatMenu = import_react64.default.forwardRef(
   function DateFormatMenu2({ id: id2, top, left, isOpen, value, onChange }, ref) {
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
       ref,
@@ -48791,7 +50750,7 @@ var DateFormatMenu_default = DateFormatMenu;
 // src/react/table-app/date-cell-edit/index.tsx
 function DateCellEdit({
   value,
-  menuCloseRequestTime,
+  menuCloseRequest,
   dateFormat,
   onDateTimeChange,
   onMenuClose,
@@ -48806,40 +50765,54 @@ function DateCellEdit({
     topOffset: 35,
     leftOffset: -50
   });
-  const [localValue, setLocalValue] = (0, import_react52.useState)(
+  const [localValue, setLocalValue] = import_react65.default.useState(
     value === null ? "" : unixTimeToDateString(value, dateFormat)
   );
-  const [isInputInvalid, setInputInvalid] = (0, import_react52.useState)(false);
-  const [closeTime, setCloseTime] = (0, import_react52.useState)(0);
-  const inputRef = import_react52.default.useRef(null);
-  (0, import_react52.useEffect)(() => {
+  const [isInputInvalid, setInputInvalid] = import_react65.default.useState(false);
+  const [closeTime, setCloseTime] = import_react65.default.useState(0);
+  const inputRef = import_react65.default.useRef(null);
+  import_react65.default.useEffect(() => {
     setLocalValue(
       value === null ? "" : unixTimeToDateString(value, dateFormat)
     );
   }, [value, dateFormat]);
-  const hasCloseRequestTimeChange = useCompare(menuCloseRequestTime);
-  (0, import_react52.useEffect)(() => {
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react65.default.useEffect(() => {
     function validateInput() {
-      let value2 = null;
+      let newValue = null;
       if (localValue !== "") {
-        if (!isValidDateFormat(localValue, dateFormat)) {
-          setInputInvalid(true);
-          return;
+        if (isValidDateFormat(localValue, dateFormat)) {
+          newValue = dateStringToUnixTime(localValue, dateFormat);
+        } else {
+          if ((menuCloseRequest == null ? void 0 : menuCloseRequest.type) === "enter") {
+            setInputInvalid(true);
+            return;
+          }
+          newValue = value;
         }
-        value2 = dateStringToUnixTime(localValue, dateFormat);
       }
       setInputInvalid(false);
-      onDateTimeChange(value2);
+      onDateTimeChange(newValue);
       setCloseTime(Date.now());
     }
-    if (hasCloseRequestTimeChange && menuCloseRequestTime !== null)
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null)
       validateInput();
-  }, [hasCloseRequestTimeChange, localValue, menuCloseRequestTime]);
-  (0, import_react52.useEffect)(() => {
+  }, [
+    value,
+    hasCloseRequestTimeChanged,
+    localValue,
+    menuCloseRequest,
+    dateFormat,
+    onDateTimeChange,
+    onMenuClose
+  ]);
+  import_react65.default.useEffect(() => {
     if (closeTime !== 0) {
       onMenuClose();
     }
-  }, [closeTime]);
+  }, [closeTime, onMenuClose]);
   function handleDateFormatChange(value2) {
     onDateFormatChange(value2);
     closeTopMenu();
@@ -48848,8 +50821,6 @@ function DateCellEdit({
     onDateTimeChange(null);
     onMenuClose();
   }
-  const tableBackgroundColor = getTableBackgroundColor();
-  const tableBorderColor2 = getTableBorderColor();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
@@ -48866,9 +50837,9 @@ function DateCellEdit({
                 css: import_emotion_react_cjs.css`
 								width: 100%;
 								height: 100%;
-								border: 1px solid ${tableBorderColor2};
+								border: 1px solid var(--table-border-color);
 								padding: 5px;
-								background-color: ${tableBackgroundColor};
+								background-color: var(--background-secondary);
 							`,
                 ref: inputRef,
                 "aria-invalid": isInputInvalid,
@@ -48907,10 +50878,10 @@ function DateCellEdit({
 
 // src/react/table-app/multi-tag-cell/index.tsx
 function MultiTagCell({ cellTags, shouldWrapOverflow }) {
-  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
-  const className = "NLT__multi-tag-cell " + overflowClassName;
+  const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className,
+    className: "NLT__multi-tag-cell",
+    css: overflowStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Wrap, {
       children: cellTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
         markdown: tag.markdown,
@@ -48926,10 +50897,10 @@ function LastEditedTimeCell({
   format,
   shouldWrapOverflow
 }) {
-  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
-  const className = "NLT__last-edited-time-cell " + overflowClassName;
+  const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className,
+    className: "NLT__last-edited-time-cell",
+    css: overflowStyle,
     children: unixTimeToDateTimeString(value, format)
   });
 }
@@ -48940,10 +50911,10 @@ function CreationTimeCell({
   format,
   shouldWrapOverflow
 }) {
-  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
-  const className = "NLT__creation-time-cell " + overflowClassName;
+  const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className,
+    className: "NLT__creation-time-cell",
+    css: overflowStyle,
     children: unixTimeToDateTimeString(value, format)
   });
 }
@@ -48954,22 +50925,44 @@ function CurrencyCell({
   currencyType,
   shouldWrapOverflow
 }) {
-  const overflowClassName = useOverflowClassName(shouldWrapOverflow);
-  let valueString = "";
-  if (isNumber(value))
-    valueString = stringToCurrencyString(value, currencyType);
-  const className = "NLT__currency-cell " + overflowClassName;
+  const content = getCurrencyCellContent(value, currencyType);
+  const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className,
-    children: valueString
+    className: "NLT__currency-cell",
+    css: overflowStyle,
+    children: content
   });
 }
 
 // src/react/table-app/currency-cell-edit/index.tsx
-var import_react54 = __toESM(require_react());
-function CurrencyCellEdit({ value, onChange }) {
-  const inputRef = import_react54.default.useRef(null);
-  const { setPreviousSelectionStart } = useInputSelection(inputRef, value);
+var import_react67 = __toESM(require_react());
+function CurrencyCellEdit({
+  value,
+  menuCloseRequest,
+  onChange,
+  onMenuClose
+}) {
+  const [localValue, setLocalValue] = import_react67.default.useState(value);
+  const inputRef = import_react67.default.useRef(null);
+  const { setPreviousSelectionStart } = useInputSelection(
+    inputRef,
+    localValue
+  );
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react67.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      onChange(localValue);
+      onMenuClose();
+    }
+  }, [
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
   function handleChange(inputValue, setSelectionToLength = false) {
     if (!isValidNumberInput(inputValue))
       return;
@@ -48980,7 +50973,7 @@ function CurrencyCellEdit({ value, onChange }) {
         setPreviousSelectionStart(inputRef.current.selectionStart);
       }
     }
-    onChange(inputValue);
+    setLocalValue(inputValue);
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     className: "NLT__currency-cell-edit",
@@ -48989,14 +50982,169 @@ function CurrencyCellEdit({ value, onChange }) {
       ref: inputRef,
       type: "text",
       inputMode: "numeric",
-      value,
+      value: localValue,
       onChange: (e) => handleChange(e.target.value)
     })
   });
 }
 
+// src/react/table-app/file-cell/index.tsx
+function FileCell({ markdown, shouldWrapOverflow }) {
+  const { containerRef, markdownRef, appendOrReplaceFirstChild: appendOrReplaceFirstChild2 } = useRenderMarkdown(markdown, shouldWrapOverflow);
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "NLT__file-cell",
+    css: overflowStyle,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      css: import_emotion_react_cjs.css`
+					p {
+						margin: 0;
+						text-align: left;
+					}
+				`,
+      ref: (node) => {
+        containerRef.current = node;
+        appendOrReplaceFirstChild2(node, markdownRef.current);
+      }
+    })
+  });
+}
+
+// src/react/table-app/file-cell-edit/index.tsx
+function FileCellEdit({ onChange, onMenuClose }) {
+  function handleSuggestItemClick(file, isFileNameUnique) {
+    if (file) {
+      let fileName = file.basename;
+      if (file.extension !== "md")
+        fileName = file.name;
+      if (!isFileNameUnique)
+        fileName = `${file.path}|${fileName}`;
+      onChange(`[[${fileName}]]`);
+    }
+    onMenuClose();
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "NLT__file-cell-edit",
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestMenuContent, {
+      showInput: true,
+      onItemClick: handleSuggestItemClick
+    })
+  });
+}
+
+// src/react/table-app/embed-cell/index.tsx
+function EmbedCell({ markdown }) {
+  let externalLinkMarkdown = "";
+  let isValidURL = false;
+  if (markdown !== "") {
+    if (isURL(markdown)) {
+      isValidURL = true;
+      externalLinkMarkdown = getEmbedContent(markdown);
+    } else {
+      externalLinkMarkdown = "Invalid URL";
+    }
+  }
+  const { containerRef, markdownRef, appendOrReplaceFirstChild: appendOrReplaceFirstChild2 } = useRenderMarkdown(externalLinkMarkdown, false);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "NLT__embed-cell",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 100%;
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      css: import_emotion_react_cjs.css`
+					width: 100%;
+					aspect-ratio: ${isValidURL ? "16/9" : "unset"};
+
+					iframe {
+						width: 100%;
+						height: 100%;
+					}
+
+					p {
+						width: 100%;
+						height: 100%;
+						margin: 0px;
+					}
+				`,
+      ref: (node) => {
+        containerRef.current = node;
+        appendOrReplaceFirstChild2(node, markdownRef.current);
+      }
+    })
+  });
+}
+
+// src/react/table-app/embed-cell-edit/index.tsx
+var import_react70 = __toESM(require_react());
+var textAreaStyle = import_emotion_react_cjs.css`
+	width: 100%;
+	height: 100%;
+	border: 0 !important;
+	overflow: hidden;
+	padding: var(--nlt-cell-spacing-x) var(--nlt-cell-spacing-y);
+	resize: none;
+	font-size: var(--font-ui-medium) !important;
+`;
+function EmbedCellEdit({
+  shouldWrapOverflow,
+  menuCloseRequest,
+  value,
+  onChange,
+  onMenuClose
+}) {
+  const [localValue, setLocalValue] = import_react70.default.useState(value);
+  const inputRef = import_react70.default.useRef(null);
+  const { setPreviousSelectionStart } = useInputSelection(
+    inputRef,
+    localValue
+  );
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react70.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      onChange(localValue);
+      onMenuClose();
+    }
+  }, [
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
+  function handleTextareaChange(e) {
+    const inputValue = e.target.value;
+    if (inputRef.current) {
+      const inputEl = inputRef.current;
+      if (inputEl.selectionStart)
+        setPreviousSelectionStart(inputEl.selectionStart);
+    }
+    setLocalValue(inputValue);
+  }
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "NLT__embed-cell-edit",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 100%;
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
+      autoFocus: true,
+      css: import_emotion_react_cjs.css`
+					${textAreaStyle}
+					${overflowStyle}
+				`,
+      ref: inputRef,
+      value: localValue,
+      onChange: handleTextareaChange
+    })
+  });
+}
+
 // src/react/table-app/body-cell/index.tsx
-function BodyCell5({
+function BodyCell6({
   cellId,
   columnId,
   rowId,
@@ -49021,21 +51169,22 @@ function BodyCell5({
   onDateTimeChange,
   onTagAdd
 }) {
+  const shouldRequestOnClose = columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */;
   const {
     menu,
     isMenuOpen,
-    menuCloseRequestTime,
+    menuCloseRequest,
     menuRef,
     openMenu,
     closeTopMenu
   } = useMenu(0 /* ONE */, {
-    shouldRequestOnClose: columnType === "date" /* DATE */ || columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */
+    shouldRequestOnClose
   });
   const { triggerPosition, triggerRef } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen);
   const { doCommand } = useTableState();
-  const didIsMenuOpenChange = useCompare(isMenuOpen);
-  import_react55.default.useEffect(() => {
+  const didIsMenuOpenChange = useCompare(isMenuOpen, false);
+  import_react72.default.useEffect(() => {
     if (didIsMenuOpenChange) {
       if (!isMenuOpen) {
         doCommand(new RowSortCommand());
@@ -49061,7 +51210,7 @@ function BodyCell5({
     }
   }
   function handleBackspaceDown() {
-    if (columnType === "text" /* TEXT */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */) {
+    if (columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "file" /* FILE */) {
       onContentChange(cellId, rowId, "");
     } else if (columnType === "date" /* DATE */) {
       onDateTimeChange(cellId, rowId, null);
@@ -49076,21 +51225,27 @@ function BodyCell5({
       toggleCheckbox();
   }
   function handleMenuTriggerClick(e) {
+    if (columnType === "creation-time" /* CREATION_TIME */)
+      return;
+    if (columnType === "last-edited-time" /* LAST_EDITED_TIME */)
+      return;
     if (columnType === "checkbox" /* CHECKBOX */) {
       toggleCheckbox();
-    } else if (columnType !== "creation-time" /* CREATION_TIME */ && columnType !== "last-edited-time" /* LAST_EDITED_TIME */) {
-      const el = e.target;
-      if (el.nodeName === "A")
-        return;
-      openMenu(menu);
+      return;
     }
+    const el = e.target;
+    if (el.nodeName === "A")
+      return;
+    openMenu(menu);
   }
   function handleTagAdd(markdown2, color) {
+    if (markdown2 === "")
+      return;
     onTagAdd(
       cellId,
       columnId,
       rowId,
-      markdown2,
+      markdown2.trim(),
       color,
       columnType === "multi-tag" /* MULTI_TAG */
     );
@@ -49107,36 +51262,38 @@ function BodyCell5({
   function handleTagClick(tagId) {
     onTagClick(cellId, rowId, tagId, columnType === "multi-tag" /* MULTI_TAG */);
   }
-  function handleTextInputChange(value) {
-    onContentChange(cellId, rowId, value);
-  }
-  function handleNumberInputChange(value) {
-    onContentChange(cellId, rowId, value);
-  }
+  const handleInputChange = import_react72.default.useCallback(
+    (value) => {
+      onContentChange(cellId, rowId, value);
+    },
+    [cellId, rowId, onContentChange]
+  );
   function handleCheckboxChange(value) {
-    onContentChange(cellId, rowId, value);
-  }
-  function handleCurrencyChange(value) {
     onContentChange(cellId, rowId, value);
   }
   function handleDateFormatChange(value) {
     onDateFormatChange(columnId, value);
   }
-  function handleDateTimeChange(value) {
-    onDateTimeChange(cellId, rowId, value);
-  }
-  function handleMenuClose() {
+  const handleDateTimeChange = import_react72.default.useCallback(
+    (value) => {
+      onDateTimeChange(cellId, rowId, value);
+    },
+    [cellId, rowId, onDateTimeChange]
+  );
+  const handleMenuClose = import_react72.default.useCallback(() => {
     closeTopMenu();
-  }
+  }, [closeTopMenu]);
   const { width: measuredWidth, height: measuredHeight } = triggerPosition;
   let menuHeight = measuredHeight;
-  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */) {
+  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "file" /* FILE */) {
     menuHeight = 0;
   }
   let menuWidth = measuredWidth;
   if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
     menuWidth = 250;
-  } else if (columnType == "date" /* DATE */) {
+  } else if (columnType === "file" /* FILE */) {
+    menuWidth = 275;
+  } else if (columnType === "date" /* DATE */) {
     menuWidth = 175;
   }
   let className = "NLT__body-td-container";
@@ -49156,12 +51313,28 @@ function BodyCell5({
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
           ref: triggerRef,
           onContextMenu: handleCellContextClick,
+          css: import_emotion_react_cjs.css`
+						display: flex;
+						width: 100%;
+						height: 100%;
+						min-height: var(--nlt-cell-min-height);
+						padding: var(--nlt-cell-spacing-x)
+							var(--nlt-cell-spacing-y);
+						cursor: pointer;
+					`,
           className,
           style: {
             width
           },
           children: [
             columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TextCell, {
+              markdown,
+              shouldWrapOverflow
+            }),
+            columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbedCell, {
+              markdown
+            }),
+            columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FileCell, {
               markdown,
               shouldWrapOverflow
             }),
@@ -49188,8 +51361,7 @@ function BodyCell5({
               format: dateFormat
             }),
             columnType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CheckboxCell, {
-              value: markdown,
-              onCheckboxChange: handleCheckboxChange
+              value: markdown
             }),
             columnType === "creation-time" /* CREATION_TIME */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CreationTimeCell, {
               value: rowCreationTime,
@@ -49214,16 +51386,31 @@ function BodyCell5({
         height: menuHeight,
         children: [
           columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TextCellEdit, {
+            menuCloseRequest,
             shouldWrapOverflow,
             value: markdown,
-            onChange: handleTextInputChange
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose
+          }),
+          columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbedCellEdit, {
+            menuCloseRequest,
+            shouldWrapOverflow,
+            value: markdown,
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose
+          }),
+          columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FileCellEdit, {
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose
           }),
           columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NumberCellEdit, {
+            menuCloseRequest,
             value: markdown,
-            onChange: handleNumberInputChange
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose
           }),
           (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TagCellEdit, {
-            menuCloseRequestTime,
+            menuCloseRequest,
             columnTags,
             cellTags,
             onTagColorChange: handleTagColorChange,
@@ -49235,15 +51422,17 @@ function BodyCell5({
           }),
           columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DateCellEdit, {
             value: dateTime,
-            menuCloseRequestTime,
+            menuCloseRequest,
             dateFormat,
             onDateTimeChange: handleDateTimeChange,
             onDateFormatChange: handleDateFormatChange,
             onMenuClose: handleMenuClose
           }),
           columnType === "currency" /* CURRENCY */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CurrencyCellEdit, {
+            menuCloseRequest,
             value: markdown,
-            onChange: handleCurrencyChange
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose
           })
         ]
       })
@@ -49277,12 +51466,12 @@ function NewColumnButton({ onClick }) {
 }
 
 // src/react/table-app/header-cell/index.tsx
-var import_react61 = __toESM(require_react());
+var import_react80 = __toESM(require_react());
 
-// src/react/table-app/header-cell/components/HeaderMenu/index.tsx
-var import_react58 = __toESM(require_react());
+// src/react/table-app/header-cell-edit/index.tsx
+var import_react76 = __toESM(require_react());
 
-// src/react/table-app/header-cell/components/HeaderMenu/components/Submenu/index.tsx
+// src/react/table-app/header-cell-edit/submenu.tsx
 function Submenu({ title, children, onBackClick }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
@@ -49316,18 +51505,13 @@ function Submenu({ title, children, onBackClick }) {
   });
 }
 
-// src/react/table-app/header-cell/components/HeaderMenu/components/OptionSubmenu/index.tsx
+// src/react/table-app/header-cell-edit/option-submenu.tsx
 function OptionSubmenu({
-  columnId,
-  canDeleteColumn,
   type,
   currencyType,
   title,
   dateFormat,
-  shouldWrapOverflow,
-  onWrapOverflowToggle,
   onBackClick,
-  onDeleteClick,
   onSubmenuChange
 }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Submenu, {
@@ -49345,32 +51529,10 @@ function OptionSubmenu({
             value: getDisplayNameForCurrencyType(currencyType),
             onClick: () => onSubmenuChange(2 /* CURRENCY */)
           }),
-          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-            px: "lg",
-            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Flex, {
-              justify: "space-between",
-              children: [
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-                  value: "Wrap overflow"
-                }),
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
-                  isChecked: shouldWrapOverflow,
-                  onToggle: (value) => onWrapOverflowToggle(columnId, value)
-                })
-              ]
-            })
-          }),
           (type === "creation-time" /* CREATION_TIME */ || type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "date" /* DATE */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
             name: "Date format",
             value: getDisplayNameForDateFormat(dateFormat),
             onClick: () => onSubmenuChange(3 /* DATE_FORMAT */)
-          }),
-          canDeleteColumn && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-            px: "lg",
-            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
-              onClick: () => onDeleteClick(),
-              children: "Delete"
-            })
           })
         ]
       })
@@ -49383,6 +51545,10 @@ var getIconIdForCellType = (type) => {
   switch (type) {
     case "text" /* TEXT */:
       return "text";
+    case "embed" /* EMBED */:
+      return "link";
+    case "file" /* FILE */:
+      return "file";
     case "number" /* NUMBER */:
       return "hash";
     case "checkbox" /* CHECKBOX */:
@@ -49403,7 +51569,7 @@ var getIconIdForCellType = (type) => {
   }
 };
 
-// src/react/table-app/header-cell/components/HeaderMenu/components/TypeSubmenu/index.tsx
+// src/react/table-app/header-cell-edit/type-submenu.tsx
 function TypeSubmenu({
   title,
   value,
@@ -49422,18 +51588,22 @@ function TypeSubmenu({
   });
 }
 
-// src/react/table-app/header-cell/components/HeaderMenu/components/BaseMenu/index.tsx
-var import_react57 = __toESM(require_react());
+// src/react/table-app/header-cell-edit/base-menu.tsx
+var import_react75 = __toESM(require_react());
 function BaseMenu({
-  cellId,
+  shouldWrapOverflow,
   columnName,
+  columnId,
   columnType,
   columnSortDir,
-  onColumnNameChange,
+  canDeleteColumn,
   onSortClick,
-  onSubmenuChange
+  onSubmenuChange,
+  onWrapOverflowToggle,
+  onDeleteClick,
+  onColumnNameChange
 }) {
-  const inputRef = import_react57.default.useRef(null);
+  const inputRef = import_react75.default.useRef(null);
   const { setPreviousSelectionStart } = useInputSelection(
     inputRef,
     columnName
@@ -49446,10 +51616,9 @@ function BaseMenu({
         setPreviousSelectionStart(inputRef.current.selectionStart);
       }
     }
-    onColumnNameChange(cellId, inputValue);
+    onColumnNameChange(inputValue);
   }
-  const tableBackgroundColor = getTableBackgroundColor();
-  const tableBorderColor2 = getTableBorderColor();
+  const hasOptions = columnType === "date" /* DATE */ || columnType === "currency" /* CURRENCY */ || columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
     spacing: "sm",
     isVertical: true,
@@ -49464,8 +51633,8 @@ function BaseMenu({
             children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
               autoFocus: true,
               css: import_emotion_react_cjs.css`
-							background-color: ${tableBackgroundColor};
-							border: 1px solid ${tableBorderColor2};
+							background-color: var(--background-secondary);
+							border: 1px solid var(--table-border-color);
 							padding: 4px 10px;
 							font-size: 0.95rem;
 							width: 100%;
@@ -49483,7 +51652,7 @@ function BaseMenu({
               onSubmenuChange(0 /* TYPE */);
             }
           }),
-          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+          hasOptions && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
             lucideId: "settings",
             name: "Options",
             onClick: () => {
@@ -49504,12 +51673,40 @@ function BaseMenu({
         name: "Descending",
         onClick: () => onSortClick("desc" /* DESC */),
         isSelected: columnSortDir === "desc" /* DESC */
+      }),
+      canDeleteColumn && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+        children: [
+          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
+          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+            lucideId: "trash",
+            name: "Delete",
+            onClick: () => onDeleteClick()
+          })
+        ]
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+        px: "lg",
+        py: "md",
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Flex, {
+          justify: "space-between",
+          align: "center",
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+              value: "Wrap overflow"
+            }),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
+              isChecked: shouldWrapOverflow,
+              onToggle: (value) => onWrapOverflowToggle(columnId, value)
+            })
+          ]
+        })
       })
     ]
   });
 }
 
-// src/react/table-app/header-cell/components/HeaderMenu/components/CurrencySubmenu/index.tsx
+// src/react/table-app/header-cell-edit/currency-submenu.tsx
 function CurrencySubmenu({
   title,
   value,
@@ -49527,7 +51724,7 @@ function CurrencySubmenu({
   });
 }
 
-// src/react/table-app/header-cell/components/HeaderMenu/components/DateFormatSubmenu/index.tsx
+// src/react/table-app/header-cell-edit/date-format-submenu.tsx
 function DateFormatSubmenu({
   title,
   value,
@@ -49545,8 +51742,8 @@ function DateFormatSubmenu({
   });
 }
 
-// src/react/table-app/header-cell/components/HeaderMenu/index.tsx
-var HeaderMenu = import_react58.default.forwardRef(function HeaderMenu2({
+// src/react/table-app/header-cell-edit/index.tsx
+var HeaderMenu = import_react76.default.forwardRef(function HeaderMenu2({
   isOpen,
   id: id2,
   top,
@@ -49559,29 +51756,49 @@ var HeaderMenu = import_react58.default.forwardRef(function HeaderMenu2({
   columnType,
   columnSortDir,
   columnId,
+  menuCloseRequest,
   shouldWrapOverflow,
   onTypeSelect,
   onSortClick,
   onDeleteClick,
-  onClose,
+  onMenuClose,
   onWrapOverflowToggle,
   onNameChange,
   onCurrencyChange,
   onDateFormatChange
 }, ref) {
-  const [submenu, setSubmenu] = (0, import_react58.useState)(null);
+  const [submenu, setSubmenu] = (0, import_react76.useState)(null);
+  const [localValue, setLocalValue] = (0, import_react76.useState)(markdown);
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react76.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      if (submenu === null)
+        onNameChange(cellId, localValue);
+      onMenuClose();
+    }
+  }, [
+    cellId,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    submenu,
+    localValue,
+    onNameChange,
+    onMenuClose
+  ]);
   function handleSortClick(sortDir) {
     onSortClick(columnId, sortDir);
-    onClose();
+    onMenuClose();
   }
   function handleTypeClick(type) {
     onTypeSelect(columnId, type);
-    onClose();
+    onMenuClose();
     setSubmenu(null);
   }
   function handleDeleteClick() {
     onDeleteClick(columnId);
-    onClose();
+    onMenuClose();
     setSubmenu(null);
   }
   function handleCurrencyClick(value) {
@@ -49601,28 +51818,32 @@ var HeaderMenu = import_react58.default.forwardRef(function HeaderMenu2({
     width: 175,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
       className: "NLT__header-menu",
+      css: import_emotion_react_cjs.css`
+					color: var(--text-normal);
+				`,
       children: [
         submenu === null && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(BaseMenu, {
+          canDeleteColumn,
           cellId,
-          columnName: markdown,
+          shouldWrapOverflow,
+          columnId,
+          columnName: localValue,
           columnType,
+          menuCloseRequest,
           columnSortDir,
-          onColumnNameChange: onNameChange,
+          onColumnNameChange: setLocalValue,
           onSortClick: handleSortClick,
-          onSubmenuChange: setSubmenu
+          onSubmenuChange: setSubmenu,
+          onWrapOverflowToggle,
+          onDeleteClick: handleDeleteClick
         }),
         submenu === 1 /* OPTIONS */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(OptionSubmenu, {
-          canDeleteColumn,
           title: "Options",
           type: columnType,
-          columnId,
           dateFormat,
           currencyType,
-          shouldWrapOverflow,
           onBackClick: () => setSubmenu(null),
-          onWrapOverflowToggle,
-          onSubmenuChange: setSubmenu,
-          onDeleteClick: handleDeleteClick
+          onSubmenuChange: setSubmenu
         }),
         submenu === 0 /* TYPE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TypeSubmenu, {
           title: "Type",
@@ -49646,13 +51867,13 @@ var HeaderMenu = import_react58.default.forwardRef(function HeaderMenu2({
     })
   });
 });
-var HeaderMenu_default = HeaderMenu;
+var header_cell_edit_default = HeaderMenu;
 
 // src/react/table-app/header-cell/use-column-resize.ts
-var import_react59 = __toESM(require_react());
+var import_react78 = __toESM(require_react());
 var useColumnResize = (columnId, onMove) => {
-  const mouseDownX = (0, import_react59.useRef)(0);
-  const dispatch = useAppDispatch();
+  const { setResizingColumnId } = useTableState();
+  const mouseDownX = (0, import_react78.useRef)(0);
   function handleMouseMove(e) {
     const dist = e.pageX - mouseDownX.current;
     onMove(dist);
@@ -49666,24 +51887,23 @@ var useColumnResize = (columnId, onMove) => {
     document.removeEventListener("mousemove", handleMouseMove);
     document.removeEventListener("mouseup", handleMouseUp);
     setTimeout(() => {
-      dispatch(setResizingColumnId(null));
+      setResizingColumnId(null);
     }, 100);
   }
   function handleTouchEnd() {
     document.removeEventListener("touchmove", handleTouchMove);
     document.removeEventListener("touchend", handleTouchEnd);
     setTimeout(() => {
-      dispatch(setResizingColumnId(null));
+      setResizingColumnId(null);
     }, 100);
   }
   function handleTouchStart(e) {
     if (e.detail >= 2)
       return;
-    e.preventDefault();
     document.addEventListener("touchmove", handleTouchMove);
     document.addEventListener("touchend", handleTouchEnd);
     mouseDownX.current = e.touches[0].pageX;
-    dispatch(setResizingColumnId(columnId));
+    setResizingColumnId(columnId);
   }
   function handleMouseDown(e) {
     if (e.detail >= 2)
@@ -49692,7 +51912,7 @@ var useColumnResize = (columnId, onMove) => {
     document.addEventListener("mousemove", handleMouseMove);
     document.addEventListener("mouseup", handleMouseUp);
     mouseDownX.current = e.pageX;
-    dispatch(setResizingColumnId(columnId));
+    setResizingColumnId(columnId);
   }
   return { handleMouseDown, handleTouchStart };
 };
@@ -49734,7 +51954,7 @@ function ResizeContainer({
       onWidthChange(columnId, numToPx(newWidth));
     }
   );
-  const isDragging = columnId == currentResizingId;
+  const isDragging = columnId === currentResizingId;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     css: containerStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
@@ -49763,6 +51983,7 @@ function HeaderCell2({
   dateFormat,
   markdown,
   shouldWrapOverflow,
+  resizingColumnId,
   type,
   sortDir,
   numColumns,
@@ -49775,28 +51996,39 @@ function HeaderCell2({
   onCurrencyChange,
   onDateFormatChange
 }) {
-  const { menu, isMenuOpen, closeTopMenu, menuRef, openMenu } = useMenu(
-    0 /* ONE */
-  );
+  const {
+    menu,
+    isMenuOpen,
+    closeTopMenu,
+    menuRef,
+    openMenu,
+    menuCloseRequest
+  } = useMenu(0 /* ONE */, { shouldRequestOnClose: true });
   const { triggerPosition, triggerRef } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen);
-  const { resizingColumnId } = useAppSelector((state) => state.global);
   const [forceUpdateTime, forceUpdate] = useForceUpdate();
-  import_react61.default.useEffect(() => {
+  import_react80.default.useEffect(() => {
     if (width === "unset")
       forceUpdate();
   }, [width, forceUpdate]);
-  const shouldUpdateWidth = useCompare(forceUpdateTime);
-  import_react61.default.useEffect(() => {
+  const shouldUpdateWidth = useCompare(forceUpdateTime, false);
+  import_react80.default.useEffect(() => {
     if (shouldUpdateWidth) {
       const newWidth = numToPx(triggerPosition.width);
       onWidthChange(columnId, newWidth);
     }
-  }, [shouldUpdateWidth, triggerPosition]);
+  }, [columnId, shouldUpdateWidth, triggerPosition]);
   function handleMenuTriggerClick() {
     if (resizingColumnId !== null)
       return;
-    openMenu(menu);
+    if (isMenuOpen) {
+      closeTopMenu();
+    } else {
+      openMenu(menu);
+    }
+  }
+  function handleMenuClose() {
+    closeTopMenu();
   }
   const lucideId = getIconIdForCellType(type);
   let contentClassName = "NLT__th-content";
@@ -49806,6 +52038,7 @@ function HeaderCell2({
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
         menuId: menu.id,
+        shouldMenuRequestOnClose: menu.shouldRequestOnClose,
         onClick: handleMenuTriggerClick,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
           className: "NLT__th-container",
@@ -49848,13 +52081,14 @@ function HeaderCell2({
               columnId,
               width,
               onWidthChange,
-              onMenuClose: () => closeTopMenu(false)
+              onMenuClose: () => closeTopMenu({ shouldFocusTrigger: false })
             })
           ]
         })
       }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(HeaderMenu_default, {
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(header_cell_edit_default, {
         isOpen: isMenuOpen,
+        menuCloseRequest,
         top: triggerPosition.top,
         left: triggerPosition.left,
         id: menu.id,
@@ -49873,7 +52107,7 @@ function HeaderCell2({
         onSortClick,
         onTypeSelect,
         onDeleteClick,
-        onClose: () => closeTopMenu(),
+        onMenuClose: handleMenuClose,
         onWrapOverflowToggle,
         onNameChange,
         onCurrencyChange,
@@ -49884,10 +52118,11 @@ function HeaderCell2({
 }
 
 // src/data/constants.ts
-var CURRENT_PLUGIN_VERSION = "6.10.2";
+var CURRENT_PLUGIN_VERSION = "6.16.0";
 var DEFAULT_TABLE_NAME = "Untitled";
 var TABLE_EXTENSION = "table";
-var EXTENSION_REGEX = new RegExp("\\.[a-z]*$");
+var EXTENSION_REGEX = new RegExp(/\.[a-z]*$/);
+var WIKI_LINK_REGEX = new RegExp(/\[\[([^|\]]+)(?:\|([\w-]+))?\]\]/g);
 
 // src/data/table-state-factory.ts
 var createColumn = (options) => {
@@ -49901,7 +52136,8 @@ var createColumn = (options) => {
     currencyType: "USD" /* UNITED_STATES */,
     dateFormat: "mm/dd/yyyy" /* MM_DD_YYYY */,
     shouldWrapOverflow: false,
-    tags: []
+    tags: [],
+    functionType: "none" /* NONE */
   };
 };
 var createHeaderRow = () => {
@@ -49956,8 +52192,7 @@ var createFooterCell = (columnId, rowId) => {
   return {
     id: v4_default(),
     columnId,
-    rowId,
-    functionType: "none" /* NONE */
+    rowId
   };
 };
 var createTag = (markdown, options) => {
@@ -50040,7 +52275,7 @@ var updateRule = (prevState, id2, key, value) => {
           throw new Error(
             "If the key type is not a boolean, a value must be provided"
           );
-        if (rule.id == id2) {
+        if (rule.id === id2) {
           return __spreadProps(__spreadValues({}, rule), {
             [key]: isBoolean2 ? !rule[key] : value
           });
@@ -50053,40 +52288,40 @@ var updateRule = (prevState, id2, key, value) => {
 
 // src/shared/table-state/use-filter-rules.ts
 var useFilterRules = (onChange) => {
-  const logFunc = useLogger();
+  const logger = useLogger();
   function handleRuleColumnChange(id2, columnId) {
-    logFunc("handleRuleColumnChange", { id: id2, columnId });
+    logger("handleRuleColumnChange", { id: id2, columnId });
     onChange(
       (prevState) => updateRule(prevState, id2, "columnId", columnId)
     );
   }
   function handleRuleFilterTypeChange(id2, type) {
-    logFunc("handleRuleFilterTypeChange", {
+    logger("handleRuleFilterTypeChange", {
       id: id2,
       type
     });
     onChange((prevState) => updateRule(prevState, id2, "type", type));
   }
   function handleRuleTextChange(id2, text) {
-    logFunc("handleRuleTextChange", { id: id2, text });
+    logger("handleRuleTextChange", { id: id2, text });
     onChange((prevState) => updateRule(prevState, id2, "text", text));
   }
   function handleRuleToggle(id2) {
-    logFunc("handleRuleToggle", { id: id2 });
+    logger("handleRuleToggle", { id: id2 });
     onChange((prevState) => updateRule(prevState, id2, "isEnabled"));
   }
   function handleRuleAddClick(columnId) {
-    logFunc("handleRuleAddClick", { columnId });
+    logger("handleRuleAddClick", { columnId });
     onChange((prevState) => addRule(prevState, columnId));
   }
   function handleRuleDeleteClick(id2) {
-    logFunc("handleRuleDeleteClick", {
+    logger("handleRuleDeleteClick", {
       id: id2
     });
     onChange((prevState) => deleteRule(prevState, id2));
   }
   function handleRuleTagsChange(id2, tagIds) {
-    logFunc("handleRuleTagsChange", {
+    logger("handleRuleTagsChange", {
       id: id2,
       tagIds
     });
@@ -50149,6 +52384,8 @@ var doesCellMatch = (cell, columnMap, rowMap, cellTags, searchText) => {
   const { lastEditedTime, creationTime } = row;
   switch (type) {
     case "text" /* TEXT */:
+    case "embed" /* EMBED */:
+    case "file" /* FILE */:
     case "number" /* NUMBER */:
     case "checkbox" /* CHECKBOX */:
       return matchCell(markdown, searchText);
@@ -50175,8 +52412,8 @@ var matchCell = (markdown, searchText) => {
   return markdown.toLowerCase().includes(searchText);
 };
 var matchCurrencyCell = (markdown, currencyType, searchText) => {
-  const currencyString = stringToCurrencyString(markdown, currencyType);
-  if (currencyString.toLowerCase().includes(searchText.toLowerCase()))
+  const content = getCurrencyCellContent(markdown, currencyType);
+  if (content.toLowerCase().includes(searchText.toLowerCase()))
     return true;
 };
 var matchTags = (cellTags, searchText) => {
@@ -50185,38 +52422,32 @@ var matchTags = (cellTags, searchText) => {
   );
 };
 var matchDateCell = (dateFormat, dateTime, searchText) => {
-  if (dateTime) {
-    const dateString = unixTimeToDateString(dateTime, dateFormat);
-    if (dateString.toLowerCase().includes(searchText))
-      return true;
-  }
-  return false;
+  const content = getDateCellContent(dateTime, dateFormat);
+  return content.toLowerCase().includes(searchText);
 };
 var matchCreationTimeCell = (creationTime, dateFormat, searchText) => {
-  const dateString = unixTimeToDateTimeString(creationTime, dateFormat);
-  if (dateString.toLowerCase().includes(searchText))
-    return true;
-  return false;
+  const content = getTimeCellContent(creationTime, dateFormat);
+  return content.toLowerCase().includes(searchText);
 };
 var matchLastEditedTimeCell = (lastEditedTime, dateFormat, searchText) => {
-  const dateString = unixTimeToDateString(lastEditedTime, dateFormat);
-  if (dateString.toLowerCase().includes(searchText))
-    return true;
-  return false;
+  const content = getTimeCellContent(lastEditedTime, dateFormat);
+  return content.toLowerCase().includes(searchText);
 };
 
 // src/shared/table-state/use-column.ts
-var import_react63 = __toESM(require_react());
+var import_react82 = __toESM(require_react());
 
 // src/shared/events.ts
 var obsidianEvent = (name) => {
-  return "nlt:" + name;
+  return "notion-like-tables-" + name;
 };
 var EVENT_COLUMN_ADD = obsidianEvent("add-column");
 var EVENT_COLUMN_DELETE = obsidianEvent("delete-column");
 var EVENT_ROW_ADD = obsidianEvent("add-row");
 var EVENT_ROW_DELETE = obsidianEvent("delete-row");
-var EVENT_REFRESH_VIEW = obsidianEvent("refresh-view");
+var EVENT_REFRESH_TABLES = obsidianEvent("refresh-tables");
+var EVENT_DOWNLOAD_CSV = obsidianEvent("download-csv");
+var EVENT_DOWNLOAD_MARKDOWN = obsidianEvent("download-markdown");
 
 // src/shared/commands/column-add-command.ts
 var ColumnAddCommand = class extends TableStateCommand {
@@ -50288,14 +52519,12 @@ var ColumnDeleteCommand = class extends TableStateCommand {
     this.last = last2;
   }
   execute(prevState) {
+    var _a;
     super.onExecute();
     const { columns, headerCells, bodyCells, footerCells, filterRules } = prevState.model;
     if (columns.length === 1)
       return prevState;
-    let id2 = this.columnId;
-    if (this.last) {
-      id2 = columns[columns.length - 1].id;
-    }
+    const id2 = (_a = this.columnId) != null ? _a : columns[columns.length - 1].id;
     const columnToDelete = columns.find((column) => column.id === id2);
     if (!columnToDelete)
       throw new ColumNotFoundError(id2);
@@ -50406,7 +52635,7 @@ var ColumnUpdateCommand = class extends TableStateCommand {
             throw new Error(
               "a value must be provided when the column expects a non-boolean value"
             );
-          if (column2.id == this.columnId) {
+          if (column2.id === this.columnId) {
             return __spreadProps(__spreadValues({}, column2), {
               [this.key]: isBoolean2 ? !column2[this.key] : this.value
             });
@@ -50425,7 +52654,7 @@ var ColumnUpdateCommand = class extends TableStateCommand {
     return __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
         columns: prevState.model.columns.map((column) => {
-          if (column.id == this.columnId) {
+          if (column.id === this.columnId) {
             return __spreadProps(__spreadValues({}, column), {
               [this.key]: this.previousValue
             });
@@ -50453,6 +52682,20 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
     this.addedTags = [];
     this.columnId = id2;
     this.type = type;
+  }
+  fromNumberOrCurrency(columns) {
+    return columns.map((column) => {
+      if (column.id === this.columnId) {
+        if (isNumberFunction(column.functionType)) {
+          this.previousFunctionType = column.functionType;
+          this.newFunctionType = "none" /* NONE */;
+          return __spreadProps(__spreadValues({}, column), {
+            functionType: "none" /* NONE */
+          });
+        }
+      }
+      return column;
+    });
   }
   fromTagOrMultiTag(bodyCells) {
     return bodyCells.map((cell) => {
@@ -50500,13 +52743,13 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
     });
   }
   toTag(columns, bodyCells) {
-    let newColumns = structuredClone(columns);
+    const newColumns = structuredClone(columns);
     let newBodyCells = structuredClone(bodyCells);
     newBodyCells = newBodyCells.map((cell) => {
       if (cell.columnId === this.columnId) {
         if (cell.markdown !== "") {
-          let tagIds = [];
-          cell.markdown.split(",").map((markdown, i2) => {
+          const tagIds = [];
+          cell.markdown.split(",").forEach((markdown, i2) => {
             const column = newColumns.find(
               (column2) => column2.id === this.columnId
             );
@@ -50553,13 +52796,13 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
     };
   }
   toMultiTag(columns, bodyCells) {
-    let newColumns = structuredClone(columns);
+    const newColumns = structuredClone(columns);
     let newBodyCells = structuredClone(bodyCells);
     newBodyCells = newBodyCells.map((cell) => {
       if (cell.columnId === this.columnId) {
         if (cell.markdown !== "") {
-          let tagIds = [];
-          cell.markdown.split(",").map((markdown, i2) => {
+          const tagIds = [];
+          cell.markdown.split(",").forEach((markdown) => {
             const column = newColumns.find(
               (column2) => column2.id === this.columnId
             );
@@ -50596,7 +52839,7 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
   }
   fromMultiTagToTag(bodyCells) {
     return bodyCells.map((cell) => {
-      if (cell.columnId == this.columnId) {
+      if (cell.columnId === this.columnId) {
         if (cell.tagIds.length > 0) {
           this.updatedBodyCellTagIds.previous.push({
             cellId: cell.id,
@@ -50616,7 +52859,7 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
   }
   toCheckbox(bodyCells) {
     return bodyCells.map((cell) => {
-      if (cell.columnId == this.columnId) {
+      if (cell.columnId === this.columnId) {
         if (!isCheckbox(cell.markdown)) {
           this.updatedBodyCellMarkdown.previous.push({
             cellId: cell.id,
@@ -50665,8 +52908,11 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
       newBodyCells = this.fromMultiTagToTag(newBodyCells);
     } else if (this.type === "checkbox" /* CHECKBOX */) {
       newBodyCells = this.toCheckbox(newBodyCells);
-    } else if (this.previousType == "date" /* DATE */ && this.type === "text" /* TEXT */) {
+    } else if (this.previousType === "date" /* DATE */ && this.type === "text" /* TEXT */) {
       newBodyCells = this.fromDateToText(column, newBodyCells);
+    }
+    if (this.previousType === "number" /* NUMBER */ || this.previousType === "currency" /* CURRENCY */) {
+      newColumns = this.fromNumberOrCurrency(newColumns);
     }
     newColumns = newColumns.map((column2) => {
       if (column2.id === this.columnId) {
@@ -50719,6 +52965,7 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
       if (column.id === this.columnId) {
         return __spreadProps(__spreadValues({}, column), {
           type: this.type,
+          functionType: this.newFunctionType ? this.newFunctionType : column.functionType,
           tags: [...column.tags, ...this.addedTags]
         });
       }
@@ -50765,6 +53012,7 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
     const newColumns = columns.map((column) => {
       if (column.id === this.columnId) {
         return __spreadProps(__spreadValues({}, column), {
+          functionType: this.previousFunctionType ? this.previousFunctionType : column.functionType,
           type: this.previousType,
           tags: column.tags.filter(
             (t2) => this.addedTags.find(
@@ -50785,20 +53033,46 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
   }
 };
 
+// src/shared/event-system/utils.ts
+var isEventForThisApp = (appId, allowOutsideEvents = false) => {
+  const activeEl = document.activeElement;
+  if (!activeEl)
+    return false;
+  const appEl = activeEl.closest(".NLT__app");
+  if (appEl)
+    return appEl.getAttribute("data-id") === appId;
+  if (allowOutsideEvents)
+    return true;
+  const menuEl = activeEl.closest(".NLT__menu");
+  if (menuEl) {
+    const menuId = menuEl.getAttribute("data-id");
+    const menuTrigger = document.querySelector(
+      `[data-menu-id="${menuId}"]`
+    );
+    if (!menuTrigger)
+      return false;
+    const appEl2 = menuTrigger.closest(".NLT__app");
+    if (appEl2)
+      return appEl2.getAttribute("data-id") === appId;
+  }
+  return false;
+};
+
 // src/shared/table-state/use-column.ts
-var useColumn = (viewLeaf) => {
-  const logFunc = useLogger();
+var useColumn = () => {
+  const logger = useLogger();
   const { doCommand } = useTableState();
-  import_react63.default.useEffect(() => {
-    function handleColumnAddEvent(leaf) {
-      if (leaf === viewLeaf) {
-        logFunc("handleColumnAddEvent");
+  const { appId } = useMountContext();
+  import_react82.default.useEffect(() => {
+    function handleColumnAddEvent() {
+      if (isEventForThisApp(appId)) {
+        logger("handleColumnAddEvent");
         doCommand(new ColumnAddCommand());
       }
     }
-    function handleColumnDeleteEvent(leaf) {
-      if (leaf === viewLeaf) {
-        logFunc("handleColumnDeleteEvent");
+    function handleColumnDeleteEvent() {
+      if (isEventForThisApp(appId)) {
+        logger("handleColumnDeleteEvent");
         doCommand(new ColumnDeleteCommand({ last: true }));
       }
     }
@@ -50808,20 +53082,20 @@ var useColumn = (viewLeaf) => {
       app.workspace.off(EVENT_COLUMN_ADD, handleColumnAddEvent);
       app.workspace.off(EVENT_COLUMN_DELETE, handleColumnDeleteEvent);
     };
-  }, [viewLeaf, doCommand]);
+  }, [doCommand, logger, appId]);
   function handleNewColumnClick() {
-    logFunc("handleNewColumnClick");
+    logger("handleNewColumnClick");
     doCommand(new ColumnAddCommand());
   }
   function handleColumnTypeClick(columnId, type) {
-    logFunc("handleColumnTypeClick", {
+    logger("handleColumnTypeClick", {
       columnId,
       type
     });
     doCommand(new ColumnTypeUpdateCommand(columnId, type));
   }
   function handleColumnSortClick(columnId, sortDir) {
-    logFunc("handleColumnSortClick", {
+    logger("handleColumnSortClick", {
       columnId,
       sortDir
     });
@@ -50833,19 +53107,30 @@ var useColumn = (viewLeaf) => {
     );
   }
   function handleColumnToggle(columnId) {
-    logFunc("handleColumnToggle", {
+    logger("handleColumnToggle", {
       columnId
     });
     doCommand(new ColumnUpdateCommand(columnId, "isVisible"));
   }
   function handleColumnDeleteClick(columnId) {
-    logFunc("handleColumnDeleteClick", {
+    logger("handleColumnDeleteClick", {
       columnId
     });
     doCommand(new ColumnDeleteCommand({ id: columnId }));
   }
+  function handleFunctionTypeChange(columnId, functionType) {
+    logger("handleFunctionTypeChange", {
+      columnId,
+      functionType
+    });
+    doCommand(
+      new ColumnUpdateCommand(columnId, "functionType", {
+        value: functionType
+      })
+    );
+  }
   function handleCurrencyChange(columnId, currencyType) {
-    logFunc("handleCurrencyChange", {
+    logger("handleCurrencyChange", {
       columnId,
       currencyType
     });
@@ -50857,7 +53142,7 @@ var useColumn = (viewLeaf) => {
     );
   }
   function handleDateFormatChange(columnId, dateFormat) {
-    logFunc("handleDateFormatChange", {
+    logger("handleDateFormatChange", {
       columnId,
       dateFormat
     });
@@ -50869,7 +53154,7 @@ var useColumn = (viewLeaf) => {
     );
   }
   function handleSortRemoveClick(columnId) {
-    logFunc("handleSortRemoveClick", {
+    logger("handleSortRemoveClick", {
       columnId
     });
     doCommand(
@@ -50880,7 +53165,7 @@ var useColumn = (viewLeaf) => {
     );
   }
   function handleColumnWidthChange(columnId, width) {
-    logFunc("handleColumnWidthChange", {
+    logger("handleColumnWidthChange", {
       columnId,
       width
     });
@@ -50892,7 +53177,7 @@ var useColumn = (viewLeaf) => {
     );
   }
   function handleWrapContentToggle(columnId, shouldWrap) {
-    logFunc("handleWrapContentToggle", {
+    logger("handleWrapContentToggle", {
       columnId,
       shouldWrap
     });
@@ -50913,12 +53198,13 @@ var useColumn = (viewLeaf) => {
     handleDateFormatChange,
     handleSortRemoveClick,
     handleColumnWidthChange,
-    handleWrapContentToggle
+    handleWrapContentToggle,
+    handleFunctionTypeChange
   };
 };
 
 // src/shared/table-state/use-row.ts
-var import_react64 = __toESM(require_react());
+var import_react83 = __toESM(require_react());
 
 // src/shared/commands/row-add-command.ts
 var RowAddCommand = class extends TableStateCommand {
@@ -50977,14 +53263,12 @@ var RowDeleteCommand = class extends TableStateCommand {
     this.last = last2;
   }
   execute(prevState) {
+    var _a;
     super.onExecute();
     const { bodyRows, bodyCells } = prevState.model;
     if (bodyRows.length === 0)
       return prevState;
-    let id2 = this.rowId;
-    if (this.last) {
-      id2 = bodyRows[bodyRows.length - 1].id;
-    }
+    const id2 = (_a = this.rowId) != null ? _a : bodyRows[bodyRows.length - 1].id;
     const rowToDelete = bodyRows.find((row) => row.id === id2);
     if (!rowToDelete)
       throw new RowNotFoundError(id2);
@@ -51031,19 +53315,18 @@ var RowDeleteCommand = class extends TableStateCommand {
 };
 
 // src/shared/table-state/use-row.ts
-var useRow = (viewLeaf) => {
+var useRow = () => {
   const logger = useLogger();
   const { doCommand } = useTableState();
-  import_react64.default.useEffect(() => {
-    function handleRowAddEvent(leaf) {
-      if (leaf === viewLeaf) {
+  const { appId } = useMountContext();
+  import_react83.default.useEffect(() => {
+    function handleRowAddEvent() {
+      if (isEventForThisApp(appId))
         doCommand(new RowAddCommand());
-      }
     }
-    function handleRowDeleteEvent(leaf) {
-      if (leaf === viewLeaf) {
+    function handleRowDeleteEvent() {
+      if (isEventForThisApp(appId))
         doCommand(new RowDeleteCommand({ last: true }));
-      }
     }
     app.workspace.on(EVENT_ROW_ADD, handleRowAddEvent);
     app.workspace.on(EVENT_ROW_DELETE, handleRowDeleteEvent);
@@ -51051,7 +53334,7 @@ var useRow = (viewLeaf) => {
       app.workspace.off(EVENT_ROW_ADD, handleRowAddEvent);
       app.workspace.off(EVENT_ROW_DELETE, handleRowDeleteEvent);
     };
-  }, [doCommand]);
+  }, [doCommand, appId]);
   function handleRowDeleteClick(rowId) {
     logger("handleRowDeleteClick", {
       rowId
@@ -51144,56 +53427,6 @@ var CellBodyUpdateCommand = class extends TableStateCommand {
   }
 };
 
-// src/shared/commands/cell-footer-update-command.ts
-var CellFooterUpdateCommand = class extends TableStateCommand {
-  constructor(cellId, key, value) {
-    super();
-    this.cellId = cellId;
-    this.key = key;
-    this.value = value;
-  }
-  execute(prevState) {
-    super.onExecute();
-    const { footerCells } = prevState.model;
-    const cell = footerCells.find((cell2) => cell2.id === this.cellId);
-    if (!cell)
-      throw new CellIdError(this.cellId);
-    this.previousValue = cell[this.key];
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        footerCells: footerCells.map((cell2) => {
-          if (cell2.id === this.cellId) {
-            return __spreadProps(__spreadValues({}, cell2), {
-              [this.key]: this.value
-            });
-          }
-          return cell2;
-        })
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { footerCells } = prevState.model;
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        footerCells: footerCells.map((cell) => {
-          if (cell.id === this.cellId) {
-            return __spreadProps(__spreadValues({}, cell), {
-              [this.key]: this.previousValue
-            });
-          }
-          return cell;
-        })
-      })
-    });
-  }
-};
-
 // src/shared/commands/cell-header-update-command.ts
 var CellHeaderUpdateCommand = class extends TableStateCommand {
   constructor(cellId, key, value) {
@@ -51245,46 +53478,47 @@ var CellHeaderUpdateCommand = class extends TableStateCommand {
 };
 
 // src/shared/table-state/use-cell.ts
+var import_react84 = __toESM(require_react());
 var useCell = () => {
-  const logFunc = useLogger();
+  const logger = useLogger();
   const { doCommand } = useTableState();
   function handleHeaderCellContentChange(cellId, value) {
-    logFunc("handleCellContentChange", {
+    logger("handleCellContentChange", {
       cellId,
       markdown: value
     });
     doCommand(new CellHeaderUpdateCommand(cellId, "markdown", value));
   }
-  function handleBodyCellContentChange(cellId, rowId, value) {
-    logFunc("handleCellContentChange", {
-      cellId,
-      rowId,
-      markdown: value
-    });
-    doCommand(new CellBodyUpdateCommand(cellId, rowId, "markdown", value));
-  }
-  function handleCellDateTimeChange(cellId, rowId, value) {
-    logFunc("handleCellContentChange", {
-      cellId,
-      rowId,
-      dateTime: value
-    });
-    doCommand(new CellBodyUpdateCommand(cellId, rowId, "dateTime", value));
-  }
-  function handleFunctionTypeChange(cellId, functionType) {
-    logFunc("handleFunctionTypeChange", {
-      cellId,
-      functionType
-    });
-    doCommand(
-      new CellFooterUpdateCommand(cellId, "functionType", functionType)
-    );
-  }
+  const handleBodyCellContentChange = import_react84.default.useCallback(
+    (cellId, rowId, value) => {
+      logger("handleCellContentChange", {
+        cellId,
+        rowId,
+        markdown: value
+      });
+      doCommand(
+        new CellBodyUpdateCommand(cellId, rowId, "markdown", value)
+      );
+    },
+    [logger, doCommand]
+  );
+  const handleCellDateTimeChange = import_react84.default.useCallback(
+    (cellId, rowId, value) => {
+      logger("handleCellContentChange", {
+        cellId,
+        rowId,
+        dateTime: value
+      });
+      doCommand(
+        new CellBodyUpdateCommand(cellId, rowId, "dateTime", value)
+      );
+    },
+    [logger, doCommand]
+  );
   return {
     handleHeaderCellContentChange,
     handleBodyCellContentChange,
-    handleCellDateTimeChange,
-    handleFunctionTypeChange
+    handleCellDateTimeChange
   };
 };
 
@@ -51817,10 +54051,321 @@ var useTag = () => {
   };
 };
 
+// src/shared/event-system/hooks.ts
+var import_react85 = __toESM(require_react());
+var useEventSystem = () => {
+  const { appId, leaf } = useMountContext();
+  import_react85.default.useEffect(() => {
+    function handleMouseUp(e) {
+      if (isEventForThisApp(appId))
+        eventSystem.dispatchEvent("mouseup", e);
+    }
+    function handleMouseDown(e) {
+      if (isEventForThisApp(appId))
+        eventSystem.dispatchEvent("mousedown", e);
+    }
+    function handleKeyDown(e) {
+      if (isEventForThisApp(appId))
+        eventSystem.dispatchEvent("keydown", e);
+    }
+    function handleClick(e) {
+      if (isEventForThisApp(appId, true))
+        eventSystem.dispatchEvent("click", e);
+    }
+    function handleSelectionChange(e) {
+      if (isEventForThisApp(appId))
+        eventSystem.dispatchEvent("selectionchange", e);
+    }
+    if (leaf.view instanceof NLTView)
+      document.addEventListener("click", handleClick);
+    document.addEventListener("keydown", handleKeyDown);
+    document.addEventListener("mousedown", handleMouseDown);
+    document.addEventListener("mouseup", handleMouseUp);
+    document.addEventListener("selectionchange", handleSelectionChange);
+    return () => {
+      if (leaf.view instanceof NLTView)
+        document.removeEventListener("click", handleClick);
+      document.removeEventListener("keydown", handleKeyDown);
+      document.removeEventListener("mousedown", handleMouseDown);
+      document.removeEventListener("mouseup", handleMouseUp);
+      document.removeEventListener(
+        "selectionchange",
+        handleSelectionChange
+      );
+    };
+  }, [leaf, appId]);
+};
+
+// src/shared/export/hooks.ts
+var import_react86 = __toESM(require_react());
+
+// src/shared/export/download-utils.ts
+var import_obsidian7 = require("obsidian");
+
+// src/shared/export/types.ts
+var ExportType = /* @__PURE__ */ ((ExportType2) => {
+  ExportType2["UNSELECTED"] = "Select an option";
+  ExportType2["MARKDOWN"] = "Markdown";
+  ExportType2["CSV"] = "CSV";
+  return ExportType2;
+})(ExportType || {});
+
+// src/shared/export/download-utils.ts
+var getBlobTypeForExportType = (type) => {
+  switch (type) {
+    case "CSV" /* CSV */:
+      return "text/csv";
+    case "Markdown" /* MARKDOWN */:
+      return "text/markdown";
+    default:
+      throw new Error(`Unknown export type: ${type}`);
+  }
+};
+var getExportFileName = (filePath) => {
+  const replaceExtension = filePath.replace(`.${TABLE_EXTENSION}`, "");
+  const replaceSlash = replaceExtension.replace(/\//g, "-");
+  const replaceSpaces = replaceSlash.replace(/ /g, "_");
+  const timestamp = (0, import_obsidian7.moment)().format("YYYY_MM_DD-HH_mm_ss");
+  return replaceSpaces + "-" + timestamp;
+};
+var downloadFile = (fileName, blobType, data) => {
+  const blob = new Blob([data], { type: blobType });
+  const url = window.URL.createObjectURL(blob);
+  const el = document.createElement("a");
+  el.setAttribute("href", url);
+  el.setAttribute("download", fileName);
+  el.style.display = "none";
+  document.body.appendChild(el);
+  el.click();
+  document.body.removeChild(el);
+};
+
+// src/shared/export/export-to-csv.tsx
+var import_papaparse = __toESM(require_papaparse_min());
+
+// src/shared/export/table-state-to-array.tsx
+var serializeHeaderCells = (cells) => {
+  return cells.map((cell) => cell.markdown);
+};
+var serializeBodyCells = (columns, rows, cells) => {
+  return rows.map((row) => {
+    const rowCells = cells.filter((cell) => cell.rowId === row.id);
+    return rowCells.map((cell) => {
+      const column = columns.find(
+        (column2) => column2.id === cell.columnId
+      );
+      if (!column)
+        throw new ColumNotFoundError(cell.columnId);
+      return getCellContent(column, row, cell);
+    });
+  });
+};
+var tableStateToArray = (tableState) => {
+  const { headerCells, bodyCells, bodyRows, columns } = tableState.model;
+  const serializedHeaderCells = serializeHeaderCells(headerCells);
+  const serializedBodyCells = serializeBodyCells(
+    columns,
+    bodyRows,
+    bodyCells
+  );
+  return [serializedHeaderCells, ...serializedBodyCells];
+};
+
+// src/shared/export/export-to-csv.tsx
+var exportToCSV = (tableState) => {
+  const arr = tableStateToArray(tableState);
+  return import_papaparse.default.unparse(arr);
+};
+
+// node_modules/markdown-table/index.js
+function markdownTable(table, options = {}) {
+  const align = (options.align || []).concat();
+  const stringLength = options.stringLength || defaultStringLength;
+  const alignments = [];
+  const cellMatrix = [];
+  const sizeMatrix = [];
+  const longestCellByColumn = [];
+  let mostCellsPerRow = 0;
+  let rowIndex = -1;
+  while (++rowIndex < table.length) {
+    const row2 = [];
+    const sizes2 = [];
+    let columnIndex2 = -1;
+    if (table[rowIndex].length > mostCellsPerRow) {
+      mostCellsPerRow = table[rowIndex].length;
+    }
+    while (++columnIndex2 < table[rowIndex].length) {
+      const cell = serialize(table[rowIndex][columnIndex2]);
+      if (options.alignDelimiters !== false) {
+        const size = stringLength(cell);
+        sizes2[columnIndex2] = size;
+        if (longestCellByColumn[columnIndex2] === void 0 || size > longestCellByColumn[columnIndex2]) {
+          longestCellByColumn[columnIndex2] = size;
+        }
+      }
+      row2.push(cell);
+    }
+    cellMatrix[rowIndex] = row2;
+    sizeMatrix[rowIndex] = sizes2;
+  }
+  let columnIndex = -1;
+  if (typeof align === "object" && "length" in align) {
+    while (++columnIndex < mostCellsPerRow) {
+      alignments[columnIndex] = toAlignment(align[columnIndex]);
+    }
+  } else {
+    const code = toAlignment(align);
+    while (++columnIndex < mostCellsPerRow) {
+      alignments[columnIndex] = code;
+    }
+  }
+  columnIndex = -1;
+  const row = [];
+  const sizes = [];
+  while (++columnIndex < mostCellsPerRow) {
+    const code = alignments[columnIndex];
+    let before = "";
+    let after = "";
+    if (code === 99) {
+      before = ":";
+      after = ":";
+    } else if (code === 108) {
+      before = ":";
+    } else if (code === 114) {
+      after = ":";
+    }
+    let size = options.alignDelimiters === false ? 1 : Math.max(
+      1,
+      longestCellByColumn[columnIndex] - before.length - after.length
+    );
+    const cell = before + "-".repeat(size) + after;
+    if (options.alignDelimiters !== false) {
+      size = before.length + size + after.length;
+      if (size > longestCellByColumn[columnIndex]) {
+        longestCellByColumn[columnIndex] = size;
+      }
+      sizes[columnIndex] = size;
+    }
+    row[columnIndex] = cell;
+  }
+  cellMatrix.splice(1, 0, row);
+  sizeMatrix.splice(1, 0, sizes);
+  rowIndex = -1;
+  const lines = [];
+  while (++rowIndex < cellMatrix.length) {
+    const row2 = cellMatrix[rowIndex];
+    const sizes2 = sizeMatrix[rowIndex];
+    columnIndex = -1;
+    const line = [];
+    while (++columnIndex < mostCellsPerRow) {
+      const cell = row2[columnIndex] || "";
+      let before = "";
+      let after = "";
+      if (options.alignDelimiters !== false) {
+        const size = longestCellByColumn[columnIndex] - (sizes2[columnIndex] || 0);
+        const code = alignments[columnIndex];
+        if (code === 114) {
+          before = " ".repeat(size);
+        } else if (code === 99) {
+          if (size % 2) {
+            before = " ".repeat(size / 2 + 0.5);
+            after = " ".repeat(size / 2 - 0.5);
+          } else {
+            before = " ".repeat(size / 2);
+            after = before;
+          }
+        } else {
+          after = " ".repeat(size);
+        }
+      }
+      if (options.delimiterStart !== false && !columnIndex) {
+        line.push("|");
+      }
+      if (options.padding !== false && !(options.alignDelimiters === false && cell === "") && (options.delimiterStart !== false || columnIndex)) {
+        line.push(" ");
+      }
+      if (options.alignDelimiters !== false) {
+        line.push(before);
+      }
+      line.push(cell);
+      if (options.alignDelimiters !== false) {
+        line.push(after);
+      }
+      if (options.padding !== false) {
+        line.push(" ");
+      }
+      if (options.delimiterEnd !== false || columnIndex !== mostCellsPerRow - 1) {
+        line.push("|");
+      }
+    }
+    lines.push(
+      options.delimiterEnd === false ? line.join("").replace(/ +$/, "") : line.join("")
+    );
+  }
+  return lines.join("\n");
+}
+function serialize(value) {
+  return value === null || value === void 0 ? "" : String(value);
+}
+function defaultStringLength(value) {
+  return value.length;
+}
+function toAlignment(value) {
+  const code = typeof value === "string" ? value.codePointAt(0) : 0;
+  return code === 67 || code === 99 ? 99 : code === 76 || code === 108 ? 108 : code === 82 || code === 114 ? 114 : 0;
+}
+
+// src/shared/export/export-to-markdown.tsx
+var exportToMarkdown = (tableState) => {
+  const arr = tableStateToArray(tableState);
+  return markdownTable(arr);
+};
+
+// src/shared/export/hooks.ts
+var useExportEvents = (state) => {
+  const { filePath } = useMountContext();
+  const { appId } = useMountContext();
+  import_react86.default.useEffect(() => {
+    function handleDownloadCSV() {
+      if (isEventForThisApp(appId)) {
+        setTimeout(() => {
+          const data = exportToCSV(state);
+          const exportFileName = getExportFileName(filePath);
+          const blobType = getBlobTypeForExportType(
+            "Markdown" /* MARKDOWN */
+          );
+          downloadFile(exportFileName, blobType, data);
+        }, 100);
+      }
+    }
+    function handleDownloadMarkdown() {
+      if (isEventForThisApp(appId)) {
+        setTimeout(() => {
+          const data = exportToMarkdown(state);
+          const exportFileName = getExportFileName(filePath);
+          const blobType = getBlobTypeForExportType(
+            "Markdown" /* MARKDOWN */
+          );
+          downloadFile(exportFileName, blobType, data);
+        }, 100);
+      }
+    }
+    app.workspace.on(EVENT_DOWNLOAD_CSV, handleDownloadCSV);
+    app.workspace.on(EVENT_DOWNLOAD_MARKDOWN, handleDownloadMarkdown);
+    return () => {
+      app.workspace.off(EVENT_DOWNLOAD_CSV, handleDownloadCSV);
+      app.workspace.off(EVENT_DOWNLOAD_MARKDOWN, handleDownloadMarkdown);
+    };
+  }, [filePath, state, appId]);
+};
+
 // src/react/table-app/index.tsx
-function TableApp({ viewLeaf }) {
-  const { searchText } = useAppSelector((state) => state.global);
-  const { tableId, tableState, setTableState } = useTableState();
+var import_obsidian8 = require("obsidian");
+var TableApp = () => {
+  const { appId, leaf } = useMountContext();
+  const { tableState, resizingColumnId, searchText, setTableState } = useTableState();
+  useEventSystem();
+  useExportEvents(tableState);
   const {
     handleRuleAddClick,
     handleRuleColumnChange,
@@ -51841,13 +54386,13 @@ function TableApp({ viewLeaf }) {
     handleColumnTypeClick,
     handleColumnWidthChange,
     handleSortRemoveClick,
+    handleFunctionTypeChange,
     handleWrapContentToggle
-  } = useColumn(viewLeaf);
-  const { handleNewRowClick, handleRowDeleteClick } = useRow(viewLeaf);
+  } = useColumn();
+  const { handleNewRowClick, handleRowDeleteClick } = useRow();
   const {
     handleBodyCellContentChange,
     handleCellDateTimeChange,
-    handleFunctionTypeChange,
     handleHeaderCellContentChange
   } = useCell();
   const {
@@ -51876,9 +54421,14 @@ function TableApp({ viewLeaf }) {
     searchText
   );
   const visibleColumns = columns.filter((column) => column.isVisible);
+  const isMarkdownView = leaf.view instanceof import_obsidian8.MarkdownView;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    id: tableId,
+    "data-id": appId,
     className: "NLT__app",
+    css: import_emotion_react_cjs.css`
+				border-top: 1px solid var(--background-modifier-border);
+				border-bottom: ${isMarkdownView ? "1px solid var(--background-modifier-border)" : "unset"};
+			`,
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(OptionBar, {
         headerCells,
@@ -51902,7 +54452,11 @@ function TableApp({ viewLeaf }) {
               {
                 id: firstColumnId,
                 columnId: firstColumnId,
-                content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {})
+                content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+                  css: import_emotion_react_cjs.css`
+											width: 35px;
+										`
+                })
               },
               ...visibleColumns.map((column) => {
                 const {
@@ -51930,6 +54484,7 @@ function TableApp({ viewLeaf }) {
                     currencyType,
                     numColumns: columns.length,
                     columnId: cell.columnId,
+                    resizingColumnId,
                     width,
                     shouldWrapOverflow,
                     markdown,
@@ -51991,7 +54546,7 @@ function TableApp({ viewLeaf }) {
                 } = cell;
                 return {
                   id: cellId,
-                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(BodyCell5, {
+                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(BodyCell6, {
                     cellId,
                     rowId,
                     columnTags: tags,
@@ -52041,14 +54596,15 @@ function TableApp({ viewLeaf }) {
                     currencyType,
                     dateFormat,
                     width,
-                    tags
+                    tags,
+                    functionType
                   } = column;
                   const cell = footerCells.find(
-                    (cell2) => cell2.rowId == row.id && cell2.columnId == column.id
+                    (cell2) => cell2.rowId === row.id && cell2.columnId === column.id
                   );
                   if (!cell)
                     throw new CellNotFoundError();
-                  const { id: cellId, functionType } = cell;
+                  const { id: cellId } = cell;
                   const columnBodyCells = bodyCells.filter(
                     (cell2) => filteredBodyRows.find(
                       (row2) => row2.id === cell2.rowId
@@ -52092,7 +54648,7 @@ function TableApp({ viewLeaf }) {
               },
               ...visibleColumns.map((column, i3) => {
                 const cell = footerCells.find(
-                  (cell2) => cell2.rowId == row.id && cell2.columnId == column.id
+                  (cell2) => cell2.rowId === row.id && cell2.columnId === column.id
                 );
                 if (!cell)
                   throw new CellNotFoundError();
@@ -52122,209 +54678,37 @@ function TableApp({ viewLeaf }) {
       })
     ]
   });
-}
-
-// src/obsidian/nlt-import-modal.tsx
-var import_obsidian7 = require("obsidian");
-var import_client = __toESM(require_client());
-
-// src/react/import-app/constants.ts
-var MARKDOWN_LIST_ITEM_REGEX = new RegExp(/^([ \t]*-[\t ]+.+)$/);
-var ERROR_TEXT_DEFAULT = "none";
-
-// src/react/import-app/types.ts
-var ImportType = /* @__PURE__ */ ((ImportType2) => {
-  ImportType2[ImportType2["MARKDOWN_LIST"] = 0] = "MARKDOWN_LIST";
-  return ImportType2;
-})(ImportType || {});
-
-// src/react/import-app/utils.ts
-var getDisplayNameForImportType = (type) => {
-  switch (type) {
-    case 0 /* MARKDOWN_LIST */:
-      return "Markdown list";
-    default:
-      return "";
-  }
 };
-var validateMarkdownList = (text) => {
-  const lines = text.split("\n");
-  return lines.every((line) => line.match(MARKDOWN_LIST_ITEM_REGEX));
-};
-var getMarkdownListItems = (text) => {
-  const lines = text.split("\n");
-  return lines.map((line) => line.trim().replace("-", "").trim());
-};
-var importMarkdownListItems = (listItems, columnId, state) => {
-  let stateCopy = structuredClone(state);
-  for (let i2 = 0; i2 < listItems.length; i2++)
-    stateCopy = new RowAddCommand().execute(stateCopy);
-  const { bodyRows, bodyCells } = stateCopy.model;
-  listItems.forEach((item, i2) => {
-    const row = bodyRows[bodyRows.length - listItems.length + i2];
-    const cell = bodyCells.find(
-      (cell2) => cell2.columnId === columnId && cell2.rowId === row.id
-    );
-    if (!cell)
-      throw new CellNotFoundError();
-    cell.markdown = item;
-  });
-  return stateCopy;
-};
-
-// src/react/import-app/index.tsx
-var import_react66 = __toESM(require_react());
-
-// src/react/import-app/import-type-select.tsx
-function ImportTypeSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-    isVertical: true,
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
-        htmlFor: "import-type-select",
-        children: "Import Type"
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
-        id: "import-type-select",
-        value,
-        onChange: (e) => onChange(parseInt(e.target.value)),
-        children: [
-          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("option", {
-            value: "-1",
-            children: "Select an option"
-          }),
-          Object.values(ImportType).filter((type) => !isNaN(Number(type))).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("option", {
-            value: type.toString(),
-            children: getDisplayNameForImportType(type)
-          }, type))
-        ]
-      })
-    ]
-  });
-}
-
-// src/react/import-app/column-select.tsx
-function ColumnSelect({
-  columns,
-  headerCells,
-  value,
-  onChange
-}) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-    isVertical: true,
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
-        htmlFor: "column-select",
-        children: "Column"
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
-        id: "column-select",
-        value,
-        onChange: (e) => onChange(e.target.value),
-        children: [
-          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("option", {
-            value: "",
-            children: "Select column"
-          }),
-          columns.filter((column) => column.type == "text" /* TEXT */).map((column) => {
-            const cell = headerCells.find(
-              (cell2) => cell2.columnId === column.id
-            );
-            if (!cell)
-              throw new CellNotFoundError();
-            return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("option", {
-              value: column.id,
-              children: cell.markdown
-            }, column.id);
+var NotionLikeTable = ({
+  appId,
+  isEmbedded,
+  leaf,
+  store: store2,
+  filePath,
+  tableState,
+  onSaveState
+}) => {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MountProvider, {
+    appId,
+    isEmbedded,
+    leaf,
+    filePath,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
+      store: store2,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableStateProvider, {
+        initialState: tableState,
+        onSaveState,
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuProvider, {
+          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragProvider, {
+            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableApp, {})
           })
-        ]
-      })
-    ]
-  });
-}
-
-// src/react/import-app/markdown-input.tsx
-function MarkdownInput({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
-    placeholder: "Paste your markdown here...",
-    style: {
-      height: "150px",
-      width: "100%"
-    },
-    value,
-    onChange: (e) => onChange(e.target.value)
-  });
-}
-
-// src/react/import-app/index.tsx
-function ImportApp({ initialState: initialState2, onStateSave }) {
-  const [inputText, setInputText] = (0, import_react66.useState)("");
-  const [importType, setImportType] = (0, import_react66.useState)(-1);
-  const [columnId, setColumnId] = (0, import_react66.useState)("");
-  const [errorText, setErrorText] = (0, import_react66.useState)(ERROR_TEXT_DEFAULT);
-  function handleImportClick() {
-    if (importType === 0 /* MARKDOWN_LIST */) {
-      if (validateMarkdownList(inputText)) {
-        const listItems = getMarkdownListItems(inputText);
-        const updatedState = importMarkdownListItems(
-          listItems,
-          columnId,
-          initialState2
-        );
-        onStateSave(updatedState);
-        return;
-      }
-      setErrorText("Invalid markdown");
-    }
-  }
-  let errorTextClassName = "error-text";
-  if (errorText !== ERROR_TEXT_DEFAULT)
-    errorTextClassName += " error-text--visible";
-  const { columns, headerCells } = initialState2.model;
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__import-app",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-      spacing: "lg",
-      isVertical: true,
-      children: [
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-          spacing: "lg",
-          children: [
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ImportTypeSelect, {
-              value: importType,
-              onChange: setImportType
-            }),
-            importType !== -1 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ColumnSelect, {
-              columns,
-              headerCells,
-              value: columnId,
-              onChange: setColumnId
-            })
-          ]
-        }),
-        importType !== -1 && columnId !== "" && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-          children: [
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MarkdownInput, {
-              value: inputText,
-              onChange: setInputText
-            }),
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-              className: errorTextClassName,
-              children: errorText
-            }),
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
-              className: "mod-cta",
-              onClick: handleImportClick,
-              children: "Import"
-            })
-          ]
         })
-      ]
+      })
     })
   });
-}
+};
 
-// src/shared/types/types-670.ts
+// src/shared/types/types-6.7.0.ts
 var GeneralFunction2 = /* @__PURE__ */ ((GeneralFunction3) => {
   GeneralFunction3["NONE"] = "none";
   GeneralFunction3["COUNT_ALL"] = "count_all";
@@ -52338,36 +54722,36 @@ var GeneralFunction2 = /* @__PURE__ */ ((GeneralFunction3) => {
 })(GeneralFunction2 || {});
 var GeneralFunction670 = GeneralFunction2;
 
-// src/shared/types/types-610.ts
-var CurrencyType8 = /* @__PURE__ */ ((CurrencyType9) => {
-  CurrencyType9["UNITED_STATES"] = "USD";
-  CurrencyType9["CANADA"] = "CAD";
-  CurrencyType9["SINGAPORE"] = "SGB";
-  CurrencyType9["EUROPE"] = "EUR";
-  CurrencyType9["POUND"] = "GBP";
-  CurrencyType9["RUSSIA"] = "RUB";
-  CurrencyType9["AUSTRALIA"] = "AUD";
-  CurrencyType9["JAPAN"] = "JPY";
-  CurrencyType9["INDIA"] = "INR";
-  CurrencyType9["CHINA"] = "CNY";
-  CurrencyType9["BRAZIL"] = "BRL";
-  CurrencyType9["COLOMBIA"] = "COP";
-  CurrencyType9["MEXICO"] = "MXN";
-  CurrencyType9["ARGENTINA"] = "ARS";
-  return CurrencyType9;
-})(CurrencyType8 || {});
-var CurrencyType610 = CurrencyType8;
+// src/shared/types/types-6.1.0.ts
+var CurrencyType9 = /* @__PURE__ */ ((CurrencyType10) => {
+  CurrencyType10["UNITED_STATES"] = "USD";
+  CurrencyType10["CANADA"] = "CAD";
+  CurrencyType10["SINGAPORE"] = "SGB";
+  CurrencyType10["EUROPE"] = "EUR";
+  CurrencyType10["POUND"] = "GBP";
+  CurrencyType10["RUSSIA"] = "RUB";
+  CurrencyType10["AUSTRALIA"] = "AUD";
+  CurrencyType10["JAPAN"] = "JPY";
+  CurrencyType10["INDIA"] = "INR";
+  CurrencyType10["CHINA"] = "CNY";
+  CurrencyType10["BRAZIL"] = "BRL";
+  CurrencyType10["COLOMBIA"] = "COP";
+  CurrencyType10["MEXICO"] = "MXN";
+  CurrencyType10["ARGENTINA"] = "ARS";
+  return CurrencyType10;
+})(CurrencyType9 || {});
+var CurrencyType610 = CurrencyType9;
 
-// src/shared/types/types-620.ts
-var DateFormat8 = /* @__PURE__ */ ((DateFormat9) => {
-  DateFormat9["MM_DD_YYYY"] = "mm/dd/yyyy";
-  DateFormat9["DD_MM_YYYY"] = "dd/mm/yyyy";
-  DateFormat9["YYYY_MM_DD"] = "yyyy/mm/dd";
-  DateFormat9["FULL"] = "full";
-  DateFormat9["RELATIVE"] = "relative";
-  return DateFormat9;
-})(DateFormat8 || {});
-var DateFormat620 = DateFormat8;
+// src/shared/types/types-6.2.0.ts
+var DateFormat9 = /* @__PURE__ */ ((DateFormat10) => {
+  DateFormat10["MM_DD_YYYY"] = "mm/dd/yyyy";
+  DateFormat10["DD_MM_YYYY"] = "dd/mm/yyyy";
+  DateFormat10["YYYY_MM_DD"] = "yyyy/mm/dd";
+  DateFormat10["FULL"] = "full";
+  DateFormat10["RELATIVE"] = "relative";
+  return DateFormat10;
+})(DateFormat9 || {});
+var DateFormat620 = DateFormat9;
 
 // src/shared/versioning.ts
 var legacyVersionToString = (version) => {
@@ -52590,103 +54974,260 @@ var deserializeTableState = (data) => {
       }
     });
   }
+  if (isVersionLessThan(pluginVersion, "6.12.3")) {
+    const tableState2 = currentState;
+    const { columns, footerCells } = tableState2.model;
+    footerCells.forEach((cell) => {
+      const column = columns.find(
+        (column2) => column2.id === cell.columnId
+      );
+      if (!column)
+        throw new ColumNotFoundError(cell.columnId);
+      const unknownColumn = column;
+      const typedColumn = unknownColumn;
+      typedColumn.functionType = cell.functionType;
+      const unknownCell = cell;
+      const typedCell = unknownCell;
+      if (typedCell.hasOwnProperty("functionType")) {
+        delete typedCell.functionType;
+      }
+    });
+  }
   const tableState = currentState;
   tableState.pluginVersion = CURRENT_PLUGIN_VERSION;
   return tableState;
 };
 
-// src/obsidian/nlt-import-modal.tsx
-var NLTImportModal = class extends import_obsidian7.Modal {
-  constructor(app2) {
+// src/obsidian/nlt-export-modal.tsx
+var import_obsidian10 = require("obsidian");
+var import_client = __toESM(require_client());
+
+// src/react/export-app/index.tsx
+var import_react90 = __toESM(require_react());
+
+// src/react/export-app/export-type-select.tsx
+function ExportTypeSelect({ value, onChange }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+    isVertical: true,
+    spacing: "xl",
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
+        htmlFor: "type-select",
+        children: "File Type"
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("select", {
+        id: "type-select",
+        css: import_emotion_react_cjs.css`
+					background-color: var(
+						--background-secondary-alt
+					) !important;
+				`,
+        value,
+        onChange: (e) => onChange(e.target.value),
+        children: Object.values(ExportType).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("option", {
+          value: type,
+          children: type
+        }, type))
+      })
+    ]
+  });
+}
+
+// src/react/export-app/content-textarea.tsx
+function ContentTextArea({ value }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
+    readOnly: true,
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 200px;
+				resize: vertical;
+			`,
+    value
+  });
+}
+
+// src/react/export-app/index.tsx
+var import_obsidian9 = require("obsidian");
+function ExportApp({ tableState, filePath }) {
+  const [exportType, setExportType] = import_react90.default.useState(
+    "Select an option" /* UNSELECTED */
+  );
+  function handleCopyClick(value) {
+    return __async(this, null, function* () {
+      yield navigator.clipboard.writeText(value);
+      new import_obsidian9.Notice("Copied to clipboard");
+    });
+  }
+  function handleDownloadClick() {
+    const fileName = getExportFileName(filePath);
+    const blobType = getBlobTypeForExportType(exportType);
+    downloadFile(fileName, blobType, content);
+  }
+  let content = "";
+  if (exportType === "Markdown" /* MARKDOWN */) {
+    content = exportToMarkdown(tableState);
+  } else if (exportType === "CSV" /* CSV */) {
+    content = exportToCSV(tableState);
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "NLT__export-app",
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Padding, {
+      p: "xl",
+      children: [
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("h5", {
+          css: import_emotion_react_cjs.css`
+						margin-top: 0px;
+						margin-bottom: 0px;
+					`,
+          children: "Notion-Like Tables Export"
+        }),
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
+          css: import_emotion_react_cjs.css`
+						margin: 1rem 0;
+					`
+        }),
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+          spacing: "xl",
+          isVertical: true,
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportTypeSelect, {
+              value: exportType,
+              onChange: setExportType
+            }),
+            exportType !== "Select an option" /* UNSELECTED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ContentTextArea, {
+                  value: content
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+                  children: [
+                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
+                      className: "mod-cta",
+                      onClick: handleDownloadClick,
+                      children: "Download"
+                    }),
+                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
+                      css: import_emotion_react_cjs.css`
+										background-color: var(
+											--background-secondary-alt
+										) !important;
+									`,
+                      onClick: () => handleCopyClick(content),
+                      children: "Copy to clipboard"
+                    })
+                  ]
+                })
+              ]
+            })
+          ]
+        })
+      ]
+    })
+  });
+}
+
+// src/obsidian/nlt-export-modal.tsx
+var NLTExportModal = class extends import_obsidian10.Modal {
+  constructor(app2, filePath) {
     super(app2);
-    this.handleStateSave = (view, state) => {
-      const serialized = serializeTableState(state);
-      view.setViewData(serialized, true);
-      this.close();
-    };
     this.app = app2;
+    this.filePath = filePath;
   }
   onOpen() {
-    const { contentEl } = this;
-    contentEl.createDiv({ text: "Notion-Like Tables Import" });
-    const appContainer = contentEl.createDiv();
+    const container = this.containerEl.children[1];
     const view = app.workspace.getActiveViewOfType(NLTView);
     if (view) {
       const data = view.getViewData();
       const state = deserializeTableState(data);
-      this.root = (0, import_client.createRoot)(appContainer);
+      this.root = (0, import_client.createRoot)(container);
       this.root.render(
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ImportApp, {
-          initialState: state,
-          onStateSave: (state2) => this.handleStateSave(view, state2)
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportApp, {
+          tableState: state,
+          filePath: this.filePath
         })
       );
     }
   }
   onClose() {
-    const { contentEl } = this;
     if (this.root)
       this.root.unmount();
-    contentEl.empty();
   }
 };
 
 // src/obsidian/nlt-view.tsx
 var NOTION_LIKE_TABLES_VIEW = "notion-like-tables";
-var NLTView = class extends import_obsidian8.TextFileView {
+var NLTView = class extends import_obsidian11.TextFileView {
   constructor(leaf) {
     super(leaf);
+    this.handleRefreshEvent = (filePath, sourceAppId, state) => {
+      if (this.appId !== sourceAppId && filePath === this.file.path) {
+        const serialized = serializeTableState(state);
+        this.setViewData(serialized, true);
+      }
+    };
+    this.handleSaveTableState = (appId, state) => {
+      const serialized = serializeTableState(state);
+      this.data = serialized;
+      this.requestSave();
+      this.app.workspace.trigger(
+        EVENT_REFRESH_TABLES,
+        this.file.path,
+        appId,
+        state
+      );
+    };
     this.root = null;
-    this.handleSaveTableState = (tableState) => __async(this, null, function* () {
-      if (this.app.workspace.activeLeaf === this.leaf) {
-        const serialized = serializeTableState(tableState);
-        this.data = serialized;
-        yield this.requestSave();
-        this.app.workspace.trigger(
-          EVENT_REFRESH_VIEW,
-          this.leaf,
-          this.file.path,
-          tableState
-        );
+    this.data = "";
+    this.appId = v4_default();
+  }
+  onOpen() {
+    return __async(this, null, function* () {
+      this.containerEl.style.paddingBottom = "48px";
+      const container = this.containerEl.children[1];
+      this.root = (0, import_client2.createRoot)(container);
+      this.addAction("settings", "Settings", () => {
+        this.app.setting.open();
+        this.app.setting.openTabById("notion-like-tables");
+      });
+      this.addAction("download", "Export", () => {
+        new NLTExportModal(this.app, this.file.path).open();
+      });
+      this.app.workspace.on(
+        EVENT_REFRESH_TABLES,
+        this.handleRefreshEvent
+      );
+    });
+  }
+  onClose() {
+    return __async(this, null, function* () {
+      this.app.workspace.off(EVENT_REFRESH_TABLES, this.handleRefreshEvent);
+      if (this.root) {
+        this.root.unmount();
+        this.root = null;
       }
     });
   }
-  getViewData() {
-    return this.data;
-  }
   setViewData(data, clear) {
     this.data = data;
+    const state = deserializeTableState(data);
     if (clear) {
-      if (this.root) {
-        this.root.unmount();
-        this.root = (0, import_client2.createRoot)(this.containerEl.children[1]);
-      }
-    }
-    const tableState = deserializeTableState(data);
-    this.renderApp(tableState);
-  }
-  renderApp(tableState) {
-    if (this.root) {
-      this.root.render(
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
-          store,
-          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableStateProvider, {
-            initialState: tableState,
-            onSaveState: this.handleSaveTableState,
-            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuProvider, {
-              children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragProvider, {
-                children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableApp, {
-                  viewLeaf: this.leaf
-                })
-              })
-            })
-          })
-        })
-      );
+      setTimeout(() => {
+        if (this.root) {
+          this.root.unmount();
+          const container = this.containerEl.children[1];
+          this.root = (0, import_client2.createRoot)(container);
+          this.renderApp(this.appId, state);
+        }
+      }, 0);
+    } else {
+      this.renderApp(this.appId, state);
     }
   }
   clear() {
     this.data = "{}";
+  }
+  getViewData() {
+    return this.data;
   }
   getViewType() {
     return NOTION_LIKE_TABLES_VIEW;
@@ -52700,44 +55241,26 @@ var NLTView = class extends import_obsidian8.TextFileView {
     }
     return "";
   }
-  onOpen() {
-    return __async(this, null, function* () {
-      const container = this.containerEl.children[1];
-      this.root = (0, import_client2.createRoot)(container);
-      this.addAction("settings", "Settings", () => {
-        this.app.setting.open();
-        this.app.setting.openTabById("notion-like-tables");
-      });
-      this.addAction("import", "Import", () => {
-        new NLTImportModal(this.app).open();
-      });
-      this.app.workspace.on(
-        EVENT_REFRESH_VIEW,
-        (leaf, filePath, tableState) => {
-          if (leaf !== this.leaf && filePath === this.file.path) {
-            if (this.root) {
-              this.root.unmount();
-              this.root = (0, import_client2.createRoot)(this.containerEl.children[1]);
-            }
-            this.renderApp(tableState);
-          }
-        }
+  renderApp(appId, state) {
+    if (this.root) {
+      this.root.render(
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NotionLikeTable, {
+          appId,
+          isEmbedded: false,
+          filePath: this.file.path,
+          leaf: this.leaf,
+          store,
+          tableState: state,
+          onSaveState: this.handleSaveTableState
+        })
       );
-    });
-  }
-  onClose() {
-    return __async(this, null, function* () {
-      if (this.root) {
-        this.root.unmount();
-        this.root = null;
-      }
-    });
+    }
   }
 };
 
 // src/data/table-file.ts
-var import_obsidian9 = require("obsidian");
-var import_obsidian10 = require("obsidian");
+var import_obsidian12 = require("obsidian");
+var import_obsidian13 = require("obsidian");
 
 // src/data/utils.ts
 var splitFileExtension = (filePath) => {
@@ -52750,15 +55273,24 @@ var splitFileExtension = (filePath) => {
   }
   return null;
 };
+var updateLinkReferences = (markdown, updatedFileInfo, oldPath, isFileNameUnique) => {
+  return markdown.replace(WIKI_LINK_REGEX, (match, path) => {
+    let comparePath = oldPath;
+    if (!path.includes("/"))
+      comparePath = stripDirectory(comparePath);
+    if (!path.match(EXTENSION_REGEX))
+      comparePath = stripFileExtension(comparePath);
+    if (comparePath === path) {
+      const linkText = getWikiLinkText(updatedFileInfo, isFileNameUnique);
+      return `[[${linkText}]]`;
+    }
+    return match;
+  });
+};
 
 // src/data/file-operations.ts
 var createFolder = (folderPath) => __async(void 0, null, function* () {
-  try {
-    if (app.vault.getAbstractFileByPath(folderPath) == null)
-      yield app.vault.createFolder(folderPath);
-  } catch (err) {
-    throw err;
-  }
+  return yield app.vault.createFolder(folderPath);
 });
 var createFile = (filePath, data, numExisting = 0) => __async(void 0, null, function* () {
   try {
@@ -52780,14 +55312,21 @@ var createFile = (filePath, data, numExisting = 0) => __async(void 0, null, func
 });
 
 // src/data/table-file.ts
+var getActiveFileNameAndTimestamp = () => {
+  const activeView = app.workspace.getActiveViewOfType(import_obsidian12.MarkdownView);
+  if (!activeView)
+    return null;
+  const file = activeView.file;
+  if (!file)
+    return null;
+  return `${file.basename}-${(0, import_obsidian13.moment)().format().replaceAll(":", ".")}`;
+};
 var getFileName = (useActiveFileNameAndTimestamp) => {
-  var _a;
   let fileName = DEFAULT_TABLE_NAME;
-  const activeNote = (_a = app.workspace.getActiveViewOfType(import_obsidian9.MarkdownView)) == null ? void 0 : _a.file;
-  if (activeNote !== void 0) {
-    if (useActiveFileNameAndTimestamp) {
-      fileName = `${activeNote.basename}-${(0, import_obsidian10.moment)().format().replaceAll(":", ".")}`;
-    }
+  if (useActiveFileNameAndTimestamp) {
+    const name = getActiveFileNameAndTimestamp();
+    if (name)
+      fileName = name;
   }
   return `${fileName}.${TABLE_EXTENSION}`;
 };
@@ -52798,18 +55337,185 @@ var getFilePath = (folderPath, fileName) => {
 };
 var createTableFile = (options) => __async(void 0, null, function* () {
   try {
-    if (options.folderPath !== "")
-      yield createFolder(options.folderPath);
+    if (options.folderPath !== "") {
+      if (app.vault.getAbstractFileByPath(options.folderPath) == null)
+        yield createFolder(options.folderPath);
+    }
     const fileName = getFileName(options.useActiveFileNameAndTimestamp);
     const tableState = createTableState(1, 1);
     const serialized = serializeTableState(tableState);
     const filePath = getFilePath(options.folderPath, fileName);
     return yield createFile(filePath, serialized);
   } catch (err) {
-    new import_obsidian9.Notice("Could not create Notion-Like table");
+    new import_obsidian12.Notice("Could not create Notion-Like table");
     throw err;
   }
 });
+
+// src/obsidian/nlt-embedded-plugin.tsx
+var import_view = require("@codemirror/view");
+var import_obsidian14 = require("obsidian");
+var import_client3 = __toESM(require_client());
+var import_lodash2 = __toESM(require_lodash());
+
+// src/obsidian/utils.ts
+var getEmbeddedTableLinkEls = (el) => {
+  const embeddedLinkEls = el.querySelectorAll(".internal-embed");
+  const tableLinkEls = [];
+  for (let i2 = 0; i2 < embeddedLinkEls.length; i2++) {
+    const linkEl = embeddedLinkEls[i2];
+    const src = linkEl.getAttribute("src");
+    if (src == null ? void 0 : src.endsWith(TABLE_EXTENSION))
+      tableLinkEls.push(linkEl);
+  }
+  return tableLinkEls;
+};
+var removeEmbeddedLinkChildren = (embeddedLinkEl) => {
+  if (embeddedLinkEl.children.length > 0) {
+    const firstChildEl = embeddedLinkEl.children[0];
+    if (firstChildEl.classList.contains("NLT__embedded-container"))
+      return;
+    for (let i2 = 0; i2 < embeddedLinkEl.children.length; i2++) {
+      embeddedLinkEl.removeChild(embeddedLinkEl.children[i2]);
+    }
+  }
+};
+var findEmbeddedTableFile = (embeddedLinkEl) => {
+  var _a;
+  const src = embeddedLinkEl.getAttribute("src");
+  const tableFile = app.vault.getFiles().find((file) => file.path === src);
+  if (tableFile === void 0)
+    return (_a = app.vault.getFiles().find((file) => file.name === src)) != null ? _a : null;
+  return tableFile != null ? tableFile : null;
+};
+var getEmbeddedTableWidth = (embeddedLinkEl) => {
+  const width = embeddedLinkEl.getAttribute("width");
+  if (width === null || width === "1")
+    return "100%";
+  return numToPx(width);
+};
+var getEmbeddedTableHeight = (embeddedLinkEl) => {
+  const height = embeddedLinkEl.getAttribute("height");
+  if (height === null || height === "1")
+    return "340px";
+  return numToPx(height);
+};
+
+// src/obsidian/nlt-embedded-plugin.tsx
+var NLTEmbeddedPlugin = class {
+  constructor() {
+    this.handleRefreshEvent = (filePath, sourceAppId, state) => {
+      const app2 = this.tableApps.find(
+        (app3) => app3.id !== sourceAppId && app3.file.path === filePath
+      );
+      if (!app2)
+        return;
+      const { id: id2, parentEl, leaf, file } = app2;
+      if (!app2.root)
+        return;
+      setTimeout(() => {
+        var _a;
+        (_a = app2.root) == null ? void 0 : _a.unmount();
+        app2.root = (0, import_client3.createRoot)(parentEl);
+        this.renderApp(id2, leaf, file, app2.root, state);
+      }, 0);
+    };
+    this.tableApps = [];
+    this.setupEventListeners();
+  }
+  update() {
+    const activeView = app.workspace.getActiveViewOfType(import_obsidian14.MarkdownView);
+    if (!activeView)
+      return;
+    const embeddedTableLinkEls = getEmbeddedTableLinkEls(
+      activeView.containerEl
+    );
+    for (let i2 = 0; i2 < embeddedTableLinkEls.length; i2++) {
+      const linkEl = embeddedTableLinkEls[i2];
+      removeEmbeddedLinkChildren(linkEl);
+      const file = findEmbeddedTableFile(linkEl);
+      if (!file)
+        return;
+      const width = getEmbeddedTableWidth(linkEl);
+      const height = getEmbeddedTableHeight(linkEl);
+      linkEl.style.width = width;
+      linkEl.style.height = height;
+      if (this.tableApps.find((app2) => app2.file.path === file.path))
+        return;
+      linkEl.style.backgroundColor = "var(--color-primary)";
+      linkEl.style.cursor = "unset";
+      linkEl.style.padding = "10px 0px";
+      const containerEl = linkEl.createDiv();
+      containerEl.className = "NLT__embedded-container";
+      containerEl.style.height = "100%";
+      containerEl.style.width = "100%";
+      const appId = v4_default();
+      this.tableApps.push({
+        id: appId,
+        leaf: activeView.leaf,
+        parentEl: containerEl,
+        file
+      });
+      this.setupTable(activeView, containerEl, file, appId);
+    }
+  }
+  setupTable(activeView, containerEl, file, appId) {
+    return __async(this, null, function* () {
+      activeView.containerEl.addEventListener("click", (e) => {
+        eventSystem.dispatchEvent("click", e);
+      });
+      containerEl.addEventListener("click", (e) => {
+        e.stopPropagation();
+        eventSystem.dispatchEvent("click", e);
+      });
+      const data = yield app.vault.read(file);
+      const tableState = deserializeTableState(data);
+      const table = this.tableApps.find((app2) => app2.id === appId);
+      if (!table)
+        return;
+      table.root = (0, import_client3.createRoot)(containerEl);
+      this.renderApp(appId, activeView.leaf, file, table.root, tableState);
+    });
+  }
+  handleSave(tableFile, appId, state) {
+    return __async(this, null, function* () {
+      const serialized = serializeTableState(state);
+      yield app.vault.modify(tableFile, serialized);
+      app.workspace.trigger(
+        EVENT_REFRESH_TABLES,
+        tableFile.path,
+        appId,
+        state
+      );
+    });
+  }
+  renderApp(id2, leaf, tableFile, root, tableState) {
+    const throttleHandleSave = import_lodash2.default.throttle(this.handleSave, 2e3);
+    root.render(
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NotionLikeTable, {
+        appId: id2,
+        isEmbedded: true,
+        filePath: tableFile.path,
+        leaf,
+        store,
+        tableState,
+        onSaveState: (appId, state) => throttleHandleSave(tableFile, appId, state)
+      })
+    );
+  }
+  setupEventListeners() {
+    app.workspace.on(EVENT_REFRESH_TABLES, this.handleRefreshEvent);
+  }
+  destroy() {
+    this.tableApps.forEach((app2) => {
+      var _a;
+      return (_a = app2.root) == null ? void 0 : _a.unmount();
+    });
+    this.tableApps = [];
+    app.workspace.off(EVENT_REFRESH_TABLES, this.handleRefreshEvent);
+  }
+};
+var nltEmbeddedPlugin = import_view.ViewPlugin.fromClass(NLTEmbeddedPlugin);
 
 // src/main.ts
 var DEFAULT_SETTINGS = {
@@ -52818,7 +55524,7 @@ var DEFAULT_SETTINGS = {
   customFolderForNewTables: "",
   nameWithActiveFileNameAndTimestamp: false
 };
-var NLTPlugin = class extends import_obsidian11.Plugin {
+var NLTPlugin = class extends import_obsidian15.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
@@ -52828,15 +55534,15 @@ var NLTPlugin = class extends import_obsidian11.Plugin {
         yield this.newTableFile(null);
       }));
       this.addSettingTab(new NLTSettingsTab(this.app, this));
+      this.registerEmbeddedView();
       this.registerCommands();
       this.registerEvents();
-      this.app.workspace.onLayoutReady(() => {
-        this.checkForDarkMode();
-        this.checkForDebug();
-      });
     });
   }
-  newTableFile(contextMenuFolderPath) {
+  registerEmbeddedView() {
+    this.registerEditorExtension(nltEmbeddedPlugin);
+  }
+  newTableFile(contextMenuFolderPath, embedded) {
     return __async(this, null, function* () {
       let folderPath = "";
       if (contextMenuFolderPath) {
@@ -52852,6 +55558,8 @@ var NLTPlugin = class extends import_obsidian11.Plugin {
         folderPath,
         useActiveFileNameAndTimestamp: this.settings.nameWithActiveFileNameAndTimestamp
       });
+      if (embedded)
+        return filePath;
       yield app.workspace.getLeaf(true).setViewState({
         type: NOTION_LIKE_TABLES_VIEW,
         active: true,
@@ -52859,30 +55567,16 @@ var NLTPlugin = class extends import_obsidian11.Plugin {
       });
     });
   }
-  checkForDebug() {
-    store.dispatch(setDebugMode(this.settings.shouldDebug));
-  }
-  checkForDarkMode() {
-    let hasDarkTheme = false;
-    const el = document.querySelector("body");
-    if (el)
-      hasDarkTheme = el.className.includes("theme-dark");
-    store.dispatch(setDarkMode(hasDarkTheme));
-  }
   registerEvents() {
     this.registerEvent(
       this.app.workspace.on("css-change", () => {
-        this.checkForDarkMode();
-        const view = this.app.workspace.getActiveViewOfType(NLTView);
-        if (view) {
-          const data = view.getViewData();
-          view.setViewData(data, true);
-        }
+        const isDark = hasDarkTheme();
+        store.dispatch(setDarkMode(isDark));
       })
     );
     this.registerEvent(
       this.app.workspace.on("file-menu", (menu, file) => {
-        if (file instanceof import_obsidian11.TFolder) {
+        if (file instanceof import_obsidian15.TFolder) {
           menu.addItem((item) => {
             item.setTitle("New Notion-Like table").setIcon("document").onClick(() => __async(this, null, function* () {
               yield this.newTableFile(file.path);
@@ -52891,6 +55585,58 @@ var NLTPlugin = class extends import_obsidian11.Plugin {
         }
       })
     );
+    this.app.vault.on(
+      "rename",
+      (file, oldPath) => __async(this, null, function* () {
+        if (file instanceof import_obsidian15.TFile) {
+          const files = this.app.vault.getFiles();
+          const uniqueFileNames = filterUniqueStrings(
+            files.map((file2) => file2.name)
+          );
+          const isUniqueFileName = uniqueFileNames.includes(
+            file.name
+          );
+          const tableFiles = files.filter(
+            (file2) => file2.extension === TABLE_EXTENSION
+          );
+          for (let i2 = 0; i2 < tableFiles.length; i2++) {
+            const tableFile = tableFiles[i2];
+            const content = yield tableFile.vault.read(
+              tableFiles[i2]
+            );
+            const deserializedState = deserializeTableState(content);
+            const newState = structuredClone(deserializedState);
+            newState.model.bodyCells.forEach((cell) => {
+              const updatedMarkdown = updateLinkReferences(
+                cell.markdown,
+                file,
+                oldPath,
+                isUniqueFileName
+              );
+              cell.markdown = updatedMarkdown;
+            });
+            if (JSON.stringify(deserializedState) !== JSON.stringify(newState)) {
+              const serializedState = serializeTableState(newState);
+              yield tableFile.vault.modify(
+                tableFile,
+                serializedState
+              );
+              app.workspace.trigger(
+                EVENT_REFRESH_TABLES,
+                tableFile.path,
+                -1,
+                newState
+              );
+            }
+          }
+        }
+      })
+    );
+    this.app.workspace.onLayoutReady(() => {
+      const isDark = hasDarkTheme();
+      store.dispatch(setDarkMode(isDark));
+      store.dispatch(setDebugMode(this.settings.shouldDebug));
+    });
   }
   registerCommands() {
     this.addCommand({
@@ -52902,14 +55648,34 @@ var NLTPlugin = class extends import_obsidian11.Plugin {
       })
     });
     this.addCommand({
+      id: "nlt-create-table-and-embed",
+      name: "Create table and embed it into current file",
+      hotkeys: [{ modifiers: ["Mod", "Shift"], key: "+" }],
+      editorCallback: (editor) => __async(this, null, function* () {
+        const filePath = yield this.newTableFile(null, true);
+        if (!filePath)
+          return;
+        const useMarkdownLinks = this.app.vault.getConfig(
+          "useMarkdownLinks"
+        );
+        const linkText = useMarkdownLinks ? `![${getBasename(filePath)}](${encodeURI(filePath)})` : `![[${filePath}]]`;
+        editor.replaceRange(linkText, editor.getCursor());
+        editor.setCursor(
+          editor.getCursor().line,
+          editor.getCursor().ch + linkText.length
+        );
+      })
+    });
+    this.addCommand({
       id: "nlt-add-column",
       name: "Add column",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "\\" }],
       checkCallback: (checking) => {
-        const view = this.app.workspace.getActiveViewOfType(NLTView);
-        if (view) {
+        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
+        if (nltView || markdownView) {
           if (!checking) {
-            this.app.workspace.trigger(EVENT_COLUMN_ADD, view.leaf);
+            this.app.workspace.trigger(EVENT_COLUMN_ADD);
           }
           return true;
         }
@@ -52921,13 +55687,11 @@ var NLTPlugin = class extends import_obsidian11.Plugin {
       name: "Delete column",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
-        const view = this.app.workspace.getActiveViewOfType(NLTView);
-        if (view) {
+        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
+        if (nltView || markdownView) {
           if (!checking) {
-            this.app.workspace.trigger(
-              EVENT_COLUMN_DELETE,
-              view.leaf
-            );
+            this.app.workspace.trigger(EVENT_COLUMN_DELETE);
           }
           return true;
         }
@@ -52939,11 +55703,11 @@ var NLTPlugin = class extends import_obsidian11.Plugin {
       name: "Add row",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Enter" }],
       checkCallback: (checking) => {
-        const view = this.app.workspace.getActiveViewOfType(NLTView);
-        if (view) {
-          if (!checking) {
-            this.app.workspace.trigger(EVENT_ROW_ADD, view.leaf);
-          }
+        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
+        if (nltView || markdownView) {
+          if (!checking)
+            this.app.workspace.trigger(EVENT_ROW_ADD);
           return true;
         }
         return false;
@@ -52954,10 +55718,41 @@ var NLTPlugin = class extends import_obsidian11.Plugin {
       name: "Delete row",
       hotkeys: [{ modifiers: ["Alt", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
-        const view = this.app.workspace.getActiveViewOfType(NLTView);
-        if (view) {
+        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
+        if (nltView || markdownView) {
           if (!checking) {
-            this.app.workspace.trigger(EVENT_ROW_DELETE, view.leaf);
+            this.app.workspace.trigger(EVENT_ROW_DELETE);
+          }
+          return true;
+        }
+        return false;
+      }
+    });
+    this.addCommand({
+      id: "nlt-export-markdown",
+      name: "Export as markdown",
+      checkCallback: (checking) => {
+        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
+        if (nltView || markdownView) {
+          if (!checking) {
+            this.app.workspace.trigger(EVENT_DOWNLOAD_MARKDOWN);
+          }
+          return true;
+        }
+        return false;
+      }
+    });
+    this.addCommand({
+      id: "nlt-export-csv",
+      name: "Export as CSV",
+      checkCallback: (checking) => {
+        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
+        if (nltView || markdownView) {
+          if (!checking) {
+            this.app.workspace.trigger(EVENT_DOWNLOAD_CSV);
           }
           return true;
         }
@@ -52985,6 +55780,12 @@ var NLTPlugin = class extends import_obsidian11.Plugin {
     });
   }
 };
+/* @license
+Papa Parse
+v5.4.1
+https://github.com/mholt/PapaParse
+License: MIT
+*/
 /**
  * @license
  * Lodash <https://lodash.com/>
