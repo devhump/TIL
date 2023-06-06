@@ -2002,3 +2002,413 @@ None
 >>> print(m)
 ```
 ![](assets/Jump%20to%20Python-33.png)
+
+##### IGNORECASE, I
+- re.IGNORECASE 또는 re.I 옵션은 대소문자 구별 없이 매치를 수행할 때 사용하는 옵션이다.
+```python
+>>> p = re.compile('[a-z]', re.I)
+>>> p.match('python')
+<re.Match object; span=(0, 1), match='p'>
+>>> p.match('Python')
+<re.Match object; span=(0, 1), match='P'>
+>>> p.match("PYTHON")
+<re.Match object; span=(0, 1), match='P'>
+```
+- `[a-z]` 정규식은 소문자만을 의미하지만 re.I 옵션으로 대소문자 구별 없이 매치된다.
+
+##### MULTILINE, M
+- re.MULTILINE 또는 re.M 옵션은 메타 문자 `^, $`와 연관된 옵션이다. 
+- `^`는 문자열의 처음을, `$`는 문자열의 마지막을 의미한다.
+- `^python`은 문자열의 처음은 항상 python 으로 시작해야하고, `python$`은 문자열의 마지막은 항상 python으로 끝나야 매치된다는 의미이다. 
+
+```python
+import re
+p = re.compile("^python\s\w+")
+
+data = """python one
+life is too short
+python two
+wou need python
+python three"""
+
+print(p.findall(data))
+```
+- `^python\s\w+` 는 python 이라는 문자열로 시작하고, 그 뒤에 whitespace, 그 뒤에 단어가 와야 한다는 의미이다. 
+
+```python
+['python one']
+```
+- 위 스크립트를 실행하면 다음과 같은 결과를 돌려준다. 
+
+- 하지만 `^` 메타 문자를 문자열 전체의 처음이 아니라 각 라인의 처음으로 인식시키고 싶은 경우, 이때 re.MULTILINE 또는 re.M 옵션을 사용한다.
+
+```python
+import re
+p = re.compile("^python\s\w+", re.MULTILINE)
+
+data = """python one
+life is too short
+python two
+wou need python
+python three"""
+
+print(p.findall(data))
+```
+
+- 위 스크립트의 실행 결과는 아래와 같다. 
+```python
+['python one', 'python two', 'python three']
+```
+- 👉 즉, re.MULTILINE 옵션은 `^, $` 메타문자를 문자열의 각 줄 마다 적용시켜 주는 것이다. 
+
+##### VERBOSE, X
+- 복잡한 정규표현식 문법을 가독성이 좋게 나열하여 표현 할 수 있다. 
+```python
+charref = re.compile(r'&[#](0[0-7]+|[0-9]+|[0-9a-fA-F]+);')
+```
+
+```python
+charref = re.compile(r"""
+&[#]             # start of a numeric entity reference
+(
+	0[0-7]+      # Octal form
+|[0-9]+          # Decimal form
+|[0-9a-fA-F]+    # Hexadecimal form
+)
+;                # trailing semicolon
+""", re.VERBOSE)
+```
+
+- 위 두 문장은 동일한 기능을 한다. 
+- re.VERBOSE 옵션을 사용하면 문자열에 사용된 whitespace는 컴파일할 때 제거된다. ( 단 `[]` 안에 사용한 whitespace는 제외)
+- 그리고 줄 단위로 `#` 기호를 사용하여 주석문을 작성할 수 있다. 
+
+#### 백슬래시 문제 
+```python
+\section
+```
+- 이라는 표현식은
+
+```python
+[\t\n\r\f\v]ection
+```
+- 이라고 해석이 된다. ←`\s`가 이스케이프 코드  `\t\n\r\f\v`로 해석됨
+
+- 따라서
+```python
+\\section
+
+p = re.compile('\\section')
+```
+-  위 처럼 사용해야한다. 
+
+- `\\section` 이라는 문자열을 전달하기 위해선 
+```python
+p = re.compile('\\\\section')
+
+또는
+
+p = re.compile(r'\\section')
+```
+
+- 이처럼 작성해야 한다. 이를 Raw String 규칙이라고 한다. 
+
+
+#### 메타문자
+- 앞에서 살펴본 메타문자 (`+, *, [], {}`)는 매치가 진행될 때 현재 매치되고 있는 문자열의 위치가 변경된다. (***보통 소비된다고 표현함***)
+- 이에 반해 문자열을 소비시키지 않는 (zero-width assertions) 문자에 대해 알아 보자
+
+##### `|`
+- | 메타 문자는 or 과 동일한 의미로 사용된다.
+```python
+>>> p = re.compile("Crow|Servo")
+>>> m = p.match("CrowHello")
+>>> print(m)
+<re.Match object; span=(0, 4), match='Crow'>
+```
+
+##### `^`
+- ^메타 문자는 문자열의 맨 처음과 일치함을 의미한다.
+```python
+>>> print(re.search('^Life', 'Life is too short'))
+<re.Match object; span=(0, 4), match='Life'>
+>>> print(re.search('^Life', 'My Life'))
+None
+```
+
+##### `$`
+- $ 메타문자는 문자열의 끝과 매치함을 의미한다. (^ 문자와 반대)
+```python
+>>> print(re.search('short$', 'Life is too short'))
+<re.Match object; span=(12, 17), match='short'>
+>>> print(re.search('short$', 'Life is too short, you need python'))
+None
+```
+
+- ^또는 $ 문자를 메타 문자가 아닌 문자 그 자체로 매치하고 싶은 경우, `[^], [$]` 처럼 사용하거나 `\^, \$`로 사용하면 된다.
+
+##### `\A`
+- \A는 문자열의 처름과 매치됨을 의미한다. ^ 메타 문자와 동일한 의미이지만, re.MULTILINE 옵션을 사용할 경우에는 다르게 해석된다. re.MULTILINE 옵션을 사용할 경우 ^은 각 줄의 문자열의 처음과 매치되지만, \A는 줄과 상관없이 전체 문자열의 처음하고만 매치된다. 
+
+##### `\Z`
+- \Z 는 문자열의 끝과 매치됨을 의미한다. 이것 역시 \A와 동일하게 re.MULTILINE 옵션을 사용할 경우 $ 메타 문자와는 달리 전체 문자열의 끝과 매치된다.
+
+##### `\b`
+- \b란 단어 구분자(word boundary)이다. 보통 단어는 whitespace에 의해 구분된다.
+```python
+>>> p = re.compile(r'\bclass\b')
+>>> print(p.search('no class at all'))
+<re.Match object; span=(3, 8), match='class'>
+```
+- `'\bclass\b'` 정규식은 앞뒤가 whitespace로 구분된 class 라는 단어와 매치됨을 의미한다. 
+
+```python
+>>> print(p.search('no declassified algorithm'))
+None
+>>> print(p.search('one subclass is'))
+None
+```
+- 위 처럼 whitespace로 구분된 단어가 아니면 매치가 되지 않는다.
+- \b 자체는 백스페이스를 의미하므로 반드시 `r'\bclass\b'` 처럼 맨 앞에 r을 붙여줘야 한다. (raw string을 의미)
+
+##### `\B`
+- \B는 \b와는 반대의 경우다. 즉, whitespace로 구분된 단어가 아닌 경우에만 매치된다. 
+```python
+>>> p = re.compile(r'\Bclass\B')
+>>> print(p.search('no class at all'))
+None
+>>> print(p.search('no declassified algorithm'))
+<re.Match object; span=(5, 10), match='class'>
+>>> print(p.search('one subclass is'))
+None
+```
+
+
+#### 그루핑
+- ABC 문자열이 계속해서 반복되는지 조사하는 정규식을 작성하고 싶다면?
+- 이때, 그루핑(Grouping)이 필요하다. 
+```python
+(ABC)+
+```
+
+- 그룹을 만들어 주는 메타 문자가 바로 `()`이다.
+```python
+>>> p = re.compile('(ABC)+')
+>>> m = p.search('ABCABCABC OK?')
+>>> print(m)
+<re.Match object; span=(0, 9), match='ABCABCABC'>
+>>> print(m.group(0))
+ABCABCABC
+```
+
+```python
+>>> p = re.compile(r'\w+\s+\d+[-]\d+[-]\d+')
+>>> m = p.search("park 010-1234-1234")
+```
+- `'\w+\s+\d+[-]\d+[-]\d+'`은 '이름 + " " +전화번호' 형태의 문자열을 찾는 정규식이다. 이렇게 매치된 문자열 중에서 이름만 뽑아내고 싶다면 어떻게 해야 할까? 
+- 보통 반복되는 문자열을 찾을 때 그룹을 사용하는데, 그룹을 사용하는 보다 큰 이유는 위에서 볼 수 있듯이 매치된 문자열 중에서 특정 부분의 문자열만 뽑아 내기 위해서인 경우가 더 많다. 
+
+```python
+>>> p = re.compile(r'(\w+)\s+\d+[-]\d+[-]\d+')
+>>> m = p.search("park 010-1234-1234")
+>>> print(m.group(1))
+park
+```
+
+- 이름에 해당하는 `\w+` 부분을 그룹 `(\w+)` 으로 만들면 match 객체의 group 메서드를 사용하여 그루핑 된 부분의 문자열만 뽑아 낼 수 있다. 
+- group 메서드의 인덱스는 다음과 같은 의미를 갖는다. 
+
+| group(인덱스) | 설명                           |
+| ------------- | ------------------------------ |
+| group(0)      | 매치된 전체 문자열             |
+| group(1)      | 첫 번째 그룹에 해당하는 문자열 |
+| group(2)      | 두 번째 그룹에 해당하는 문자열 |
+| group(n)      | n 번째 그룹에 해당하는 문자열  |
+
+```python
+>>> p = re.compile(r'(\w+)\s+(\d+[-]\d+[-]\d+)')
+>>> m = p.search("park 010-1234-1234")
+>>> print(m.group(2))
+010-1234-1234
+
+>>> p = re.compile(r'(\w+)\s+((\d+)[-]\d+[-]\d+)')
+>>> m = p.search("park 010-1234-1234")
+>>> print(m.group(3))
+010
+```
+- 위의 두번째 예시처럼 그룹을 중첩되게 사용하는 것도 가능하며, 이 경우 바깥쪽부터 시작하여 안쪽으로 들어갈 수록 인덱스가 증가한다. 
+
+###### 그루핑된 문자열 재참조 하기 
+- 그룹의 또 하나 좋은 점은 한번 그루핑한 문자열을 재참조(Backreference) 할 수 있다는 점이다. 
+```python
+>>> p = re.compile(r'(\b\w+)\s+\1')
+>>> p.search('Paris in the the spring').group()
+'the the'
+```
+- 정규식 `'(\b\w+)\s+\1'` 은 '(그룹) + " " + 그룹과 동일한 단어'와 매치됨을 의미한다. 이렇게 정규식을 만들게 되면 2개의 동일한 단어를 연속적으로 사용해야만 매치가 된다. 
+- 이것을 가능하게 해주는 것이 바로 재참조 메타 문자인 `\1`이다. 
+- `\1`은 정규식의 그룹 중 첫번째 그룹을 가리킨다.
+
+##### 그루핑된 문자열에 이름 붙이기 
+- 정규식 안에 그룹이 많아진다면, 사용하는데 굉장히 번거로울 것이다. 따라서 그룹을 인덱스가 아닌 이름(Named Group)으로 참조할 수 있게 했다. 
+```python
+(?P<name>\w+)\s+((\d+)[-]\d+[-]\d+)
+```
+
+- 참조하는 예시
+```python
+>>> p = re.compile(r"(?P<name>\w+)\s+((\d+)[-]\d+[-]\d+)")
+>>> m = p.search("park 010-1234-1234")
+>>> print(m.group("name"))
+park
+```
+
+- 재참조 하는 예시
+```python
+>>> p = re.compile(r'(?P<word>\b\w+)\s+(?P=word)')
+>>> p.search("Paris in the the spring").group()
+'the the'
+```
+- 👉 재참조 시에는 ***(?P=그룹이름)*** 이라는 확장 구문을 사용해야 한다.
+
+
+#### 전방 탐색
+```python
+>>> p = re.compile(".+:")
+>>> m = p.search("http://google.com")
+>>> print(m.group())
+http:
+```
+
+- 정규식 ".+:" 과 일치하는 문자열로 http: 를 돌려주었다. 만약 http: 라는 검색 결과에서 :를 제외하고 출력하려면 어떻게 해야 할까? 위 예는 그나마 간단하지만 훨씬 더 복잡한 정규식이어서 그루핑을 추가로 할 수 없다는 조건까지 더해진다면 어떻게 해야할까? 
+
+- 이럴 때 사용할 수 있는 것이 바로 전방 탐색이다. 전방 탐색에는 긍정(Positive)와 부정(Negative)의 2종류가 있고 다음과 같이 표현한다. 
+
+| 정규식    | 종류             | 설명                                                                                            |
+| --------- | ---------------- | ----------------------------------------------------------------------------------------------- |
+| `(?=...)` | 긍정형 전방 탐색 | ... 에 해당하는 정규식과 매치되어야 하며, <br> 조건이 통과되어도 문자열이 소비되지 않는다.      |
+| `(?!...)` | 부정형 전방 탐색 | ... 에 해당하는 정규식과 매치되지 않아야 하며, <br> 조건이 통과되어도 문자열이 소비되지 않는다. |
+
+
+#### 긍정형 전방탐색
+- 긍정형 전방 탐색을 사용하면 http:의 결과를 http로 바꿀 수 있다. 
+```python
+>>> p = re.compile(".+(?=:)")
+>>> m = p.search("http://google.com")
+>>> print(m.group())
+http
+```
+
+- 정규식중 :에 해당하는 부분에 긍정형 전방탐색 기법을 적용하여 (?=:)로 변경하였다. 
+- 이렇게 되면 기존 정규식과 검색에서는 동일한 효과를 발휘하지만, :에 해당하는 문자열이 정규식 엔진에 의해 소비되지 않아 (검색에는 포함되지만 검색 결과에는 제외됨) 검색 결과에서는 :이 제거된 후 돌려주는 효과가 있다. 
+
+
+```python
+.*[.].*$
+```
+- 이 정규식은 '파일 이름 + . + 확장자'를 나타내는 정규식이다. 
+	- 이 정규식은 'foo.bar, autoexec.bat, sendmail.cf' 같은 형식의 파일과 매치 될 것이다. 
+- 이 정규식에 확장자가 'bat인 파일은 제외해야 한다'는 조건을 추가해 보자. 
+```python
+.*[.][^b].*$
+```
+- 이 정규식은 확장자가 b라는 문자로 시작하면 안 된다는 의미이다. 하지만 이 정규식은 'foo.bar'라는 파일 마저 걸러낸다. 
+
+```python
+.*[.]([^b]..|.[^a].|..[^t])$
+```
+- 이 정규식은 | 메타 문자를 사용하여 확장자의 첫번째 문자가 b가 아니거나 두번째 문자가 a가 아니거나 세번째 문자가 t가 아닌 경우를 의미한다. 
+- 이 정규식으로는 foo.bar는 제외되지 않고, autoexec.bat 은 제외되지만, sendmail.cf 같은 확장자의 개수가 2개인 케이스는 포함하지 못한다. 
+
+```python
+.*[.]([^b].?.?|.[^a]?.?|..?[^t]?)$
+```
+
+- 확장자가 2개여도 통과되는 정규식이 만들어졌다. 하지만 정규식은 점점 더 복잡해지고 이해하기 어려워 졌다. 
+- 그런데 여기에서 bat 파일 말고 exe 파일도 제외하라는 조건이 추가로 생긴다면 어떻게 될까? 이 모든 조건을 만족하는 정규식을 구현하려면 패턴은 더욱더 복잡해 질 것이다. 
+
+#### 부정형 전방 탐색
+- 이런 상황에서 부정형 전방 탐색을 사용할 수 있다. 
+```python
+.*[.](?!bat$).*$
+```
+- 확장자가 bat가 아닌 경우에만 통과 된다는 의미이다. bat 문자열이 있는지 조사하는 과정에서 문자열이 소비되지 않으므로 bat가 아니라고 판단되면 그 이후 정규식 매치가 진행된다. 
+
+- exe 역시 제외하라는 조건이 추가되더라도 다음과 같이 간단히 표현할 수 있다.
+```python
+.*[.](?!bat$|exe$).*$
+```
+
+
+#### 문자열 바꾸기
+- sub 메서드를 사용하면 정규식과 매치되는 부분을 다른 문자로 쉽게 바꿀 수 있다. 
+```python
+>>> p = re.compile('(blue|white|red)')
+>>> p.sub('colour', 'blue socks and red shoes')
+'colour socks and colour shoes'
+```
+
+- sub 메서드의 첫번째 매개변수는 '바꿀 문자열(replacement)'이 되고, 두번째 매개변수는 '대상 문자열'이 된다. 
+- 만약, 바꾸는 횟수를 지정하고 싶으면 세번째 매개변수로 count 값을 넘기면 된다.
+
+```python
+>>> p.sub('colour', 'blue socks and red shoes', count=1)
+'colour socks and red shoes'
+```
+
+##### subn
+- subn 역시 sub와 동일한 기능을 하지만, 반환 결과를 튜플로 돌려준다는 차이가 있다. 돌려준 첫번째 요소는 변경된 문자열이고, 두번째 요소는 바꾸기가 발생한 횟수이다. 
+```python
+>>> p = re.compile('(blue|white|red)')
+>>> p.subn('colour', 'blue socks and red shoes')
+('colour socks and colour shoes', 2)
+```
+
+##### sub 메서드 사용할 때 참조 구문 사용하기 
+```python
+>>> p = re.compile(r"(?P<name>\w+)\s+(?P<phone>(\d+)[-]\d+[-]\d+)")
+>>> print(p.sub("\g<phone> \g<name>", "park 010-1234-1234"))
+010-1234-1234 park
+```
+- 위 예제는 '\g<그룹이름>'으로 정규식의 그룹 이름을 참조했다. 
+
+```python
+>>> p = re.compile(r"(?P<name>\w+)\s+(?P<phone>(\d+)[-]\d+[-]\d+)")
+>>> print(p.sub("\g<2> \g<1>", "park 010-1234-1234"))
+010-1234-1234 park
+```
+- 참조 번호를 사용해도 동일한 결과를 돌려준다.
+
+##### sub 메서드의 매개변수로 함수 넣기
+```python
+>>> def hexrepl(match):
+	... "Return the hex string for a decimal number"
+	... value = int(match.group())
+	... return hex(value)
+
+>>> p = re.compile(r'\d+')
+>>> p.sub(hexreplm, "Call 65490 for printingm 49152 for user code.")
+'Call 0xffd2 for printingm 0xc000 for user code.'
+```
+
+
+#### Greedy vs Non-Greedy
+- 정규식에서 Greedy란 어떤 의미일까? 
+```python
+>>> s = '<html><head><title>Title</title>'
+>>> len(s)
+32
+>>> print(re.match('<.*>', s).span())
+(0, 32)
+>>> print(re.match('<.*>', s).group())
+<html><head><title>Title</title>
+```
+
+- `'<.*>'`  정규식의 매치 결과로 `<html>` 문자열을 돌려주기를 기대했을 것이다. 하지만 `*` 메타 문자는 매우 탐욕스러워서 매치할 수 있는 최대한의 문자열인  `<html><head><title>Title</title>` 문자열을 모두 소비해 버렸다. 어떻게 하면 이 탐욕스러움을 제한하고 `<html>` 문자열 까지만 소비하도록 막을 수 있을까> 
+
+- 다음과 같이 non-greedy 문자인 `?`를 사용하면 `*` 의 탐욕을 제한 할 수 있다. 
+```python
+>>> print(re.match('<.*?>', s).group())
+<html>
+```
+- non-greedy 문자인 `?`는 `*?, +?, ??, {m,n}?` 와 같이 사용할 수 있다. 가능한 가장 최소한의 반복을 수행하도록 도와주는 역할을 한다. 
