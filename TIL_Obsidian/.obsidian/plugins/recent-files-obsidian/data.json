@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux note",
+      "path": "IT & SC Basic/Linux note.md"
+    },
+    {
       "basename": "Jump to Python",
       "path": "Jump to Python.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "IT & SC Basic/개발 관련 IT 용어 정리.md"
     },
     {
-      "basename": "Linux note",
-      "path": "IT & SC Basic/Linux note.md"
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "IT & SC Basic/assets/개발 관련 IT 용어 정리.png"
+    },
+    {
+      "basename": "(regex)-1",
+      "path": "IT & SC Basic/assets/(regex)-1.png"
+    },
+    {
+      "basename": "(regex)",
+      "path": "IT & SC Basic/assets/(regex).png"
+    },
+    {
+      "basename": "XML, JSON, YAML, AJAX",
+      "path": "IT & SC Basic/XML, JSON, YAML, AJAX.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "SWEA_1979 어디에 단어가 들어갈 수 있을까",
@@ -59,26 +79,6 @@
     {
       "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
       "path": "Algo Solving/다양한 방법으로 정렬하기 (BOJ_1931).md"
-    },
-    {
-      "basename": "델타 탐색 문제",
-      "path": "Algo Solving/델타 탐색 문제.md"
-    },
-    {
-      "basename": "무방향 & 유방향 그래프 표현하기",
-      "path": "Algo Solving/무방향 & 유방향 그래프 표현하기.md"
-    },
-    {
-      "basename": "문자열 치환 하기",
-      "path": "Algo Solving/문자열 치환 하기.md"
-    },
-    {
-      "basename": "시뮬레이션",
-      "path": "Algo Solving/시뮬레이션.md"
-    },
-    {
-      "basename": "BFS & DFS 실전 문제 풀이",
-      "path": "Algo Solving/BFS & DFS 실전 문제 풀이.md"
     }
   ],
   "omittedPaths": [

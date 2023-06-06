@@ -34,9 +34,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "868dce72d4718d98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT & SC Basic/Linux note.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 305.5
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -118,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jump to Python.md",
+                "file": "IT & SC Basic/Linux note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jump to Python.md",
+                "file": "IT & SC Basic/Linux note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jump to Python.md"
+                "file": "IT & SC Basic/Linux note.md"
               }
             }
           },
@@ -191,21 +204,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92b30d0b398529ad",
+  "active": "868dce72d4718d98",
   "lastOpenFiles": [
-    "devhump's TIL Index.md",
-    "IT & SC Basic/Linux note.md",
     "Jump to Python.md",
+    "IT & SC Basic/Linux note.md",
+    "IT & SC Basic/개발 관련 IT 용어 정리.md",
+    "IT & SC Basic/assets/개발 관련 IT 용어 정리.png",
+    "IT & SC Basic/assets/(regex)-1.png",
+    "IT & SC Basic/assets/(regex).png",
+    "IT & SC Basic/XML, JSON, YAML, AJAX.md",
+    "IT & SC Basic/assets/Linux note-18.png",
+    "IT & SC Basic/assets/Linux note-17.png",
+    "IT & SC Basic/assets/Linux note-16.png",
+    "devhump's TIL Index.md",
     "assets/Jump to Python-33.png",
     "assets/Jump to Python-32.png",
     "assets/Jump to Python-31.png",
     "assets/Jump to Python-30.png",
-    "assets/Jump to Python-29.png",
-    "assets/Jump to Python-28.png",
-    "assets/Jump to Python-27.png",
-    "assets/Jump to Python-26.png",
-    "assets/Jump to Python-25.png",
-    "assets/Jump to Python-24.png",
     "Algo Solving/SWEA/SWEA_1979 어디에 단어가 들어갈 수 있을까.md",
     "무제 파일.md",
     "Algo Solving/SWEA/SWEA_1220 Magnetic.md",
@@ -230,7 +245,6 @@
     "KDT/Django/16. Many to many relationship (User-User).md",
     "KDT/Django/15. Many to many relationship.md",
     "KDT/Django/07. Django ModelForm.md",
-    "KDT/Django/06. UPDATE.md",
     "_others_/vscode_shortcuts_(mac).pdf",
     "IT & SC Basic/assets",
     "IT & SC Basic"
