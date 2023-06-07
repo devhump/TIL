@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux note",
-      "path": "IT & SC Basic/Linux note.md"
-    },
-    {
       "basename": "Jump to Python",
       "path": "Jump to Python.md"
+    },
+    {
+      "basename": "04. 리스트(List)",
+      "path": "KDT/Data structure/04. 리스트(List).md"
+    },
+    {
+      "basename": "Linux note",
+      "path": "IT & SC Basic/Linux note.md"
     },
     {
       "basename": "개발 관련 IT 용어 정리",
@@ -67,10 +71,6 @@
     {
       "basename": "SWEA_1217 거듭제곱",
       "path": "Algo Solving/SWEA/SWEA_1217 거듭제곱.md"
-    },
-    {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
     },
     {
       "basename": "BOJ_9455 박스",
