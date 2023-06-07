@@ -34,48 +34,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "868dce72d4718d98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT & SC Basic/Linux note.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76e513bb4bab8aab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Data structure/04. 리스트(List).md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38c82b9397aace1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jump to Python.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,12 +90,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 200
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -231,11 +191,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "38c82b9397aace1f",
+  "active": "92b30d0b398529ad",
   "lastOpenFiles": [
-    "KDT/Data structure/04. 리스트(List).md",
-    "IT & SC Basic/Linux note.md",
+    "점프 투 파이썬- 코딩 면허 시험 20.md",
     "Jump to Python.md",
+    "IT & SC Basic/Linux note.md",
+    "KDT/Data structure/04. 리스트(List).md",
     "IT & SC Basic/개발 관련 IT 용어 정리.md",
     "IT & SC Basic/assets/개발 관련 IT 용어 정리.png",
     "IT & SC Basic/assets/(regex)-1.png",
@@ -250,7 +211,6 @@
     "assets/Jump to Python-31.png",
     "assets/Jump to Python-30.png",
     "Algo Solving/SWEA/SWEA_1979 어디에 단어가 들어갈 수 있을까.md",
-    "무제 파일.md",
     "Algo Solving/SWEA/SWEA_1220 Magnetic.md",
     "Algo Solving/SWEA/assets",
     "Algo Solving/SWEA",
