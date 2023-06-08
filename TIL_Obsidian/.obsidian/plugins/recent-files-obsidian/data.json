@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "파이썬 특강 (22.07.15)",
+      "path": "KDT/Python/파이썬 특강 (22.07.15).md"
+    },
+    {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+    },
+    {
       "basename": "Jump to Python",
       "path": "Jump to Python.md"
     },
@@ -71,10 +79,6 @@
     {
       "basename": "SWEA_1217 거듭제곱",
       "path": "Algo Solving/SWEA/SWEA_1217 거듭제곱.md"
-    },
-    {
-      "basename": "BOJ_9455 박스",
-      "path": "Algo Solving/BOJ_9455 박스.md"
     }
   ],
   "omittedPaths": [
