@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
+    },
+    {
       "basename": "Jump to Python",
       "path": "Jump to Python.md"
     },
@@ -41,10 +49,6 @@
       "path": "IT & SC Basic/XML, JSON, YAML, AJAX.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
       "basename": "SWEA_1979 어디에 단어가 들어갈 수 있을까",
       "path": "Algo Solving/SWEA/SWEA_1979 어디에 단어가 들어갈 수 있을까.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "code (1)",
       "path": "Algo Solving/assets/code (1).png"
-    },
-    {
-      "basename": "SWEA_1217 거듭제곱",
-      "path": "Algo Solving/SWEA/SWEA_1217 거듭제곱.md"
     }
   ],
   "omittedPaths": [
