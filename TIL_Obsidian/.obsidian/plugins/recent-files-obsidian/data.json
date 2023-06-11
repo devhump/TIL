@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MDN_CSS",
+      "path": "MDN/MDN_CSS.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "code2",
       "path": "Algo Solving/assets/code2.png"
-    },
-    {
-      "basename": "code (1)",
-      "path": "Algo Solving/assets/code (1).png"
     }
   ],
   "omittedPaths": [
