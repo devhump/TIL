@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "MDN_CSS",
-      "path": "MDN/MDN_CSS.md"
+      "basename": "CSV 파일로 데이터 다루기",
+      "path": "CSV 파일로 데이터 다루기.md"
+    },
+    {
+      "basename": "DoitPython2",
+      "path": "DoitPython2.md"
+    },
+    {
+      "basename": "Jump to Python",
+      "path": "Jump to Python.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
+      "basename": "MDN_CSS",
+      "path": "MDN/MDN_CSS.md"
     },
     {
-      "basename": "Jump to Python",
-      "path": "Jump to Python.md"
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
     },
     {
       "basename": "파이썬 특강 (22.07.15)",
@@ -71,14 +79,6 @@
     {
       "basename": "SWEA_1928 Base64 Decoder-1",
       "path": "Algo Solving/SWEA/assets/SWEA_1928 Base64 Decoder-1.png"
-    },
-    {
-      "basename": "code",
-      "path": "Algo Solving/assets/code.png"
-    },
-    {
-      "basename": "code2",
-      "path": "Algo Solving/assets/code2.png"
     }
   ],
   "omittedPaths": [
