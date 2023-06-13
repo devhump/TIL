@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "CSV 파일로 데이터 다루기",
-      "path": "CSV 파일로 데이터 다루기.md"
+      "basename": "05. 다양한 패키지로 데이터 분석하기",
+      "path": "05. 다양한 패키지로 데이터 분석하기.md"
     },
     {
       "basename": "DoitPython2",
       "path": "DoitPython2.md"
     },
     {
-      "basename": "Jump to Python",
-      "path": "Jump to Python.md"
-    },
-    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "CSV 파일로 데이터 다루기",
+      "path": "CSV 파일로 데이터 다루기.md"
+    },
+    {
+      "basename": "Jump to Python",
+      "path": "Jump to Python.md"
     },
     {
       "basename": "MDN_CSS",
@@ -75,10 +79,6 @@
     {
       "basename": "SWEA_1974 스도쿠 검증",
       "path": "Algo Solving/SWEA/assets/SWEA_1974 스도쿠 검증.png"
-    },
-    {
-      "basename": "SWEA_1928 Base64 Decoder-1",
-      "path": "Algo Solving/SWEA/assets/SWEA_1928 Base64 Decoder-1.png"
     }
   ],
   "omittedPaths": [

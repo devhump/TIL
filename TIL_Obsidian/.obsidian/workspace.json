@@ -23,46 +23,33 @@
             }
           },
           {
-            "id": "4d281190c7f357d1",
+            "id": "a3319da9548e92be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jump to Python.md",
-                "mode": "preview",
+                "file": "05. 다양한 패키지로 데이터 분석하기.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "60f65ae464d20f04",
+            "id": "c1003e18579204ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "DoitPython2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a568ce634c59ccc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSV 파일로 데이터 다루기.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSV 파일로 데이터 다루기.md",
+                "file": "05. 다양한 패키지로 데이터 분석하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSV 파일로 데이터 다루기.md",
+                "file": "05. 다양한 패키지로 데이터 분석하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSV 파일로 데이터 다루기.md"
+                "file": "05. 다양한 패키지로 데이터 분석하기.md"
               }
             }
           },
@@ -217,18 +204,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a568ce634c59ccc4",
+  "active": "a3319da9548e92be",
   "lastOpenFiles": [
     "DoitPython2.md",
-    "Jump to Python.md",
+    "devhump's TIL Index.md",
+    "05. 다양한 패키지로 데이터 분석하기.md",
     "CSV 파일로 데이터 다루기.md",
+    "Jump to Python.md",
     "assets/DoitPython2-4.png",
     "assets/DoitPython2-3.png",
     "assets/DoitPython2-2.png",
     "assets/DoitPython2-1.png",
     "assets/DoitPython2.png",
     "assets/DoitPython2-5.png",
-    "devhump's TIL Index.md",
     "MDN/MDN_CSS.md",
     "더 공부해 볼 주제.md",
     "KDT/Python/파이썬 특강 (22.07.15).md",
@@ -257,7 +245,6 @@
     "Algo Solving/SWEA/SWEA_1974 스도쿠 검증.md",
     "Algo Solving/SWEA/SWEA_1928 Base64 Decoder.md",
     "assets",
-    "KDT/Data structure/06. 딕셔너리(Dictionary).md",
     "_others_/vscode_shortcuts_(mac).pdf",
     "IT & SC Basic/assets",
     "IT & SC Basic"

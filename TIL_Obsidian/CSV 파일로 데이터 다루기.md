@@ -126,7 +126,7 @@ Songpagu,"677,489","6,849","86,062"
 Gangdonggu,"426,219","4,303","61,710"
 ```
 
-
+#### CSV 파일을 읽어 가공하기
 ```python
 >>> import os, re
 >>> import usecsv
@@ -171,4 +171,76 @@ def swithch(listName):
 			except:
 				pass
 	return listName
+```
+
+##### 구별 외국인 비율 구하기
+```python
+>>> import os, re, usecsv
+>>> os.getcwd()
+>>> total = usecsv.opencsv('popSeoul.csv')
+>>> newPop = usecsv.switch(total)
+>>> print(newPop[:4])
+```
+
+```python
+>>> new = [['구', '한국인', '외국인', '외국인 비율(%)']]
+>>> for i in newPop:
+>>> 	foreign = 0
+>>> 	try:
+>>> 		foreign = round(i[2]/(i[1]+i[2]) * 100, 1)
+>>> 		if foreign > 3:
+>>> 			new.append([i[0], i[1], i[2], foreign])
+>>> 	except:
+>>> 		pass
+
+>>> usecsv.writecsv('newPop.csv',new)
+```
+
+##### 실제 데이터를 활용한 데이터 가공 (아파트 실 매매가)
+```python
+# 데이터 파일 불러오기
+>>> import os, re
+>>> import usecsv
+>>> apt = usecsv.switch(usecsv.opencsv('apt_2023.csv'))
+# 확인
+>>> apt[:3]
+>>> len(apt)
+
+# 새로운 리스트에 저장
+>>> new_list
+>>> for i in apt:
+		try:
+			if i[5] > 120 and i[-7] >= 30000 and re.match('강원', i[0]):
+				new_list.append([i[0], i[4], i[-7]])
+		except: pass
+# 결과값 새 파일에 저장
+>>> usecsv.writecsv('result.csv', new_list)
+```
+
+#### pip를 이용한 구글 번역
+```shell
+$ pip install googletrans
+```
+
+#### 소설 문장 CSV 파일로 저장하기
+```python
+import re, usecsv, os
+
+English = 'She is a vegetarian. She does not eat meat. She thinks that animals should not be killed. It is hard for her to hang out with people. Many people like to eat meat. She told his parents not to have meat. They laughed at her. She realized they couldn\'t give up meat.'
+
+Korean = '그녀는 채식주의자입니다. 그녀는 고기를 먹지 않습니다. 그녀는 동물을 죽이지 말아야한다고 생각합니다. 그녀가 사람들과 어울리는 것은 어렵습니다. 많은 사람들이 고기를 좋아합니다. 그녀는 부모에게 고기를 먹지 말라고 말했습니다. 그들은 그녀를 비웃었다. 그녀는 그들이 고기를 포기할 수 없다는 것을 깨달았습니다. '
+
+os.chdir(r'C:\Users\Ramy\Desktop\test')
+
+Korean_list = re.split('\.', Korean)
+English_list = re.split('\.', English)
+
+print(Korean_list) # 제대로 작동하는지 테스트용
+
+total = []
+
+for i in range(len(English_list)):
+	total.append([English_list[i], Korean_list[i]])
+
+usecsv.writecsv("Korean_English.csv", total)
 ```
