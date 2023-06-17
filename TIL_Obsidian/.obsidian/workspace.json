@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "f527c730977120f6",
+            "id": "9d6db4ded6bdee4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05. 다양한 패키지로 데이터 분석하기.md",
+                "file": "Python/Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05. 다양한 패키지로 데이터 분석하기.md",
+                "file": "Python/Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05. 다양한 패키지로 데이터 분석하기.md",
+                "file": "Python/Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05. 다양한 패키지로 데이터 분석하기.md"
+                "file": "Python/Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md"
               }
             }
           },
@@ -192,49 +191,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f527c730977120f6",
+  "active": "9d6db4ded6bdee4b",
   "lastOpenFiles": [
-    "DoitPython2.md",
     "devhump's TIL Index.md",
-    "05. 다양한 패키지로 데이터 분석하기.md",
-    "CSV 파일로 데이터 다루기.md",
-    "Jump to Python.md",
-    "assets/DoitPython2-4.png",
-    "assets/DoitPython2-3.png",
-    "assets/DoitPython2-2.png",
-    "assets/DoitPython2-1.png",
-    "assets/DoitPython2.png",
-    "assets/DoitPython2-5.png",
+    "Python/Jump to Python/01. 문자열 포매팅.md",
+    "Python/Jump to Python/08. 외장함수.md",
+    "Python/Jump to Python/07. 내장 함수.md",
+    "Python/반올림, 내림, 올림(python).md",
+    "Python/Do it! 파이썬 생활 프로그래밍/05. 다양한 패키지로 데이터 분석하기.md",
+    "Python/Do it! 파이썬 생활 프로그래밍/04. CSV 파일로 데이터 다루기.md",
+    "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md",
+    "Python/Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md",
+    "Python/Jump to Python/10. 정규표현식.md",
+    "Python/Jump to Python/09. 실습편.md",
+    "Python/Jump to Python/06. 예외처리.md",
+    "Python/Jump to Python/05. 모듈 & 패키지.md",
+    "Python/Jump to Python/04. 클래스.md",
+    "Python/Jump to Python/03. 제어문 & 프로그램 입출력.md",
+    "Python/Jump to Python/02. 기초자료형.md",
+    "Python/Jump to Python",
+    "Python/Do it! 파이썬 생활 프로그래밍/assets/DoitPython2.png",
+    "Python/Do it! 파이썬 생활 프로그래밍/assets/DoitPython2-5.png",
+    "Python/Do it! 파이썬 생활 프로그래밍/assets/DoitPython2-4.png",
+    "Python/Do it! 파이썬 생활 프로그래밍/assets/DoitPython2-3.png",
+    "Python/Do it! 파이썬 생활 프로그래밍/assets/DoitPython2-2.png",
+    "Python/Do it! 파이썬 생활 프로그래밍/assets/DoitPython2-1.png",
+    "Python/Do it! 파이썬 생활 프로그래밍/assets/05. 다양한 패키지로 데이터 분석하기.png",
+    "Python/Do it! 파이썬 생활 프로그래밍/assets/05. 다양한 패키지로 데이터 분석하기-1.png",
+    "Python/Do it! 파이썬 생활 프로그래밍/assets",
+    "Python/Do it! 파이썬 생활 프로그래밍",
+    "assets/05. 다양한 패키지로 데이터 분석하기.png",
+    "Do it! 파이썬 생활 프로그래밍/assets/DoitPython2-4.png",
+    "Do it! 파이썬 생활 프로그래밍/assets",
+    "Do it! 파이썬 생활 프로그래밍/새 폴더",
+    "Do it! 파이썬 생활 프로그래밍/Do it 파이썬 생활 프로그래밍.md",
+    "Do it! 파이썬 생활 프로그래밍/04. CSV 파일로 데이터 다루기.md",
+    "Do it! 파이썬 생활 프로그래밍",
+    "Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md",
+    "Do it! 파이썬 생활 프로그래밍/05. 다양한 패키지로 데이터 분석하기.md",
     "MDN/MDN_CSS.md",
     "더 공부해 볼 주제.md",
     "KDT/Python/파이썬 특강 (22.07.15).md",
     "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
     "점프 투 파이썬- 코딩 면허 시험 20.md",
     "IT & SC Basic/Linux note.md",
-    "KDT/Data structure/04. 리스트(List).md",
-    "IT & SC Basic/개발 관련 IT 용어 정리.md",
-    "IT & SC Basic/assets/개발 관련 IT 용어 정리.png",
-    "IT & SC Basic/assets/(regex)-1.png",
-    "IT & SC Basic/assets/(regex).png",
-    "IT & SC Basic/XML, JSON, YAML, AJAX.md",
-    "IT & SC Basic/assets/Linux note-18.png",
-    "Algo Solving/SWEA/SWEA_1979 어디에 단어가 들어갈 수 있을까.md",
-    "Algo Solving/SWEA/SWEA_1220 Magnetic.md",
     "Algo Solving/SWEA/assets",
     "Algo Solving/SWEA",
-    "Algo Solving/SWEA/SWEA_1217 거듭제곱.md",
-    "Algo Solving/BOJ_9455 박스.md",
-    "Algo Solving/다양한 방법으로 정렬하기 (BOJ_1931).md",
-    "Algo Solving/델타 탐색 문제.md",
-    "Algo Solving/무방향 & 유방향 그래프 표현하기.md",
-    "Algo Solving/문자열 치환 하기.md",
-    "Algo Solving/시뮬레이션.md",
-    "Algo Solving/BFS & DFS 실전 문제 풀이.md",
-    "Algo Solving/SWEA/SWEA_1974 스도쿠 검증.md",
-    "Algo Solving/SWEA/SWEA_1928 Base64 Decoder.md",
-    "assets",
-    "_others_/vscode_shortcuts_(mac).pdf",
-    "IT & SC Basic/assets",
-    "IT & SC Basic"
+    "Python/Jump to Python/assets",
+    "_others_/vscode_shortcuts_(mac).pdf"
   ]
 }

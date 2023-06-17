@@ -1,24 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "05. 다양한 패키지로 데이터 분석하기",
-      "path": "05. 다양한 패키지로 데이터 분석하기.md"
-    },
-    {
-      "basename": "DoitPython2",
-      "path": "DoitPython2.md"
+      "basename": "06. 웹 크롤링",
+      "path": "Python/Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
     {
-      "basename": "CSV 파일로 데이터 다루기",
-      "path": "CSV 파일로 데이터 다루기.md"
+      "basename": "01. 문자열 포매팅",
+      "path": "Python/Jump to Python/01. 문자열 포매팅.md"
     },
     {
-      "basename": "Jump to Python",
-      "path": "Jump to Python.md"
+      "basename": "08. 외장함수",
+      "path": "Python/Jump to Python/08. 외장함수.md"
+    },
+    {
+      "basename": "07. 내장 함수",
+      "path": "Python/Jump to Python/07. 내장 함수.md"
+    },
+    {
+      "basename": "반올림, 내림, 올림(python)",
+      "path": "Python/반올림, 내림, 올림(python).md"
+    },
+    {
+      "basename": "05. 다양한 패키지로 데이터 분석하기",
+      "path": "Python/Do it! 파이썬 생활 프로그래밍/05. 다양한 패키지로 데이터 분석하기.md"
+    },
+    {
+      "basename": "04. CSV 파일로 데이터 다루기",
+      "path": "Python/Do it! 파이썬 생활 프로그래밍/04. CSV 파일로 데이터 다루기.md"
+    },
+    {
+      "basename": "01~03. Do it 파이썬 생활 프로그래밍",
+      "path": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md"
+    },
+    {
+      "basename": "10. 정규표현식",
+      "path": "Python/Jump to Python/10. 정규표현식.md"
+    },
+    {
+      "basename": "09. 실습편",
+      "path": "Python/Jump to Python/09. 실습편.md"
+    },
+    {
+      "basename": "06. 예외처리",
+      "path": "Python/Jump to Python/06. 예외처리.md"
+    },
+    {
+      "basename": "05. 모듈 & 패키지",
+      "path": "Python/Jump to Python/05. 모듈 & 패키지.md"
+    },
+    {
+      "basename": "04. 클래스",
+      "path": "Python/Jump to Python/04. 클래스.md"
+    },
+    {
+      "basename": "03. 제어문 & 프로그램 입출력",
+      "path": "Python/Jump to Python/03. 제어문 & 프로그램 입출력.md"
+    },
+    {
+      "basename": "02. 기초자료형",
+      "path": "Python/Jump to Python/02. 기초자료형.md"
     },
     {
       "basename": "MDN_CSS",
@@ -35,50 +79,6 @@
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
       "path": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "Linux note",
-      "path": "IT & SC Basic/Linux note.md"
-    },
-    {
-      "basename": "04. 리스트(List)",
-      "path": "KDT/Data structure/04. 리스트(List).md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "IT & SC Basic/개발 관련 IT 용어 정리.md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "IT & SC Basic/assets/개발 관련 IT 용어 정리.png"
-    },
-    {
-      "basename": "(regex)-1",
-      "path": "IT & SC Basic/assets/(regex)-1.png"
-    },
-    {
-      "basename": "(regex)",
-      "path": "IT & SC Basic/assets/(regex).png"
-    },
-    {
-      "basename": "XML, JSON, YAML, AJAX",
-      "path": "IT & SC Basic/XML, JSON, YAML, AJAX.md"
-    },
-    {
-      "basename": "SWEA_1979 어디에 단어가 들어갈 수 있을까",
-      "path": "Algo Solving/SWEA/SWEA_1979 어디에 단어가 들어갈 수 있을까.md"
-    },
-    {
-      "basename": "SWEA_1928 Base64 Decoder",
-      "path": "Algo Solving/SWEA/assets/SWEA_1928 Base64 Decoder.png"
-    },
-    {
-      "basename": "SWEA_1220 Magnetic",
-      "path": "Algo Solving/SWEA/SWEA_1220 Magnetic.md"
-    },
-    {
-      "basename": "SWEA_1974 스도쿠 검증",
-      "path": "Algo Solving/SWEA/assets/SWEA_1974 스도쿠 검증.png"
     }
   ],
   "omittedPaths": [
