@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "06. 웹 크롤링",
-      "path": "Python/Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md"
+      "basename": "JS 기본2",
+      "path": "JS/JS 기본2.md"
+    },
+    {
+      "basename": "JS 기본1",
+      "path": "JS/JS 기본1.md"
     },
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "09. ECMA Script",
+      "path": "KDT/Web/09. ECMA Script.md"
+    },
+    {
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown & git/markdown (마크다운) +.md"
+    },
+    {
+      "basename": "08. Javascript",
+      "path": "KDT/Web/08. Javascript.md"
+    },
+    {
+      "basename": "06. 웹 크롤링",
+      "path": "Python/Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md"
     },
     {
       "basename": "01. 문자열 포매팅",
@@ -59,26 +79,6 @@
     {
       "basename": "03. 제어문 & 프로그램 입출력",
       "path": "Python/Jump to Python/03. 제어문 & 프로그램 입출력.md"
-    },
-    {
-      "basename": "02. 기초자료형",
-      "path": "Python/Jump to Python/02. 기초자료형.md"
-    },
-    {
-      "basename": "MDN_CSS",
-      "path": "MDN/MDN_CSS.md"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "파이썬 특강 (22.07.15)",
-      "path": "KDT/Python/파이썬 특강 (22.07.15).md"
-    },
-    {
-      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
-      "path": "IT & SC Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
     }
   ],
   "omittedPaths": [

@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabJs",
       "FabLinux",
       "SiObsidian",
       "👨‍🏫",
@@ -19,8 +20,7 @@
       "📌",
       "FasCode",
       "🧰",
-      "📋",
-      "SiPythonWhite"
+      "📋"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [],
@@ -69,5 +69,9 @@
     "iconName": "SiObsidian",
     "inheritanceIcon": "SiObsidian"
   },
-  "IT & SC Basic/Linux note.md": "FabLinux"
+  "IT & SC Basic/Linux note.md": "FabLinux",
+  "JS": {
+    "iconName": "FabJs",
+    "inheritanceIcon": "FabJs"
+  }
 }
