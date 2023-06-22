@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "JS 기본2",
-      "path": "JS/JS 기본2.md"
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
     },
     {
       "basename": "JS 기본1",
       "path": "JS/JS 기본1.md"
+    },
+    {
+      "basename": "JS 기본2",
+      "path": "JS/JS 기본2.md"
     },
     {
       "basename": "devhump's TIL Index",
@@ -75,10 +79,6 @@
     {
       "basename": "04. 클래스",
       "path": "Python/Jump to Python/04. 클래스.md"
-    },
-    {
-      "basename": "03. 제어문 & 프로그램 입출력",
-      "path": "Python/Jump to Python/03. 제어문 & 프로그램 입출력.md"
     }
   ],
   "omittedPaths": [
