@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "더 공부해 볼 주제.md",
+                "file": "JS/JS 기본2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "더 공부해 볼 주제.md",
+                "file": "JS/JS 기본2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "더 공부해 볼 주제.md",
+                "file": "JS/JS 기본2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "더 공부해 볼 주제.md"
+                "file": "JS/JS 기본2.md"
               }
             }
           },
@@ -194,6 +194,7 @@
   "active": "a5c53713c02323c8",
   "lastOpenFiles": [
     "JS/JS 기본1.md",
+    "더 공부해 볼 주제.md",
     "JS/JS 기본2.md",
     "devhump's TIL Index.md",
     "무제 파일.md",
@@ -235,7 +236,6 @@
     "Do it! 파이썬 생활 프로그래밍/04. CSV 파일로 데이터 다루기.md",
     "Do it! 파이썬 생활 프로그래밍",
     "Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md",
-    "Do it! 파이썬 생활 프로그래밍/05. 다양한 패키지로 데이터 분석하기.md",
     "Algo Solving/SWEA/assets",
     "Algo Solving/SWEA",
     "Python/Jump to Python/assets"
