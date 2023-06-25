@@ -28,8 +28,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/Jump to Django.md",
-                "mode": "source",
+                "file": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 242.5110321044922
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django/Jump to Django.md",
+                "file": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django/Jump to Django.md",
+                "file": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django/Jump to Django.md"
+                "file": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md"
               }
             }
           },
@@ -193,6 +193,9 @@
   },
   "active": "b2fec09aa046b5f4",
   "lastOpenFiles": [
+    "Django/Jump to Django.md",
+    "Django/assets/점프 투 장고.png",
+    "devhump's TIL Index.md",
     "Django/assets/점프 투 장고-9.png",
     "Django/assets/점프 투 장고-8.png",
     "Django/assets/점프 투 장고-7.png",
@@ -202,15 +205,11 @@
     "Django/assets/점프 투 장고-3.png",
     "Django/assets/점프 투 장고-2.png",
     "Django/assets/점프 투 장고-1.png",
-    "Django/assets/점프 투 장고.png",
-    "Django/assets/점프 투 장고-10.png",
     "Django/assets",
     "JS/JS 기본2.md",
-    "Django/Jump to Django.md",
     "Django",
     "JS/JS 기본1.md",
     "더 공부해 볼 주제.md",
-    "devhump's TIL Index.md",
     "무제 파일.md",
     "JS",
     "KDT/Web/09. ECMA Script.md",

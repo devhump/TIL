@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "01~03. Do it 파이썬 생활 프로그래밍",
+      "path": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md"
+    },
+    {
       "basename": "Jump to Django",
       "path": "Django/Jump to Django.md"
+    },
+    {
+      "basename": "점프 투 장고",
+      "path": "Django/assets/점프 투 장고.png"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "JS 기본2",
@@ -15,10 +27,6 @@
     {
       "basename": "더 공부해 볼 주제",
       "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "09. ECMA Script",
@@ -61,10 +69,6 @@
       "path": "Python/Do it! 파이썬 생활 프로그래밍/04. CSV 파일로 데이터 다루기.md"
     },
     {
-      "basename": "01~03. Do it 파이썬 생활 프로그래밍",
-      "path": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md"
-    },
-    {
       "basename": "10. 정규표현식",
       "path": "Python/Jump to Python/10. 정규표현식.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "06. 예외처리",
       "path": "Python/Jump to Python/06. 예외처리.md"
-    },
-    {
-      "basename": "05. 모듈 & 패키지",
-      "path": "Python/Jump to Python/05. 모듈 & 패키지.md"
     }
   ],
   "omittedPaths": [
