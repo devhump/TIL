@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "05. 다양한 패키지로 데이터 분석하기",
+      "path": "Python/Do it! 파이썬 생활 프로그래밍/05. 다양한 패키지로 데이터 분석하기.md"
+    },
+    {
+      "basename": "04. CSV 파일로 데이터 다루기",
+      "path": "Python/Do it! 파이썬 생활 프로그래밍/04. CSV 파일로 데이터 다루기.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "01~03. Do it 파이썬 생활 프로그래밍",
       "path": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "점프 투 장고",
       "path": "Django/assets/점프 투 장고.png"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "JS 기본2",
@@ -59,14 +67,6 @@
     {
       "basename": "반올림, 내림, 올림(python)",
       "path": "Python/반올림, 내림, 올림(python).md"
-    },
-    {
-      "basename": "05. 다양한 패키지로 데이터 분석하기",
-      "path": "Python/Do it! 파이썬 생활 프로그래밍/05. 다양한 패키지로 데이터 분석하기.md"
-    },
-    {
-      "basename": "04. CSV 파일로 데이터 다루기",
-      "path": "Python/Do it! 파이썬 생활 프로그래밍/04. CSV 파일로 데이터 다루기.md"
     },
     {
       "basename": "10. 정규표현식",
