@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "JS 기본1",
+      "path": "JS/JS 기본1.md"
+    },
+    {
+      "basename": "JS 기본2",
+      "path": "JS/JS 기본2.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "Django-extention 설치 후  Auto close tag 안 되는 문제 해결",
       "path": "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md"
     },
@@ -41,10 +53,6 @@
       "path": "Python/Do it! 파이썬 생활 프로그래밍/04. CSV 파일로 데이터 다루기.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
       "basename": "01~03. Do it 파이썬 생활 프로그래밍",
       "path": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md"
     },
@@ -55,14 +63,6 @@
     {
       "basename": "점프 투 장고",
       "path": "Django/assets/점프 투 장고.png"
-    },
-    {
-      "basename": "JS 기본2",
-      "path": "JS/JS 기본2.md"
-    },
-    {
-      "basename": "JS 기본1",
-      "path": "JS/JS 기본1.md"
     },
     {
       "basename": "더 공부해 볼 주제",
