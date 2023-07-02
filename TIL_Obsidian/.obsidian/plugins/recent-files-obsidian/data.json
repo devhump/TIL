@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Jump to Django",
+      "path": "Django/Jump to Django.md"
+    },
+    {
+      "basename": "Django-extention 설치 후  Auto close tag 안 되는 문제 해결",
+      "path": "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md"
+    },
+    {
       "basename": "JS 기본1",
       "path": "JS/JS 기본1.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
-    },
-    {
-      "basename": "Django-extention 설치 후  Auto close tag 안 되는 문제 해결",
-      "path": "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md"
     },
     {
       "basename": "Python 유용한 문법 정리",
@@ -55,10 +59,6 @@
     {
       "basename": "01~03. Do it 파이썬 생활 프로그래밍",
       "path": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md"
-    },
-    {
-      "basename": "Jump to Django",
-      "path": "Django/Jump to Django.md"
     },
     {
       "basename": "점프 투 장고",

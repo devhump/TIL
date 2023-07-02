@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS 기본1.md",
+                "file": "Django/Jump to Django.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS 기본1.md",
+                "file": "Django/Jump to Django.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JS 기본1.md",
+                "file": "Django/Jump to Django.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JS 기본1.md"
+                "file": "Django/Jump to Django.md"
               }
             }
           },
@@ -205,9 +205,10 @@
   },
   "active": "b861cbf67180e96f",
   "lastOpenFiles": [
+    "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md",
+    "JS/JS 기본1.md",
     "JS/JS 기본2.md",
     "devhump's TIL Index.md",
-    "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md",
     "Django/assets/Django-extention 설치 후  Auto close tag 안 되는 문제 해결-3.png",
     "Django/assets/Django-extention 설치 후  Auto close tag 안 되는 문제 해결-2.png",
     "Django/assets/Django-extention 설치 후  Auto close tag 안 되는 문제 해결-1.png",
@@ -230,7 +231,6 @@
     "Django/assets/점프 투 장고-5.png",
     "Django/assets",
     "Django",
-    "JS/JS 기본1.md",
     "더 공부해 볼 주제.md",
     "무제 파일.md",
     "JS",
