@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Jump to Django",
-      "path": "Django/Jump to Django.md"
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "JS 기본3",
+      "path": "JS/JS 기본3.md"
     },
     {
       "basename": "Django-extention 설치 후  Auto close tag 안 되는 문제 해결",
       "path": "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md"
     },
     {
-      "basename": "JS 기본1",
-      "path": "JS/JS 기본1.md"
-    },
-    {
       "basename": "JS 기본2",
       "path": "JS/JS 기본2.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "JS 기본1",
+      "path": "JS/JS 기본1.md"
+    },
+    {
+      "basename": "Jump to Django",
+      "path": "Django/Jump to Django.md"
     },
     {
       "basename": "Python 유용한 문법 정리",
@@ -75,10 +79,6 @@
     {
       "basename": "markdown (마크다운) +",
       "path": "KDT/markdown & git/markdown (마크다운) +.md"
-    },
-    {
-      "basename": "08. Javascript",
-      "path": "KDT/Web/08. Javascript.md"
     }
   ],
   "omittedPaths": [

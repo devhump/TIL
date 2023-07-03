@@ -380,3 +380,85 @@ alert('완료!');
 - ‘무한’ 반복문은 보통 while(true)를 써서 만듭니다. 무한 반복문은 여타 반복문과 마찬가지로 break 지시자를 사용해 멈출 수 있습니다.
 - 현재 실행 중인 반복에서 더는 무언가를 하지 않고 다음 반복으로 넘어가고 싶다면 continue 지시자를 사용할 수 있습니다.
 - 반복문 앞에 레이블을 붙이고, break/continue에 이 레이블을 함께 사용할 수 있습니다. 레이블은 중첩 반복문을 빠져나와 바깥의 반복문으로 갈 수 있게 해주는 유일한 방법입니다.
+
+
+### Switch문
+- 복수의 `if` 조건문은 `switch`문으로 바꿀 수 있습니다.
+- `switch`문은 하나 이상의 `case`문으로 구성됩니다. 대개 `default`문도 있지만, 이는 필수는 아닙니다.
+
+```js
+switch(x) {
+  case 'value1':  // if (x === 'value1')
+    ...
+    [break]
+
+  case 'value2':  // if (x === 'value2')
+    ...
+    [break]
+
+  default:
+    ...
+    [break]
+}
+```
+
+```ad-tip
+- `switch/case`문의 인수엔 어떤 표현식이든 올 수 있습니다.
+- `switch`문과 `case`문은 모든 형태의 표현식을 인수로 받습니다.
+	```js
+	let a = "1";
+	let b = 0;
+	
+	switch (+a) {
+	  case b + 1:
+	    alert("표현식 +a는 1, 표현식 b+1는 1이므로 이 코드가 실행됩니다.");
+	    break;
+	
+	  default:
+	    alert("이 코드는 실행되지 않습니다.");
+	}
+	```
+```
+
+
+#### 여러 개의 case 문 묶기
+```js
+let a = 3;
+
+switch (a) {
+  case 4:
+    alert('계산이 맞습니다!');
+    break;
+
+  case 3: // (*) 두 case문을 묶음
+  case 5:
+    alert('계산이 틀립니다!');
+    alert("수학 수업을 다시 들어보는걸 권유 드립니다.");
+    break;
+
+  default:
+    alert('계산 결과가 이상하네요.');
+}
+```
+- 👉 3, 5 case일 경우 동일한 결과를 출력함
+
+#### 자료형의 중요성
+```js
+let arg = prompt("값을 입력해주세요.");
+switch (arg) {
+  case '0':
+  case '1':
+    alert( '0이나 1을 입력하셨습니다.' );
+    break;
+
+  case '2':
+    alert( '2를 입력하셨습니다.' );
+    break;
+
+  case 3:
+    alert( '이 코드는 절대 실행되지 않습니다!' );
+    break;
+  default:
+    alert( '알 수 없는 값을 입력하셨습니다.' );
+}
+```

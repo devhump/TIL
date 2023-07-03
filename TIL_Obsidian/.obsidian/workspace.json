@@ -23,33 +23,20 @@
             }
           },
           {
-            "id": "a5c53713c02323c8",
+            "id": "5d547eec5ae9f7ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md",
+                "file": "JS/JS 기본3.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b861cbf67180e96f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Django/Jump to Django.md",
-                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5110321044922
+    "width": 242.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -131,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Django/Jump to Django.md",
+                "file": "JS/JS 기본3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Django/Jump to Django.md",
+                "file": "JS/JS 기본3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django/Jump to Django.md"
+                "file": "JS/JS 기본3.md"
               }
             }
           },
@@ -203,12 +191,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b861cbf67180e96f",
+  "active": "5d547eec5ae9f7ec",
   "lastOpenFiles": [
-    "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md",
-    "JS/JS 기본1.md",
-    "JS/JS 기본2.md",
     "devhump's TIL Index.md",
+    "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md",
+    "JS/JS 기본2.md",
+    "JS/JS 기본3.md",
+    "JS/JS 기본1.md",
+    "Django/Jump to Django.md",
     "Django/assets/Django-extention 설치 후  Auto close tag 안 되는 문제 해결-3.png",
     "Django/assets/Django-extention 설치 후  Auto close tag 안 되는 문제 해결-2.png",
     "Django/assets/Django-extention 설치 후  Auto close tag 안 되는 문제 해결-1.png",
@@ -222,7 +212,6 @@
     "KDT/Django/07. Django ModelForm.md",
     "Python/Do it! 파이썬 생활 프로그래밍/05. 다양한 패키지로 데이터 분석하기.md",
     "Python/Do it! 파이썬 생활 프로그래밍/04. CSV 파일로 데이터 다루기.md",
-    "Django/Jump to Django.md",
     "Django/assets/점프 투 장고.png",
     "Django/assets/점프 투 장고-9.png",
     "Django/assets/점프 투 장고-8.png",
