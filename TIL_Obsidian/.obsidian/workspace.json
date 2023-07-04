@@ -180,8 +180,10 @@
   },
   "active": "84c5c5010a4abf91",
   "lastOpenFiles": [
-    "devhump's TIL Index.md",
     "JS/JS 기본3.md",
+    "JS/assets/JS 기본3.png",
+    "JS/assets",
+    "devhump's TIL Index.md",
     "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md",
     "JS/JS 기본2.md",
     "JS/JS 기본1.md",
@@ -204,7 +206,6 @@
     "Django/assets/점프 투 장고-8.png",
     "Django/assets/점프 투 장고-7.png",
     "Django/assets/점프 투 장고-6.png",
-    "Django/assets/점프 투 장고-5.png",
     "Django/assets",
     "Django",
     "더 공부해 볼 주제.md",
@@ -218,13 +219,11 @@
     "Python/Jump to Python/08. 외장함수.md",
     "Python/Jump to Python/07. 내장 함수.md",
     "Python/반올림, 내림, 올림(python).md",
-    "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md",
     "Python/Jump to Python",
     "Python/Do it! 파이썬 생활 프로그래밍/assets",
     "Python/Do it! 파이썬 생활 프로그래밍",
     "Do it! 파이썬 생활 프로그래밍/assets",
     "Do it! 파이썬 생활 프로그래밍/새 폴더",
-    "Do it! 파이썬 생활 프로그래밍",
-    "Algo Solving/SWEA/assets"
+    "Do it! 파이썬 생활 프로그래밍"
   ]
 }
