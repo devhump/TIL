@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CORS 에러 문제",
+      "path": "JS/CORS 에러 문제.md"
+    },
+    {
       "basename": "devhump's TIL Index",
       "path": "devhump's TIL Index.md"
     },
@@ -71,14 +75,6 @@
     {
       "basename": "더 공부해 볼 주제",
       "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "09. ECMA Script",
-      "path": "KDT/Web/09. ECMA Script.md"
-    },
-    {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown & git/markdown (마크다운) +.md"
     }
   ],
   "omittedPaths": [
