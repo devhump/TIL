@@ -2,7 +2,6 @@
 
 ```
 Access to script at 'file:///C:/Users/Ramy/Desktop/moonbucks-menu/src/js/index.js' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, isolated-app, chrome-extension, chrome, https, chrome-untrusted.
-index.js:1     Failed to load resource: net::ERR_FAILED
 ```
 
 - CORS 문제가 발생해서 로컬에서 자바스크립트 코드를 실행할 경우 작동하지 않는 경우가 있다.

@@ -1,20 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "CORS 에러 문제",
-      "path": "JS/CORS 에러 문제.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
-    },
-    {
       "basename": "JS 기본3",
       "path": "JS/JS 기본3.md"
-    },
-    {
-      "basename": "Django-extention 설치 후  Auto close tag 안 되는 문제 해결",
-      "path": "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md"
     },
     {
       "basename": "JS 기본2",
@@ -23,6 +11,18 @@
     {
       "basename": "JS 기본1",
       "path": "JS/JS 기본1.md"
+    },
+    {
+      "basename": "CORS 에러 문제",
+      "path": "JS/CORS 에러 문제.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "Django-extention 설치 후  Auto close tag 안 되는 문제 해결",
+      "path": "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md"
     },
     {
       "basename": "Jump to Django",
