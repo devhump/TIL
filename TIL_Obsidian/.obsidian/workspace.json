@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS 기본3.md",
+                "file": "JS/CORS 에러 문제.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS 기본3.md",
+                "file": "JS/CORS 에러 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JS 기본3.md",
+                "file": "JS/CORS 에러 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JS 기본3.md"
+                "file": "JS/CORS 에러 문제.md"
               }
             }
           },
@@ -193,8 +193,9 @@
   },
   "active": "588f287684f7c235",
   "lastOpenFiles": [
-    "JS/JS 기본2.md",
     "JS/JS 기본1.md",
+    "JS/JS 기본2.md",
+    "JS/JS 기본3.md",
     "JS/CORS 에러 문제.md",
     "JS/assets/CORS 에러 문제-10.png",
     "JS/assets/CORS 에러 문제-9.png",
@@ -207,7 +208,6 @@
     "JS/assets/CORS 에러 문제-3.png",
     "JS/assets/CORS 에러 문제-2.png",
     "devhump's TIL Index.md",
-    "JS/JS 기본3.md",
     "JS/assets",
     "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md",
     "Django/Jump to Django.md",
