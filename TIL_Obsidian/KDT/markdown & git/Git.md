@@ -237,6 +237,9 @@ $ git log --oneline
 ​  
 $ git log -1 --oneline  
 #응용 가능
+
+$ git log --all --oneline 
+$ git log --5 --oneline --graph
 ```
 
 

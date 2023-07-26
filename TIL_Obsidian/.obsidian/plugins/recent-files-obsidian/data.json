@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
+      "basename": "CORS 에러 문제",
+      "path": "JS/CORS 에러 문제.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md"
+    },
+    {
       "basename": "JS 기본3",
       "path": "JS/JS 기본3.md"
     },
@@ -11,18 +27,6 @@
     {
       "basename": "JS 기본1",
       "path": "JS/JS 기본1.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md"
-    },
-    {
-      "basename": "CORS 에러 문제",
-      "path": "JS/CORS 에러 문제.md"
-    },
-    {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
     },
     {
       "basename": "Django-extention 설치 후  Auto close tag 안 되는 문제 해결",
@@ -75,10 +79,6 @@
     {
       "basename": "점프 투 장고",
       "path": "Django/assets/점프 투 장고.png"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
     }
   ],
   "omittedPaths": [

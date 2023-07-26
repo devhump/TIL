@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS 기본2.md",
+                "file": "KDT/markdown & git/Git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS 기본2.md",
+                "file": "KDT/markdown & git/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JS 기본2.md",
+                "file": "KDT/markdown & git/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JS 기본2.md"
+                "file": "KDT/markdown & git/Git.md"
               }
             }
           },
@@ -193,12 +193,14 @@
   },
   "active": "588f287684f7c235",
   "lastOpenFiles": [
-    "JS/JS 기본1.md",
-    "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md",
+    "devhump's TIL Index.md",
+    "KDT/markdown & git/Git.md",
     "JS/CORS 에러 문제.md",
-    "JS/문벅스 카페 메뉴 앱 만들기",
-    "JS/JS 기본2.md",
+    "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md",
     "JS/JS 기본3.md",
+    "JS/JS 기본2.md",
+    "JS/JS 기본1.md",
+    "JS/문벅스 카페 메뉴 앱 만들기",
     "JS/assets/CORS 에러 문제-10.png",
     "JS/assets/CORS 에러 문제-9.png",
     "JS/assets/CORS 에러 문제-8.png",
@@ -209,7 +211,6 @@
     "JS/assets/CORS 에러 문제-4.png",
     "JS/assets/CORS 에러 문제-3.png",
     "JS/assets/CORS 에러 문제-2.png",
-    "devhump's TIL Index.md",
     "JS/assets",
     "Django/Django-extention 설치 후  Auto close tag 안 되는 문제 해결.md",
     "Django/Jump to Django.md",
@@ -233,7 +234,6 @@
     "Python/Do it! 파이썬 생활 프로그래밍/06. 웹 크롤링.md",
     "Python/Jump to Python/01. 문자열 포매팅.md",
     "Python/Jump to Python/08. 외장함수.md",
-    "Python/Jump to Python/07. 내장 함수.md",
     "Python/Jump to Python",
     "Python/Do it! 파이썬 생활 프로그래밍/assets",
     "Python/Do it! 파이썬 생활 프로그래밍",
