@@ -3,7 +3,7 @@
 
 ### KDT
 #### Mardown & Git
-- [[markdown (마크다운) +]]
+- [markdown (마크다운) +](KDT/markdown%20&%20git/markdown%20(마크다운)%20+.md)
 ``` dataview
 list from #git 
 sort file.name ASC
@@ -13,32 +13,32 @@ sort file.name ASC
 
 
 #### 파이썬 (Python)
-- [[파이썬 01. Python 기초]]
-- [[파이썬 02. 제어문 (Control Statement)]]
-- [[파이썬 03. 함수(Funtion)]]
-- [[파이썬 04. 데이터 구조 (Data Structure)]]
-- [[파이썬 05. 에러&예외 처리 (Error & Exception Handling)]]
-- [[파이썬 06. 객체지향 프로그래밍(OOP)]]
-- [[파이썬 07. 클래스(Class)]]
-- [[파이썬 08. 파이썬 응용,심화(python advanced)]]
+- [파이썬 01. Python 기초](KDT/Python/파이썬%2001.%20Python%20기초.md)
+- [파이썬 02. 제어문 (Control Statement)](KDT/Python/파이썬%2002.%20제어문%20(Control%20Statement).md)
+- [파이썬 03. 함수(Funtion)](KDT/Python/파이썬%2003.%20함수(Funtion).md)
+- [파이썬 04. 데이터 구조 (Data Structure)](KDT/Python/파이썬%2004.%20데이터%20구조%20(Data%20Structure).md)
+- [파이썬 05. 에러&예외 처리 (Error & Exception Handling)](KDT/Python/파이썬%2005.%20에러&예외%20처리%20(Error%20&%20Exception%20Handling).md)
+- [파이썬 06. 객체지향 프로그래밍(OOP)](KDT/Python/파이썬%2006.%20객체지향%20프로그래밍(OOP).md)
+- [파이썬 07. 클래스(Class)](KDT/Python/파이썬%2007.%20클래스(Class).md)
+- [파이썬 08. 파이썬 응용,심화(python advanced)](KDT/Python/파이썬%2008.%20파이썬%20응용,심화(python%20advanced).md)
 
 #### 자료구조(Data structure)
-- [[01. about Algorithm (Intro)]]
-- [[02. basic_IO]]
-- [[03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)]]
-- [[04. 리스트(List)]]
-- [[05. 문자열 (String)]]
-- [[06. 딕셔너리(Dictionary)]]
-- [[07. 스택 & 큐 (Stack & Queue)]]
-- [[08. 힙(Heap), 셋(set)]]
+- [01. about Algorithm (Intro)](KDT/Data%20structure/01.%20about%20Algorithm%20(Intro).md)
+- [02. basic_IO](KDT/Data%20structure/02.%20basic_IO.md)
+- [03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)](KDT/Data%20structure/03.%20시간%20복잡도(time%20complexity)%20&%20빅오%20표기법%20(Big%20O%20notation).md)
+- [04. 리스트(List)](KDT/Data%20structure/04.%20리스트(List).md)
+- [05. 문자열 (String)](KDT/Data%20structure/05.%20문자열%20(String).md)
+- [06. 딕셔너리(Dictionary)](KDT/Data%20structure/06.%20딕셔너리(Dictionary).md)
+- [07. 스택 & 큐 (Stack & Queue)](KDT/Data%20structure/07.%20스택%20&%20큐%20(Stack%20&%20Queue).md)
+- [08. 힙(Heap), 셋(set)](KDT/Data%20structure/08.%20힙(Heap),%20셋(set).md)
 
 #### 알고리즘(Algorithm)
-- [[01. 이차원 리스트(1-2)]]
-- [[02. 이차원 리스트(2-2)]]
-- [[03. 완전탐색  I (Exhaustive Search)]]
-- [[04. 그래프(Graph)]]
-- [[05. 깊이 우선 탐색(DFS)]]
-- [[06. 코딩 테스트 준비 (기본)]]
+- [01. 이차원 리스트(1-2)](KDT/Algorithm/01.%20이차원%20리스트(1-2).md)
+- [02. 이차원 리스트(2-2)](KDT/Algorithm/02.%20이차원%20리스트(2-2).md)
+- [03. 완전탐색  I (Exhaustive Search)](KDT/Algorithm/03.%20완전탐색%20%20I%20(Exhaustive%20Search).md)
+- [04. 그래프(Graph)](KDT/Algorithm/04.%20그래프(Graph).md)
+- [05. 깊이 우선 탐색(DFS)](KDT/Algorithm/05.%20깊이%20우선%20탐색(DFS).md)
+- [06. 코딩 테스트 준비 (기본)](KDT/Algorithm/06.%20코딩%20테스트%20준비%20(기본).md)
 
 #### DB
 - [01. DB & RDBMS & SQL CRUD](KDT/DB/01.%20DB%20&%20RDBMS%20&%20SQL%20CRUD.md)
@@ -82,24 +82,24 @@ sort file.name ASC
 - [17. Axios](KDT/Django/17.%20Axios.md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
-- ==[[알고리즘 TIP]]==
+- ==[알고리즘 TIP](_others_/알고리즘%20TIP.md)==
 
 - **스택 & 큐**
-	- [[01. 스택과 큐(Stack & Que)]]
-	- [[02. 우선순위 큐(Priority Queue)]]
+	- [01. 스택과 큐(Stack & Que)](Algorithm%20(theory)/01.%20스택과%20큐(Stack%20&%20Que).md)
+	- [02. 우선순위 큐(Priority Queue)](Algorithm%20(theory)/02.%20우선순위%20큐(Priority%20Queue).md)
 
 - **트리(tree)**
-	- [[03. 트리(tree)]]
-	- [[04. 바이너리 인덱스 트리 (Binary Index Tree)]]
+	- [03. 트리(tree)](Algorithm%20(theory)/03.%20트리(tree).md)
+	- [04. 바이너리 인덱스 트리 (Binary Index Tree)](Algorithm%20(theory)/04.%20바이너리%20인덱스%20트리%20(Binary%20Index%20Tree).md)
 
 - **정렬(Sorting)**
-	- [[05. 정렬 알고리즘 (Sorting Algorithm)]]
-	- [[06. 퀵 정렬 (Quick Sort)]]
-	- [[07. 정렬 알고리즘 비교 및 기초 문제 풀이]]
+	- [05. 정렬 알고리즘 (Sorting Algorithm)](Algorithm%20(theory)/05.%20정렬%20알고리즘%20(Sorting%20Algorithm).md)
+	- [06. 퀵 정렬 (Quick Sort)](Algorithm%20(theory)/06.%20퀵%20정렬%20(Quick%20Sort).md)
+	- [07. 정렬 알고리즘 비교 및 기초 문제 풀이](Algorithm%20(theory)/07.%20정렬%20알고리즘%20비교%20및%20기초%20문제%20풀이.md)
 
 - **DFS & BFS**
-	- [[08. DFS & BFS]]
-	- [[09. DFS 와 BFS 기초 문제 풀이]]
+	- [08. DFS & BFS](Algorithm%20(theory)/08.%20DFS%20&%20BFS.md)
+	- [09. DFS 와 BFS 기초 문제 풀이](Algorithm%20(theory)/09.%20DFS%20와%20BFS%20기초%20문제%20풀이.md)
 
 - **최단거리**
 	- [10. 다익스트라 알고리즘(Dijkstra Algorithm)](Algorithm%20(theory)/10.%20다익스트라%20알고리즘(Dijkstra%20Algorithm).md)
@@ -111,15 +111,15 @@ sort file.name ASC
 - [15. 최소 공통 조상(LCA, Lowest Common Ancestor)](Algorithm%20(theory)/15.%20최소%20공통%20조상(LCA,%20Lowest%20Common%20Ancestor).md)
 - [16. 위상정렬 (topology)](Algorithm%20(theory)/16.%20위상정렬%20(topology).md)
 
-- [[17. 재귀함수(Recursive Function)]]
-- [[18. 유용한 표준 라이브러리 소개]]
+- [17. 재귀함수(Recursive Function)](Algorithm%20(theory)/17.%20재귀함수(Recursive%20Function).md)
+- [18. 유용한 표준 라이브러리 소개](Algorithm%20(theory)/18.%20유용한%20표준%20라이브러리%20소개.md)
 - [19. 소수 여부를 빠르게 처리하는 알고리즘들](Algorithm%20(theory)/19.%20소수%20여부를%20빠르게%20처리하는%20알고리즘들.md)
 - [20. 이진탐색 (Binary Search)](Algorithm%20(theory)/20.%20이진탐색%20(Binary%20Search).md)
 
 - **DP & greedy**
-	- [[21. 다이나믹 프로그래밍(Dynamic Programming)]]
-	- [[22. DP - problem&solution]]
-	- [[23. 그리디(Greedy)]]
+	- [21. 다이나믹 프로그래밍(Dynamic Programming)](Algorithm%20(theory)/21.%20다이나믹%20프로그래밍(Dynamic%20Programming).md)
+	- [22. DP - problem&solution](Algorithm%20(theory)/22.%20DP%20-%20problem&solution.md)
+	- [23. 그리디(Greedy)](Algorithm%20(theory)/23.%20그리디(Greedy).md)
 
 - [24. 구현 (Implementation) 유형의 문제 풀이](Algorithm%20(theory)/24.%20구현%20(Implementation)%20유형의%20문제%20풀이.md)
 - [25. 투 포인터와 구간 합 (Two Pointer & Interval Sum)](Algorithm%20(theory)/25.%20투%20포인터와%20구간%20합%20(Two%20Pointer%20&%20Interval%20Sum).md)

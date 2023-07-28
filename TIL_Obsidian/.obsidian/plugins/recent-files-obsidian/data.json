@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index",
+      "path": "devhump's TIL Index.md"
+    },
+    {
       "basename": "Git basic - rollback",
       "path": "_others_/Git basic - rollback.md"
     },
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "파이썬 01. Python 기초",
+      "path": "KDT/Python/파이썬 01. Python 기초.md"
     },
     {
       "basename": "유형별 실전 문제 풀이 (data view)",
@@ -75,10 +79,6 @@
     {
       "basename": "BOJ_4396 지뢰 찾기",
       "path": "Algo Solving/assets/BOJ_4396 지뢰 찾기.png"
-    },
-    {
-      "basename": "BOJ_9455 박스",
-      "path": "Algo Solving/assets/BOJ_9455 박스.png"
     }
   ],
   "omittedPaths": [
