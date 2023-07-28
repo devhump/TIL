@@ -33,6 +33,7 @@ tags: [python, syntax]
 	- 복소수 (complex numbers)[`complex`](https://docs.python.org/ko/3/library/functions.html#complex)
    
 #####   연산자의 종류
+
 | 연산              | 결과                                          |
 |-----------------|---------------------------------------------|
 | x + y           | x 와 y 의 합                                   |

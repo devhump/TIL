@@ -1,3 +1,8 @@
+---
+tags: [python, syntax, HeadFirstPython]
+---
+
+
 ### 1장. 기초 : 바로 시작하기
 
 ```python

@@ -1,3 +1,9 @@
+---
+title : 
+aliases : 
+tags : [web, IT_SC_basic]
+---
+
 #### Base64 ?
 > 컴퓨터 분야에서 쓰이는 **Base 64** (베이스 육십사)란 8비트 이진 데이터(예를 들어 [실행 파일](https://ko.wikipedia.org/wiki/%EC%8B%A4%ED%96%89_%ED%8C%8C%EC%9D%BC "실행 파일")이나, [ZIP](https://ko.wikipedia.org/wiki/ZIP "ZIP") 파일 등)를 [문자 코드](https://ko.wikipedia.org/wiki/%EB%AC%B8%EC%9E%90_%EC%BD%94%EB%93%9C "문자 코드")에 영향을 받지 않는 공통 ASCII 영역의 문자들로만 이루어진 일련의 문자열로 바꾸는 [인코딩](https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%BD%94%EB%94%A9 "인코딩") 방식을 가리키는 개념이다.
 > 

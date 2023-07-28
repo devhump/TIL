@@ -1,6 +1,14 @@
 ---
-tags: [markdown, obsidian, syntax]
+tags: [markdown, Obsidian, syntax]
 ---
+
+#### Obsidian & markdown
+```dataview
+LIST
+FROM #obsidian or #markdown  
+SORT file.mday ASC
+```
+
 
 #### LaTeX ?
 - 문서 작성 도구의 일종. 논문이나 출판물 등의 특수 형식 문서를 작성하는데 쓰이는 시스템. 자연과학이나 인문과학 중 수식, 그래프, 다이어그램을 많이 그리는 학자들에게 유용한 문서 저작도구이다.[^출처]

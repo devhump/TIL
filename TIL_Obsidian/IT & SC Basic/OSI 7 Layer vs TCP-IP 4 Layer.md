@@ -1,4 +1,8 @@
-
+---
+title : 
+aliases : 
+tags : [web, IT_SC_basic, protocol]
+---
 
 ### OSI 7 Layer vs TCP/IP 4 Layer
 ![](assets/OSI%20&%20TCPIP%20Layer.png)^[https://shlee0882.tistory.com/110]

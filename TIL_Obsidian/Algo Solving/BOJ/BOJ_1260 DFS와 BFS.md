@@ -1,7 +1,7 @@
 ---
 title : 
 aliases : []
-tags : [algorithm/DFS&BFS, ]
+tags : [Algorithm/DFS_BFS, ]
 ---
 
 

@@ -1,9 +1,16 @@
 ---
-tags: [markdown, obsidian, syntax]
+tags: [markdown, Obsidian, syntax]
 ---
 
+#### Obsidian & markdown
+```dataview
+LIST
+FROM #obsidian or #markdown  
+SORT file.mday ASC
+```
+
+
 ### Callout
-🔼 [[markdown for Obsidian]]
 
 - Obsidian Specify grammer like 'adomition', or 'alert'
 

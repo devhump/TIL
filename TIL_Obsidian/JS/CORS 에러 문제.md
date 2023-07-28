@@ -1,3 +1,9 @@
+---
+title : 
+aliases : 
+tags : [JS, error]
+---
+
 ![](assets/CORS%20에러%20문제.png)
 
 ```

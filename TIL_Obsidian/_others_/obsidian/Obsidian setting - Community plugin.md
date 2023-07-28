@@ -1,9 +1,13 @@
 ---
-tags: [단축키, shortcut, obsidian]
+tags: [shortcut, Obsidian]
 alias: [옵시디언 - 커뮤니티 플러그인]
 ---
-
-- 👉 [Obsidian setting](Obsidian%20setting.md)
+#### Obsidian & markdown
+```dataview
+LIST
+FROM #obsidian or #markdown  
+SORT file.mday ASC
+```
 
 ## 커뮤니티 플러그인
 
@@ -44,7 +48,38 @@ alias: [옵시디언 - 커뮤니티 플러그인]
 ### ==D==
 #### Dataview
 ![](assets/Obsidian%20setting%20-%20Community%20plugin-5.png)
-- [Dataview](obsidian://show-plugin?id=dataview)
+- [Dataview plug-in](obsidian://show-plugin?id=dataview)
+- [Dataview in Obsidian: A Beginner’s Guide](https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/)
+
+````
+```dataview
+table time-played, length, rating
+from "games"
+sort rating desc
+```
+
+```dataview
+list from #game/moba or #game/crpg
+```
+
+```dataview
+task from #projects/active
+```
+
+``` dataview
+TABLE 
+	column as "제목"
+FROM "_others_/templates"
+SORT file.name ASC
+```
+
+```dataview
+TABLE 
+FROM "Algo Solving" and !"Algo Solving/BOJ" and !"Algo Solving/SWEA"  
+SORT file.cday ASC
+```
+````
+
 
 ### ==F==
 #### File Explorer Note Count

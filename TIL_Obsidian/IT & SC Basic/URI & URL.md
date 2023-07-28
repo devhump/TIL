@@ -1,3 +1,9 @@
+---
+title : 
+aliases : 
+tags : [web, IT_SC_basic]
+---
+
 #### URI & URL
 
 ![](assets/URI&URL.png)^[그림 출처: https://programming119.tistory.com/194]

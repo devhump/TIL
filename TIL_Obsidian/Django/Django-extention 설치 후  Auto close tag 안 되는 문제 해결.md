@@ -1,3 +1,9 @@
+---
+title : 
+aliases : 
+tags : [error, vscode]
+---
+
 ![](assets/Django-extention%20설치%20후%20%20Auto%20close%20tag%20안%20되는%20문제%20해결-2.png)
 
 ![](assets/Django-extention%20설치%20후%20%20Auto%20close%20tag%20안%20되는%20문제%20해결-1.png)

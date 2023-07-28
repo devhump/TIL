@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🧭",
+      "❔",
       "FabJs",
       "FabLinux",
       "SiObsidian",
@@ -18,9 +20,7 @@
       "🦊",
       "IbEarth",
       "📌",
-      "FasCode",
-      "🧰",
-      "📋"
+      "FasCode"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [],
@@ -46,7 +46,6 @@
   "KDT/Python": "SiPythonWhite",
   "KDT/markdown & git": "SiGit",
   "KDT/Algorithm": "SiThealgorithms",
-  "_others_/Templates List.md": "📋",
   "devhump's TIL Index.md": "📌",
   "KDT/Web": "IbEarth",
   "MDN": {
@@ -57,8 +56,8 @@
   "KDT/Data structure": "SiStackoverflow",
   "KDT/Django": "SiDjango",
   "Algo Solving": {
-    "iconName": "⁉",
-    "inheritanceIcon": "⁉"
+    "iconName": "❔",
+    "inheritanceIcon": "❔"
   },
   "IT & SC Basic/개발 관련 IT 용어 정리.md": "📋",
   "IT & SC Basic": {
@@ -73,5 +72,10 @@
   "JS": {
     "iconName": "FabJs",
     "inheritanceIcon": "FabJs"
-  }
+  },
+  "Django": {
+    "iconName": "SiDjango",
+    "inheritanceIcon": "SiDjango"
+  },
+  "Algo Solving/유형별 실전 문제 풀이 (data view).md": "🧭"
 }

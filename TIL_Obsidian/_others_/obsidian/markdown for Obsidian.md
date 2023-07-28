@@ -1,14 +1,17 @@
 ---
-tags: [markdown, obsidian, syntax]
+tags: [markdown, Obsidian, syntax]
 ---
 
 - 기본 마크다운 내용 정리 👉 [markdown (마크다운) +](../../KDT/markdown%20&%20git/markdown%20(마크다운)%20+.md)
 - 수학-공식 관련 표기법 👉 [[LaTeX]]
 
-##### 개별문서
-- [[Callout]]
-- [[Diagram]]
-- [Obsidian Guide - Link notes](obsidian://open?vault=Obsidian%20Sandbox&file=Guides%2FLink%20notes)
+#### Obsidian & markdown
+```dataview
+LIST
+FROM #obsidian or #markdown  
+SORT file.mday ASC
+```
+
 
 >[!note] 목차
 [1. Blockquote](#1.%20Blockquote)

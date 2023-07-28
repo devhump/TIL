@@ -1,3 +1,8 @@
+---
+title : 
+aliases : 
+tags : [Linux, IT_SC_basic]
+---
 
 #### 여러 가지 쉘
 

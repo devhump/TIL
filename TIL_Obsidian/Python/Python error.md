@@ -1,5 +1,5 @@
 ---
-tags: [python, syntax]
+tags: [python, syntax, error]
 ---
 
 #### TypeError

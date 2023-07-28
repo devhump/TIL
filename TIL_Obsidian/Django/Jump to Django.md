@@ -1,3 +1,9 @@
+---
+title : 
+aliases : 
+tags : [Django, JumpToDajngo]
+---
+
 p115
 
 ```django

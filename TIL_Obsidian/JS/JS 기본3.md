@@ -1,3 +1,10 @@
+---
+title : 
+aliases : 
+tags : [ModernJavaScript, JS, syntax]
+---
+
+
 ### 함수
 
 #### 함수 선언

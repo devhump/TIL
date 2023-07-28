@@ -1,12 +1,17 @@
 ---
-tags: [단축키, shortcut]
+tags: [shortcut]
 ---
 
-- 👉 [Hot-key for windows](Hot-key%20for%20windows.md)
-- 👉 [Hot-key for Mac](Hot-key%20for%20Mac.md)
-- 👉 [vscode_shortcuts_(mac)](vscode_shortcuts_(mac).pdf)] 
+#### Hot-key
+```dataview
+LIST
+FROM #shortcut
+SORT file.mday ASC
+```
+- 👉 [vscode_shortcuts_(mac)-pdf](vscode_shortcuts_(mac).pdf)
 
 ### VS Code
+
 | 단축키                           | 기능                             |
 | -------------------------------- | -------------------------------- |
 | `ctrl` + `P`                     | 바로가기 창(?)                   |
@@ -15,6 +20,7 @@ tags: [단축키, shortcut]
 | 여러 줄 선택 후 `ctrl` + `/`     | 전체 줄 주석/해제                |
 
 #### 프로젝트/파일/화면 생성 및 열고 닫기
+
 |      단축키(win)       |              기능              |        단축키(mac)        |
 |:----------------------:|:------------------------------:|:-------------------------:|
 | `ctrl` + `shift` + `N` |         새로운 창 열기         |                           |

@@ -1,9 +1,16 @@
 ![단축키 관련](devhump's%20TIL%20Index.md#단축키%20관련)
 
+
 ### KDT
 #### Mardown & Git
 - [[markdown (마크다운) +]]
-- [Git 기초](KDT/markdown%20&%20git/Git.md)
+``` dataview
+list from #git 
+sort file.name ASC
+```
+- [git_cheat_sheet.pdf](KDT/markdown%20&%20git/git_cheat_sheet.pdf)
+
+
 
 #### 파이썬 (Python)
 - [[파이썬 01. Python 기초]]
@@ -75,6 +82,8 @@
 - [17. Axios](KDT/Django/17.%20Axios.md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
+- ==[[알고리즘 TIP]]==
+
 - **스택 & 큐**
 	- [[01. 스택과 큐(Stack & Que)]]
 	- [[02. 우선순위 큐(Priority Queue)]]
@@ -107,23 +116,34 @@
 - [19. 소수 여부를 빠르게 처리하는 알고리즘들](Algorithm%20(theory)/19.%20소수%20여부를%20빠르게%20처리하는%20알고리즘들.md)
 - [20. 이진탐색 (Binary Search)](Algorithm%20(theory)/20.%20이진탐색%20(Binary%20Search).md)
 
-#### DP & greedy
-- [[21. Dynamic Programming_]]
-- [[22. DP - problem&solution]]
-- [[23. 그리디(Greedy)]]
+- **DP & greedy**
+	- [[21. 다이나믹 프로그래밍(Dynamic Programming)]]
+	- [[22. DP - problem&solution]]
+	- [[23. 그리디(Greedy)]]
 
 - [24. 구현 (Implementation) 유형의 문제 풀이](Algorithm%20(theory)/24.%20구현%20(Implementation)%20유형의%20문제%20풀이.md)
 - [25. 투 포인터와 구간 합 (Two Pointer & Interval Sum)](Algorithm%20(theory)/25.%20투%20포인터와%20구간%20합%20(Two%20Pointer%20&%20Interval%20Sum).md)
 
 ### Python
-- [[Python 용어 정리]]
-- [[Python 유용한 문법 정리]]
-	- [[Python/반올림, 내림, 올림(python)]]
-	- [[Python/람다함수(Lambda Func, 익명함수)]]
-	- [[iterable & iterator]]
-	- [Python error](Python/Python%20error.md)
-	- [[Continue vs Pass vs Break]]
-	- [[Enumerate 예시]]
+```dataview
+LIST
+FROM "Python" and !#JumpToPython and !#DoItPython 
+SORT file.cday ASC
+```
+
+#### Do it 파이썬 생활 프로그래밍
+```dataview
+LIST
+FROM #DoItPython 
+SORT file.name ASC
+```
+
+#### Jump to Python
+```dataview
+LIST
+FROM #JumpToPython  
+SORT file.name ASC
+```
 
 ####  얕은 복사 vs 깊은 복사 관련된 문서들
 - [얕은 복사와 깊은 복사(fin)](얕은%20복사와%20깊은%20복사(fin).md)
@@ -131,31 +151,57 @@
 - [얕은 복사(shallow copy)와 깊은 복사(deep copy)](얕은%20복사(shallow%20copy)와%20깊은%20복사(deep%20copy).md)
 
 ### MDN
-- [MDN_CSS](MDN/MDN_CSS.md)
-- [MDN_HTML](MDN/MDN_HTML.md)
+```dataview
+LIST
+FROM #MDN
+SORT file.name ASC
+```
 
 ### others
-- [개발 관련 IT 용어 정리](IT%20&%20SC%20Basic/개발%20관련%20IT%20용어%20정리.md)
-- [[500 mile]]
-- [[_others_/알고리즘 TIP]]
-- [Git의 기초 - 되돌리기](_others_/Git%20basic%20-%20rollback.md)
-	- [git_cheat_sheet.pdf](KDT/markdown%20&%20git/git_cheat_sheet.pdf)
-- [[IT & SC Basic/CLI]]
-- [[Templates List]]
-- [VS Code를 이용한 파이썬 소스코드 디버깅](_others_/Debugging%20with%20VS%20Code+.md)
+- [Jump to Django](Django/Jump%20to%20Django.md)
+- [Head First - Python](Python/HeadFirst-Python/Head%20First%20-%20Python.md)
+```dataview
+LIST
+FROM #IT_SC_basic
+SORT file.cday DESC
+```
+
+#### Error and Debugging
+```dataview
+LIST
+FROM #error or #debugging  
+SORT file.mday DESC
+```
+#### Linux
+```dataview
+LIST
+FROM #Linux 
+SORT file.mday DESC
+```
+
 
 #### 단축키 관련
-- [[vscode_shortcuts_(mac).pdf]] 
-- [[Hot-key for Mac]]
-- [[Hot-key for windows]]
-- [[Hot-key (VS Code)]]
+```dataview
+LIST
+FROM #shortcut 
+SORT file.mday ASC
+```
 
-#### Obsidian
-- [[markdown for Obsidian]]
-- [Callout](_others_/obsidian/Callout.md)
-- [Diagram](_others_/obsidian/Diagram.md)
-- [LaTeX](_others_/obsidian/LaTeX.md)
-- [[_others_/obsidian/Obsidian setting]]
+#### Obsidian & markdown
+```dataview
+LIST
+FROM #obsidian or #markdown  
+SORT file.mday DESC
+```
+
+
+#### Teplate List
+``` dataview
+LIST
+FROM "_others_/templates"
+SORT file.name ASC
+```
+
 
 
 ![더 공부해 볼 주제](더%20공부해%20볼%20주제.md)

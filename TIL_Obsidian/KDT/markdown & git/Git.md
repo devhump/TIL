@@ -3,11 +3,18 @@ tags: [git, syntax, KDT]
 alias: "Git 기초"
 ---
 
-👉 [git_cheat_sheet](git_cheat_sheet.pdf)
-👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
+- 전반적인 git 내용은 👉 [[Git]]
 
 - `git add, git commit, git add` 취소하기 등 이전 내용으로 되돌리고 싶다면?
 	- 👉 [[Git basic - rollback]]
+- `git merge`에 관한 자세한 내용은?
+	- 👉 [[Git basic - merge]]
+
+- 그 외 git 관련 문서
+	👉 [git_cheat_sheet](git_cheat_sheet.pdf)
+	👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
+
+---
 
 ### 목차
 ```ad-hint
@@ -47,16 +54,18 @@ alias: "Git 기초"
 
 
 #### Git 기초 명령어 (local)
+
 | 명령어                       | 내용                            |
 | ---------------------------- | ------------------------------- |
 | git init                     | 로컬 저장소 생성                |
 | git add <파일명>             | 특정 파일/ 폴더의 변경사항 추가 |
 | git commit -m '<커밋메시지>' | 커밋(버전 기록)                 |
 | git status                   | 상태확인                        |
-| git log                    |  버전 확인                    |
+| git log                      | 버전 확인                       |
 
 
 #### 원격 저장소 설정 기본 명령어 (remote)
+
 | 명령어          | 내용             |
 | :--------------- | :----------------: |
 | git clone `<url>`                |                원격 저장소 복제                      |
@@ -164,6 +173,7 @@ $ git commit <filename> -m "commit_message”
 
 
 ##### commit 3단계의 이해
+
 |                         | untracked  |      |
 | ----------------------- | ---------- | ---- |
 | 1. Working directory    | unmodified | 1통  |
@@ -578,6 +588,43 @@ git stash clear
 //stash의 모든 기록이 삭제
 ```
 
+
+#### 5-6. git diff
+```shell
+
+git diff
+# 최신 변경 내용과 마지막 커밋된 내용에서의 차이점을 표시해 준다.
+
+git diff 커밋id
+# 과거 특정 commit과 현재 파일 비교
+
+git diff 커밋id1 커밋id2
+# 과거의 특정 commit 2개 간의 차이점 비교
+
+```
+![](assets/Git.png)
+- 👉 ==최신 변경 내용과 마지막 커밋된 내용에서의 차이점을 표시해 준다.== 
+
+```shell
+git difftool
+```
+- 👉 git diff 내용을 editor(기본은 vim)으로 보여줌
+
+![](assets/Git-1.png)
+
+![](assets/Git-2.png)
+- 👉 vim 화면에서 스크롤은 `j, k (h,j,k,l)` / 종료는 `:q` 또는 `:qa`
+
+- difftool 명령어 입력시 기본 에디터를 vim에서 vscode로 변경 하는 방법
+```shell
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
+```
+
+##### vscode extension 사용(git grapgh)
+![](assets/Git-5.png)
+
+![](assets/Git-6.png)
 
 ### 6. 참고
 - [Git Manual Book (official)](https://git-scm.com/book/ko/v2)

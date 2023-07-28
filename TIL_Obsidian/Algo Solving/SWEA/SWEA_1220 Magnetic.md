@@ -1,3 +1,7 @@
+---
+tags: [Algorithm, python]
+---
+
 - [SWEA_1220 [S/W 문제해결 기본] 5일차 - Magnetic](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14hwZqABsCFAYD)
 
 ### 내 코드

@@ -1,3 +1,9 @@
+---
+title : 
+aliases : 
+tags : [ModernJavaScript, JS, syntax]
+---
+
 #### 스크립트 작성 방법
 1. html 본문 내 script 내부에 작성한다. 
 ```html

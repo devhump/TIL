@@ -1,5 +1,5 @@
 ---
-tags: [dictionary]
+tags: [dictionary, IT_SC_basic ]
 ---
 
 - 비슷한 문서 👉 [Python 용어 정리](../Python/Python%20용어%20정리.md)

@@ -1,8 +1,13 @@
 ---
-tags: [markdown, obsidian, syntax]
+tags: [markdown, Obsidian, syntax]
 ---
 
-🔼 [[markdown for Obsidian]]
+#### Obsidian & markdown
+```dataview
+LIST
+FROM #obsidian or #markdown  
+SORT file.mday ASC
+```
 
 ##### Using Mermaid 
 

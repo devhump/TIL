@@ -1,9 +1,13 @@
 ---
-tags: [단축키, shortcut]
+tags: [shortcut]
 ---
 
-- 👉 [Hot-key for windows](Hot-key%20for%20windows.md)
-- 👉[Hot-key (VS Code)](Hot-key%20(VS%20Code).md)
+#### Hot-key
+```dataview
+LIST
+FROM #shortcut
+SORT file.mday ASC
+```
 
 ### 목차
 ```ad-info

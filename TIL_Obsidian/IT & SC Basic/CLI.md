@@ -1,5 +1,7 @@
 ---
-tags: [syntax]
+title : 
+aliases : 
+tags : [syntax, IT_SC_basic]
 ---
 
 ## CLI (Command Line Interface)

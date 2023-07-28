@@ -1,3 +1,10 @@
+---
+title : 
+aliases : 
+tags : [ModernJavaScript, JS, syntax]
+---
+
+
 ### if와 '?'를 사용한 조건 처리
 #### if 문
 ```js
