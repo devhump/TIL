@@ -1,5 +1,4 @@
-![단축키 관련](devhump's%20TIL%20Index.md#단축키%20관련)
-
+![단축키 관련](devhump's%20TIL%20Index%20(data%20view).md#단축키%20관련)
 
 ### KDT
 #### Mardown & Git
@@ -9,7 +8,6 @@ list from #git
 sort file.name ASC
 ```
 - [git_cheat_sheet.pdf](KDT/markdown%20&%20git/git_cheat_sheet.pdf)
-
 
 
 #### 파이썬 (Python)
@@ -201,7 +199,3 @@ LIST
 FROM "_others_/templates"
 SORT file.name ASC
 ```
-
-
-
-![더 공부해 볼 주제](더%20공부해%20볼%20주제.md)

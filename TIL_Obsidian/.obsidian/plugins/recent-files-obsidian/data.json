@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "devhump's TIL Index",
-      "path": "devhump's TIL Index.md"
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "readme",
+      "path": "readme.md"
+    },
+    {
+      "basename": "알고리즘 TIP",
+      "path": "_others_/알고리즘 TIP.md"
     },
     {
       "basename": "Git basic - rollback",
@@ -71,14 +79,6 @@
     {
       "basename": "BOJ_2615 오목-2",
       "path": "Algo Solving/assets/BOJ_2615 오목-2.png"
-    },
-    {
-      "basename": "BOJ_2615 오목-3",
-      "path": "Algo Solving/assets/BOJ_2615 오목-3.png"
-    },
-    {
-      "basename": "BOJ_4396 지뢰 찾기",
-      "path": "Algo Solving/assets/BOJ_4396 지뢰 찾기.png"
     }
   ],
   "omittedPaths": [
