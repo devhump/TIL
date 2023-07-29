@@ -1,5 +1,5 @@
 ---
-tags: [markdown, Obsidian, syntax]
+tags: [markdown, Obsidian, "-"]
 ---
 
 #### Obsidian & markdown

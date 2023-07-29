@@ -1,7 +1,7 @@
 ---
 title : 
 aliases : 
-tags : [ModernJavaScript, JS, syntax]
+tags : [ModernJavaScript, JS, "-"]
 ---
 
 #### 스크립트 작성 방법

@@ -1,5 +1,5 @@
 ---
-tags: [python, syntax]
+tags: [python, "-"]
 ---
 
 - 👇유사한 문서들

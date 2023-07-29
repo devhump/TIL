@@ -1,5 +1,5 @@
 ---
-tags: [python, syntax]
+tags: [python, "-"]
 ---
 
 ## Continue vs Pass vs Break

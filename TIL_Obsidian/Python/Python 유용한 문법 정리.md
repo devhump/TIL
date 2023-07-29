@@ -1,5 +1,5 @@
 ---
-tags: [python, syntax]
+tags: [python, "-"]
 ---
 
 #### 논리값 검사

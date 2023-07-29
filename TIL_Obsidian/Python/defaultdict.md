@@ -1,5 +1,5 @@
 ---
-tags: [python, syntax]
+tags: [python, "-"]
 ---
 
 #### 기존 딕셔너리로 카운팅을 하는 방법

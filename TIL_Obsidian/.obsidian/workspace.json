@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "waypoint",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5110321044922
+    "width": 230.5
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -156,12 +156,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 579.5,
+    "width": 318.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -177,16 +176,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b2fec09aa046b5f4",
+  "active": "f803d23bc46f8ea4",
   "lastOpenFiles": [
+    "Python/HeadFirst-Python/Head First - Python.md",
+    "devhump's TIL Index (data view).md",
+    "IT_SC_Basic/Linux note.md",
+    "Python/Jump to Python/01. 문자열 포매팅.md",
+    "KDT/Algorithm/01. 이차원 리스트(1-2).md",
+    "_others_/Git basic - rollback.md",
+    "_others_/Git basic - merge.md",
+    "_others_/Git basic - git revert, reset, restore.md",
+    "_others_/assets/Git basic - git revert, reset, restore.png",
+    "_others_/assets/Git basic - merge-20.png",
+    "_others_/assets/Git basic - merge-19.png",
+    "_others_/assets/Git basic - merge-18.png",
+    "_others_/assets/Git basic - merge-17.png",
+    "_others_/assets/Git basic - merge-16.png",
+    "_others_/assets/Git basic - merge-15.png",
+    "_others_/assets/Git basic - merge-14.png",
+    "_others_/assets/Git basic - merge-13.png",
+    "_others_/assets/Git basic - merge-12.png",
+    "KDT/markdown & git/git_cheat_sheet.pdf",
+    "readme.md",
     "TIL Waypoint.md",
+    "더 공부해 볼 주제.md",
     "_others_/_others_.md",
     "Python/Python.md",
     "Python/람다함수(Lambda Func, 익명함수).md",
     "Python/defaultdict.md",
-    "readme.md",
     "Python/Python error.md",
-    "devhump's TIL Index (data view).md",
     "Algo Solving/Algo Solving.md",
     "Django/Django.md",
     "Algorithm (theory)/Algorithm (theory).md",
@@ -197,26 +215,7 @@
     "TIL_Obsidian.md",
     "JS/문벅스 카페 메뉴 앱 만들기/문벅스 카페 메뉴 앱 만들기.md",
     "KDT/Algorithm/Algorithm.md",
-    "Algo Solving/BOJ/BOJ.md",
-    "KDT/Data structure/Data structure.md",
-    "KDT/DB/DB.md",
-    "KDT/Django/Django.md",
-    "Python/Do it! 파이썬 생활 프로그래밍/Do it! 파이썬 생활 프로그래밍.md",
-    "Python/HeadFirst-Python/HeadFirst-Python.md",
-    "IT & SC Basic/IT & SC Basic.md",
-    "Python/Jump to Python/Jump to Python.md",
-    "Algo Solving/assets/BFS & DFS.png",
-    "Algo Solving/assets/BFS 문제.png",
-    "Algo Solving/assets/BOJ_2615 오목.png",
-    "Algo Solving/assets/BOJ_2615 오목-2.png",
-    "Algo Solving/assets/BOJ_2615 오목-3.png",
-    "Algo Solving/assets/BOJ_4396 지뢰 찾기.png",
-    "Algo Solving/assets/BOJ_9455 박스.png",
-    "Algo Solving/assets/DFS 문제.png",
-    "Algo Solving/assets/code2.png",
-    "Algo Solving/assets/code (1).png",
     "_others_/vscode_shortcuts_(mac).pdf",
-    "KDT/markdown & git/git_cheat_sheet.pdf",
     "JS/문벅스 카페 메뉴 앱 만들기",
     "JS/assets",
     "Django/assets",

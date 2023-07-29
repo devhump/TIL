@@ -1,5 +1,5 @@
 ---
-tags: [git, syntax, KDT]
+tags: [git, "-", KDT]
 alias: "Git 기초"
 ---
 

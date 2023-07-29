@@ -1,5 +1,5 @@
 ---
-tags: [git, syntax]
+tags: [git, "-"]
 alias: 
 ---
 
@@ -15,9 +15,19 @@ alias:
 	👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 
 ---
+### git branch 이동
+```shell
+# 만들고서 이동
+git branch 브랜치이름
+git switch 브랜치이름
+
+# 만들면서 이동
+git checkout -b 브랜치이름
+
+```
 
 ### git merge
-- branch를 따서 각각 다른 파일을 작업하면 이후 병합 과정(merge)에서 문제가 없으나,<br>==동일한 파일을 수정할 경우 conflict(충돌)이 발생한다. 
+- branch를 따서 각각 다른 파일을 작업하면 이후 병합 과정(merge)에서 문제가 없으나,<br>==동일한 파일을 수정할 경우 conflict(충돌)이 발생한다.==
 
 ![](assets/Git%20basic%20-%20merge.png)
 
@@ -33,9 +43,14 @@ alias:
 
 ### fast-forward merge
 ![](assets/Git%20basic%20-%20merge-4.png)
-- 새로운 branch에는 새로운 커밋이 존재하고, main(master) branch에는 새로운 내용이 없는 경우, 새로운 branch의 마지막 커밋이 main(mater) 브랜치가 된다. 이 방식이 `fast-forward merge` 이다. 
+- 새로운 branch에는 새로운 커밋이 존재하고, main(master) branch에는 새로운 내용이 없는 경우, 새로운 branch의 마지막 커밋이 main(mater) 브랜치가 된다. 이 방식이 `fast-forward merge` 이다. ==(`git merge 브랜치명` 입력시 자동으로 이뤄짐)==
+
+![](assets/Git%20basic%20-%20merge-17.png)
+
+![](assets/Git%20basic%20-%20merge-18.png)
 
 ```shell
+# fast-forward merge가 싫을 경우
 git merge --no-ff 브랜치명
 # 이 경우 강제로 3-way merge를 발생시킨다.
 ```
@@ -88,7 +103,7 @@ git merge 새로운브랜치
 
 ```shell
 git switch main
-git merge --squash 브랜치명
+git merge --squash 새브랜치명
 git commit -m '메세지'
 ```
 
@@ -97,3 +112,18 @@ git commit -m '메세지'
 - 위의 예시처럼 git log graph가 이어지지 않고 떨어져 있다. 
 
 - 현업에서는 회사별로 가이드 라인이 있으니 이를 실무에 적용하면 된다. 
+
+### 참고
+
+
+```shell
+git log --oneline --graph
+```
+
+![](assets/Git%20basic%20-%20merge-20.png)
+
+```shell
+git log --oneline --all --graph
+```
+
+![](assets/Git%20basic%20-%20merge-19.png)

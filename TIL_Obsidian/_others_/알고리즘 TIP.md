@@ -1,5 +1,5 @@
 ---
-tags: [Algorithm, syntax]
+tags: [Algorithm, "-"]
 ---
 
 ### Input 관련

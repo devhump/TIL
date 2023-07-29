@@ -1,5 +1,5 @@
 ---
-tags: [python, syntax, HeadFirstPython]
+tags: [python, "-", HeadFirstPython]
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-tags: [python, syntax]
+tags: [python, "-"]
 ---
 
 ### 올림과 내림 (ceil, floor)
