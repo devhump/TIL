@@ -1,6 +1,6 @@
 {
-  "indexPrefix": "(MOC) ",
-  "indexItemStyle": "pureLink",
+  "indexPrefix": "",
+  "indexItemStyle": "list",
   "indexTagValue": "MOC",
   "indexTagBoolean": true,
   "indexTagSeparator": ", ",
@@ -9,7 +9,7 @@
   "folderEmoji": ":card_index_dividers:",
   "fileEmoji": ":page_facing_up:",
   "enableEmojis": true,
-  "foldersExcluded": "TIL_Obsidian/",
+  "foldersExcluded": "_others_/templates",
   "foldersIncluded": "",
   "sortOrder": "asc",
   "addSquareBrackets": true,

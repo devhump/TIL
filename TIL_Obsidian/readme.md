@@ -168,17 +168,17 @@
 ### others
 - [Jump to Django](Django/Jump%20to%20Django.md)
 - [Head First - Python](Python/HeadFirst-Python/Head%20First%20-%20Python.md)
-- [정규표현식 (regex)](IT%20&%20SC%20Basic/정규표현식%20(regex).md)
-- [쿠키 vs 세션 vs 토큰 + 캐시, CDN](IT%20&%20SC%20Basic/쿠키%20vs%20세션%20vs%20토큰%20+%20캐시,%20CDN.md)
-- [모바일 앱의 종류](IT%20&%20SC%20Basic/모바일%20앱의%20종류.md)
-- [URI & URL](IT%20&%20SC%20Basic/URI%20&%20URL.md)
-- [OSI 7 Layer vs TCP-IP 4 Layer](IT%20&%20SC%20Basic/OSI%207%20Layer%20vs%20TCP-IP%204%20Layer.md)
-- [IaaS vs PaaS vs SaaS](IT%20&%20SC%20Basic/IaaS%20vs%20PaaS%20vs%20SaaS.md)
-- [base64](IT%20&%20SC%20Basic/base64.md)
-- [Linux note](IT%20&%20SC%20Basic/Linux%20note.md)
-- [XML, JSON, YAML, AJAX](IT%20&%20SC%20Basic/XML,%20JSON,%20YAML,%20AJAX.md)
-- [개발 관련 IT 용어 정리](IT%20&%20SC%20Basic/개발%20관련%20IT%20용어%20정리.md)
-- [CLI](IT%20&%20SC%20Basic/CLI.md)
+- [정규표현식 (regex)](IT_SC_Basic/정규표현식%20(regex).md)
+- [쿠키 vs 세션 vs 토큰 + 캐시, CDN](IT_SC_Basic/쿠키%20vs%20세션%20vs%20토큰%20+%20캐시,%20CDN.md)
+- [모바일 앱의 종류](IT_SC_Basic/모바일%20앱의%20종류.md)
+- [URI & URL](IT_SC_Basic/URI%20&%20URL.md)
+- [OSI 7 Layer vs TCP-IP 4 Layer](IT_SC_Basic/OSI%207%20Layer%20vs%20TCP-IP%204%20Layer.md)
+- [IaaS vs PaaS vs SaaS](IT_SC_Basic/IaaS%20vs%20PaaS%20vs%20SaaS.md)
+- [base64](IT_SC_Basic/base64.md)
+- [Linux note](IT_SC_Basic/Linux%20note.md)
+- [XML, JSON, YAML, AJAX](IT_SC_Basic/XML,%20JSON,%20YAML,%20AJAX.md)
+- [개발 관련 IT 용어 정리](IT_SC_Basic/개발%20관련%20IT%20용어%20정리.md)
+- [CLI](IT_SC_Basic/CLI.md)
 
 #### Error and Debugging
 - [Python error](Python/Python%20error.md)
@@ -188,8 +188,8 @@
 
 
 #### Linux
-- [필수 리눅스 터미널 명령어 정리 by 드림코딩](IT%20&%20SC%20Basic/필수%20리눅스%20터미널%20명령어%20정리%20by%20드림코딩.md)
-- [Linux note](IT%20&%20SC%20Basic/Linux%20note.md)
+- [필수 리눅스 터미널 명령어 정리 by 드림코딩](IT_SC_Basic/필수%20리눅스%20터미널%20명령어%20정리%20by%20드림코딩.md)
+- [Linux note](IT_SC_Basic/Linux%20note.md)
 
 
 #### 단축키 관련

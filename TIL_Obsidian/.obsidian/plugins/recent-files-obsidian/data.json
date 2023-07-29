@@ -1,48 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "readme",
-      "path": "readme.md"
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
-      "basename": "Python error",
-      "path": "Python/Python error.md"
+      "basename": "_others_",
+      "path": "_others_/_others_.md"
+    },
+    {
+      "basename": "TIL Waypoint",
+      "path": "TIL Waypoint.md"
+    },
+    {
+      "basename": "Algo Solving",
+      "path": "Algo Solving/Algo Solving.md"
+    },
+    {
+      "basename": "Django",
+      "path": "Django/Django.md"
+    },
+    {
+      "basename": "Algorithm (theory)",
+      "path": "Algorithm (theory)/Algorithm (theory).md"
+    },
+    {
+      "basename": "IT_SC_Basic",
+      "path": "IT_SC_Basic/IT_SC_Basic.md"
+    },
+    {
+      "basename": "JS",
+      "path": "JS/JS.md"
+    },
+    {
+      "basename": "MDN",
+      "path": "MDN/MDN.md"
+    },
+    {
+      "basename": "KDT",
+      "path": "KDT/KDT.md"
     },
     {
       "basename": "Python",
       "path": "Python/Python.md"
     },
     {
-      "basename": "10. 정규표현식",
-      "path": "Python/Jump to Python/10. 정규표현식.md"
-    },
-    {
-      "basename": "iterable & iterator",
-      "path": "Python/iterable & iterator.md"
-    },
-    {
-      "basename": "How to use IDLE",
-      "path": "Python/How to use IDLE.md"
-    },
-    {
-      "basename": "Enumerate 예시",
-      "path": "Python/Enumerate 예시.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
-    },
-    {
-      "basename": "01~03. Do it 파이썬 생활 프로그래밍",
-      "path": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "08. Javascript",
-      "path": "KDT/Web/08. Javascript.md"
+      "basename": "readme",
+      "path": "readme.md"
     }
   ],
   "omittedPaths": [

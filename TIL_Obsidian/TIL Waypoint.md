@@ -1,0 +1,29 @@
+### _others_
+![[_others_]]
+
+
+### Algo Solving
+![Algo Solving](Algo%20Solving/Algo%20Solving.md)
+
+### Algorithm (theory)
+![[Algorithm (theory)]]
+
+
+### Django
+![Django](Django/Django.md)
+
+### IT_SC_Basic
+![IT_SC_Basic](IT_SC_Basic/IT_SC_Basic.md)
+
+### JS
+![JS](JS/JS.md)
+
+### KDT
+![KDT](KDT/KDT.md)
+
+
+### MDN
+![MDN](MDN/MDN.md)
+
+### Python
+![Python](Python/Python.md)

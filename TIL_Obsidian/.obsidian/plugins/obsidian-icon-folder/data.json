@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🔥",
       "🌏",
       "🧭",
       "❔",
@@ -19,8 +20,7 @@
       "SiStackoverflow",
       "SiSqlite",
       "🦊",
-      "IbEarth",
-      "📌"
+      "IbEarth"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [],
@@ -58,16 +58,10 @@
     "iconName": "❔",
     "inheritanceIcon": "❔"
   },
-  "IT & SC Basic/개발 관련 IT 용어 정리.md": "📋",
-  "IT & SC Basic": {
-    "iconName": "🖥",
-    "inheritanceIcon": "🖥"
-  },
   "_others_/obsidian": {
     "iconName": "SiObsidian",
     "inheritanceIcon": "SiObsidian"
   },
-  "IT & SC Basic/Linux note.md": "FabLinux",
   "JS": {
     "iconName": "FabJs",
     "inheritanceIcon": "FabJs"
@@ -78,5 +72,12 @@
   },
   "Algo Solving/유형별 실전 문제 풀이 (data view).md": "🧭",
   "readme.md": "🌏",
-  "devhump's TIL Index (data view).md": "📌"
+  "devhump's TIL Index (data view).md": "📌",
+  "IT_SC_Basic": {
+    "iconName": "🖥",
+    "inheritanceIcon": "🖥"
+  },
+  "IT_SC_Basic/Linux note.md": "FabLinux",
+  "IT_SC_Basic/개발 관련 IT 용어 정리.md": "📋",
+  "TIL Waypoint.md": "🔥"
 }
