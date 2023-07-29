@@ -4,22 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "926d4ca10aa328ab",
+        "id": "282106761f013a58",
         "type": "tabs",
         "children": [
           {
-            "id": "84c5c5010a4abf91",
+            "id": "9bc17440e038c6ed",
             "type": "leaf",
             "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "b2951063b0c77452",
-            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
@@ -27,24 +18,11 @@
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "9f7287e3a223fe00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_others_/_others_.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5110321044922
+    "width": 251.5110321044922
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -199,10 +177,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b2951063b0c77452",
+  "active": "b2fec09aa046b5f4",
   "lastOpenFiles": [
-    "_others_/_others_.md",
     "TIL Waypoint.md",
+    "_others_/_others_.md",
+    "Python/Python.md",
+    "Python/람다함수(Lambda Func, 익명함수).md",
+    "Python/defaultdict.md",
+    "readme.md",
+    "Python/Python error.md",
+    "devhump's TIL Index (data view).md",
     "Algo Solving/Algo Solving.md",
     "Django/Django.md",
     "Algorithm (theory)/Algorithm (theory).md",
@@ -210,9 +194,6 @@
     "JS/JS.md",
     "MDN/MDN.md",
     "KDT/KDT.md",
-    "devhump's TIL Index (data view).md",
-    "Python/Python.md",
-    "readme.md",
     "TIL_Obsidian.md",
     "JS/문벅스 카페 메뉴 앱 만들기/문벅스 카페 메뉴 앱 만들기.md",
     "KDT/Algorithm/Algorithm.md",
@@ -224,7 +205,6 @@
     "Python/HeadFirst-Python/HeadFirst-Python.md",
     "IT & SC Basic/IT & SC Basic.md",
     "Python/Jump to Python/Jump to Python.md",
-    "KDT/markdown & git/markdown & git.md",
     "Algo Solving/assets/BFS & DFS.png",
     "Algo Solving/assets/BFS 문제.png",
     "Algo Solving/assets/BOJ_2615 오목.png",

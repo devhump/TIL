@@ -1,5 +1,3 @@
-[Python](Python/Python.md)
-![Python](Python/Python.md)
 ### KDT
 #### Mardown & Git
 - [markdown (마크다운) +](KDT/markdown%20&%20git/markdown%20(마크다운)%20+.md)
