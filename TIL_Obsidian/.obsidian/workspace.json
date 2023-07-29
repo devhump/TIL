@@ -12,24 +12,26 @@
             "type": "leaf",
             "pinned": true,
             "state": {
+              "type": "empty",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "c8fe7d619627b8f7",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "Python/Python.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "pinned": true
+              }
             }
-          }
-        ]
-      },
-      {
-        "id": "60a87f9474275625",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "c52c9adc7c000e4e",
+            "id": "3d2214c5f911db36",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index (data view).md"
+                "file": "readme.md"
               }
             }
           },
@@ -196,25 +199,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "84c5c5010a4abf91",
+  "active": "3d2214c5f911db36",
   "lastOpenFiles": [
+    "Python/Python error.md",
+    "Python/Python.md",
     "readme.md",
-    "_others_/알고리즘 TIP.md",
+    "무제 파일.md",
+    "Python/Jump to Python/10. 정규표현식.md",
+    "Python/iterable & iterator.md",
+    "Python/How to use IDLE.md",
+    "Python/Enumerate 예시.md",
     "devhump's TIL Index (data view).md",
-    "_others_/Git basic - rollback.md",
-    "KDT/Python/파이썬 01. Python 기초.md",
-    "Algo Solving/유형별 실전 문제 풀이 (data view).md",
-    "Algo Solving/BOJ/BOJ_1063 킹.md",
-    "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md",
-    "Algo Solving/다양한 방법으로 정렬하기 (BOJ_1931).md",
-    "_others_/obsidian/Obsidian setting - Community plugin.md",
-    "Algo Solving/문자열 치환 하기.md",
-    "Algo Solving/무방향 & 유방향 그래프 표현하기.md",
-    "Algo Solving/BOJ_9455 박스.md",
-    "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md",
-    "Algorithm (theory)/08. DFS & BFS.md",
-    "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md",
-    "BFS & DFS.md",
+    "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md",
+    "TIL_Obsidian.md",
+    "Algo Solving/무제 파일.md",
+    "더 공부해 볼 주제.md",
+    "KDT/Web/08. Javascript.md",
+    "_others_/assets/(MOC) assets.md",
+    "Python/Jump to Python/(MOC)Jump to Python.md",
+    "KDT/markdown & git/(MOC)markdown & git.md",
+    "MDN/(MOC)MDN.md",
+    "Python/(MOC)Python.md",
+    "KDT/Python/(MOC)Python.md",
+    "_others_/templates/(MOC)templates.md",
+    "KDT/Web/(MOC)Web.md",
+    "KDT/Algorithm/Algorithm.md",
+    "JS/assets/assets.md",
+    "Algo Solving/assets/assets.md",
+    "KDT/Data structure/Data structure.md",
     "Algo Solving/assets/BFS & DFS.png",
     "Algo Solving/assets/BFS 문제.png",
     "Algo Solving/assets/BOJ_2615 오목.png",
@@ -225,15 +237,6 @@
     "Algo Solving/assets/DFS 문제.png",
     "Algo Solving/assets/code2.png",
     "Algo Solving/assets/code (1).png",
-    "Algo Solving/BOJ/BOJ_2615 오목.md",
-    "Algo Solving/BOJ/BOJ_4396 지뢰 찾기.md",
-    "_others_/무제 파일.md",
-    "Algo Solving/BOJ/BOJ_1526 가장 큰 금민수.md",
-    "Algo Solving/BOJ/BOJ_1260 DFS와 BFS.md",
-    "Algo Solving/BOJ/BOJ_1697 숨바꼭질.md",
-    "Algo Solving/BOJ/BOJ_1926 그림.md",
-    "Algo Solving/BOJ/BOJ_2178 미로 탐색.md",
-    "Algo Solving/BOJ/BOJ_2606 바이러스.md",
     "_others_/vscode_shortcuts_(mac).pdf",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "JS/문벅스 카페 메뉴 앱 만들기",

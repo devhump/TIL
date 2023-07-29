@@ -1,4 +1,5 @@
-
+[Python](Python/Python.md)
+![Python](Python/Python.md)
 ### KDT
 #### Mardown & Git
 - [markdown (마크다운) +](KDT/markdown%20&%20git/markdown%20(마크다운)%20+.md)
@@ -177,7 +178,7 @@
 - [Linux note](IT%20&%20SC%20Basic/Linux%20note.md)
 - [XML, JSON, YAML, AJAX](IT%20&%20SC%20Basic/XML,%20JSON,%20YAML,%20AJAX.md)
 - [개발 관련 IT 용어 정리](IT%20&%20SC%20Basic/개발%20관련%20IT%20용어%20정리.md)
-- [CLI](IT%20&%20SC%20Basic/CLI.md)]
+- [CLI](IT%20&%20SC%20Basic/CLI.md)
 
 #### Error and Debugging
 - [Python error](Python/Python%20error.md)

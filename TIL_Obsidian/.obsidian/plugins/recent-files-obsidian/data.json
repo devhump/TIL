@@ -1,84 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
-    },
-    {
       "basename": "readme",
       "path": "readme.md"
     },
     {
-      "basename": "알고리즘 TIP",
-      "path": "_others_/알고리즘 TIP.md"
+      "basename": "Python error",
+      "path": "Python/Python error.md"
     },
     {
-      "basename": "Git basic - rollback",
-      "path": "_others_/Git basic - rollback.md"
+      "basename": "Python",
+      "path": "Python/Python.md"
     },
     {
-      "basename": "파이썬 01. Python 기초",
-      "path": "KDT/Python/파이썬 01. Python 기초.md"
+      "basename": "10. 정규표현식",
+      "path": "Python/Jump to Python/10. 정규표현식.md"
     },
     {
-      "basename": "유형별 실전 문제 풀이 (data view)",
-      "path": "Algo Solving/유형별 실전 문제 풀이 (data view).md"
+      "basename": "iterable & iterator",
+      "path": "Python/iterable & iterator.md"
     },
     {
-      "basename": "BOJ_1063 킹",
-      "path": "Algo Solving/BOJ/BOJ_1063 킹.md"
+      "basename": "How to use IDLE",
+      "path": "Python/How to use IDLE.md"
     },
     {
-      "basename": "무제 파일",
-      "path": "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md"
+      "basename": "Enumerate 예시",
+      "path": "Python/Enumerate 예시.md"
     },
     {
-      "basename": "다양한 방법으로 정렬하기 (BOJ_1931)",
-      "path": "Algo Solving/다양한 방법으로 정렬하기 (BOJ_1931).md"
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
-      "basename": "Obsidian setting - Community plugin",
-      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
+      "basename": "01~03. Do it 파이썬 생활 프로그래밍",
+      "path": "Python/Do it! 파이썬 생활 프로그래밍/01~03. Do it 파이썬 생활 프로그래밍.md"
     },
     {
-      "basename": "문자열 치환 하기",
-      "path": "Algo Solving/문자열 치환 하기.md"
+      "basename": "더 공부해 볼 주제",
+      "path": "더 공부해 볼 주제.md"
     },
     {
-      "basename": "무방향 & 유방향 그래프 표현하기",
-      "path": "Algo Solving/무방향 & 유방향 그래프 표현하기.md"
-    },
-    {
-      "basename": "BOJ_9455 박스",
-      "path": "Algo Solving/BOJ_9455 박스.md"
-    },
-    {
-      "basename": "09. DFS 와 BFS 기초 문제 풀이",
-      "path": "Algorithm (theory)/09. DFS 와 BFS 기초 문제 풀이.md"
-    },
-    {
-      "basename": "08. DFS & BFS",
-      "path": "Algorithm (theory)/08. DFS & BFS.md"
-    },
-    {
-      "basename": "05. 깊이 우선 탐색(DFS)",
-      "path": "KDT/Algorithm/05. 깊이 우선 탐색(DFS).md"
-    },
-    {
-      "basename": "BFS & DFS",
-      "path": "Algo Solving/assets/BFS & DFS.png"
-    },
-    {
-      "basename": "BFS 문제",
-      "path": "Algo Solving/assets/BFS 문제.png"
-    },
-    {
-      "basename": "BOJ_2615 오목",
-      "path": "Algo Solving/assets/BOJ_2615 오목.png"
-    },
-    {
-      "basename": "BOJ_2615 오목-2",
-      "path": "Algo Solving/assets/BOJ_2615 오목-2.png"
+      "basename": "08. Javascript",
+      "path": "KDT/Web/08. Javascript.md"
     }
   ],
   "omittedPaths": [
