@@ -1,7 +1,7 @@
 ---
 title : 
 aliases : 
-tags : [ModernJavaScript, JS, syntax]
+tags : [ModernJavaScript, JS, "-"]
 ---
 
 

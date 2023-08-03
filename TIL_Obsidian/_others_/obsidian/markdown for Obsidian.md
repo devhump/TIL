@@ -1,5 +1,5 @@
 ---
-tags: [markdown, Obsidian, syntax]
+tags: [markdown, Obsidian, "-"]
 ---
 
 - 기본 마크다운 내용 정리 👉 [markdown (마크다운) +](../../KDT/markdown%20&%20git/markdown%20(마크다운)%20+.md)

@@ -1,10 +1,10 @@
 %% Begin Waypoint %%
-- [_others_](./_others_.md)
 - [500 mile](./500%20mile.md)
 - [알고리즘 TIP](./%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20TIP.md)
 - **assets**
 
 - [Debugging with VS Code+](./Debugging%20with%20VS%20Code+.md)
+- [Git basic - git revert, reset, restore](./Git%20basic%20-%20git%20revert,%20reset,%20restore.md)
 - [Git basic - merge](./Git%20basic%20-%20merge.md)
 - [Git basic - rollback](./Git%20basic%20-%20rollback.md)
 - [Hot-key (VS Code)](./Hot-key%20(VS%20Code).md)

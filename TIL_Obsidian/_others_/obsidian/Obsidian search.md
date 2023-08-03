@@ -1,5 +1,5 @@
 ---
-tags: [Obsidian, syntax]
+tags: [Obsidian, "-"]
 ---
 #### Obsidian & markdown
 ```dataview

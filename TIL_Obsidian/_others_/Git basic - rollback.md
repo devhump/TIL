@@ -1,5 +1,5 @@
 ---
-tags: [git, syntax]
+tags: [git, "-"]
 alias: 
 - Git의 기초 - 되돌리기
 ---
@@ -8,6 +8,7 @@ alias:
 
 - `git add, git commit, git add` 취소하기 등 이전 내용으로 되돌리고 싶다면?
 	- 👉 [[Git basic - rollback]]
+	- 👉 [Git basic - git revert, reset, restore](Git%20basic%20-%20git%20revert,%20reset,%20restore.md)
 - `git merge`에 관한 자세한 내용은?
 	- 👉 [[Git basic - merge]]
 
@@ -16,11 +17,12 @@ alias:
 	👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 
 ---
-
+![Git basic - git revert, reset, restore](Git%20basic%20-%20git%20revert,%20reset,%20restore.md)
 
 
 ```ad-note
 - [[#1.  완료된 커밋을 (살짝) 수정해야할 때|1.  완료된 커밋을 (살짝) 수정해야할 때]]
+	- git commit --amend
 - [[#2. git add 취소하기 (파일 상태를 Unstage로 변경하기)|2. git add 취소하기 (파일 상태를 Unstage로 변경하기)]]
 - [[#3.  git commit 취소하기|3.  git commit 취소하기]]
 - [[#4.  Modified 파일 되돌리기|4.  Modified 파일 되돌리기]]
@@ -207,7 +209,9 @@ git commit -m "commit-message"
 ##### 3. 원격 저장소에 강제로 push한다. 
 ```shell
 git push origin [branch_name] -f
+
 또는
+
 git push origin +[branch_name]
 // ex) git push origin +master
 ```
