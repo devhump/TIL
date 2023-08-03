@@ -6,9 +6,6 @@
   "showLineNumber": true,
   "defaultViewMode": "preview",
   "spellcheck": false,
-  "spellcheckLanguages": [
-    "ko",
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "showFrontmatter": true
 }
