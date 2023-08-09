@@ -23,12 +23,25 @@
             }
           },
           {
-            "id": "2c2493c262191a43",
+            "id": "0244491b57b70435",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git_github/Git basic - git stash.md",
+                "file": "HTML_CSS/HTML & CSS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f0ad8995f43f196",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/DB/08. QuerySet API.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "waypoint",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git_github/Git basic - git stash.md",
+                "file": "KDT/DB/08. QuerySet API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git_github/Git basic - git stash.md",
+                "file": "KDT/DB/08. QuerySet API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git_github/Git basic - git stash.md"
+                "file": "KDT/DB/08. QuerySet API.md"
               }
             }
           },
@@ -171,12 +184,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 579.5,
-    "collapsed": true
+    "width": 579.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,16 +203,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2c2493c262191a43",
+  "active": "2f0ad8995f43f196",
   "lastOpenFiles": [
-    "git_github/assets/Git basic - git stash.png",
-    "git_github/Git basic - Github manual.md",
+    "KDT/DB/07. ORM.md",
+    "KDT/DB/06. Modeling.md",
+    "KDT/DB/05. JOIN+.md",
+    "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
+    "KDT/DB/02. WHERE & LIKE & ORDER BY.md",
+    "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
+    "KDT/Web/01. Happy Web.md",
+    "HTML_CSS/HTML & CSS.md",
+    "KDT/Web/07. Bootstrap Grid System.md",
+    "KDT/Web/06. Bootstrap Component.md",
+    "KDT/Web/05. HTML & Bootstrap.md",
+    "KDT/Web/04. Semantic tag.md",
+    "KDT/Web/03. CSS Position.md",
+    "KDT/Web/02. CSS.md",
     "devhump's TIL Index (data view).md",
-    "KDT/markdown & git/Git.md",
-    "git_github/Git basic - merge.md",
-    "git_github/Git basic - rollback.md",
-    "git_github/Git basic - git stash.md",
-    "git_github/Git basic - git revert, reset, restore.md",
+    "_others_/obsidian/Obsidian setting - Community plugin.md",
+    "HTML_CSS/assets/HTML & CSS-1.png",
+    "HTML_CSS/assets/HTML & CSS.png",
+    "HTML_CSS/assets",
+    "무제 파일.md",
+    "HTML_CSS",
+    "IT_SC_Basic/개발 관련 IT 용어 정리.md",
+    "IT_SC_Basic/XML, JSON, YAML, AJAX.md",
+    "Python/Python.md",
+    "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md",
+    "더 공부해 볼 주제.md",
+    "0_zero",
+    "JS/JS.md",
+    "JS/JS 기본1.md",
+    "git_github/git_github.md",
+    "TIL Waypoint.md",
+    "git_github/assets/Git basic - git stash.png",
     "git_github/assets/Git basic - git stash-1.png",
     "git_github/assets/Git의 기초 - 되돌리기-img- (3).png",
     "git_github/assets/Git의 기초 - 되돌리기-img- (2).png",
@@ -208,35 +244,12 @@
     "git_github/assets/Git basic - merge-20.png",
     "git_github/assets/Git basic - merge-19.png",
     "git_github/assets/Git basic - merge-18.png",
-    "git_github/assets/Git basic - merge-17.png",
-    "git_github/assets/Git basic - merge-8.png",
     "git_github/assets",
     "git_github",
-    "더 공부해 볼 주제.md",
-    "TIL Waypoint.md",
-    "_others_/_others_.md",
-    "Python/Python.md",
-    "Python/람다함수(Lambda Func, 익명함수).md",
-    "Python/defaultdict.md",
-    "readme.md",
-    "Python/Python error.md",
-    "Algo Solving/Algo Solving.md",
-    "Django/Django.md",
-    "Algorithm (theory)/Algorithm (theory).md",
-    "IT_SC_Basic/IT_SC_Basic.md",
-    "JS/JS.md",
-    "MDN/MDN.md",
-    "KDT/KDT.md",
-    "TIL_Obsidian.md",
-    "JS/문벅스 카페 메뉴 앱 만들기/문벅스 카페 메뉴 앱 만들기.md",
-    "KDT/Algorithm/Algorithm.md",
     "_others_/vscode_shortcuts_(mac).pdf",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "JS/문벅스 카페 메뉴 앱 만들기",
     "JS/assets",
-    "Django/assets",
-    "Django",
-    "JS",
-    "Python/Jump to Python"
+    "Django/assets"
   ]
 }

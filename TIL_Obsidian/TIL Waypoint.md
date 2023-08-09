@@ -12,6 +12,8 @@
 ### Django
 ![Django](Django/Django.md)
 
+### git_github
+![git_github](git_github/git_github.md)
 ### IT_SC_Basic
 ![IT_SC_Basic](IT_SC_Basic/IT_SC_Basic.md)
 
