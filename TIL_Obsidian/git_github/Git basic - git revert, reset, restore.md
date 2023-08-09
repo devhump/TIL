@@ -2,6 +2,17 @@
 tags: [git]
 ---
 
+#### 유사한 문서
+``` dataview
+list from #git 
+sort file.name ASC
+```
+
+- 그 외 git 관련 문서
+	👉 [git_cheat_sheet](git_cheat_sheet.pdf)
+	👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
+
+
 ### git restore : 파일 하나 되돌리기
 ```shell
 git restore 파일명

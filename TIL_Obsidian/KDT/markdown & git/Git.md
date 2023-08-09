@@ -1,14 +1,12 @@
 ---
-tags: [git, "-", KDT]
+tags: [git, KDT]
 alias: "Git 기초"
 ---
-
-- 전반적인 git 내용은 👉 [[Git]]
-
-- `git add, git commit, git add` 취소하기 등 이전 내용으로 되돌리고 싶다면?
-	- 👉 [[Git basic - rollback]]
-- `git merge`에 관한 자세한 내용은?
-	- 👉 [[Git basic - merge]]
+#### 유사한 문서
+``` dataview
+list from #git 
+sort file.name ASC
+```
 
 - 그 외 git 관련 문서
 	👉 [git_cheat_sheet](git_cheat_sheet.pdf)
@@ -561,7 +559,7 @@ git log -g
 	- 되도록이면 **파일 제목에는 특수기호는 사용을 자제**하자. 
  
 
-![](../../_others_/Git%20basic%20-%20rollback.md#^c92f46)
+![](../../git_github/Git%20basic%20-%20rollback.md#^c92f46)
 
 #### 5-5. stash 영역
 - 참고  [commit 3단계의 이해](#commit%203단계의%20이해)

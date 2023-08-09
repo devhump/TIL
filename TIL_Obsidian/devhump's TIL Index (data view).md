@@ -8,7 +8,7 @@ list from #git
 sort file.name ASC
 ```
 - [git_cheat_sheet.pdf](KDT/markdown%20&%20git/git_cheat_sheet.pdf)
-
+- [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 
 #### 파이썬 (Python)
 - [파이썬 01. Python 기초](KDT/Python/파이썬%2001.%20Python%20기초.md)

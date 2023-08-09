@@ -1,20 +1,17 @@
 ---
-tags: [git, "-"]
-alias: 
-- Git의 기초 - 되돌리기
+tags: [git]
 ---
 
-- 전반적인 git 내용은 👉 [[Git]]
-
-- `git add, git commit, git add` 취소하기 등 이전 내용으로 되돌리고 싶다면?
-	- 👉 [[Git basic - rollback]]
-	- 👉 [Git basic - git revert, reset, restore](Git%20basic%20-%20git%20revert,%20reset,%20restore.md)
-- `git merge`에 관한 자세한 내용은?
-	- 👉 [[Git basic - merge]]
+#### 유사한 문서
+``` dataview
+list from #git 
+sort file.name ASC
+```
 
 - 그 외 git 관련 문서
 	👉 [git_cheat_sheet](git_cheat_sheet.pdf)
 	👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
+
 
 ---
 ![Git basic - git revert, reset, restore](Git%20basic%20-%20git%20revert,%20reset,%20restore.md)

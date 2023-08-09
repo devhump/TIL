@@ -2,8 +2,8 @@
 #### Mardown & Git
 - [markdown (마크다운) +](KDT/markdown%20&%20git/markdown%20(마크다운)%20+.md)
 - [Git](KDT/markdown%20&%20git/Git.md)
-- [Git basic - merge](_others_/Git%20basic%20-%20merge.md)
-- [Git basic - rollback](_others_/Git%20basic%20-%20rollback.md)
+- [Git basic - merge](git_github/Git%20basic%20-%20merge.md)
+- [Git basic - rollback](git_github/Git%20basic%20-%20rollback.md)
 - [git_cheat_sheet.pdf](KDT/markdown%20&%20git/git_cheat_sheet.pdf)
 
 

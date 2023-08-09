@@ -1,94 +1,39 @@
 {
   "recentFiles": [
     {
+      "basename": "Git basic - git stash",
+      "path": "git_github/Git basic - git stash.md"
+    },
+    {
+      "basename": "Git basic - git stash",
+      "path": "git_github/assets/Git basic - git stash.png"
+    },
+    {
+      "basename": "Git basic - Github manual",
+      "path": "git_github/Git basic - Github manual.md"
+    },
+    {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
     },
     {
-<<<<<<< HEAD
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
-=======
-      "basename": "Head First - Python",
-      "path": "Python/HeadFirst-Python/Head First - Python.md"
-    },
-    {
-      "basename": "Linux note",
-      "path": "IT_SC_Basic/Linux note.md"
-    },
-    {
-      "basename": "01. 문자열 포매팅",
-      "path": "Python/Jump to Python/01. 문자열 포매팅.md"
-    },
-    {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
-    },
-    {
-      "basename": "Git basic - rollback",
-      "path": "_others_/Git basic - rollback.md"
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
     },
     {
       "basename": "Git basic - merge",
-      "path": "_others_/Git basic - merge.md"
+      "path": "git_github/Git basic - merge.md"
+    },
+    {
+      "basename": "Git basic - rollback",
+      "path": "git_github/Git basic - rollback.md"
     },
     {
       "basename": "Git basic - git revert, reset, restore",
-      "path": "_others_/Git basic - git revert, reset, restore.md"
-    },
-    {
-      "basename": "git_cheat_sheet",
-      "path": "KDT/markdown & git/git_cheat_sheet.pdf"
-    },
-    {
-      "basename": "readme",
-      "path": "readme.md"
->>>>>>> b442e0ce1e9c1af1deef73450162384d3283fbd8
-    },
-    {
-      "basename": "TIL Waypoint",
-      "path": "TIL Waypoint.md"
-    },
-    {
-      "basename": "더 공부해 볼 주제",
-      "path": "더 공부해 볼 주제.md"
-    },
-    {
-      "basename": "_others_",
-      "path": "_others_/_others_.md"
-    },
-    {
-      "basename": "Python",
-      "path": "Python/Python.md"
-    },
-    {
-      "basename": "람다함수(Lambda Func, 익명함수)",
-      "path": "Python/람다함수(Lambda Func, 익명함수).md"
-    },
-    {
-      "basename": "defaultdict",
-      "path": "Python/defaultdict.md"
-    },
-    {
-      "basename": "Python error",
-      "path": "Python/Python error.md"
-    },
-    {
-      "basename": "Algo Solving",
-      "path": "Algo Solving/Algo Solving.md"
-    },
-    {
-      "basename": "Django",
-      "path": "Django/Django.md"
-    },
-    {
-      "basename": "Algorithm (theory)",
-      "path": "Algorithm (theory)/Algorithm (theory).md"
+      "path": "git_github/Git basic - git revert, reset, restore.md"
     }
   ],
-  "omittedPaths": [
-    ""
-  ],
-  "maxLength": 20,
-  "openType": "split"
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
 }

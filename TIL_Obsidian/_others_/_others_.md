@@ -4,9 +4,6 @@
 - **assets**
 
 - [Debugging with VS Code+](./Debugging%20with%20VS%20Code+.md)
-- [Git basic - git revert, reset, restore](./Git%20basic%20-%20git%20revert,%20reset,%20restore.md)
-- [Git basic - merge](./Git%20basic%20-%20merge.md)
-- [Git basic - rollback](./Git%20basic%20-%20rollback.md)
 - [Hot-key (VS Code)](./Hot-key%20(VS%20Code).md)
 - [Hot-key for Mac](./Hot-key%20for%20Mac.md)
 - [Hot-key for windows](./Hot-key%20for%20windows.md)

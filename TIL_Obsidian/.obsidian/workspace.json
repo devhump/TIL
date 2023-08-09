@@ -15,14 +15,28 @@
               "type": "markdown",
               "state": {
                 "file": "devhump's TIL Index (data view).md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true
             }
+          },
+          {
+            "id": "2c2493c262191a43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git_github/Git basic - git stash.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "git_github/Git basic - git stash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "git_github/Git basic - git stash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index (data view).md"
+                "file": "git_github/Git basic - git stash.md"
               }
             }
           },
@@ -177,16 +191,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9bc17440e038c6ed",
+  "active": "2c2493c262191a43",
   "lastOpenFiles": [
-    "_others_/assets/Git basic - merge-20.png",
-    "_others_/assets/Git basic - merge-19.png",
-    "_others_/assets/Git basic - merge-18.png",
-    "_others_/assets/Git basic - merge-17.png",
-    "_others_/assets/Git basic - git revert, reset, restore.png",
-    "_others_/Git basic - git revert, reset, restore.md",
-    "더 공부해 볼 주제.md",
+    "git_github/assets/Git basic - git stash.png",
+    "git_github/Git basic - Github manual.md",
     "devhump's TIL Index (data view).md",
+    "KDT/markdown & git/Git.md",
+    "git_github/Git basic - merge.md",
+    "git_github/Git basic - rollback.md",
+    "git_github/Git basic - git stash.md",
+    "git_github/Git basic - git revert, reset, restore.md",
+    "git_github/assets/Git basic - git stash-1.png",
+    "git_github/assets/Git의 기초 - 되돌리기-img- (3).png",
+    "git_github/assets/Git의 기초 - 되돌리기-img- (2).png",
+    "git_github/assets/Git의 기초 - 되돌리기-img- (1).png",
+    "git_github/assets/Git basic - merge-20.png",
+    "git_github/assets/Git basic - merge-19.png",
+    "git_github/assets/Git basic - merge-18.png",
+    "git_github/assets/Git basic - merge-17.png",
+    "git_github/assets/Git basic - merge-8.png",
+    "git_github/assets",
+    "git_github",
+    "더 공부해 볼 주제.md",
     "TIL Waypoint.md",
     "_others_/_others_.md",
     "Python/Python.md",
@@ -204,17 +230,6 @@
     "TIL_Obsidian.md",
     "JS/문벅스 카페 메뉴 앱 만들기/문벅스 카페 메뉴 앱 만들기.md",
     "KDT/Algorithm/Algorithm.md",
-    "Algo Solving/BOJ/BOJ.md",
-    "KDT/Data structure/Data structure.md",
-    "KDT/DB/DB.md",
-    "KDT/Django/Django.md",
-    "Python/Do it! 파이썬 생활 프로그래밍/Do it! 파이썬 생활 프로그래밍.md",
-    "Algo Solving/assets/BFS & DFS.png",
-    "Algo Solving/assets/BFS 문제.png",
-    "Algo Solving/assets/BOJ_2615 오목.png",
-    "Algo Solving/assets/BOJ_2615 오목-2.png",
-    "Algo Solving/assets/BOJ_2615 오목-3.png",
-    "Algo Solving/assets/BOJ_4396 지뢰 찾기.png",
     "_others_/vscode_shortcuts_(mac).pdf",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "JS/문벅스 카페 메뉴 앱 만들기",
@@ -222,8 +237,6 @@
     "Django/assets",
     "Django",
     "JS",
-    "Python/Jump to Python",
-    "Python/Do it! 파이썬 생활 프로그래밍/assets",
-    "Python/Do it! 파이썬 생활 프로그래밍"
+    "Python/Jump to Python"
   ]
 }
