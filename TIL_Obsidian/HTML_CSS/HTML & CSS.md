@@ -192,3 +192,163 @@ p {
 
 ![CSS 적용 우선순위 (cascading order)](../KDT/Web/02.%20CSS.md#CSS%20적용%20우선순위%20(cascading%20order))
 
+
+### 웹레이아웃의 기초 : div를 이용한 네모네모 박스 디자인
+
+#### 네모 박스 디자인에 많이 사용하는 CSS 속성
+
+```css
+.box {
+  margin: 20px;
+  padding: 30px;
+  background-color: burlywood;
+  width: 500px;
+  height: 350px;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+}
+```
+
+| 속성명        | 효과                                  |
+| ------------- | ------------------------------------- |
+| margin        | 바깥 여백                             |
+| padding       | 안쪽 여백                             |
+| border        | 테두리 (차례로 두께, 선의 종류, 색상) |
+| border-radius | 테두리 둥글게 처리                    |
+
+- `<div>` 영역을 가운데 정렬하기 위해서 `display : block; margin-left : auto; margin-right : auto` 를 사용 하면 된다.
+	-  이때, `<div>` 태그는 자체적으로 `display : block` 속성을 가지고 있으므로 생략할 수 있다.  
+
+```ad-tip
+- 모든 스타일 및 속성을 외울 수는 없다. 주로 사용하는 내용들 위주로 익혀두고, 나머지는 필요할 때 찾아가며 공부하면 된다!
+```
+
+
+#### margin과 padding을 원하는 방향에만 줄 수 있습니다.
+```css
+.box {
+  margin-top : 20px;
+  padding-left : 30px; 
+}
+```
+- 옵션으로 `top, left, bottom, right` 이 있고, **지정하지 않을 경우 사방면에 모두 적용**된다.
+-  margin은 음수도 가능하다. 예) -20px
+- `margin : 5px 6px 7px 8px;` 와 같이 띄어쓰기를 이용해 ***상 우 하 좌*** 순 (위에서 부터 시계방향) 으로 한번에 적용이 가능하다. 
+
+#### display : block이 내장되어있는 div박스
+```css
+.box {
+  display : block;
+}
+```
+- `div, p, h1, li` 등의 태그는 `display : block` 속성을 주지 않아도 기본적으로 내장되어 있다.
+	- 👉 그래서 `p태그나 div태그`를 그냥 사용하면 **한 행을 전부 차지**하게 됩니다.
+- 참고로 display 속성에서는 `display : inline, inline-block, flex` 등이 있고, 상황에 따라 해당 속성을 부여할 수 있다. 
+
+#### 스타일의 상속 
+```html
+<div>
+	<p> Hello, world ! <p>
+</div>
+```
+
+- 위 코드에서 `<div>` 태그(부모태그)에 스타일을 지정해도, `<p>` 태그(자식 태그)에 상속(inherit)이 되는 경우가 있다.
+- 상속되는 속성의 예시로는 `font-size, color, font-family, text-align` 등이 있다.
+
+![CSS 상속](../KDT/Web/02.%20CSS.md#CSS%20상속)
+
+
+```ad-todo
+- 오늘 만든 박스에 우측하단 그림자를 넣어보십시오.
+```
+
+```css
+.box {
+  box-shadow: 15px 10px 5px grey;
+}
+```
+
+```css
+{
+	box-shadow: offset-x | offset-y | blur-radius | spread-radius | color
+}
+```
+
+| 옵션          | 효과                                                                        |
+| ------------- | --------------------------------------------------------------------------- |
+| offset-x      | 그림자의 수평위치를 설정합니다. <br>요소로부터 떨어진 거리를 나타냅니다.    |
+| offset-y      | 그림자의 수직위치를 설정합니다. <br>요소로부터 떨어진 거리를 나타냅니다.    |
+| blur-radius   | 그림자 테두리에 흐려지는 효과를 부여합니다. <br>클수록 테두리가 흐려집니다. |
+| spread-radius | 그림자의 크기를 설정합니다. <br>클수록 그림자의 크기가 커집니다.            |
+| color         | 그림자의 색상을 설정합니다. <br>chrome 기준으로 기본값은 black입니다.       |
+
+![](assets/HTML%20&%20CSS-2.png)
+
+
+### 레이아웃 만들기 1 : 호환성 좋은 float
+#### 요소를 공중에 띄워 왼쪽/오른쪽 정렬하는 float 속성
+
+```html
+<div>
+  <div class="left-box"></div>
+  <div class="right-box"></div>
+</div>
+```
+
+```css
+.left-box {
+  width : 100px; 
+  height : 100px;
+  float : left;
+}
+.right-box {
+  width : 100px; 
+  height : 100px;
+  float : left;
+}
+```
+
+- 위의 코드는 박스 두개를 만들어 각각 왼쪽으로 정렬시킵니다.
+- 하지만 float를 쓰면 요소를 붕 띄우다보니 그 다음에 오는 HTML 요소들이 제자리를 찾지 못합니다.
+
+```ad-tip
+- (참고) float 속성으로 가로정렬할 땐 영상처럼 float 박스들을 싸매는 하나의 큰 div 박스를 만들고 폭을 지정해주는게 좋다. → 그래야 모바일에서 안 흘러넘침
+```
+
+![](assets/HTML%20&%20CSS-3.png)
+
+
+#### float를 쓰고 나면 항상 clear 속성이 필요합니다.
+
+![](assets/HTML%20&%20CSS-4.png)
+
+
+```html
+<div>
+  <div class="left-box"></div>
+  <div class="right-box"></div>
+  <div class="footer"></div>
+</div>
+```
+
+```css
+.footer {
+  clear : both
+}
+```
+
+- `clear` 속성을 사용하면 float 다음에 오는 박스들이 제자리를 찾게 됩니다. (까먹지 말기!)
+- 참고로 `float : none` 이것도 추가해주는게 나중에 생길 버그예방차원에서도 더 좋다.
+
+#### 상대적인 크기 단위인 퍼센트 단위
+```css
+.box {
+  width : 80%
+}
+```
+- 이 경우 **내 부모 태그**의 width에 비해 80% 만큼 차지하게 됩니다.
+	- (부모태그는 나를 감싸고 있는 태그를 뜻합니다.)

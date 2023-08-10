@@ -1,25 +1,6 @@
 ---
-tags: [git]
+tags: [git, CodingApple/git]
 ---
-
-```ad-note
-- [[#유사한 문서|유사한 문서]]
-- [[#intro|intro]]
-- [[#1. 원격저장소에 업로드 하기|1. 원격저장소에 업로드 하기]]
-- [[#2. 원격저장소 그대로 내려받기|2. 원격저장소 그대로 내려받기]]
-- [[#3. 원격저장소 변동사항 불러오기|3. 원격저장소 변동사항 불러오기]]
-- [[#3. 원격저장소 변동사항 불러오기#git pull의 이해|git pull의 이해]]
-- [[#4. branch 만드는 방법 & 업로드|4. branch 만드는 방법 & 업로드]]
-- [[#4. branch 만드는 방법 & 업로드#로컬 브랜치 원격저장소에 올리기|로컬 브랜치 원격저장소에 올리기]]
-- [[#5. Pull request|5. Pull request]]
-- [[#6. git flow / trunk-based 브랜치 전략|6. git flow / trunk-based 브랜치 전략]]
-- [[#6. git flow / trunk-based 브랜치 전략#안정적인 운영이 필요하면 git flow|안정적인 운영이 필요하면 git flow]]
-- [[#6. git flow / trunk-based 브랜치 전략#Trunk-based 전략|Trunk-based 전략]]
-	- [[#Trunk-based 전략#trunk-based 전략 적용 예시|trunk-based 전략 적용 예시]]
-	- [[#Trunk-based 전략#trunk-based 전략의 특징|trunk-based 전략의 특징]]
-- [[#6. git flow / trunk-based 브랜치 전략#프로젝트에서 어떤 전략을 사용하는게 유리할까|프로젝트에서 어떤 전략을 사용하는게 유리할까]]
-```
-
 
 #### 유사한 문서
 ``` dataview
@@ -32,7 +13,23 @@ sort file.name ASC
 	👉 [Git Manual Book (official)](https://git-scm.com/book/ko/v2)
 
 
-
+```ad-note
+- [[#유사한 문서|유사한 문서]]
+- [[#intro|intro]]
+- [[#1. 원격저장소에 업로드 하기|1. 원격저장소에 업로드 하기]]
+- [[#2. 원격저장소 그대로 내려받기|2. 원격저장소 그대로 내려받기]]
+- [[#3. 원격저장소 변동사항 불러오기|3. 원격저장소 변동사항 불러오기]]
+	- [[#3. 원격저장소 변동사항 불러오기#git pull의 이해|git pull의 이해]]
+- [[#4. branch 만드는 방법 & 업로드|4. branch 만드는 방법 & 업로드]]
+	- [[#4. branch 만드는 방법 & 업로드#로컬 브랜치 원격저장소에 올리기|로컬 브랜치 원격저장소에 올리기]]
+- [[#5. Pull request|5. Pull request]]
+- [[#6. git flow / trunk-based 브랜치 전략|6. git flow / trunk-based 브랜치 전략]]
+	- [[#6. git flow / trunk-based 브랜치 전략#안정적인 운영이 필요하면 git flow|안정적인 운영이 필요하면 git flow]]
+	- [[#6. git flow / trunk-based 브랜치 전략#Trunk-based 전략|Trunk-based 전략]]
+		- [[#Trunk-based 전략#trunk-based 전략 적용 예시|trunk-based 전략 적용 예시]]
+		- [[#Trunk-based 전략#trunk-based 전략의 특징|trunk-based 전략의 특징]]
+	- [[#6. git flow / trunk-based 브랜치 전략#프로젝트에서 어떤 전략을 사용하는게 유리할까|프로젝트에서 어떤 전략을 사용하는게 유리할까]]
+```
 
 #### intro
 - repository : 저장소 

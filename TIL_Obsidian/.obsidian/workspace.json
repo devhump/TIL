@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "0244491b57b70435",
+            "id": "76ee389992a79221",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,20 +36,19 @@
             }
           },
           {
-            "id": "2f0ad8995f43f196",
+            "id": "ddd1d6f20017b512",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/DB/08. QuerySet API.md",
-                "mode": "source",
+                "file": "KDT/Web/02. CSS.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "commu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -107,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5110321044922
+    "width": 251.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -117,6 +117,27 @@
         "id": "8cd5e8d07882a86f",
         "type": "tabs",
         "children": [
+          {
+            "id": "613b07e1f1cb02a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "devhump's TIL Index (data view).md"
+              }
+            }
+          },
+          {
+            "id": "f9cd19e5d23f6f63",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
           {
             "id": "f803d23bc46f8ea4",
             "type": "leaf",
@@ -131,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/DB/08. QuerySet API.md",
+                "file": "devhump's TIL Index (data view).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,30 +169,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/DB/08. QuerySet API.md",
+                "file": "devhump's TIL Index (data view).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f9cd19e5d23f6f63",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "613b07e1f1cb02a2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "KDT/DB/08. QuerySet API.md"
               }
             }
           },
@@ -183,12 +183,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 579.5
+    "width": 356.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,47 +203,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f0ad8995f43f196",
+  "active": "9bc17440e038c6ed",
   "lastOpenFiles": [
+    "HTML_CSS/HTML & CSS.md",
+    "KDT/Web/02. CSS.md",
+    "HTML_CSS/assets/HTML & CSS-4.png",
+    "HTML_CSS/assets/HTML & CSS-3.png",
+    "HTML_CSS/assets/HTML & CSS-2.png",
+    "KDT/Web/01. Happy Web.md",
+    "devhump's TIL Index (data view).md",
+    "JS/CORS 에러 문제.md",
+    "JS/JS.md",
+    "git_github/Git basic - git revert, reset, restore.md",
+    "git_github/Git basic - git stash.md",
+    "git_github/Git basic - Github manual.md",
+    "git_github/Git basic - merge.md",
+    "git_github/Git basic - rollback.md",
+    "git_github/git_github.md",
+    "_others_/obsidian/Obsidian setting - Community plugin.md",
+    "KDT/DB/08. QuerySet API.md",
     "KDT/DB/07. ORM.md",
     "KDT/DB/06. Modeling.md",
     "KDT/DB/05. JOIN+.md",
     "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md",
     "KDT/DB/02. WHERE & LIKE & ORDER BY.md",
     "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
-    "KDT/Web/01. Happy Web.md",
-    "HTML_CSS/HTML & CSS.md",
     "KDT/Web/07. Bootstrap Grid System.md",
     "KDT/Web/06. Bootstrap Component.md",
     "KDT/Web/05. HTML & Bootstrap.md",
     "KDT/Web/04. Semantic tag.md",
     "KDT/Web/03. CSS Position.md",
-    "KDT/Web/02. CSS.md",
-    "devhump's TIL Index (data view).md",
-    "_others_/obsidian/Obsidian setting - Community plugin.md",
     "HTML_CSS/assets/HTML & CSS-1.png",
     "HTML_CSS/assets/HTML & CSS.png",
     "HTML_CSS/assets",
-    "무제 파일.md",
     "HTML_CSS",
-    "IT_SC_Basic/개발 관련 IT 용어 정리.md",
-    "IT_SC_Basic/XML, JSON, YAML, AJAX.md",
-    "Python/Python.md",
-    "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md",
-    "더 공부해 볼 주제.md",
     "0_zero",
-    "JS/JS.md",
-    "JS/JS 기본1.md",
-    "git_github/git_github.md",
-    "TIL Waypoint.md",
     "git_github/assets/Git basic - git stash.png",
     "git_github/assets/Git basic - git stash-1.png",
     "git_github/assets/Git의 기초 - 되돌리기-img- (3).png",
     "git_github/assets/Git의 기초 - 되돌리기-img- (2).png",
     "git_github/assets/Git의 기초 - 되돌리기-img- (1).png",
-    "git_github/assets/Git basic - merge-20.png",
-    "git_github/assets/Git basic - merge-19.png",
-    "git_github/assets/Git basic - merge-18.png",
     "git_github/assets",
     "git_github",
     "_others_/vscode_shortcuts_(mac).pdf",

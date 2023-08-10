@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiHtml5",
       "🖥",
       "Fab500px",
       "SiGithub",
@@ -19,8 +20,7 @@
       "👨‍🏫",
       "⁉",
       "FasCalculator",
-      "SiDjango",
-      "SiStackoverflow"
+      "SiDjango"
     ],
     "recentlyUsedIconsSize": 15,
     "rules": [],
@@ -85,7 +85,7 @@
   },
   "IT_SC_Basic/XML, JSON, YAML, AJAX.md": "🖥",
   "HTML_CSS": {
-    "iconName": null,
+    "iconName": "SiHtml5",
     "inheritanceIcon": "FabHtml5"
   }
 }
