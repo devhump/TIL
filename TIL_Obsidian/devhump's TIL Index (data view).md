@@ -1,5 +1,29 @@
 ![단축키 관련](devhump's%20TIL%20Index%20(data%20view).md#단축키%20관련)
 
+
+```ad-note
+- [[#KDT|KDT]]
+	- [[#KDT#Mardown & Git|Mardown & Git]]
+	- [[#KDT#파이썬 (Python)|파이썬 (Python)]]
+	- [[#KDT#자료구조(Data structure)|자료구조(Data structure)]]
+	- [[#KDT#알고리즘(Algorithm)|알고리즘(Algorithm)]]
+	- [[#KDT#DB|DB]]
+	- [[#KDT#Web|Web]]
+	- [[#KDT#Django|Django]]
+- [[#최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)|최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)]]
+- [[#Python|Python]]
+	- [[#Python#Do it 파이썬 생활 프로그래밍|Do it 파이썬 생활 프로그래밍]]
+	- [[#Python#Jump to Python|Jump to Python]]
+	- [[#Python#얕은 복사 vs 깊은 복사 관련된 문서들|얕은 복사 vs 깊은 복사 관련된 문서들]]
+- [[#MDN|MDN]]
+- [[#others|others]]
+	- [[#others#Error and Debugging|Error and Debugging]]
+	- [[#others#Linux|Linux]]
+	- [[#others#단축키 관련|단축키 관련]]
+	- [[#others#Obsidian & markdown|Obsidian & markdown]]
+	- [[#others#Teplate List|Teplate List]]
+```
+
 ### KDT
 #### Mardown & Git
 - [markdown (마크다운) +](KDT/markdown%20&%20git/markdown%20(마크다운)%20+.md)

@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "JS 입문",
+      "path": "JS/JS 입문.md"
+    },
+    {
+      "basename": "10. Event",
+      "path": "KDT/Web/10. Event.md"
+    },
+    {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
     },
     {
+      "basename": "KDT",
+      "path": "KDT/KDT.md"
+    },
+    {
+      "basename": "08. Javascript",
+      "path": "KDT/Web/08. Javascript.md"
+    },
+    {
       "basename": "HTML & CSS",
       "path": "HTML_CSS/HTML & CSS.md"
-    },
-    {
-      "basename": "02. CSS",
-      "path": "KDT/Web/02. CSS.md"
-    },
-    {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
     },
     {
       "basename": "CORS 에러 문제",
@@ -23,6 +31,14 @@
     {
       "basename": "JS",
       "path": "JS/JS.md"
+    },
+    {
+      "basename": "02. CSS",
+      "path": "KDT/Web/02. CSS.md"
+    },
+    {
+      "basename": "01. Happy Web",
+      "path": "KDT/Web/01. Happy Web.md"
     },
     {
       "basename": "Git basic - git revert, reset, restore",

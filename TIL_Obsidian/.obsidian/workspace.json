@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "76ee389992a79221",
+            "id": "e2fe4e027996bd48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML_CSS/HTML & CSS.md",
+                "file": "JS/JS 입문.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,19 +36,20 @@
             }
           },
           {
-            "id": "ddd1d6f20017b512",
+            "id": "464ba8b2e748db9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Web/02. CSS.md",
+                "file": "KDT/Web/10. Event.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "commu",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -123,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index (data view).md"
+                "file": "JS/JS 입문.md"
               }
             }
           },
@@ -152,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "JS/JS 입문.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "JS/JS 입문.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5,
-    "collapsed": true
+    "width": 290.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,17 +203,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9bc17440e038c6ed",
+  "active": "613b07e1f1cb02a2",
   "lastOpenFiles": [
+    "JS/assets/JS 입문-1.png",
+    "KDT/Web/10. Event.md",
+    "JS/JS 입문.md",
+    "JS/assets/JS 입문.png",
+    "devhump's TIL Index (data view).md",
+    "KDT/KDT.md",
+    "KDT/Web/08. Javascript.md",
     "HTML_CSS/HTML & CSS.md",
+    "JS/CORS 에러 문제.md",
+    "JS/JS.md",
     "KDT/Web/02. CSS.md",
     "HTML_CSS/assets/HTML & CSS-4.png",
     "HTML_CSS/assets/HTML & CSS-3.png",
     "HTML_CSS/assets/HTML & CSS-2.png",
     "KDT/Web/01. Happy Web.md",
-    "devhump's TIL Index (data view).md",
-    "JS/CORS 에러 문제.md",
-    "JS/JS.md",
     "git_github/Git basic - git revert, reset, restore.md",
     "git_github/Git basic - git stash.md",
     "git_github/Git basic - Github manual.md",
@@ -229,10 +235,6 @@
     "KDT/DB/02. WHERE & LIKE & ORDER BY.md",
     "KDT/DB/01. DB & RDBMS & SQL CRUD.md",
     "KDT/Web/07. Bootstrap Grid System.md",
-    "KDT/Web/06. Bootstrap Component.md",
-    "KDT/Web/05. HTML & Bootstrap.md",
-    "KDT/Web/04. Semantic tag.md",
-    "KDT/Web/03. CSS Position.md",
     "HTML_CSS/assets/HTML & CSS-1.png",
     "HTML_CSS/assets/HTML & CSS.png",
     "HTML_CSS/assets",
@@ -242,7 +244,6 @@
     "git_github/assets/Git basic - git stash-1.png",
     "git_github/assets/Git의 기초 - 되돌리기-img- (3).png",
     "git_github/assets/Git의 기초 - 되돌리기-img- (2).png",
-    "git_github/assets/Git의 기초 - 되돌리기-img- (1).png",
     "git_github/assets",
     "git_github",
     "_others_/vscode_shortcuts_(mac).pdf",

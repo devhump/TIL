@@ -9,7 +9,11 @@ SORT file.name ASC
 ```
 #### intro
 - 에디터 추천 👉 [Brackets 에디터](https://brackets.io/)
-	- `ctrl` + `space` 자동완성 단축키
+
+```ad-tip
+- Brackets 에디터에서 `ctrl` + `space` → 자동완성 추천 단축키
+```
+
 - HTML : Hypertext Markup Language
 	- 이때, 마크업 언어는 **자료의 구조를 표현하기 위한 언어**
 
