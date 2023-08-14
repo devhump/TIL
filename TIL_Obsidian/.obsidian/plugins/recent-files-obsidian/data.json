@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "JS 입문",
-      "path": "JS/JS 입문.md"
+      "basename": "JS 입문 2",
+      "path": "JS/JS 입문 2.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "JS",
+      "path": "JS/JS.md"
+    },
+    {
+      "basename": "JS 입문 1",
+      "path": "JS/JS 입문 1.md"
+    },
+    {
+      "basename": "JS 기본1",
+      "path": "JS/JS 기본1.md"
+    },
+    {
+      "basename": "JS 기본2",
+      "path": "JS/JS 기본2.md"
+    },
+    {
+      "basename": "JS 기본3",
+      "path": "JS/JS 기본3.md"
+    },
+    {
+      "basename": "정규표현식 (regex)",
+      "path": "IT_SC_Basic/정규표현식 (regex).md"
+    },
+    {
+      "basename": "Obsidian setting - Community plugin",
+      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
+    },
+    {
+      "basename": "10. 정규표현식",
+      "path": "Python/Jump to Python/10. 정규표현식.md"
     },
     {
       "basename": "09. ECMA Script",
@@ -17,10 +53,6 @@
       "path": "KDT/Web/10. Event.md"
     },
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
-    },
-    {
       "basename": "KDT",
       "path": "KDT/KDT.md"
     },
@@ -31,10 +63,6 @@
     {
       "basename": "CORS 에러 문제",
       "path": "JS/CORS 에러 문제.md"
-    },
-    {
-      "basename": "JS",
-      "path": "JS/JS.md"
     },
     {
       "basename": "02. CSS",
@@ -67,10 +95,6 @@
     {
       "basename": "git_github",
       "path": "git_github/git_github.md"
-    },
-    {
-      "basename": "Obsidian setting - Community plugin",
-      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
     },
     {
       "basename": "08. QuerySet API",
@@ -135,10 +159,6 @@
     {
       "basename": "무제 파일",
       "path": "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md"
-    },
-    {
-      "basename": "JS 기본1",
-      "path": "JS/JS 기본1.md"
     },
     {
       "basename": "TIL Waypoint",

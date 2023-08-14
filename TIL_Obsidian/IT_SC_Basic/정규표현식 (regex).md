@@ -1,7 +1,7 @@
 ---
 title : 
 aliases : 
-tags : [web, IT_SC_basic]
+tags : [web, IT_SC_basic, regex]
 ---
 
 ### 참고 내용 및 자료
