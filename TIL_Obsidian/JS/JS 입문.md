@@ -732,3 +732,496 @@ if (1 == 3) {
         
       });
 ```
+
+
+### input, change 이벤트와 and, or 연산자
+#### input 이벤트와 change 이벤트
+```js
+document.getElementById('email').addEventListener('input', function(){
+  console.log('안녕')
+});
+```
+- 👉 `<input>` 창에 입력된 값이 변경될 때 input 이벤트가 발생
+
+```js
+document.getElementById('email').addEventListener('change', function(){
+  console.log('안녕')
+});
+```
+- 👉 `<input>` 창에 입력된 값이 변경되고, 다른 곳을 클릭하면 (포커스가 전환되면) change 이벤트가 발생
+
+#### true/false 자료
+```js
+if (true){
+  console.log('진짜임')
+}
+```
+- 👉 rue는 참, false는 거짓을 뜻하는 자료형 (boolean 타입)
+	- 타입이란? → 자료가 무슨 형식을 가지고 있는지 구분하기 위한 용어
+
+
+#### 다른지 같은지 비교하고 싶으면
+```js
+console.log(2 != 1)
+```
+- 👉 `!=` → 다름을 비교!
+
+```js
+console.log(2 == '2')  //true 나옴
+console.log(2 === '2')  //false 나옴
+```
+
+| ==  | 느슨한 비교 | 자료의 타입변환을 지가 알아서 해보고 <br>동일하면 true라고 판정 |
+| --- | ----------- | ----------------------------------------------------------- |
+| === | 엄격한 비교 | 자료의 타입까지 동일해야 true라고 판정                      |
+
+#### 실은 if문 안에서 true, false 역할을 하는 자료들도 있음
+```js
+0
+''
+null
+undefined
+NaN
+```
+- 👉 이런 것들은 if문 소괄호 안에서 false랑 같은 역할을 합니다. (**falsy자료들**)
+
+```js
+0제외 모든 숫자
+'아무문자'
+[]
+{}
+```
+- 이런 것들은 if문 소괄호 안에서 true랑 같은 역할을 합니다. (**truthy자료들**)
+
+#### and/or 연산자
+```js
+// true
+if (1 == 1 && 2 == 2){
+  console.log('안녕')
+}
+
+// false
+if (1 == 1 && 2 == 3){
+  console.log('안녕')
+}
+```
+- `&&` 기호는 논리학의 and 역할을 해줍니다.
+	- 👉 왼쪽 오른쪽이 둘 다 true면 전체를 true로 바꿔줍니다.
+
+```js
+// true || false -> true
+if (1 == 1 || 2 == 3){
+  console.log('안녕')
+}
+
+// false || false -> false
+if (1 == 4 || 2 == 3){
+  console.log('안녕')
+}
+```
+- `||` 기호는 논리학의 or 역할을 해줍니다.
+	- 👉 왼쪽 오른쪽 둘 중 true가 적어도 1개 있으면 전체를 true로 남겨줍니다.
+
+### if/else, function 실력향상 과제
+```ad-question
+- Q1. 철수는 369게임을 더럽게 못합니다. 
+	- 실제 369게임 말고 약간 쉽게 각색해서 
+	- '3의 배수에서' 박수를 치면 되는 게임을 하고 있습니다. 
+
+	- 근데 철수는 바보라 숫자를 하나 주었을 때 이 숫자가 3의 배수인지 아닌지 파악하기 넘나 힘든 관계로 프로그래밍으로 이 문제를 해결하려고 합니다.
+	- 어떤 숫자를 함수 안에 집어넣으면 박수를 쳐야할 지 말아야할 지 판단해주는 함수를 만들려고 하는데
+	- 어떻게 함수를 만들어야할까요?
+```
+
+```js
+function game369(num) {
+  if (num % 3 == 0){
+	  console.log('박수')
+  } else {
+	  console.log('통과')
+  }
+}
+```
+
+```ad-question
+- Q2. 하지만 369게임 업그레이드 버전이 등장했습니다. 
+	- 369게임 업그레이드 버전은 3의 배수에서 박수를 치는건 맞지만
+	- 9의 배수에서는 박수를 두번 쳐야합니다.
+	- 철수는 역시나 이것도 프로그래밍으로 이 문제를 해결하려고 합니다.
+	- 아까 만들었던 369게임() 함수를 어떻게 고치면 될까요?
+```
+
+```js
+function game369_v2(num) {
+  if (num % 9 == 0) {
+	  console.log('박수x2')
+  } else if (num % 3 == 0){
+	  console.log('박수')
+  }  else {
+	  console.log('통과')
+  }
+}
+```
+
+```ad-tip
+- 함수이름 작명시 맨 처음 단어는 숫자를 사용하시면 안됩니다.
+- 페이지 내의 다른 곳에서 자바스크립트 문법 에러가 뜨는 경우 다른 코드도 실행이 제대로 되지 않습니다. 콘솔창에 에러가 없는지 한번 확인해보십시오.
+```
+
+
+```ad-question
+- Q3. 공인중개사 시험점수를 입력하면 합격인지 알려주는 함수를 만들어봅시다.
+	- 공인중개사 1차 시험은 개론, 민법 2개 과목이 있습니다.
+	- 과목마다 100점 만점이지만 두 과목 합해서 120점 이상이면 합격시켜줍니다. 
+	- 다만 한 과목이 40점 미만이면 과락으로 불합격됩니다.  
+	- 과목 점수 2개를 파라미터로 입력하면 합격인지 불합격인지 여부를 콘솔창에 출력하는 함수를 만들어보십시오. 
+```
+
+```js
+function passCheck(score1, score2){
+  if (score1 < 40 || score2 < 40) {
+	  console.log('불합격')
+  } else if ((score1 + score2) >= 120){
+	  console.log('합격')
+  } else {
+	  console.log('불합격')
+  }
+}
+```
+
+```ad-question
+1. (응용) 원래의 369게임 룰을 적용하려면 어떻게 해야할까요?
+	- 3의 배수에서 박수를 치는게 아니라 끝자리가 3,6,9로 끝나는 숫자라면 '박수'를 출력되게 하는겁니다. 
+	- 이건 숫자의 마지막자리를 어떻게 파악할지 구글 검색해보면 쉽게 해결되니 답은 없습니다. 
+
+2. (응용2) 합격판독기에 0에서 100사이 숫자가 아닌걸 입력하면 장난치지 말라고 alert를 띄우려면 어떻게 코드짜야할까요?
+	- 이것도 간단하게 if문 알아서 추가해봅시다.
+```
+
+```js
+function game369_v3(num) {
+
+  const lastNum = String(num)
+  // console.log(lastNum[lastNum.length-1])
+
+  if (lastNum[lastNum.length-1] == '3' 
+  || lastNum[lastNum.length-1] == '6' 
+  || lastNum[lastNum.length-1] == '9' ){
+    console.log('박수')
+  } else {
+    console.log('통과')
+  }
+}
+```
+
+```js
+function passCheck(score1, score2){
+
+  if (0 > score1 
+  || score1 > 100 
+  || 0 > score2 
+  || score2 > 100){
+	  alert('장난치지마세요')
+  }
+  
+  if (score1 < 40 || score2 < 40) {
+	  console.log('불합격')
+  } else if ((score1 + score2) >= 120){
+	  console.log('합격')
+  } else {
+	  console.log('불합격')
+  }
+}
+```
+
+
+### 변수문법과 Dark mode 버튼만들기
+#### 자료를 잠깐 저장할 수 있는 변수문법
+```js
+// var 변수명 = 넣을값;
+var 나이 = 20;
+var 이름 = 'kim';
+```
+- 👉 변수 작명시엔 camelCase 사용
+
+- 변수를 사용하는 이유? 
+	1. 길고 복잡한 자료가 있으면 잠깐 변수에 저장해서 쓰면 편리합니다.
+	2. 특정 값을 기록하고 싶으면 변수씁니다.
+
+#### 변수에 +1 하는 법
+```
+변수명++
+
+변수 += 1
+
+변수 = 변수 + 1
+
+
+(변수에 -1 하는 법)
+
+변수명--
+
+변수 -= 1
+
+변수 = 변수 - 1
+
+```
+
+```ad-todo
+- 다크모드 버튼 눌렀을 때 
+	- 버튼 누른 횟수가 홀수면 버튼 내부 글자를 Light로 변경해주세요~
+	- 버튼 누른 횟수가 짝수면 버튼 내부 글자를 Dark로 변경해주세요~
+```
+
+```js
+      var count = 0;
+      
+      $('.badge').on('click', function(){
+        count += 1;
+
+        if (count % 2 == 0){
+          $('#modeChangeBtn').text('Dark 🔄')
+        } else {
+          $('#modeChangeBtn').text('light 🔄')
+        }
+      })
+      
+//     뱃지 클릭 횟수가 홀수면 내부 글자를 light로 변경 
+//     뱃지 클릭 횟수가 짝수면 내부 글자를 Dark로 변경
+```
+- 👉 `$('#modeChangeBtn').html('Dark 🔄')` 사용해도 됨
+
+### 변수 심화학습시간 & 저번시간 숙제
+
+```html
+<body class='DarkMode'>
+...
+</body>
+```
+
+```css
+.DarkMode{
+	background : black;
+	color : white;
+	...
+}
+```
+
+- 페이지에 다크모드를 적용하고 싶다면, `DarkMode`라는 클래스를 만들고, 탈부착식으로 작동하게 하면 된다. 
+	- Bootstrap 스타일이 적용된 요소는 css 덮어쓰기가 어려울 수 있습니다.<br>bg-dark 클래스명을 bg-light 이런 식으로 바꾸거나 <br>아니면 붙어있던 class를 제거하거나 그러면 됩니다.
+
+#### 변수의 선언, 할당, 범위라는 개념
+```js
+// 변수의 선언
+var 나이; 
+var 이름;
+
+// 변수의 할당
+나이 = 20;
+이름 = 'kim';
+
+// 변수의 선언과 할당
+var 나이 = 20;
+var 이름 = 'kim';
+```
+- 저렇게 선언만 따로, 할당만 따로 할 수 있습니다. 
+	- 선언만 한 변수를 출력하면 `undefined(정의되지 않음)` 라고 출력됨
+- 이미 있는 변수를 재선언도 가능합니다.
+- 이미 들어있는 값을 등호로 재할당도 가능합니다.
+
+```js
+function 함수(){
+  var 나이 = 20;
+  console.log(나이); //가능
+}
+
+console.log(나이); //불가능
+```
+- 변수는 사용가능한 범위가 있습니다.
+	- 함수 안에서 변수를 만들었을 경우 함수 안에서만 사용가능합니다.<br>밖에선 사용불가능합니다. 밖에서 출력하면 변수가 정의 안되었다고 에러남.
+	- 반대로 함수 바깥에서 만든 변수는 함수 안에서는 사용가능합니다.
+
+#### var let const 문법 전부 변수생성 가능
+```js
+let 거주지 = 'seoul';
+const 가격 = 3000;
+
+//let, const는 재선언 불가능합니다. 재선언하면 에러를 내줍니다.  
+let 거주지 = 'seoul';
+let 거주지; //에러내줌
+
+// const는 재할당도 불가능합니다. 재할당하면 에러를 내줍니다.
+const 가격 = 3000;
+가격 = 4000;  //에러내줌
+```
+- 👉 let과 const 사용의 장점
+	- let → 코드가 방대해 지면, 나중에 변수만든거 또 만들고 그런 실수가 있습니다. 이걸 미연해 방지해 줍니다.
+	- const → 값을 수정하면 큰일나는 변수들을 만들고싶을 때 유용합니다. 나중에 값을 변경하는 실수를 방지하고 싶을 때 쓰면 됩니다.
+
+```js
+if (true) {
+  let 이름 = 'kim';
+}
+
+console.log(이름); //없다고 나옴
+```
+- let과 const는 범위가 더 좁습니다. 모든 중괄호가 범위입니다.
+	- if, function, 나중에 배울 for 반복문 이런 것은 중괄호가 있습니다.
+	- 중괄호 안에서 만든 let const 변수의 경우 중괄호를 벗어나면 없다고 나옵니다. 
+
+| 키워드 | 범위            | 재선언   | 재할당   |
+| ------ | --------------- | -------- | -------- |
+| var    | Function-scoped | 재선언 O | 재할당 O |
+| let    | {Block-scoped} | 재선언 X | 재할당 O |
+| const    | {Block-scoped} | 재선언 X | 재할당 X |
+
+- 참고
+	- [1. 변수와 식별자](../KDT/Web/09.%20ECMA%20Script.md#1.%20변수와%20식별자)
+
+### 변수, 사칙연산 실력향상 과제
+```ad-question
+- Q1. 변수를 만들어봅시다
+	- 내 나이와 출신지역을 자바스크립트 변수에 저장해봅시다. 
+	- 나이는 맨날 변하니 재할당가능한 변수,
+	- 출신지역은 바뀌지 않으니 재할당불가능한 변수에 저장해보십시오.
+```
+
+```js
+let age = 31;
+const birthRegion = 'Ulsan';
+```
+
+```ad-question
+- Q2. 왜 이 변수는 동작하지 않죠?
+	```js
+	var name = 'park';
+	var id = 0;
+	
+	function showName(){
+	  var name = 'kim';
+	  var id = 1;
+	  console.log(name);
+	}
+	
+	showName();
+	console.log(id);
+	```
+- 다음 코드를 실행했을 때 콘솔창에 무엇이 출력될까요?
+```
+
+```
+kim
+0
+```
+
+```ad-question
+- Q3. 이자율 계산하기 
+	- 철수는 은행에 예금을 하러 갔는데 예금 금액에 따라 이율이 달라지는 것을 보고 크게 당황했습니다.
+	- 첫 예금액이 5만원 미만이면 이율이 연 15퍼센트,
+	- 첫 예금액이 5만원 이상이면 이율이 연 20퍼센트라고 합니다.
+
+	- 그래서 민준이는
+	- (1) 변수에 예금액을 넣으면
+	- (2) 2년 후의 총 예금액을 자동으로 콘솔창에 출력해주는 기능을 자바스크립트로 만들려고하는데
+
+- 어떻게 코드를 짜면 될까요? 
+```
+
+```js
+var deposit = 60000;
+var futureMoney = 0;
+
+function bankRate(deposit) {
+	if ( deposit < 50000 ){
+		deposit *= 1.15
+		deposit *= 1.15
+		}
+	else {
+		deposit *= 1.20
+		deposit *= 1.20
+		}
+	futureMoney = deposit
+}
+ 
+console.log(futureMoney) 
+```
+
+```ad-question
+- Q4. 커피 리필을 이상하게 해주는 곳이 있습니다. 최대한 마실 수 있는 커피양을 계산해봅시다. 
+	- 방금 마신 커피의 3분의 2만큼 총 2번 리필해주는 카페가 있습니다.
+	- 예를 들면 처음 커피를 90ml 주문하면 첫 리필은 60ml를 해주며, 그 다음 리필은 40ml를 해주는 카페입니다.
+	- 그럼 처음 주문한 커피 양에 따라서 최대한 마실 수 있는 커피를 콘솔창에 계산해주는 코드를 작성해봅시다. 
+```
+
+```js
+var first = 360;
+
+function refill(first) {
+	first = first + (first * 2/3) + ((first * 2/3) * 2/3)
+	console.log(first)
+}
+
+refill(first)
+```
+
+```ad-question
+- Q5. 간단한 퀴즈 UI를 만들어봅시다.
+	```html
+	<p>태조 이성계가 태어난 년도는?</p>
+	<input type="text" id="answer">
+	<button id="send-answer">제출</button>
+	
+	<script>
+	  여기에 기능 알아서 만드십시오
+	</script>
+	```
+	
+- 유저가 `<input>`에 답을 적고 제출버튼을 누를 수 있는 퀴즈 UI 입니다.
+1. 유저가 답을 맞추면 alert('성공');
+2. 유저가 답을 3번 찍어서 못맞추면 alert('멍청아') 를 띄워봅시다.
+하단에 자바스크립트 작성하면 됩니다.
+(위 문제의 답은 1335입니다)
+```
+
+```html
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+<p>태조 이성계가 태어난 년도는?</p>
+<input type="text" id="answer">
+<button id="send-answer">제출</button>
+
+<script>
+  
+  count = 0;
+  
+  $('#send-answer').on('click', function(){
+    let answer = $('#answer').val();
+    //console.log(answer)
+    count += 1;
+      
+    if (answer == 1335){
+      alert('성공')
+      count = 0;
+    }
+    
+    if (count >= 3){
+      alert('멍청아')
+    }
+  })
+</script>
+```
+
+```ad-question
+- (응용 1)
+	- 위에서 1.2를 여러번 곱했는데 1.2를 10번 곱하려면 코드를 어떻게 짜야될까요? 
+	- `1.2 * 1.2 * 1.2 ...` 계속 하면 되긴 하는데
+	- 자바스크립트엔 ** 이런 거듭제곱 연산자 기능도 있습니다.
+
+- (응용 2)
+	- 커피리필 문제에서
+	- 커피리필을 무한으로 해준다면 처음 담아주는 커피가 360ml일 때 총 몇 ml의 커피를 마실 수 있을까요?
+	- 무한등비수열의 합 그런건데 공식이 가물가물해서 여기까지 하겠습니다.
+```
+

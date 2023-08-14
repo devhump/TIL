@@ -5,6 +5,14 @@
       "path": "JS/JS 입문.md"
     },
     {
+      "basename": "09. ECMA Script",
+      "path": "KDT/Web/09. ECMA Script.md"
+    },
+    {
+      "basename": "08. Javascript",
+      "path": "KDT/Web/08. Javascript.md"
+    },
+    {
       "basename": "10. Event",
       "path": "KDT/Web/10. Event.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "KDT",
       "path": "KDT/KDT.md"
-    },
-    {
-      "basename": "08. Javascript",
-      "path": "KDT/Web/08. Javascript.md"
     },
     {
       "basename": "HTML & CSS",
