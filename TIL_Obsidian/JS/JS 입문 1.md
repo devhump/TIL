@@ -2,6 +2,42 @@
 tag: [CodingApple/JS, JS]
 ---
 
+#### 참고문서
+##### KDT/ Web
+``` dataview
+list FROM "KDT/Web"
+SORT file.name ASC
+```
+
+##### Modern JS
+```dataview
+list from #ModernJavaScript 
+SORT file.name ASC
+```
+##### CodingApple/ JS
+```dataview
+list from #CodingApple/JS 
+SORT file.name ASC
+```
+
+## JS 입문
+```ad-note
+- [[#동적 UI 만드는 스텝 (Alert 박스 만들기)|동적 UI 만드는 스텝 (Alert 박스 만들기)]]
+- [[#자바스크립트 function 문법 사용법|자바스크립트 function 문법 사용법]]
+- [[#function의 파라미터 문법|function의 파라미터 문법]]
+- [[#자바스크립트 이벤트리스너|자바스크립트 이벤트리스너]]
+- [[#서브메뉴 만들어보기와 classList 다루기|서브메뉴 만들어보기와 classList 다루기]]
+- [[#jQuery 사용법 간단정리|jQuery 사용법 간단정리]]
+- [[#모달창만들기와 간단한 애니메이션|모달창만들기와 간단한 애니메이션]]
+- [[#공백검사 숙제와 else if 문법|공백검사 숙제와 else if 문법]]
+- [[#input, change 이벤트와 and, or 연산자|input, change 이벤트와 and, or 연산자]]
+- [[#if/else, function 실력향상 과제|if/else, function 실력향상 과제]]
+- [[#변수문법과 Dark mode 버튼만들기|변수문법과 Dark mode 버튼만들기]]
+- [[#변수 심화학습시간 & 저번시간 숙제|변수 심화학습시간 & 저번시간 숙제]]
+- [[#변수, 사칙연산 실력향상 과제|변수, 사칙연산 실력향상 과제]]
+```
+
+
 #### intro
 - 자바스크립트는 **"html 조작과 변경"** 을 담당하는 언어
 

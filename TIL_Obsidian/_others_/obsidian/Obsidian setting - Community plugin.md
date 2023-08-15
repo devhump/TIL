@@ -2,6 +2,8 @@
 tags: [shortcut, Obsidian]
 alias: [옵시디언 - 커뮤니티 플러그인]
 ---
+![Dataview](Obsidian%20setting%20-%20Community%20plugin.md#Dataview)
+
 #### Obsidian & markdown
 ```dataview
 LIST

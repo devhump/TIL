@@ -1,8 +1,25 @@
 ---
-title : 
-aliases : 
 tags : [web, IT_SC_basic, regex]
 ---
+
+#### 참고문서
+```dataview
+list from #regex 
+```
+
+
+```ad-note
+- [[#참고문서|참고문서]]
+- [[#참고 내용 및 자료|참고 내용 및 자료]]
+- [[#문법 정리|문법 정리]]
+- [[#문법 정리#Groups and ranges|Groups and ranges]]
+- [[#문법 정리#Quantifiers|Quantifiers]]
+- [[#문법 정리#Boundary-type|Boundary-type]]
+- [[#문법 정리#Character classes|Character classes]]
+- [[#예제|예제]]
+- [[#예제#`?:`의 유무에 따른 차이|`?:`의 유무에 따른 차이]]
+- [[#실 사용 예시 (feat. JS)|실 사용 예시 (feat. JS)]]
+```
 
 ### 참고 내용 및 자료
 - [Youtube -정규표현식 , 더이상 미루지 말자 🤩 by 드림코딩](https://youtu.be/t3M6toIflyQ)

@@ -23,20 +23,33 @@
             }
           },
           {
-            "id": "0e4ae909718f27cc",
+            "id": "15aa449344e8be83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS 입문 2.md",
+                "file": "git_github/git_github.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce47f4891eecb66f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT_SC_Basic/정규표현식 (regex).md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "regex",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,19 +102,6 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "9300181a917c38e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT_SC_Basic/정규표현식 (regex).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JS 입문 2.md"
+                "file": "IT_SC_Basic/정규표현식 (regex).md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS 입문 2.md",
+                "file": "IT_SC_Basic/정규표현식 (regex).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JS 입문 2.md",
+                "file": "IT_SC_Basic/정규표현식 (regex).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,18 +202,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0e4ae909718f27cc",
+  "active": "ce47f4891eecb66f",
   "lastOpenFiles": [
+    "git_github/git_github.md",
     "devhump's TIL Index (data view).md",
-    "JS/JS 입문 2.md",
-    "JS/JS.md",
-    "JS/JS 입문 1.md",
-    "JS/JS 기본1.md",
-    "JS/JS 기본2.md",
-    "JS/JS 기본3.md",
     "IT_SC_Basic/정규표현식 (regex).md",
+    "git_github/Git basic - rollback.md",
+    "git_github/Git basic - merge.md",
+    "git_github/Git basic - Github manual.md",
+    "git_github/Git basic - git stash.md",
+    "git_github/Git basic - git revert, reset, restore.md",
+    "TIL Waypoint.md",
+    "JS/JS 기본3.md",
+    "JS/JS 기본2.md",
+    "JS/JS 기본1.md",
+    "JS/JS 입문 1.md",
     "_others_/obsidian/Obsidian setting - Community plugin.md",
     "Python/Jump to Python/10. 정규표현식.md",
+    "JS/JS 입문 2.md",
+    "JS/jQuery.md",
+    "JS/assets/JS 입문 2-1.png",
+    "JS/assets/JS 입문 2.png",
+    "JS/JS.md",
     "KDT/Web/09. ECMA Script.md",
     "KDT/Web/08. Javascript.md",
     "KDT/Web/10. Event.md",
@@ -228,22 +237,12 @@
     "HTML_CSS/assets/HTML & CSS-3.png",
     "HTML_CSS/assets/HTML & CSS-2.png",
     "KDT/Web/01. Happy Web.md",
-    "git_github/Git basic - git revert, reset, restore.md",
-    "git_github/Git basic - git stash.md",
-    "git_github/Git basic - Github manual.md",
-    "git_github/Git basic - merge.md",
-    "git_github/Git basic - rollback.md",
-    "git_github/git_github.md",
-    "KDT/DB/08. QuerySet API.md",
-    "KDT/DB/07. ORM.md",
     "HTML_CSS/assets/HTML & CSS-1.png",
     "HTML_CSS/assets/HTML & CSS.png",
     "HTML_CSS/assets",
     "HTML_CSS",
     "0_zero",
     "git_github/assets/Git basic - git stash.png",
-    "git_github/assets/Git basic - git stash-1.png",
-    "git_github/assets/Git의 기초 - 되돌리기-img- (3).png",
     "git_github/assets",
     "git_github",
     "_others_/vscode_shortcuts_(mac).pdf",

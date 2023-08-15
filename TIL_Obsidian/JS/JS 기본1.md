@@ -1,8 +1,35 @@
 ---
-title : 
-aliases : 
-tags : [ModernJavaScript, JS, "-"]
+tags : [ModernJavaScript, JS]
 ---
+
+## JS 기본1
+```ad-note
+- [[#자료형|자료형]]
+- [[#alert, prompt, confirm을 이용한 상호작용|alert, prompt, confirm을 이용한 상호작용]]
+- [[#형변환|형변환]]
+- [[#기본 연산자와 수학|기본 연산자와 수학]]
+- [[#비교연산자|비교연산자]]
+```
+
+
+#### 참고문서
+##### KDT/ Web
+``` dataview
+list FROM "KDT/Web"
+SORT file.name ASC
+```
+##### Modern JS
+```dataview
+list from #ModernJavaScript 
+SORT file.name ASC
+```
+##### CodingApple/ JS
+```dataview
+list from #CodingApple/JS 
+SORT file.name ASC
+```
+
+
 
 #### 스크립트 작성 방법
 1. html 본문 내 script 내부에 작성한다. 

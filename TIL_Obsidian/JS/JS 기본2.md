@@ -1,8 +1,32 @@
 ---
-title : 
-aliases : 
-tags : [ModernJavaScript, JS, "-"]
+tags : [ModernJavaScript, JS]
 ---
+## JS 기본2
+```ad-note
+- [[#if와 '?'를 사용한 조건 처리|if와 '?'를 사용한 조건 처리]]
+- [[#논리연산자|논리연산자]]
+- [[#nullish 병합 연산자 '??'|nullish 병합 연산자 '??']]
+- [[#while 과 for 반복문|while 과 for 반복문]]
+- [[#Switch문|Switch문]]
+```
+
+#### 참고문서
+##### KDT/ Web
+``` dataview
+list FROM "KDT/Web"
+SORT file.name ASC
+```
+##### Modern JS
+```dataview
+list from #ModernJavaScript 
+SORT file.name ASC
+```
+##### CodingApple/ JS
+```dataview
+list from #CodingApple/JS 
+SORT file.name ASC
+```
+
 
 
 ### if와 '?'를 사용한 조건 처리

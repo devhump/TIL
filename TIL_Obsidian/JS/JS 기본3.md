@@ -1,8 +1,30 @@
 ---
-title : 
-aliases : 
-tags : [ModernJavaScript, JS, "-"]
+tags : [ModernJavaScript, JS]
 ---
+
+## JS 기본 3
+```ad-note
+- [[#함수|함수]]
+- [[#함수 표현식|함수 표현식]]
+- [[#화살표 함수 기본|화살표 함수 기본]]
+```
+
+#### 참고문서
+##### KDT/ Web
+``` dataview
+list FROM "KDT/Web"
+SORT file.name ASC
+```
+##### Modern JS
+```dataview
+list from #ModernJavaScript 
+SORT file.name ASC
+```
+##### CodingApple/ JS
+```dataview
+list from #CodingApple/JS 
+SORT file.name ASC
+```
 
 
 ### 함수

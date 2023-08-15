@@ -1,36 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "JS 입문 2",
-      "path": "JS/JS 입문 2.md"
+      "basename": "정규표현식 (regex)",
+      "path": "IT_SC_Basic/정규표현식 (regex).md"
+    },
+    {
+      "basename": "git_github",
+      "path": "git_github/git_github.md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
     },
     {
-      "basename": "JS",
-      "path": "JS/JS.md"
+      "basename": "Git basic - rollback",
+      "path": "git_github/Git basic - rollback.md"
     },
     {
-      "basename": "JS 입문 1",
-      "path": "JS/JS 입문 1.md"
+      "basename": "Git basic - merge",
+      "path": "git_github/Git basic - merge.md"
     },
     {
-      "basename": "JS 기본1",
-      "path": "JS/JS 기본1.md"
+      "basename": "Git basic - Github manual",
+      "path": "git_github/Git basic - Github manual.md"
     },
     {
-      "basename": "JS 기본2",
-      "path": "JS/JS 기본2.md"
+      "basename": "Git basic - git stash",
+      "path": "git_github/Git basic - git stash.md"
+    },
+    {
+      "basename": "Git basic - git revert, reset, restore",
+      "path": "git_github/Git basic - git revert, reset, restore.md"
+    },
+    {
+      "basename": "TIL Waypoint",
+      "path": "TIL Waypoint.md"
     },
     {
       "basename": "JS 기본3",
       "path": "JS/JS 기본3.md"
     },
     {
-      "basename": "정규표현식 (regex)",
-      "path": "IT_SC_Basic/정규표현식 (regex).md"
+      "basename": "JS 기본2",
+      "path": "JS/JS 기본2.md"
+    },
+    {
+      "basename": "JS 기본1",
+      "path": "JS/JS 기본1.md"
+    },
+    {
+      "basename": "JS 입문 1",
+      "path": "JS/JS 입문 1.md"
     },
     {
       "basename": "Obsidian setting - Community plugin",
@@ -39,6 +59,18 @@
     {
       "basename": "10. 정규표현식",
       "path": "Python/Jump to Python/10. 정규표현식.md"
+    },
+    {
+      "basename": "JS 입문 2",
+      "path": "JS/JS 입문 2.md"
+    },
+    {
+      "basename": "jQuery",
+      "path": "JS/jQuery.md"
+    },
+    {
+      "basename": "JS",
+      "path": "JS/JS.md"
     },
     {
       "basename": "09. ECMA Script",
@@ -71,30 +103,6 @@
     {
       "basename": "01. Happy Web",
       "path": "KDT/Web/01. Happy Web.md"
-    },
-    {
-      "basename": "Git basic - git revert, reset, restore",
-      "path": "git_github/Git basic - git revert, reset, restore.md"
-    },
-    {
-      "basename": "Git basic - git stash",
-      "path": "git_github/Git basic - git stash.md"
-    },
-    {
-      "basename": "Git basic - Github manual",
-      "path": "git_github/Git basic - Github manual.md"
-    },
-    {
-      "basename": "Git basic - merge",
-      "path": "git_github/Git basic - merge.md"
-    },
-    {
-      "basename": "Git basic - rollback",
-      "path": "git_github/Git basic - rollback.md"
-    },
-    {
-      "basename": "git_github",
-      "path": "git_github/git_github.md"
     },
     {
       "basename": "08. QuerySet API",
@@ -159,10 +167,6 @@
     {
       "basename": "무제 파일",
       "path": "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md"
-    },
-    {
-      "basename": "TIL Waypoint",
-      "path": "TIL Waypoint.md"
     },
     {
       "basename": "readme",
