@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "15aa449344e8be83",
+            "id": "7483e632ad4cf2d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git_github/git_github.md",
+                "file": "JS/JS 입문 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,12 +36,25 @@
             }
           },
           {
-            "id": "ce47f4891eecb66f",
+            "id": "b7e787ba83b63d66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT_SC_Basic/정규표현식 (regex).md",
+                "file": "JS/JS 입문 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "461857a07e31b508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Web/10. Event.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -49,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT_SC_Basic/정규표현식 (regex).md"
+                "file": "JS/JS 입문 2.md"
               }
             }
           },
@@ -152,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT_SC_Basic/정규표현식 (regex).md",
+                "file": "JS/JS 입문 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT_SC_Basic/정규표현식 (regex).md",
+                "file": "JS/JS 입문 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,10 +216,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ce47f4891eecb66f",
+  "active": "7483e632ad4cf2d7",
   "lastOpenFiles": [
-    "git_github/git_github.md",
+    "JS/JS 입문 1.md",
+    "JS/JS.md",
+    "JS/jQuery.md",
+    "JS/JS 입문 2.md",
+    "JS/assets/JS 입문 2-6.png",
+    "KDT/Web/10. Event.md",
+    "JS/assets/JS 입문 2-5.png",
+    "JS/assets/JS 입문 2-4.png",
+    "JS/assets/JS 입문 2-3.png",
+    "JS/assets/JS 입문 2-2.png",
     "devhump's TIL Index (data view).md",
+    "git_github/git_github.md",
     "IT_SC_Basic/정규표현식 (regex).md",
     "git_github/Git basic - rollback.md",
     "git_github/Git basic - merge.md",
@@ -216,17 +240,12 @@
     "JS/JS 기본3.md",
     "JS/JS 기본2.md",
     "JS/JS 기본1.md",
-    "JS/JS 입문 1.md",
     "_others_/obsidian/Obsidian setting - Community plugin.md",
     "Python/Jump to Python/10. 정규표현식.md",
-    "JS/JS 입문 2.md",
-    "JS/jQuery.md",
     "JS/assets/JS 입문 2-1.png",
     "JS/assets/JS 입문 2.png",
-    "JS/JS.md",
     "KDT/Web/09. ECMA Script.md",
     "KDT/Web/08. Javascript.md",
-    "KDT/Web/10. Event.md",
     "JS/assets/JS 입문-1.png",
     "JS/assets/JS 입문.png",
     "KDT/KDT.md",
@@ -234,15 +253,9 @@
     "JS/CORS 에러 문제.md",
     "KDT/Web/02. CSS.md",
     "HTML_CSS/assets/HTML & CSS-4.png",
-    "HTML_CSS/assets/HTML & CSS-3.png",
-    "HTML_CSS/assets/HTML & CSS-2.png",
-    "KDT/Web/01. Happy Web.md",
-    "HTML_CSS/assets/HTML & CSS-1.png",
-    "HTML_CSS/assets/HTML & CSS.png",
     "HTML_CSS/assets",
     "HTML_CSS",
     "0_zero",
-    "git_github/assets/Git basic - git stash.png",
     "git_github/assets",
     "git_github",
     "_others_/vscode_shortcuts_(mac).pdf",

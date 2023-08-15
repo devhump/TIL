@@ -2,6 +2,39 @@
 tag: [CodingApple/JS, JS]
 ---
 
+#### 참고문서
+##### KDT/ Web
+``` dataview
+list FROM "KDT/Web"
+SORT file.name ASC
+```
+
+##### Modern JS
+```dataview
+list from #ModernJavaScript 
+SORT file.name ASC
+```
+##### CodingApple/ JS
+```dataview
+list from #CodingApple/JS 
+SORT file.name ASC
+```
+## JS 입문 2
+```ad-note
+- [[#setTimeout 타이머주는 법|setTimeout 타이머주는 법]]
+- [[#정규식으로 이메일형식 검증해보기|정규식으로 이메일형식 검증해보기]]
+- [[#코드 3줄로 캐러셀 (이미지 슬라이드) 만들기|코드 3줄로 캐러셀 (이미지 슬라이드) 만들기]]
+- [[#코드 3줄로 캐러셀 (이미지 슬라이드) 만들기 2|코드 3줄로 캐러셀 (이미지 슬라이드) 만들기 2]]
+- [[#함수의 return 문법 & 소수점 다루기|함수의 return 문법 & 소수점 다루기]]
+- [[#스크롤 이벤트로 만드는 재밌는 기능들|스크롤 이벤트로 만드는 재밌는 기능들]]
+- [[#스크롤 이벤트 숙제 해설 & 페이지 스크롤 응용|스크롤 이벤트 숙제 해설 & 페이지 스크롤 응용]]
+- [[#탭기능 만들며 배우는 for 반복문|탭기능 만들며 배우는 for 반복문]]
+- [[#탭기능 만들며 배우는 for 반복문 2|탭기능 만들며 배우는 for 반복문 2]]
+- [[#이벤트 버블링과 이벤트관련 함수들|이벤트 버블링과 이벤트관련 함수들]]
+- [[#이벤트 버블링 응용과 dataset|이벤트 버블링 응용과 dataset]]
+- [[#쓸만한 자바스크립트 라이브러리들|쓸만한 자바스크립트 라이브러리들]]
+```
+
 ### setTimeout 타이머주는 법
 
 #### setTimeout
@@ -1068,5 +1101,251 @@ for (let i = 0; i < tabLen ; i++){
 
 ### 이벤트 버블링과 이벤트관련 함수들
 
+![](assets/JS%20입문%202-3.png)
+
+![](assets/JS%20입문%202-4.png)
+
+- 모달창이 잘 안 보일 경우, `z-index`를 수정하자. (5 → 6)
+
 > CSS z-index 속성은 위치 지정 요소와, 그 자손 또는 하위 플렉스 아이템의 Z축 순서를 지정합니다. 더 큰 z-index 값을 가진 요소가 작은 값의 요소 위를 덮습니다.
 > \- [MDN - Z-index](https://developer.mozilla.org/ko/docs/Web/CSS/z-index)
+
+
+#### 모달창 배경을 누르면 닫히는 기능을 추가해봅시다
+```js
+// 모달창 배경화면 클릭시 창 닫기
+    $('.black-bg').on('click', function(e){
+	  $(".black-bg").removeClass("show-modal");
+    }
+```
+- 👉 문제는 검은 배경 말고 input 박스를 선택해도 모달창이 닫힌다. 
+	- why?
+		- 👉 **이벤트 버블링**
+
+![](assets/JS%20입문%202-5.png)
+
+#### 이벤트 버블링
+- 어떤 HTML 태그에 이벤트가 발생하면 그의 모든 상위요소까지 이벤트가 실행되는 현상을 이벤트 버블링이라고 합니다. 
+- click이라는 이벤트로 예를 들어보면, <br>HTML 태그에 클릭이 발생하면 **그의 모든 상위요소까지 자동으로 클릭된다**는 말입니다. 
+
+```html
+<div>
+  <div>
+    <p>안녕</p>
+  </div>
+</div>
+```
+- 👉 위의 코드에서 p태그 안녕이라는 글자를 클릭하면 브라우저는 사용자가 클릭을 총 3번 했다고 인지합니다.
+	- p랑 그 위의 div랑 그 위의 div랑 이렇게요.
+
+```html
+<div class="black-bg"> (← 이거 누르면 모달창 닫으라고 코드짰음)
+  <div class="white-bg">
+    모달창 내용
+  </div>
+</div>
+```
+
+- 유저가 `<div class="white-bg">` 이거 클릭해도 <br>**이벤트 버블링** 때문에 `<div class="black-bg">` 이것도 클릭한 것입니다.
+	- 👉 그래서 거기 붙어있던 이벤트리스너가 동작해서 모달창을 닫아주는겁니다. 
+
+#### 이벤트리스너 안에서 쓰는 이벤트 함수들
+```js
+document.querySelector('.black-bg').addEventListener('click', function(e){
+  e.target; // 실제 클릭한 요소 알려줌 (이벤트 발생한 곳)
+  console.log(e.target);
+  e.currentTarget; // 지금 이벤트리스너가 달린 곳 알려줌 (참고로 this라고 써도 똑같음)
+  e.preventDefault(); // 이벤트 기본동작 막아줌 (form의 submit 제한 )
+  e. stopPropagation(); // 내 상위요소로의 이벤트 버블링 막아줌
+});
+```
+- 👉 function에 파라미터로 `e`를 추가했다. (관습적으로 `e` 사용)
+- 여기서 중요한건 `e.target`인데, 이벤트 버블링이 일어난다고 해도<br>**사용자가 실제로 클릭한 그 요소는 저 문법으로 찾아낼 수 있다**는걸 기억해둡시다.
+
+#### 그럼 모달창 닫기 버그를 해결해봅시다
+```js
+// 모달창 배경화면 클릭시 창 닫기
+    $('.black-bg').on('click', function(e){
+      // 지금 실제로 클릭한게 검은 배경일 때만 닫아라
+      if (e.target == document.querySelector('.black-bg')){
+          $(".black-bg").removeClass("show-modal");
+          }
+    }
+
+// vanilla JS 
+document.querySelector('.black-bg').addEventListener('click', function(e){
+  if ( e.target == document.querySelector('.black-bg') ) {
+    document.querySelector('.black-bg').classList.remove('show-modal');
+  }
+})
+```
+- 이때, `e.target == document.querySelector('.black-bg')` 를 `e.target == $('.black-bg')` 로 바꿔쓰면 제대로 작동하지 않음 (==jQuery 셀렉터끼리 등호비교는 불가능==)
+	- 👉 `$(e.target).is($('.black-bg'))`를 사용해야함 (비교용 함수)
+- 저기서 `e.currentTarget` 출력해보면 검은배경이 나오기 때문에 <br>`e.target == e.currentTarget` 또는 `e.target == this` 이렇게 써도 됨
+
+```ad-tip
+- 이벤트함수/ 쿼리셀렉터 / jQuery 출력 결과의 차이
+	 ```js
+	console.log(e.target);
+	console.log(document.querySelector('.black-bg'));
+	console.log($('.black-bg'))
+	```
+
+![](assets/JS%20입문%202-2.png)
+```
+
+### 이벤트 버블링 응용과 dataset
+#### 전에 만들었던 탭기능 함수로 축약해보기
+```js
+// 탭 기능 함수화
+let tabLen = $('.tab-button').length;
+
+// tab 버튼 기능 구현 (반복문)
+for (let i = 0; i < tabLen ; i++){
+  
+  tabBtn.eq(i).on('click', function(){
+    tabOpen(i);
+  })
+}
+
+let tabBtn = $('.tab-button');
+let tabContent = $('.tab-content');
+
+function tabOpen(idx){
+    tabBtn.removeClass('orange');
+    tabBtn.eq(idx).addClass('orange');
+
+    tabContent.removeClass('show');
+    tabContent.eq(idx).addClass('show');
+}
+```
+
+#### 이벤트버블링을 알면 이벤트리스너 줄일 수 있음
+
+```html
+    <ul class="list">
+      <li class="tab-button">Products</li>
+      <li class="tab-button orange">Information</li>
+      <li class="tab-button">Shipping</li>
+    </ul>
+```
+
+```js
+$('.list').click(function(e){
+  
+  if (e.target == document.querySelectorAll('.tab-button')[0]) {
+    tabOpen(0);
+  }
+  if (e.target == document.querySelectorAll('.tab-button')[1]) {
+    tabOpen(1);
+  }
+  if (e.target == document.querySelectorAll('.tab-button')[2]) {
+    tabOpen(2);
+  }
+})
+
+let tabBtn = $('.tab-button');
+let tabContent = $('.tab-content');
+
+function tabOpen(idx){
+    tabBtn.removeClass('orange');
+    tabBtn.eq(idx).addClass('orange');
+
+    tabContent.removeClass('show');
+    tabContent.eq(idx).addClass('show');
+}
+```
+
+```ad-tip
+Q. 왜 굳이 이벤트리스너 줄여서 코드 짜냐고요? 
+- 버튼이 몇십개 있다면 이렇게 짜는게 덜 복잡하고
+- 이벤트리스너를 줄이면 램용량을 절약할 수 있습니다. 성능개선의 일환입니다. 
+```
+
+#### dataset 문법 (잡기술)
+```html
+<div data-데이터이름="값"></div> 
+```
+- 👉 html 안에 유저 몰래 정보를 숨겨놓을 수 있습니다.
+
+```js
+document.querySelector().dataset.데이터이름; // 입력한 '값' 
+```
+
+##### 실제 적용 방법
+1. html 태그에 dataset 값 설정
+```html
+<li class="tab-button" data-id="0">Products</li> 
+<li class="tab-button orange" data-id="1">Information</li> 
+<li class="tab-button" data-id="2">Shipping</li> 
+```
+
+2. JS 수도 코드 
+```js
+$('.list').click(function(){
+  탭열기(지금누른버튼에 숨어있던 data-id)
+});
+```
+
+- 👇 지금 누른 버튼에 숨어있던 data-id를 알려주는 코드
+```js
+$('.list').click(function(e){
+  탭열기(e.target.dataset.id)
+});
+```
+
+```ad-tip
+- dataset 문법은 Internet Explorer 11 이상에서 동작함.
+- 옛날 브라우저에서 잘 호환되는 jQuery 문법도 있음
+	```js
+	$(셀렉터).data('데이터이름', '값') // 이렇게 저장하고
+	$(셀렉터).data('데이터이름') // 이렇게 출력합니다. 
+	```
+```
+
+```ad-note
+**오늘의 교훈 :**
+
+1. 함수로 축약할 때 변수같은게 있으면 파라미터로 바꾸는게 좋음 
+
+2. 이벤트리스너 줄이면 이점이 있음
+
+3. dataset 잡기술 알면 이벤트리스너 적게 사용할 때 내가 뭐 눌렀는지 쉽게 파악할 수도 있음
+```
+
+
+### 쓸만한 자바스크립트 라이브러리들
+#### 1. Swiper
+- 캐러셀 및 유사한 슬라이드 UI
+- [https://swiperjs.com/get-started#use-swiper-from-cdn](https://swiperjs.com/get-started#use-swiper-from-cdn)
+
+![](assets/JS%20입문%202-6.png)
+
+#### 2. Chart.js 
+- 웹페이지에 차트만들고 싶으면 씁니다.
+- [https://cdnjs.com/libraries/Chart.js](https://cdnjs.com/libraries/Chart.js)
+- [chartjs docs](https://www.chartjs.org/docs/latest/)
+
+#### 3. Animate On Scroll
+- 스크롤 내리면 요소가 서서히 등장하는 애니메이션을 만들고 싶을 때 쓰면 좋습니다.
+- [https://github.com/michalsnik/aos](https://github.com/michalsnik/aos)
+- [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)
+
+
+#### 4. EmailJS
+- 원래 이메일 전송은 서버가 해야하지만 Gmail 이런거 서버를 잠깐 빌리면
+- 자바스크립트만으로 이메일 전송이 가능합니다.
+- [https://www.emailjs.com/docs/introduction/how-does-emailjs-work/](https://www.emailjs.com/docs/introduction/how-does-emailjs-work/)
+
+
+#### 5. Lodash
+- array, object, 문자, 숫자 자료를 다루기 편해지는 기본함수들을 제공해줍니다.
+- [https://lodash.com/](https://lodash.com/)
+
+#### 6. React 아니면 Vue
+- 페이지가 너무 많아서 UI 재활용이 자주 필요한 사이트나 <br>모바일 앱처럼 페이지 이동없이 동작하는 Single Page Application을 만들 때 유용한 자바스크립트 라이브러리입니다. 
+
+#### 7. Fullpage.js
+- 웹페이지를 PPT처럼 만들어줍니다.
+- [https://alvarotrigo.com/fullPage/](https://alvarotrigo.com/fullPage/)
+- [https://github.com/alvarotrigo/fullPage.js/tree/master/lang/korean#fullpagejs](https://github.com/alvarotrigo/fullPage.js/tree/master/lang/korean#fullpagejs)

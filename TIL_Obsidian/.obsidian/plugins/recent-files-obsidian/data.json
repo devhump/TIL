@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "정규표현식 (regex)",
-      "path": "IT_SC_Basic/정규표현식 (regex).md"
+      "basename": "JS 입문 2",
+      "path": "JS/JS 입문 2.md"
+    },
+    {
+      "basename": "JS 입문 1",
+      "path": "JS/JS 입문 1.md"
+    },
+    {
+      "basename": "JS",
+      "path": "JS/JS.md"
+    },
+    {
+      "basename": "jQuery",
+      "path": "JS/jQuery.md"
+    },
+    {
+      "basename": "10. Event",
+      "path": "KDT/Web/10. Event.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "git_github",
       "path": "git_github/git_github.md"
     },
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
+      "basename": "정규표현식 (regex)",
+      "path": "IT_SC_Basic/정규표현식 (regex).md"
     },
     {
       "basename": "Git basic - rollback",
@@ -49,10 +69,6 @@
       "path": "JS/JS 기본1.md"
     },
     {
-      "basename": "JS 입문 1",
-      "path": "JS/JS 입문 1.md"
-    },
-    {
       "basename": "Obsidian setting - Community plugin",
       "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
     },
@@ -61,28 +77,12 @@
       "path": "Python/Jump to Python/10. 정규표현식.md"
     },
     {
-      "basename": "JS 입문 2",
-      "path": "JS/JS 입문 2.md"
-    },
-    {
-      "basename": "jQuery",
-      "path": "JS/jQuery.md"
-    },
-    {
-      "basename": "JS",
-      "path": "JS/JS.md"
-    },
-    {
       "basename": "09. ECMA Script",
       "path": "KDT/Web/09. ECMA Script.md"
     },
     {
       "basename": "08. Javascript",
       "path": "KDT/Web/08. Javascript.md"
-    },
-    {
-      "basename": "10. Event",
-      "path": "KDT/Web/10. Event.md"
     },
     {
       "basename": "KDT",
