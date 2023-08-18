@@ -1,28 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "JS 입문 2",
-      "path": "JS/JS 입문 2.md"
-    },
-    {
-      "basename": "JS 입문 1",
-      "path": "JS/JS 입문 1.md"
-    },
-    {
-      "basename": "JS",
-      "path": "JS/JS.md"
+      "basename": "JS 입문 3",
+      "path": "JS/JS 입문 3.md"
     },
     {
       "basename": "jQuery",
       "path": "JS/jQuery.md"
     },
     {
-      "basename": "10. Event",
-      "path": "KDT/Web/10. Event.md"
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown & git/markdown (마크다운) +.md"
+    },
+    {
+      "basename": "markdown for Obsidian",
+      "path": "_others_/obsidian/markdown for Obsidian.md"
+    },
+    {
+      "basename": "Obsidian setting - Community plugin",
+      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "readme",
+      "path": "readme.md"
+    },
+    {
+      "basename": "TIL Waypoint",
+      "path": "TIL Waypoint.md"
+    },
+    {
+      "basename": "10. Event",
+      "path": "KDT/Web/10. Event.md"
+    },
+    {
+      "basename": "JS 입문 1",
+      "path": "JS/JS 입문 1.md"
+    },
+    {
+      "basename": "JS 입문 2",
+      "path": "JS/JS 입문 2.md"
+    },
+    {
+      "basename": "JS",
+      "path": "JS/JS.md"
     },
     {
       "basename": "git_github",
@@ -53,10 +77,6 @@
       "path": "git_github/Git basic - git revert, reset, restore.md"
     },
     {
-      "basename": "TIL Waypoint",
-      "path": "TIL Waypoint.md"
-    },
-    {
       "basename": "JS 기본3",
       "path": "JS/JS 기본3.md"
     },
@@ -67,10 +87,6 @@
     {
       "basename": "JS 기본1",
       "path": "JS/JS 기본1.md"
-    },
-    {
-      "basename": "Obsidian setting - Community plugin",
-      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
     },
     {
       "basename": "10. 정규표현식",
@@ -167,10 +183,6 @@
     {
       "basename": "무제 파일",
       "path": "JS/문벅스 카페 메뉴 앱 만들기/무제 파일.md"
-    },
-    {
-      "basename": "readme",
-      "path": "readme.md"
     },
     {
       "basename": "Git basic - git stash",

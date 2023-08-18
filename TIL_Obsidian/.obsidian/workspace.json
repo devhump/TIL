@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "7483e632ad4cf2d7",
+            "id": "7ada69aaea70bca2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS 입문 2.md",
+                "file": "JS/JS 입문 3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "b7e787ba83b63d66",
+            "id": "611e1490ac9db4b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS 입문 1.md",
+                "file": "JS/jQuery.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,13 +49,13 @@
             }
           },
           {
-            "id": "461857a07e31b508",
+            "id": "9bbd55b5b90e8f6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Web/10. Event.md",
-                "mode": "preview",
+                "file": "KDT/markdown & git/markdown (마크다운) +.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -116,11 +116,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 251.5110321044922
+    "width": 251.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JS 입문 2.md"
+                "file": "JS/JS 입문 3.md"
               }
             }
           },
@@ -165,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS 입문 2.md",
+                "file": "JS/JS 입문 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JS 입문 2.md",
+                "file": "JS/JS 입문 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,19 +218,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7483e632ad4cf2d7",
+  "active": "7ada69aaea70bca2",
   "lastOpenFiles": [
-    "JS/JS 입문 1.md",
-    "JS/JS.md",
     "JS/jQuery.md",
-    "JS/JS 입문 2.md",
-    "JS/assets/JS 입문 2-6.png",
+    "JS/JS 입문 3.md",
+    "KDT/markdown & git/markdown (마크다운) +.md",
+    "_others_/obsidian/markdown for Obsidian.md",
+    "_others_/obsidian/Obsidian setting - Community plugin.md",
+    "devhump's TIL Index (data view).md",
+    "JS/assets/JS 입문 3-4.png",
+    "JS/assets/JS 입문 3-3.png",
+    "JS/assets/JS 입문 3-2.png",
+    "JS/assets/JS 입문 3-1.png",
+    "JS/assets/JS 입문 3.png",
+    "readme.md",
+    "TIL Waypoint.md",
     "KDT/Web/10. Event.md",
+    "JS/JS 입문 1.md",
+    "JS/JS 입문 2.md",
+    "JS/JS.md",
+    "JS/assets/JS 입문 2-6.png",
     "JS/assets/JS 입문 2-5.png",
     "JS/assets/JS 입문 2-4.png",
     "JS/assets/JS 입문 2-3.png",
     "JS/assets/JS 입문 2-2.png",
-    "devhump's TIL Index (data view).md",
     "git_github/git_github.md",
     "IT_SC_Basic/정규표현식 (regex).md",
     "git_github/Git basic - rollback.md",
@@ -236,23 +249,13 @@
     "git_github/Git basic - Github manual.md",
     "git_github/Git basic - git stash.md",
     "git_github/Git basic - git revert, reset, restore.md",
-    "TIL Waypoint.md",
     "JS/JS 기본3.md",
     "JS/JS 기본2.md",
     "JS/JS 기본1.md",
-    "_others_/obsidian/Obsidian setting - Community plugin.md",
     "Python/Jump to Python/10. 정규표현식.md",
-    "JS/assets/JS 입문 2-1.png",
-    "JS/assets/JS 입문 2.png",
     "KDT/Web/09. ECMA Script.md",
     "KDT/Web/08. Javascript.md",
-    "JS/assets/JS 입문-1.png",
-    "JS/assets/JS 입문.png",
     "KDT/KDT.md",
-    "HTML_CSS/HTML & CSS.md",
-    "JS/CORS 에러 문제.md",
-    "KDT/Web/02. CSS.md",
-    "HTML_CSS/assets/HTML & CSS-4.png",
     "HTML_CSS/assets",
     "HTML_CSS",
     "0_zero",

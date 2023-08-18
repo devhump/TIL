@@ -10,5 +10,6 @@
 - [JS 기본3](./JS%20%EA%B8%B0%EB%B3%B83.md)
 - [JS 입문 1](./JS%20%EC%9E%85%EB%AC%B8%201.md)
 - [JS 입문 2](./JS%20%EC%9E%85%EB%AC%B8%202.md)
+- [JS 입문 3](./JS%20%EC%9E%85%EB%AC%B8%203.md)
 
 %% End Waypoint %%
