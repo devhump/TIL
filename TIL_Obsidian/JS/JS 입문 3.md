@@ -538,3 +538,612 @@ $('#test').append(template);
     });
 ```
 - 👉 옷 종류별 사이즈 저장 → 해당 옵션 선택시 마다 종류별 사이즈 출력
+
+### Select 3 : forEach, for in 반복문
+#### forEach() 반복문
+- array 자료 뒤에 붙일 수 있는 **forEach()** 라는 기본함수가 있습니다.
+```js
+var pants = [28, 30, 32];
+pants.forEach(function(){
+  console.log('안녕') // '안녕'이 세번 출력됨
+});
+```
+
+- 콜백함수 안에 파라미터 2개까지 작명이 가능
+```js
+var pants = [28, 30, 32];
+
+pantsSize.forEach(function(a, i){
+  secondSelect.append(`<option>${a}</option>`)
+}
+```
+- 👉 이때, 첫 파라미터(`a`)는 **반복문 돌 때 마다 array 안에 있던 하나하나의 데이터**가 되고,<br>둘 째 파라미터(`i`)는 반복문 돌 때 마다 0부터 1씩 증가하는 정수가 됩니다.
+
+- forEach()를 활용한 코드 
+```js
+// forEach 반복문의 사용
+
+    // select 인풋 
+    let formSelect = $('.form-select').eq(0);
+    let secondSelect = $("#secondSelect");
+
+    let shirtsSize = [90, 95, 100]
+    let pantsSize = [28, 29, 30, 32]
+    
+    formSelect.on('input', function() {
+      let value = this.value;
+      
+      if (value == '셔츠') {
+        secondSelect.html("");
+// for 반복문 사용 방법
+        for (let i = 0; i < shirtsSize.length; i++) {
+          document.querySelector('#secondSelect').insertAdjacentHTML('beforeend', `<option>${shirtsSize[i]}</option>`);
+        }
+        secondSelect.removeClass('selectHidden');
+      } else if (value == '바지') {
+
+        secondSelect.html("");
+        secondSelect.removeClass('selectHidden');
+// forEach 반복문 사용 방법
+        pantsSize.forEach(function(a){
+          secondSelect.append(`<option>${a}</option>`)
+      } else {
+        secondSelect.addClass('selectHidden');
+      }
+    });
+```
+
+#### object 자료 다룰 때 for in 반복문 가능
+```js
+    let obj = {name: 'kim', age:20}
+    
+    for (let key in obj){
+      console.log(key);
+      console.log(obj[key]);
+    }
+```
+
+```ad-tip
+**그래서 반복문의 용도는 2개가 있는데**
+1. 코드복붙하고싶으면(동일한 코드 반복)
+2. array, object 자료 다 꺼내고 싶을 때 
+```
+
+#### arrow function 문법
+```js
+var pants = [28, 30, 32];
+pants.forEach(function(a){
+  console.log(a)
+});
+
+pants.forEach((a) => {
+  console.log(a)
+});
+```
+
+#####  arrow function 심화
+```js
+// 예시1
+pants.forEach( a => {
+  console.log(this)
+});
+
+// 예시2
+let 함수 = function(){ console.log('안녕') }
+let 함수 = () => { console.log('안녕') }
+```
+- (예시1)
+	- arrow function은 **파라미터가 하나면 () 소괄호 생략**해도 봐줍니다. 
+	- 함수 중괄호 안에 return 한 줄 밖에 없으면 { } 중괄호와 return 동시에 생략해도 봐줍니다.
+		- 👉 간결하니 콜백함수에 자주 사용됨
+
+```ad-caution
+- **그냥 함수와 arrow function의 기능차이**
+- 함수 안에서 this를 써야할 경우 
+
+	- 그냥 함수는 함수 안에서 this를 알맞게 재정의해줍니다.
+	- arrow function은 함수 안에서 this를 재정의해주지 않고 바깥에 있던 this를 그대로 씁니다.
+
+- 👉 그래서 이벤트리스너 콜백함수안에서 this를 써야하면 arrow function 쓰면 의도와 다르게 동작할 수도 있습니다. ==그런데선 쓰지마십시오== 
+```
+
+
+### array, for 반복문 실력향상 과제
+```ad-question
+- Q. Array에서 철수라는 자료를 찾고 싶습니다
+	- array에서 이름을 찾아주는 함수를 만들고 있습니다.
+	- 함수 안에 파라미터로 이름을 집어넣으면
+	- 그 이름이 출석부에 있으면 콘솔창에 출력해주는 함수를 만들어봅시다. 
+	- 어떻게 만들면 될까요? 
+
+	 ```js
+	var 출석부 = ['흥민', '영희', '철수', '재석'];
+	
+	function 이름찾기(){
+	  //여기다 코드 짜십쇼 
+	}
+	```
+
+- 동작 예시 :
+	- 이름찾기('철수'); 라고 쓰면 콘솔창에 '있어요'라는 글자가 떠야합니다.
+	- 이름찾기('명수'); 라고 쓰면 콘솔창에 아무 글자도 뜨지 않아야합니다.
+
+- (조건) 이상한데서 찾아온 find, indexOf 같은 자바스크립트 기본함수들 사용금지 
+```
+
+```js
+var 출석부 = ['흥민', '영희', '철수', '재석'];
+
+function nameSeek(name){
+  
+  출석부.forEach((a) => {
+    if (name == a){
+      console.log("있어요")
+    }
+  });
+}
+```
+
+```js
+var 출석부 = ['흥민', '영희', '철수', '재석'];
+
+function nameSeek(name){
+  
+  for(let i = 0; i <= 출석부.length; i++){
+    if (name == 출석부[i]){
+      console.log('있어요!');
+      return 0
+    }
+  }
+}
+```
+
+```ad-question
+Q. 갑자기 구구단을 콘솔창에 출력하고 싶습니다.
+
+철수는 구구단을 외우지 못하는 관계로
+
+자바스크립트를 이용해 구구단을 2단부터 9단까지 콘솔창에 출력하고 싶어졌습니다.
+
+빨리 출력해보십시오. 
+```
+
+```js
+for(let i = 2; i <= 9; i++){
+  
+  for(let j = 1; j <= 9; j++){
+    console.log(`${i} x ${j} = ${i*j}`)
+  }
+}
+
+```
+
+
+```ad-question
+Q. 평균점수 계산기 만들기 
+
+ 
+
+어떤 함수에 
+
+기존 모의고사 성적들을 array 자료에 전부 담아 첫 파라미터로 입력하고 
+
+이번 11월 모의고사 성적을 둘 째 파라미터로 입력하면  
+
+11월 성적이 기존 성적들의 평균에 비해 얼마나 우수한지 결과를 알려주고 싶습니다. 
+
+어떻게 함수를 만들면 될까요?
+
+ 
+
+동작예시 :
+
+함수([10, 20, 30, 40, 50], 40) 이렇게 쓰면 콘솔창에 "평균보다 10점이 올랐네요"가 떠야합니다. (평균이 30이니까)
+
+함수([40, 40, 40], 20) 이렇게 쓰면 콘솔창에 "평균보다 20점이 떨어졌네요 재수추천"이 떠야합니다. (평균이 40이니까)
+```
+
+```js
+function exam(arr, score){
+  let lastSem = arr;
+  
+  let total = 0;
+  for(let i = 0; i <lastSem.length; i ++){
+    total += lastSem[i];
+  }
+  avgTotal = total/lastSem.length;
+  
+  if (score > avgTotal){
+    console.log(`평균보다 ${score-avgTotal}점이 올랐네요`);
+  } else{
+    console.log(`평균보다 ${avgTotal-score}점이 떨어졌네요. 재수추천`);
+  }
+}
+```
+
+### Ajax 1 : 개념정리
+
+#### 서버란?
+- 유저가 데이터달라고 요청을 하면 데이터를 보내주는 간단한 프로그램일 뿐입니다.
+- 서버에 데이터를 요청할 때는
+	1. 어떤 데이터인지 url로 잘 기재해야하고
+	2. 어떤 방법으로 요청할지 결정해야 (GET/POST 등)
+- 데이터를 보내줍니다. 
+
+#### GET/POST 요청하는 법?
+- GET요청은 서버에 있던 데이터를 읽고싶을 때 주로 사용하고
+- POST요청은 서버로 데이터를 보내고 싶을 때 사용합니다.
+	- (실은 PUT, DELETE 요청도 있긴 합니다.)
+
+- POST요청을 날리고 싶으면 `<form action="요청할url" method="post">` 태그 이용하면 됩니다. 그럼 폼이 전송되었을 때 POST요청을 날려줍니다. 
+	- 👉 근데 GET, POST 요청을 저렇게 날리면 단점이 뭐냐면 **브라우저가 새로고침**됩니다.
+
+#### AJAX란? 
+- 서버에 GET, POST 요청을 할 때 새로고침 없이 데이터를 주고받을 수 있게 도와주는 간단한 브라우저 기능을 AJAX라고 합니다. 
+
+#### jQuery로 AJAX요청하기
+```js
+$.get('https://codingapple1.github.io/hello.txt');
+
+// 받아온 데이터 출력하기
+$.get('https://codingapple1.github.io/hello.txt')
+.done(function(data){
+  console.log(data)
+});
+
+// post 방식으로 데이터 요청하기
+$.post('url~~', {name : 'kim'})
+```
+
+```js
+$.get('https://codingapple1.github.io/hello.txt')
+  .done(function(data){
+    console.log(data)
+  })
+  .fail(function(error){
+    console.log('실패함')
+  });
+```
+- `done` → ajax 요청 성공시 `.done` 안에 있는 코드를 실행해줍니다.
+- `fail` → ajax 요청 실패시 `.fail` 안에 있는 코드를 실행
+	- done/fail 말고 then/catch 써도 됩니다.
+
+#### 쌩자바스크립트는 fetch 이런거써서 AJAX 요청가능
+```js
+fetch('https://codingapple1.github.io/price.json')
+  .then(res => res.json())
+  .then(function(data){
+    console.log(data)
+  })
+  .catch(function(error){
+    console.log('실패함')
+  });
+```
+- fetch 함수는 Edge 브라우저 이상에서만 동작합니다. (브라우저 기본 함수)
+- 근데 코드가 한 줄 더 필요한 이유가 뭐냐면, 서버와 데이터를 주고받을 때는 **문자만 주고받을 수 있습니다**. → 때문에 JSON 자료를 다시 array/object 자료로 바꿔주기 위해서.
+
+```ad-tip
+- jQuery의 $.get() 이런건 JSON으로 자료가 도착하면 알아서 array/object 자료로 바꿔줍니다.
+
+- 기본함수 fetch() 이런건 JSON으로 자료가 도착하면 알아서 array/object 자료로 바꿔주지 않습니다.
+
+- 그래서 fetch() 로 가져온 결과를 array/object로 바꾸고 싶으면 res.json() 이런 코드 한 줄 추가하면 됩니다. 
+```
+
+
+```ad-todo
+- 오늘의 숙제 : 
+	- list.html로 돌아가서 상품목록 3개 만들었던 html 코드는 싹 지우고
+	- 자바스크립트 코드짜서 상품목록 3개를 동적으로 생성해오십시오 
+	- var products 안에 있던 데이터도 html에 잘 표기되어있어야합니다. 
+
+	```html
+	<div class="container">
+	  <div class="row">
+	
+	      <div class="col-sm-4">
+	        <img src="https://via.placeholder.com/600" class="w-100">
+	        <h5>Card title</h5>
+	        <p>가격 : 70000</p>
+	      </div>
+	
+	  </div>
+	</div> 
+	```
+```
+
+```html
+  <div class="container">
+    <div class="row">
+
+
+    </div>
+  </div>
+
+<script>
+	    for (let i = 0; i < products.length; i++) {
+      document.querySelector('.row').insertAdjacentHTML('beforeend',
+        `<div class="col-sm-4">
+          <img src="https://via.placeholder.com/600" class="w-100">
+          <h5>${products[i].title}</h5>
+          <p>가격 : ${products[i].price}</p>
+        </div>`
+      )
+    }
+</script>
+```
+
+```js
+// forEach를 사용한 방법
+    products.forEach((a) => {
+      let templates = 
+          `<div class="col-sm-4">
+          <img src="https://via.placeholder.com/600" class="w-100">
+          <h5>${a.title}</h5>
+          <p>가격 : ${a.price}</p>
+        </div>`;
+      $('.row').append(templates);
+    })
+```
+
+
+### Ajax 2 : 상품 더보기 버튼 만들기
+```ad-todo
+오늘의 응용문제
+
+ 
+
+1. 더보기버튼을 2번째 누르면 7,8,9번째 상품을 더 가져와서 html로 보여주십시오
+
+https://codingapple1.github.io/js/more2.json 여기로 GET요청하면 7,8,9번째 상품이 도착합니다.
+
+ 
+
+ 
+
+힌트는 유저가 더보기버튼을 몇 번 눌렀는지를 어디 기록해놔야
+
+내가 버튼 누를 때마다 어디로 GET요청할 지 판단할 수 있겠군요. 
+
+그리고 그 다음 10,11,12번 상품은 없으니
+
+버튼을 3번은 못누르게 버튼을 숨기거나 그래도 좋을듯요 
+
+ 
+
+ 
+
+ 
+
+2. 유사한 코드가 발생하고 있습니다.
+
+지금 코드를 잘 보면 forEach() 반복문을 2번 쓴 것 같은데 
+
+이 코드들이 매우 유사해보입니다.
+
+함수나 그런걸로 축약해보는 연습도 해보면 좋을 것 같군요 
+
+ 
+
+ 
+
+힌트는 
+
+함수로 축약할 때 안에 미지의 변수같은게 있으면 파라미터로 바꾸는게 좋다고 했는데
+
+a, i 이런 변수는 이미 콜백함수에 의해 파라미터화가 되어있기 때문에 a, i는 신경안써도 될듯요
+```
+
+```js
+    
+    let moreBtnCounter = 0;
+    
+    $('#moreBtn').click(function(){
+      
+      moreBtnCounter += 1;
+      
+      if (moreBtnCounter == 1){
+        $.get('https://codingapple1.github.io/js/more1.json')
+        .done(function(data){        
+          products = data
+
+          makeCards();
+        })
+      } else if (moreBtnCounter == 2){
+        $.get('https://codingapple1.github.io/js/more2.json')
+        .done(function(data){        
+          products = data
+
+          makeCards();
+          $('#moreBtn').css('display','none');
+        })
+      }
+    })
+    
+    
+    var products = [{
+        id: 0,
+        price: 70000,
+        title: 'Blossom Dress'
+      },
+      {
+        id: 1,
+        price: 50000,
+        title: 'Springfield Shirt'
+      },
+      {
+        id: 2,
+        price: 60000,
+        title: 'Black Monastery'
+      }
+    ];
+
+    function makeCards(){
+      for (let i = 0; i < products.length; i++) {
+        document.querySelector('.row').insertAdjacentHTML('beforeend',
+          `<div class="col-sm-4">
+            <img src="https://via.placeholder.com/600" class="w-100">
+            <h5>${products[i].title}</h5>
+            <p>가격 : ${products[i].price}</p>
+          </div>`
+        )
+      }
+    }
+    
+    makeCards();
+```
+- html 템플릿 만드는 코드를 함수화 하였고, 버튼 클릭시 마다 횟수를 기록해서 그에 따른 분기를 만듦
+
+
+### array에 자주 쓰는 sort, map, filter 함수
+#### array 정렬하는 법 sort()
+- array 자료는 순서개념이 있다보니 정렬도 가능합니다.
+- 그냥 문자 가나다순으로 정렬하려면 `.sort()` 붙이면 되는데 <br>**숫자정렬**은 이렇게 코드짜면 됩니다.
+- ==`sort()` 함수는 원본을 변환 시킴! 주의해서 사용! ==
+```js
+var 어레이 = [7,3,5,2,40];
+
+어레이.sort(function(a, b){
+  return a - b
+});
+
+console.log(어레이); // [2, 3, 5, 7, 40]
+```
+
+```ad-tip
+- 자바스크립트에서 숫자가 담긴 arr를 바로 sort 하면 **문자 기준**으로 정렬을 실시한다. 
+	```js
+	var arr = [7,3,5,2,40];
+	
+	arr.sort();
+	
+	console.log(arr); // [2, 3, 40, 5, 7]
+	```
+```
+
+```ad-caution
+- 자바스크립트에서의 sort()의 이해
+	 ```js
+	어레이.sort(function(a, b){
+	  return a - b
+	}); 
+	```
+
+1. a, b는 array 안의 자료들입니다.
+2. return 오른쪽이 양수면 a를 오른쪽으로 정렬해줍니다.
+3. return 오른쪽이 음수면 b를 오른쪽으로 정렬해줍니다.
+4. 그리고 array 안의 자료들을 계속 뽑아서 a, b에 넣어줍니다. 
+
+- 이렇게 동작해서 a - b 저렇게 쓰면 숫자순 정렬이 되는 것입니다. 
+	- 예를 들면 a, b가 7과 3일 경우 7 - 3 하면 4가 남습니다.
+	- 4는 양수죠? 그러면 7을 3보다 오른쪽으로 보내줍니다.
+- 그래서 숫자 오름차순 (123순) 정렬이 완성되는 것입니다.
+```
+
+```ad-question
+- Q. 그럼 array 안의 숫자 내림차순 (321순) 정렬은 어떻게 할까요?
+```
+
+```js
+let arr = [-1, 4, 3, 5, 10, 200]
+
+arr.sort(function(a,b){
+  return b - a
+});
+
+console.log(arr) // [200, 10, 5, 4, 3, -1]
+```
+
+```ad-question
+Q. 문자정렬과 문자역순정렬은 어떻게 할까요?
+
+`var 어레이 = ['다', '가', '나'];`
+
+이런 자료가 있을 때 가나다순, 다나가순 정렬은 각각 어떻게 할지도 고민해봅시다.
+```
+
+```js
+let arr = ['가', '바', '나', '아', '다']
+
+arr.sort();
+console.log(arr); // ['가', '나', '다', '바', '아']
+
+// 사전순으로 정렬
+arr.sort(function(a,b){
+  return a > b ? 1 : -1;
+});
+console.log(arr)
+
+
+// 역순으로 정렬
+arr.sort(function(a,b){
+  return a > b ? -1 : 1;
+});
+console.log(arr) // ['아', '바', '다', '나', '가']
+```
+
+
+#### array에 자주 쓰는 filter 함수 
+- array 자료에서 원하는 자료만 필터링하고 싶으면 filter 함수를 씁니다.
+```js
+var 어레이 = [7,3,5,2,40];
+
+var 새어레이 = 어레이.filter(function(a){
+  return 조건식
+}); 
+```
+1. a라고 작명한건 array 에 있던 데이터를 뜻하고
+2. return 우측에 조건식을 넣으면 조건식에 맞는 a만 남겨줍니다.
+3. 그리고 filter는 원본을 변형시키지 않는 고마운 함수기 때문에 새로운 변수에 담아써야합니다. ↔ `sort()`는 원본을 변화 시킴
+
+
+- filter 함수 활용
+```js
+var 어레이 = [7,3,5,2,40];
+
+var 새어레이 = 어레이.filter(function(a){
+  return a < 4
+}); 
+```
+- **어디에 쓰지?**
+	- 👉 이런거 응용하면 쇼핑몰에서 "6만원 이하 상품만 보기" 이런 필터기능도 만들 수 있는 것입니다.
+
+#### array에 자주 쓰는 map 함수
+- array 안의 자료들을 전부 변형하려면 map 함수를 씁니다.
+```js
+var 어레이 = [7,3,5,2,40];
+
+var 새어레이 = 어레이.map(function(a){
+  return 수식같은거
+}); 
+```
+1. a라고 작명한건 array 에 있던 데이터를 뜻하고
+2. return 우측에 변경될 수식같은걸 넣으면 됩니다. 
+3. 그리고 map는 원본을 변형시키지 않는 고마운 함수기 때문에 새로운 변수에 담아써야합니다. 
+
+
+- map 함수 활용
+```js
+var 어레이 = [7,3,5,2,40];
+
+var 새어레이 = 어레이.map(function(a){
+  return a * 4
+}); 
+```
+- **어디에 쓰지?**
+	- 👉 이런거 응용하면 쇼핑몰에서 "달러 -> 원화로 변환하기" 이런 기능도 만들 수 있겠군요.
+
+
+```ad-todo
+**오늘의 숙제 :**
+
+**1. "상품명 다나가순 정렬" 버튼과 기능을 만들어오십시오.**
+
+누르면 상품이 '다나가' 순으로 정렬되어야합니다.
+
+**2. "6만원 이하 상품보기" 버튼과 기능을 만들어오십시오.** 
+
+누르면 6만원 이하 상품만 보여야합니다. 
+
+더보기버튼과 함께 동작하는지 안하는지는 신경안써도 됩니다.
+```

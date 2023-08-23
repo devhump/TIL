@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "JS 입문 3",
+      "path": "JS/JS 입문 3.md"
+    },
+    {
       "basename": "jQuery",
       "path": "JS/jQuery.md"
     },
     {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown & git/markdown (마크다운) +.md"
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
-      "basename": "JS 입문 3",
-      "path": "JS/JS 입문 3.md"
+      "basename": "markdown (마크다운) +",
+      "path": "KDT/markdown & git/markdown (마크다운) +.md"
     },
     {
       "basename": "markdown for Obsidian",
@@ -19,10 +23,6 @@
     {
       "basename": "Obsidian setting - Community plugin",
       "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "readme",

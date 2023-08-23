@@ -49,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,13 +103,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 251.5110321044922,
-    "collapsed": true
+    "width": 251.5110321044922
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/jQuery.md"
+                "file": "JS/JS 입문 3.md"
               }
             }
           },
@@ -154,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/jQuery.md",
+                "file": "JS/JS 입문 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/jQuery.md",
+                "file": "JS/JS 입문 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,14 +203,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "611e1490ac9db4b2",
+  "active": "7ada69aaea70bca2",
   "lastOpenFiles": [
-    "KDT/markdown & git/markdown (마크다운) +.md",
     "JS/jQuery.md",
     "JS/JS 입문 3.md",
+    "pages/contents.md",
+    "Clippings/네이버 뉴스스탠드 주요 언론사 보기.md",
+    "devhump's TIL Index (data view).md",
+    "Clippings",
+    "KDT/markdown & git/markdown (마크다운) +.md",
     "_others_/obsidian/markdown for Obsidian.md",
     "_others_/obsidian/Obsidian setting - Community plugin.md",
-    "devhump's TIL Index (data view).md",
     "JS/assets/JS 입문 3-4.png",
     "JS/assets/JS 입문 3-3.png",
     "JS/assets/JS 입문 3-2.png",
@@ -241,8 +242,6 @@
     "JS/JS 기본1.md",
     "Python/Jump to Python/10. 정규표현식.md",
     "KDT/Web/09. ECMA Script.md",
-    "KDT/Web/08. Javascript.md",
-    "KDT/KDT.md",
     "HTML_CSS/assets",
     "HTML_CSS",
     "0_zero",
@@ -251,7 +250,6 @@
     "_others_/vscode_shortcuts_(mac).pdf",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "JS/문벅스 카페 메뉴 앱 만들기",
-    "JS/assets",
-    "Django/assets"
+    "JS/assets"
   ]
 }
