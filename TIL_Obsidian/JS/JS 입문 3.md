@@ -1147,3 +1147,184 @@ var 새어레이 = 어레이.map(function(a){
 
 더보기버튼과 함께 동작하는지 안하는지는 신경안써도 됩니다.
 ```
+
+```html
+  <div class="container my-3">
+    <button id='sortByName' class="btn btn-danger">이름 역순 정렬</button> 
+  </div>
+
+<script>
+    
+    // 이름 역순 정렬
+    $('#sortByName').click(function(){
+      products.sort(function(a,b){
+       return a.title > b.title ? -1 : 1; 
+      });
+      
+      $('.row').html('');
+      
+      makeCards(products);
+      
+    });
+</script>
+```
+
+```html
+  <div class="container my-3">
+    <button id='filterByPrice' class="btn btn-danger">6만원 이하 제품</button> 
+  </div>
+
+
+<script>
+    // 가격 제한 필터링
+    $('#filterByPrice').click(function(){
+      let productsByPrice = products.filter(function(a){
+        return a.price < 60000
+      });
+      
+      $('.row').html('');
+      
+      makeCards(productsByPrice);
+    });
+</script>
+```
+
+
+### sort, map, filter 상품정렬기능 숙제
+
+#### 숙제1 하기 전 쉬운거부터 다나가순 정렬해보자 
+```js
+var 어레이 = ['가', '다', '나'];
+어레이.sort(function(a, b){
+  return 여기뭐써야함?
+});
+```
+
+- sort 함수 작동원리는 
+	- a, b는 array안에 있던 자료들임
+	- return 우측이 양수면 a를 우측으로 보냄
+	- return 우측이 음수면 b를 우측으로 보냄 
+	- array 안의 자료를 다 끌고와서 a, b에 계속 넣어봄
+- 이렇습니다.
+
+- 위 코드에서 중요한건 **return 우측에 뭘 집어넣냐**는 건데 
+	- 예를 들어서
+		- (1) a, b가 '가', '다' 일 경우 return 우측에 양수가 들어가야 다나가순 정렬이 됩니다. 
+		- (2) a, b가 '다', '나' 일 경우 return 우측에 음수가 들어가야 다나가순 정렬이 됩니다. 
+		- (3) a, b가 '가', '나' 일 경우 return 우측에 양수가 들어가야 다나가순 정렬이 됩니다. 
+		- ...
+- 이렇게 대충 하나하나 대입해서 따져보면 규칙같은게 눈에 보이는군요. 
+	- a < b 일 경우 return 우측에 양수가 들어가면 되고 
+	- a > b 일 경우 return 우측에 음수가 들어가면 됩니다. 
+- (자바스크립트는 문자끼리 부등호비교가 가능합니다. ㄱ보다 ㅎ 이게 더 큽니다.)
+
+```js
+var 어레이 = ['가', '다', '나'];
+어레이.sort(function(a, b){
+  if (a < b) {
+    return 1 
+  } else {
+    return -1
+  }
+});
+
+console.log(어레이)
+```
+
+- 자바스크립트 이름 역순 정렬 기능 만들기(예시)
+```js
+products.sort(function(a,b){
+	if(a.title > b.title){
+		return 1
+	} else if (a.title == b.title) {
+		return 0
+	} else {
+		return -1
+	} 
+});
+```
+
+#### arrow function 활용하기
+```js
+//일반함수
+var newProduct = products.filter(function(a){
+  return a.price <= 60000
+}); 
+
+//화살표함수
+var newProduct = products.filter(a => a.price <= 60000);
+```
+- 이 경우 함수에 파라미터가 1개면 소괄호 생략이 가능합니다. 
+- 함수 { } 안에 return 한 줄 밖에 없으면 중괄호와 return 동시에 생략가능합니다.
+
+```ad-todo
+응용1. 가나다순 정렬버튼?
+
+응용2. `<input>`을 이용해 유저가 직접 가격을 입력해서 필터하는 기능?
+
+응용3. 원래 순서대로 되돌리기 버튼과 기능을 만들고 싶으면?
+```
+
+```html
+
+  <div class="container my-3">
+    <button id='sortByName2' class="btn btn-danger">이름순 정렬</button> 
+  </div>
+  
+  <form id="inputForm" class="container my-3">
+    <input id='filterByInput' placeholder="가격대를 입력하세요"> 
+    <button type='submit'>제출</button>
+  </form>
+  
+  <div class="container my-3">
+    <button id='sortByOrigin' class="btn btn-danger">원래대로</button> 
+  </div>
+
+<script>
+    // 원래 순대로 정렬
+    let productsOrigin = products;
+    
+    $('#sortByOrigin').click(function(){
+      
+      $('.row').html('');
+
+      products.sort(function(a, b){
+        return a.id - b.id
+      });
+      
+      makeCards(productsOrigin);
+      
+      moreBtnCounter = 0;
+      
+      $('#moreBtn').css('display','block');
+    })
+    
+    // input 값에 따른 필터링
+    $('#inputForm').on('submit', function(e){
+      e.preventDefault();
+      let filterPrice = $('#filterByInput').val();
+      
+      let productsByPrice = products.filter(function(a){
+        return a.price < filterPrice;
+      });
+      
+      $('.row').html('');
+      
+      makeCards(productsByPrice);
+    });
+    
+    // 이름순 정렬
+    $('#sortByName2').click(function(){
+      products.sort(function(a,b){
+       return a.title > b.title ? 1 : -1; 
+      });
+      
+      $('.row').html('');
+      
+      makeCards(products);
+      
+    });
+
+
+</script>
+```
