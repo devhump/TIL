@@ -77,7 +77,7 @@
 - [17. Axios](KDT/Django/17.%20Axios.md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
-- ==[알고리즘 TIP](_others_/알고리즘%20TIP.md)==
+- ==[알고리즘 TIP](z_others/알고리즘%20TIP.md)==
 
 - **스택 & 큐**
 	- [01. 스택과 큐(Stack & Que)](Algorithm%20(theory)/01.%20스택과%20큐(Stack%20&%20Que).md)
@@ -182,7 +182,7 @@
 - [Python error](Python/Python%20error.md)
 - [CORS 에러 문제](JS/CORS%20에러%20문제.md)
 - [Django-extention 설치 후  Auto close tag 안 되는 문제 해결](Django/Django-extention%20설치%20후%20%20Auto%20close%20tag%20안%20되는%20문제%20해결.md)
-- [Debugging with VS Code+](_others_/Debugging%20with%20VS%20Code+.md)
+- [Debugging with VS Code+](z_others/Debugging%20with%20VS%20Code+.md)
 
 
 #### Linux
@@ -191,18 +191,18 @@
 
 
 #### 단축키 관련
-- [Obsidian setting](_others_/obsidian/Obsidian%20setting.md)
-- [Obsidian setting - Community plugin](_others_/obsidian/Obsidian%20setting%20-%20Community%20plugin.md)
-- [Hot-key for windows](_others_/Hot-key%20for%20windows.md)
-- [Hot-key for Mac](_others_/assets/Hot-key%20for%20Mac.png)
-- [Hot-key (VS Code)](_others_/Hot-key%20(VS%20Code).md)
+- [Obsidian setting](z_others/obsidian/Obsidian%20setting.md)
+- [Obsidian setting - Community plugin](z_others/obsidian/Obsidian%20setting%20-%20Community%20plugin.md)
+- [Hot-key for windows](z_others/Hot-key%20for%20windows.md)
+- [Hot-key for Mac](z_others/assets/Hot-key%20for%20Mac.png)
+- [Hot-key (VS Code)](z_others/Hot-key%20(VS%20Code).md)
 
 #### Obsidian & markdown
-- [Obsidian setting](_others_/obsidian/Obsidian%20setting.md)
-- [Obsidian setting - Community plugin](_others_/obsidian/Obsidian%20setting%20-%20Community%20plugin.md)
-- [Obsidian search](_others_/obsidian/Obsidian%20search.md)
-- [markdown for Obsidian](_others_/obsidian/markdown%20for%20Obsidian.md)
-- [LaTeX](_others_/obsidian/LaTeX.md)
-- [Diagram](_others_/obsidian/Diagram.md)
-- [Callout](_others_/obsidian/Callout.md)
+- [Obsidian setting](z_others/obsidian/Obsidian%20setting.md)
+- [Obsidian setting - Community plugin](z_others/obsidian/Obsidian%20setting%20-%20Community%20plugin.md)
+- [Obsidian search](z_others/obsidian/Obsidian%20search.md)
+- [markdown for Obsidian](z_others/obsidian/markdown%20for%20Obsidian.md)
+- [LaTeX](z_others/obsidian/LaTeX.md)
+- [Diagram](z_others/obsidian/Diagram.md)
+- [Callout](z_others/obsidian/Callout.md)
 - [markdown (마크다운) +](KDT/markdown%20&%20git/markdown%20(마크다운)%20+.md)

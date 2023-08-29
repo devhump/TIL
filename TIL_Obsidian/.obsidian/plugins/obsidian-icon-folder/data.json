@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📥",
       "🔥",
       "📌",
       "🌍",
-      "SiPythonWhite",
-      "🦊"
+      "SiPythonWhite"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -21,10 +21,6 @@
       "left": 0
     },
     "iconInTabsEnabled": false
-  },
-  "_others_": {
-    "iconName": "📥",
-    "inheritanceIcon": "📥"
   },
   "Algo Solving": {
     "iconName": "❔",
@@ -68,5 +64,6 @@
   },
   "readme.md": "🌍",
   "devhump's TIL Index (data view).md": "📌",
-  "TIL Waypoint.md": "🔥"
+  "TIL Waypoint.md": "🔥",
+  "z_others": "📥"
 }

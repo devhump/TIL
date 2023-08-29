@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "TIL Waypoint",
-      "path": "TIL Waypoint.md"
+      "basename": "z_others",
+      "path": "z_others/z_others.md"
+    },
+    {
+      "basename": "JS 입문 3",
+      "path": "JS/JS 입문 3.md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "IT_SC_Basic/개발 관련 IT 용어 정리.md"
+    },
+    {
+      "basename": "IP 주소의 종류",
+      "path": "IT_SC_Basic/IP 주소의 종류.md"
+    },
+    {
+      "basename": "TIL Waypoint",
+      "path": "TIL Waypoint.md"
     },
     {
       "basename": "readme",
@@ -14,27 +30,23 @@
     },
     {
       "basename": "Debugging with VS Code+",
-      "path": "_others_/Debugging with VS Code+.md"
+      "path": "z_others/Debugging with VS Code+.md"
     },
     {
       "basename": "알고리즘 TIP",
-      "path": "_others_/알고리즘 TIP.md"
+      "path": "z_others/알고리즘 TIP.md"
     },
     {
       "basename": "Hot-key (VS Code)",
-      "path": "_others_/Hot-key (VS Code).md"
+      "path": "z_others/Hot-key (VS Code).md"
     },
     {
       "basename": "Hot-key for Mac",
-      "path": "_others_/Hot-key for Mac.md"
+      "path": "z_others/Hot-key for Mac.md"
     },
     {
       "basename": "Obsidian setting",
-      "path": "_others_/obsidian/Obsidian setting.md"
-    },
-    {
-      "basename": "JS 입문 3",
-      "path": "JS/JS 입문 3.md"
+      "path": "z_others/obsidian/Obsidian setting.md"
     },
     {
       "basename": "jQuery",
@@ -82,11 +94,11 @@
     },
     {
       "basename": "markdown for Obsidian",
-      "path": "_others_/obsidian/markdown for Obsidian.md"
+      "path": "z_others/obsidian/markdown for Obsidian.md"
     },
     {
       "basename": "Obsidian setting - Community plugin",
-      "path": "_others_/obsidian/Obsidian setting - Community plugin.md"
+      "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
     },
     {
       "basename": "10. Event",
@@ -107,14 +119,6 @@
     {
       "basename": "정규표현식 (regex)",
       "path": "IT_SC_Basic/정규표현식 (regex).md"
-    },
-    {
-      "basename": "JS 기본3",
-      "path": "JS/JS 기본3.md"
-    },
-    {
-      "basename": "JS 기본2",
-      "path": "JS/JS 기본2.md"
     }
   ],
   "omittedPaths": [],

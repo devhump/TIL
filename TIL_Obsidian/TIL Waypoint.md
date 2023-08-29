@@ -1,5 +1,5 @@
 ### _others_
-![[_others_]]
+![[z_others/z_others]]
 
 
 ### Algo Solving

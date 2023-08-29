@@ -104,7 +104,7 @@ sort file.name ASC
 - [17. Axios](KDT/Django/17.%20Axios.md)
 
 ### 최적의 코딩을 결정하는 기본 알고리즘 (by 나동빈)
-- ==[알고리즘 TIP](_others_/알고리즘%20TIP.md)==
+- ==[알고리즘 TIP](z_others/알고리즘%20TIP.md)==
 
 - **스택 & 큐**
 	- [01. 스택과 큐(Stack & Que)](Algorithm%20(theory)/01.%20스택과%20큐(Stack%20&%20Que).md)
@@ -220,6 +220,6 @@ SORT file.mday DESC
 #### Teplate List
 ``` dataview
 LIST
-FROM "_others_/templates"
+FROM "z_others/templates"
 SORT file.name ASC
 ```

@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL Waypoint.md",
+                "file": "z_others/z_others.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ip주소",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL Waypoint.md"
+                "file": "z_others/z_others.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL Waypoint.md",
+                "file": "z_others/z_others.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL Waypoint.md",
+                "file": "z_others/z_others.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,21 +201,25 @@
       "zk-prefixer:새로운 유니크 노트 생성": false,
       "random-note:랜덤 노트 열기": false,
       "workspaces:작업 공간 레이아웃 관리": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "cb11ae65832fd058",
   "lastOpenFiles": [
-    "tracker plugin test.md",
-    "devhump's TIL Index (data view).md",
-    "readme.md",
-    "TIL Waypoint.md",
-    "_others_/Debugging with VS Code+.md",
-    "_others_/알고리즘 TIP.md",
-    "_others_/Hot-key (VS Code).md",
-    "_others_/Hot-key for Mac.md",
-    "_others_/obsidian/Obsidian setting.md",
     "JS/JS 입문 3.md",
+    "z_others/z_others.md",
+    "devhump's TIL Index (data view).md",
+    "IT_SC_Basic/개발 관련 IT 용어 정리.md",
+    "IT_SC_Basic/IP 주소의 종류.md",
+    "TIL Waypoint.md",
+    "tracker plugin test.md",
+    "readme.md",
+    "z_others/Debugging with VS Code+.md",
+    "z_others/알고리즘 TIP.md",
+    "z_others/Hot-key (VS Code).md",
+    "z_others/Hot-key for Mac.md",
+    "z_others/obsidian/Obsidian setting.md",
     "JS/jQuery.md",
     "KDT/KDT.md",
     "MDN/MDN.md",
@@ -230,14 +234,11 @@
     "Clippings/네이버 뉴스스탠드 주요 언론사 보기.md",
     "Clippings",
     "KDT/markdown & git/markdown (마크다운) +.md",
-    "_others_/obsidian/markdown for Obsidian.md",
-    "_others_/obsidian/Obsidian setting - Community plugin.md",
     "JS/assets/JS 입문 3-4.png",
     "JS/assets/JS 입문 3-3.png",
     "JS/assets/JS 입문 3-2.png",
     "JS/assets/JS 입문 3-1.png",
     "JS/assets/JS 입문 3.png",
-    "KDT/Web/10. Event.md",
     "JS/assets/JS 입문 2-6.png",
     "JS/assets/JS 입문 2-5.png",
     "JS/assets/JS 입문 2-4.png",
@@ -248,7 +249,7 @@
     "0_zero",
     "git_github/assets",
     "git_github",
-    "_others_/vscode_shortcuts_(mac).pdf",
+    "z_others/vscode_shortcuts_(mac).pdf",
     "KDT/markdown & git/git_cheat_sheet.pdf",
     "JS/문벅스 카페 메뉴 앱 만들기",
     "JS/assets"

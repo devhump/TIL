@@ -2,8 +2,8 @@
 tags: [markdown, "-", KDT]
 ---
 
-- 옵시디언 특화 문법 👉  [[markdown for Obsidian]]
-- 자주 쓰는 수식 기호 👉  [[LaTeX]]
+- 옵시디언 특화 문법 👉  [[../../z_others/obsidian/markdown for Obsidian]]
+- 자주 쓰는 수식 기호 👉  [[../../z_others/obsidian/LaTeX]]
 
 #### Obsidian & markdown
 ```dataview
