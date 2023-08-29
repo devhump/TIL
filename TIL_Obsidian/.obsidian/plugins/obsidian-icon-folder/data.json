@@ -1,0 +1,72 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "twemoji",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "🔥",
+      "📌",
+      "🌍",
+      "SiPythonWhite",
+      "🦊"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false
+  },
+  "_others_": {
+    "iconName": "📥",
+    "inheritanceIcon": "📥"
+  },
+  "Algo Solving": {
+    "iconName": "❔",
+    "inheritanceIcon": "❔"
+  },
+  "Algorithm (theory)": {
+    "iconName": "🧑‍🏫",
+    "inheritanceIcon": "👨‍🏫"
+  },
+  "Django": {
+    "iconName": "SiDjango",
+    "inheritanceIcon": "SiDjango"
+  },
+  "git_github": {
+    "iconName": "SiGithub",
+    "inheritanceIcon": "SiGithub"
+  },
+  "HTML_CSS": {
+    "iconName": "FabHtml5",
+    "inheritanceIcon": "FabHtml5"
+  },
+  "IT_SC_Basic": {
+    "iconName": "🖥",
+    "inheritanceIcon": "🖥"
+  },
+  "JS": {
+    "iconName": "FabJs",
+    "inheritanceIcon": "FabJs"
+  },
+  "KDT": {
+    "iconName": "🧑‍🎓",
+    "inheritanceIcon": "🧑‍🎓"
+  },
+  "MDN": {
+    "iconName": "🦊",
+    "inheritanceIcon": "🦊"
+  },
+  "Python": {
+    "iconName": "SiPythonWhite",
+    "inheritanceIcon": "SiPythonWhite"
+  },
+  "readme.md": "🌍",
+  "devhump's TIL Index (data view).md": "📌",
+  "TIL Waypoint.md": "🔥"
+}

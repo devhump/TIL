@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "TIL Waypoint",
+      "path": "TIL Waypoint.md"
+    },
+    {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "readme",
       "path": "readme.md"
-    },
-    {
-      "basename": "TIL Waypoint",
-      "path": "TIL Waypoint.md"
     },
     {
       "basename": "Debugging with VS Code+",
@@ -115,93 +115,9 @@
     {
       "basename": "JS 기본2",
       "path": "JS/JS 기본2.md"
-    },
-    {
-      "basename": "JS 기본1",
-      "path": "JS/JS 기본1.md"
-    },
-    {
-      "basename": "10. 정규표현식",
-      "path": "Python/Jump to Python/10. 정규표현식.md"
-    },
-    {
-      "basename": "09. ECMA Script",
-      "path": "KDT/Web/09. ECMA Script.md"
-    },
-    {
-      "basename": "08. Javascript",
-      "path": "KDT/Web/08. Javascript.md"
-    },
-    {
-      "basename": "HTML & CSS",
-      "path": "HTML_CSS/HTML & CSS.md"
-    },
-    {
-      "basename": "CORS 에러 문제",
-      "path": "JS/CORS 에러 문제.md"
-    },
-    {
-      "basename": "02. CSS",
-      "path": "KDT/Web/02. CSS.md"
-    },
-    {
-      "basename": "01. Happy Web",
-      "path": "KDT/Web/01. Happy Web.md"
-    },
-    {
-      "basename": "08. QuerySet API",
-      "path": "KDT/DB/08. QuerySet API.md"
-    },
-    {
-      "basename": "07. ORM",
-      "path": "KDT/DB/07. ORM.md"
-    },
-    {
-      "basename": "06. Modeling",
-      "path": "KDT/DB/06. Modeling.md"
-    },
-    {
-      "basename": "05. JOIN+",
-      "path": "KDT/DB/05. JOIN+.md"
-    },
-    {
-      "basename": "03. Basic Func & GROUP BY & HAVING & ALTER TABLE",
-      "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
-    },
-    {
-      "basename": "02. WHERE & LIKE & ORDER BY",
-      "path": "KDT/DB/02. WHERE & LIKE & ORDER BY.md"
-    },
-    {
-      "basename": "01. DB & RDBMS & SQL CRUD",
-      "path": "KDT/DB/01. DB & RDBMS & SQL CRUD.md"
-    },
-    {
-      "basename": "07. Bootstrap Grid System",
-      "path": "KDT/Web/07. Bootstrap Grid System.md"
-    },
-    {
-      "basename": "06. Bootstrap Component",
-      "path": "KDT/Web/06. Bootstrap Component.md"
-    },
-    {
-      "basename": "05. HTML & Bootstrap",
-      "path": "KDT/Web/05. HTML & Bootstrap.md"
-    },
-    {
-      "basename": "04. Semantic tag",
-      "path": "KDT/Web/04. Semantic tag.md"
-    },
-    {
-      "basename": "03. CSS Position",
-      "path": "KDT/Web/03. CSS Position.md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "IT_SC_Basic/개발 관련 IT 용어 정리.md"
     }
   ],
   "omittedPaths": [],
-  "maxLength": null,
+  "maxLength": 30,
   "openType": "tab"
 }

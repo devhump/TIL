@@ -13,8 +13,9 @@
   "table-editor-obsidian",
   "waypoint",
   "obsidian-frontmatter-tag-suggest",
-  "obsidian-tracker",
   "obsidian-pandoc",
   "obsidian-minimal-settings",
-  "obsidian-charts"
+  "obsidian-charts",
+  "obsidian-icon-folder",
+  "better-word-count"
 ]

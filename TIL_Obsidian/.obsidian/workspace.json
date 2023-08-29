@@ -41,8 +41,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
-                "mode": "preview",
+                "file": "TIL Waypoint.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index (data view).md"
+                "file": "TIL Waypoint.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "TIL Waypoint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "TIL Waypoint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,6 +206,8 @@
   },
   "active": "cb11ae65832fd058",
   "lastOpenFiles": [
+    "tracker plugin test.md",
+    "devhump's TIL Index (data view).md",
     "readme.md",
     "TIL Waypoint.md",
     "_others_/Debugging with VS Code+.md",
@@ -213,7 +215,6 @@
     "_others_/Hot-key (VS Code).md",
     "_others_/Hot-key for Mac.md",
     "_others_/obsidian/Obsidian setting.md",
-    "devhump's TIL Index (data view).md",
     "JS/JS 입문 3.md",
     "JS/jQuery.md",
     "KDT/KDT.md",
@@ -225,7 +226,6 @@
     "git_github/Git basic - Github manual.md",
     "git_github/Git basic - merge.md",
     "git_github/Git basic - rollback.md",
-    "무제 파일.md",
     "pages/contents.md",
     "Clippings/네이버 뉴스스탠드 주요 언론사 보기.md",
     "Clippings",
