@@ -40,14 +40,14 @@
 /**** Implementation ****/
 
 
-:root body:is(.theme-dark, .theme-light) {
+:root body:where(.theme-dark, .theme-light) {
 
     /** Miscellaneous **/
 
     --checkbox-size: calc(var(--font-text-size) - 2px);
     --checkbox-radius: 25%;
 
-    --list-indent: var(--list-indent-custom, 24px); /* Adjusted in Style Settings */
+    --list-indent: var(--list-indent-custom, 18px); /* Adjusted in Style Settings */
     --list-spacing: 0;
     --list-bullet-size: 6px;
 
@@ -623,6 +623,20 @@ a.external-link:hover {
     font-size: 19px;
 }
 
+/* Fix list bullets and indentation lines offset for reading mode */
+.markdown-rendered .list-bullet {
+    margin-left: -11px;
+}
+:root .show-indentation-guide .has-list-bullet::before {
+    left: -11px;
+}
+.task-list-item {
+    margin-left: 6px;
+}
+.show-indentation-guide .contains-task-list.has-list-bullet::before {
+    margin-left: -6px;
+}
+
 /* Fix ordered list checkboxes */
 ol > li.task-list-item.is-checked[data-task="x"] {
     text-decoration: var(--checklist-done-decoration);
@@ -704,10 +718,6 @@ input.task-list-item-checkbox:checked::after {
     --line-height-tight: 1.375;
 }
 
-/* Fix margins in source mode */
-.markdown-source-view table {
-    margin-block: 0;
-}
 /* Fix table margin collapse bug */
 div:has(>table) {
     overflow: unset !important;
@@ -966,14 +976,14 @@ settings:
     format: px
 -
     id: image-embed-settings
-    title: Image Embed
+    title: Image Embeds
     type: heading
     level: 2
     collapsed: true
 -
     id: image-embed-enable-zoom
     title: Image Embeds - Enable zoom
-    description: Enable zooming in on images by clicking on them. Just like minimal!
+    description: Enable zooming in on images by clicking on them. Just like minimal! Note that mobile Obsidian already has this.
     type: class-toggle
 -
     id: image-embed-no-drag
@@ -1005,9 +1015,9 @@ settings:
 -
     id: list-indent-custom
     title: Lists - List indent size
-    description: The size of list item indents. The default theme uses 32 px.
+    description: The size of list item indents. The default value of 18px mimics the appearance of editing mode. If you want a more default experience, the default theme uses 32 px.
     type: variable-number
-    default: 24
+    default: 18
     format: px
 -
     id: table-settings
@@ -1182,6 +1192,7 @@ settings:
     padding-bottom: 400px;
 }
 [data-id="everforest-enchanted-theme"] + .style-settings-container .setting-item-heading {
+    margin-top: 0;
     margin-bottom: 0;
 }
 [data-id="everforest-enchanted-theme"] + .style-settings-container .setting-item-heading + .style-settings-container {
@@ -1619,7 +1630,7 @@ img[src^="http"][alt~="right"] {
 
 /* Floats */
 .markdown-reading-view .image-embed[src~="float"] > img:not([width]) {
-    width: calc(var(--img-width, 100) / 100 * var(--file-line-width));
+    width: calc(var(--img-width, 100) / 100 * min(100vw, var(--file-line-width)));
     margin: 0 !important;
 }
 .markdown-reading-view .image-embed[src~="float"] {
@@ -1674,10 +1685,10 @@ body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"
     text-align: center;
 }
 body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"], [width])::after {
-    width: calc(var(--img-width, 100) / 100 * min(100%, var(--file-line-width)));
+    width: calc(var(--img-width, 100) / 100 * min(100vw, var(--file-line-width)));
 }
 body:not(.no-image-alttext-caption) .markdown-reading-view .image-embed[src~="float"]:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"], [width])::after {
-    width: calc(var(--img-width, 100) / 100 * var(--file-line-width));
+    width: calc(var(--img-width, 100) / 100 * min(100vw, var(--file-line-width)));
 }
 body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"], [width])[src~="left"]::after {
     margin-inline: 0 auto;

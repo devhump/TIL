@@ -1,5 +1,4 @@
 [
-  "obsidian-emoji-toolbar",
   "emoji-shortcodes",
   "obsidian-admonition",
   "dataview",
@@ -8,11 +7,14 @@
   "obsidian-checklist-plugin",
   "tag-wrangler",
   "obsidian-plugin-toc",
-  "obsidian-icon-folder",
   "uri-commands",
   "obsidian-paste-image-rename",
   "file-explorer-note-count",
   "table-editor-obsidian",
   "waypoint",
-  "obsidian-frontmatter-tag-suggest"
+  "obsidian-frontmatter-tag-suggest",
+  "obsidian-tracker",
+  "obsidian-pandoc",
+  "obsidian-minimal-settings",
+  "obsidian-charts"
 ]

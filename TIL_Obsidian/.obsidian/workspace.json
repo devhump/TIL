@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "devhump's TIL Index (data view).md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
@@ -29,27 +29,27 @@
               "type": "markdown",
               "state": {
                 "file": "JS/JS 입문 3.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "611e1490ac9db4b2",
+            "id": "cb11ae65832fd058",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/jQuery.md",
-                "mode": "source",
+                "file": "devhump's TIL Index (data view).md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JS 입문 3.md"
+                "file": "devhump's TIL Index (data view).md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS 입문 3.md",
+                "file": "devhump's TIL Index (data view).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JS 입문 3.md",
+                "file": "devhump's TIL Index (data view).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -203,13 +204,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7ada69aaea70bca2",
+  "active": "cb11ae65832fd058",
   "lastOpenFiles": [
-    "JS/jQuery.md",
+    "readme.md",
+    "TIL Waypoint.md",
+    "_others_/Debugging with VS Code+.md",
+    "_others_/알고리즘 TIP.md",
+    "_others_/Hot-key (VS Code).md",
+    "_others_/Hot-key for Mac.md",
+    "_others_/obsidian/Obsidian setting.md",
+    "devhump's TIL Index (data view).md",
     "JS/JS 입문 3.md",
+    "JS/jQuery.md",
+    "KDT/KDT.md",
+    "MDN/MDN.md",
+    "Django/Django.md",
+    "git_github/git_github.md",
+    "git_github/Git basic - git revert, reset, restore.md",
+    "git_github/Git basic - git stash.md",
+    "git_github/Git basic - Github manual.md",
+    "git_github/Git basic - merge.md",
+    "git_github/Git basic - rollback.md",
+    "무제 파일.md",
     "pages/contents.md",
     "Clippings/네이버 뉴스스탠드 주요 언론사 보기.md",
-    "devhump's TIL Index (data view).md",
     "Clippings",
     "KDT/markdown & git/markdown (마크다운) +.md",
     "_others_/obsidian/markdown for Obsidian.md",
@@ -219,29 +237,12 @@
     "JS/assets/JS 입문 3-2.png",
     "JS/assets/JS 입문 3-1.png",
     "JS/assets/JS 입문 3.png",
-    "readme.md",
-    "TIL Waypoint.md",
     "KDT/Web/10. Event.md",
-    "JS/JS 입문 1.md",
-    "JS/JS 입문 2.md",
-    "JS/JS.md",
     "JS/assets/JS 입문 2-6.png",
     "JS/assets/JS 입문 2-5.png",
     "JS/assets/JS 입문 2-4.png",
     "JS/assets/JS 입문 2-3.png",
     "JS/assets/JS 입문 2-2.png",
-    "git_github/git_github.md",
-    "IT_SC_Basic/정규표현식 (regex).md",
-    "git_github/Git basic - rollback.md",
-    "git_github/Git basic - merge.md",
-    "git_github/Git basic - Github manual.md",
-    "git_github/Git basic - git stash.md",
-    "git_github/Git basic - git revert, reset, restore.md",
-    "JS/JS 기본3.md",
-    "JS/JS 기본2.md",
-    "JS/JS 기본1.md",
-    "Python/Jump to Python/10. 정규표현식.md",
-    "KDT/Web/09. ECMA Script.md",
     "HTML_CSS/assets",
     "HTML_CSS",
     "0_zero",
