@@ -1328,3 +1328,210 @@ var newProduct = products.filter(a => a.price <= 60000);
 
 </script>
 ```
+
+
+### DOM이라는 용어 개념정리 & load 이벤트
+
+#### DOM 이란?
+- 자바스크립트는 HTML조작에 특화된 언어 → 어떻게 HTML을 조작할 수 있을까?
+	- 자바스크립트가 HTML 조작을 하기 위해선 **HTML을 자바스크립트가 해석할 수 있는 문법으로 변환**해놓면 됩니다.
+
+```html
+<div style="color : red">안녕하세요</div>
+```
+- 브라우저는 이런 HTML을 발견하면 object 자료로 바꿔서 보관해둡니다.
+	- 👉 구체적으로는 `var document = { }` 이런 변수를 하나 만들어서 거기 넣어줍니다.
+
+```js
+// 예시
+var document = {
+  div1 : {
+    style : {color : 'red'}
+    innerHTML : '안녕하세요'
+  }
+}
+```
+- 위 변수를 **document object**라고 부릅니다. (👉 Document Object Model)
+	- 👉 **자바스크립트가 HTML에 대한 정보들 (id, class, name, style, innerHTML 등)을 object 자료로 정리한걸 DOM**이라고 부릅니다. 
+
+#### 브라우저는 HTML 문서를 위에서 부터 읽으며 DOM을 생성한다.
+```html
+(html 파일)
+
+<script>
+  document.getElementById('test').innerHTML = '안녕'
+</script>
+
+<p id="test">임시글자</p>
+```
+- 위 코드가 에러가 나는 이유는, 아직 브라우저가 `test` 요소를 찾지 못했는데, 자바스크립트로 조작을 하려 하기 때문이다.
+	- 👉 p태그에 대한 DOM이 아직 생성되지 않았다.
+
+#### 혹은 자바스크립트 실행을 약간 나중으로 미루는 방법도 있다
+```js
+// jQuery
+$(document).ready(function(){ 실행할 코드 })
+
+// JS
+document.addEventListener('DOMContentLoaded', function() { 실행할 코드 })
+```
+- 👉 **"이 코드는 HTML 전부 다 읽고 실행해주세요"** 라는 의미이다. 
+
+```html
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() { 
+    document.getElementById('test').innerHTML = '안녕'
+  })
+</script>
+
+<p id="test">임시글자</p>
+```
+- 이렇게 코드를 짜면 에러가 발생하지 않는다. 
+	- 👉 최근에는 자바스크립트를 `<body>` 태그 끝나기 전에 작성하기 때문에 문제 없으나, 혹 중간에 스크립트를 짜야할 때 유용하게 쓰일 수 있다. 
+
+#### load 이벤트리스너
+```js
+셀렉터로찾은이미지.addEventListener('load', function(){
+  //이미지 로드되면 실행할 코드 
+})
+```
+- load 라는 이벤트리스너를 사용하면 DOM 생성뿐만 아니라 _이미지, css, js파일이 로드가 됐는지도 체크가능_ 하다.
+	- 근데 외부 자바스크립트 파일에 저걸 적어놓으면, 그 js 파일보다 이미지가 더 먼저 로드되는 경우도 있으니 이벤트 발생체크를 못하는 경우도 있을 수 있다.
+
+```js
+$(window).on('load', function(){
+  //document 안의 이미지, js 파일 포함 전부 로드가 되었을 경우 실행할 코드 
+});
+
+window.addEventListener('load', function(){
+  //document 안의 이미지, js 파일 포함 전부 로드가 되었을 경우 실행할 코드
+})
+```
+- document에 포함된 이미지, CSS파일 등 모든것이 로드가 되었는지 체크해줍니다. 
+	- 👉 ready 이런거랑 차이는 앞선 `.ready()`는 DOM 생성만 체크하는 함수인데, <br>이것보다 약간 더 나아가서 모든 파일과 이미지의 로드상태를 체크한다
+
+### 장바구니 기능과 localStorage
+
+#### 브라우저의 저장공간
+![](assets/JS%20입문%203-5.png)
+
+| 저장소 이름     | 특징                                                                                     |
+| --------------- | ---------------------------------------------------------------------------------------- |
+| Local Storage   | key : value 형태로 문자, 숫자 데이터 저장가능 <br>**브라우저 재접속시 남아있음(반영구적)** |
+| Session Storage | key : value 형태로 문자, 숫자 데이터 저장가능 <br>브라우저 끄면 날아감(휘발성)           |
+| Indexed DB      | 크고 많은 구조화된 데이터를 DB처럼 저장가능, 문법 어려움                                 |
+| Cookies         | 유저 로그인정보 저장공간                                                                 |
+| Cache Storage   | html, css, js, img 파일 저장해두는 공간                                                  |
+- Local Storage / Session Storage
+	- 문자, 숫자만 key : value 형태로 저장가능하고 5MB까지만 저장가능합니다. 
+- **Local Storage는 브라우저 재접속해도 영구적으로 남아있는데 Session Storage는 브라우저 끄면 날아갑니다.** 
+	- 👉 유저가 브라우저 청소하지 않는 이상 반영구적으로 데이터저장이 가능합니다. 
+
+#### 로컬스토리지 사용법
+```js
+localStorage.setItem('이름', 'kim') //자료저장하는법
+localStorage.getItem('이름') //자료꺼내는법
+localStorage.removeItem('이름') //자료삭제하는법
+```
+- 문자와 숫자만 저장 가능하다. 
+- 수정하는 법은 없어서 꺼내서 수정하고 다시 저장하면 된다.
+
+##### 세션스토리지 사용법
+```js
+sessionStorage.setItem('이름', 'kim') //자료저장하는법
+sessionStorage.getItem('이름') //자료꺼내는법
+sessionStorage.removeItem('이름') //자료삭제하는법
+```
+
+#### 로컬스토리지에 array/object 저장하려면
+- array/object를 로컬스토리지에 저장하면 강제로 문자로 바꿔서 저장됩니다. (**JSON 활용**)
+```js
+var arr = [1,2,3];
+var newArr = JSON.stringify(arr);
+
+localStorage.setItem('num', newArr)
+```
+1. JSON.stringify() 안에 array/object 집어넣으면 JSON으로 바꿔줍니다. 그럼 문자취급받음
+2. 그걸 localStorage에 저장하라고 코드짰습니다. 
+
+```js
+var arr = [1,2,3];
+var newArr = JSON.stringify(arr);
+
+localStorage.setItem('num', newArr)
+
+//꺼내서 쓸 땐
+var 꺼낸거 = localStorage.getItem('num');
+꺼낸거 = JSON.parse(꺼낸거);
+console.log(꺼낸거);
+```
+- JSON으로 저장했으니 꺼내도 JSON입니다.
+	- 그래서 꺼낸걸 다시 array/object로 바꾸고 싶으면 JSON.parse() 안에 넣으면 됩니다. 
+
+- array/object → JSON 변환하고 싶으면 `JSON.stringify()`
+- JSON → array/object 변환하고 싶으면 `JSON.parse()`
+
+```ad-todo
+오늘의 숙제 : 
+
+1. 카드하단 구매버튼추가하고 그거 누르면 누른 상품의 이름을 localStorage에 저장하기
+![](assets/JS%20입문%203-6.png)
+▲ 저장하는 형태는 자유지만 이렇게 array 안에 전부 저장해보는게 어떨까요.
+구매 누를 때 마다 array에 항목이 저렇게 추가되도록 해봅시다.
+
+(팁1) 내가 누른 요소의 형제요소를 찾는 법을 알아야될 수도 있겠군요 
+(팁2) localStorage가 비어있을 때는 array를 추가하면 되겠지만<br>localStorage에 이미 뭐가 있을 때는 array를 수정해야합니다.
+
+2. cart.html 같은 파일 하나 만들어서 (장바구니 페이지)
+
+그 페이지 방문시 localStorage에 있던 상품명들을 꺼내서 전부 진열해서 보여주면 됩니다.
+
+디자인 신경쓸 필요없이 상품명들만 전부 잘 보이면 성공입니다. 
+```
+
+- 참고 자료: [선택자 2 - 기본 선택자 (인접관계 선택자)](https://tragramming.tistory.com/59)
+
+```js
+    let cartExist = localStorage.getItem('cart')
+    
+    //localstorage에 저장
+    $('.buy').click(function(e){
+      
+      
+      if (cartExist){
+        let cart = JSON.parse(localStorage.getItem('cart'));
+        cart.push(e.target.closest('div').querySelector('h5').innerHTML);
+        
+        let newCart = JSON.stringify(cart);
+        localStorage.setItem('cart', newCart);
+      } else {
+        
+      
+        let cart = [];
+        
+        cart.push(e.target.closest('div').querySelector('h5').innerHTML);
+        let newCart = JSON.stringify(cart);
+        localStorage.setItem('cart', newCart);
+      }
+      
+      
+    });
+```
+
+```html
+ <div class="container">
+   
+ </div>
+  
+  
+  <script>
+    let products = JSON.parse(localStorage.getItem('cart'));
+    
+    products.forEach(function(e, i){
+      
+      $('.container').append(`<p>${products[i]}<p>`)
+    });
+    
+  </script> 
+```
