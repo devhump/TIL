@@ -15,24 +15,11 @@
               "type": "markdown",
               "state": {
                 "file": "devhump's TIL Index (data view).md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "e8e125790470be09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/JS 입문 3.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
             }
           },
           {
@@ -45,6 +32,16 @@
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "de408eeca3600ea0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
               }
             }
           }
@@ -123,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JS 입문 3.md"
+                "file": "무제 파일.md"
               }
             }
           },
@@ -152,7 +149,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS 입문 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +165,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JS 입문 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -205,11 +200,21 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "e8e125790470be09",
+  "active": "b2fec09aa046b5f4",
   "lastOpenFiles": [
-    "devhump's TIL Index (data view).md",
     "JS/jQuery.md",
+    "무제 파일.md",
+    "devhump's TIL Index (data view).md",
+    "KDT/Data structure/05. 문자열 (String).md",
+    "KDT/Data structure/08. 힙(Heap), 셋(set).md",
+    "IT_SC_Basic/개발 관련 IT 용어 정리.md",
+    "IT_SC_Basic/요청 메소드와 응답코드.md",
+    "IT_SC_Basic/쿠키 vs 세션 vs 토큰 + 캐시, CDN.md",
+    "readme.md",
     "JS/JS 입문 3.md",
+    "KDT/markdown & git/Git.md",
+    "IT_SC_Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
+    "IT_SC_Basic/Linux note.md",
     "JS/JS 입문 2.md",
     "JS/assets/JS 입문 3-6.png",
     "JS/assets/JS 입문 3-5.png",
@@ -217,24 +222,14 @@
     "z_others/z_others.md",
     "logseq/bak/devhump's TIL Index (data view)/2023-08-29T08_05_38.853Z.Desktop.md",
     "logseq/bak/Algorithm (theory)/22. DP - problem&solution/2023-08-29T08_05_38.841Z.Desktop.md",
-    "IT_SC_Basic/개발 관련 IT 용어 정리.md",
     "IT_SC_Basic/IP 주소의 종류.md",
     "tracker plugin test.md",
-    "readme.md",
     "z_others/Debugging with VS Code+.md",
     "z_others/알고리즘 TIP.md",
     "z_others/Hot-key (VS Code).md",
     "z_others/Hot-key for Mac.md",
     "z_others/obsidian/Obsidian setting.md",
     "KDT/KDT.md",
-    "MDN/MDN.md",
-    "Django/Django.md",
-    "git_github/git_github.md",
-    "git_github/Git basic - git revert, reset, restore.md",
-    "git_github/Git basic - git stash.md",
-    "git_github/Git basic - Github manual.md",
-    "git_github/Git basic - merge.md",
-    "git_github/Git basic - rollback.md",
     "Clippings",
     "JS/assets/JS 입문 3-4.png",
     "JS/assets/JS 입문 3-3.png",

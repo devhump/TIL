@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "JS 입문 3",
-      "path": "JS/JS 입문 3.md"
+      "basename": "jQuery",
+      "path": "JS/jQuery.md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
     },
     {
-      "basename": "jQuery",
-      "path": "JS/jQuery.md"
+      "basename": "05. 문자열 (String)",
+      "path": "KDT/Data structure/05. 문자열 (String).md"
+    },
+    {
+      "basename": "08. 힙(Heap), 셋(set)",
+      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "IT_SC_Basic/개발 관련 IT 용어 정리.md"
+    },
+    {
+      "basename": "요청 메소드와 응답코드",
+      "path": "IT_SC_Basic/요청 메소드와 응답코드.md"
+    },
+    {
+      "basename": "쿠키 vs 세션 vs 토큰 + 캐시, CDN",
+      "path": "IT_SC_Basic/쿠키 vs 세션 vs 토큰 + 캐시, CDN.md"
+    },
+    {
+      "basename": "readme",
+      "path": "readme.md"
+    },
+    {
+      "basename": "JS 입문 3",
+      "path": "JS/JS 입문 3.md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "IT_SC_Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+    },
+    {
+      "basename": "Linux note",
+      "path": "IT_SC_Basic/Linux note.md"
     },
     {
       "basename": "JS 입문 2",
@@ -25,16 +61,8 @@
       "path": "z_others/z_others.md"
     },
     {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "IT_SC_Basic/개발 관련 IT 용어 정리.md"
-    },
-    {
       "basename": "IP 주소의 종류",
       "path": "IT_SC_Basic/IP 주소의 종류.md"
-    },
-    {
-      "basename": "readme",
-      "path": "readme.md"
     },
     {
       "basename": "Debugging with VS Code+",
@@ -87,30 +115,6 @@
     {
       "basename": "Git basic - merge",
       "path": "git_github/Git basic - merge.md"
-    },
-    {
-      "basename": "Git basic - rollback",
-      "path": "git_github/Git basic - rollback.md"
-    },
-    {
-      "basename": "markdown (마크다운) +",
-      "path": "KDT/markdown & git/markdown (마크다운) +.md"
-    },
-    {
-      "basename": "markdown for Obsidian",
-      "path": "z_others/obsidian/markdown for Obsidian.md"
-    },
-    {
-      "basename": "Obsidian setting - Community plugin",
-      "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
-    },
-    {
-      "basename": "10. Event",
-      "path": "KDT/Web/10. Event.md"
-    },
-    {
-      "basename": "JS 입문 1",
-      "path": "JS/JS 입문 1.md"
     }
   ],
   "omittedPaths": [],
