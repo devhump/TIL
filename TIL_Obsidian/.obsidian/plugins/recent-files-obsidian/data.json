@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "jQuery",
-      "path": "JS/jQuery.md"
+      "basename": "Ubuntu server CLI Command",
+      "path": "z_others/Ubuntu server CLI Command.md"
+    },
+    {
+      "basename": "파이썬 01. Python 기초",
+      "path": "KDT/Python/파이썬 01. Python 기초.md"
+    },
+    {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "IT_SC_Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "IT_SC_Basic",
+      "path": "IT_SC_Basic/IT_SC_Basic.md"
+    },
+    {
+      "basename": "readme",
+      "path": "readme.md"
+    },
+    {
+      "basename": "Linux note",
+      "path": "IT_SC_Basic/Linux note.md"
+    },
+    {
+      "basename": "500 mile",
+      "path": "z_others/500 mile.md"
+    },
+    {
+      "basename": "TIL Waypoint",
+      "path": "TIL Waypoint.md"
+    },
+    {
+      "basename": "jQuery",
+      "path": "JS/jQuery.md"
     },
     {
       "basename": "05. 문자열 (String)",
@@ -29,32 +65,12 @@
       "path": "IT_SC_Basic/쿠키 vs 세션 vs 토큰 + 캐시, CDN.md"
     },
     {
-      "basename": "readme",
-      "path": "readme.md"
-    },
-    {
       "basename": "JS 입문 3",
       "path": "JS/JS 입문 3.md"
     },
     {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
-      "path": "IT_SC_Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "Linux note",
-      "path": "IT_SC_Basic/Linux note.md"
-    },
-    {
       "basename": "JS 입문 2",
       "path": "JS/JS 입문 2.md"
-    },
-    {
-      "basename": "TIL Waypoint",
-      "path": "TIL Waypoint.md"
     },
     {
       "basename": "z_others",
@@ -103,18 +119,6 @@
     {
       "basename": "Git basic - git revert, reset, restore",
       "path": "git_github/Git basic - git revert, reset, restore.md"
-    },
-    {
-      "basename": "Git basic - git stash",
-      "path": "git_github/Git basic - git stash.md"
-    },
-    {
-      "basename": "Git basic - Github manual",
-      "path": "git_github/Git basic - Github manual.md"
-    },
-    {
-      "basename": "Git basic - merge",
-      "path": "git_github/Git basic - merge.md"
     }
   ],
   "omittedPaths": [],
