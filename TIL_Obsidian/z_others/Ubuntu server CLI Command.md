@@ -2,6 +2,11 @@
 tags:
   - Linux
 ---
+#### 관련 문서
+```dataview
+list from #Linux 
+SORT file.cday DESC
+```
 
 #### 최신 업데이트 정보 갱신 & 업데이트 실행
 ```shell
@@ -16,4 +21,29 @@ sudo reboot
 #### 서버 시스템 종료
 ```shell
 sudo shutdown
+```
+
+
+#### 네트워크 관련
+```shell
+netstat -natp
+```
+
+
+
+```shell
+# 전체 설치
+sudo apt install ubuntu-desktop
+
+# 최소 설치
+sudo apt install ubuntu-desktop-minimal
+
+# 설치 후 실행
+startx
+
+# 부팅시 X window 자동 실행 되지 않게 함
+sudo systemctl set-default multi-user
+
+# 부팅시 X window가 자동 실행 되게 함
+sudo systemctl set-default graphical
 ```

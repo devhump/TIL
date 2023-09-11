@@ -28,7 +28,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_others/Ubuntu server CLI Command.md",
+                "file": "IT_SC_Basic/Linux note.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04a1b1d1425f9633",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KDT/Django/01. Django Intro.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "가상환경",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +103,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_others/Ubuntu server CLI Command.md"
+                "file": "KDT/Django/01. Django Intro.md"
               }
             }
           },
@@ -139,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_others/Ubuntu server CLI Command.md",
+                "file": "KDT/Django/01. Django Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_others/Ubuntu server CLI Command.md",
+                "file": "KDT/Django/01. Django Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,16 +206,19 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "1b07d88302ed9673",
+  "active": "04a1b1d1425f9633",
   "lastOpenFiles": [
-    "KDT/Python/파이썬 01. Python 기초.md",
+    "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
+    "KDT/Django/01. Django Intro.md",
     "z_others/Ubuntu server CLI Command.md",
-    "IT_SC_Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
+    "IT_SC_Basic/Linux note.md",
     "devhump's TIL Index (data view).md",
+    "z_others/obsidian/Obsidian setting - Community plugin.md",
+    "IT_SC_Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
+    "KDT/Python/파이썬 01. Python 기초.md",
     "KDT/markdown & git/Git.md",
     "IT_SC_Basic/IT_SC_Basic.md",
     "readme.md",
-    "IT_SC_Basic/Linux note.md",
     "z_others/500 mile.md",
     "TIL Waypoint.md",
     "JS/jQuery.md",
@@ -219,9 +236,6 @@
     "logseq/bak/devhump's TIL Index (data view)/2023-08-29T08_05_38.853Z.Desktop.md",
     "logseq/bak/Algorithm (theory)/22. DP - problem&solution/2023-08-29T08_05_38.841Z.Desktop.md",
     "IT_SC_Basic/IP 주소의 종류.md",
-    "tracker plugin test.md",
-    "z_others/Debugging with VS Code+.md",
-    "z_others/알고리즘 TIP.md",
     "Clippings",
     "JS/assets/JS 입문 3-4.png",
     "JS/assets/JS 입문 3-3.png",

@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "01. Django Intro",
+      "path": "KDT/Django/01. Django Intro.md"
+    },
+    {
+      "basename": "파이썬 08. 파이썬 응용,심화(python advanced)",
+      "path": "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md"
+    },
+    {
       "basename": "Ubuntu server CLI Command",
       "path": "z_others/Ubuntu server CLI Command.md"
     },
     {
-      "basename": "파이썬 01. Python 기초",
-      "path": "KDT/Python/파이썬 01. Python 기초.md"
+      "basename": "Linux note",
+      "path": "IT_SC_Basic/Linux note.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "Obsidian setting - Community plugin",
+      "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
     },
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
       "path": "IT_SC_Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
     },
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
+      "basename": "파이썬 01. Python 기초",
+      "path": "KDT/Python/파이썬 01. Python 기초.md"
     },
     {
       "basename": "Git",
@@ -27,10 +43,6 @@
     {
       "basename": "readme",
       "path": "readme.md"
-    },
-    {
-      "basename": "Linux note",
-      "path": "IT_SC_Basic/Linux note.md"
     },
     {
       "basename": "500 mile",
@@ -107,18 +119,6 @@
     {
       "basename": "MDN",
       "path": "MDN/MDN.md"
-    },
-    {
-      "basename": "Django",
-      "path": "Django/Django.md"
-    },
-    {
-      "basename": "git_github",
-      "path": "git_github/git_github.md"
-    },
-    {
-      "basename": "Git basic - git revert, reset, restore",
-      "path": "git_github/Git basic - git revert, reset, restore.md"
     }
   ],
   "omittedPaths": [],

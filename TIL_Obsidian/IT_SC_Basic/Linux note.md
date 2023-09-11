@@ -1,8 +1,11 @@
 ---
-title : 
-aliases : 
 tags : [Linux, IT_SC_basic]
 ---
+#### 관련 문서
+```dataview
+list from #Linux 
+SORT file.cday DESC
+```
 
 #### 여러 가지 쉘
 
