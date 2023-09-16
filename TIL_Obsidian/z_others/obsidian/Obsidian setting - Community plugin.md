@@ -80,6 +80,11 @@ TABLE
 FROM "Algo Solving" and !"Algo Solving/BOJ" and !"Algo Solving/SWEA"  
 SORT file.cday ASC
 ```
+
+```dataview
+list from #Linux and !#Linux/Linux_note
+SORT file.cday DESC
+```
 ````
 
 

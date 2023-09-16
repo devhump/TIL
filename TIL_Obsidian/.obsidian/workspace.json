@@ -23,33 +23,19 @@
             }
           },
           {
-            "id": "1b07d88302ed9673",
+            "id": "d20858e063ecfb9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT_SC_Basic/Linux note.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04a1b1d1425f9633",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KDT/Django/01. Django Intro.md",
+                "file": "Linux/Ubuntu server CLI Command.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "가상환경",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -103,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KDT/Django/01. Django Intro.md"
+                "file": "devhump's TIL Index (data view).md"
               }
             }
           },
@@ -153,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KDT/Django/01. Django Intro.md",
+                "file": "devhump's TIL Index (data view).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KDT/Django/01. Django Intro.md",
+                "file": "devhump's TIL Index (data view).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,14 +168,22 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "c9833ed4ec975540",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 246.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,53 +199,53 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "04a1b1d1425f9633",
+  "active": "9bc17440e038c6ed",
   "lastOpenFiles": [
-    "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md",
-    "KDT/Django/01. Django Intro.md",
-    "z_others/Ubuntu server CLI Command.md",
-    "IT_SC_Basic/Linux note.md",
+    "Linux/Ubuntu server CLI Command.md",
+    "Linux/Linux note.md",
+    "Linux/Linux.md",
     "devhump's TIL Index (data view).md",
-    "z_others/obsidian/Obsidian setting - Community plugin.md",
-    "IT_SC_Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
-    "KDT/Python/파이썬 01. Python 기초.md",
-    "KDT/markdown & git/Git.md",
-    "IT_SC_Basic/IT_SC_Basic.md",
     "readme.md",
-    "z_others/500 mile.md",
     "TIL Waypoint.md",
-    "JS/jQuery.md",
-    "무제 파일.md",
-    "KDT/Data structure/05. 문자열 (String).md",
-    "KDT/Data structure/08. 힙(Heap), 셋(set).md",
+    "Python/Python 유용한 문법 정리.md",
+    "HTML_CSS/HTML & CSS.md",
+    "Linux/Linux note/Linux note - 03. vi 실행과 종료.md",
+    "KDT/KDT.md",
+    "z_others/obsidian/Obsidian setting - Community plugin.md",
+    "Linux/Linux note/Linux note - 10. 한국어 환경.md",
+    "IT_SC_Basic/assets/Linux note.png",
+    "Linux/Linux note/assets/Linux note-17.png",
+    "Linux/Linux note/assets/Linux note-16.png",
+    "Linux/Linux note/assets/Linux note-15.png",
+    "Linux/Linux note/assets/Linux note-14.png",
+    "Linux/Linux note/assets/Linux note-13.png",
+    "Linux/Linux note/assets/Linux note-12.png",
+    "Linux/Linux note/assets/Linux note-11.png",
+    "Linux/Linux note/assets/Linux note-10.png",
+    "Linux/Linux note/assets/Linux note-9.png",
+    "Linux/Linux note/assets",
+    "Linux/Linux note/Linux note - 08. 네트워크 관련.md",
+    "Linux/Linux note/Linux note - 09. 그룹관리.md",
+    "Linux/Linux note/Linux note - 07. 시스템 관리자.md",
+    "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
+    "Linux/Linux note/Linux note - 02. 기본 명령어.md",
+    "Linux/Linux note/Linux note - 01. intro.md",
+    "Linux/Linux note/Linux note - 06. Linux의 태스크 처리.md",
+    "Linux/Linux note/Linux note - 05. 권한 관련.md",
+    "Linux/Linux note/Linux note - 04. 파일 관련 명령.md",
+    "Linux/Linux note/Linux note - 리다이렉트 & 파이프.md",
+    "Linux/Linux note",
+    "IT_SC_Basic/XML, JSON, YAML, AJAX.md",
     "IT_SC_Basic/개발 관련 IT 용어 정리.md",
-    "IT_SC_Basic/요청 메소드와 응답코드.md",
-    "IT_SC_Basic/쿠키 vs 세션 vs 토큰 + 캐시, CDN.md",
-    "JS/JS 입문 3.md",
-    "JS/JS 입문 2.md",
-    "JS/assets/JS 입문 3-6.png",
-    "JS/assets/JS 입문 3-5.png",
-    "z_others/z_others.md",
-    "logseq/bak/devhump's TIL Index (data view)/2023-08-29T08_05_38.853Z.Desktop.md",
-    "logseq/bak/Algorithm (theory)/22. DP - problem&solution/2023-08-29T08_05_38.841Z.Desktop.md",
-    "IT_SC_Basic/IP 주소의 종류.md",
+    "Linux",
+    "IT_SC_Basic/IT_SC_Basic.md",
+    "KDT/Django/01. Django Intro.md",
     "Clippings",
-    "JS/assets/JS 입문 3-4.png",
-    "JS/assets/JS 입문 3-3.png",
-    "JS/assets/JS 입문 3-2.png",
-    "JS/assets/JS 입문 3-1.png",
-    "JS/assets/JS 입문 3.png",
-    "JS/assets/JS 입문 2-6.png",
-    "JS/assets/JS 입문 2-5.png",
-    "JS/assets/JS 입문 2-4.png",
     "HTML_CSS/assets",
     "HTML_CSS",
     "0_zero",
     "git_github/assets",
     "git_github",
-    "z_others/vscode_shortcuts_(mac).pdf",
-    "KDT/markdown & git/git_cheat_sheet.pdf",
-    "JS/문벅스 카페 메뉴 앱 만들기",
-    "JS/assets"
+    "z_others/vscode_shortcuts_(mac).pdf"
   ]
 }

@@ -1,4 +1,4 @@
-### _others_
+### z_others
 ![[z_others/z_others]]
 
 
@@ -23,7 +23,8 @@
 ### KDT
 ![KDT](KDT/KDT.md)
 
-
+### Linux
+![Linux](Linux/Linux.md)
 ### MDN
 ![MDN](MDN/MDN.md)
 

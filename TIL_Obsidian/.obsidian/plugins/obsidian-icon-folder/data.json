@@ -1,16 +1,16 @@
 {
   "settings": {
-    "migrated": true,
+    "migrated": 2,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "📥",
-      "🔥",
-      "📌",
-      "🌍",
-      "SiPythonWhite"
+      "SiPythonWhite",
+      "FabJs",
+      "SiHtml5",
+      "SiGithub",
+      "SiDjango"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -20,7 +20,7 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false
+    "iconInTabsEnabled": true
   },
   "Algo Solving": {
     "iconName": "❔",
@@ -38,10 +38,7 @@
     "iconName": "SiGithub",
     "inheritanceIcon": "SiGithub"
   },
-  "HTML_CSS": {
-    "iconName": "FabHtml5",
-    "inheritanceIcon": "FabHtml5"
-  },
+  "HTML_CSS": "SiHtml5",
   "IT_SC_Basic": {
     "iconName": "🖥",
     "inheritanceIcon": "🖥"
@@ -65,5 +62,9 @@
   "readme.md": "🌍",
   "devhump's TIL Index (data view).md": "📌",
   "TIL Waypoint.md": "🔥",
-  "z_others": "📥"
+  "z_others": "📥",
+  "Linux": {
+    "iconName": "SiLinux",
+    "inheritanceIcon": "SiLinux"
+  }
 }

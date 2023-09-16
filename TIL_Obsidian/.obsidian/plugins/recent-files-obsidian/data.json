@@ -1,124 +1,124 @@
 {
   "recentFiles": [
     {
-      "basename": "01. Django Intro",
-      "path": "KDT/Django/01. Django Intro.md"
-    },
-    {
-      "basename": "파이썬 08. 파이썬 응용,심화(python advanced)",
-      "path": "KDT/Python/파이썬 08. 파이썬 응용,심화(python advanced).md"
-    },
-    {
-      "basename": "Ubuntu server CLI Command",
-      "path": "z_others/Ubuntu server CLI Command.md"
-    },
-    {
-      "basename": "Linux note",
-      "path": "IT_SC_Basic/Linux note.md"
-    },
-    {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
     },
     {
-      "basename": "Obsidian setting - Community plugin",
-      "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
+      "basename": "Ubuntu server CLI Command",
+      "path": "Linux/Ubuntu server CLI Command.md"
     },
     {
-      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
-      "path": "IT_SC_Basic/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+      "basename": "Linux note",
+      "path": "Linux/Linux note.md"
     },
     {
-      "basename": "파이썬 01. Python 기초",
-      "path": "KDT/Python/파이썬 01. Python 기초.md"
-    },
-    {
-      "basename": "Git",
-      "path": "KDT/markdown & git/Git.md"
-    },
-    {
-      "basename": "IT_SC_Basic",
-      "path": "IT_SC_Basic/IT_SC_Basic.md"
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
     },
     {
       "basename": "readme",
       "path": "readme.md"
     },
     {
-      "basename": "500 mile",
-      "path": "z_others/500 mile.md"
-    },
-    {
       "basename": "TIL Waypoint",
       "path": "TIL Waypoint.md"
     },
     {
-      "basename": "jQuery",
-      "path": "JS/jQuery.md"
+      "basename": "Python 유용한 문법 정리",
+      "path": "Python/Python 유용한 문법 정리.md"
     },
     {
-      "basename": "05. 문자열 (String)",
-      "path": "KDT/Data structure/05. 문자열 (String).md"
+      "basename": "HTML & CSS",
+      "path": "HTML_CSS/HTML & CSS.md"
     },
     {
-      "basename": "08. 힙(Heap), 셋(set)",
-      "path": "KDT/Data structure/08. 힙(Heap), 셋(set).md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "IT_SC_Basic/개발 관련 IT 용어 정리.md"
-    },
-    {
-      "basename": "요청 메소드와 응답코드",
-      "path": "IT_SC_Basic/요청 메소드와 응답코드.md"
-    },
-    {
-      "basename": "쿠키 vs 세션 vs 토큰 + 캐시, CDN",
-      "path": "IT_SC_Basic/쿠키 vs 세션 vs 토큰 + 캐시, CDN.md"
-    },
-    {
-      "basename": "JS 입문 3",
-      "path": "JS/JS 입문 3.md"
-    },
-    {
-      "basename": "JS 입문 2",
-      "path": "JS/JS 입문 2.md"
-    },
-    {
-      "basename": "z_others",
-      "path": "z_others/z_others.md"
-    },
-    {
-      "basename": "IP 주소의 종류",
-      "path": "IT_SC_Basic/IP 주소의 종류.md"
-    },
-    {
-      "basename": "Debugging with VS Code+",
-      "path": "z_others/Debugging with VS Code+.md"
-    },
-    {
-      "basename": "알고리즘 TIP",
-      "path": "z_others/알고리즘 TIP.md"
-    },
-    {
-      "basename": "Hot-key (VS Code)",
-      "path": "z_others/Hot-key (VS Code).md"
-    },
-    {
-      "basename": "Hot-key for Mac",
-      "path": "z_others/Hot-key for Mac.md"
-    },
-    {
-      "basename": "Obsidian setting",
-      "path": "z_others/obsidian/Obsidian setting.md"
+      "basename": "Linux note - 03. vi 실행과 종료",
+      "path": "Linux/Linux note/Linux note - 03. vi 실행과 종료.md"
     },
     {
       "basename": "KDT",
       "path": "KDT/KDT.md"
     },
     {
-      "basename": "MDN",
-      "path": "MDN/MDN.md"
+      "basename": "Obsidian setting - Community plugin",
+      "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
+    },
+    {
+      "basename": "Linux note - 10. 한국어 환경",
+      "path": "Linux/Linux note/Linux note - 10. 한국어 환경.md"
+    },
+    {
+      "basename": "Linux note - 08. 네트워크 관련",
+      "path": "Linux/Linux note/Linux note - 08. 네트워크 관련.md"
+    },
+    {
+      "basename": "Linux note - 09. 그룹관리",
+      "path": "Linux/Linux note/Linux note - 09. 그룹관리.md"
+    },
+    {
+      "basename": "Linux note - 07. 시스템 관리자",
+      "path": "Linux/Linux note/Linux note - 07. 시스템 관리자.md"
+    },
+    {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "IT_SC_Basic/assets/개발 관련 IT 용어 정리.png"
+    },
+    {
+      "basename": "(regex)-3",
+      "path": "IT_SC_Basic/assets/(regex)-3.png"
+    },
+    {
+      "basename": "(regex)-2",
+      "path": "IT_SC_Basic/assets/(regex)-2.png"
+    },
+    {
+      "basename": "(regex)-1",
+      "path": "IT_SC_Basic/assets/(regex)-1.png"
+    },
+    {
+      "basename": "(regex)",
+      "path": "IT_SC_Basic/assets/(regex).png"
+    },
+    {
+      "basename": "Linux note - 02. 기본 명령어",
+      "path": "Linux/Linux note/Linux note - 02. 기본 명령어.md"
+    },
+    {
+      "basename": "Linux note - 01. intro",
+      "path": "Linux/Linux note/Linux note - 01. intro.md"
+    },
+    {
+      "basename": "Linux note - 06. Linux의 태스크 처리",
+      "path": "Linux/Linux note/Linux note - 06. Linux의 태스크 처리.md"
+    },
+    {
+      "basename": "Linux note - 05. 권한 관련",
+      "path": "Linux/Linux note/Linux note - 05. 권한 관련.md"
+    },
+    {
+      "basename": "Linux note - 04. 파일 관련 명령",
+      "path": "Linux/Linux note/Linux note - 04. 파일 관련 명령.md"
+    },
+    {
+      "basename": "XML, JSON, YAML, AJAX",
+      "path": "IT_SC_Basic/XML, JSON, YAML, AJAX.md"
+    },
+    {
+      "basename": "개발 관련 IT 용어 정리",
+      "path": "IT_SC_Basic/개발 관련 IT 용어 정리.md"
+    },
+    {
+      "basename": "IT_SC_Basic",
+      "path": "IT_SC_Basic/IT_SC_Basic.md"
+    },
+    {
+      "basename": "01. Django Intro",
+      "path": "KDT/Django/01. Django Intro.md"
     }
   ],
   "omittedPaths": [],

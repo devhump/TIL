@@ -4,15 +4,12 @@
 - [요청 메소드와 응답코드](./%EC%9A%94%EC%B2%AD%20%EB%A9%94%EC%86%8C%EB%93%9C%EC%99%80%20%EC%9D%91%EB%8B%B5%EC%BD%94%EB%93%9C.md)
 - [정규표현식 (regex)](./%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D%20(regex).md)
 - [쿠키 vs 세션 vs 토큰 + 캐시, CDN](./%EC%BF%A0%ED%82%A4%20vs%20%EC%84%B8%EC%85%98%20vs%20%ED%86%A0%ED%81%B0%20+%20%EC%BA%90%EC%8B%9C,%20CDN.md)
-- [필수 리눅스 터미널 명령어 정리 by 드림코딩](./%ED%95%84%EC%88%98%20%EB%A6%AC%EB%88%85%EC%8A%A4%20%ED%84%B0%EB%AF%B8%EB%84%90%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EC%A0%95%EB%A6%AC%20by%20%EB%93%9C%EB%A6%BC%EC%BD%94%EB%94%A9.md)
 - **assets**
 
 - [base64](./base64.md)
 - [CLI](./CLI.md)
 - [IaaS vs PaaS vs SaaS](./IaaS%20vs%20PaaS%20vs%20SaaS.md)
 - [IP 주소의 종류](./IP%20%EC%A3%BC%EC%86%8C%EC%9D%98%20%EC%A2%85%EB%A5%98.md)
-- [IT_SC_Basic](./IT_SC_Basic.md)
-- [Linux note](./Linux%20note.md)
 - [OSI 7 Layer vs TCP-IP 4 Layer](./OSI%207%20Layer%20vs%20TCP-IP%204%20Layer.md)
 - [URI & URL](./URI%20&%20URL.md)
 - [XML, JSON, YAML, AJAX](./XML,%20JSON,%20YAML,%20AJAX.md)

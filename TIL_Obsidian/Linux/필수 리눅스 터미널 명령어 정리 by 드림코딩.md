@@ -1,11 +1,20 @@
 ---
 tags : [Linux]
 ---
+
 #### 관련 문서
 ```dataview
-list from #Linux 
+list from #Linux and !#Linux/Linux_note
 SORT file.cday DESC
 ```
+
+##### Linux note
+```dataview
+list from #Linux/Linux_note
+SORT file.name ASC
+```
+
+
 
 - [유튜브- 필수 리눅스 터미널 명령어 정리 by 드림코딩](https://youtu.be/EL6AQl-e3AQ)
 

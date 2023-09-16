@@ -198,9 +198,8 @@ SORT file.mday DESC
 ```dataview
 LIST
 FROM #Linux 
-SORT file.mday DESC
+SORT file.name ASC
 ```
-
 
 #### 단축키 관련
 ```dataview

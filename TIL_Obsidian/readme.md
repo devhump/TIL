@@ -173,7 +173,7 @@
 - [OSI 7 Layer vs TCP-IP 4 Layer](IT_SC_Basic/OSI%207%20Layer%20vs%20TCP-IP%204%20Layer.md)
 - [IaaS vs PaaS vs SaaS](IT_SC_Basic/IaaS%20vs%20PaaS%20vs%20SaaS.md)
 - [base64](IT_SC_Basic/base64.md)
-- [Linux note](IT_SC_Basic/Linux%20note.md)
+- [Linux note](Linux/Linux%20note.md)
 - [XML, JSON, YAML, AJAX](IT_SC_Basic/XML,%20JSON,%20YAML,%20AJAX.md)
 - [개발 관련 IT 용어 정리](IT_SC_Basic/개발%20관련%20IT%20용어%20정리.md)
 - [CLI](IT_SC_Basic/CLI.md)
@@ -186,8 +186,8 @@
 
 
 #### Linux
-- [필수 리눅스 터미널 명령어 정리 by 드림코딩](IT_SC_Basic/필수%20리눅스%20터미널%20명령어%20정리%20by%20드림코딩.md)
-- [Linux note](IT_SC_Basic/Linux%20note.md)
+- [필수 리눅스 터미널 명령어 정리 by 드림코딩](Linux/필수%20리눅스%20터미널%20명령어%20정리%20by%20드림코딩.md)
+- [Linux note](Linux/Linux%20note.md)
 
 
 #### 단축키 관련
