@@ -28,6 +28,7 @@ SORT file.name ASC
 | tcsh <br>(tc쉘)     | c쉘을 확장한 쉘로 현재의 BSD 계열 OS에서는 표준 쉘이다.<br> bash와 함께 많이 사용하는 쉘이다.                                                                                                  |
 | zsh <br>(z쉘)       | b쉘을 확장한 쉘이지만, tcsh 기능도 갖고 있다. <br>b쉘 계열과 c쉘의 두 기능을 모두 사용할 수 있지만, 대신 동작이 느린 단점이 있다.                                                                  |
 
+![|600](assets/linux_dir.jpg)
 #### 주요 디렉터리
 
 | 디렉터리 | 역할                                                                                          |

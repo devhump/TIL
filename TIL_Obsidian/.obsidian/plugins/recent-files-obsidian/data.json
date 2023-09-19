@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
-    },
-    {
       "basename": "Ubuntu server CLI Command",
       "path": "Linux/Ubuntu server CLI Command.md"
     },
     {
-      "basename": "Linux note",
-      "path": "Linux/Linux note.md"
+      "basename": "Linux 최신 명령어",
+      "path": "Linux/Linux 최신 명령어.md"
+    },
+    {
+      "basename": "Linux note - 01. intro",
+      "path": "Linux/Linux note/Linux note - 01. intro.md"
     },
     {
       "basename": "Linux",
       "path": "Linux/Linux.md"
     },
     {
+      "basename": "Linux note",
+      "path": "Linux/Linux note.md"
+    },
+    {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
       "basename": "readme",
       "path": "readme.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "KDT",
+      "path": "KDT/KDT.md"
+    },
+    {
+      "basename": "01. 이차원 리스트(1-2)",
+      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
     },
     {
       "basename": "TIL Waypoint",
@@ -35,10 +59,6 @@
     {
       "basename": "Linux note - 03. vi 실행과 종료",
       "path": "Linux/Linux note/Linux note - 03. vi 실행과 종료.md"
-    },
-    {
-      "basename": "KDT",
-      "path": "KDT/KDT.md"
     },
     {
       "basename": "Obsidian setting - Community plugin",
@@ -59,10 +79,6 @@
     {
       "basename": "Linux note - 07. 시스템 관리자",
       "path": "Linux/Linux note/Linux note - 07. 시스템 관리자.md"
-    },
-    {
-      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
-      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
     },
     {
       "basename": "개발 관련 IT 용어 정리",
@@ -89,10 +105,6 @@
       "path": "Linux/Linux note/Linux note - 02. 기본 명령어.md"
     },
     {
-      "basename": "Linux note - 01. intro",
-      "path": "Linux/Linux note/Linux note - 01. intro.md"
-    },
-    {
       "basename": "Linux note - 06. Linux의 태스크 처리",
       "path": "Linux/Linux note/Linux note - 06. Linux의 태스크 처리.md"
     },
@@ -107,18 +119,6 @@
     {
       "basename": "XML, JSON, YAML, AJAX",
       "path": "IT_SC_Basic/XML, JSON, YAML, AJAX.md"
-    },
-    {
-      "basename": "개발 관련 IT 용어 정리",
-      "path": "IT_SC_Basic/개발 관련 IT 용어 정리.md"
-    },
-    {
-      "basename": "IT_SC_Basic",
-      "path": "IT_SC_Basic/IT_SC_Basic.md"
-    },
-    {
-      "basename": "01. Django Intro",
-      "path": "KDT/Django/01. Django Intro.md"
     }
   ],
   "omittedPaths": [],

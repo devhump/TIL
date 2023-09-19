@@ -2,31 +2,30 @@
 tags:
   - Linux/Linux_note
 ---
-#### table of contents
-```ad-note
-- [종료와 재시작](#%EC%A2%85%EB%A3%8C%EC%99%80-%EC%9E%AC%EC%8B%9C%EC%9E%91)
-- [사용자 환경 설정](#%EC%82%AC%EC%9A%A9%EC%9E%90-%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95)
+
+## table of contents
+- [종료와 재시작](#%EC%A2%85%EB%A3%8C%EC%99%80%20%EC%9E%AC%EC%8B%9C%EC%9E%91)
+- [사용자 환경 설정](#%EC%82%AC%EC%9A%A9%EC%9E%90%20%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95)
 - [경로설정](#%EA%B2%BD%EB%A1%9C%EC%84%A4%EC%A0%95)
-- [Linux GUI 환경](#linux-gui-%ED%99%98%EA%B2%BD)
-- [Wayland란](#wayland%EB%9E%80)
-- [통합 데스크톱 환경](#%ED%86%B5%ED%95%A9-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%86%B1-%ED%99%98%EA%B2%BD)
+- [Linux GUI 환경](#Linux%20GUI%20%ED%99%98%EA%B2%BD)
+- [Wayland란](#Wayland%EB%9E%80)
+- [통합 데스크톱 환경](#%ED%86%B5%ED%95%A9%20%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%86%B1%20%ED%99%98%EA%B2%BD)
 - [기본조작](#%EA%B8%B0%EB%B3%B8%EC%A1%B0%EC%9E%91)
-- [고도의 조작](#%EA%B3%A0%EB%8F%84%EC%9D%98-%EC%A1%B0%EC%9E%91)
-- [SSH에 의한 원격 조작](#ssh%EC%97%90-%EC%9D%98%ED%95%9C-%EC%9B%90%EA%B2%A9-%EC%A1%B0%EC%9E%91)
+- [고도의 조작](#%EA%B3%A0%EB%8F%84%EC%9D%98%20%EC%A1%B0%EC%9E%91)
+- [SSH에 의한 원격 조작](#SSH%EC%97%90%20%EC%9D%98%ED%95%9C%20%EC%9B%90%EA%B2%A9%20%EC%A1%B0%EC%9E%91)
 - [dnf](#dnf)
 - [부록](#%EB%B6%80%EB%A1%9D)
-```
 
-```ad-note
+### table of contents
+- [관련 문서](#%EA%B4%80%EB%A0%A8%20%EB%AC%B8%EC%84%9C)
 - [리다이렉트](#%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8)
-- [파이프란?](#%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9E%80)
-- [메모리와 디스크 명령](#%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%99%80-%EB%94%94%EC%8A%A4%ED%81%AC-%EB%AA%85%EB%A0%B9)
-- [사용자 관련 명령](#%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B4%80%EB%A0%A8-%EB%AA%85%EB%A0%B9)
-- [명령 이력 알아보기](#%EB%AA%85%EB%A0%B9-%EC%9D%B4%EB%A0%A5-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
-- [입력을 보완하는 기능](#%EC%9E%85%EB%A0%A5%EC%9D%84-%EB%B3%B4%EC%99%84%ED%95%98%EB%8A%94-%EA%B8%B0%EB%8A%A5)
+- [파이프란?](#%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9E%80?)
+- [메모리와 디스크 명령](#%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%99%80%20%EB%94%94%EC%8A%A4%ED%81%AC%20%EB%AA%85%EB%A0%B9)
+- [사용자 관련 명령](#%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9)
+- [명령 이력 알아보기](#%EB%AA%85%EB%A0%B9%20%EC%9D%B4%EB%A0%A5%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
+- [입력을 보완하는 기능](#%EC%9E%85%EB%A0%A5%EC%9D%84%20%EB%B3%B4%EC%99%84%ED%95%98%EB%8A%94%20%EA%B8%B0%EB%8A%A5)
 - [일시설정](#%EC%9D%BC%EC%8B%9C%EC%84%A4%EC%A0%95)
-- [사용자의 생성과 삭제](#%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9D%98-%EC%83%9D%EC%84%B1%EA%B3%BC-%EC%82%AD%EC%A0%9C)
-```
+- [사용자의 생성과 삭제](#%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9D%98%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%EC%82%AD%EC%A0%9C)
 
 
 #### 관련 문서

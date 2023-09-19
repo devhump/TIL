@@ -1,5 +1,10 @@
 %% Begin Waypoint %%
 - [필수 리눅스 터미널 명령어 정리 by 드림코딩](./%ED%95%84%EC%88%98%20%EB%A6%AC%EB%88%85%EC%8A%A4%20%ED%84%B0%EB%AF%B8%EB%84%90%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EC%A0%95%EB%A6%AC%20by%20%EB%93%9C%EB%A6%BC%EC%BD%94%EB%94%A9.md)
+- **assets**
+
+- **Home-server**
+	- [Home-server - 원격관리 & 보안](./Home-server/Home-server%20-%20%EC%9B%90%EA%B2%A9%EA%B4%80%EB%A6%AC%20&%20%EB%B3%B4%EC%95%88.md)
+- [Linux 최신 명령어](./Linux%20%EC%B5%9C%EC%8B%A0%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)
 - **Linux note**
 	- **assets**
 

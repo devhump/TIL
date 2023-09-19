@@ -1,21 +1,39 @@
 ---
 tags:
-  - Linux
+  - ubuntu
 ---
 
 #### 관련 문서
+##### ubuntu
+```dataview
+list from #ubuntu 
+SORT file.cday DESC
+```
+##### Linux
 ```dataview
 list from #Linux and !#Linux/Linux_note
 SORT file.cday DESC
 ```
-
 ##### Linux note
 ```dataview
 list from #Linux/Linux_note
 SORT file.name ASC
 ```
 
+#### 자주 쓰는 명령어
+```shell
+journalctl -f
+sudo fail2ban-client status sshd
+sudo systemctl status fail2ban
+```
 
+##### 매뉴얼 확인
+- [tldr](Linux%20최신%20명령어#tldr) 
+```shell
+man tar
+tldr tar
+tar --help
+```
 #### 최신 업데이트 정보 갱신 & 업데이트 실행
 ```shell
 sudo apt update && sudo apt upgrade -y
@@ -24,19 +42,35 @@ sudo apt update && sudo apt upgrade -y
 #### 리부팅
 ```shell
 sudo reboot
+sudo reboot now
 ```
 
 #### 서버 시스템 종료
 ```shell
 sudo shutdown
+sudo shutdown now
 ```
-
 
 #### 네트워크 관련
+- netstat (network statistics)
+	- 네트워크의 상태를 모니터링하기 위한 도구
 ```shell
+netstat [옵션] [| grep 포트 번호 or 서비스 명]
 netstat -natp
+netstat -tnlp
 ```
 
+| 옵션 |             | 설명                                                                       |
+| ---- | ----------- | -------------------------------------------------------------------------- |
+| -l   | listen      | 연결 가능한 상태, 수신 소켓을 표시                                         |
+| -n   | number port | 서비스 명 대신 포트 번호를 표시                                            |
+| -t   | tcp         | 모든 TCP 연결을 표시                                                       |
+| -p   | programs    | 프로그램 이름 / PID, <br>포트에서 수신하는 어플리케이션/데몬의 이름을 표시 |
+| -a   | all         | 모두                                                                       |
+| -u   | udp         | udp                                                                        |
+| -i   | interfaces  | 이더넷 카드별 정상/에러/드랍 송수신 패킷 수 확인                           |
+| -r   | route       | 라우팅 테이블                                                              |
+| -s   | statistics  | 네트워크 통계                                                              |
 
 #### GUI 설치
 ```shell
@@ -65,3 +99,13 @@ timedatectl
 # 한국 시간대로 변경
 sudo timedatectl set-timezone Asia/Seoul
 ```
+
+
+#### 참고자료
+- [# 🏠홈서버 만들기🏠 홈서버란](https://velog.io/@chch1213/build-home-server-1)
+
+- WOL 설정 (wake on lan) 
+	- [## 우분투 22.04 server WOL 설정 방법(Beelink s12 pro WOL)](https://engpro.tistory.com/m/434)
+
+- SAMBA 설정
+	- [# 🐧 삼바(SAMBA) 설치 & 설정 방법 [리눅스 ↔ 윈도우]](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%EC%82%BC%EB%B0%94SAMBA-%EC%84%A4%EC%B9%98-%EC%84%A4%EC%A0%95-%E2%80%BB-%EC%B4%9D%EC%A0%95%EB%A6%AC)
