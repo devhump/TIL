@@ -1,28 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "zsh 설정 관련",
-      "path": "IT_SC_Basic/zsh 설정 관련.md"
+      "basename": "Git basic - git revert, reset, restore",
+      "path": "git_github/Git basic - git revert, reset, restore.md"
     },
     {
-      "basename": "Linux 최신 명령어",
-      "path": "Linux/Linux 최신 명령어.md"
+      "basename": "Git basic - rollback",
+      "path": "git_github/Git basic - rollback.md"
     },
     {
-      "basename": "Linux",
-      "path": "Linux/Linux.md"
+      "basename": "vim 설정",
+      "path": "Linux/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+    },
+    {
       "basename": "ubuntu",
       "path": "Linux/Home-server/ubuntu.md"
     },
     {
-      "basename": "vim 설정",
-      "path": "Linux/Home-server/vim 설정.md"
+      "basename": "Linux 최신 명령어",
+      "path": "Linux/Linux 최신 명령어.md"
     },
     {
       "basename": "Ubuntu server CLI Command",
@@ -33,20 +41,16 @@
       "path": "Linux/Linux note/Linux note - 01. intro.md"
     },
     {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
+    },
+    {
       "basename": "Linux note",
       "path": "Linux/Linux note.md"
     },
     {
-      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
-      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
       "basename": "readme",
       "path": "readme.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "KDT",
@@ -115,10 +119,6 @@
     {
       "basename": "Linux note - 02. 기본 명령어",
       "path": "Linux/Linux note/Linux note - 02. 기본 명령어.md"
-    },
-    {
-      "basename": "Linux note - 06. Linux의 태스크 처리",
-      "path": "Linux/Linux note/Linux note - 06. Linux의 태스크 처리.md"
     }
   ],
   "omittedPaths": [],

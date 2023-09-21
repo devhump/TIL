@@ -41,7 +41,8 @@ set nobackup  " 백업파일을 만들지 않음
 set title " 제목을 표시  
 set showmatch " 매칭되는 괄호를 보여줌  
 set nowrap " 자동 줄바꿈 하지 않음  
-set wmnu " tab 자동완성시 가능한 목록을 보여줌  
+set wmnu " tab 자동완성시 가능한 목록을 보여줌
+set mouse=a " 마우스 위치로 커서 이동
   
 "가장 최근에 수정한 곳에 커서 위치    
 au BufReadPost *    
