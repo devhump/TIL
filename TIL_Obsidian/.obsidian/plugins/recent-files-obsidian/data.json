@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Ubuntu server CLI Command",
-      "path": "Linux/Ubuntu server CLI Command.md"
+      "basename": "ubuntu",
+      "path": "Linux/Home-server/ubuntu.md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "vim 설정",
+      "path": "Linux/Home-server/vim 설정.md"
     },
     {
       "basename": "Linux 최신 명령어",
       "path": "Linux/Linux 최신 명령어.md"
+    },
+    {
+      "basename": "Ubuntu server CLI Command",
+      "path": "Linux/Ubuntu server CLI Command.md"
     },
     {
       "basename": "Linux note - 01. intro",
@@ -23,10 +35,6 @@
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
       "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "readme",
@@ -111,14 +119,6 @@
     {
       "basename": "Linux note - 05. 권한 관련",
       "path": "Linux/Linux note/Linux note - 05. 권한 관련.md"
-    },
-    {
-      "basename": "Linux note - 04. 파일 관련 명령",
-      "path": "Linux/Linux note/Linux note - 04. 파일 관련 명령.md"
-    },
-    {
-      "basename": "XML, JSON, YAML, AJAX",
-      "path": "IT_SC_Basic/XML, JSON, YAML, AJAX.md"
     }
   ],
   "omittedPaths": [],

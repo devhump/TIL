@@ -4,6 +4,8 @@
 
 - **Home-server**
 	- [Home-server - 원격관리 & 보안](./Home-server/Home-server%20-%20%EC%9B%90%EA%B2%A9%EA%B4%80%EB%A6%AC%20&%20%EB%B3%B4%EC%95%88.md)
+	- [ubuntu](./Home-server/ubuntu.md)
+	- [vim 설정](./Home-server/vim%20%EC%84%A4%EC%A0%95.md)
 - [Linux 최신 명령어](./Linux%20%EC%B5%9C%EC%8B%A0%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)
 - **Linux note**
 	- **assets**

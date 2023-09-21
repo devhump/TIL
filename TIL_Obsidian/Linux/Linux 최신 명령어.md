@@ -103,7 +103,7 @@ cd ../**<TAB> => 부모폴더 기준으로 fuzzy 실행하기
 ```
 
 #### search syntax
-- `weekly-news` > 퍼지 매칭 (도대체 fuzzy란 표현이 정확히 무슨뜻인지 모름..)
+- `weekly-news` > 퍼지 매칭
 - `^weekly-news` > 접두사 완전 매칭
 - `.md$` > 접미사 완전 매칭
 - `'md` > 완전 매칭

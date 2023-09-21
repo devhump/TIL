@@ -17,6 +17,7 @@
 *?   - Links
 *?   - Lists
 *?   - Blockquotes
+*?   - Embeds
 *?   - Tables
 *?   - Tags
 *?   - Embeds
@@ -78,12 +79,18 @@
     --text-faint:               var(--grey1);
     --text-selection:           var(--bg-visual);
 
-    --text-link:                var(--header-aqua);
-    --text-link-hover:          var(--fg-aqua);
-    --text-link-external:       var(--header-blue);
-    --text-link-external-hover: var(--fg-blue);
-    --text-accent:              var(--header-blue);
-    --text-accent-hover:        var(--header-purple);
+    --link-color:                  var(--header-aqua);
+    --link-color-hover:            var(--fg-aqua);
+    --link-external-color:         var(--header-blue);
+    --link-external-color-hover:   var(--fg-blue);
+    --text-accent:                 var(--header-blue);
+    --text-accent-hover:           var(--header-purple);
+
+    --link-unresolved-decoration-style:       dashed;
+    --link-unresolved-color:                  var(--header-blue);
+    --link-unresolved-color-hover:            var(--header-purple); /* Non-standard */
+    --link-unresolved-decoration-color:       var(--bg-red);
+    --link-unresolved-decoration-color-hover: var(--fg-red); /* Non-standard */
 
     --code-header: #0004;
     --code-background: var(--bg-dim);
@@ -297,22 +304,21 @@
 }
 
 /* Make gutters not affect the content flow for unstacked tabs */
-.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width:not(.full-width) .cm-contentContainer,
-body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width .cm-contentContainer {
-    display: grid !important;
-}
-.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width:not(.full-width) :is(.cm-gutters,.cm-content),
-body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width :is(.cm-gutters,.cm-content) {
-    grid-area: 1 / -1;
-}
-.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width:not(.full-width) .cm-content,
-body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width .cm-content {
-    width: unset !important;
-}
-.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width:not(.full-width) .cm-gutters,
-body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width .cm-gutters {
-    justify-self: left;
-    translate: -100% 0;
+.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width:not(.full-width),
+body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width {
+    .cm-contentContainer {
+        display: grid !important;
+    }
+    :is(.cm-gutters,.cm-content) {
+        grid-area: 1 / -1;
+    }
+    .cm-content {
+        width: unset !important;
+    }
+    .cm-gutters {
+        justify-self: left;
+        translate: -100% 0;
+    }
 }
 
 /* Smaller margins for stacked tabs */
@@ -347,6 +353,11 @@ div ul.has-list-bullet ul.has-list-bullet .collapse-indicator {
     box-shadow: 0 4px 0 var(--text-highlight-bg);
 }
 
+/* Fix gutter number vertical cutoff */
+:root .cm-lineNumbers .cm-gutterElement {
+    line-height: normal !important;
+}
+
 
 /** Menus **/
 
@@ -358,18 +369,18 @@ button:hover {
 }
 
 /* Modal transitions */
-.modal-container {
-    animation: modal-in var(--anim-duration-superfast) forwards;
+body:not(.disable-menu-animations, .enable-menu-blur) .modal-bg {
+    animation: fade-in var(--anim-duration-superfast) linear;
 }
-.modal,
-.prompt {
-    animation: menu-in var(--anim-duration-superfast) forwards;
+body:not(.disable-menu-animations) :is(.modal, .prompt) {
+    animation: fade-in var(--anim-duration-superfast),
+        slide-in var(--anim-duration-superfast) ease-out;
 }
-@keyframes menu-in {
+@keyframes slide-in {
     0% {translate: 0 4px}
     100% {translate: 0 0}
 }
-@keyframes modal-in {
+@keyframes fade-in {
     0% {opacity: 0}
     100% {opacity: 1}
 }
@@ -573,38 +584,11 @@ pre.language-rust::after { content: "Rust" }
 
 /** Links **/
 
-.cm-s-obsidian span.cm-hmd-internal-link {
-    color: var(--text-link);
-}
-
-/* Wiki links */
-a.internal-link {
-    color: var(--text-link);
-}
-.cm-s-obsidian span.cm-hmd-internal-link:hover,
-a.internal-link:hover {
-    color: var(--text-link-hover)
-}
-
-/* Markdown links */
-a.external-link {
-    color: var(--text-link-external);
-}
-.markdown-source-view.mod-cm6 .cm-link .cm-underline:hover,
-.markdown-source-view.mod-cm6 .cm-url .cm-underline:hover,
-a.external-link:hover {
-    color: var(--text-link-external-hover);
-}
-
 /* Unresolved links */
-:root:root a.is-unresolved,
-.markdown-source-view.mod-cm6 span.is-unresolved > span.cm-underline {
-    --link-unresolved-decoration-style: dashed;
-    text-decoration-color: var(--bg-red);
-}
 :root:root a.is-unresolved:hover,
-.markdown-source-view.mod-cm6 span.is-unresolved > span.cm-underline:hover {
-    text-decoration-color: var(--fg-red);
+.markdown-source-view.mod-cm6 .is-unresolved .cm-underline:hover {
+    text-decoration-color: var(--link-unresolved-decoration-color-hover);
+    color: var(--link-unresolved-color-hover);
 }
 .cm-s-obsidian span.cm-hmd-internal-link:hover {
     text-decoration: none;
@@ -701,6 +685,14 @@ input.task-list-item-checkbox:checked::after {
     border-left: var(--blockquote-border-thickness) solid var(--blockquote-border-color);
     color: transparent;
     left: -2px;
+}
+
+
+/** Embeds **/
+
+.cm-embed-block {
+    box-shadow: 0 4px 14px -2px hsla(0,0%,0%,0%);
+    transition: box-shadow var(--anim-duration-fast) ease-out;
 }
 
 /* Reduce embed edit button opacity */
@@ -954,6 +946,29 @@ settings:
     title: Disable stacked tabs floating line numbers
     description: Disables custom line number floating in the stacked tab mode. This makes the line numbers shift over the content in stacked tabs. Use this if your panes are too thin to show them.
     type: class-toggle
+-
+    id: menu-blur-settings
+    title: Menu modals
+    type: heading
+    level: 2
+    collapsed: true
+-
+    id: disable-menu-animations
+    title: Disable menu animations
+    description: Disables the floating-up animation of modal menus (e.g. settings, command palette).
+    type: class-toggle
+-
+    id: enable-menu-blur
+    title: Enable menu blur
+    description: Blur the content behind modal menus (e.g. settings, command palette).
+    type: class-toggle
+-
+    id: menu-blur-radius
+    title: Menu blur radius
+    description: The amount to blur in pixels.
+    type: variable-number
+    default: 5
+    format: px
 -
     id: element-settings
     title: Elements
@@ -1213,6 +1228,12 @@ settings:
 body.highlighted-folders .nav-folder:not(.is-collapsed, .mod-root) {
     border-radius: var(--radius-s);
     background-color: rgba(var(--mono-rgb-100), 0.05);
+}
+
+/* Menu blur */
+body:not(.is-translucent).enable-menu-blur .modal-bg {
+    backdrop-filter: blur(var(--menu-blur-radius, 5px));
+    opacity: 1 !important;
 }
 
 /** Element Settings **/
@@ -1843,11 +1864,6 @@ hr.page-break::before {
         visibility: hidden;
         page-break-after: always;
     }
-}
-
-/* Fix gutter number vertical cutoff */
-.ͼ1 .cm-lineNumbers .cm-gutterElement {
-    line-height: normal !important;
 }
 
 /* Fix weird ol bug */
