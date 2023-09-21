@@ -13,5 +13,6 @@
 - [OSI 7 Layer vs TCP-IP 4 Layer](./OSI%207%20Layer%20vs%20TCP-IP%204%20Layer.md)
 - [URI & URL](./URI%20&%20URL.md)
 - [XML, JSON, YAML, AJAX](./XML,%20JSON,%20YAML,%20AJAX.md)
+- [zsh 설정 관련](./zsh%20%EC%84%A4%EC%A0%95%20%EA%B4%80%EB%A0%A8.md)
 
 %% End Waypoint %%

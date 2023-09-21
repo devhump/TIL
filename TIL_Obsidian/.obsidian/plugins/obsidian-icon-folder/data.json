@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiDjango",
+      "🐧",
       "SiPythonWhite",
       "FabJs",
-      "SiHtml5",
-      "SiGithub",
-      "SiDjango"
+      "SiHtml5"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -30,22 +30,9 @@
     "iconName": "🧑‍🏫",
     "inheritanceIcon": "👨‍🏫"
   },
-  "Django": {
-    "iconName": "SiDjango",
-    "inheritanceIcon": "SiDjango"
-  },
-  "git_github": {
-    "iconName": "SiGithub",
-    "inheritanceIcon": "SiGithub"
-  },
-  "HTML_CSS": "SiHtml5",
   "IT_SC_Basic": {
     "iconName": "🖥",
     "inheritanceIcon": "🖥"
-  },
-  "JS": {
-    "iconName": "FabJs",
-    "inheritanceIcon": "FabJs"
   },
   "KDT": {
     "iconName": "🧑‍🎓",
@@ -55,16 +42,32 @@
     "iconName": "🦊",
     "inheritanceIcon": "🦊"
   },
-  "Python": {
-    "iconName": "SiPythonWhite",
-    "inheritanceIcon": "SiPythonWhite"
-  },
   "readme.md": "🌍",
   "devhump's TIL Index (data view).md": "📌",
   "TIL Waypoint.md": "🔥",
   "z_others": "📥",
   "Linux": {
-    "iconName": "SiLinux",
-    "inheritanceIcon": "SiLinux"
+    "iconName": "🐧",
+    "inheritanceIcon": "🐧"
+  },
+  "git_github": {
+    "iconName": "SiGithub",
+    "inheritanceIcon": "SiGithub"
+  },
+  "Django": {
+    "iconName": "SiDjango",
+    "inheritanceIcon": "SiDjango"
+  },
+  "HTML_CSS": {
+    "iconName": "SiHtml5",
+    "inheritanceIcon": "SiHtml5"
+  },
+  "JS": {
+    "iconName": "FabJs",
+    "inheritanceIcon": "FabJs"
+  },
+  "Python": {
+    "iconName": "SiPythonWhite",
+    "inheritanceIcon": "SiPythonWhite"
   }
 }

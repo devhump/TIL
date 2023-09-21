@@ -125,6 +125,19 @@ cd ../**<TAB> => 부모폴더 기준으로 fuzzy 실행하기
 - JSON을 편리하게 출력
 - https://github.com/muesli/duf
 
+### fd (최신식 find)
+https://github.com/sharkdp/fd#installation
+
+![](assets/Linux%20최신%20명령어-1.png)
+
+```shell
+export PATH=$PATH:/home/ramy/.local/bin
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+.bashrc
+PATH=$PATH:/home/ramy/.local/bin
+
 ### nnn (최신 mv/cp/mkdir)
 - 터미널 파일 매니저 (터미널에서 쓰는 탐색기라고 보면 된다)
 - 보통 mv, cp, mkdir 등등 명령어를 개별로 써야하는데 nnn 속에서 단축키로 여러 작업 가능

@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "ubuntu",
-      "path": "Linux/Home-server/ubuntu.md"
+      "basename": "zsh 설정 관련",
+      "path": "IT_SC_Basic/zsh 설정 관련.md"
+    },
+    {
+      "basename": "Linux 최신 명령어",
+      "path": "Linux/Linux 최신 명령어.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
-      "basename": "vim 설정",
-      "path": "Linux/Home-server/vim 설정.md"
+      "basename": "ubuntu",
+      "path": "Linux/Home-server/ubuntu.md"
     },
     {
-      "basename": "Linux 최신 명령어",
-      "path": "Linux/Linux 최신 명령어.md"
+      "basename": "vim 설정",
+      "path": "Linux/Home-server/vim 설정.md"
     },
     {
       "basename": "Ubuntu server CLI Command",
@@ -23,10 +31,6 @@
     {
       "basename": "Linux note - 01. intro",
       "path": "Linux/Linux note/Linux note - 01. intro.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "Linux/Linux.md"
     },
     {
       "basename": "Linux note",
@@ -115,10 +119,6 @@
     {
       "basename": "Linux note - 06. Linux의 태스크 처리",
       "path": "Linux/Linux note/Linux note - 06. Linux의 태스크 처리.md"
-    },
-    {
-      "basename": "Linux note - 05. 권한 관련",
-      "path": "Linux/Linux note/Linux note - 05. 권한 관련.md"
     }
   ],
   "omittedPaths": [],
