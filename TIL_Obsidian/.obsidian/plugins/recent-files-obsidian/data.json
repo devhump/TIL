@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "JS 입문 3",
+      "path": "JS/JS 입문 3.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "JS 기본3",
+      "path": "JS/JS 기본3.md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "z_others/Docker.md"
+    },
+    {
+      "basename": "WSL",
+      "path": "Linux/WSL.md"
+    },
+    {
+      "basename": "zsh 설정 관련",
+      "path": "IT_SC_Basic/zsh 설정 관련.md"
+    },
+    {
       "basename": "Git basic - git revert, reset, restore",
       "path": "git_github/Git basic - git revert, reset, restore.md"
     },
@@ -11,14 +39,6 @@
     {
       "basename": "vim 설정",
       "path": "Linux/Home-server/vim 설정.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
-    },
-    {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
@@ -99,26 +119,6 @@
     {
       "basename": "개발 관련 IT 용어 정리",
       "path": "IT_SC_Basic/assets/개발 관련 IT 용어 정리.png"
-    },
-    {
-      "basename": "(regex)-3",
-      "path": "IT_SC_Basic/assets/(regex)-3.png"
-    },
-    {
-      "basename": "(regex)-2",
-      "path": "IT_SC_Basic/assets/(regex)-2.png"
-    },
-    {
-      "basename": "(regex)-1",
-      "path": "IT_SC_Basic/assets/(regex)-1.png"
-    },
-    {
-      "basename": "(regex)",
-      "path": "IT_SC_Basic/assets/(regex).png"
-    },
-    {
-      "basename": "Linux note - 02. 기본 명령어",
-      "path": "Linux/Linux note/Linux note - 02. 기본 명령어.md"
     }
   ],
   "omittedPaths": [],

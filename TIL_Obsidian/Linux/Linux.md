@@ -22,6 +22,7 @@
 	- [Linux note - 10. 한국어 환경](./Linux%20note/Linux%20note%20-%2010.%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%ED%99%98%EA%B2%BD.md)
 - [Linux note](./Linux%20note.md)
 - [Ubuntu server CLI Command](./Ubuntu%20server%20CLI%20Command.md)
+- [WSL](./WSL.md)
 
 %% End Waypoint %%
 

@@ -1535,3 +1535,91 @@ console.log(꺼낸거);
     
   </script> 
 ```
+
+
+### 장바구니 기능과 localStorage 숙제
+
+#### 숙제1. 구매버튼누르면 상품명을 localStorage에 저장
+
+```js
+products.forEach(function(a, i){
+  (생략)
+  <h5>${products[i].title}</h5>
+  <p>가격 : ${products[i].price}</p>
+  <button class="buy">구매</button>
+});
+
+$('.buy').click(function(){
+  var title = $(e.target).siblings('h5').text();
+  console.log(title)
+});
+```
+- 카드레이아웃 생성하는 코드에 `<button class="buy">구매</button>`  추가
+- 구매버튼에 이벤트리스너 → 누르면 일단 위에 있는 가격도 출력
+- jQuery함수인 `.siblings()` 는 내 형제요소를 찾아줍니다. 
+	- (형제요소는 나랑 나란히 배치된 html 태그들)
+- 쌩자바스크립트는 `e.target.previousElementSibling.previousElementSibling`
+
+```js
+
+$('.buy').click(function(){
+  var title = $(e.target).siblings('h5').text();
+  if (localStorage.getItem('cart') != null ){ 
+  //비어있지 않으면 == 이미 구매한 항목이 있으면
+    var 꺼낸거 = JSON.parse(localStorage.cart);
+    꺼낸거.push(title);
+    localStorage.setItem('cart', JSON.stringify(꺼낸거));
+  } else {
+    localStorage.setItem('cart', JSON.stringify([title]))
+  }
+});
+```
+
+```ad-todo
+(응용)
+1. 같은 상품은 중복으로 추가되지 않게하고 싶으면? 
+상품을 추가하기 전에 상품명이 이미 localStorage에 있는지 검사하면 되겠군요
+
+2. 아니면 같은 상품 구매 누르면 상품 갯수가 올라가게?
+상품명을 localStorage에 저장시 갯수도 저장하면 됩니다.
+
+[ '상품명a 2개', '상품명b 4개' ... ] 이렇게 저장해도 되겠지만 여러 정보를 한 곳에 넣고 싶으면 array/object 쓰면 됩니다.
+
+[ {title : '상품명a', num : 2}, {title : '상품명b', num : 4}  ... ] 이렇게 저장해놓으면 편리할듯요
+```
+
+```js
+// 응용 1
+    let cartExist = localStorage.getItem('cart')
+    
+    //localstorage에 저장
+    $('.buy').click(function(e){
+      
+      let title = e.target.closest('div').querySelector('h5').innerHTML
+      
+      
+      if (cartExist){
+        let cart = JSON.parse(localStorage.getItem('cart'));
+          
+        if (!cart.includes(title)){
+          
+            cart.push(title);
+
+            let newCart = JSON.stringify(cart);
+            localStorage.setItem('cart', newCart);
+        }
+
+        
+      } else {
+        
+      
+        let cart = [];
+        
+        cart.push(title);
+        let newCart = JSON.stringify(cart);
+        localStorage.setItem('cart', newCart);
+      }
+      
+      
+    });
+```
