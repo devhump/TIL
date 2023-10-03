@@ -236,6 +236,7 @@ list from #regex
 
 
 ```js
+// 이메일 주소 확인하는 정규식
 [a-zA-Z0-9._+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9.]+
 ```
 
@@ -265,7 +266,7 @@ list from #regex
 1. 시작화면 만들기
 2. 최종화면 만들기
 3. 원할 때 최종화면으로 변하게 JS
-4. transition : all 1s; 추가
+4. `transition : all 1s;` 추가
 
 #### 1. 시작화면 만들기
 ```html
@@ -488,7 +489,7 @@ console.log( (1.1 + 0.3).toFixed(1));
 parseFloat('123')
 parseInt('123') 
 ```
-- 👉 각각 문자화된 실수, 정수를 숫자 실수, 정수로 바꿔준다
+- 👉 각각 문자화된 실수, 정수를 → 숫자 실수, 정수로 바꿔준다
 
 ```ad-todo
 - 오늘의 숙제 : 
@@ -580,7 +581,7 @@ window.addEventListener('scroll', function(){
 });
 ```
 - 👉 여기서 `window`는 그냥 전체 페이지를 의미합니다.
-	- 실은 document도 전체 페이지입니다. window가 약간 더 큰 개념인데 scroll 이벤트리스너는 관습적으로 window에 붙임
+	- 실은 document도 전체 페이지입니다. window가 약간 더 큰 개념인데 **scroll 이벤트리스너는 관습적으로 window에 붙임**
 
 ##### 스크롤 관련 유용한 기능들
 ```js
@@ -597,13 +598,13 @@ window.addEventListener('scroll', function(){
 window.scrollTo(0, 100)
 ```
 - `window.scrollTo(x, y)` 실행하면 강제로 스크롤바를 움직일 수 있습니다.
-- 👉 위 코드는 위에서부터 100px 위치로 스크롤해줍니다.
+- 👉 위 코드는 **창 맨위에서부터** 100px 위치로 스크롤해줍니다.
 
 ```js
 window.scrollBy(0, 100)
 ```
 - `window.scrollBy(x, y)` 실행하면 현재 위치에서부터 스크롤해줍니다.
-- 👉위 코드는 현재 위치에서부터 +100px 만큼 스크롤해줍니다.
+- 👉위 코드는 **현재 위치에서부터** +100px 만큼 스크롤해줍니다.
 
 ```ad-tip
 - 근데 원래 `.scrollTo` 실행하면 스크롤 위치가 순간이동해야되는데 bootstrap을 설치했을 경우 이상하게 천천히 이동할 수 있습니다.
@@ -664,7 +665,8 @@ $('.lorem').on('scroll', function(){
 #### `scrollTop` 으로 구한 높이 != div 실제 높이
 ![](assets/JS%20입문%202.png)
 
-- 👉왜냐면 스크롤바 내린 양은 진짜 스크롤바 내린 양일 뿐이라 그렇습니다.<br>거기에 박스가 보이는 높이(`.clientHeight`)는 포함안함
+- 👉왜냐면 스크롤바 내린 양은 진짜 스크롤바 내린 양일 뿐이라 그렇습니다.
+	- 거기에 박스가 보이는 높이(`.clientHeight`)는 포함 안함
 - **div 스크롤바 내린 양 + div가 화면에 보이는 높이 == div 실제높이일 경우 alert 띄워주세요~**
 
 ```ad-tip
@@ -775,7 +777,7 @@ document.querySelector('html').scrollHeight; // 현재 페이지 실제 높이
 document.querySelector('html').clientHeight; //페이지 보이는 부분 높이
 document.querySelector('html').scrollTop; // 현재 페이지 스크롤양, window.scrollTop; 과 동일
 ```
-- 👉 html 전체를 확인해야 하기 때문에, `<body>` 태그 끝나기 전에 넣어주는 게 좋다. 
+- 👉 html 문서 전체 구조(길이)를 확인해야 하기 때문에, `<body>` 태그 끝나기 전에 넣어주는 게 좋다. 
 - `document.querySelector('html').scrollTop;` 과 `window.scrollTop;`은 동일
 
 ```ad-tip
@@ -892,11 +894,11 @@ document.querySelector('html').scrollTop; // 현재 페이지 스크롤양, wind
 #### 첫 버튼부터 기능개발해보기
 - ***개발할 내용이 복잡할 경우, 잘게 나눠서 하나씩 해결하는 습관을 기르자!***
 
-- 버튼0 누르면
-	- 버튼0,1,2에 붙어있던 orange 클래스명 전부 제거하라고 코드 3줄 짜기
-	- 버튼0에 orange 클래스명 부착
-	- 박스0,1,2에 붙어있던 show 클래스명 전부 제거하라고 코드 3줄 짜기
-- 박스0에 show 클래스명 부착
+1. 버튼0 누르면
+2. 버튼0,1,2에 붙어있던 orange 클래스명 전부 제거하라고 코드 3줄 짜기
+3. 버튼0에 orange 클래스명 부착
+4. 박스0,1,2에 붙어있던 show 클래스명 전부 제거하라고 코드 3줄 짜기
+5. 박스0에 show 클래스명 부착
 
 - Q. 왜 버튼0,1,2에 붙어있던 orange 클래스명 전부 제거하라고 코드 3줄이나 짬?
 	- 👉 A. 무슨 버튼에 orange가 들어있을지 모르니까 <br>그냥 귀찮아서 3개 버튼에 있는거 전부 제거하라고 코드짜면 간단하니까요 
@@ -1156,7 +1158,7 @@ document.querySelector('.black-bg').addEventListener('click', function(e){
   console.log(e.target);
   e.currentTarget; // 지금 이벤트리스너가 달린 곳 알려줌 (참고로 this라고 써도 똑같음)
   e.preventDefault(); // 이벤트 기본동작 막아줌 (form의 submit 제한 )
-  e. stopPropagation(); // 내 상위요소로의 이벤트 버블링 막아줌
+  e.stopPropagation(); // 내 상위요소로의 이벤트 버블링 막아줌
 });
 ```
 - 👉 function에 파라미터로 `e`를 추가했다. (관습적으로 `e` 사용)
