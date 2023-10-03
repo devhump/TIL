@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "jQuery",
-      "path": "JS/jQuery.md"
-    },
-    {
       "basename": "JS 입문 3 (코딩애플)",
       "path": "JS/JS 입문 3 (코딩애플).md"
+    },
+    {
+      "basename": "jQuery",
+      "path": "JS/jQuery.md"
     },
     {
       "basename": "JS 입문 2 (코딩애플)",
@@ -115,10 +115,6 @@
     {
       "basename": "Python 유용한 문법 정리",
       "path": "Python/Python 유용한 문법 정리.md"
-    },
-    {
-      "basename": "HTML & CSS",
-      "path": "HTML_CSS/HTML & CSS.md"
     }
   ],
   "omittedPaths": [],

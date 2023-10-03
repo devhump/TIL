@@ -1627,312 +1627,309 @@ $('.buy').click(function(){
 ```
 
 ### position : sticky 활용하기
-
-#### position : sticky
+#### position : sticky 
 (Edge 이상에서 사용가능)
-- 스크롤이 되었을 때 화면에 고정되는 요소를 만들고 싶을 때 사용할 수 있는 CSS 속성입니다.    
-- `position : fixed` 는 항상 화면에 고정이 되는 요소를 만들 때 사용한다고 배웠었는데 이거랑 뭔 차이가 있냐면, `position : sticky` 는 스크롤이 되어서 **이 요소가 화면에 나오면** 고정시킨다는 특성이 있습니다.
+
+- 스크롤이 되었을 때 화면에 고정되는 요소를 만들고 싶을 때 사용할 수 있는 CSS 속성입니다.
+- `position : fixed` 는 항상 화면에 고정이 되는 요소를 만들 때 사용한다고 배웠었는데 이거랑 뭔 차이가 있냐면, <br>`position : sticky` 는 스크롤이 되어서 **이 요소가 화면에 나오면** 고정시킨다는 특성이 있습니다.
+
 - 한번 위의 예제를 만들어보도록 합시다.
 
 ```html
+<body style="background : grey; height : 3000px">
 
-<body style="background : grey; height : 3000px">  
-​  
-<div class="grey">  
-  <div class="image">  
-    <img src="appletv.jpg" width="100%">  
-  </div>  
-​  
-  <div style="clear : both"></div>  
-  <div class="text">Meet the first Triple Camera System</div>  
-      
-</div>  
-​  
+<div class="grey">
+  <div class="image">
+    <img src="appletv.jpg" width="100%">
+  </div>
+
+  <div style="clear : both"></div>
+  <div class="text">Meet the first Triple Camera System</div>
+    
+</div>
+
 </body>
 ```
 
 ```css
-.grey {  
-  background: lightgrey;  
-  height: 2000px;  
-  margin-top: 500px;  
-}  
-.text {  
-  float: left;  
-  width : 300px;  
-}  
-.image {  
-  float: right;  
-  width : 400px;  
-  position: sticky;  
-  top: 100px;  
+.grey {
+  background: lightgrey;
+  height: 2000px;
+  margin-top: 500px;
+}
+.text {
+  float: left;
+  width : 300px;
+}
+.image {
+  float: right;
+  width : 400px;
+  position: sticky;
+  top: 100px;
 }
 ```
 
+![](assets/JS%20입문%203%20(코딩애플).png)
+
 - 이렇게 작성하면 검고 긴 화면에 텍스트와 이미지가 하나씩 보입니다.
 - 이미지에 position : sticky를 주시면
-    1. 스크롤이 되어서 이미지가 보이는 순간
-    2. viewport의 맨 위에서부터 100px 위치에서 고정이 됩니다.
-    3. 그리고 부모 박스를 넘어서 스크롤 되면 이미지도 같이 사라집니다.
+	1. 스크롤이 되어서 이미지가 보이는 순간
+	2. viewport의 맨 위에서부터 100px 위치에서 고정이 됩니다.
+	3. 그리고 부모 박스를 넘어서 스크롤 되면 이미지도 같이 사라집니다.
 
 ```ad-attention
-(주의점) position : sticky는  
-1. 스크롤을 할 만한 부모 박스가 있어야하고  
-2. top 등 좌표속성과 함께 써야 제대로 보입니다.   
+(주의점) position : sticky는
+1. 스크롤을 할 만한 부모 박스가 있어야하고
+2. top 등 좌표속성과 함께 써야 제대로 보입니다. 
 아무튼 응용하면 남들과는 다른 레이아웃을 만들 수 있습니다. 
 ```
 
-### 캐러셀에 스와이프 기능 만들기
 
+
+### 캐러셀에 스와이프 기능 만들기
 - 오늘은 예전에 만들었던 캐러셀 UI를 소환해서 여기에 터치 & 스와이프 기능을 만들어봅시다.
 
 ```html
-
-<div style="overflow: hidden">  
-    <div class="slide-container">  
-      <div class="slide-box">  
-        <img src="car1.png">  
-      </div>  
-      <div class="slide-box">  
-        <img src="car2.png">  
-      </div>  
-      <div class="slide-box">  
-        <img src="car3.png">  
-      </div>  
-    </div>  
+<div style="overflow: hidden">
+    <div class="slide-container">
+      <div class="slide-box">
+        <img src="car1.png">
+      </div>
+      <div class="slide-box">
+        <img src="car2.png">
+      </div>
+      <div class="slide-box">
+        <img src="car3.png">
+      </div>
+    </div>
 </div> 
 ```
 
-코딩애플
+![](assets/JS%20입문%203%20(코딩애플)-1.png)[^코딩애플]
+- 폭이 300vw인 큰 박스 안에 작은 이미지 3개가 이렇게 있는 레이아웃이었는데, 버튼을 누르면 박스 전체를 -100vw 만큼 움직이게 만들어서 캐러셀을 만들었습니다.
 
-- 폭이 300vw인 큰 박스 안에 작은 이미지 3개가 이렇게 있는 레이아웃이었는데, 버튼을 누르면 박스 전체를 -100vw 만큼 움직이게 만들어서 캐러셀을 만들었습니다.    
 - 터치되는 캐러셀같은거 조작해보면 대충 이런 기능이 들어있습니다.
-
 - **기능1.** 드래그한 거리만큼 사진도 왼쪽으로 움직여야함
 - **기능2.** 마우스 떼었을 때 일정거리 이상 이동했으면 사진2 보여줌, 아니면 다시 사진1 보여줌
 
-- 기능1 부터 만들어봅시다.    
-    - 👉 근데 이거 만들려면 알아야할 이벤트가 3개 있습니다.
-        
+- 기능1 부터 만들어봅시다. 
+	- 👉 근데 이거 만들려면 알아야할 이벤트가 3개 있습니다.
 
 #### mouse 이벤트 3개
-
 - 마우스로 어떤 html 요소를 조작할 때 발동하는 이벤트가 있습니다.
-    
 
-|이벤트|설명|
-|---|---|
-|mousedown|어떤 요소에 마우스버튼 눌렀을 때|
-|mouseup|어떤 요소에 마우스버튼 뗐을 때|
-|mousemove|어떤 요소위에서 마우스 이동할 때|
+| 이벤트    | 설명                             |
+| --------- | -------------------------------- |
+| mousedown | 어떤 요소에 마우스버튼 눌렀을 때 |
+| mouseup   | 어떤 요소에 마우스버튼 뗐을 때   |
+| mousemove | 어떤 요소위에서 마우스 이동할 때 |
 
 ```html
+<div>캐러셀있는곳</div>
 
-<div>캐러셀있는곳</div>  
-​  
-<script>  
-  $('.slide-box').eq(0).on('mousemove', function(){  
-    console.log('안녕')  
-  })  
+<script>
+  $('.slide-box').eq(0).on('mousemove', function(){
+    console.log('안녕')
+  })
 </script>
 ```
 - 그래서 예를 들어 이렇게 코드짜면 `.slide-box` 위에 마우스 움직일 때 마다 '안녕'이 출력됩니다.
-    
+
 ```html
-<div>캐러셀있는곳</div>  
-​  
-<script>  
-$('slide-box').eq(0).on('mousedown', function(e){  
-    console.log(e.clientX) // ← 현재 마우스 좌표 출력  
-})  
+<div>캐러셀있는곳</div>
+
+<script>
+$('slide-box').eq(0).on('mousedown', function(e){
+	console.log(e.clientX) // ← 현재 마우스 좌표 출력
+})
 </script>
 ```
-- 이게 더 유용한데 mouse어쩌구 이벤트리스너안에선 `e.clientX`, `e.clientY`를 출력해볼 수 있는데 **현재 마우스 좌표를 알려줍니다**.
-    - 👉 이거 쓰면 유저가 얼마나 사진을 드래그 했는지 그런 것도 알 수 있을듯
-        
+- 이게 더 유용한데 mouse어쩌구 이벤트리스너안에선 `e.clientX`,  `e.clientY`를 출력해볼 수 있는데 **현재 마우스 좌표를 알려줍니다**. 
+	- 👉 이거 쓰면 유저가 얼마나 사진을 드래그 했는지 그런 것도 알 수 있을듯 
 
 #### 기능1. 사진1을 왼쪽으로 드래그한 거리만큼 사진1도 왼쪽으로 움직여야함
+- 예를 들어 사진1을 클릭하고 왼쪽으로 50px 잡아끌었다면 *사진1도* 왼쪽으로 50px 움직여야합니다.
+	- 👉 근데 사진1만 움직이는거말고 사진3개 전부 담긴 큰 박스 움직이는게 좋을듯
 
-- 예를 들어 사진1을 클릭하고 왼쪽으로 50px 잡아끌었다면 _사진1도_ 왼쪽으로 50px 움직여야합니다.
-    
-    - 👉 근데 사진1만 움직이는거말고 사진3개 전부 담긴 큰 박스 움직이는게 좋을듯
-        
-
+```ad-tip
 - 이동거리 = **마우스 누를 때의 X좌표** - **마우스 움직일 때의 X좌표**
-
 ```
-<div>캐러셀있는곳</div>  
-​  
-<script>  
-  $('.slide-box').eq(0).on('mousedown', function(e){  
-    e.clientX // ← 이거랑  
-  });  
-​  
-  $('.slide-box').eq(0).on('mousemove', function(e){  
-    e.clientX // ← 이거를 빼야할듯  
-  });  
+
+```html
+<div>캐러셀있는곳</div>
+
+<script>
+  $('.slide-box').eq(0).on('mousedown', function(e){
+    e.clientX // ← 이거랑
+  });
+
+  $('.slide-box').eq(0).on('mousemove', function(e){
+    e.clientX // ← 이거를 빼야할듯
+  });
 </script>
 ```
 
-- 이동거리를 구하기 위해 두 개의 다른 함수 내에서 동일한 변수를 사용해야함  
-    - 👉 함수 바깥에 선언된 함수 ⇒ **전역변수**
-
+```ad-attention
+- 이동거리를 구하기 위해 두 개의 다른 함수 내에서 동일한 변수를 사용해야함
+	- 👉 함수 바깥에 선언된 함수 ⇒ **전역변수**
 ```
-<script>  
-  var 시작좌표 = 0;  
-​  
-  $('.slide-box').eq(0).on('mousedown', function(e){  
-    시작좌표 = e.clientX;  
-  });  
-​  
-  $('.slide-box').eq(0).on('mousemove', function(e){  
-    console.log(e.clientX - 시작좌표)  
-  });  
+
+```html
+<script>
+  var 시작좌표 = 0;
+
+  $('.slide-box').eq(0).on('mousedown', function(e){
+    시작좌표 = e.clientX;
+  });
+
+  $('.slide-box').eq(0).on('mousemove', function(e){
+    console.log(e.clientX - 시작좌표)
+  });
 </script>
 ```
 
 1. 시작좌표라는 변수를 함수들 바깥에 만들어둡니다. (그럼 모든 함수에서 이용가능)
 2. 마우스 클릭시 현재 좌표를 `var 시작좌표`에 저장해줌
 3. mousemove 이벤트발생시 `var 시작좌표`랑 현재좌표인 `e.clientX`를 빼봄
-    - 👉 그걸 출력해보면 현재 드래그 이동거리가 잘 나오는군요
-        
-- 왼쪽으로 드래그하면 -100 이렇게 출력되고 오른쪽으로 드래그하면 100 이런거 출력되는듯
-- 이제 이동거리를 구했으니 "이동거리만큼 저거 박스도 이동해달라"고 코드짜오십시오.
-    
+	- 👉 그걸 출력해보면 현재 드래그 이동거리가 잘 나오는군요
+
+- 왼쪽으로 드래그하면 -100 이렇게 출력되고 오른쪽으로 드래그하면 100 이런거 출력되는듯  
+- 이제 이동거리를 구했으니 "이동거리만큼 저거 박스도 이동해달라"고 코드짜오십시오.  
 
 #### 이동거리만큼 저거 박스도 이동해달라
-
 ```html
-<script>  
-  var 시작좌표 = 0;  
-​  
-  $('.slide-box').eq(0).on('mousedown', function(e){  
-    시작좌표 = e.clientX;  
-  });  
-​  
-  $('.slide-box').eq(0).on('mousemove', function(e){  
-    console.log(e.clientX - 시작좌표)  
-    $('.slide-container').css('transform', `translateX( ${e.clientX - 시작좌표}px )`)  
-  });  
+<script>
+  var 시작좌표 = 0;
+
+  $('.slide-box').eq(0).on('mousedown', function(e){
+    시작좌표 = e.clientX;
+  });
+
+  $('.slide-box').eq(0).on('mousemove', function(e){
+    console.log(e.clientX - 시작좌표)
+    $('.slide-container').css('transform', `translateX( ${e.clientX - 시작좌표}px )`)
+  });
 </script>
 ```
-- 예전에 `translateX`를 조절하면 박스가 왼쪽으로 오른쪽으로 이동했었습니다. 그래서 그거 줬습니다. margin-left 이런거 줘도 되긴 할듯요
+- 예전에 `translateX`를 조절하면 박스가 왼쪽으로 오른쪽으로 이동했었습니다.<br>그래서 그거 줬습니다. margin-left 이런거 줘도 되긴 할듯요 
 - 근데 약간 반응이 느린 이유는 예전에 `.slide-container` 박스에 `transition : all 1s;` 이런걸 추가해서 그런가봅니다.
-    - transition어쩌구 붙어있던 css 코드를 삭제하면 잘됩니다.
+	- transition어쩌구 붙어있던 css 코드를 삭제하면 잘됩니다.
 
 #### 왜 마우스 클릭도 안했는데 박스가 움직임?
-- 오늘도 주인님이 시키는대로 하는 컴퓨터는 전혀 죄가 없습니다. _"클릭하고나서만 박스 이동해달라"_ 고 컴퓨터에게 명령을 주면 됩니다.
+- 오늘도 주인님이 시키는대로 하는 컴퓨터는 전혀 죄가 없습니다.<br>*"클릭하고나서만 박스 이동해달라"* 고 컴퓨터에게 명령을 주면 됩니다. 
 
 ```html
-<script>  
-  var 시작좌표 = 0;  
-​  
-  $('.slide-box').eq(0).on('mousedown', function(e){  
-    시작좌표 = e.clientX;  
-  });  
-​  
-  $('.slide-box').eq(0).on('mousemove', function(e){  
-    if (마우스눌렀냐???) {  
-      $('.slide-container').css('transform', `translateX( ${e.clientX - 시작좌표}px )`)  
-    }  
-  });  
-</script>
-```
-- if문 추가하면 되는거 아닙니까 근데 마우스 눌렀는지 아닌지는 어떻게 판단하죠?
-    - 👉 그건 다행히 `mousedown` 이벤트리스너가 있군요. 그 안에서 판단하면 될 것 같습니다.
-        
-```html
-<script>  
-  var 시작좌표 = 0;  
-​  
-  $('.slide-box').eq(0).on('mousedown', function(e){  
-    시작좌표 = e.clientX;  
-    var 눌렀냐 = true;  
-  });  
-​  
-  $('.slide-box').eq(0).on('mousemove', function(e){  
-    if (눌렀냐 === true) {  
-      $('.slide-container').css('transform', `translateX( ${e.clientX - 시작좌표}px )`)  
-    }  
-  });  
-</script>
-```
+<script>
+  var 시작좌표 = 0;
 
-1. 마우스 누르면 var 눌렀냐 변수를 true로 만들라고 코드짰습니다.    
+  $('.slide-box').eq(0).on('mousedown', function(e){
+    시작좌표 = e.clientX;
+  });
+
+  $('.slide-box').eq(0).on('mousemove', function(e){
+    if (마우스눌렀냐???) {
+      $('.slide-container').css('transform', `translateX( ${e.clientX - 시작좌표}px )`)
+    }
+  });
+</script>
+```
+- if문 추가하면 되는거 아닙니까<br>근데 마우스 눌렀는지 아닌지는 어떻게 판단하죠?
+	- 👉 그건 다행히 `mousedown` 이벤트리스너가 있군요. 그 안에서 판단하면 될 것 같습니다.
+
+
+```html
+<script>
+  var 시작좌표 = 0;
+
+  $('.slide-box').eq(0).on('mousedown', function(e){
+    시작좌표 = e.clientX;
+    var 눌렀냐 = true;
+  });
+
+  $('.slide-box').eq(0).on('mousemove', function(e){
+    if (눌렀냐 === true) {
+      $('.slide-container').css('transform', `translateX( ${e.clientX - 시작좌표}px )`)
+    }
+  });
+</script>
+```
+1. 마우스 누르면 var 눌렀냐 변수를 true로 만들라고 코드짰습니다.
 2. 그리고 if문에선 var 눌렀냐가 true일 때만 박스움직이라고 코드짰습니다.
 - ==문제는 변수 `눌렀냐` 가 함수 내에 선언되어 있음
-    - 👉 **전역변수로 선언하기!**
-        
+	- 👉 **전역변수로 선언하기!**
+
 ```html
-<script>  
-  let 시작좌표 = 0;  
-  let 눌렀냐 = false;  
-​  
-  $('.slide-box').eq(0).on('mousedown', function(e){  
-    시작좌표 = e.clientX;  
-    눌렀냐 = true;  
-  });  
-​  
-  $('.slide-box').eq(0).on('mousemove', function(e){  
-    if (눌렀냐 === true) {  
-      $('.slide-container').css('transform', `translateX( ${e.clientX - 시작좌표}px )`)  
-    }  
-  });  
+<script>
+  let 시작좌표 = 0;
+  let 눌렀냐 = false;
+
+  $('.slide-box').eq(0).on('mousedown', function(e){
+    시작좌표 = e.clientX;
+    눌렀냐 = true;
+  });
+
+  $('.slide-box').eq(0).on('mousemove', function(e){
+    if (눌렀냐 === true) {
+      $('.slide-container').css('transform', `translateX( ${e.clientX - 시작좌표}px )`)
+    }
+  });
 </script>
 ```
 
 #### 왜 마우스 뗐는데도 아직 박스가 움직임?
+- 컴퓨터에게 내 뜻대로 작동하라고 기대만 하면 안되고 여러분이 하나하나 명령내려주셔야합니다. *"마우스 떼었을 때는 박스 움직이지 말라"* 고 컴퓨터에게 명령을 내립시다. 
+- 알아서 해봅시다. 
 
-- 컴퓨터에게 내 뜻대로 작동하라고 기대만 하면 안되고 여러분이 하나하나 명령내려주셔야합니다. _"마우스 떼었을 때는 박스 움직이지 말라"_ 고 컴퓨터에게 명령을 내립시다.
-- 알아서 해봅시다.
-    
 ```html
-<script>  
-  let 시작좌표 = 0;  
-  let 눌렀냐 = false;  
-​  
-  $('.slide-box').eq(0).on('mousedown', function(e){  
-    시작좌표 = e.clientX;  
-    눌렀냐 = true;  
-  });  
-​  
-  $('.slide-box').eq(0).on('mousemove', function(e){  
-    if (눌렀냐 === true) {  
-      $('.slide-container').css('transform', `translateX( ${e.clientX - 시작좌표}px )`)  
-    }  
-  });  
-      
-  $('.slide-box').eq(0).on('mouseup', function(e){  
-    눌렀냐 = false;  
-      
-  });  
+<script>
+  let 시작좌표 = 0;
+  let 눌렀냐 = false;
+
+  $('.slide-box').eq(0).on('mousedown', function(e){
+    시작좌표 = e.clientX;
+    눌렀냐 = true;
+  });
+
+  $('.slide-box').eq(0).on('mousemove', function(e){
+    if (눌렀냐 === true) {
+      $('.slide-container').css('transform', `translateX( ${e.clientX - 시작좌표}px )`)
+    }
+  });
+    
+  $('.slide-box').eq(0).on('mouseup', function(e){
+    눌렀냐 = false;
+    
+  });
 </script>
 ```
 
+
 ```ad-tip
-- 이미지 드래그 안 되게 하는 방법  
-    ```html  
-      <div style="overflow: hidden">  
-        <div class="slide-container">  
-          <div class="slide-box">  
-            <img src="car1.png" draggable="false"> <!-- 드래그 금지 -->  
-          </div>  
-          <div class="slide-box">  
-            <img src="car2.png" />  
-          </div>  
-          <div class="slide-box">  
-            <img src="car3.png" />  
-          </div>  
-        </div>  
-      </div>
+- 이미지 드래그 안 되게 하는 방법
+	```html
+	  <div style="overflow: hidden">
+	    <div class="slide-container">
+	      <div class="slide-box">
+	        <img src="car1.png" draggable="false"> <!-- 드래그 금지 -->
+	      </div>
+	      <div class="slide-box">
+	        <img src="car2.png" />
+	      </div>
+	      <div class="slide-box">
+	        <img src="car3.png" />
+	      </div>
+	    </div>
+	  </div>
 ```
-​  
-​  
-```ad-todo  
-- 오늘의 숙제 :   
-    - 기능2 만들어옵시다.  
-    - 마우스 떼었을 때 일정거리 이상 이동했으면 사진2 보여줌, 아니면 다시 사진1 보여줌
 ```
+
+
+```ad-todo
+- 오늘의 숙제 : 
+	- 기능2 만들어옵시다.
+	- 마우스 떼었을 때 일정거리 이상 이동했으면 사진2 보여줌, 아니면 다시 사진1 보여줌
+```
+
 
 
 ### 캐러셀에 스와이프 기능 만들기 숙제 & 터치이벤트
@@ -2006,7 +2003,7 @@ $('slide-box').eq(0).on('mousedown', function(e){
 
 #### 모바일은 터치 이벤트리스너 달아야함 
 ![](assets/JS%20입문%203%20(코딩애플)-3.png)
-- 사이트를 모바일기기로 테스트하고 싶으면 크롬개발자도구 좌상단 toggle device toolbar 버튼누르면 됩니다. 근데 모바일기기로 테스트해보면 스와이프가 안됩니다. 왜냐면 마우스이벤트리스너를 달아놨기 때문입니다. *모바일은 터치이벤트리스너를 달아줘야 터치에 반응*합니다.
+- 사이트를 모바일기기로 테스트하고 싶으면 크롬개발자도구 좌상단 toggle device toolbar 버튼누르면 됩니다. 근데 모바일기기로 테스트해보면 스와이프가 안됩니다. 왜냐면 마우스이벤트리스너를 달아놨기 때문입니다. *모바일은 터치이벤트리스너를 달아줘야 터치에 반응*합니다.
 
 | 이벤트     | 설명                  |
 | ---------- | --------------------- |
@@ -2032,16 +2029,16 @@ $('slide-box').eq(0).on('mousedown', function(e){
 </script>
 ```
 
-- 기존 코드를 이렇게 바꾸면 됩니다. 그럼 모바일에서도 아까랑 똑같이 동작하는데 주의사항은 _e.clientX를 **e.touches[0].clientX** 이걸로 바꾸면_ 됩니다. 왜냐면 터치는 여러 손가락으로 할 수 있어서 그 중 몇번째 손가락인지 지정해줘야합니다. _touchend 이벤트리스너에선 e.clientX 말고 **e.changedTouches[0].clientX** 쓰면 됩_ 니다. 
+- 기존 코드를 이렇게 바꾸면 됩니다. 그럼 모바일에서도 아까랑 똑같이 동작하는데 주의사항은 _e.clientX를 **e.touches[0].clientX** 이걸로 바꾸면_ 됩니다. 왜냐면 터치는 여러 손가락으로 할 수 있어서 그 중 몇번째 손가락인지 지정해줘야합니다. _touchend 이벤트리스너에선 e.clientX 말고 **e.changedTouches[0].clientX** 쓰면 됩_ 니다. 
 
 - Q. 어 그럼 PC환경에서는 안되는데요?
 	- 👉 그럼 기존걸 touch로 바꾸는게 아니라 touch 이벤트리스너3개를 하단에 추가하면 됩니다.
 
 ```ad-tip
 ##### 아 코드 너무 기네 
--  자바스크립트는 외부 라이브러리 의존도가 언제나 높은데 그중 **Hammer.js** 라이브러리를 사용하면 조금 쉽게 기능 개발이 가능하다.
+-  자바스크립트는 외부 라이브러리 의존도가 언제나 높은데 그중 **Hammer.js** 라이브러리를 사용하면 조금 쉽게 기능 개발이 가능하다.
 	- 브라우저 호환성도 알아서 잡아주고
-	- 이벤트리스너 6개대신 1개만 써도 되고 
+	- 이벤트리스너 6개대신 1개만 써도 되고 
 	- 스와이프, pinch, rotate 등 여러 제스쳐를 감지하는 이벤트리스너 제공해서 편리
 ```
 
@@ -2065,3 +2062,4 @@ $('slide-box').eq(0).on('mousedown', function(e){
 
 응용3. 제 코드만 따라쳤다면 싹 지우고 1주 후에 가물가물할 때 답보지 말고 직접 만들어봅시다.
 ```
+

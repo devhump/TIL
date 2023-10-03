@@ -34,22 +34,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4d49b92477869960",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JS/jQuery.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5110321044922,
-    "collapsed": true
+    "width": 251.5110321044922
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -124,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/jQuery.md"
+                "file": "JS/JS 입문 3 (코딩애플).md"
               }
             }
           },
@@ -153,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/jQuery.md",
+                "file": "JS/JS 입문 3 (코딩애플).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/jQuery.md",
+                "file": "JS/JS 입문 3 (코딩애플).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,11 +201,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "4d49b92477869960",
+  "active": "b0128d848f0ce98b",
   "lastOpenFiles": [
+    "무제 파일.md",
     "JS/JS 입문 3 (코딩애플).md",
-    "JS/assets/JS 입문 3 (코딩애플)-3.png",
     "JS/jQuery.md",
+    "JS/assets/JS 입문 3 (코딩애플)-3.png",
     "JS/JS 입문 2 (코딩애플).md",
     "JS/JS 기본3 (모던JS).md",
     "JS/JS 기본2 (모던JS).md",
@@ -227,7 +214,6 @@
     "JS/JS 입문 1 (코딩애플).md",
     "KDT/Web/10. Event.md",
     "KDT/Web/09. ECMA Script.md",
-    "무제 파일.md",
     "devhump's TIL Index (data view).md",
     "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "z_others/Docker.md",
