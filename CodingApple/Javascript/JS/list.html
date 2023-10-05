@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <!-- Bootstrap.CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link href="main.css" rel="stylesheet" />
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+
+
+    </div>
+  </div>
+
+  <div class="container">
+    <button id='moreBtn' class="btn btn-danger">더 보기</button> 
+  </div>
+
+  <div class="container my-3">
+    <button id='price' class="btn btn-danger">가격순 정렬</button> 
+  </div>
+  
+  <div class="container my-3">
+    <button id='sortByName2' class="btn btn-danger">이름순 정렬</button> 
+  </div>
+  
+  <div class="container my-3">
+    <button id='sortByName' class="btn btn-danger">이름 역순 정렬</button> 
+  </div>
+  
+  <div class="container my-3">
+    <button id='filterByPrice' class="btn btn-danger">6만원 이하 제품</button> 
+  </div>
+  
+  <form id="inputForm" class="container my-3">
+    <input id='filterByInput' placeholder="가격대를 입력하세요"> 
+    <button type='submit'>제출</button>
+  </form>
+  
+  <div class="container my-3">
+    <button id='sortByOrigin' class="btn btn-danger">원래대로</button> 
+  </div>
+  
+  <script>
+    
+    var products = [{
+        id: 0,
+        price: 70000,
+        title: 'Blossom Dress'
+      },
+      {
+        id: 1,
+        price: 50000,
+        title: 'Springfield Shirt'
+      },
+      {
+        id: 2,
+        price: 60000,
+        title: 'Black Monastery'
+      }
+    ];
+    
+    // 원래 순대로 정렬
+    let productsOrigin = products;
+    
+    $('#sortByOrigin').click(function(){
+      
+      $('.row').html('');
+
+      products.sort(function(a, b){
+        return a.id - b.id
+      });
+      
+      makeCards(productsOrigin);
+      
+      moreBtnCounter = 0;
+      
+      $('#moreBtn').css('display','block');
+    })
+    
+    // input 값에 따른 필터링
+    $('#inputForm').on('submit', function(e){
+      e.preventDefault();
+      let filterPrice = $('#filterByInput').val();
+      
+      let productsByPrice = products.filter(function(a){
+        return a.price < filterPrice;
+      });
+      
+      $('.row').html('');
+      
+      makeCards(productsByPrice);
+    });
+    
+    // 이름순 정렬
+    $('#sortByName2').click(function(){
+      products.sort(function(a,b){
+       return a.title > b.title ? 1 : -1; 
+      });
+      
+      $('.row').html('');
+      
+      makeCards(products);
+      
+    });
+    
+    // 가격 제한 필터링
+    $('#filterByPrice').click(function(){
+      let productsByPrice = products.filter(function(a){
+        return a.price < 60000
+      });
+      
+      $('.row').html('');
+      
+      makeCards(productsByPrice);
+    });
+    
+    
+    // 이름 역순 정렬
+    $('#sortByName').click(function(){
+      products.sort(function(a,b){
+       return a.title > b.title ? -1 : 1; 
+      });
+      
+      $('.row').html('');
+      
+      makeCards(products);
+      
+    });
+    
+    
+    // 가격 순 정렬
+    $('#price').click(function(){
+      products.sort(function(a,b){
+        return a.price - b.price;  
+      }); 
+      
+      $('.row').html('');
+      
+      makeCards(products);
+    })
+    
+    
+    // 더 보기 버튼 
+    let moreBtnCounter = 0;
+    
+    $('#moreBtn').click(function(){
+      
+      moreBtnCounter += 1;
+      
+      if (moreBtnCounter == 1){
+        $.get('https://codingapple1.github.io/js/more1.json')
+        .done(function(data){        
+          products = data
+
+          makeCards(data);
+        })
+      } else if (moreBtnCounter == 2){
+        $.get('https://codingapple1.github.io/js/more2.json')
+        .done(function(data){        
+          products = data
+
+          makeCards(data);
+          $('#moreBtn').css('display','none');
+        })
+      }
+    })
+    
+  
+
+    // 상품 card 생성
+    function makeCards(products){
+      for (let i = 0; i < products.length; i++) {
+        document.querySelector('.row').insertAdjacentHTML('beforeend',
+          `<div class="col-sm-4">
+            <img src="https://via.placeholder.com/600" class="w-100">
+            <h5>${products[i].title}</h5>
+            <p>가격 : ${products[i].price}</p>
+            <button class="buy">구매</button>
+          </div>`
+        )
+      }
+    }
+    
+    makeCards(products);
+
+    let cartExist = localStorage.getItem('cart')
+    
+    //localstorage에 저장
+    $('.buy').click(function(e){
+      
+      let title = e.target.closest('div').querySelector('h5').innerHTML
+      
+      
+      if (cartExist){
+        let cart = JSON.parse(localStorage.getItem('cart'));
+          
+        if (!cart.includes(title)){
+          
+            cart.push(title);
+
+            let newCart = JSON.stringify(cart);
+            localStorage.setItem('cart', newCart);
+        }
+
+        
+      } else {
+        
+      
+        let cart = [];
+        
+        cart.push(title);
+        let newCart = JSON.stringify(cart);
+        localStorage.setItem('cart', newCart);
+      }
+      
+      
+    });
+    
+  </script>
+
+  <!-- Bootstrap.JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body></html>

@@ -71,4 +71,4 @@ SORT file.mday ASC
 	- text 편집기 혹은 vs code로 열어서 수정
 
 
-![Hot-key (VS Code)](Hot-key%20(VS%20Code).md)
+![Hot-key (IDE)](Hot-key%20(IDE).md)

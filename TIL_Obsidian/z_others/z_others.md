@@ -7,7 +7,7 @@
 - [Debugging with VS Code+](./Debugging%20with%20VS%20Code+.md)
 - [Docker](./Docker.md)
 - [git bash에서 zsh 사용하기](./git%20bash%EC%97%90%EC%84%9C%20zsh%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
-- [Hot-key (VS Code)](./Hot-key%20(VS%20Code).md)
+- [Hot-key (IDE)](./Hot-key%20(IDE).md)
 - [Hot-key for Mac](./Hot-key%20for%20Mac.md)
 - [Hot-key for windows](./Hot-key%20for%20windows.md)
 - **obsidian**

@@ -10,7 +10,15 @@ SORT file.mday ASC
 ```
 - 👉 [vscode_shortcuts_(mac)-pdf](vscode_shortcuts_(mac).pdf)
 
-### VS Code
+## Brackets
+| 단축키                 | 기능                          |
+| ---------------------- | ----------------------------- |
+| `ctrl` + `alt` + `B`   | brackets-beautify(win, linux) |
+| `ctrl` + `shift` + `L` | brackets-beautify(win)        |
+| `cmd` + `shift` + `L`  | brackets-beautify(mac)        |
+| `ctrl` + `E`           | CSS 규칙 생성                 |
+
+## VS Code
 
 | 단축키                           | 기능                             |
 | -------------------------------- | -------------------------------- |

@@ -195,7 +195,7 @@
 - [Obsidian setting - Community plugin](z_others/obsidian/Obsidian%20setting%20-%20Community%20plugin.md)
 - [Hot-key for windows](z_others/Hot-key%20for%20windows.md)
 - [Hot-key for Mac](z_others/assets/Hot-key%20for%20Mac.png)
-- [Hot-key (VS Code)](z_others/Hot-key%20(VS%20Code).md)
+- [Hot-key (IDE)](z_others/Hot-key%20(IDE).md)
 
 #### Obsidian & markdown
 - [Obsidian setting](z_others/obsidian/Obsidian%20setting.md)

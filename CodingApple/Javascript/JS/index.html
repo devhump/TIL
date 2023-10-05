@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <!-- Bootstrap.CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="main.css" rel="stylesheet" />
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="black-bg" id="modal">
+      <div class="white-bg">
+        <h4>로그인하세요</h4>
+        <form action="success.html">
+          <div class="my-3">
+            <input id="email" type="text" class="form-control" />
+          </div>
+          <div class="my-3">
+            <input id="password" type="password" class="form-control" />
+          </div>
+          <button id="loginBtn" type="submit" class="btn btn-primary">
+            전송
+          </button>
+          <button type="button" class="btn btn-danger" id="close">닫기</button>
+        </form>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-brand">JS Shop</span>
+        <span id="modeChangeBtn" class="ms-auto mx-3 badge bg-dark"
+          >Dark 🔄</span
+        >
+        <button class="navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="scrollProgress"></div>
+    </nav>
+
+    <ul class="list-group">
+      <li class="list-group-item">An item</li>
+      <li class="list-group-item">A second item</li>
+      <li class="list-group-item">A third item</li>
+      <li class="list-group-item">A fourth item</li>
+      <li class="list-group-item">And a fifth one</li>
+    </ul>
+
+    <div style="overflow: hidden">
+      <div class="slide-container">
+        <div class="slide-box">
+          <img src="car1.png" draggable="false"/>
+        </div>
+        <div class="slide-box">
+          <img src="car2.png" draggable="false"/>
+        </div>
+        <div class="slide-box">
+          <img src="car3.png" draggable="false"/>
+        </div>
+      </div>
+    </div>
+
+    <button class="slide-1">1</button>
+    <button class="slide-2">2</button>
+    <button class="slide-3">3</button>
+    <button class="slide-4">prev</button>
+    <button class="slide-5">next</button>
+
+    <div class="lorem" style="width: 200px; height: 100px; overflow-y: scroll">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptas
+      voluptatum minus praesentium fugit debitis at, laborum ipsa itaque placeat
+      sit, excepturi eius. Nostrum perspiciatis, eligendi quae consectetur
+      praesentium exercitationem.
+    </div>
+
+    <button class="modal-btn">모달 버튼</button>
+
+    <div class="alert alert-danger">5초 이내 구매시 사은품 증정!</div>
+
+    <div style="height: 10000px"></div>
+
+    <script>
+      
+            
+      
+      // 캐러셀 드래그 가능 하게 하기
+/////////////////////carousel  1번////////////////////////////////////
+      let 시작좌표 = 0;
+      let 눌렀냐 = false;
+
+      $(".slide-box")
+        .eq(0)
+        .on("mousedown", function (e) {
+          시작좌표 = e.clientX;
+          눌렀냐 = true;
+        });
+    
+      $(".slide-box")
+        .eq(0)
+        .on("mousemove", function (e) {
+          
+        
+          if (눌렀냐 === true && e.client > 0) {
+  
+            $(".slide-container").css(
+              "transform",
+              `translateX( ${e.clientX - 시작좌표}px )`
+            );
+          }
+        });
+
+      $(".slide-box")
+        .eq(0)
+        .on("mouseup", function (e) {
+          눌렀냐 = false;
+
+          let mouseMove = e.clientX - 시작좌표;
+
+          if (mouseMove < -100) {
+            $(".slide-container")
+              .css("transition", "all 0.5s")
+              .css("transform", "translateX(-100vw)");
+            
+          } else {
+            $(".slide-container")
+              .css("transition", "all 0.5s")
+              .css("transform", "translateX(0vw)");
+          }
+        
+          setTimeout(()=>{
+            $('.slide-container').css('transition', 'none')
+          }, 500)
+        });
+/////////////////////carousel  2번////////////////////////////////////
+      let 시작좌표2 = 0;
+      
+      $(".slide-box")
+        .eq(1)
+        .on("mousedown", function (e) {
+          시작좌표2 = e.clientX + 시작좌표;
+          눌렀냐 = true;
+        });
+    
+      $(".slide-box")
+        .eq(1)
+        .on("mousemove", function (e) {
+          if (눌렀냐 === true) {
+            $(".slide-container").css(
+              "transform",
+              `translateX( ${e.clientX - 시작좌표2}px )`
+            );
+          }
+        });
+
+      $(".slide-box")
+        .eq(1)
+        .on("mouseup", function (e) {
+          눌렀냐 = false;
+
+          let mouseMove = e.clientX - 시작좌표2;
+
+          if (mouseMove < -100) {
+            $(".slide-container")
+              .css("transition", "all 0.5s")
+              .css("transform", "translateX(-200vw)");
+            
+          } else {
+            $(".slide-container")
+              .css("transition", "all 0.5s")
+              .css("transform", "translateX(-100vw)");
+          }
+        
+          setTimeout(()=>{
+            $('.slide-container').css('transition', 'none')
+          }, 500)
+        });
+
+/////////////////////carousel  3번////////////////////////////////////
+      let 시작좌표3 = 0;
+      
+      $(".slide-box")
+        .eq(2)
+        .on("mousedown", function (e) {
+          시작좌표3 = e.clientX + 시작좌표2;
+          눌렀냐 = true;
+        });
+    
+      $(".slide-box")
+        .eq(2)
+        .on("mousemove", function (e) {
+          if (눌렀냐 === true) {
+            $(".slide-container").css(
+              "transform",
+              `translateX( ${e.clientX - 시작좌표3}px )`
+            );
+          }
+        });
+
+      $(".slide-box")
+        .eq(2)
+        .on("mouseup", function (e) {
+          눌렀냐 = false;
+
+          let mouseMove = e.clientX - 시작좌표3;
+
+          if (mouseMove < -100) {
+            $(".slide-container")
+              .css("transition", "all 0.5s")
+              .css("transform", "translateX(0vw)");
+            
+          } else {
+            $(".slide-container")
+              .css("transition", "all 0.5s")
+              .css("transform", "translateX(-300vw)");
+          }
+        
+          setTimeout(()=>{
+            $('.slide-container').css('transition', 'none')
+          }, 500)
+        });
+
+///////////////////////////////////////////////////////////////////////////
+      
+      
+      // 모달창 배경화면 클릭시 창 닫기
+      $(".black-bg").on("click", function (e) {
+        if (e.target == document.querySelector(".black-bg")) {
+          $(".black-bg").removeClass("show-modal");
+        }
+      });
+
+      // 스크롤 진행사항 바
+      window.addEventListener("scroll", function () {
+        let scrollHeight = document.querySelector("html").scrollHeight;
+        let scrollTop = document.querySelector("html").scrollTop;
+        let clientHeight = document.querySelector("html").clientHeight;
+
+        let progressBar = ((scrollTop + clientHeight) / scrollHeight) * 100;
+
+        document.querySelector(
+          ".scrollProgress"
+        ).style.width = `${progressBar}%`;
+      });
+
+      // 스크롤 조작 (박스 끝까지 스크롤시 알림띄우기)
+      let flag = true;
+
+      $(".lorem").on("scroll", function () {
+        let scrollMount = document.querySelector(".lorem").scrollTop;
+        let divBoxHeight = document.querySelector(".lorem").clientHeight;
+        let realHeight = document.querySelector(".lorem").scrollHeight;
+
+        if (scrollMount + divBoxHeight + 10 > realHeight) {
+          if (flag) {
+            alert("약관에 동의하십니까?");
+            flag = false;
+          }
+        }
+      });
+
+      // 스크롤 조작 (navbar 로고 폰트 사이즈)
+      window.addEventListener("scroll", function () {
+        let scrollMount = window.scrollY;
+
+        if (scrollMount >= 100) {
+          $(".navbar-brand").css("font-size", "20px");
+        } else {
+          $(".navbar-brand").css("font-size", "30px");
+        }
+      });
+
+      // 캐러셀
+      $(".slide-1").on("click", function () {
+        $(".slide-container").css("transform", "translateX(0vw)");
+      });
+
+      document.querySelector(".slide-2").addEventListener("click", function () {
+        document.querySelector(".slide-container").style.transform =
+          "translateX(-100vw)";
+      });
+
+      $(".slide-3").on("click", function () {
+        $(".slide-container").css("transform", "translateX(-200vw)");
+      });
+
+      document.querySelector(".slide-4").addEventListener("click", function () {
+        let now = document.querySelector(".slide-container").style.transform;
+
+        if (now == "") {
+          document.querySelector(".slide-container").style.transform =
+            "translateX(-200vw)";
+        } else if (now == "translateX(-200vw)") {
+          document.querySelector(".slide-container").style.transform =
+            "translateX(-100vw)";
+        } else if (now == "translateX(-100vw)") {
+          document.querySelector(".slide-container").style.transform =
+            "translateX(0vw)";
+        } else if (now == "translateX(0vw)") {
+          document.querySelector(".slide-container").style.transform =
+            "translateX(-200vw)";
+        }
+      });
+
+      let picture1 = "translateX(0vw)";
+      let picture2 = "translateX(-100vw)";
+      let picture3 = "translateX(-200vw)";
+
+      document.querySelector(".slide-5").addEventListener("click", function () {
+        let now = document.querySelector(".slide-container").style.transform;
+
+        if (now == "") {
+          document.querySelector(".slide-container").style.transform = picture2;
+        } else if (now == picture2) {
+          document.querySelector(".slide-container").style.transform = picture3;
+        } else if (now == picture3) {
+          document.querySelector(".slide-container").style.transform = picture1;
+        } else if (now == picture1) {
+          document.querySelector(".slide-container").style.transform = picture2;
+        }
+      });
+
+      // <div> 타이머 & 없애기
+      timeCount = 5;
+
+      setInterval(function () {
+        if (timeCount >= 0) {
+          $(".alert").text(`${timeCount}초 이내 구매시 사은품 증정!`);
+          timeCount -= 1;
+        }
+      }, 1000);
+
+      setTimeout(function () {
+        $(".alert").hide();
+      }, 6000);
+
+      // Dark/Light 모드 토글
+      var count = 0;
+
+      $(".badge").on("click", function () {
+        count += 1;
+
+        if (count % 2 == 0) {
+          $("#modeChangeBtn").text("Dark 🔄");
+        } else {
+          $("#modeChangeBtn").text("light 🔄");
+        }
+      });
+
+      // ! ID & PW 검사
+      document
+        .querySelector("#loginBtn")
+        .addEventListener("click", function (e) {
+          let idInput = document.getElementById("email").value;
+          let pwInput = document.getElementById("password").value;
+
+          if (
+            !/[a-zA-Z0-9._+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9.]+/.test(idInput)
+          ) {
+            alert("이메일 형식이 아님");
+            e.preventDefault();
+          }
+
+          if (!/[A-Z]+/.test(pwInput)) {
+            alert("비밀번호에는 대문자가 하나 이상 포함되어야 합니다!");
+            e.preventDefault();
+          }
+
+          if ((idInput === "") | (pwInput === "")) {
+            e.preventDefault;
+            alert("입력창이 비어있습니다!!");
+          }
+
+          if (pwInput.length < 6) {
+            e.preventDefault;
+            alert("비밀번호는 6자리 이상!!");
+          }
+        });
+
+      // modal 창 on/off
+      $(".modal-btn").on("click", function () {
+        $("#modal").addClass("show-modal");
+      });
+
+      $("#close").on("click", function () {
+        $("#modal").removeClass("show-modal");
+      });
+
+      // navbar 햄버거 버튼
+      document
+        .querySelector(".navbar-toggler")
+        .addEventListener("click", function () {
+          document.querySelectorAll(".list-group")[0].classList.toggle("show");
+        });
+    </script>
+    <!-- Bootstrap.JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

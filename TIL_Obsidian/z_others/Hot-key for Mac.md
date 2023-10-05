@@ -110,7 +110,7 @@ SORT file.mday ASC
 | `ctrl(⌃)` + `opt(⌥)` + `delete`      | 화면 크기 복구                      |
 
 
-![Hot-key (VS Code)](Hot-key%20(VS%20Code).md)
+![Hot-key (IDE)](Hot-key%20(IDE).md)
 
 
 ![](assets/Hot-key%20for%20Mac.png)
