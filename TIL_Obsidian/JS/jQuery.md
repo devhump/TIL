@@ -162,3 +162,9 @@ document.querySelector('.black-bg').addEventListener('click', function(e){
 - 이때, `e.target == document.querySelector('.black-bg')` 를 `e.target == $('.black-bg')` 로 바꿔쓰면 제대로 작동하지 않음 (==jQuery 셀렉터끼리 등호비교는 불가능==)
 	- 👉 `$(e.target).is($('.black-bg'))`를 사용해야함 (비교용 함수)
 - 저기서 `e.currentTarget` 출력해보면 검은배경이 나오기 때문에 <br>`e.target == e.currentTarget` 또는 `e.target == this` 이렇게 써도 됨
+
+#### jQuery에서 transform : scale 넣는 법
+```js
+var z = (-1/5000) * 높이 + 565/500; 
+$('.card-box').eq(0).css('transform', `scale( ${z} )`);
+```
