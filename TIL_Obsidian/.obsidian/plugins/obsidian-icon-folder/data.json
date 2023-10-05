@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🐢",
       "SiDjango",
       "🐧",
       "SiPythonWhite",
-      "FabJs",
-      "SiHtml5"
+      "FabJs"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -69,5 +69,6 @@
   "Python": {
     "iconName": "SiPythonWhite",
     "inheritanceIcon": "SiPythonWhite"
-  }
+  },
+  "공부 자료 정리.md": "🐢"
 }

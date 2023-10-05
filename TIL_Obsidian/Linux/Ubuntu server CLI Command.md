@@ -109,3 +109,8 @@ sudo timedatectl set-timezone Asia/Seoul
 
 - SAMBA 설정
 	- [# 🐧 삼바(SAMBA) 설치 & 설정 방법 [리눅스 ↔ 윈도우]](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%EC%82%BC%EB%B0%94SAMBA-%EC%84%A4%EC%B9%98-%EC%84%A4%EC%A0%95-%E2%80%BB-%EC%B4%9D%EC%A0%95%EB%A6%AC)
+- samba 포트 번호
+```shell
+sudo ufw allow 137,138/udp
+sudo ufw allow 139,445/tcp
+```

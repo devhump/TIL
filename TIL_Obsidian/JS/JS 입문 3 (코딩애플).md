@@ -1921,7 +1921,6 @@ $('slide-box').eq(0).on('mousedown', function(e){
 	    </div>
 	  </div>
 ```
-```
 
 
 ```ad-todo
@@ -2061,5 +2060,116 @@ $('slide-box').eq(0).on('mousedown', function(e){
 응용2. 첫 사진을 우측으로 스와이프 못하게 막으려면? 아마 if문 추가하면 될 수도 있겠군요
 
 응용3. 제 코드만 따라쳤다면 싹 지우고 1주 후에 가물가물할 때 답보지 말고 직접 만들어봅시다.
+```
+
+```js
+// 응용 1번번
+
+/////////////////////carousel  2번////////////////////////////////////
+      let 시작좌표2 = 0;
+      
+      $(".slide-box")
+        .eq(1)
+        .on("mousedown", function (e) {
+          시작좌표2 = e.clientX + 시작좌표;
+          눌렀냐 = true;
+        });
+    
+      $(".slide-box")
+        .eq(1)
+        .on("mousemove", function (e) {
+          if (눌렀냐 === true) {
+            $(".slide-container").css(
+              "transform",
+              `translateX( ${e.clientX - 시작좌표2}px )`
+            );
+          }
+        });
+
+      $(".slide-box")
+        .eq(1)
+        .on("mouseup", function (e) {
+          눌렀냐 = false;
+
+          let mouseMove = e.clientX - 시작좌표2;
+
+          if (mouseMove < -100) {
+            $(".slide-container")
+              .css("transition", "all 0.5s")
+              .css("transform", "translateX(-200vw)");
+            
+          } else {
+            $(".slide-container")
+              .css("transition", "all 0.5s")
+              .css("transform", "translateX(-100vw)");
+          }
+        
+          setTimeout(()=>{
+            $('.slide-container').css('transition', 'none')
+          }, 500)
+        });
+
+/////////////////////carousel  3번////////////////////////////////////
+      let 시작좌표3 = 0;
+      
+      $(".slide-box")
+        .eq(2)
+        .on("mousedown", function (e) {
+          시작좌표3 = e.clientX + 시작좌표2;
+          눌렀냐 = true;
+        });
+    
+      $(".slide-box")
+        .eq(2)
+        .on("mousemove", function (e) {
+          if (눌렀냐 === true) {
+            $(".slide-container").css(
+              "transform",
+              `translateX( ${e.clientX - 시작좌표3}px )`
+            );
+          }
+        });
+
+      $(".slide-box")
+        .eq(2)
+        .on("mouseup", function (e) {
+          눌렀냐 = false;
+
+          let mouseMove = e.clientX - 시작좌표3;
+
+          if (mouseMove < -100) {
+            $(".slide-container")
+              .css("transition", "all 0.5s")
+              .css("transform", "translateX(0vw)");
+            
+          } else {
+            $(".slide-container")
+              .css("transition", "all 0.5s")
+              .css("transform", "translateX(-300vw)");
+          }
+        
+          setTimeout(()=>{
+            $('.slide-container').css('transition', 'none')
+          }, 500)
+        });
+```
+- 처음에 1 → 2번은 쉽게 되는데, _그 이후로는 왜 안 움직이지??_ 한참을 고민했다.<br>처음부터 되짚어보며, 겨우 생각해 냈고,
+- 그 이후엔 왜 꼬이지?? _(왜 2번을 드래그 하는데, 1번으로 순간이동을...)_ 하고 고민하다가 좌표값 갱신을 생각해냄.
+
+```js
+// 응용 2번
+      $(".slide-box")
+        .eq(0)
+        .on("mousemove", function (e) {
+          
+        
+          if (눌렀냐 === true && e.client > 0) {
+  
+            $(".slide-container").css(
+              "transform",
+              `translateX( ${e.clientX - 시작좌표}px )`
+            );
+          }
+        });
 ```
 

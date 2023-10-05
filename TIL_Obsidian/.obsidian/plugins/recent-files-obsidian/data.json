@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "LaTeX",
+      "path": "z_others/obsidian/LaTeX.md"
+    },
+    {
+      "basename": "기울기와 절편",
+      "path": "기울기와 절편.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "JS/무제 파일.md"
+    },
+    {
       "basename": "JS 입문 3 (코딩애플)",
       "path": "JS/JS 입문 3 (코딩애플).md"
+    },
+    {
+      "basename": "공부 자료 정리",
+      "path": "공부 자료 정리.md"
+    },
+    {
+      "basename": "Ubuntu server CLI Command",
+      "path": "Linux/Ubuntu server CLI Command.md"
+    },
+    {
+      "basename": "Hot-key for windows",
+      "path": "z_others/Hot-key for windows.md"
+    },
+    {
+      "basename": "Hot-key for Mac",
+      "path": "z_others/Hot-key for Mac.md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "jQuery",
@@ -41,10 +73,6 @@
       "path": "devhump's TIL Index (data view).md"
     },
     {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
-    },
-    {
       "basename": "Docker",
       "path": "z_others/Docker.md"
     },
@@ -81,10 +109,6 @@
       "path": "Linux/Linux 최신 명령어.md"
     },
     {
-      "basename": "Ubuntu server CLI Command",
-      "path": "Linux/Ubuntu server CLI Command.md"
-    },
-    {
       "basename": "Linux note - 01. intro",
       "path": "Linux/Linux note/Linux note - 01. intro.md"
     },
@@ -95,26 +119,6 @@
     {
       "basename": "Linux note",
       "path": "Linux/Linux note.md"
-    },
-    {
-      "basename": "readme",
-      "path": "readme.md"
-    },
-    {
-      "basename": "KDT",
-      "path": "KDT/KDT.md"
-    },
-    {
-      "basename": "01. 이차원 리스트(1-2)",
-      "path": "KDT/Algorithm/01. 이차원 리스트(1-2).md"
-    },
-    {
-      "basename": "TIL Waypoint",
-      "path": "TIL Waypoint.md"
-    },
-    {
-      "basename": "Python 유용한 문법 정리",
-      "path": "Python/Python 유용한 문법 정리.md"
     }
   ],
   "omittedPaths": [],

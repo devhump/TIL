@@ -138,6 +138,22 @@ sudo iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 sudo iptables -P INPUT DROP
 sudo iptables -P FORWARD DROP
 ```
+
+- samba 포트 번호
+```shell
+sudo ufw allow 137,138/udp
+sudo ufw allow 139,445/tcp
+```
+
+- 실제 나의 시스템에서 쓰는 포트 확인
+```shell
+cat /etc/services
+or
+less /etc/services
+or
+more /etc/services
+```
+
 ###### 설정 확인
 ```shell
 sudo iptables -L

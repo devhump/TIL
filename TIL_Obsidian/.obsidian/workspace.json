@@ -28,7 +28,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS 입문 3 (코딩애플).md",
+                "file": "JS/무제 파일.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "969689b3cdc361e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기울기와 절편.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2ed4850691015dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z_others/obsidian/LaTeX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -36,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5110321044922
+    "width": 251.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -110,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JS 입문 3 (코딩애플).md"
+                "file": "z_others/obsidian/LaTeX.md"
               }
             }
           },
@@ -139,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS 입문 3 (코딩애플).md",
+                "file": "z_others/obsidian/LaTeX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JS 입문 3 (코딩애플).md",
+                "file": "z_others/obsidian/LaTeX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,10 +228,27 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "b0128d848f0ce98b",
+  "active": "b2ed4850691015dd",
   "lastOpenFiles": [
-    "무제 파일.md",
+    "기울기와 절편.md",
+    "JS/무제 파일.md",
+    "z_others/obsidian/LaTeX.md",
+    "assets/기울기와 절편-3.png",
+    "assets/기울기와 절편-2.png",
+    "assets/기울기와 절편-1.png",
+    "assets/기울기와 절편.png",
+    "assets",
+    "JS/assets/무제 파일-4.png",
+    "JS/assets/무제 파일-3.png",
+    "JS/assets/무제 파일-2.png",
+    "JS/assets/무제 파일-1.png",
+    "JS/assets/무제 파일.png",
     "JS/JS 입문 3 (코딩애플).md",
+    "공부 자료 정리.md",
+    "Linux/Ubuntu server CLI Command.md",
+    "z_others/Hot-key for windows.md",
+    "z_others/Hot-key for Mac.md",
+    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "JS/jQuery.md",
     "JS/assets/JS 입문 3 (코딩애플)-3.png",
     "JS/JS 입문 2 (코딩애플).md",
@@ -215,7 +259,6 @@
     "KDT/Web/10. Event.md",
     "KDT/Web/09. ECMA Script.md",
     "devhump's TIL Index (data view).md",
-    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "z_others/Docker.md",
     "Linux/WSL.md",
     "IT_SC_Basic/zsh 설정 관련.md",
@@ -223,30 +266,14 @@
     "git_github/Git basic - rollback.md",
     "Linux/Home-server/vim 설정.md",
     "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
-    "Linux/Home-server/ubuntu.md",
-    "Linux/assets/Linux 최신 명령어-1.png",
-    "Linux/Linux 최신 명령어.md",
-    "Linux/Ubuntu server CLI Command.md",
-    "Linux/assets/Linux 최신 명령어.png",
     "Linux/assets",
-    "Linux/Linux note/Linux note - 01. intro.md",
-    "Linux/Linux.md",
-    "Linux/Linux note.md",
-    "Linux/Linux note/assets/linux_dir.jpg",
     "Linux/Home-server",
-    "IT_SC_Basic/assets/Linux note.png",
-    "Linux/Linux note/assets/Linux note-17.png",
-    "Linux/Linux note/assets/Linux note-16.png",
-    "Linux/Linux note/assets/Linux note-15.png",
-    "Linux/Linux note/assets/Linux note-14.png",
-    "Linux/Linux note/assets/Linux note-13.png",
     "Linux/Linux note/assets",
     "Linux/Linux note",
     "Linux",
     "Clippings",
     "HTML_CSS/assets",
     "HTML_CSS",
-    "0_zero",
-    "git_github/assets"
+    "0_zero"
   ]
 }
