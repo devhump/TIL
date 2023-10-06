@@ -1,6 +1,29 @@
 ---
 tag: [CodingApple/JS, JS]
 ---
+## MOC
+```ad-note
+- [Array 와 Object 자료형](#Array%20%EC%99%80%20Object%20%EC%9E%90%EB%A3%8C%ED%98%95)
+- [약간 복잡한 Array & Object 데이터바인딩](#%EC%95%BD%EA%B0%84%20%EB%B3%B5%EC%9E%A1%ED%95%9C%20Array%20&%20Object%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B0%94%EC%9D%B8%EB%94%A9)
+- [데이터바인딩 숙제 & 문자중간에 변수넣는 법](#%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B0%94%EC%9D%B8%EB%94%A9%20%EC%88%99%EC%A0%9C%20&%20%EB%AC%B8%EC%9E%90%EC%A4%91%EA%B0%84%EC%97%90%20%EB%B3%80%EC%88%98%EB%84%A3%EB%8A%94%20%EB%B2%95)
+- [Select 인풋 다루기](#Select%20%EC%9D%B8%ED%92%8B%20%EB%8B%A4%EB%A3%A8%EA%B8%B0)
+- [Select 2_자바스크립트로 html 생성하는 법](#Select%202_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A1%9C%20html%20%EC%83%9D%EC%84%B1%ED%95%98%EB%8A%94%20%EB%B2%95)
+- [Select 3_forEach, for in 반복문](#Select%203_forEach,%20for%20in%20%EB%B0%98%EB%B3%B5%EB%AC%B8)
+- [array, for 반복문 실력향상 과제](#array,%20for%20%EB%B0%98%EB%B3%B5%EB%AC%B8%20%EC%8B%A4%EB%A0%A5%ED%96%A5%EC%83%81%20%EA%B3%BC%EC%A0%9C)
+- [Ajax 1_개념정리](#Ajax%201_%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC)
+- [Ajax 2_상품 더보기 버튼 만들기](#Ajax%202_%EC%83%81%ED%92%88%20%EB%8D%94%EB%B3%B4%EA%B8%B0%20%EB%B2%84%ED%8A%BC%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
+- [array에 자주 쓰는 sort, map, filter 함수](#array%EC%97%90%20%EC%9E%90%EC%A3%BC%20%EC%93%B0%EB%8A%94%20sort,%20map,%20filter%20%ED%95%A8%EC%88%98)
+- [sort, map, filter 상품정렬기능 숙제](#sort,%20map,%20filter%20%EC%83%81%ED%92%88%EC%A0%95%EB%A0%AC%EA%B8%B0%EB%8A%A5%20%EC%88%99%EC%A0%9C)
+- [DOM이라는 용어 개념정리 & load 이벤트](#DOM%EC%9D%B4%EB%9D%BC%EB%8A%94%20%EC%9A%A9%EC%96%B4%20%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC%20&%20load%20%EC%9D%B4%EB%B2%A4%ED%8A%B8)
+- [장바구니 기능과 localStorage](#%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88%20%EA%B8%B0%EB%8A%A5%EA%B3%BC%20localStorage)
+- [장바구니 기능과 localStorage 숙제](#%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88%20%EA%B8%B0%EB%8A%A5%EA%B3%BC%20localStorage%20%EC%88%99%EC%A0%9C)
+- [position_sticky 활용하기](#position_sticky%20%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0)
+- [스크롤 위치에 따라 변하는 애니메이션_Apple Music UI 만들기](#%EC%8A%A4%ED%81%AC%EB%A1%A4%20%EC%9C%84%EC%B9%98%EC%97%90%20%EB%94%B0%EB%9D%BC%20%EB%B3%80%ED%95%98%EB%8A%94%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98_Apple%20Music%20UI%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
+- [캐러셀에 스와이프 기능 만들기](#%EC%BA%90%EB%9F%AC%EC%85%80%EC%97%90%20%EC%8A%A4%EC%99%80%EC%9D%B4%ED%94%84%20%EA%B8%B0%EB%8A%A5%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
+- [캐러셀에 스와이프 기능 만들기 숙제 & 터치이벤트](#%EC%BA%90%EB%9F%AC%EC%85%80%EC%97%90%20%EC%8A%A4%EC%99%80%EC%9D%B4%ED%94%84%20%EA%B8%B0%EB%8A%A5%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20%EC%88%99%EC%A0%9C%20&%20%ED%84%B0%EC%B9%98%EC%9D%B4%EB%B2%A4%ED%8A%B8)
+- [간혹 쓰는 Switch 문법](#%EA%B0%84%ED%98%B9%20%EC%93%B0%EB%8A%94%20Switch%20%EB%AC%B8%EB%B2%95)
+- [(실전) 웹개발 기능대회 예제](#(%EC%8B%A4%EC%A0%84)%20%EC%9B%B9%EA%B0%9C%EB%B0%9C%20%EA%B8%B0%EB%8A%A5%EB%8C%80%ED%9A%8C%20%EC%98%88%EC%A0%9C)
+```
 
 #### 참고문서
 ##### KDT/ Web
@@ -455,7 +478,7 @@ console.log(`문자 ${a} 문자`);  // '문자안녕문자'출력됨
 - `e.currentTarget`을 쓸 경우, `e.currentTarget.value`로 사용
 - `let value = this.value;`도 동일하게 작동
 
-### Select 2 : 자바스크립트로 html 생성하는 법
+### Select 2_자바스크립트로 html 생성하는 법
 1. document.createElement()
 ```html
 <div id="test">
@@ -539,7 +562,7 @@ $('#test').append(template);
 ```
 - 👉 옷 종류별 사이즈 저장 → 해당 옵션 선택시 마다 종류별 사이즈 출력
 
-### Select 3 : forEach, for in 반복문
+### Select 3_forEach, for in 반복문
 #### forEach() 반복문
 - array 자료 뒤에 붙일 수 있는 **forEach()** 라는 기본함수가 있습니다.
 ```js
@@ -761,7 +784,7 @@ function exam(arr, score){
 }
 ```
 
-### Ajax 1 : 개념정리
+### Ajax 1_개념정리
 
 #### 서버란?
 - 유저가 데이터달라고 요청을 하면 데이터를 보내주는 간단한 프로그램일 뿐입니다.
@@ -887,7 +910,7 @@ fetch('https://codingapple1.github.io/price.json')
 ```
 
 
-### Ajax 2 : 상품 더보기 버튼 만들기
+### Ajax 2_상품 더보기 버튼 만들기
 ```ad-todo
 오늘의 응용문제
 
@@ -1626,7 +1649,7 @@ $('.buy').click(function(){
     });
 ```
 
-### position : sticky 활용하기
+### position_sticky 활용하기
 #### position : sticky 
 (Edge 이상에서 사용가능)
 
@@ -1685,7 +1708,7 @@ $('.buy').click(function(){
 ```
 
 
-### 스크롤 위치에 따라 변하는 애니메이션 : Apple Music UI 만들기
+### 스크롤 위치에 따라 변하는 애니메이션_Apple Music UI 만들기
 
 #### 위 UI를 만들기 위해 일단 HTML을 준비합니다. 
 ```html

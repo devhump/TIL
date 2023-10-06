@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "07. Bootstrap Grid System",
-      "path": "KDT/Web/07. Bootstrap Grid System.md"
+      "basename": "JS 입문 3 (코딩애플)",
+      "path": "JS/JS 입문 3 (코딩애플).md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "08. Javascript",
+      "path": "KDT/Web/08. Javascript.md"
     },
     {
       "basename": "Hot-key (IDE)",
       "path": "z_others/Hot-key (IDE).md"
+    },
+    {
+      "basename": "07. Bootstrap Grid System",
+      "path": "KDT/Web/07. Bootstrap Grid System.md"
     },
     {
       "basename": "vscode_shortcuts_(mac)",
@@ -17,24 +29,12 @@
       "path": "JS/jQuery.md"
     },
     {
-      "basename": "JS 입문 3 (코딩애플)",
-      "path": "JS/JS 입문 3 (코딩애플).md"
-    },
-    {
-      "basename": "08. Javascript",
-      "path": "KDT/Web/08. Javascript.md"
-    },
-    {
       "basename": "JS 입문 1 (코딩애플)",
       "path": "JS/JS 입문 1 (코딩애플).md"
     },
     {
       "basename": "기울기와 절편 그리고 직선의 방정식",
       "path": "z_others/기울기와 절편 그리고 직선의 방정식.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "LaTeX",
