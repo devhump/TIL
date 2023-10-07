@@ -499,7 +499,7 @@ pre {
 
 /* Codeblock top bars */
 pre[class^="language-"] {
-    padding-top: calc(var(--size-4-2) + var(--code-size) * var(--line-height-normal));
+    padding-top: calc(var(--size-4-2) + var(--code-size) * var(--line-height-normal) + 1px);
 }
 pre[class^="language-"]::before {
     content: "";
@@ -611,10 +611,10 @@ pre.language-rust::after { content: "Rust" }
 .markdown-rendered .list-bullet {
     margin-left: -11px;
 }
-:root .show-indentation-guide .has-list-bullet::before {
+:root .show-indentation-guide li :is(ul, ol)::before {
     left: -11px;
 }
-.task-list-item {
+ul > .task-list-item {
     margin-left: 6px;
 }
 .show-indentation-guide .contains-task-list.has-list-bullet::before {
@@ -667,7 +667,7 @@ input.task-list-item-checkbox:checked::after {
 
 .markdown-preview-view blockquote {
     padding-block: 0.25em;
-    padding-left: 17px;
+    padding-left: 1.7ch;
 }
 
 /* Make blockquotes work in source view */
@@ -1065,7 +1065,7 @@ settings:
 -
     id: extra-appearance-settings
     title: Extras
-    description: Stacked pane count, background image
+    description: Stacked pane count, background image, visual parity
     type: heading
     level: 1
     collapsed: true
@@ -1084,7 +1084,7 @@ settings:
     markdown: true
 -
     id: custom-stacked-panes-enabled
-    title: Enable Custom Stacked Panes
+    title: Custom Stacked Panes
     description: Changes stacked panes to fit a certain number on screen instead of using pixel values.
     type: class-toggle
 -
@@ -1198,6 +1198,23 @@ settings:
     title: Pane view
     description: Changes pages to be panes on a transparent background. BEST USED WITH UI OPACITY 0!
     type: class-toggle
+-   id: visual-parity
+    title: Visual Parity
+    type: heading
+    level: 2
+    collapsed: true
+-
+    id: background-image-description
+    title: Info
+    description: |
+        Changes reading mode to match editing mode visually.
+    type: info-text
+    markdown: true
+-
+    id: visual-parity-enabled
+    title: Visual Parity
+    description: Changes stacked panes to fit a certain number on screen instead of using pixel values.
+    type: class-toggle
 
 */
 
@@ -1222,6 +1239,7 @@ settings:
     place-content: flex-start;
 }
 
+
 /** Editor Settings **/
 
 /* Highlighted folders */
@@ -1235,6 +1253,7 @@ body:not(.is-translucent).enable-menu-blur .modal-bg {
     backdrop-filter: blur(var(--menu-blur-radius, 5px));
     opacity: 1 !important;
 }
+
 
 /** Element Settings **/
 
@@ -1337,6 +1356,7 @@ body.image-embed-enable-zoom .cm-embed-block.cm-callout:has(.image-embed:active)
     width: 100% !important;
 }
 
+
 /** Custom Background Image **/
 
 .theme-dark {--background-image-url: var(--background-image-dark-url)}
@@ -1421,6 +1441,51 @@ body.background-image-enabled {
 }
 :root .background-image-pane-view .view-header  {
     background-color: var(--background-partially-transparent) !important;
+}
+
+
+/** Visual Parity **/
+body.visual-parity-enabled {
+    --p-spacing: calc(1.5 * var(--font-text-size));
+    --heading-spacing: calc(var(--p-spacing) * 1);
+
+    /* Fix hr elements */
+    .markdown-rendered hr {
+        margin-block: calc(
+            (
+                    var(--font-text-size, 1rem) * var(--line-height-normal) -
+                        var(--hr-thickness)
+                ) / 2 + var(--p-spacing)
+        );
+    }
+
+    /* Fix header top margins */
+    .is-live-preview .cm-content > .HyperMD-header {
+        padding-top: unset;
+    }
+
+    /* Remove top header spacing in live preview */
+    & .mod-header + div:has(pre.frontmatter) + div > *,
+    & .mod-header + div > * {
+        margin-top: 0 !important;
+    }
+
+    /* Fix collapsed headers in live preview */
+    .HyperMD-header:has(> .is-collapsed) {
+        padding-block: 0 var(--p-spacing);
+    }
+
+    /* Fix blockquotes */
+    & :not(blockquote) + blockquote,
+    & .cm-line:not(.HyperMD-quote-1) + .HyperMD-quote-1,
+    & .HyperMD-quote-1:first-child {
+        padding-top: 0.25em !important;
+    }
+    & blockquote:has(+ :not(blockquote)),
+    & .HyperMD-quote-1:has(+ .cm-line:not(.HyperMD-quote-1)),
+    & .HyperMD-quote-1:last-child {
+        padding-bottom: 0.25em !important;
+    }
 }
 
 
@@ -1548,7 +1613,7 @@ img {
 p:has(.image-embed ~ .image-embed, img ~ img):not(:has([alt="inline"])) {
     display: flex;
     gap: 0.5rem;
-    align-items: end;
+    align-items: start;
 }
 .cm-line:not(.cm-active):has(.image-embed ~ .image-embed, img:not(.cm-widgetBuffer) ~ img:not(.cm-widgetBuffer)):not(:has([alt="inline"])) > .image-embed,
 p:has(.image-embed ~ .image-embed, img ~ img):not(:has([alt="inline"])) > .image-embed {
@@ -1556,7 +1621,8 @@ p:has(.image-embed ~ .image-embed, img ~ img):not(:has([alt="inline"])) > .image
     display: flex;
     justify-content: center;
 }
-.cm-line:not(.cm-active):has(.image-embed ~ .image-embed, img:not(.cm-widgetBuffer) ~ img:not(.cm-widgetBuffer)) > .cm-widgetBuffer {
+.cm-line:not(.cm-active):has(.image-embed ~ .image-embed, img:not(.cm-widgetBuffer) ~ img:not(.cm-widgetBuffer)) > .cm-widgetBuffer,
+.cm-widgetBuffer + span[contenteditable="false"]:not([class]) {
     display: none !important;
 }
 /* Makes a highlighted line shrink the image */
@@ -1706,10 +1772,10 @@ body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"
     text-align: center;
 }
 body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"], [width])::after {
-    width: calc(var(--img-width, 100) / 100 * min(100vw, var(--file-line-width)));
+    width: calc(var(--img-width, 100) / 100 * min(100%, var(--file-line-width)));
 }
 body:not(.no-image-alttext-caption) .markdown-reading-view .image-embed[src~="float"]:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"], [width])::after {
-    width: calc(var(--img-width, 100) / 100 * min(100vw, var(--file-line-width)));
+    width: calc(var(--img-width, 100) / 100 * min(100%, var(--file-line-width)));
 }
 body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"], [width])[src~="left"]::after {
     margin-inline: 0 auto;
@@ -1874,4 +1940,9 @@ ol > li > p {
 /* Make backlinks padding more consistent */
 .markdown-preview-view .embedded-backlinks {
     margin-top: 100px;
+}
+
+/* Fix specific word break difference */
+:root .cm-lineWrapping {
+    white-space: unset;
 }

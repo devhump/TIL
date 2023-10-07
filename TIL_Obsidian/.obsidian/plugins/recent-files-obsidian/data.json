@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "03. Basic Func & GROUP BY & HAVING & ALTER TABLE",
+      "path": "KDT/DB/03. Basic Func & GROUP BY & HAVING & ALTER TABLE.md"
+    },
+    {
       "basename": "07. Bootstrap Grid System",
       "path": "KDT/Web/07. Bootstrap Grid System.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "기울기와 절편 그리고 직선의 방정식",
       "path": "z_others/기울기와 절편 그리고 직선의 방정식.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "LaTeX",
@@ -115,10 +119,6 @@
     {
       "basename": "ubuntu",
       "path": "Linux/Home-server/ubuntu.md"
-    },
-    {
-      "basename": "Linux 최신 명령어",
-      "path": "Linux/Linux 최신 명령어.md"
     }
   ],
   "omittedPaths": [],
