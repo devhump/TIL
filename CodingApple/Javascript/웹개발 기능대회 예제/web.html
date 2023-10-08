@@ -103,9 +103,54 @@
 
     //  상품 검색 기능
 
-    document.querySelector('.searchWindow').addEventListener('input', function {
+    document.querySelector('.searchWindow').addEventListener('keyup', function() {
+      $.get('store.json')
+        .done(function(data) {
 
-                                                             
+            let changeFlag = 0
+            let titleArr = []
+            let brandArr = []
+            for (let i = 0; i < 4; i++) {
+
+              titleArr.push(`${data.products[i]['title']}`);
+
+              var query = $('.searchWindow').val()
+
+              let matchFlag = (titleArr[i].indexOf(query) != -1);
+
+              if (matchFlag && query != "") {
+
+                if (changeFlag == 0) {
+                  document.querySelector('.row').innerHTML = "";
+
+                }
+                console.log(`${query} 출력 ${i}`)
+                document.querySelector('.row').insertAdjacentHTML('beforeend', `
+                <div class="card col-3" style="width: 18rem">
+                <img src=${data.products[i]['photo']} class="card-img-top" alt=${data.products[i]['photo']} />
+                <div class="card-body">
+                  <h5 class="card-title">${data.products[i]['title']}</h5>
+                  <p class="card-text">
+                    ${data.products[i]['brand']}
+                  </p>
+                  <p class="card-text">
+                    가격 : ${data.products[i]['price']}
+                  </p>
+                  <a href="#" class="btn btn-dark">담기</a>
+                </div>
+              </div>
+            `)
+                changeFlag = 1
+
+
+                
+//                  .css('backgroud-color', 'Yellow')
+              }
+            }
+
+          }
+
+        )
     });
 
   </script>
