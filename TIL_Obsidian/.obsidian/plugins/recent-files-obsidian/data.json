@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
       "basename": "Ubuntu server CLI Command",
       "path": "Linux/Ubuntu server CLI Command.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "Hot-key for Mac",
       "path": "z_others/Hot-key for Mac.md"
-    },
-    {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "JS 기본3 (모던JS)",

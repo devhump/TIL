@@ -41,11 +41,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Ubuntu server CLI Command.md",
+                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "c861ecd810a7de87",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -124,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Ubuntu server CLI Command.md"
+                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
               }
             }
           },
@@ -153,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Ubuntu server CLI Command.md",
+                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Ubuntu server CLI Command.md",
+                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,9 +226,9 @@
   },
   "active": "d3beba0c336280bc",
   "lastOpenFiles": [
+    "Linux/Ubuntu server CLI Command.md",
     "JS/JS 입문 2 (코딩애플).md",
     "JS/JS 입문 3 (코딩애플).md",
-    "Linux/Ubuntu server CLI Command.md",
     "devhump's TIL Index (data view).md",
     "KDT/Web/08. Javascript.md",
     "z_others/Hot-key (IDE).md",
