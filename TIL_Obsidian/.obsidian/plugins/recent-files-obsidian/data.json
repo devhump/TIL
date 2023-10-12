@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Vim 사용법",
+      "path": "Vim 사용법.md"
+    },
+    {
+      "basename": "Linux note",
+      "path": "Linux/Linux note.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
+    },
+    {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "Ubuntu server CLI Command",
@@ -15,10 +31,6 @@
     {
       "basename": "JS 입문 3 (코딩애플)",
       "path": "JS/JS 입문 3 (코딩애플).md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "08. Javascript",
@@ -107,18 +119,6 @@
     {
       "basename": "Git basic - rollback",
       "path": "git_github/Git basic - rollback.md"
-    },
-    {
-      "basename": "vim 설정",
-      "path": "Linux/Home-server/vim 설정.md"
-    },
-    {
-      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
-      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "ubuntu",
-      "path": "Linux/Home-server/ubuntu.md"
     }
   ],
   "omittedPaths": [],

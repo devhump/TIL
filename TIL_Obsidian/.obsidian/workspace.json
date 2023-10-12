@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "Linux/Linux note.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -49,15 +49,20 @@
             }
           },
           {
-            "id": "c861ecd810a7de87",
+            "id": "d7929e09b8933efb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Vim 사용법.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "includes",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -111,8 +116,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+                "file": "Vim 사용법.md"
               }
             }
           },
@@ -161,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "Vim 사용법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "Vim 사용법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,12 +228,27 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d3beba0c336280bc",
+  "active": "d7929e09b8933efb",
   "lastOpenFiles": [
+    "assets/Vim 사용법-34.png",
+    "assets/Vim 사용법-33.png",
+    "assets/Vim 사용법-32.png",
+    "assets/Vim 사용법-31.png",
+    "assets/Vim 사용법-30.png",
+    "assets/Vim 사용법-29.png",
+    "assets/Vim 사용법-28.png",
+    "assets/Vim 사용법-27.png",
+    "assets/Vim 사용법-26.png",
+    "assets/Vim 사용법-25.png",
+    "assets/Vim 사용법-24.png",
+    "Linux/Linux note.md",
+    "Vim 사용법.md",
+    "Linux/Linux.md",
+    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+    "devhump's TIL Index (data view).md",
     "Linux/Ubuntu server CLI Command.md",
     "JS/JS 입문 2 (코딩애플).md",
     "JS/JS 입문 3 (코딩애플).md",
-    "devhump's TIL Index (data view).md",
     "KDT/Web/08. Javascript.md",
     "z_others/Hot-key (IDE).md",
     "KDT/Web/07. Bootstrap Grid System.md",
@@ -237,33 +256,18 @@
     "assets",
     "z_others/vscode_shortcuts_(mac).pdf",
     "JS/jQuery.md",
-    "JS/assets/JS 입문 3 (코딩애플)-43.png",
-    "JS/assets/JS 입문 3 (코딩애플)-42.png",
-    "JS/assets/JS 입문 3 (코딩애플)-41.png",
-    "JS/assets/JS 입문 3 (코딩애플)-40.png",
-    "JS/assets/JS 입문 3 (코딩애플)-39.png",
-    "JS/assets/JS 입문 3 (코딩애플)-38.png",
-    "JS/assets/JS 입문 3 (코딩애플)-10.png",
     "JS/JS 입문 1 (코딩애플).md",
     "z_others/기울기와 절편 그리고 직선의 방정식.md",
     "JS/무제 파일.md",
-    "z_others/assets/기울기와 절편-2.png",
-    "z_others/assets/기울기와 절편-1.png",
-    "z_others/assets/기울기와 절편.png",
     "z_others/obsidian/LaTeX.md",
     "공부 자료 정리.md",
     "z_others/Hot-key for windows.md",
     "z_others/Hot-key for Mac.md",
-    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "JS/JS 기본3 (모던JS).md",
     "JS/JS 기본2 (모던JS).md",
     "JS/JS 기본1 (모던JS).md",
     "KDT/Web/10. Event.md",
     "KDT/Web/09. ECMA Script.md",
-    "z_others/Docker.md",
-    "Linux/WSL.md",
-    "IT_SC_Basic/zsh 설정 관련.md",
-    "git_github/Git basic - git revert, reset, restore.md",
     "Linux/assets",
     "Linux/Home-server",
     "Linux/Linux note/assets",
