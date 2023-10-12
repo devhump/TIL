@@ -34,35 +34,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d3beba0c336280bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux note.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7929e09b8933efb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vim 사용법.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vim 사용법.md"
+                "file": "JS/JS 입문 2 (코딩애플).md"
               }
             }
           },
@@ -165,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim 사용법.md",
+                "file": "JS/JS 입문 2 (코딩애플).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vim 사용법.md",
+                "file": "JS/JS 입문 2 (코딩애플).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,21 +202,20 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d7929e09b8933efb",
+  "active": "684d476c2d16ff71",
   "lastOpenFiles": [
-    "assets/Vim 사용법-34.png",
-    "assets/Vim 사용법-33.png",
-    "assets/Vim 사용법-32.png",
-    "assets/Vim 사용법-31.png",
-    "assets/Vim 사용법-30.png",
-    "assets/Vim 사용법-29.png",
-    "assets/Vim 사용법-28.png",
-    "assets/Vim 사용법-27.png",
-    "assets/Vim 사용법-26.png",
-    "assets/Vim 사용법-25.png",
-    "assets/Vim 사용법-24.png",
     "Linux/Linux note.md",
-    "Vim 사용법.md",
+    "z_others/Vim 사용법.md",
+    "z_others/assets/Vim 사용법-66.png",
+    "z_others/assets/Vim 사용법-65.png",
+    "z_others/assets/Vim 사용법-64.png",
+    "z_others/assets/Vim 사용법-63.png",
+    "z_others/assets/Vim 사용법-62.png",
+    "z_others/assets/Vim 사용법-61.png",
+    "z_others/assets/Vim 사용법-60.png",
+    "z_others/assets/Vim 사용법-59.png",
+    "z_others/assets/Vim 사용법-58.png",
+    "z_others/assets/Vim 사용법-57.png",
     "Linux/Linux.md",
     "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "devhump's TIL Index (data view).md",

@@ -27,5 +27,6 @@
 	- [문제 해결 아이디어_template](./templates/%EB%AC%B8%EC%A0%9C%20%ED%95%B4%EA%B2%B0%20%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4_template.md)
 	- [BOJ_백준 문제_template](./templates/BOJ_%EB%B0%B1%EC%A4%80%20%EB%AC%B8%EC%A0%9C_template.md)
 	- [meta data_template](./templates/meta%20data_template.md)
+- [Vim 사용법](./Vim%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)
 
 %% End Waypoint %%
