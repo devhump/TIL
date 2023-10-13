@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "Ubuntu server CLI Command",
+      "path": "Linux/Ubuntu server CLI Command.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
       "basename": "JS 입문 2 (코딩애플)",
       "path": "JS/JS 입문 2 (코딩애플).md"
     },
@@ -15,18 +27,6 @@
     {
       "basename": "Linux",
       "path": "Linux/Linux.md"
-    },
-    {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
-    },
-    {
-      "basename": "Ubuntu server CLI Command",
-      "path": "Linux/Ubuntu server CLI Command.md"
     },
     {
       "basename": "JS 입문 3 (코딩애플)",

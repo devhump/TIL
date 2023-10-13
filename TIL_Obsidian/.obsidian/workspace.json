@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/JS 입문 2 (코딩애플).md",
+                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ipta",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JS 입문 2 (코딩애플).md"
+                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
               }
             }
           },
@@ -139,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JS 입문 2 (코딩애플).md",
+                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JS 입문 2 (코딩애플).md",
+                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,6 +205,10 @@
   },
   "active": "684d476c2d16ff71",
   "lastOpenFiles": [
+    "Linux/Ubuntu server CLI Command.md",
+    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+    "devhump's TIL Index (data view).md",
+    "JS/JS 입문 2 (코딩애플).md",
     "Linux/Linux note.md",
     "z_others/Vim 사용법.md",
     "z_others/assets/Vim 사용법-66.png",
@@ -217,10 +222,6 @@
     "z_others/assets/Vim 사용법-58.png",
     "z_others/assets/Vim 사용법-57.png",
     "Linux/Linux.md",
-    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
-    "devhump's TIL Index (data view).md",
-    "Linux/Ubuntu server CLI Command.md",
-    "JS/JS 입문 2 (코딩애플).md",
     "JS/JS 입문 3 (코딩애플).md",
     "KDT/Web/08. Javascript.md",
     "z_others/Hot-key (IDE).md",

@@ -2,7 +2,7 @@
 tags:
   - ubuntu
 ---
-
+- [Ubuntu server CLI Command](../Ubuntu%20server%20CLI%20Command.md)
 
 ```ad-note
 - [SSH (Secure Shell)을 사용한 원격 관리](#SSH%20(Secure%20Shell)%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%9C%20%EC%9B%90%EA%B2%A9%20%EA%B4%80%EB%A6%AC)
@@ -132,7 +132,7 @@ sudo iptables -P OUTPUT ACCEPT
 ```
 
 ```shell
-sudo iptables -A INPUT -s 127.0.0.1 -j ACCEPT
+ 
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT 
 sudo iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 sudo iptables -P INPUT DROP
