@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "주피터노트북 in vscode",
+      "path": "z_others/주피터노트북 in vscode.md"
+    },
+    {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "Git basic - git revert, reset, restore",
       "path": "git_github/Git basic - git revert, reset, restore.md"
-    },
-    {
-      "basename": "Git basic - rollback",
-      "path": "git_github/Git basic - rollback.md"
     }
   ],
   "omittedPaths": [],

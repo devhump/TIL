@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "z_others/주피터노트북 in vscode.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ipta",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+                "file": "z_others/주피터노트북 in vscode.md"
               }
             }
           },
@@ -140,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "z_others/주피터노트북 in vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "z_others/주피터노트북 in vscode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,8 +204,17 @@
   },
   "active": "684d476c2d16ff71",
   "lastOpenFiles": [
-    "Linux/Ubuntu server CLI Command.md",
+    "z_others/assets/주피터 노트북 in vs code (4).png",
+    "z_others/assets/주피터 노트북 in vs code (3).png",
+    "z_others/assets/주피터 노트북 in vs code (2).png",
+    "z_others/assets/주피터 노트북 in vs code (1).png",
+    "z_others/assets/image-20230423200248692.png",
+    "z_others/assets/image-20230423200235906.png",
+    "z_others/assets/image-20230423200206135.png",
+    "z_others/assets/image-20230423195951518.png",
     "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+    "z_others/주피터노트북 in vscode.md",
+    "Linux/Ubuntu server CLI Command.md",
     "devhump's TIL Index (data view).md",
     "JS/JS 입문 2 (코딩애플).md",
     "Linux/Linux note.md",
@@ -214,13 +222,6 @@
     "z_others/assets/Vim 사용법-66.png",
     "z_others/assets/Vim 사용법-65.png",
     "z_others/assets/Vim 사용법-64.png",
-    "z_others/assets/Vim 사용법-63.png",
-    "z_others/assets/Vim 사용법-62.png",
-    "z_others/assets/Vim 사용법-61.png",
-    "z_others/assets/Vim 사용법-60.png",
-    "z_others/assets/Vim 사용법-59.png",
-    "z_others/assets/Vim 사용법-58.png",
-    "z_others/assets/Vim 사용법-57.png",
     "Linux/Linux.md",
     "JS/JS 입문 3 (코딩애플).md",
     "KDT/Web/08. Javascript.md",
@@ -241,7 +242,6 @@
     "JS/JS 기본2 (모던JS).md",
     "JS/JS 기본1 (모던JS).md",
     "KDT/Web/10. Event.md",
-    "KDT/Web/09. ECMA Script.md",
     "Linux/assets",
     "Linux/Home-server",
     "Linux/Linux note/assets",
