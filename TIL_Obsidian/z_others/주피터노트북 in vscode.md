@@ -1,3 +1,7 @@
+---
+tags:
+  - youtube
+---
 - 유튜브 : [주피터노트북 vscode에서 설치 및 사용법 | 신세계가 열립니다.](https://youtu.be/1tKPqQmXM98)
 
 ### 주피터 노트북이란?
@@ -33,23 +37,18 @@
 
 - `ctrl` + `enter`: 셀이 추가 되지 않고 실행
 - `shift` + `enter`: 셀이 추가 되고 실행
+![](assets/주피터노트북%20in%20vscode.png)
 
-![image-20230423195951518](C:\Users\Ramy\AppData\Roaming\Typora\typora-user-images\image-20230423195951518.png)
 
 - 인터프리터 처럼 변수명을 치면 출력이 됨
 
 - 단, 마지막 변수만 출력
 
-![image-20230423200206135](C:\Users\Ramy\AppData\Roaming\Typora\typora-user-images\image-20230423200206135.png)
-
-- ![image-20230423200235906](C:\Users\Ramy\AppData\Roaming\Typora\typora-user-images\image-20230423200235906.png)
+![](assets/주피터노트북%20in%20vscode-1.png)
 
 
 
-![image-20230423200248692](C:\Users\Ramy\AppData\Roaming\Typora\typora-user-images\image-20230423200248692.png)
-
-
-
+![](assets/주피터노트북%20in%20vscode-2.png)
 
 
 - 코드 셀: **명령어 작성**

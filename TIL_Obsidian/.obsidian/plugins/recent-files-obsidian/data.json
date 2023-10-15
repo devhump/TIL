@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "about CSS position",
+      "path": "z_others/about CSS position.md"
+    },
+    {
+      "basename": "공부 할 자료 정리",
+      "path": "공부 할 자료 정리.md"
+    },
+    {
       "basename": "주피터노트북 in vscode",
       "path": "z_others/주피터노트북 in vscode.md"
     },
@@ -73,10 +81,6 @@
       "path": "z_others/obsidian/LaTeX.md"
     },
     {
-      "basename": "공부 자료 정리",
-      "path": "공부 자료 정리.md"
-    },
-    {
       "basename": "Hot-key for windows",
       "path": "z_others/Hot-key for windows.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "zsh 설정 관련",
       "path": "IT_SC_Basic/zsh 설정 관련.md"
-    },
-    {
-      "basename": "Git basic - git revert, reset, restore",
-      "path": "git_github/Git basic - git revert, reset, restore.md"
     }
   ],
   "omittedPaths": [],

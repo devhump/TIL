@@ -20,7 +20,8 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true
+    "iconInTabsEnabled": true,
+    "iconsBackgroundCheckEnabled": false
   },
   "Algo Solving": {
     "iconName": "❔",
@@ -70,5 +71,5 @@
     "iconName": "SiPythonWhite",
     "inheritanceIcon": "SiPythonWhite"
   },
-  "공부 자료 정리.md": "🐢"
+  "공부 할 자료 정리.md": "🐢"
 }
