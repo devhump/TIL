@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -191,19 +192,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "zk-prefixer:새로운 유니크 노트 생성": false,
-      "random-note:랜덤 노트 열기": false,
-      "workspaces:작업 공간 레이아웃 관리": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "remotely-save:Remotely Save": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "684d476c2d16ff71",
+  "active": "fc422b72b1b7ee97",
   "lastOpenFiles": [
     "z_others/assets/image-20230423200206135.png",
     "z_others/assets/image-20230423200248692.png",
