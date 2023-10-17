@@ -1,6 +1,21 @@
 ---
-tags: [shortcut]
+tags:
+  - shortcut
+aliases:
+  - 단축키
+  - hotkey
 ---
+```ad-info
+- [Hot-key](#Hot-key)
+- [목차](#%EB%AA%A9%EC%B0%A8)
+- [Window system](#Window%20system)
+- [Breevy](#Breevy)
+- [Evernote](#Evernote)
+- [YouTube](#YouTube)
+- [Window  10+](#Window%20%2010+)
+- [Typora](#Typora)
+- [Git-bash](#Git-bash)
+```
 
 #### Hot-key
 ```dataview
@@ -8,18 +23,6 @@ LIST
 FROM #shortcut
 SORT file.mday ASC
 ```
-
-### 목차
-```ad-info 
-
-- [[#Evernote|Evernote]]
-- [[#YouTube|YouTube]]
-- [[#Window  10+|Window  10+]]
-- [[#Typora|Typora]]
-- [[#Git-bash|Git-bash]]
-```
-
-
 ### Window system
 - 바이오스(bios)로 바로 접속하기 어려울 때
 	- 👉시작 → 전원 → `Shift` 키를 누르면서 다시 시작
@@ -28,13 +31,15 @@ SORT file.mday ASC
 | ---------------------- | --------------------- |
 | win + `v`              | 클립보드 확인         |
 | win + `g`              | 윈도우 화면 녹화 실행 |
-| `ctrl` + `shift` + esc | 작업 관리자 실행      |
+| `ctrl` + `shift` + `esc` | 작업 관리자 실행      |
 
+### Breevy
+- Lanchpad 단축키를<br>`ctrl` + `space` 에서 👉 `ctrl` + `shift` + `space` 로 변경
 ### Evernote
 
-|특정 문자열 드래그 후  `ctrl` + `shift` + `x`|특정 문자열 암호화|
-|---|---|
-|`ctrl` + `alt` + `l` | 해당 문서 내부 링크 복사   |
+| 특정 문자열 드래그 후  `ctrl` + `shift` + `x` | 특정 문자열 암호화       |
+| --------------------------------------------- | ------------------------ |
+| `ctrl` + `alt` + `l`                          | 해당 문서 내부 링크 복사 |
 
 
 ### YouTube

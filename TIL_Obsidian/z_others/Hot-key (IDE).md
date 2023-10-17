@@ -1,5 +1,9 @@
 ---
-tags: [shortcut]
+tags:
+  - shortcut
+aliases:
+  - 단축키
+  - hotkey
 ---
 
 #### Hot-key

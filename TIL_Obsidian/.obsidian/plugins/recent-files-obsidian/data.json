@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Node.js & MongoDB 1",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "Hot-key for windows",
+      "path": "z_others/Hot-key for windows.md"
+    },
+    {
+      "basename": "Obsidian setting - Community plugin",
+      "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
+    },
+    {
+      "basename": "주피터노트북 in vscode",
+      "path": "z_others/주피터노트북 in vscode.md"
+    },
+    {
+      "basename": "Hot-key for Mac",
+      "path": "z_others/Hot-key for Mac.md"
+    },
+    {
+      "basename": "Hot-key (IDE)",
+      "path": "z_others/Hot-key (IDE).md"
+    },
+    {
       "basename": "구현해 보고 싶은 기능",
       "path": "z_others/구현해 보고 싶은 기능.md"
     },
     {
       "basename": "Docker",
       "path": "z_others/Docker.md"
-    },
-    {
-      "basename": "Hot-key for windows",
-      "path": "z_others/Hot-key for windows.md"
     },
     {
       "basename": "유용한 사이트들",
@@ -37,16 +61,8 @@
       "path": "z_others/about CSS position.md"
     },
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
-    },
-    {
       "basename": "공부 할 자료 정리",
       "path": "공부 할 자료 정리.md"
-    },
-    {
-      "basename": "주피터노트북 in vscode",
-      "path": "z_others/주피터노트북 in vscode.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
@@ -85,10 +101,6 @@
       "path": "KDT/Web/07. Bootstrap Grid System.md"
     },
     {
-      "basename": "Hot-key (IDE)",
-      "path": "z_others/Hot-key (IDE).md"
-    },
-    {
       "basename": "07. Bootstrap Grid System",
       "path": "KDT/Web/07. Bootstrap Grid System.md"
     },
@@ -107,18 +119,6 @@
     {
       "basename": "기울기와 절편 그리고 직선의 방정식",
       "path": "z_others/기울기와 절편 그리고 직선의 방정식.md"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "z_others/obsidian/LaTeX.md"
-    },
-    {
-      "basename": "Hot-key for Mac",
-      "path": "z_others/Hot-key for Mac.md"
-    },
-    {
-      "basename": "JS 기본3 (모던JS)",
-      "path": "JS/JS 기본3 (모던JS).md"
     }
   ],
   "omittedPaths": [],

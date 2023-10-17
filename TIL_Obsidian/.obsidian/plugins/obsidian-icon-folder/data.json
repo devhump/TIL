@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🐼",
       "🐢",
       "SiDjango",
       "🐧",
-      "SiPythonWhite",
-      "FabJs"
+      "SiPythonWhite"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -71,5 +71,9 @@
     "iconName": "SiPythonWhite",
     "inheritanceIcon": "SiPythonWhite"
   },
-  "공부 할 자료 정리.md": "🐢"
+  "공부 할 자료 정리.md": "🐢",
+  "Node.js & MongoDB": {
+    "iconName": "🐼",
+    "inheritanceIcon": "🐼"
+  }
 }
