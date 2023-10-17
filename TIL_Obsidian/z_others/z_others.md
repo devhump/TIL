@@ -1,7 +1,9 @@
 %% Begin Waypoint %%
 - [500 mile](./500%20mile.md)
+- [구현해 보고 싶은 기능](./%EA%B5%AC%ED%98%84%ED%95%B4%20%EB%B3%B4%EA%B3%A0%20%EC%8B%B6%EC%9D%80%20%EA%B8%B0%EB%8A%A5.md)
 - [기울기와 절편 그리고 직선의 방정식](./%EA%B8%B0%EC%9A%B8%EA%B8%B0%EC%99%80%20%EC%A0%88%ED%8E%B8%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%A7%81%EC%84%A0%EC%9D%98%20%EB%B0%A9%EC%A0%95%EC%8B%9D.md)
 - [알고리즘 TIP](./%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20TIP.md)
+- [유용한 사이트들](./%EC%9C%A0%EC%9A%A9%ED%95%9C%20%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%93%A4.md)
 - [주피터노트북 in vscode](./%EC%A3%BC%ED%94%BC%ED%84%B0%EB%85%B8%ED%8A%B8%EB%B6%81%20in%20vscode.md)
 - [about CSS position](./about%20CSS%20position.md)
 - **assets**

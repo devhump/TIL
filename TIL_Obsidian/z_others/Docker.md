@@ -4,3 +4,4 @@
 
 - [따라하면서 시작하는 Docker 입문 튜토리얼](https://www.lainyzine.com/ko/article/docker-tutorial/)
 
+- [도커파일 관련 내용 정리](https://jiyeonseo.github.io/digital-garden/notes/dockerfile/#tips)

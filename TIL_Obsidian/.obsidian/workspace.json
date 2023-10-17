@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_others/about CSS position.md",
+                "file": "z_others/구현해 보고 싶은 기능.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -90,13 +90,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 242.5
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -112,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_others/about CSS position.md"
+                "file": "z_others/구현해 보고 싶은 기능.md"
               }
             }
           },
@@ -141,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_others/about CSS position.md",
+                "file": "z_others/구현해 보고 싶은 기능.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_others/about CSS position.md",
+                "file": "z_others/구현해 보고 싶은 기능.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,6 +190,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
@@ -203,8 +202,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc422b72b1b7ee97",
+  "active": "684d476c2d16ff71",
   "lastOpenFiles": [
+    "z_others/Docker.md",
+    "z_others/구현해 보고 싶은 기능.md",
+    "z_others/Hot-key for windows.md",
+    "z_others/유용한 사이트들.md",
+    "z_others/assets/유용한 사이트들.png",
+    "Linux/WSL.md",
+    "Linux/Home-server/vim 설정.md",
+    "IT_SC_Basic/zsh 설정 관련.md",
+    "z_others/git bash에서 zsh 사용하기.md",
+    "z_others/about CSS position.md",
+    "devhump's TIL Index (data view).md",
     "z_others/assets/image-20230423200206135.png",
     "z_others/assets/image-20230423200248692.png",
     "z_others/assets/image-20230423195951518.png",
@@ -214,14 +224,10 @@
     "z_others/assets/flex-wrap-modify.png",
     "z_others/assets/flex-direction.png",
     "z_others/assets/flexbox axis.png",
-    "z_others/assets/align-items-modify 1.png",
-    "z_others/assets/align-items-modify.png",
     "공부 할 자료 정리.md",
-    "z_others/about CSS position.md",
     "z_others/주피터노트북 in vscode.md",
     "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "Linux/Ubuntu server CLI Command.md",
-    "devhump's TIL Index (data view).md",
     "JS/JS 입문 2 (코딩애플).md",
     "Linux/Linux note.md",
     "z_others/Vim 사용법.md",
@@ -236,13 +242,6 @@
     "JS/jQuery.md",
     "JS/JS 입문 1 (코딩애플).md",
     "z_others/기울기와 절편 그리고 직선의 방정식.md",
-    "JS/무제 파일.md",
-    "z_others/obsidian/LaTeX.md",
-    "z_others/Hot-key for windows.md",
-    "z_others/Hot-key for Mac.md",
-    "JS/JS 기본3 (모던JS).md",
-    "JS/JS 기본2 (모던JS).md",
-    "JS/JS 기본1 (모던JS).md",
     "Linux/assets",
     "Linux/Home-server",
     "Linux/Linux note/assets",

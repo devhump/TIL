@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "구현해 보고 싶은 기능",
+      "path": "z_others/구현해 보고 싶은 기능.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "z_others/Docker.md"
+    },
+    {
+      "basename": "Hot-key for windows",
+      "path": "z_others/Hot-key for windows.md"
+    },
+    {
+      "basename": "유용한 사이트들",
+      "path": "z_others/유용한 사이트들.md"
+    },
+    {
+      "basename": "WSL",
+      "path": "Linux/WSL.md"
+    },
+    {
+      "basename": "vim 설정",
+      "path": "Linux/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "zsh 설정 관련",
+      "path": "IT_SC_Basic/zsh 설정 관련.md"
+    },
+    {
+      "basename": "git bash에서 zsh 사용하기",
+      "path": "z_others/git bash에서 zsh 사용하기.md"
+    },
+    {
       "basename": "about CSS position",
       "path": "z_others/about CSS position.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "공부 할 자료 정리",
@@ -19,10 +55,6 @@
     {
       "basename": "Ubuntu server CLI Command",
       "path": "Linux/Ubuntu server CLI Command.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "JS 입문 2 (코딩애플)",
@@ -81,44 +113,12 @@
       "path": "z_others/obsidian/LaTeX.md"
     },
     {
-      "basename": "Hot-key for windows",
-      "path": "z_others/Hot-key for windows.md"
-    },
-    {
       "basename": "Hot-key for Mac",
       "path": "z_others/Hot-key for Mac.md"
     },
     {
       "basename": "JS 기본3 (모던JS)",
       "path": "JS/JS 기본3 (모던JS).md"
-    },
-    {
-      "basename": "JS 기본2 (모던JS)",
-      "path": "JS/JS 기본2 (모던JS).md"
-    },
-    {
-      "basename": "JS 기본1 (모던JS)",
-      "path": "JS/JS 기본1 (모던JS).md"
-    },
-    {
-      "basename": "10. Event",
-      "path": "KDT/Web/10. Event.md"
-    },
-    {
-      "basename": "09. ECMA Script",
-      "path": "KDT/Web/09. ECMA Script.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "z_others/Docker.md"
-    },
-    {
-      "basename": "WSL",
-      "path": "Linux/WSL.md"
-    },
-    {
-      "basename": "zsh 설정 관련",
-      "path": "IT_SC_Basic/zsh 설정 관련.md"
     }
   ],
   "omittedPaths": [],
