@@ -4,6 +4,7 @@
 - [기울기와 절편 그리고 직선의 방정식](./%EA%B8%B0%EC%9A%B8%EA%B8%B0%EC%99%80%20%EC%A0%88%ED%8E%B8%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%A7%81%EC%84%A0%EC%9D%98%20%EB%B0%A9%EC%A0%95%EC%8B%9D.md)
 - [알고리즘 TIP](./%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20TIP.md)
 - [유용한 사이트들](./%EC%9C%A0%EC%9A%A9%ED%95%9C%20%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%93%A4.md)
+- [인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용)](./%EC%9D%B8%EC%83%9D%EC%97%90%20%EB%8F%84%EC%9B%80%EB%90%98%EB%8A%94%20%EB%A7%A5%EB%B6%81%20%EA%B3%A0%EC%98%A4%EA%B8%89%20%ED%84%B0%EB%AF%B8%EB%84%90%20%EB%AA%85%EB%A0%B9%EC%96%B4%EB%93%A4%20(%EC%9D%BC%EB%B0%98%EC%9D%B8%EC%9A%A9).md)
 - [주피터노트북 in vscode](./%EC%A3%BC%ED%94%BC%ED%84%B0%EB%85%B8%ED%8A%B8%EB%B6%81%20in%20vscode.md)
 - [about CSS position](./about%20CSS%20position.md)
 - **assets**
