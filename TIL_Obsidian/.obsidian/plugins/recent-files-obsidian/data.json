@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "IP address vs Mac Address",
+      "path": "IT_SC_Basic/IP address vs Mac Address.md"
+    },
+    {
+      "basename": "IP 주소의 종류",
+      "path": "IT_SC_Basic/IP 주소의 종류.md"
+    },
+    {
+      "basename": "IT_SC_Basic",
+      "path": "IT_SC_Basic/IT_SC_Basic.md"
+    },
+    {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
     },
@@ -107,18 +119,6 @@
     {
       "basename": "07. Bootstrap Grid System",
       "path": "KDT/Web/07. Bootstrap Grid System.md"
-    },
-    {
-      "basename": "vscode_shortcuts_(mac)",
-      "path": "z_others/vscode_shortcuts_(mac).pdf"
-    },
-    {
-      "basename": "jQuery",
-      "path": "JS/jQuery.md"
-    },
-    {
-      "basename": "JS 입문 1 (코딩애플)",
-      "path": "JS/JS 입문 1 (코딩애플).md"
     }
   ],
   "omittedPaths": [],

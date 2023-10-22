@@ -10,6 +10,7 @@
 - [CLI](./CLI.md)
 - [IaaS vs PaaS vs SaaS](./IaaS%20vs%20PaaS%20vs%20SaaS.md)
 - [IP 주소의 종류](./IP%20%EC%A3%BC%EC%86%8C%EC%9D%98%20%EC%A2%85%EB%A5%98.md)
+- [IP address vs Mac Address](./IP%20address%20vs%20Mac%20Address.md)
 - [OSI 7 Layer vs TCP-IP 4 Layer](./OSI%207%20Layer%20vs%20TCP-IP%204%20Layer.md)
 - [URI & URL](./URI%20&%20URL.md)
 - [XML, JSON, YAML, AJAX](./XML,%20JSON,%20YAML,%20AJAX.md)

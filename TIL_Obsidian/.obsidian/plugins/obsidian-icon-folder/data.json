@@ -46,7 +46,10 @@
   "readme.md": "🌍",
   "devhump's TIL Index (data view).md": "📌",
   "TIL Waypoint.md": "🔥",
-  "z_others": "📥",
+  "z_others": {
+    "iconName": "📥",
+    "inheritanceIcon": "📥"
+  },
   "Linux": {
     "iconName": "🐧",
     "inheritanceIcon": "🐧"

@@ -3,7 +3,8 @@ title :
 aliases : ['IP address']
 tags : [web, protocol]
 ---
-
+##### 관련문서
+- [IP address vs Mac Address](IP%20address%20vs%20Mac%20Address.md)
 #### 공인 IP 주소 vs 사설 IP 주소
 - **공인 IP 주소**는 지구상 어느 것과도 중복되지 않는 고유 IP 주소로, 인터넷 서비스 제공업체에 의해 회사나 개인에게 부여된다. 공인 IP는 어떤 IP와도 중복이 되지 않기 떄문에 웹사이트 같은 서버를 찾기 위한 용도로 사용된다. 또한 외부에 공개된 주소이기 떄문에 검색 엔진에서 IP를 검색해 확인할 수 있다. 
 
