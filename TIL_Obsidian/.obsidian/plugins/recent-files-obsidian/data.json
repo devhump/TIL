@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Ubuntu server CLI Command",
+      "path": "Linux/Ubuntu server CLI Command.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
       "basename": "IP address vs Mac Address",
       "path": "IT_SC_Basic/IP address vs Mac Address.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "IT_SC_Basic",
       "path": "IT_SC_Basic/IT_SC_Basic.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용)",
@@ -83,10 +87,6 @@
     {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
-    },
-    {
-      "basename": "Ubuntu server CLI Command",
-      "path": "Linux/Ubuntu server CLI Command.md"
     },
     {
       "basename": "JS 입문 2 (코딩애플)",

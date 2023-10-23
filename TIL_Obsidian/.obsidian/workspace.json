@@ -34,9 +34,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e211c63a1dd55bae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Ubuntu server CLI Command.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 242.5
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT_SC_Basic/IP address vs Mac Address.md"
+                "file": "Linux/Ubuntu server CLI Command.md"
               }
             }
           },
@@ -140,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT_SC_Basic/IP address vs Mac Address.md",
+                "file": "Linux/Ubuntu server CLI Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT_SC_Basic/IP address vs Mac Address.md",
+                "file": "Linux/Ubuntu server CLI Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,12 +215,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a46d5196f5038f80",
+  "active": "e211c63a1dd55bae",
   "lastOpenFiles": [
-    "IT_SC_Basic/IP 주소의 종류.md",
-    "IT_SC_Basic/IP address vs Mac Address.md",
-    "IT_SC_Basic/IT_SC_Basic.md",
     "devhump's TIL Index (data view).md",
+    "IT_SC_Basic/IP address vs Mac Address.md",
+    "IT_SC_Basic/IP 주소의 종류.md",
+    "IT_SC_Basic/IT_SC_Basic.md",
     "z_others/인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용).md",
     "z_others/assets/image-20231020105713019.png",
     "z_others/assets/image-20231020105640880.png",
