@@ -23,26 +23,28 @@
             }
           },
           {
-            "id": "a46d5196f5038f80",
+            "id": "93413e7b33b037f5",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT_SC_Basic/IP address vs Mac Address.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e211c63a1dd55bae",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Linux/Ubuntu server CLI Command.md",
                 "mode": "preview",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "517249fdc91658c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Ubuntu server CLI Command.md"
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
               }
             }
           },
@@ -152,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Ubuntu server CLI Command.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Ubuntu server CLI Command.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,10 +217,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e211c63a1dd55bae",
+  "active": "517249fdc91658c1",
   "lastOpenFiles": [
-    "devhump's TIL Index (data view).md",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-8.png",
+    "Node.js & MongoDB/Node.js & MongoDB 1.md",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-7.png",
+    "Linux/Ubuntu server CLI Command.md",
+    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "IT_SC_Basic/IP address vs Mac Address.md",
+    "devhump's TIL Index (data view).md",
     "IT_SC_Basic/IP 주소의 종류.md",
     "IT_SC_Basic/IT_SC_Basic.md",
     "z_others/인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용).md",
@@ -229,11 +236,9 @@
     "z_others/assets/image-20231020105530481.png",
     "z_others/assets/image-20231020111456091.png",
     "z_others/obsidian/Obsidian setting - Community plugin.md",
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-6.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-5.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-4.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-3.png",
     "Node.js & MongoDB/assets",
     "z_others/Hot-key for windows.md",
     "z_others/주피터노트북 in vscode.md",
@@ -249,12 +254,9 @@
     "z_others/git bash에서 zsh 사용하기.md",
     "z_others/about CSS position.md",
     "공부 할 자료 정리.md",
-    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
-    "Linux/Ubuntu server CLI Command.md",
     "JS/JS 입문 2 (코딩애플).md",
     "Linux/Linux note.md",
     "z_others/Vim 사용법.md",
-    "Linux/Linux.md",
     "assets",
     "z_others/vscode_shortcuts_(mac).pdf",
     "Linux/assets",

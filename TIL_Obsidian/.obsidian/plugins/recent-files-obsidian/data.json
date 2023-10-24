@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Node.js & MongoDB 1",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+    },
+    {
       "basename": "Ubuntu server CLI Command",
       "path": "Linux/Ubuntu server CLI Command.md"
     },
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "IP address vs Mac Address",
       "path": "IT_SC_Basic/IP address vs Mac Address.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "IP 주소의 종류",
@@ -27,10 +35,6 @@
     {
       "basename": "Obsidian setting - Community plugin",
       "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
-    },
-    {
-      "basename": "Node.js & MongoDB 1",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
       "basename": "Hot-key for windows",
@@ -83,10 +87,6 @@
     {
       "basename": "공부 할 자료 정리",
       "path": "공부 할 자료 정리.md"
-    },
-    {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "JS 입문 2 (코딩애플)",
