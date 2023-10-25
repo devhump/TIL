@@ -3,7 +3,7 @@ tags:
   - CodingApple/NodejsMongoDB
 ---
 ### 남자라면 서버개발을 할 줄 알아야함
-![](assets/Node.js%20&%20MongoDB%201.png)
+![](assets/Node.js%20&%20MongoDB%201-23.png)
 - ▲ 웹서비스를 하나 만들고 싶으면 일단 웹페이지가 필요합니다.<br>이건 html css javascript 쓰면 쉽게 만들 수 있는데<br>근데 이거 프론트엔드 껍데기만으로는 아무것도 할 수 없습니다.
 - 👉 실제 동작하는 나만의 서비스를 만들고 싶으면 *서버기능*이 필요합니다.
 
@@ -21,14 +21,14 @@ tags:
 ### 서버개발자가 짜는 코드
 - 서버개발 어떻게 하는 거냐면<br>모든 웹서비스는 요청하면 응답해주는 식으로 이루어져있습니다.
 
-![](assets/Node.js%20&%20MongoDB%201-1.png)
+![](assets/Node.js%20&%20MongoDB%201.png)
 
 - 예를 들어서 웹툰을 보고싶으면 어떻게해요? 
 - 가만히 있는데 네이버가 갑자기 웹툰을 보내주진 않습니다. 
 - 여러분이 네이버 웹툰 들어가서 이거저거 눌러서 네이버웹툰 서버에 웹툰 좀 달라고 요청하죠?
 - 그럼 서버가 웹툰을 보내줍니다.
 
-![](assets/Node.js%20&%20MongoDB%201-2.png)
+![](assets/Node.js%20&%20MongoDB%201-24.png)
 
 - 유튜브 영상을 보고싶으면 어떻게해요?
 - 유튜브 들어가서 이거저거 눌러서 영상 달라고 유튜브 서버에다가 요청합니다. 
@@ -64,9 +64,9 @@ tags:
 	1. 이 강의 목적은 여러분들 이해시켜서 혼자 코드짤 수 있는 사람만드는거라 최대한 쉽고 간단한 프로젝트를 해야하고 
 	2. 어짜피 다른 웹서비스를 만들고 싶어도 웹서비스의 99%는 게시판이랑 기능이 똑같습니다.
 
-![](assets/Node.js%20&%20MongoDB%201-3.png)
+![](assets/Node.js%20&%20MongoDB%201-25.png)
 
-![](assets/Node.js%20&%20MongoDB%201-4.png)
+![](assets/Node.js%20&%20MongoDB%201-26.png)
 
 #### 필요한 사전지식 
 - html css 기초
@@ -107,14 +107,14 @@ tags:
 - 거의 모든 프로그래밍 언어는 차례로 한 줄 한 줄 실행되기 때문에<br>영화예매 서비스를 만들어도 기본적으로 그렇게 동작합니다.
 
 ##### 일반적인 서버의 경우
-![](assets/Node.js%20&%20MongoDB%201-5.png)
+![](assets/Node.js%20&%20MongoDB%201-27.png)
 
 - 근데 이렇게 하면 문제가 있습니다. <br>예를 들어 영화표 발급해주는데 1초 걸리는데<br>200장을 예매하는 미친놈이 있으면 어떻게 되죠? <br>이놈 처리하는데 200초가 소요되겠군요.
 
 - 근데 이러면 뒤에 있던 고객도 200초를 대기해야하는 불상사가 일어납니다.  <br>👉 그래서 서버 대충만들면 중간중간 어려운 요청이 들어오면 서버 기능이 전체적으로 느려질 수 있습니다. 
 
 ##### Node.js의 경우 (Non-blocking I/O)
-![](assets/Node.js%20&%20MongoDB%201-6.png)
+![](assets/Node.js%20&%20MongoDB%201-28.png)
 
 - 근데 Node.js를 사용해서 서버를 만들어놓은 경우 어떤 식으로 처리를 해주냐면 
 	1. 우선 유저들이 들어오면 요청부터 전부 받습니다 
@@ -184,7 +184,7 @@ app.get('/', (요청, 응답) => {
 }) 
 ```
 
-![](assets/Node.js%20&%20MongoDB%201-7.png)
+![](assets/Node.js%20&%20MongoDB%201-29.png)
 
 - 이제 express 라이브러리를 이용해서 쉽게 서버를 만들어볼 수 있습니다.
 - 대충 설명하자면
@@ -233,7 +233,7 @@ sudo npm install express
 **4. 윈도우도 npm으로 뭐 할때 권한이 없다 어쩌구 에러**  
 - 그럼 powershell을 관리자 권한으로 열어서 실행하면 됩니다.
 
-![](assets/Node.js%20&%20MongoDB%201-8.png)
+![](assets/Node.js%20&%20MongoDB%201-30.png)
 
 - ▲ 직접 작업폴더로 들어가서 상단에서 파일 - PowerShell 열기 - 관리자권한으로 PowerShell 열기 눌러서 터미널을 엽니다.<br>이렇게 연 다음에 npm install 어쩌구가 되면 앞으로 터미널에서 뭐 하라고 하면 터미널 이렇게 켜서 사용합시다. 
 
@@ -260,7 +260,7 @@ app.get('/어쩌구', (요청, 응답)=>{
 
 - 새로운 페이지를 하나 만들고 싶으면 express문법으로 이렇게 작성하면 됩니다.<br>`/어쩌구` 부분은 자유롭게 작명하고 보내줄 내용 부분도 알아서 작성하면 끝입니다.
 
-![](assets/Node.js%20&%20MongoDB%201-9.png)
+![](assets/Node.js%20&%20MongoDB%201-31.png)
 
 ```js
 app.get('/news', (요청, 응답)=>{
@@ -409,7 +409,7 @@ nodemon server.js
 
 #### static파일 (css파일) 첨부하기
 - html에 디자인을 넣고 싶으면 css 파일에 작성하는게 일반적인데 <br>css 파일 하나 만들고 디자인 열심히 한 다음에 html 파일에 넣어서 쓰면 됩니다. 
-![](assets/Node.js%20&%20MongoDB%201-10.png)
+![](assets/Node.js%20&%20MongoDB%201-32.png)
 
 - ▲ css 파일처럼 쓸데없는 파일이나 이미지는 public 폴더같은 곳에 넣어두는게 일반적입니다. 
 - 이제 html 파일에서 css 파일을 가져다가 쓰고 싶으면 `<link> 태그` 추가하면 되는데 <br>근데 여기까지만 하면 아마 css 반영이 안될걸요 <br>왜냐면 css, 이미지, js 파일들을 html 안에서 사용하고 싶으면<br>우선 그게 들어있는 폴더를 **서버에 등록**부터 해놔야합니다.
@@ -456,7 +456,7 @@ body {
 
 #### Bootstrap
 - 혼자서 웹개발하는 분들에게 유용한거 하나 소개하자면 <br>내가 css 디자인 실력이 없으면 html css 레이아웃짜라고 하면 손발이 벌벌 떨릴텐데  <br>좀 쉽게 웹페이지 디자인을 하고 싶으면 css 라이브러리 설치해서 사용해도 됩니다.<br>가장 유명한게 Bootstrap입니다.
-![](assets/Node.js%20&%20MongoDB%201-11.png)
+![](assets/Node.js%20&%20MongoDB%201-33.png)
 
 - https://getbootstrap.com/
 
@@ -500,13 +500,13 @@ Q. 저는 색이 마음에 안드는데요?
 #### 데이터베이스 종류 
 - 그래서 여러가지 데이터베이스들 중에 하나 고르면 되는데<br>데이터베이스는 크게 두가지 종류가 있는데<br>관계형 & 비관계형 데이터베이스가 있습니다
 
-![](assets/Node.js%20&%20MongoDB%201-17.png)
+![](assets/Node.js%20&%20MongoDB%201-34.png)
 
 - 관계형 데이터베이스들은 그냥 엑셀이랑 똑같습니다. <br>표가 하나 있고 거기다가 데이터를 한줄한줄 차례로 보관하면 됩니다.<br>관계형 데이터베이스를 쓰고 싶으면 DBMS를 설치하면 되는데 <br>MySQL, PostgreSQL, Oracle, SQLite, MSSQL<br>이런거 중에 하나 골라서 사용하면 됩니다.<br>한국에선 MySQL, PostgreSQL, Oracle 점유율이 높습니다.
 
 - 근데 관계형 데이터베이스를 쓰면 <br>데이터를 입출력할 때 SQL이라는 언어를 사용해서 입출력해야하는게 좀 귀찮은 점이고 데이터를 저장할 때 그냥저장하는게 아니라 **정규화**라는걸 해서 저장합니다.
 
-![](assets/Node.js%20&%20MongoDB%201-18.png)
+![](assets/Node.js%20&%20MongoDB%201-35.png)
 
 - ▲ 손흥민이라는 데이터는 부분은 현재 테이블과 관련없으니<br>다른 테이블로 쪼개고 있습니다. 
 - 현재 테이블의 주제와 맞지 않는 것들을 다른 테이블로 분리하는 작업을 있어보이는 말로 **정규화**라고 합니다.<br>그리고 그걸 해놔야 나중에 데이터가 정확도가 높아집니다. 
@@ -515,7 +515,7 @@ Q. 저는 색이 마음에 안드는데요?
 
 - 비관계형 데이터베이스는 <br>좀 더 자유로운 형식으로 데이터를 저장할 수 있게 만든 데이터베이스인데<br>예를 들어 Redis는 `{ 데이터이름 : 데이터값 }` 형식으로 데이터를 저장할 수 있고 <br>MongoDB도 그거랑 유사하게 데이터를 저장할 수 있습니다.
 
-![](assets/Node.js%20&%20MongoDB%201-19.png)
+![](assets/Node.js%20&%20MongoDB%201-36.png)
 
 - 그리고 테이블 쪼개기인 정규화를 안하고 저장하는게 권장사항이라서<br>데이터를 입출력할 때 생각할게 없어서 굉장히 빨리 할 수 있습니다.
 - 근데 그 대신 데이터의 정확도가 떨어지고<br>정규화를 안해놨다면 나중에 이름같은거 하나를 수정삭제하고 싶으면 수많은 부분을 수정해야하기 때문에 그런 것들이 귀찮을 수 있습니다. 
@@ -523,17 +523,17 @@ Q. 저는 색이 마음에 안드는데요?
 
 - 근데 항상 정확도가 중요하면 관계형,<br>입출력빠른게 중요하면 비관계형<br>이렇게 나눌 수 없는게<br>여러분이 데이터베이스를 어떻게 쓰냐에 따라서 다를 수도 있어서<br>그냥 경향만 그렇구나라고 아시면 될거같습니다.  <br>MongoDB도 정규화를 하면서 정확도높게 쓸 수 있습니다.<br>%%근데 살짝 비효율적일 뿐임%% 
 
-![](assets/Node.js%20&%20MongoDB%201-12.png)
+![](assets/Node.js%20&%20MongoDB%201-37.png)
 
-![](assets/Node.js%20&%20MongoDB%201-13.png)
+![](assets/Node.js%20&%20MongoDB%201-38.png)
 
 - 그래서 우리는 이 중에 MongoDB를 사용해보도록 할건데  <br>왜냐면 SQL같은 언어를 배울 필요도 없고 정규화, 테이블스키마생성 그런걸 안해도 되어서 매우 쓰기 쉽습니다. 
 
 - 그리고 MongoDB는 document 데이터베이스라고 부르기도 하는데<br>왜냐면 데이터를 어떤 식으로 저장하냐면<br>우선 collection을 만들고 그안에 document를 만들어서 거기 데이터를 기록해놓습니다.
 
-![](assets/Node.js%20&%20MongoDB%201-14.png)
+![](assets/Node.js%20&%20MongoDB%201-39.png)
 
-![](assets/Node.js%20&%20MongoDB%201-15.png)
+![](assets/Node.js%20&%20MongoDB%201-40.png)
 - ▲ 예를 들면 유저들의 이름과 나이를 저장하고 싶으면 이렇게 저장합니다.<br>비유를 하자면 collection은 폴더, document는 파일하나라고 생각하면 되겠습니다. 
 - 관계형 데이터베이스로 비유하면 collection은 테이블, document는 하나의 행임 <br>근데 document에다가 데이터를 기록해놓는데<br>실은 자바스크립트 object자료랑 똑같은 모습으로 기록합니다. 
 - 그래서 자바스크립트 코드짜던거 그대로 데이터베이스에 밀어넣을 수 있어서 매우 저장과 출력이 편리합니다.
@@ -554,6 +554,89 @@ Q. 저는 색이 마음에 안드는데요?
 
 - 셋팅이 완료되면 collection 아니면 create 버튼이 어딘가에 있을텐데 눌러서 데이터베이스를 하나 만들어봅시다.
 
-![](assets/Node.js%20&%20MongoDB%201-20.png)
+![](assets/Node.js%20&%20MongoDB%201-41.png)
 
 - database는 하나의 프로젝트같은 것이고 이름은 맘대로 작명하면 되는데<br>저는 게시판을 만들어볼 것이니 **forum**이라고 할겁니다.  <br>그 안에 collection도 하나 만들라고 하는데 저는 **post**라고 이름지어보겠습니다. <br>그럼 이제 요런 post라는 컬렉션 안에 맘대로 document들을 발행해서 데이터를 저장할 수 있습니다.<br>다음 시간엔 데이터 몇개 저장해놓고 그걸 원할 때 출력해서 보여주는 법을 알아봅시다.
+
+
+### MongoDB와 서버 연결하려면
+- DB에 글을 저장할 준비가 다 된 것 같은데 <br>DB에 데이터 입출력은 누가합니까?<br>유저가 직접 글을 DB에 집어넣고 그러면 편할거같은데 <br>그렇게 해버리면 3일 후에 금방 서비스 종료하는 것입니다.
+
+- 유저에게 다이렉트로 DB 입출력 권한을 주면<br>유저가 DB에 이상한 짓을 하면 큰일나기 때문에<br>중간에 검열하는 친구가 하나 필요합니다.
+
+![](assets/Node.js%20&%20MongoDB%201-42.png)
+
+- 중간에서 이거저거 검사하는 역할은 서버가 담당합니다. <br>예를 들어 글을 하나 DB에 저장하고 싶으면 
+	1. 유저가 서버로 게시물을 보내고 
+	2. 서버는 그걸 검열해본 후 DB에 저장시켜주면 됩니다.
+- 오늘은 서버가 DB와 통신하는 법을 좀 알아보도록 합시다.
+
+#### 서버와 MongoDB 연결
+- 서버 프로젝트에서 mongodb를 연결하고 싶으면 <br>일단 mongodb 라이브러리를 설치합시다.
+```shell
+npm install mongodb@5
+```
+
+```js
+const { MongoClient } = require('mongodb')
+
+let db
+const url = 'mongodb사이트에 있던 님들의 DB 접속 URL'
+new MongoClient(url).connect().then((client)=>{
+  console.log('DB연결성공')
+  db = client.db('forum')
+}).catch((err)=>{
+  console.log(err)
+})
+```
+
+- 그리고 이런 코드를 서버파일 상단쯤에 추가합니다. <br>그러면 mongodb 라이브러리 셋팅 끝 <br>간단히 설명하면 님들이 호스팅받은 mongodb에 접속하고 접속 결과를 db라는 변수에 저장했을 뿐입니다.<br>mongodb 라이브러리 사용법이라 굳이 이해할 필요 없습니다.
+
+![](assets/Node.js%20&%20MongoDB%201-47.png)
+- ▲ DB접속 URL은 어딨냐면 mongodb 사이트가서 connect 버튼이 어딘가 있을텐데 눌러서 Driver를 선택해봅시다.
+
+```js
+mongodb+srv://DB접속아이디:DB접속비번@cluster0.jea.mongodb.net/?retryWrites=true&w=majority 
+```
+
+- 그러면 대충 이렇게 생긴게 나오는데 이게 DB접속용 URL입니다.<br>근데 DB접속용 아이디 / 비번자리에 여러분이 만든 **DB접속용 아이디 / 비번**을 잘 집어넣읍시다.<br>mongodb.com 로그인할 때 쓰는 아이디 비번 아님
+
+##### DB접속 URL 관련 참고
+![](assets/Node.js%20&%20MongoDB%201-43.png)
+
+![](assets/Node.js%20&%20MongoDB%201-44.png)
+
+![](assets/Node.js%20&%20MongoDB%201-45.png)
+
+
+![](assets/Node.js%20&%20MongoDB%201-46.png)
+
+```js
+const { MongoClient } = require('mongodb')
+
+let db
+const url = 'mongodb사이트에 있던 님들의 접속 URL'
+new MongoClient(url).connect().then((client)=>{
+  console.log('DB연결성공')
+  db = client.db('forum')
+
+  app.listen(8080, () => {
+    console.log('http://localhost:8080 에서 서버 실행중')
+  })
+
+}).catch((err)=>{
+  console.log(err)
+})
+```
+
+- 그리고 app.listen() 이런 코드도 여기 안으로 옮기는게 좀 더 안정적일 수 있습니다. <br>DB접속이 완료 되어야 서버를 띄우는게 좋아보여서요. 
+
+- 진짜 잘 되는지 테스트해보고 싶으면<br>아무 app.get 안에서 db에 데이터저장하는 코드 하나만 써보도록 합시다.<br>그리고 그 `/url`로 접속해서 진짜 DB에 뭔가 저장되나 확인해봅시다.
+
+```js
+app.get('/news', ()=>{
+  db.collection('post').insertOne({title : '어쩌구'})
+})
+```
+
+- 대충 이렇게 코드 짜고 `/news` 페이지로 접속하면 진짜로 DB에 뭔가 저장되어있을걸요<br>근데 하지마십쇼 DB들어가서 임시데이터들 지우기 귀찮음<br>다음시간엔 DB데이터 출력해서 보여주는 법을 알아보도록 합시다.
