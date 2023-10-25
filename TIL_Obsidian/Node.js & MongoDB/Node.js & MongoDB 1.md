@@ -366,7 +366,122 @@ app.get('/', function(요청, 응답) {
 
 ```ad-todo
 오늘의 숙제 :
-누가 /about으로 접속하면 여러분이 누군지 대충 소개하는 html 파일을 보내줍시다.
+누가 `/about`으로 접속하면 여러분이 누군지 대충 소개하는 html 파일을 보내줍시다.
 그럼 html 파일도 하나 더 필요하겠죠?
 쉬워서 답은 없음 
+```
+
+```js
+app.get("/about", function (요청, 응답) {
+  응답.sendFile(__dirname + "/about.html");
+});
+```
+
+```html
+<!-- about.html --> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello, This is Ramy Jo page</h1>
+  </body>
+</html>
+
+```
+
+
+### 웹페이지에 디자인 넣으려면
+- 이쯤되면 귀찮은 점이 하나 있을텐데  <br>소스코드를 수정했을 경우 `ctrl + c` 눌러서 터미널에 실행하던걸 끄고 <br>다시 `node server.js`를 입력해야 수정사항을 미리볼 수 있습니다. <br>매번 입력하는게 귀찮으면 `nodemon` 사용하면 됩니다. 
+
+- 터미널 열어서 실행되고있던거 `ctrl + c` 눌러서 끄고
+
+```shell
+npm install -g nodemon
+
+nodemon server.js
+```
+
+- 그럼 이제 서버파일을 띄울 때 node말고 nodemon server.js 이렇게 입력해둘 수 있는데<br>그러면 소스코드를 변경 후 파일저장하면 얘가 알아서 서버도 재시작해줍니다. <br>이제 코드짜고 저장만 하면 끝임
+
+#### static파일 (css파일) 첨부하기
+- html에 디자인을 넣고 싶으면 css 파일에 작성하는게 일반적인데 <br>css 파일 하나 만들고 디자인 열심히 한 다음에 html 파일에 넣어서 쓰면 됩니다. 
+![](assets/Node.js%20&%20MongoDB%201-10.png)
+
+- ▲ css 파일처럼 쓸데없는 파일이나 이미지는 public 폴더같은 곳에 넣어두는게 일반적입니다. 
+- 이제 html 파일에서 css 파일을 가져다가 쓰고 싶으면 `<link> 태그` 추가하면 되는데 <br>근데 여기까지만 하면 아마 css 반영이 안될걸요 <br>왜냐면 css, 이미지, js 파일들을 html 안에서 사용하고 싶으면<br>우선 그게 들어있는 폴더를 **서버에 등록**부터 해놔야합니다.
+
+```js
+app.use(express.static(__dirname + '/public'));
+```
+
+- public폴더안에 있는 파일들을 html에서 가져다가 쓰고 싶으면 <br>서버파일에 app.use라는 문법으로 public 폴더를 등록해놔야합니다. 
+- 그럼 이제 public 폴더안에 있는 css파일 이미지파일 js파일은 전부 html에서 가져다가 쓸 수 있습니다. 
+- 참고로 css, js, 이미지 파일들을 static 파일들이라고 부릅니다. 
+
+```html
+<link href="/main.css" rel="stylesheet">
+```
+- 그럼 이제 html 파일에서 css 파일을 첨부해서 사용할 수 있습니다.
+
+#### 상단메뉴 만들기 
+```html
+<div class="nav">
+    <a class="logo">AppleForum</a>
+    <a>Page1</a>
+    <a>Page2</a>
+</div> 
+```
+
+```css
+body {
+  margin: 0;
+}
+.nav {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  background : white;
+}
+.nav a {
+  margin-right: 10px;
+}
+.logo {
+  font-weight: bold;
+}
+```
+
+#### Bootstrap
+- 혼자서 웹개발하는 분들에게 유용한거 하나 소개하자면 <br>내가 css 디자인 실력이 없으면 html css 레이아웃짜라고 하면 손발이 벌벌 떨릴텐데  <br>좀 쉽게 웹페이지 디자인을 하고 싶으면 css 라이브러리 설치해서 사용해도 됩니다.<br>가장 유명한게 Bootstrap입니다.
+![](assets/Node.js%20&%20MongoDB%201-11.png)
+
+- https://getbootstrap.com/
+
+- 대충 설치법은<br>사이트 들어가면 docs 버튼같은게 있는데 누르면 설치방법같은게 나옵니다. 
+	1. 거기서 bootstrap.css 파일을 찾아서 html파일의 `<head>` 태그 안에 첨부하고 
+	2. bootstrap.js 파일을 찾아서 html파일의 `<body>`태그 끝나기 전에 첨부하면 설치 끝입니다. 
+- 그럼 이 html 파일에서 복붙식으로 UI 개발이 가능합니다
+
+##### Bootstrap CDN
+```html
+<!-- bootstrap.css -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+```
+
+```html
+<!-- bootstrap.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+```
+
+
+```ad-tip
+Q. 저는 색이 마음에 안드는데요?
+- 당연히 디자인을 그대로 써야하는게 아니라 
+수정하려면 여러분만의 클래스명 만들어서 붙이면 끝입니다.
+처음부터 모든걸 쌩으로 만드는 것 보다
+이렇게 기본 스타일에서 수정해서 쓰는게 더 빠르고 쉽습니다.
+다만 bootstrap의 css 파일, js 파일 용량이 커서 이런건 손해일 수 있습니다. 
 ```
