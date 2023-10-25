@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 242.5,
+    "collapsed": true
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -219,6 +220,7 @@
   },
   "active": "517249fdc91658c1",
   "lastOpenFiles": [
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-9.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-8.png",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-7.png",
@@ -238,7 +240,6 @@
     "z_others/obsidian/Obsidian setting - Community plugin.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-6.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-5.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-4.png",
     "Node.js & MongoDB/assets",
     "z_others/Hot-key for windows.md",
     "z_others/주피터노트북 in vscode.md",
