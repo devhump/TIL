@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Hot-key for windows",
+      "path": "z_others/Hot-key for windows.md"
+    },
+    {
       "basename": "Node.js & MongoDB 1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Obsidian setting - Community plugin",
       "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
-    },
-    {
-      "basename": "Hot-key for windows",
-      "path": "z_others/Hot-key for windows.md"
     },
     {
       "basename": "주피터노트북 in vscode",
