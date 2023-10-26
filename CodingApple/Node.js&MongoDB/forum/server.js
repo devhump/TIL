@@ -37,3 +37,9 @@ app.get("/shop", function (요청, 응답) {
 app.get("/about", function (요청, 응답) {
   응답.sendFile(__dirname + "/about.html");
 });
+
+app.get("/list", async (요청, 응답) => {
+  let result = await db.collection("post").find().toArray();
+  console.log(result);
+  응답.send("DB에 있던 게시물");
+});

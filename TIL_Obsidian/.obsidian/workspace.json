@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_others/Hot-key for windows.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hotkey",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,12 +105,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 242.5,
+    "collapsed": true
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_others/Hot-key for windows.md"
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_others/Hot-key for windows.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_others/Hot-key for windows.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,17 +220,19 @@
   },
   "active": "517249fdc91658c1",
   "lastOpenFiles": [
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-58.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-57.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-56.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-55.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-54.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-53.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-52.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-51.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-50.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-49.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-48.png",
+    "z_others/Hot-key for windows.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-47.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-43.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-46.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-45.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-44.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-21.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-42.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-41.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-16.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-36.png",
     "Linux/Ubuntu server CLI Command.md",
     "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "IT_SC_Basic/IP address vs Mac Address.md",
@@ -240,7 +242,6 @@
     "z_others/인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용).md",
     "z_others/obsidian/Obsidian setting - Community plugin.md",
     "Node.js & MongoDB/assets",
-    "z_others/Hot-key for windows.md",
     "z_others/주피터노트북 in vscode.md",
     "z_others/Hot-key for Mac.md",
     "z_others/Hot-key (IDE).md",
