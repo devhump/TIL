@@ -1,8 +1,13 @@
 ---
 tags:
   - ubuntu
+  - HomeServer
+  - Linux
 ---
-- [Ubuntu server CLI Command](../Ubuntu%20server%20CLI%20Command.md)
+```dataview
+list from #HomeServer
+```
+### tldr
 
 ```ad-note
 - [SSH (Secure Shell)을 사용한 원격 관리](#SSH%20(Secure%20Shell)%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%9C%20%EC%9B%90%EA%B2%A9%20%EA%B4%80%EB%A6%AC)
@@ -143,6 +148,12 @@ sudo iptables -P FORWARD DROP
 ```shell
 sudo ufw allow 137,138/udp
 sudo ufw allow 139,445/tcp
+
+sudo iptables -A INPUT -p tcp --dport 139 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 445 -j ACCEPT
+
+sudo iptables -A INPUT -p udp --dport 137 -j ACCEPT
+sudo iptables -A INPUT -p udp --dport 445 -j ACCEPT
 ```
 
 - 실제 나의 시스템에서 쓰는 포트 확인

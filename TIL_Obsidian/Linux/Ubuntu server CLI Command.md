@@ -1,9 +1,16 @@
 ---
 tags:
   - ubuntu
+  - HomeServer
+  - Linux
 ---
 
 #### 관련 문서
+
+##### HomeServer
+```dataview
+list from #HomeServer
+```
 ##### ubuntu
 ```dataview
 list from #ubuntu 
@@ -109,8 +116,7 @@ sudo timedatectl set-timezone Asia/Seoul
 
 - SAMBA 설정
 	- [# 🐧 삼바(SAMBA) 설치 & 설정 방법 [리눅스 ↔ 윈도우]](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%EC%82%BC%EB%B0%94SAMBA-%EC%84%A4%EC%B9%98-%EC%84%A4%EC%A0%95-%E2%80%BB-%EC%B4%9D%EC%A0%95%EB%A6%AC)
-- samba 포트 번호
-```shell
-sudo ufw allow 137,138/udp
-sudo ufw allow 139,445/tcp
-```
+	- [[SMB(Samba)]]
+- [[Ubuntu 20.04] 우분투 서버에 Plex 미디어 스트리밍 서버 구축기](https://shanepark.tistory.com/391)
+
+- [6. 우분투 토렌트 서버 구축하기 (transmission-daemon)](https://blog.djjproject.com/54)

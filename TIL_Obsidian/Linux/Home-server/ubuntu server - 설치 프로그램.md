@@ -1,3 +1,14 @@
+---
+tags:
+  - Linux
+  - HomeServer
+---
+```dataview
+list from #HomeServer
+```
+### tldr
+
+
 - 모니터링 툴
 ```shell
 dstat

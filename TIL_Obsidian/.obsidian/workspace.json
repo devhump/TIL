@@ -38,20 +38,59 @@
             }
           },
           {
-            "id": "517249fdc91658c1",
+            "id": "c1e20fdcb2c29281",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Linux/Home-server/ubuntu server - 설치 프로그램.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23068b0566931e93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Home-server/vim 설정.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "caa854c43d32dc99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/SMB(Samba).md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8187125e9c03bf8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z_others/obsidian/Obsidian setting - Community plugin.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -105,12 +144,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 242.5
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -126,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+                "file": "Linux/SMB(Samba).md"
               }
             }
           },
@@ -155,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Linux/SMB(Samba).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Linux/SMB(Samba).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,8 +257,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "517249fdc91658c1",
+  "active": "caa854c43d32dc99",
   "lastOpenFiles": [
+    "Linux/Ubuntu server CLI Command.md",
+    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+    "Linux/Home-server/ubuntu server - 설치 프로그램.md",
+    "Linux/SMB(Samba).md",
+    "Linux/Linux 최신 명령어.md",
+    "z_others/obsidian/Obsidian setting - Community plugin.md",
+    "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
+    "IT_SC_Basic/zsh 설정 관련.md",
+    "z_others-Ramy의 MacBook Pro/obsidian/assets",
+    "z_others-Ramy의 MacBook Pro/obsidian/assets",
+    "z_others-Ramy의 MacBook Pro/obsidian",
+    "Linux/Home-server/vim 설정.md",
+    "Linux/Linux.md",
+    "Node.js & MongoDB/Node.js & MongoDB 1.md",
+    "HTML_CSS-Ramy의 MacBook Pro",
+    "IT_SC_Basic-Ramy의 MacBook Pro",
+    "z_others/assets/image-20230423200235906.png",
+    "KDT/Web-Ramy의 MacBook Pro/assets",
+    "KDT/Python-Ramy의 MacBook Pro/assets",
+    "KDT/Algorithm/assets-Ramy의 MacBook Pro",
+    "KDT/Web-Ramy의 MacBook Pro/assets",
+    "KDT/Python-Ramy의 MacBook Pro/assets",
+    "Linux/Linux note.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-58.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-57.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-56.png",
@@ -229,42 +291,19 @@
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-52.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-51.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-50.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-49.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-48.png",
     "z_others/Hot-key for windows.md",
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "Linux/Ubuntu server CLI Command.md",
-    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "IT_SC_Basic/IP address vs Mac Address.md",
     "devhump's TIL Index (data view).md",
     "IT_SC_Basic/IP 주소의 종류.md",
     "IT_SC_Basic/IT_SC_Basic.md",
     "z_others/인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용).md",
-    "z_others/obsidian/Obsidian setting - Community plugin.md",
-    "Node.js & MongoDB/assets",
     "z_others/주피터노트북 in vscode.md",
     "z_others/Hot-key for Mac.md",
     "z_others/Hot-key (IDE).md",
     "z_others/구현해 보고 싶은 기능.md",
-    "Node.js & MongoDB",
     "z_others/Docker.md",
     "z_others/유용한 사이트들.md",
     "Linux/WSL.md",
-    "Linux/Home-server/vim 설정.md",
-    "IT_SC_Basic/zsh 설정 관련.md",
-    "z_others/git bash에서 zsh 사용하기.md",
-    "z_others/about CSS position.md",
-    "공부 할 자료 정리.md",
-    "JS/JS 입문 2 (코딩애플).md",
-    "Linux/Linux note.md",
-    "z_others/Vim 사용법.md",
-    "assets",
-    "z_others/vscode_shortcuts_(mac).pdf",
-    "Linux/assets",
-    "Linux/Home-server",
-    "Linux/Linux note/assets",
-    "Linux/Linux note",
-    "Linux",
-    "Clippings"
+    "z_others/git bash에서 zsh 사용하기.md"
   ]
 }
