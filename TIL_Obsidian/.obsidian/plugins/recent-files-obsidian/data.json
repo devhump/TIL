@@ -5,6 +5,10 @@
       "path": "Linux/Ubuntu server (main).md"
     },
     {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
       "basename": "ubuntu server - 설치 프로그램",
       "path": "Linux/Home-server/ubuntu server - 설치 프로그램.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "IP address vs Mac Address",
       "path": "IT_SC_Basic/IP address vs Mac Address.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "IP 주소의 종류",

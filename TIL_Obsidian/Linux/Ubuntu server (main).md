@@ -33,8 +33,11 @@ journalctl -f
 sudo fail2ban-client status sshd
 sudo systemctl status fail2ban
 
-#프로그램 삭
+#프로그램 삭제
 sudo apt-get --purge remove program
+
+#파일/dir 모드 변경
+chmod 777 /dev
 ```
 
 ##### 매뉴얼 확인
