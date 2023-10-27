@@ -29,68 +29,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Ubuntu server CLI Command.md",
-                "mode": "preview",
+                "file": "Linux/Ubuntu server (main).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "c1e20fdcb2c29281",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Home-server/ubuntu server - 설치 프로그램.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23068b0566931e93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Home-server/vim 설정.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "caa854c43d32dc99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/SMB(Samba).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8187125e9c03bf8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z_others/obsidian/Obsidian setting - Community plugin.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/SMB(Samba).md"
+                "file": "Linux/Ubuntu server (main).md"
               }
             }
           },
@@ -194,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/SMB(Samba).md",
+                "file": "Linux/Ubuntu server (main).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/SMB(Samba).md",
+                "file": "Linux/Ubuntu server (main).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,11 +205,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "caa854c43d32dc99",
+  "active": "93413e7b33b037f5",
   "lastOpenFiles": [
-    "Linux/Ubuntu server CLI Command.md",
-    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "Linux/Home-server/ubuntu server - 설치 프로그램.md",
+    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+    "Linux/Ubuntu server (main).md",
     "Linux/SMB(Samba).md",
     "Linux/Linux 최신 명령어.md",
     "z_others/obsidian/Obsidian setting - Community plugin.md",

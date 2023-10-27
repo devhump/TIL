@@ -32,6 +32,9 @@ SORT file.name ASC
 journalctl -f
 sudo fail2ban-client status sshd
 sudo systemctl status fail2ban
+
+#프로그램 삭
+sudo apt-get --purge remove program
 ```
 
 ##### 매뉴얼 확인

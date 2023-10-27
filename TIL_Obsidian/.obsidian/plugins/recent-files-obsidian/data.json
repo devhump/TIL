@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "SMB(Samba)",
-      "path": "Linux/SMB(Samba).md"
+      "basename": "Ubuntu server (main)",
+      "path": "Linux/Ubuntu server (main).md"
     },
     {
-      "basename": "Ubuntu server CLI Command",
-      "path": "Linux/Ubuntu server CLI Command.md"
+      "basename": "ubuntu server - 설치 프로그램",
+      "path": "Linux/Home-server/ubuntu server - 설치 프로그램.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
-      "basename": "ubuntu server - 설치 프로그램",
-      "path": "Linux/Home-server/ubuntu server - 설치 프로그램.md"
+      "basename": "SMB(Samba)",
+      "path": "Linux/SMB(Samba).md"
     },
     {
       "basename": "Linux 최신 명령어",
