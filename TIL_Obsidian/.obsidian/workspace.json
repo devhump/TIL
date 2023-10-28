@@ -36,9 +36,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "339a41de3890ec43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,8 +105,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Ubuntu server (main).md"
+                "file": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
               }
             }
           },
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Ubuntu server (main).md",
+                "file": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Ubuntu server (main).md",
+                "file": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,10 +217,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "93413e7b33b037f5",
+  "active": "b2fec09aa046b5f4",
   "lastOpenFiles": [
-    "devhump's TIL Index (data view).md",
+    "KDT/Web-Ramy의 MacBook Pro/assets",
+    "KDT/Python-Ramy의 MacBook Pro/assets",
+    "KDT/Web-Ramy의 MacBook Pro/assets",
+    "KDT/Python-Ramy의 MacBook Pro/assets",
+    "KDT/Web-Ramy의 MacBook Pro",
+    "KDT/Python-Ramy의 MacBook Pro",
+    "KDT/Django-Ramy의 MacBook Pro",
+    "z_others-Ramy의 MacBook Pro",
+    "HTML_CSS-Ramy의 MacBook Pro",
+    "IT_SC_Basic-Ramy의 MacBook Pro",
     "Linux/Ubuntu server (main).md",
+    "z_others-Ramy의 MacBook Pro/obsidian/assets",
+    "devhump's TIL Index (data view).md",
     "Linux/Home-server/ubuntu server - 설치 프로그램.md",
     "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "Linux/SMB(Samba).md",
@@ -216,20 +239,10 @@
     "z_others/obsidian/Obsidian setting - Community plugin.md",
     "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
     "IT_SC_Basic/zsh 설정 관련.md",
-    "z_others-Ramy의 MacBook Pro/obsidian/assets",
-    "z_others-Ramy의 MacBook Pro/obsidian/assets",
-    "z_others-Ramy의 MacBook Pro/obsidian",
     "Linux/Home-server/vim 설정.md",
     "Linux/Linux.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "HTML_CSS-Ramy의 MacBook Pro",
-    "IT_SC_Basic-Ramy의 MacBook Pro",
     "z_others/assets/image-20230423200235906.png",
-    "KDT/Web-Ramy의 MacBook Pro/assets",
-    "KDT/Python-Ramy의 MacBook Pro/assets",
-    "KDT/Algorithm/assets-Ramy의 MacBook Pro",
-    "KDT/Web-Ramy의 MacBook Pro/assets",
-    "KDT/Python-Ramy의 MacBook Pro/assets",
     "Linux/Linux note.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-58.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-57.png",
@@ -251,7 +264,6 @@
     "z_others/구현해 보고 싶은 기능.md",
     "z_others/Docker.md",
     "z_others/유용한 사이트들.md",
-    "Linux/WSL.md",
-    "z_others/git bash에서 zsh 사용하기.md"
+    "Linux/WSL.md"
   ]
 }

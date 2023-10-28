@@ -113,6 +113,9 @@ timedatectl
 sudo timedatectl set-timezone Asia/Seoul
 ```
 
+#### Ubuntu Locale 한글로 바꾸기
+- [# Ubuntu Locale 한글로 바꾸기](https://beomi.github.io/2017/07/10/Ubuntu-Locale-to-ko_KR/)
+
 
 #### 참고자료
 - [# 🏠홈서버 만들기🏠 홈서버란](https://velog.io/@chch1213/build-home-server-1)

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+    },
+    {
       "basename": "Ubuntu server (main)",
       "path": "Linux/Ubuntu server (main).md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Obsidian setting - Community plugin",
       "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
-    },
-    {
-      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
-      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
     },
     {
       "basename": "zsh 설정 관련",
