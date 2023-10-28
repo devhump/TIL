@@ -41,5 +41,7 @@ app.get("/about", function (요청, 응답) {
 
 app.get("/list", async (요청, 응답) => {
   let result = await db.collection("post").find().toArray();
-  응답.send(result[0].title);
+  // 응답.send(result[0].title);
+
+  응답.render("list.ejs");
 });
