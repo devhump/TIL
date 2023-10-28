@@ -699,14 +699,152 @@ app.get('/list', (요청, 응답) => {
 
 - 유저가 /list 페이지 방문하면 뭔가 보내주고 싶으면<br>이런거 코드짜면 된다고 했습니다.<br>근데 '안녕' 말고 DB에 있던 글을 뽑아서 보내주고 싶으면요?
 
+```js
+await db.collection('컬렉션명').find().toArray() 
+```
+
+- DB에 있던 데이터를 하나 꺼내고 싶으면 이런거 쓰면 됩니다.<br>그럼 이 자리에 컬렉션에 있던 모든 document가 출력됩니다.
+
+```js
+app.get('/list', async (요청, 응답) => {
+  let result = await db.collection('컬렉션명').find().toArray()
+  응답.send(result[0].title)
+})
+```
+
+- 그래서 이렇게 코드짜면 유저가 /list 페이지 방문하면 DB에 있던 첫글 제목을 보내줍니다. <br>참고로 await 쓰려면 그 전에 async라는걸 콜백함수 왼쪽에 붙여야합니다.
+
+##### await이 뭐임
+- await이 뭐냐면 다음 줄 실행하기 전에 잠깐 기다리라는 뜻입니다.<br>왜 이게 필요하냐면 **자바스크립트는 참을성이 없습니다.**<br>자바스크립트에서 처리가 좀 오래걸리는 함수들은<br>가끔 처리가 완료되기까지 기다리지 않고 바로 다음 줄을 급하게 실행하려고 하기 때문에 (일명 비동기처리)<br>그걸 막고 싶으면 _콜백함수를 쓰거나 await을 쓰거나 .then을 쓰거나 셋 중 하나_ 쓰면 됩니다.
+
+```js
+app.get('/list', async (요청, 응답) => {
+  let result = db.collection('컬렉션명').find().toArray()
+  응답.send(result[0].title)
+})
+```
+
+- 그래서 db.collection() 어쩌구 코드들은 처리가 좀 오래걸리기 때문에<br>그런 코드에 await을 안써버리면 DB에서 데이터 꺼내오기도 전에 응답.send() 를 실행해버립니다. <br>그래서 await 붙여야합니다.<br>실은 그냥 mongodb 라이브러리에서<br>db.collection().어쩌구() 코드들은 항상 await을 붙이라고 하기 때문에 그렇게 쓴 것이라고 생각해도 됩니다.
+
+- 예전 버전의 mongodb 라이브러리는 .then() 아니면 콜백함수를 넣어서 작성했었습니다. <br>근데 await 쓰면 더 깔끔해보이니까 그걸로 쓰도록 합시다. 
+
+- 참고로 await도 여러분 맘대로 붙이는게 아니라 붙일 수 있는 곳만 붙일 수 있습니다.<br>정확히 말하면 Promise를 뱉는 곳에다가만 붙일 수 있는데<br>당연히 mongodb 라이브러리 만든 사람이 여기다가 await 붙일 수 있게 만들어놔서 이게 가능한거니까 참고합시다.
+
+```js
+app.get('/list', async (요청, 응답) => {
+  db.collection('컬렉션명').find().toArray().then((result)=>{
+    응답.send(result[0].title)
+  })
+})
+
+app.get('/list', async (요청, 응답) => {
+  db.collection('컬렉션명').find().toArray((err, result)=>{
+    응답.send(result[0].title)
+  })
+})
+```
+
 ![](assets/Node.js%20&%20MongoDB%201-50.png)
 
 ![](assets/Node.js%20&%20MongoDB%201-51.png)
 
+#### array/object 자료형
+- array와 object 자료형인데 이런거 미리배워오랬는데<br>무시하고 그냥 듣는 분들도 있기 때문에 잠깐 설명하자면 <br>자바스크립트에서 여러가지 자료들을 변수하나에 저장하고 싶으면 <br>array자료형을 사용하면 됩니다
+
+```js
+let a = [10, 20, 30]
+```
+- 이러면 변수 하나에 여러가지 숫자나 문자를 담아서 보관할 수 있습니다.
+
+```js
+let a = [10, 20, 30]
+console.log(a[1])
+```
+
+- 나중에 원하는 자료만 쏙 빼서 사용하고 싶으면 <br>변수명 뒤에 대괄호 치고 몇번째 자료를 꺼내고 싶은지 써주면 됩니다.<br>위의 코드에서 `[1]` 이라고 쓰면 1번째 자료가 나옵니다. <br>컴퓨터는 0부터 세기 때문에 아마 20이 출력됩니다. 확인해봅시다. 
+
+- array자료형이 못생겨서 싫으면 object 자료형도 있습니다.<br>object자료형도 똑같이 여러 자료를 변수하나에 쑤셔박아두고 싶을 때 씁니다.
+```js
+let b = { name : 'kim', age : 20 }
+```
+
+- { } 열고 자료들을 콤마로 구분해서 넣으면 되는데<br>차이점이 하나 있는게 object는 자료마다 왼쪽에 이름을 지어줘야합니다.<br>그래서 저는 이름과 나이를 한번 저장해봤습니다
+
+```js
+let b = { name : 'kim', age : 20 }
+console.log(b.name)
+console.log(b['name'])
+```
+
+- 나중에 자료하나만 쏙 꺼내고 싶으면 object 자료 오른쪽에 점찍고 자료이름 집어넣으면 됩니다.<br>그럼 그 자료만 쏙 뽑아낼 수 있습니다.<br>점찍기 싫으면 `['자료이름']` 넣어도 됩니다.
+
+#### 저는 첫 글의 제목만 꺼내고 싶은데요 
+- DB에서 가져온 결과를 result 변수같은 것에 담아서 출력해보면 <br>대괄호랑 중괄호가 이상하게 섞여있습니다.
+
+```js
+[
+  {
+    _id : new ObjectId('어쩌구'),
+    title : '첫게시물',
+    content : '내용임 111'
+  },
+  {
+    _id : new ObjectId('어쩌구'),
+    title : '두번째글임',
+    content : '안녕'
+  },
+]
+```
+
+- DB에서 출력한 자료도 array와 object를 활용해서 데이터를 보여줍니다. <br>이상하고 복잡하게 생겼지만 쉽게 설명하면 array 안에 object 몇개를 넣어뒀을 뿐입니다.<br>`[ { }, { } ]` 대충 이렇게 생긴 자료입니다. <br>실은 array 안에 object 맘대로 넣을 수 있습니다.
+
+- 그럼 result 변수에 저렇게 글들이 저장되어있는데<br>거기서 **첫 글의 제목**만 뽑고 싶으면 어떻게 코드짜면 될까요?<br>-> 아무리 복잡하게 생긴 자료도 시작 괄호만 잘 보면 원하는 내용만 쉽게 뽑을 수 있습니다.
+
+- result 출력해보면 시작괄호가 뭐죠? <br>각진 `[ ]` 대괄호죠? <br>그럼 무조건 array 자료라서 array에서 자료뽑는 문법부터 쓰면 됩니다.
+
+```js
+app.get('/list', async (요청, 응답) => {
+  let result = db.collection('컬렉션명').find().toArray()
+  console.log(result[0])
+})
+```
+- 그래서 이거 실행해보면 (/list 페이지 방문해보면)
+
+```js
+{
+  _id : new ObjectId('어쩌구'),
+  title : '첫게시물',
+  content : '내용임 111'
+}
+```
+
+- 이런게 터미널에 출력됩니다. <br>이 자료는 { } 중괄호로 시작하죠?<br>그럼 대부분 object 자료라서 object 자료에서 자료 뽑는 문법 쓰면 됩니다.
+
+```js
+app.get('/list', async (요청, 응답) => {
+  let result = db.collection('컬렉션명').find().toArray()
+  console.log(result[0].title)
+})
+```
+
+- 그래서 이거 실행해보면 첫 글의 제목만 잘 출력되는군요. <br>심심하면 둘째 글제목도 한번 뽑아서 출력해보시길 바랍니다 
+
+```ad-note
+오늘 배운거 정리하자면 
+
+1. 컬렉션에 있던 document 전부 꺼내고 싶으면 `db.collection('컬렉션명').find().toArray()`
+
+2. array자료에서 자료뽑고 싶으면 `array자료[자료순서]` 
+
+3. object자료에서 자료뽑고 싶으면 `object자료.자료이름` 
+
+4. 일부 늦게 동작하는 코드들은 `await` 안붙이면 그 다음줄부터 실행됨 
+```
+
+- 다음 시간엔 이 데이터들을 html 웹페이지에 집어넣는 방법을 알아보도록 합시다 <br>그래야 유저가 볼 수 있을거아닙니까
 
 ![](assets/Node.js%20&%20MongoDB%201-52.png)
 
 ![](assets/Node.js%20&%20MongoDB%201-53.png)
 
-![](assets/Node.js%20&%20MongoDB%201-54.png)
 

@@ -38,13 +38,13 @@
             }
           },
           {
-            "id": "339a41de3890ec43",
+            "id": "51e2fd5b1fc8a968",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
-                "mode": "preview",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 242.5,
+    "collapsed": true
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
               }
             }
           },
@@ -154,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,8 +218,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b2fec09aa046b5f4",
+  "active": "51e2fd5b1fc8a968",
   "lastOpenFiles": [
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-54.png",
+    "Node.js & MongoDB/Node.js & MongoDB 1.md",
+    "z_others-Ramy의 MacBook Pro",
+    "HTML_CSS-Ramy의 MacBook Pro",
+    "IT_SC_Basic-Ramy의 MacBook Pro",
+    "Linux/Ubuntu server (main).md",
+    "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
     "KDT/Web-Ramy의 MacBook Pro/assets",
     "KDT/Python-Ramy의 MacBook Pro/assets",
     "KDT/Web-Ramy의 MacBook Pro/assets",
@@ -226,29 +234,21 @@
     "KDT/Web-Ramy의 MacBook Pro",
     "KDT/Python-Ramy의 MacBook Pro",
     "KDT/Django-Ramy의 MacBook Pro",
-    "z_others-Ramy의 MacBook Pro",
-    "HTML_CSS-Ramy의 MacBook Pro",
-    "IT_SC_Basic-Ramy의 MacBook Pro",
-    "Linux/Ubuntu server (main).md",
-    "z_others-Ramy의 MacBook Pro/obsidian/assets",
     "devhump's TIL Index (data view).md",
     "Linux/Home-server/ubuntu server - 설치 프로그램.md",
     "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "Linux/SMB(Samba).md",
     "Linux/Linux 최신 명령어.md",
     "z_others/obsidian/Obsidian setting - Community plugin.md",
-    "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
     "IT_SC_Basic/zsh 설정 관련.md",
     "Linux/Home-server/vim 설정.md",
     "Linux/Linux.md",
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "z_others/assets/image-20230423200235906.png",
     "Linux/Linux note.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-58.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-57.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-56.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-55.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-54.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-53.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-52.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-51.png",

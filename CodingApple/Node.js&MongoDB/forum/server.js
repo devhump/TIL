@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 app.use(express.static(__dirname + "/public"));
+app.set("view engine", "ejs");
 
 const { MongoClient } = require("mongodb");
 
@@ -40,6 +41,5 @@ app.get("/about", function (요청, 응답) {
 
 app.get("/list", async (요청, 응답) => {
   let result = await db.collection("post").find().toArray();
-  console.log(result);
-  응답.send("DB에 있던 게시물");
+  응답.send(result[0].title);
 });

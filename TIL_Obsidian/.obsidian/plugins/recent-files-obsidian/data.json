@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
-      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+      "basename": "Node.js & MongoDB 1",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
       "basename": "Ubuntu server (main)",
       "path": "Linux/Ubuntu server (main).md"
+    },
+    {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
@@ -43,10 +47,6 @@
     {
       "basename": "Linux",
       "path": "Linux/Linux.md"
-    },
-    {
-      "basename": "Node.js & MongoDB 1",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
       "basename": "Linux note",
@@ -115,10 +115,6 @@
     {
       "basename": "JS 입문 2 (코딩애플)",
       "path": "JS/JS 입문 2 (코딩애플).md"
-    },
-    {
-      "basename": "Vim 사용법",
-      "path": "z_others/Vim 사용법.md"
     }
   ],
   "omittedPaths": [],
