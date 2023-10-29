@@ -38,6 +38,9 @@ sudo apt-get --purge remove program
 
 #파일/dir 모드 변경
 chmod 777 /dev
+
+# 부팅시 자동시작하게 하기
+sudo systemctl enable program
 ```
 
 ##### 매뉴얼 확인
