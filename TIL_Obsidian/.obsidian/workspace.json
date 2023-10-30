@@ -49,9 +49,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "df358c61fef0dc23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+                "file": "Linux/Ubuntu server (main).md"
               }
             }
           },
@@ -155,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Linux/Ubuntu server (main).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Linux/Ubuntu server (main).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,17 +231,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "51e2fd5b1fc8a968",
+  "active": "93413e7b33b037f5",
   "lastOpenFiles": [
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-63.png",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
+    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+    "Linux/Ubuntu server (main).md",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-63.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-62.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-61.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-65.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-64.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-59.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-60.png",
-    "Linux/Ubuntu server (main).md",
     "z_others-Ramy의 MacBook Pro/obsidian/assets",
     "z_others-Ramy의 MacBook Pro/obsidian/assets",
     "z_others-Ramy의 MacBook Pro/assets",
@@ -243,7 +257,6 @@
     "KDT/Web-Ramy의 MacBook Pro/assets",
     "devhump's TIL Index (data view).md",
     "Linux/Home-server/ubuntu server - 설치 프로그램.md",
-    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "Linux/SMB(Samba).md",
     "Linux/Linux 최신 명령어.md",
     "z_others/obsidian/Obsidian setting - Community plugin.md",

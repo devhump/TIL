@@ -41,6 +41,13 @@ chmod 777 /dev
 
 # 부팅시 자동시작하게 하기
 sudo systemctl enable program
+
+# 방화벽 규칙 설정 (INPUT)
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+
+# 방화벽 규칙 저장
+sudo netfilter-persistent save 
+sudo netfilter-persistent reload
 ```
 
 ##### 매뉴얼 확인
