@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "구현해 보고 싶은 기능",
+      "path": "z_others/구현해 보고 싶은 기능.md"
+    },
+    {
       "basename": "Ubuntu server (main)",
       "path": "Linux/Ubuntu server (main).md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "Hot-key (IDE)",
       "path": "z_others/Hot-key (IDE).md"
-    },
-    {
-      "basename": "구현해 보고 싶은 기능",
-      "path": "z_others/구현해 보고 싶은 기능.md"
     },
     {
       "basename": "Docker",

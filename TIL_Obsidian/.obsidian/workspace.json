@@ -62,9 +62,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8dc9043f9bfdcb3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z_others/구현해 보고 싶은 기능.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 242.5
   },
   "right": {
     "id": "070fea7cbd530e4d",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Ubuntu server (main).md"
+                "file": "z_others/구현해 보고 싶은 기능.md"
               }
             }
           },
@@ -168,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Ubuntu server (main).md",
+                "file": "z_others/구현해 보고 싶은 기능.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Ubuntu server (main).md",
+                "file": "z_others/구현해 보고 싶은 기능.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,11 +243,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "93413e7b33b037f5",
+  "active": "8dc9043f9bfdcb3f",
   "lastOpenFiles": [
+    "Linux/Ubuntu server (main).md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Linux/Home-server/Home-server - 원격관리 & 보안.md",
-    "Linux/Ubuntu server (main).md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-63.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-62.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-61.png",
