@@ -51,7 +51,7 @@
             }
           },
           {
-            "id": "df358c61fef0dc23",
+            "id": "c4d104450bde346d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,22 +62,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8dc9043f9bfdcb3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z_others/구현해 보고 싶은 기능.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_others/구현해 보고 싶은 기능.md"
+                "file": "Linux/Ubuntu server (main).md"
               }
             }
           },
@@ -180,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_others/구현해 보고 싶은 기능.md",
+                "file": "Linux/Ubuntu server (main).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_others/구현해 보고 싶은 기능.md",
+                "file": "Linux/Ubuntu server (main).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,11 +230,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8dc9043f9bfdcb3f",
+  "active": "93413e7b33b037f5",
   "lastOpenFiles": [
+    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "Linux/Ubuntu server (main).md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+    "z_others/구현해 보고 싶은 기능.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-63.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-62.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-61.png",
@@ -286,7 +274,6 @@
     "z_others/주피터노트북 in vscode.md",
     "z_others/Hot-key for Mac.md",
     "z_others/Hot-key (IDE).md",
-    "z_others/구현해 보고 싶은 기능.md",
     "z_others/Docker.md",
     "z_others/유용한 사이트들.md",
     "Linux/WSL.md"

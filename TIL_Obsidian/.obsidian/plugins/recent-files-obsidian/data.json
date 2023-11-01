@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "구현해 보고 싶은 기능",
-      "path": "z_others/구현해 보고 싶은 기능.md"
-    },
-    {
       "basename": "Ubuntu server (main)",
       "path": "Linux/Ubuntu server (main).md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "Node.js & MongoDB 1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+      "basename": "구현해 보고 싶은 기능",
+      "path": "z_others/구현해 보고 싶은 기능.md"
     },
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
