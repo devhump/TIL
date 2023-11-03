@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "JS/JS 기본1 (모던JS).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+                "file": "JS/JS 기본1 (모던JS).md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "JS/JS 기본1 (모던JS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "JS/JS 기본1 (모던JS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,11 +217,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "51e2fd5b1fc8a968",
+  "active": "b2fec09aa046b5f4",
   "lastOpenFiles": [
+    "JS/JS.md",
+    "JS/CORS 에러 문제.md",
+    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Linux/Ubuntu server (main).md",
     "Linux/Home-server/Home-server - 원격관리 & 보안.md",
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "z_others/구현해 보고 싶은 기능.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-63.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-62.png",
@@ -262,7 +264,6 @@
     "z_others/Hot-key for Mac.md",
     "z_others/Hot-key (IDE).md",
     "z_others/Docker.md",
-    "z_others/유용한 사이트들.md",
-    "Linux/WSL.md"
+    "z_others/유용한 사이트들.md"
   ]
 }
