@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "Ubuntu server (main)",
+      "path": "Linux/Ubuntu server (main).md"
+    },
+    {
+      "basename": "zsh 설정 관련",
+      "path": "IT_SC_Basic/zsh 설정 관련.md"
+    },
+    {
+      "basename": "vim 설정",
+      "path": "Linux/Home-server/vim 설정.md"
+    },
+    {
       "basename": "JS 기본1 (모던JS)",
       "path": "JS/JS 기본1 (모던JS).md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "JS",
@@ -17,24 +37,12 @@
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
-      "basename": "Ubuntu server (main)",
-      "path": "Linux/Ubuntu server (main).md"
-    },
-    {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
-    },
-    {
       "basename": "구현해 보고 싶은 기능",
       "path": "z_others/구현해 보고 싶은 기능.md"
     },
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
       "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "ubuntu server - 설치 프로그램",
@@ -51,14 +59,6 @@
     {
       "basename": "Obsidian setting - Community plugin",
       "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
-    },
-    {
-      "basename": "zsh 설정 관련",
-      "path": "IT_SC_Basic/zsh 설정 관련.md"
-    },
-    {
-      "basename": "vim 설정",
-      "path": "Linux/Home-server/vim 설정.md"
     },
     {
       "basename": "Linux",
