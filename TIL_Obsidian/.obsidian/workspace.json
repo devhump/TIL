@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+                "file": "Home Server_RasberryPi/RasberryPi.md"
               }
             }
           },
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "Home Server_RasberryPi/RasberryPi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "Home Server_RasberryPi/RasberryPi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,12 +256,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c36d29ebab620fc2",
+  "active": "d5485edca1b2c091",
   "lastOpenFiles": [
+    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "IT_SC_Basic/zsh 설정 관련.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
     "Home Server_RasberryPi/RasberryPi.md",
-    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
     "z_others-Ramy의 MacBook Pro/obsidian/assets",
     "z_others-Ramy의 MacBook Pro/assets",
