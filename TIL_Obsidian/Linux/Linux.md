@@ -3,9 +3,9 @@
 - **assets**
 
 - **Home-server**
-	- [Home-server - 원격관리 & 보안](./Home-server/Home-server%20-%20%EC%9B%90%EA%B2%A9%EA%B4%80%EB%A6%AC%20&%20%EB%B3%B4%EC%95%88.md)
-	- [ubuntu server - 설치 프로그램](./Home-server/ubuntu%20server%20-%20%EC%84%A4%EC%B9%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8.md)
-	- [vim 설정](./Home-server/vim%20%EC%84%A4%EC%A0%95.md)
+	- [Home-server - 원격관리 & 보안](../Home%20Server_RasberryPi/Home-server/Home-server%20-%20원격관리%20&%20보안.md)
+	- [ubuntu server - 설치 프로그램](../Home%20Server_RasberryPi/Home-server/ubuntu%20server%20-%20설치%20프로그램.md)
+	- [vim 설정](../Home%20Server_RasberryPi/Home-server/vim%20설정.md)
 - [Linux 최신 명령어](./Linux%20%EC%B5%9C%EC%8B%A0%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)
 - **Linux note**
 	- **assets**
@@ -21,8 +21,8 @@
 	- [Linux note - 09. 그룹관리](./Linux%20note/Linux%20note%20-%2009.%20%EA%B7%B8%EB%A3%B9%EA%B4%80%EB%A6%AC.md)
 	- [Linux note - 10. 한국어 환경](./Linux%20note/Linux%20note%20-%2010.%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%ED%99%98%EA%B2%BD.md)
 - [Linux note](./Linux%20note.md)
-- [SMB(Samba)](./SMB(Samba).md)
-- [Ubuntu server (main)](./Ubuntu%20server%20(main).md)
+- [SMB(Samba)](../Home%20Server_RasberryPi/SMB(Samba).md)
+- [Ubuntu server (main)](../Home%20Server_RasberryPi/Ubuntu%20server%20(main).md)
 - [WSL](./WSL.md)
 
 %% End Waypoint %%

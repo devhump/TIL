@@ -6,11 +6,13 @@ tags:
 ```dataview
 list from #HomeServer
 ```
-### tldr
+- tldr
 
 
 - 모니터링 툴
 ```shell
+# sudo apt-get install dstat htop btop iftop neofetch -y
+
 dstat
 htop
 btop

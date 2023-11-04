@@ -2,19 +2,51 @@
   "recentFiles": [
     {
       "basename": "Home-server - 원격관리 & 보안",
-      "path": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
-    },
-    {
-      "basename": "Ubuntu server (main)",
-      "path": "Linux/Ubuntu server (main).md"
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "zsh 설정 관련",
       "path": "IT_SC_Basic/zsh 설정 관련.md"
     },
     {
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "RasberryPi",
+      "path": "Home Server_RasberryPi/RasberryPi.md"
+    },
+    {
+      "basename": "ubuntu server - 설치 프로그램",
+      "path": "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md"
+    },
+    {
       "basename": "vim 설정",
-      "path": "Linux/Home-server/vim 설정.md"
+      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "Home Server_RasberryPi",
+      "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
+    },
+    {
+      "basename": "Vim 사용법",
+      "path": "z_others/Vim 사용법.md"
+    },
+    {
+      "basename": "Linux note",
+      "path": "Linux/Linux note.md"
+    },
+    {
+      "basename": "Linux 최신 명령어",
+      "path": "Linux/Linux 최신 명령어.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
+    },
+    {
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
     },
     {
       "basename": "JS 기본1 (모던JS)",
@@ -45,28 +77,8 @@
       "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
     },
     {
-      "basename": "ubuntu server - 설치 프로그램",
-      "path": "Linux/Home-server/ubuntu server - 설치 프로그램.md"
-    },
-    {
-      "basename": "SMB(Samba)",
-      "path": "Linux/SMB(Samba).md"
-    },
-    {
-      "basename": "Linux 최신 명령어",
-      "path": "Linux/Linux 최신 명령어.md"
-    },
-    {
       "basename": "Obsidian setting - Community plugin",
       "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "Linux/Linux.md"
-    },
-    {
-      "basename": "Linux note",
-      "path": "Linux/Linux note.md"
     },
     {
       "basename": "Hot-key for windows",
@@ -107,18 +119,6 @@
     {
       "basename": "유용한 사이트들",
       "path": "z_others/유용한 사이트들.md"
-    },
-    {
-      "basename": "WSL",
-      "path": "Linux/WSL.md"
-    },
-    {
-      "basename": "git bash에서 zsh 사용하기",
-      "path": "z_others/git bash에서 zsh 사용하기.md"
-    },
-    {
-      "basename": "about CSS position",
-      "path": "z_others/about CSS position.md"
     }
   ],
   "omittedPaths": [],

@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Ubuntu server (main).md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -43,15 +43,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "Home Server_RasberryPi/RasberryPi.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c72e42e50aeb21c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c36d29ebab620fc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c7f8b1474432b48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT_SC_Basic/zsh 설정 관련.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -105,8 +144,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -126,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md"
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
               }
             }
           },
@@ -155,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,12 +256,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d5485edca1b2c091",
+  "active": "c36d29ebab620fc2",
   "lastOpenFiles": [
-    "Linux/Ubuntu server (main).md",
-    "Linux/Home-server/Home-server - 원격관리 & 보안.md",
     "IT_SC_Basic/zsh 설정 관련.md",
-    "Linux/Home-server/vim 설정.md",
+    "Home Server_RasberryPi/Ubuntu server (main).md",
+    "Home Server_RasberryPi/RasberryPi.md",
+    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
+    "z_others-Ramy의 MacBook Pro/obsidian/assets",
+    "z_others-Ramy의 MacBook Pro/assets",
+    "z_others-Ramy의 MacBook Pro/obsidian",
+    "Home Server_RasberryPi/Home-server/vim 설정.md",
+    "Home Server_RasberryPi/Home Server_RasberryPi.md",
+    "HTML_CSS-Ramy의 MacBook Pro",
+    "IT_SC_Basic-Ramy의 MacBook Pro",
+    "z_others/Vim 사용법.md",
+    "z_others-Ramy의 MacBook Pro",
+    "Linux/Linux note.md",
+    "Linux/Linux 최신 명령어.md",
+    "Linux/Linux.md",
+    "Home Server_RasberryPi/SMB(Samba).md",
+    "z_others-Ramy의 MacBook Pro/obsidian/assets",
+    "z_others-Ramy의 MacBook Pro/assets",
+    "z_others-Ramy의 MacBook Pro/obsidian",
+    "Home Server_RasberryPi",
     "JS/JS 기본1 (모던JS).md",
     "devhump's TIL Index (data view).md",
     "JS/JS.md",
@@ -237,34 +293,15 @@
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-64.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-59.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-60.png",
-    "z_others-Ramy의 MacBook Pro/obsidian/assets",
-    "z_others-Ramy의 MacBook Pro/obsidian/assets",
-    "z_others-Ramy의 MacBook Pro/assets",
-    "z_others-Ramy의 MacBook Pro/obsidian",
-    "z_others-Ramy의 MacBook Pro/assets",
-    "z_others-Ramy의 MacBook Pro/obsidian",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-54.png",
-    "z_others-Ramy의 MacBook Pro",
-    "HTML_CSS-Ramy의 MacBook Pro",
-    "IT_SC_Basic-Ramy의 MacBook Pro",
     "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
-    "KDT/Web-Ramy의 MacBook Pro/assets",
-    "Linux/Home-server/ubuntu server - 설치 프로그램.md",
-    "Linux/SMB(Samba).md",
-    "Linux/Linux 최신 명령어.md",
     "z_others/obsidian/Obsidian setting - Community plugin.md",
-    "Linux/Linux.md",
     "z_others/assets/image-20230423200235906.png",
-    "Linux/Linux note.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 1-58.png",
     "z_others/Hot-key for windows.md",
     "IT_SC_Basic/IP address vs Mac Address.md",
     "IT_SC_Basic/IP 주소의 종류.md",
     "IT_SC_Basic/IT_SC_Basic.md",
-    "z_others/인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용).md",
-    "z_others/주피터노트북 in vscode.md",
-    "z_others/Hot-key for Mac.md",
-    "z_others/Hot-key (IDE).md",
-    "z_others/Docker.md"
+    "z_others/인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용).md"
   ]
 }

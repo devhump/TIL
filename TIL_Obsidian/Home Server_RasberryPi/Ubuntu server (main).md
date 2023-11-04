@@ -2,18 +2,18 @@
 tags:
   - ubuntu
   - HomeServer
-  - Linux
 ---
 
 #### 관련 문서
+
 
 ##### HomeServer
 ```dataview
 list from #HomeServer
 ```
-##### ubuntu
+##### RasberryPi
 ```dataview
-list from #ubuntu 
+list from #rasberrypi  
 SORT file.cday DESC
 ```
 ##### Linux

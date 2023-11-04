@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🫐",
       "SiDjango",
       "SiGithub",
       "SiHtml5",
-      "FabJs",
-      "SiPython"
+      "FabJs"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -78,5 +78,9 @@
   "Node.js & MongoDB": {
     "iconName": "🐼",
     "inheritanceIcon": "🐼"
+  },
+  "Home Server_RasberryPi": {
+    "iconName": "🫐",
+    "inheritanceIcon": "🫐"
   }
 }

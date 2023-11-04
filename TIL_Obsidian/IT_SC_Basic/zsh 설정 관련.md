@@ -1,8 +1,17 @@
+---
+tags:
+  - Linux
+---
+
 #### How to Install oh-my-zsh
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+### agnoster theme font
+```shell
+sudo apt-get install fonts-powerline
+```
 #### oh-my-zsh plugin
 ```shell
 plugin(
