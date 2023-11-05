@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "RasberryPi",
-      "path": "Home Server_RasberryPi/RasberryPi.md"
+      "basename": "zsh 설정 관련",
+      "path": "IT_SC_Basic/zsh 설정 관련.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
-      "basename": "zsh 설정 관련",
-      "path": "IT_SC_Basic/zsh 설정 관련.md"
-    },
-    {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "RasberryPi",
+      "path": "Home Server_RasberryPi/RasberryPi.md"
     },
     {
       "basename": "ubuntu server - 설치 프로그램",

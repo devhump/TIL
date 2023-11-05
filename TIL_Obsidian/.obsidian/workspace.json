@@ -38,19 +38,6 @@
             }
           },
           {
-            "id": "d5485edca1b2c091",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Server_RasberryPi/RasberryPi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0c72e42e50aeb21c",
             "type": "leaf",
             "state": {
@@ -90,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi.md"
+                "file": "IT_SC_Basic/zsh 설정 관련.md"
               }
             }
           },
@@ -193,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi.md",
+                "file": "IT_SC_Basic/zsh 설정 관련.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi.md",
+                "file": "IT_SC_Basic/zsh 설정 관련.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,12 +243,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d5485edca1b2c091",
+  "active": "9c7f8b1474432b48",
   "lastOpenFiles": [
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
-    "IT_SC_Basic/zsh 설정 관련.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
     "Home Server_RasberryPi/RasberryPi.md",
+    "IT_SC_Basic/zsh 설정 관련.md",
     "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
     "z_others-Ramy의 MacBook Pro/obsidian/assets",
     "z_others-Ramy의 MacBook Pro/assets",
