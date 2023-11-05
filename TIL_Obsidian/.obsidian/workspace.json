@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT_SC_Basic/zsh 설정 관련.md",
+                "file": "Linux/WSL.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IT_SC_Basic/zsh 설정 관련.md"
+                "file": "Linux/WSL.md"
               }
             }
           },
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IT_SC_Basic/zsh 설정 관련.md",
+                "file": "Linux/WSL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IT_SC_Basic/zsh 설정 관련.md",
+                "file": "Linux/WSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,10 +245,10 @@
   },
   "active": "9c7f8b1474432b48",
   "lastOpenFiles": [
+    "IT_SC_Basic/zsh 설정 관련.md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
     "Home Server_RasberryPi/RasberryPi.md",
-    "IT_SC_Basic/zsh 설정 관련.md",
     "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
     "z_others-Ramy의 MacBook Pro/obsidian/assets",
     "z_others-Ramy의 MacBook Pro/assets",

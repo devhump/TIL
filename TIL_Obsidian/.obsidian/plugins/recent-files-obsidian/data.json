@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "WSL",
+      "path": "Linux/WSL.md"
+    },
+    {
       "basename": "zsh 설정 관련",
       "path": "IT_SC_Basic/zsh 설정 관련.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "Docker",
       "path": "z_others/Docker.md"
-    },
-    {
-      "basename": "유용한 사이트들",
-      "path": "z_others/유용한 사이트들.md"
     }
   ],
   "omittedPaths": [],
