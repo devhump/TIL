@@ -5,8 +5,6 @@ tags:
 ---
 
 #### 관련 문서
-
-
 ##### HomeServer
 ```dataview
 list from #HomeServer

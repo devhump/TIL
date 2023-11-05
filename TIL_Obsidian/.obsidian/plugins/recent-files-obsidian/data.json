@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "WSL",
-      "path": "Linux/WSL.md"
+      "basename": "RasberryPi",
+      "path": "Home Server_RasberryPi/RasberryPi.md"
     },
     {
-      "basename": "zsh 설정 관련",
-      "path": "IT_SC_Basic/zsh 설정 관련.md"
+      "basename": "Linux 최신 명령어",
+      "path": "Linux/Linux 최신 명령어.md"
+    },
+    {
+      "basename": "WSL",
+      "path": "Linux/WSL.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
@@ -17,8 +21,8 @@
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
-      "basename": "RasberryPi",
-      "path": "Home Server_RasberryPi/RasberryPi.md"
+      "basename": "zsh 설정 관련",
+      "path": "IT_SC_Basic/zsh 설정 관련.md"
     },
     {
       "basename": "ubuntu server - 설치 프로그램",
@@ -39,10 +43,6 @@
     {
       "basename": "Linux note",
       "path": "Linux/Linux note.md"
-    },
-    {
-      "basename": "Linux 최신 명령어",
-      "path": "Linux/Linux 최신 명령어.md"
     },
     {
       "basename": "Linux",
