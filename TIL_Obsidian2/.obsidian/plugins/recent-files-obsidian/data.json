@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "RasberryPi🍓",
-      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "zsh 설정 관련 + fzf",
+      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
     },
     {
       "basename": "Linux 최신 명령어",
@@ -13,24 +17,20 @@
       "path": "Linux/WSL.md"
     },
     {
+      "basename": "vim 설정",
+      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "RasberryPi🍓",
+      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
+    },
+    {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
-      "basename": "Ubuntu server (main)",
-      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
-    },
-    {
-      "basename": "zsh 설정 관련",
-      "path": "IT_SC_Basic/zsh 설정 관련.md"
-    },
-    {
       "basename": "ubuntu server - 설치 프로그램",
       "path": "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md"
-    },
-    {
-      "basename": "vim 설정",
-      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
     },
     {
       "basename": "Home Server_RasberryPi",

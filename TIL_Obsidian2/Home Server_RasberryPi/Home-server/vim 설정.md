@@ -61,7 +61,52 @@ set t_Co=256
 colorscheme jellybeans
 ```
 
+```shell
+if has("syntax")    
+	syntax on    
+endif  
+  
+set number
+  
+set autoindent 
+set cindent
+  
+" Set Tab Indent  
+set smartindent  
+set shiftwidth=4
+set tabstop=4 
+set expandtab  
+set smarttab  
+  
+set ruler
+set showcmd 
+set laststatus=2    
+set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\  
+set autowrite   
+set autoread
+  
+set paste  
+  
+set nocompatible
+set fileencodings=utf-8,euc-kr  
+set bs=indent,eol,start  
+set history=1000  
+set nobackup  
+set title 
+set showmatch
+set nowrap
+set wmnu
+set mouse=a
+  
+au BufReadPost *    
+\ if line("'\"") > 0 && line("'\"") <= line("$") |    
+\ exe "norm g`\"" |    
+\ endif  
+  
+set t_Co=256  
+colorscheme jellybeans
 
+```
 - mac  에서는 colorscheme 이 금방 적용됐는데, linux 환경에서는 적용이 안되서 한참 고생 했었다.
 	- 👉 `.vimrc` 파일에 `set t_Co=256` 내용을 추가하니 바로 해결됨...
 

@@ -36,61 +36,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "0c72e42e50aeb21c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c36d29ebab620fc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux 최신 명령어.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c7f8b1474432b48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/WSL.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32144acd41c55586",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "zsh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -144,7 +92,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi🍓.md"
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md"
               }
             }
           },
@@ -193,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,8 +205,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "32144acd41c55586",
+  "active": "93413e7b33b037f5",
   "lastOpenFiles": [
+    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
+    "Linux/Linux 최신 명령어.md",
+    "Linux/WSL.md",
+    "Home Server_RasberryPi/Home-server/vim 설정.md",
+    "Home Server_RasberryPi/RasberryPi🍓.md",
+    "Home Server_RasberryPi/Ubuntu server (main).md",
+    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "devhump's TIL Index (data view).md",
     "HTML_CSS-Ramy의 MacBook Pro",
     "IT_SC_Basic-Ramy의 MacBook Pro",
@@ -268,14 +224,7 @@
     "z_others-Ramy의 MacBook Pro/assets",
     "z_others-Ramy의 MacBook Pro/obsidian",
     "z_others-Ramy의 MacBook Pro",
-    "Linux/Linux 최신 명령어.md",
-    "Home Server_RasberryPi/RasberryPi🍓.md",
-    "Linux/WSL.md",
-    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
-    "Home Server_RasberryPi/Ubuntu server (main).md",
-    "IT_SC_Basic/zsh 설정 관련.md",
     "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
-    "Home Server_RasberryPi/Home-server/vim 설정.md",
     "Home Server_RasberryPi/Home Server_RasberryPi.md",
     "z_others/Vim 사용법.md",
     "Linux/Linux note.md",

@@ -14,6 +14,10 @@ sudo apt-get install fonts-powerline
 ```
 #### oh-my-zsh plugin
 ```shell
+vim .zshrc
+```
+
+```shell
 plugin(
 	git
 	sudo
@@ -29,6 +33,10 @@ plugin(
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+```shell
+source .zshrc
 ```
 
 #### fzf
