@@ -9,6 +9,7 @@
 *? 2. General UI
 *?   - Workspace
 *?   - Menus
+*?   - Sidebars
 *?   - Canvas
 *?   - Loading Screen
 *? 4. Markdown
@@ -96,6 +97,18 @@
     --code-background: var(--bg-dim);
     --code-normal: var(--text-muted);
     --code-inline: var(--fg-blue);
+
+    --code-normal: var(--fg);
+    --code-comment: var(--grey1);
+    --code-function: var(--fg-green);
+    --code-important: var(--fg-red);
+    --code-keyword: var(--fg-blue);
+    --code-operator: var(--fg-orange);
+    --code-property: var(--fg-aqua);
+    --code-punctuation: var(--grey1);
+    --code-string: var(--fg-yellow);
+    --code-tag: var(--fg-orange);
+    --code-value: var(--fg-purple);
 
     --table-background: var(--bg2);
     --table-column-alt-background: unset;
@@ -386,6 +399,15 @@ body:not(.disable-menu-animations) :is(.modal, .prompt) {
 }
 
 
+/** Sidebars **/
+
+/* Stop the scrollbar from causing layout shifts */
+.nav-files-container {
+    scrollbar-gutter: stable;
+    padding-right: var(--size-2-2);
+}
+
+
 /** Canvas **/
 
 /* Custom dot pattern size (style settings) */
@@ -528,6 +550,7 @@ pre[class^="language-"]::after {
     height: calc(1em * var(--line-height-normal));
     display: flex;
     place-items: center;
+    color: var(--text-muted);
     font-size: 0.875em;
 }
 .markdown-source-view.mod-cm6 .code-block-flair:not(:has(>svg)) {
@@ -543,43 +566,46 @@ pre[class^="language-"]::after {
     top: calc(6px + var(--code-size) * var(--line-height-normal));
 }
 
+pre.language-applescript::after { content: "AppleScript" }
+pre.language-bash::after { content: "Bash" }
 pre.language-c::after { content: "C" }
-pre.language-python::after { content: "Python" }
-pre.language-py::after { content: "Python" }
-pre.language-nginx::after { content: "Nginx" }
+pre.language-cpp::after { content: "C++" }
+pre.language-cs::after { content: "C#" }
 pre.language-css::after { content: "CSS" }
-pre.language-node::after { content: "Node" }
-pre.language-react::after { content: "React" }
+pre.language-flow::after { content: "Flow" }
+pre.language-git::after { content: "GIT" }
+pre.language-haskell::after { content: "Haskell" }
+pre.language-html::after { content: "HTML" }
+pre.language-ini::after { content: "INI" }
+pre.language-java::after { content: "JAVA" }
 pre.language-javascript::after { content: "JavaScript" }
 pre.language-js::after { content: "JavaScript" }
-pre.language-typescript::after { content: "TypeScript" }
-pre.language-ts::after { content: "TypeScript" }
-pre.language-php::after { content: "PHP" }
-pre.language-shell::after { content: "Shell" }
-pre.language-bash::after { content: "Bash" }
-pre.language-zsh::after { content: "zsh" }
-pre.language-flow::after { content: "Flow" }
-pre.language-sequence::after { content: "Sequence" }
-pre.language-sql::after { content: "SQL" }
-pre.language-yaml::after { content: "YAML" }
-pre.language-ini::after { content: "INI" }
-pre.language-xml::after { content: "XML" }
-pre.language-git::after { content: "GIT" }
-pre.language-cs::after { content: "C#" }
-pre.language-cpp::after { content: "C++" }
-pre.language-java::after { content: "JAVA" }
-pre.language-html::after { content: "HTML" }
-pre.language-txt::after { content: "Plain Text" }
-pre.language-text::after { content: "Plain Text" }
-pre.language-url::after { content: "URL" }
-pre.language-applescript::after { content: "AppleScript" }
+pre.language-json::after { content: "JSON" }
+pre.language-lua::after { content: "Lua" }
+pre.language-makefile::after { content: "Makefile" }
 pre.language-markdown::after { content: "Markdown" }
 pre.language-md::after { content: "Markdown" }
+pre.language-nginx::after { content: "Nginx" }
+pre.language-node::after { content: "Node" }
+pre.language-php::after { content: "PHP" }
+pre.language-py::after { content: "Python" }
+pre.language-python::after { content: "Python" }
+pre.language-r::after { content: "R" }
+pre.language-react::after { content: "React" }
 pre.language-regex::after { content: "Regex" }
-pre.language-lua::after { content: "Lua" }
-pre.language-haskell::after { content: "Haskell" }
-pre.language-vim::after { content: "vimrc" }
 pre.language-rust::after { content: "Rust" }
+pre.language-sequence::after { content: "Sequence" }
+pre.language-shell::after { content: "Shell" }
+pre.language-sql::after { content: "SQL" }
+pre.language-text::after { content: "Plain Text" }
+pre.language-ts::after { content: "TypeScript" }
+pre.language-txt::after { content: "Plain Text" }
+pre.language-typescript::after { content: "TypeScript" }
+pre.language-url::after { content: "URL" }
+pre.language-vim::after { content: "vimrc" }
+pre.language-xml::after { content: "XML" }
+pre.language-yaml::after { content: "YAML" }
+pre.language-zsh::after { content: "zsh" }
 
 
 /** Links **/
@@ -1317,7 +1343,7 @@ body.image-embed-enable-zoom .image-embed:active {
 }
 body.image-embed-enable-zoom .image-embed:active img {
     width: var(--zoom-embed-size) !important;
-    max-height: 100%;
+    max-height: 80%;
     margin: 0 !important;
     user-select: none;
     object-fit: contain;
@@ -1606,6 +1632,7 @@ body.visual-parity-enabled {
 img {
     display: block;
     margin-inline: auto;
+    image-rendering: auto !important;
 }
 
 /* Makes multiple images on the same line appear in a flex grid */
@@ -1764,26 +1791,41 @@ img[src^="http"][alt~="blur"]:hover {
 }
 
 /* Alt text as caption under image */
-body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"])::after {
-    display: block;
+body:not(.no-image-alttext-caption)
+    .image-embed:not(
+        [alt*=".png"],
+        [alt*=".gif"],
+        [alt*=".jpg"],
+        [alt*=".jpeg"],
+        [alt*=".tiff"],
+        [alt*=".avif"],
+        [alt*=".webp"],
+        [alt="inline"],
+        [width]
+    )::after {
     content: attr(alt);
+    display: block;
     color: var(--text-muted);
-    margin-inline: auto;
     text-align: center;
+    width: calc(
+        var(--img-width, 100) / 100 * min(100%, var(--file-line-width))
+    );
 }
-body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"], [width])::after {
-    width: calc(var(--img-width, 100) / 100 * min(100%, var(--file-line-width)));
+/* Align the text boxes correctly */
+.image-embed {
+    &::after {
+        margin-inline: auto;
+    }
+    &[src~="left"]::after {
+        margin-inline: 0 auto;
+    }
+    &[src~="right"]::after {
+        margin-inline: auto 0;
+    }
+    :root .markdown-preview-view &[src~="float"]::after {
+        width: 100%;
+    }
 }
-body:not(.no-image-alttext-caption) .markdown-reading-view .image-embed[src~="float"]:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"], [width])::after {
-    width: calc(var(--img-width, 100) / 100 * min(100%, var(--file-line-width)));
-}
-body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"], [width])[src~="left"]::after {
-    margin-inline: 0 auto;
-}
-body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [alt="inline"], [width])[src~="right"]::after {
-    margin-inline: auto 0;
-}
-
 
 /** CSS Classes **/
 

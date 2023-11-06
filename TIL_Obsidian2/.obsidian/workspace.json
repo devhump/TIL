@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi.md",
+                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi.md"
+                "file": "Home Server_RasberryPi/RasberryPi🍓.md"
               }
             }
           },
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi.md",
+                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi.md",
+                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +244,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
@@ -253,11 +252,13 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "b2fec09aa046b5f4",
+  "active": "32144acd41c55586",
   "lastOpenFiles": [
+    "devhump's TIL Index (data view).md",
     "HTML_CSS-Ramy의 MacBook Pro",
     "IT_SC_Basic-Ramy의 MacBook Pro",
     "z_others-Ramy의 MacBook Pro/obsidian/assets",
@@ -268,7 +269,7 @@
     "z_others-Ramy의 MacBook Pro/obsidian",
     "z_others-Ramy의 MacBook Pro",
     "Linux/Linux 최신 명령어.md",
-    "Home Server_RasberryPi/RasberryPi.md",
+    "Home Server_RasberryPi/RasberryPi🍓.md",
     "Linux/WSL.md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
@@ -282,7 +283,6 @@
     "Home Server_RasberryPi/SMB(Samba).md",
     "Home Server_RasberryPi",
     "JS/JS 기본1 (모던JS).md",
-    "devhump's TIL Index (data view).md",
     "JS/JS.md",
     "JS/CORS 에러 문제.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
