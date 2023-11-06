@@ -1,0 +1,127 @@
+{
+  "recentFiles": [
+    {
+      "basename": "RasberryPi",
+      "path": "Home Server_RasberryPi/RasberryPi.md"
+    },
+    {
+      "basename": "Linux 최신 명령어",
+      "path": "Linux/Linux 최신 명령어.md"
+    },
+    {
+      "basename": "WSL",
+      "path": "Linux/WSL.md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "zsh 설정 관련",
+      "path": "IT_SC_Basic/zsh 설정 관련.md"
+    },
+    {
+      "basename": "ubuntu server - 설치 프로그램",
+      "path": "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md"
+    },
+    {
+      "basename": "vim 설정",
+      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "Home Server_RasberryPi",
+      "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
+    },
+    {
+      "basename": "Vim 사용법",
+      "path": "z_others/Vim 사용법.md"
+    },
+    {
+      "basename": "Linux note",
+      "path": "Linux/Linux note.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
+    },
+    {
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
+    },
+    {
+      "basename": "JS 기본1 (모던JS)",
+      "path": "JS/JS 기본1 (모던JS).md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "JS",
+      "path": "JS/JS.md"
+    },
+    {
+      "basename": "CORS 에러 문제",
+      "path": "JS/CORS 에러 문제.md"
+    },
+    {
+      "basename": "Node.js & MongoDB 1",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+    },
+    {
+      "basename": "구현해 보고 싶은 기능",
+      "path": "z_others/구현해 보고 싶은 기능.md"
+    },
+    {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+    },
+    {
+      "basename": "Obsidian setting - Community plugin",
+      "path": "z_others/obsidian/Obsidian setting - Community plugin.md"
+    },
+    {
+      "basename": "Hot-key for windows",
+      "path": "z_others/Hot-key for windows.md"
+    },
+    {
+      "basename": "IP address vs Mac Address",
+      "path": "IT_SC_Basic/IP address vs Mac Address.md"
+    },
+    {
+      "basename": "IP 주소의 종류",
+      "path": "IT_SC_Basic/IP 주소의 종류.md"
+    },
+    {
+      "basename": "IT_SC_Basic",
+      "path": "IT_SC_Basic/IT_SC_Basic.md"
+    },
+    {
+      "basename": "인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용)",
+      "path": "z_others/인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용).md"
+    },
+    {
+      "basename": "주피터노트북 in vscode",
+      "path": "z_others/주피터노트북 in vscode.md"
+    },
+    {
+      "basename": "Hot-key for Mac",
+      "path": "z_others/Hot-key for Mac.md"
+    },
+    {
+      "basename": "Hot-key (IDE)",
+      "path": "z_others/Hot-key (IDE).md"
+    },
+    {
+      "basename": "Docker",
+      "path": "z_others/Docker.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": 30,
+  "openType": "tab"
+}

@@ -1,0 +1,26 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":point_right:",
+    ":point_up_2:",
+    ":point_down:",
+    ":medal_sports:",
+    ":clock5:",
+    ":1234:",
+    ":thumbsup:",
+    ":pushpin:",
+    ":clap:",
+    ":tropical_drink:",
+    ":banana:",
+    ":apple:",
+    ":kiwi_fruit:",
+    ":arrow_right:",
+    ":white_circle:",
+    ":yellow_circle:",
+    ":arrow_right_hook:",
+    ":fire:"
+  ]
+}

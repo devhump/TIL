@@ -1,0 +1,12 @@
+{
+  "URICommands": [
+    {
+      "name": "Open Other_vault",
+      "id": "open-other_vault1679391597869",
+      "URITemplate": "obsidian://open?vault=ramy_ob2",
+      "encode": true,
+      "icon": "arrow-left-right"
+    }
+  ],
+  "notification": true
+}

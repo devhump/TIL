@@ -1,0 +1,86 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "twemoji",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "🫐",
+      "SiDjango",
+      "SiGithub",
+      "SiHtml5",
+      "FabJs"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconsBackgroundCheckEnabled": false
+  },
+  "Algo Solving": {
+    "iconName": "❔",
+    "inheritanceIcon": "❔"
+  },
+  "Algorithm (theory)": {
+    "iconName": "🧑‍🏫",
+    "inheritanceIcon": "👨‍🏫"
+  },
+  "IT_SC_Basic": {
+    "iconName": "🖥",
+    "inheritanceIcon": "🖥"
+  },
+  "KDT": {
+    "iconName": "🧑‍🎓",
+    "inheritanceIcon": "🧑‍🎓"
+  },
+  "MDN": {
+    "iconName": "🦊",
+    "inheritanceIcon": "🦊"
+  },
+  "readme.md": "🌍",
+  "devhump's TIL Index (data view).md": "📌",
+  "TIL Waypoint.md": "🔥",
+  "z_others": {
+    "iconName": "📥",
+    "inheritanceIcon": "📥"
+  },
+  "Linux": {
+    "iconName": "🐧",
+    "inheritanceIcon": "🐧"
+  },
+  "git_github": {
+    "iconName": "SiGithub",
+    "inheritanceIcon": "SiGithub"
+  },
+  "Django": {
+    "iconName": "SiDjango",
+    "inheritanceIcon": "SiDjango"
+  },
+  "HTML_CSS": {
+    "iconName": "SiHtml5",
+    "inheritanceIcon": "SiHtml5"
+  },
+  "JS": {
+    "iconName": "FabJs",
+    "inheritanceIcon": "FabJs"
+  },
+  "Python": {
+    "iconName": "SiPython",
+    "inheritanceIcon": "SiPython"
+  },
+  "공부 할 자료 정리.md": "🐢",
+  "Node.js & MongoDB": {
+    "iconName": "🐼",
+    "inheritanceIcon": "🐼"
+  },
+  "Home Server_RasberryPi": {
+    "iconName": "🫐",
+    "inheritanceIcon": "🫐"
+  }
+}

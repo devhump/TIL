@@ -1,0 +1,13 @@
+{
+  "accentColor": "",
+  "cssTheme": "Pine Forest Berry",
+  "translucency": false,
+  "theme": "obsidian",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "pub-Image"
+  ]
+}
