@@ -4,9 +4,9 @@
   "switcher",
   "graph",
   "backlink",
+  "canvas",
   "outgoing-link",
   "tag-pane",
-  "properties",
   "page-preview",
   "daily-notes",
   "templates",
@@ -14,10 +14,7 @@
   "command-palette",
   "editor-status",
   "bookmarks",
-  "zk-prefixer",
-  "random-note",
   "outline",
   "word-count",
-  "workspaces",
   "file-recovery"
 ]

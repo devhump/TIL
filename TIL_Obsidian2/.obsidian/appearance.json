@@ -1,13 +1,3 @@
 {
-  "accentColor": "",
-  "cssTheme": "Mammoth",
-  "translucency": false,
-  "theme": "obsidian",
-  "interfaceFontFamily": "",
-  "textFontFamily": "",
-  "monospaceFontFamily": "",
-  "baseFontSize": 18,
-  "enabledCssSnippets": [
-    "pub-Image"
-  ]
+  "accentColor": ""
 }

@@ -1,58 +1,35 @@
 {
   "main": {
-    "id": "53b26992aeb5262d",
+    "id": "a336af08e6fce7c2",
     "type": "split",
     "children": [
       {
-        "id": "282106761f013a58",
+        "id": "8b37f39e63c9854a",
         "type": "tabs",
         "children": [
           {
-            "id": "9bc17440e038c6ed",
+            "id": "4d5302ee0af04838",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devhump's TIL Index (data view).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "93413e7b33b037f5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "06335d66a1e73f99",
+    "id": "70a13d2d9c3c92bd",
     "type": "split",
     "children": [
       {
-        "id": "f47d8eab3edb9bc6",
+        "id": "618f29f2c6dc0c17",
         "type": "tabs",
         "children": [
           {
-            "id": "b2fec09aa046b5f4",
+            "id": "6767932741117e5d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,87 +39,48 @@
             }
           },
           {
-            "id": "e28636bf443dc37a",
+            "id": "6ed724e6e9a75fd0",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "zsh",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "fc422b72b1b7ee97",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          },
-          {
-            "id": "330c7d57431f1ad6",
+            "id": "fd5a535ccfe0a6f5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 300
   },
   "right": {
-    "id": "070fea7cbd530e4d",
+    "id": "ff900c8eefd96615",
     "type": "split",
     "children": [
       {
-        "id": "8cd5e8d07882a86f",
+        "id": "076003201c4c8046",
         "type": "tabs",
         "children": [
           {
-            "id": "613b07e1f1cb02a2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Home Server_RasberryPi/Ubuntu server (main).md"
-              }
-            }
-          },
-          {
-            "id": "f9cd19e5d23f6f63",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "f803d23bc46f8ea4",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "b051d8131aaa1fac",
+            "id": "bb482a2089ee42c2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,103 +92,52 @@
             }
           },
           {
-            "id": "692ff213dd967961",
+            "id": "c341998c70e25f51",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c9833ed4ec975540",
+            "id": "e567287f9ceb1595",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
+              "type": "tag",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           },
           {
-            "id": "b41997f15d26be67",
+            "id": "7bc1a219893d061d",
             "type": "leaf",
             "state": {
-              "type": "todo",
+              "type": "outline",
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
-      "random-note:Open random note": false,
-      "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "remotely-save:Remotely Save": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "93413e7b33b037f5",
-  "lastOpenFiles": [
-    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
-    "Linux/Linux 최신 명령어.md",
-    "Linux/WSL.md",
-    "Home Server_RasberryPi/Home-server/vim 설정.md",
-    "Home Server_RasberryPi/RasberryPi🍓.md",
-    "Home Server_RasberryPi/Ubuntu server (main).md",
-    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
-    "devhump's TIL Index (data view).md",
-    "HTML_CSS-Ramy의 MacBook Pro",
-    "IT_SC_Basic-Ramy의 MacBook Pro",
-    "z_others-Ramy의 MacBook Pro/obsidian/assets",
-    "z_others-Ramy의 MacBook Pro/obsidian/assets",
-    "z_others-Ramy의 MacBook Pro/assets",
-    "z_others-Ramy의 MacBook Pro/obsidian",
-    "z_others-Ramy의 MacBook Pro/assets",
-    "z_others-Ramy의 MacBook Pro/obsidian",
-    "z_others-Ramy의 MacBook Pro",
-    "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
-    "Home Server_RasberryPi/Home Server_RasberryPi.md",
-    "z_others/Vim 사용법.md",
-    "Linux/Linux note.md",
-    "Linux/Linux.md",
-    "Home Server_RasberryPi/SMB(Samba).md",
-    "Home Server_RasberryPi",
-    "JS/JS 기본1 (모던JS).md",
-    "JS/JS.md",
-    "JS/CORS 에러 문제.md",
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "z_others/구현해 보고 싶은 기능.md",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-63.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-62.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-61.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-65.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-64.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-59.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-60.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-54.png",
-    "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
-    "z_others/obsidian/Obsidian setting - Community plugin.md",
-    "z_others/assets/image-20230423200235906.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 1-58.png",
-    "z_others/Hot-key for windows.md",
-    "IT_SC_Basic/IP address vs Mac Address.md",
-    "IT_SC_Basic/IP 주소의 종류.md",
-    "IT_SC_Basic/IT_SC_Basic.md"
-  ]
+  "active": "4d5302ee0af04838",
+  "lastOpenFiles": []
 }

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "WSL",
+      "path": "Linux/WSL.md"
+    },
+    {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Linux 최신 명령어",
       "path": "Linux/Linux 최신 명령어.md"
-    },
-    {
-      "basename": "WSL",
-      "path": "Linux/WSL.md"
     },
     {
       "basename": "vim 설정",
