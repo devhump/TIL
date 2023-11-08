@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "RasberryPi🍓",
+      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
+    },
+    {
       "basename": "WSL",
       "path": "Linux/WSL.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "vim 설정",
       "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
-    },
-    {
-      "basename": "RasberryPi🍓",
-      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",

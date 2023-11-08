@@ -14,6 +14,13 @@ sudo apt-get install tldr exa duf nnn mc -y
 
 ```
 
+##### iftop
+```shell
+sudo iftop -h
+
+sudo iftop
+```
+
 
 ### 로케일(locale) 변경 시 한글 깨질 때
 ```shell
