@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "RasberryPi🍓",
-      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
-    },
-    {
       "basename": "WSL",
       "path": "Linux/WSL.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
+    },
+    {
+      "basename": "RasberryPi🍓",
+      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
     },
     {
       "basename": "Ubuntu server (main)",
@@ -43,10 +47,6 @@
     {
       "basename": "Linux note",
       "path": "Linux/Linux note.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "Linux/Linux.md"
     },
     {
       "basename": "SMB(Samba)",
