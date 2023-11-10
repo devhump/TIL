@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "WSL",
-      "path": "Linux/WSL.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "Linux/Linux.md"
-    },
-    {
       "basename": "RasberryPi🍓",
       "path": "Home Server_RasberryPi/RasberryPi🍓.md"
     },
     {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "WSL",
+      "path": "Linux/WSL.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
     },
     {
       "basename": "zsh 설정 관련 + fzf",

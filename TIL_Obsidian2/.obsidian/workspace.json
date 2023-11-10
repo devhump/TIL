@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/WSL.md",
+                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +89,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/WSL.md",
+                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/WSL.md",
+                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/WSL.md"
+                "file": "Home Server_RasberryPi/RasberryPi🍓.md"
               }
             }
           },
@@ -183,6 +183,8 @@
   },
   "active": "bc769330d30a9827",
   "lastOpenFiles": [
+    "Home Server_RasberryPi/Ubuntu server (main).md",
+    "Linux/WSL.md",
     "Linux/Linux.md",
     "Home Server_RasberryPi/RasberryPi🍓.md"
   ]
