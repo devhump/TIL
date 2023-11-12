@@ -39,6 +39,31 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 source .zshrc
 ```
 
+##### oh-my-zsh theme
+
+- A
+- [ ] amuse
+
+- C
+- [ ] candy
+- [ ] crcandy
+- [ ] crunch
+
+- D
+- [ ] dallas
+- [ ] dieter
+
+- others
+- [ ] fino-time
+- [ ] mikeh
+- [ ] jonathan
+
+- [ ] jtriley
+- [ ] junkfood
+- [ ] rkj-repos
+- [x] xiong-chiamiov-plus
+
+
 #### fzf
 ```shell
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
