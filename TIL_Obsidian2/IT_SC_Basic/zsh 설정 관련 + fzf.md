@@ -40,12 +40,8 @@ source .zshrc
 ```
 
 ##### oh-my-zsh theme
-
-- A
-- [ ] amuse
-
 - C
-- [ ] candy
+- [x] candy
 - [ ] crcandy
 - [ ] crunch
 
