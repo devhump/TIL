@@ -27,12 +27,12 @@ SORT file.name ASC
 
 #### 자주 쓰는 명령어
 ```shell
+#프로그램 삭제
+sudo apt-get --purge remove zsh
+
 journalctl -f
 sudo fail2ban-client status sshd
 sudo systemctl status fail2ban
-
-#프로그램 삭제
-sudo apt-get --purge remove program
 
 #파일/dir 모드 변경
 chmod 777 /dev

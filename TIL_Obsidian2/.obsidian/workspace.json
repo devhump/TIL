@@ -38,64 +38,12 @@
             }
           },
           {
-            "id": "8f714e5fa3187c0f",
+            "id": "f3f94c21f46ccf3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cf32c01caffc5a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "957cb62c411cb050",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT_SC_Basic/zsh 설정 관련 + fzf.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8585b39469fcbe86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f39a71551e9904c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z_others/유용한 사이트들.md",
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -103,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "윈도우 터미널 테마",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ff900c8eefd96615",
@@ -178,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_others/유용한 사이트들.md",
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_others/유용한 사이트들.md",
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_others/유용한 사이트들.md"
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
               }
             }
           },
@@ -250,17 +199,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f39a71551e9904c7",
+  "active": "f3f94c21f46ccf3a",
   "lastOpenFiles": [
-    "Home Server_RasberryPi/Ubuntu server (main).md",
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "Home Server_RasberryPi/RasberryPi🍓.md",
     "IT_SC_Basic/zsh 설정 관련 + fzf.md",
-    "Linux/Linux.md",
-    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "Home Server_RasberryPi/RasberryPi🍓.md",
     "Home Server_RasberryPi/Home-server/vim 설정.md",
+    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "Home Server_RasberryPi/Ubuntu server (main).md",
+    "Linux/Linux.md",
+    "z_others/유용한 사이트들.md",
+    "Node.js & MongoDB/Node.js & MongoDB 1.md",
+    "devhump's TIL Index (data view).md",
     "Linux/WSL.md",
-    "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
-    "devhump's TIL Index (data view).md"
+    "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
   ]
 }

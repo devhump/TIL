@@ -2,13 +2,17 @@
 tags:
   - rasberrypi
 ---
-### initial installation
+
+#### at the begining
 ```shell
 sudo apt update && sudo apt upgrade -y
+```
 
+### initial installation
+```shell
 sudo apt-get install zsh vim iptables -y
 
-sudo apt-get install dstat htop btop iftop neofetch -y
+sudo apt-get install dstat htop btop iftop neofetc
 
 sudo apt-get install tldr exa duf nnn mc -y
 
@@ -54,3 +58,8 @@ cd fonts
 cd ..
 rm -rf fonts
 ```
+
+### Next Step
+- [[vim 설정]]
+- [[zsh 설정 관련 + fzf]]
+- [[Home-server - 원격관리 & 보안]]

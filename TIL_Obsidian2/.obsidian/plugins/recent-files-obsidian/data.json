@@ -1,36 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "유용한 사이트들",
-      "path": "z_others/유용한 사이트들.md"
-    },
-    {
-      "basename": "Ubuntu server (main)",
-      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
-    },
-    {
-      "basename": "Node.js & MongoDB 1",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
-    },
-    {
-      "basename": "RasberryPi🍓",
-      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "zsh 설정 관련 + fzf",
       "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
     },
     {
-      "basename": "Linux",
-      "path": "Linux/Linux.md"
-    },
-    {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+      "basename": "RasberryPi🍓",
+      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
     },
     {
       "basename": "vim 설정",
       "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
+    },
+    {
+      "basename": "유용한 사이트들",
+      "path": "z_others/유용한 사이트들.md"
+    },
+    {
+      "basename": "Node.js & MongoDB 1",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "WSL",
@@ -39,10 +43,6 @@
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
       "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "Linux 최신 명령어",
