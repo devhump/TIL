@@ -49,9 +49,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ac848ecdcc7a6142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7edd465f0a9d7b44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT_SC_Basic/zsh 설정 관련 + fzf.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "IT_SC_Basic/zsh 설정 관련 + fzf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "IT_SC_Basic/zsh 설정 관련 + fzf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+                "file": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
               }
             }
           },
@@ -199,13 +225,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f3f94c21f46ccf3a",
+  "active": "7edd465f0a9d7b44",
   "lastOpenFiles": [
-    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
     "Home Server_RasberryPi/RasberryPi🍓.md",
     "Home Server_RasberryPi/Home-server/vim 설정.md",
-    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
+    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
     "Linux/Linux.md",
     "z_others/유용한 사이트들.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
