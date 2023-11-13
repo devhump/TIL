@@ -5,24 +5,36 @@
       "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
-      "basename": "RasberryPi🍓",
-      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
-      "basename": "vim 설정",
-      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
+    },
+    {
+      "basename": "RasberryPi🍓",
+      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
     },
     {
       "basename": "zsh 설정 관련 + fzf",
       "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
     },
     {
-      "basename": "Ubuntu server (main)",
-      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+      "basename": "vim 설정",
+      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
     },
     {
       "basename": "Linux",
       "path": "Linux/Linux.md"
+    },
+    {
+      "basename": "Home Server_RasberryPi",
+      "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
     },
     {
       "basename": "유용한 사이트들",
@@ -31,10 +43,6 @@
     {
       "basename": "Node.js & MongoDB 1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "WSL",
@@ -53,20 +61,12 @@
       "path": "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md"
     },
     {
-      "basename": "Home Server_RasberryPi",
-      "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
-    },
-    {
       "basename": "Vim 사용법",
       "path": "z_others/Vim 사용법.md"
     },
     {
       "basename": "Linux note",
       "path": "Linux/Linux note.md"
-    },
-    {
-      "basename": "SMB(Samba)",
-      "path": "Home Server_RasberryPi/SMB(Samba).md"
     },
     {
       "basename": "JS 기본1 (모던JS)",

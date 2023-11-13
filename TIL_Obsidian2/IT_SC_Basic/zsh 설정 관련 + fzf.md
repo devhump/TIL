@@ -42,7 +42,7 @@ source .zshrc
 ##### oh-my-zsh theme
 - C
 - [x] candy
-- [ ] crcandy
+- [x] **crcandy**
 - [ ] crunch
 
 - D
@@ -54,8 +54,7 @@ source .zshrc
 - [ ] mikeh
 - [ ] jonathan
 
-- [ ] jtriley
-- [ ] junkfood
+- [x] jtriley
 - [ ] rkj-repos
 - [x] xiong-chiamiov-plus
 
