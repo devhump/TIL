@@ -1,24 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
-    },
-    {
-      "basename": "Ubuntu server (main)",
-      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
-    },
-    {
-      "basename": "SMB(Samba)",
-      "path": "Home Server_RasberryPi/SMB(Samba).md"
-    },
-    {
       "basename": "RasberryPi🍓",
       "path": "Home Server_RasberryPi/RasberryPi🍓.md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "zsh 설정 관련 + fzf",
@@ -27,6 +15,26 @@
     {
       "basename": "vim 설정",
       "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "trouble shooting",
+      "path": "Home Server_RasberryPi/trouble shooting.md"
+    },
+    {
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
+    },
+    {
+      "basename": "WOL on Ubuntu",
+      "path": "Home Server_RasberryPi/WOL on Ubuntu.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "Linux",
@@ -111,14 +119,6 @@
     {
       "basename": "주피터노트북 in vscode",
       "path": "z_others/주피터노트북 in vscode.md"
-    },
-    {
-      "basename": "Hot-key for Mac",
-      "path": "z_others/Hot-key for Mac.md"
-    },
-    {
-      "basename": "Hot-key (IDE)",
-      "path": "z_others/Hot-key (IDE).md"
     }
   ],
   "omittedPaths": [],

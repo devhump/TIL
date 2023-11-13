@@ -43,7 +43,7 @@ source .zshrc
 - C
 - [x] candy
 - [x] **crcandy**
-- [ ] crunch
+- [x] crunch
 
 - D
 - [ ] dallas

@@ -5,14 +5,14 @@ tags:
 ---
 
 #### 관련 문서
-##### HomeServer
-```dataview
-list from #HomeServer
-```
 ##### RasberryPi
 ```dataview
 list from #rasberrypi  
 SORT file.cday DESC
+```
+##### HomeServer
+```dataview
+list from #HomeServer
 ```
 ##### Linux
 ```dataview
@@ -23,6 +23,12 @@ SORT file.cday DESC
 ```dataview
 list from #Linux/Linux_note
 SORT file.name ASC
+```
+
+#### at the begining
+```shell
+sudo apt update && sudo apt upgrade -y
+sudo apt install zsh -y
 ```
 
 #### 자주 쓰는 명령어

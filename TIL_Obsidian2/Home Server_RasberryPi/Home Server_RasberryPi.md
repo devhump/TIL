@@ -5,6 +5,8 @@
 	- [vim 설정](./Home-server/vim%20%EC%84%A4%EC%A0%95.md)
 - [RasberryPi🍓](./RasberryPi%F0%9F%8D%93.md)
 - [SMB(Samba)](./SMB(Samba).md)
+- [trouble shooting](./trouble%20shooting.md)
 - [Ubuntu server (main)](./Ubuntu%20server%20(main).md)
+- [WOL on Ubuntu](./WOL%20on%20Ubuntu.md)
 
 %% End Waypoint %%
