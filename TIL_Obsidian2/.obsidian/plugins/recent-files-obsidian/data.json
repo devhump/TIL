@@ -1,48 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "RasberryPi🍓",
-      "path": "Home Server_RasberryPi/RasberryPi🍓.md"
-    },
-    {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
-    },
-    {
-      "basename": "zsh 설정 관련 + fzf",
-      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
-    },
-    {
-      "basename": "vim 설정",
-      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
-    },
-    {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
-    },
-    {
-      "basename": "trouble shooting",
-      "path": "Home Server_RasberryPi/trouble shooting.md"
-    },
-    {
-      "basename": "SMB(Samba)",
-      "path": "Home Server_RasberryPi/SMB(Samba).md"
-    },
-    {
-      "basename": "WOL on Ubuntu",
-      "path": "Home Server_RasberryPi/WOL on Ubuntu.md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
     },
     {
-      "basename": "Linux",
-      "path": "Linux/Linux.md"
+      "basename": "Linux 최신 명령어",
+      "path": "Linux/Linux 최신 명령어.md"
+    },
+    {
+      "basename": "vim 설정",
+      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "ubuntu server - 설치 프로그램",
+      "path": "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "Home Server_RasberryPi",
       "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
+    },
+    {
+      "basename": "network",
+      "path": "Home Server_RasberryPi/network.md"
+    },
+    {
+      "basename": "RasberryPi🍓🫐",
+      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
+    },
+    {
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
+    },
+    {
+      "basename": "trouble shooting🔫",
+      "path": "Home Server_RasberryPi/trouble shooting🔫.md"
+    },
+    {
+      "basename": "WOL on Ubuntu",
+      "path": "Home Server_RasberryPi/WOL on Ubuntu.md"
+    },
+    {
+      "basename": "zsh 설정 관련 + fzf",
+      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
     },
     {
       "basename": "유용한 사이트들",
@@ -59,14 +71,6 @@
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
       "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "Linux 최신 명령어",
-      "path": "Linux/Linux 최신 명령어.md"
-    },
-    {
-      "basename": "ubuntu server - 설치 프로그램",
-      "path": "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md"
     },
     {
       "basename": "Vim 사용법",
@@ -115,10 +119,6 @@
     {
       "basename": "인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용)",
       "path": "z_others/인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용).md"
-    },
-    {
-      "basename": "주피터노트북 in vscode",
-      "path": "z_others/주피터노트북 in vscode.md"
     }
   ],
   "omittedPaths": [],

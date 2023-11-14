@@ -43,14 +43,13 @@ source .zshrc
 - C
 - [x] candy
 - [x] **crcandy**
-- [x] crunch
 
 - D
-- [ ] dallas
-- [ ] dieter
+- [x] **dallas**
+- [x] **dieter**
 
 - others
-- [ ] fino-time
+- [x] **fino-time 🌟**
 - [ ] mikeh
 - [ ] jonathan
 

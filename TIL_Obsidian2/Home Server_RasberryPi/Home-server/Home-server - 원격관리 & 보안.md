@@ -1,8 +1,6 @@
 ---
 tags:
-  - ubuntu
   - HomeServer
-  - Linux
 ---
 ```dataview
 list from #HomeServer
@@ -139,8 +137,6 @@ sudo iptables -P OUTPUT ACCEPT
 ```shell
  
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT 
-sudo iptables -A INPUT -p tcp --dport 9090 -j ACCEPT 
-sudo iptables -A INPUT -p udp --dport 9090 -j ACCEPT 
 sudo iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 sudo iptables -P INPUT DROP
 sudo iptables -P FORWARD DROP
@@ -185,7 +181,7 @@ sudo iptables -D INPUT [규칙 위치]
 ##### 저장
 - 방화벽 관리 패키지 설치
 ```shell
-sudo apt install iptables-persistent
+sudo apt install iptables-persistent -y
 ```
 
 - 방화벽 규칙 저장 및 적용
@@ -207,7 +203,7 @@ journalctl -f
 
 #### 설치
 ```shell
-sudo apt install fail2ban
+sudo apt install fail2ban -y
 
 # 설치 이후에는 iptables에 새로운 체인이 생성됨
 sudo iptables -L
@@ -223,9 +219,9 @@ sudo vim /etc/fail2ban/jail.local
 ```shell
 [DEFAULT]
 ignoreip=192.168.0.0/24
-bantime=86400
+bantime=-1
 # bantime=-1 은 영구차단
-maxretry=5
+maxretry=3
 findtime=86400
 
 [sshd]

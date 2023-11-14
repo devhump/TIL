@@ -23,9 +23,8 @@
             }
           },
           {
-            "id": "e382eb5b9a061881",
+            "id": "1f780b3e9e879517",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -33,38 +32,11 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "40cef6b919d4bf67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Server_RasberryPi/trouble shooting.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b82c619334c48dd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ff900c8eefd96615",
@@ -139,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi🍓.md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/RasberryPi🍓.md"
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md"
               }
             }
           },
@@ -211,22 +182,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b82c619334c48dd4",
+  "active": "1f780b3e9e879517",
   "lastOpenFiles": [
-    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
-    "Home Server_RasberryPi/RasberryPi🍓.md",
-    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
-    "Home Server_RasberryPi/Home-server/vim 설정.md",
+    "devhump's TIL Index (data view).md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
-    "Home Server_RasberryPi/trouble shooting.md",
+    "Linux/Linux 최신 명령어.md",
+    "Home Server_RasberryPi/Home-server/vim 설정.md",
+    "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
+    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "Home Server_RasberryPi/Home Server_RasberryPi.md",
+    "Home Server_RasberryPi/network.md",
+    "Home Server_RasberryPi/RasberryPi🍓🫐.md",
     "Home Server_RasberryPi/SMB(Samba).md",
+    "Home Server_RasberryPi/trouble shooting🔫.md",
     "Home Server_RasberryPi/WOL on Ubuntu.md",
+    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
     "WOL on Ubuntu-2.png",
     "WOL on Ubuntu-1.png",
     "WOL on Ubuntu.png",
-    "devhump's TIL Index (data view).md",
     "Linux/Linux.md",
-    "Home Server_RasberryPi/Home Server_RasberryPi.md",
     "z_others/유용한 사이트들.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Linux/WSL.md",

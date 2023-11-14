@@ -1,6 +1,5 @@
 ---
 tags:
-  - Linux
   - HomeServer
 ---
 ```dataview

@@ -1,3 +1,8 @@
+---
+tags:
+  - HomeServer
+---
+
 ### 관련 패키지 설치
 ```shell
 sudo apt-get install net-tools ethtool wakeonlan

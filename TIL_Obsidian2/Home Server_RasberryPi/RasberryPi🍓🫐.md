@@ -1,6 +1,7 @@
 ---
 tags:
   - rasberrypi
+  - HomeServer
 ---
 
 #### at the begining
@@ -12,7 +13,7 @@ sudo apt update && sudo apt upgrade -y
 ```shell
 sudo apt-get install zsh vim iptables -y
 
-sudo apt-get install dstat htop btop iftop neofetch
+sudo apt-get install dstat htop btop iftop neofetch -y
 
 sudo apt-get install tldr exa duf nnn mc -y
 
