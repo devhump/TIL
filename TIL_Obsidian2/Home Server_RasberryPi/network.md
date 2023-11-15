@@ -14,3 +14,13 @@ sudo lsof -i -n -P | grep LISTEN
 netstat -tnlp | grep 포트번호
 
 ```
+
+#### 네트워크 경로 추적
+```shell
+tracert google.com
+```
+
+#### 임시 http 서버 띄우기
+```shell
+python3 -m http.server 8888
+```

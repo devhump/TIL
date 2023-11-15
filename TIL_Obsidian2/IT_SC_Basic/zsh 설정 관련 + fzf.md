@@ -1,6 +1,7 @@
 ---
 tags:
   - Linux
+  - HomeServer
 ---
 
 #### How to Install oh-my-zsh
@@ -50,7 +51,7 @@ source .zshrc
 
 - others
 - [x] **fino-time 🌟**
-- [ ] mikeh
+- [x] mikeh
 - [ ] jonathan
 
 - [x] jtriley

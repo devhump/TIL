@@ -89,6 +89,7 @@ sudo vim /etc/ssh/sshd_config
 - 다음 내용 중 `[계정명]` 부분을 자신의 사용자 계정명으로 바꾸고 제일 아래 줄에 입력하세요.
 ```shell
 AllowUsers [계정명]
+AllowUsers ramy
 ```
 
 - 설정 내용을 반영하기 위해 SSH 서비스를 재시작 합시다.
