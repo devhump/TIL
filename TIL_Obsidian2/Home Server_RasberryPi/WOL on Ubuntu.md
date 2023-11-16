@@ -5,7 +5,7 @@ tags:
 
 ### 관련 패키지 설치
 ```shell
-sudo apt-get install net-tools ethtool wakeonlan
+sudo apt-get install net-tools ethtool wakeonlan -y
 ```
 
 ### 네트워크 카드 이름 확인
@@ -18,10 +18,12 @@ ifconfig
 ```shell
 # wol 수동으로 켜기
 sudo ethtool -s 인터페이스명 wol g
+# sudo ethtool -s enp2s0 wol g
+
 
 # wol 작동상태 확인
 sudo ethtool 인터페이스명
-# sudo ethtool enp2s
+# sudo ethtool enp2s0
 ```
 
 - 👉 Wake-on 항목이 'g'로 설정되어 있으면 정상적으로 작동된 것이다.

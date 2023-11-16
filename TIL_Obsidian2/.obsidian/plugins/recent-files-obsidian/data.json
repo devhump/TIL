@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "network",
-      "path": "Home Server_RasberryPi/network.md"
-    },
-    {
-      "basename": "trouble shooting🔫",
-      "path": "Home Server_RasberryPi/trouble shooting🔫.md"
+      "basename": "WOL on Ubuntu",
+      "path": "Home Server_RasberryPi/WOL on Ubuntu.md"
     },
     {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
+      "basename": "trouble shooting🔫",
+      "path": "Home Server_RasberryPi/trouble shooting🔫.md"
+    },
+    {
+      "basename": "network",
+      "path": "Home Server_RasberryPi/network.md"
+    },
+    {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "WOL on Ubuntu",
+      "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu.png"
+    },
+    {
+      "basename": "WOL on Ubuntu-2",
+      "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu-2.png"
+    },
+    {
+      "basename": "WOL on Ubuntu-1",
+      "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png"
     },
     {
       "basename": "RasberryPi🍓🫐",
@@ -47,10 +63,6 @@
     {
       "basename": "SMB(Samba)",
       "path": "Home Server_RasberryPi/SMB(Samba).md"
-    },
-    {
-      "basename": "WOL on Ubuntu",
-      "path": "Home Server_RasberryPi/WOL on Ubuntu.md"
     },
     {
       "basename": "Linux",
@@ -107,18 +119,6 @@
     {
       "basename": "IP address vs Mac Address",
       "path": "IT_SC_Basic/IP address vs Mac Address.md"
-    },
-    {
-      "basename": "IP 주소의 종류",
-      "path": "IT_SC_Basic/IP 주소의 종류.md"
-    },
-    {
-      "basename": "IT_SC_Basic",
-      "path": "IT_SC_Basic/IT_SC_Basic.md"
-    },
-    {
-      "basename": "인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용)",
-      "path": "z_others/인생에 도움되는 맥북 고오급 터미널 명령어들 (일반인용).md"
     }
   ],
   "omittedPaths": [],

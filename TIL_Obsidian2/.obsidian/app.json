@@ -1,3 +1,6 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "root",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./"
 }
