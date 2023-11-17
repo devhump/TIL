@@ -142,3 +142,5 @@ sudo timedatectl set-timezone Asia/Seoul
 - [[Ubuntu 20.04] 우분투 서버에 Plex 미디어 스트리밍 서버 구축기](https://shanepark.tistory.com/391)
 
 - [6. 우분투 토렌트 서버 구축하기 (transmission-daemon)](https://blog.djjproject.com/54)
+- [Ubuntu 미디어 서버용 Jellyfin 서비스 구축하기(H/W 트랜스코딩)](https://blog.dalso.org/home-server/mediaserver-plex-jellyfin/8082)
+

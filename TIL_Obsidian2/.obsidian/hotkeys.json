@@ -40,5 +40,15 @@
       ],
       "key": "ArrowDown"
     }
+  ],
+  "uri-commands:open-other_vault1679391597869": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
   ]
 }

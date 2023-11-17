@@ -38,25 +38,12 @@
             }
           },
           {
-            "id": "fc9afbafe159f271",
+            "id": "4f8967864286493f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home Server_RasberryPi/network.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71fe622fe1810bbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Server_RasberryPi/WOL on Ubuntu.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -64,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -138,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/WOL on Ubuntu.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/WOL on Ubuntu.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/WOL on Ubuntu.md"
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
               }
             }
           },
@@ -210,13 +197,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "71fe622fe1810bbd",
+  "active": "4f8967864286493f",
   "lastOpenFiles": [
     "Home Server_RasberryPi/Ubuntu server (main).md",
-    "Home Server_RasberryPi/trouble shooting🔫.md",
+    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Home Server_RasberryPi/network.md",
-    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/WOL on Ubuntu.md",
+    "Home Server_RasberryPi/trouble shooting🔫.md",
+    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu.png",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu-2.png",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png",
@@ -230,7 +218,6 @@
     "Home Server_RasberryPi/SMB(Samba).md",
     "Linux/Linux.md",
     "z_others/유용한 사이트들.md",
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Linux/WSL.md",
     "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
   ]
