@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Node.js & MongoDB 1",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
-    },
-    {
-      "basename": "Ubuntu server (main)",
-      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+      "basename": "Home Server_RasberryPi",
+      "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
     },
     {
       "basename": "network",
       "path": "Home Server_RasberryPi/network.md"
     },
     {
-      "basename": "WOL on Ubuntu",
-      "path": "Home Server_RasberryPi/WOL on Ubuntu.md"
+      "basename": "RasberryPi🍓🫐",
+      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
+    },
+    {
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
     },
     {
       "basename": "trouble shooting🔫",
       "path": "Home Server_RasberryPi/trouble shooting🔫.md"
+    },
+    {
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "Node.js & MongoDB 1",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+    },
+    {
+      "basename": "WOL on Ubuntu",
+      "path": "Home Server_RasberryPi/WOL on Ubuntu.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
@@ -35,10 +47,6 @@
     {
       "basename": "WOL on Ubuntu-1",
       "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png"
-    },
-    {
-      "basename": "RasberryPi🍓🫐",
-      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
     },
     {
       "basename": "zsh 설정 관련 + fzf",
@@ -59,14 +67,6 @@
     {
       "basename": "ubuntu server - 설치 프로그램",
       "path": "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md"
-    },
-    {
-      "basename": "Home Server_RasberryPi",
-      "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
-    },
-    {
-      "basename": "SMB(Samba)",
-      "path": "Home Server_RasberryPi/SMB(Samba).md"
     },
     {
       "basename": "Linux",

@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/Home Server_RasberryPi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/Home Server_RasberryPi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/Home Server_RasberryPi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+                "file": "Home Server_RasberryPi/Home Server_RasberryPi.md"
               }
             }
           },
@@ -199,23 +199,23 @@
   },
   "active": "4f8967864286493f",
   "lastOpenFiles": [
+    "Home Server_RasberryPi/network.md",
+    "Home Server_RasberryPi/RasberryPi🍓🫐.md",
+    "Home Server_RasberryPi/SMB(Samba).md",
+    "Home Server_RasberryPi/trouble shooting🔫.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "Home Server_RasberryPi/network.md",
     "Home Server_RasberryPi/WOL on Ubuntu.md",
-    "Home Server_RasberryPi/trouble shooting🔫.md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu.png",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu-2.png",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png",
-    "Home Server_RasberryPi/RasberryPi🍓🫐.md",
     "IT_SC_Basic/zsh 설정 관련 + fzf.md",
     "devhump's TIL Index (data view).md",
     "Linux/Linux 최신 명령어.md",
     "Home Server_RasberryPi/Home-server/vim 설정.md",
     "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
     "Home Server_RasberryPi/Home Server_RasberryPi.md",
-    "Home Server_RasberryPi/SMB(Samba).md",
     "Linux/Linux.md",
     "z_others/유용한 사이트들.md",
     "Linux/WSL.md",
