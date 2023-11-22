@@ -49,9 +49,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "238ea15690f61ae7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Server_RasberryPi/network.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+                "file": "Home Server_RasberryPi/network.md"
               }
             }
           },
@@ -198,8 +212,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d3ec0232da00af28",
+  "active": "238ea15690f61ae7",
   "lastOpenFiles": [
+    "Home Server_RasberryPi/network-2.png",
+    "Home Server_RasberryPi/network-1.png",
+    "Home Server_RasberryPi/network.png",
     "Home Server_RasberryPi/Ubuntu server (main).md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",

@@ -1,11 +1,19 @@
 {
-  "theme:switch": [
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Delete"
+    }
+  ],
+  "app:open-vault": [
     {
       "modifiers": [
         "Alt",
         "Mod"
       ],
-      "key": "T"
+      "key": "O"
     }
   ],
   "app:toggle-left-sidebar": [
@@ -25,14 +33,24 @@
       "key": "\\"
     }
   ],
-  "editor:swap-line-up": [
+  "file-explorer:open": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
-      "key": "ArrowUp"
+      "key": "I"
     }
   ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "editor:toggle-italics": [],
   "editor:swap-line-down": [
     {
       "modifiers": [
@@ -41,7 +59,113 @@
       "key": "ArrowDown"
     }
   ],
-  "uri-commands:open-other_vault1679391597869": [
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "theme:switch": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "workspace:copy-path": [],
+  "workspace:copy-url": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "starred:open": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "0"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "open-with-default-app:show": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "editor:attach-file": [
+    {
+      "modifiers": [],
+      "key": "F4"
+    }
+  ],
+  "editor:toggle-spellcheck": [],
+  "editor:insert-callout": [],
+  "editor:focus": [
+    {
+      "modifiers": [],
+      "key": "F12"
+    }
+  ],
+  "obsidian-emoji-toolbar:emoji-picker:open-picker": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ],
+  "workspace:goto-tab-8": [],
+  "workspace:goto-tab-5": [],
+  "workspace:goto-tab-6": [],
+  "workspace:goto-tab-7": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "5"
+    }
+  ],
+  "insert-current-date": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "6"
+    }
+  ],
+  "insert-current-time": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "7"
+    }
+  ],
+  "daily-notes": [],
+  "uri-commands:uri-command1679389080715": [
     {
       "modifiers": [
         "Alt",
@@ -49,6 +173,12 @@
         "Shift"
       ],
       "key": "O"
+    }
+  ],
+  "workspace:toggle-stacked-tabs": [
+    {
+      "modifiers": [],
+      "key": "F6"
     }
   ]
 }

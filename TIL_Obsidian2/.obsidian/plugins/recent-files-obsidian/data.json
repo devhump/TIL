@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Node.js & MongoDB 1",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+      "basename": "network",
+      "path": "Home Server_RasberryPi/network.md"
     },
     {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "Node.js & MongoDB 1",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
@@ -15,10 +19,6 @@
     {
       "basename": "Home Server_RasberryPi",
       "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
-    },
-    {
-      "basename": "network",
-      "path": "Home Server_RasberryPi/network.md"
     },
     {
       "basename": "RasberryPi🍓🫐",
