@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "network",
-      "path": "Home Server_RasberryPi/network.md"
-    },
-    {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
       "basename": "Node.js & MongoDB 1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+    },
+    {
+      "basename": "network",
+      "path": "Home Server_RasberryPi/network.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
