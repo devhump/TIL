@@ -36,22 +36,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "d3ec0232da00af28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md"
               }
             }
           },
@@ -199,10 +186,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d3ec0232da00af28",
+  "active": "1f780b3e9e879517",
   "lastOpenFiles": [
-    "Home Server_RasberryPi/Ubuntu server (main).md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
+    "Home Server_RasberryPi/Ubuntu server (main).md",
     "Home Server_RasberryPi/network.md",
     "Home Server_RasberryPi/network-2.png",
     "Home Server_RasberryPi/network-1.png",
