@@ -4,50 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3722a6414daa344f",
+        "id": "af1410c4af07b999",
         "type": "tabs",
         "children": [
           {
-            "id": "58927f62af0589c6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devhump's TIL Index (data view).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1f780b3e9e879517",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "9028be0863ec2d9b",
+            "id": "de53a419be07c4ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -125,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "devhump's TIL Index (data view).md"
-              }
+              "state": {}
             }
           },
           {
@@ -197,10 +158,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "58927f62af0589c6",
+  "active": "de53a419be07c4ef",
   "lastOpenFiles": [
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
+    "devhump's TIL Index (data view).md",
     "Home Server_RasberryPi/network.md",
     "Home Server_RasberryPi/network-2.png",
     "Home Server_RasberryPi/network-1.png",
@@ -215,7 +177,6 @@
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu-2.png",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png",
     "IT_SC_Basic/zsh 설정 관련 + fzf.md",
-    "devhump's TIL Index (data view).md",
     "Linux/Linux 최신 명령어.md",
     "Home Server_RasberryPi/Home-server/vim 설정.md",
     "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
