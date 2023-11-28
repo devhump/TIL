@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "twemoji",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "📥",
+      "BoBxlPython",
+      "SiNodedotjs",
+      "FabJs",
+      "SiHtml5"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -17,7 +23,40 @@
     "iconInTabsEnabled": true,
     "iconInTitleEnabled": true,
     "iconInFrontmatterEnabled": false,
-    "iconsBackgroundCheckEnabled": false,
+    "iconsBackgroundCheckEnabled": true,
     "iconsInNotesEnabled": true
+  },
+  "devhump's TIL Index (data view).md": "📌",
+  "TIL Waypoint.md": "🔥",
+  "Linux": "SiLinux",
+  "MDN": "🦊",
+  "Django": "BoBxlDjango",
+  "git_github": {
+    "iconName": "SiGit",
+    "inheritanceIcon": "SiGit"
+  },
+  "Home Server_RasberryPi": {
+    "iconName": "🫐",
+    "inheritanceIcon": "🫐"
+  },
+  "HTML_CSS": {
+    "iconName": "SiHtml5",
+    "inheritanceIcon": "SiHtml5"
+  },
+  "JS": {
+    "iconName": "FabJs",
+    "inheritanceIcon": "FabJs"
+  },
+  "Node.js & MongoDB": {
+    "iconName": "SiNodedotjs",
+    "inheritanceIcon": "SiNodedotjs"
+  },
+  "Python": {
+    "iconName": "BoBxlPython",
+    "inheritanceIcon": "FabPython"
+  },
+  "z_others": {
+    "iconName": "📥",
+    "inheritanceIcon": "📥"
   }
 }
