@@ -10,12 +10,35 @@
           {
             "id": "de53a419be07c4ef",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "devhump's TIL Index (data view).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "7560a677fe6bc0a1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md"
+              }
             }
           },
           {
@@ -137,14 +164,21 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "bf1d3a59c0be563d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,11 +192,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "de53a419be07c4ef",
+  "active": "7560a677fe6bc0a1",
   "lastOpenFiles": [
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "Home Server_RasberryPi/Ubuntu server (main).md",
     "devhump's TIL Index (data view).md",
+    "Home Server_RasberryPi/Ubuntu server (main).md",
+    "KDT/Web-Ramy의 MacBook Pro/assets",
+    "KDT/Python-Ramy의 MacBook Pro/assets",
+    "KDT/Algorithm/assets-Ramy의 MacBook Pro",
+    "KDT/Web-Ramy의 MacBook Pro",
+    "KDT/Python-Ramy의 MacBook Pro",
+    "KDT/Django-Ramy의 MacBook Pro",
+    "Python/assets-Ramy의 MacBook Pro",
+    "Algo Solving/assets-Ramy의 MacBook Pro",
+    "Python/HeadFirst-Python-Ramy의 MacBook Pro",
+    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Home Server_RasberryPi/network.md",
     "Home Server_RasberryPi/network-2.png",
     "Home Server_RasberryPi/network-1.png",

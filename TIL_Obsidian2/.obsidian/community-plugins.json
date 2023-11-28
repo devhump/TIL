@@ -16,7 +16,7 @@
   "obsidian-pandoc",
   "obsidian-minimal-settings",
   "obsidian-charts",
-  "obsidian-icon-folder",
   "better-word-count",
-  "remotely-save"
+  "remotely-save",
+  "obsidian-icon-folder"
 ]

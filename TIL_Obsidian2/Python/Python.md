@@ -5,6 +5,7 @@
 - [얕은 복사와 깊은 복사(fin)](./%EC%96%95%EC%9D%80%20%EB%B3%B5%EC%82%AC%EC%99%80%20%EA%B9%8A%EC%9D%80%20%EB%B3%B5%EC%82%AC(fin).md)
 - **assets**
 
+- **assets-Ramy의 MacBook Pro**
 - [Continue vs Pass vs Break](./Continue%20vs%20Pass%20vs%20Break.md)
 - [copy — 얕은 복사와 깊은 복사 연산](./copy%20%E2%80%94%20%EC%96%95%EC%9D%80%20%EB%B3%B5%EC%82%AC%EC%99%80%20%EA%B9%8A%EC%9D%80%20%EB%B3%B5%EC%82%AC%20%EC%97%B0%EC%82%B0.md)
 - [defaultdict](./defaultdict.md)
@@ -18,6 +19,7 @@
 - [Enumerate 예시](./Enumerate%20%EC%98%88%EC%8B%9C.md)
 - **HeadFirst-Python**
 	- [Head First - Python](./HeadFirst-Python/Head%20First%20-%20Python.md)
+- **HeadFirst-Python-Ramy의 MacBook Pro**
 - [How to use IDLE](./How%20to%20use%20IDLE.md)
 - [iterable & iterator](./iterable%20&%20iterator.md)
 - **Jump to Python**

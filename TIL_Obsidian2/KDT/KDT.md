@@ -8,6 +8,7 @@
 	- [06. 코딩 테스트 준비 (기본)](./Algorithm/06.%20%EC%BD%94%EB%94%A9%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%A4%80%EB%B9%84%20(%EA%B8%B0%EB%B3%B8).md)
 	- **assets**
 
+	- **assets-Ramy의 MacBook Pro**
 - **Data structure**
 	- [01. about Algorithm (Intro)](./Data%20structure/01.%20about%20Algorithm%20(Intro).md)
 	- [02. basic_IO](./Data%20structure/02.%20basic_IO.md)
@@ -51,7 +52,7 @@
 	- **assets**
 
 	- [django-shortcuts 1.6](./Django/django-shortcuts%201.6.md)
-- [KDT](./KDT.md)
+- **Django-Ramy의 MacBook Pro**
 - **markdown & git**
 	- **assets**
 
@@ -69,6 +70,8 @@
 	- [파이썬 특강 (22.07.15)](./Python/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%8A%B9%EA%B0%95%20(22.07.15).md)
 	- **assets**
 
+- **Python-Ramy의 MacBook Pro**
+	- **assets**
 - **Web**
 	- [01. Happy Web](./Web/01.%20Happy%20Web.md)
 	- [02. CSS](./Web/02.%20CSS.md)
@@ -82,5 +85,7 @@
 	- [10. Event](./Web/10.%20Event.md)
 	- **assets**
 
+- **Web-Ramy의 MacBook Pro**
+	- **assets**
 
 %% End Waypoint %%

@@ -3,9 +3,9 @@
 - [무방향 & 유방향 그래프 표현하기](./%EB%AC%B4%EB%B0%A9%ED%96%A5%20&%20%EC%9C%A0%EB%B0%A9%ED%96%A5%20%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%91%9C%ED%98%84%ED%95%98%EA%B8%B0.md)
 - [문자열 치환 하기](./%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%B9%98%ED%99%98%20%ED%95%98%EA%B8%B0.md)
 - [유형별 실전 문제 풀이 (data view)](./%EC%9C%A0%ED%98%95%EB%B3%84%20%EC%8B%A4%EC%A0%84%20%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4%20(data%20view).md)
-- [Algo Solving](./Algo%20Solving.md)
 - **assets**
 
+- **assets-Ramy의 MacBook Pro**
 - **BOJ**
 	- [BOJ_1063 킹](./BOJ/BOJ_1063%20%ED%82%B9.md)
 	- [BOJ_1260 DFS와 BFS](./BOJ/BOJ_1260%20DFS%EC%99%80%20BFS.md)
