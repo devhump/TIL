@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/SMB(Samba).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/SMB(Samba).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/SMB(Samba).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+                "file": "Home Server_RasberryPi/SMB(Samba).md"
               }
             }
           },
@@ -207,10 +207,10 @@
   },
   "active": "c408e99f911db48c",
   "lastOpenFiles": [
+    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "공부 할 자료 정리.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
     "readme.md",
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "devhump's TIL Index (data view).md",
     "KDT/Web-Ramy의 MacBook Pro/assets",
     "KDT/Python-Ramy의 MacBook Pro/assets",

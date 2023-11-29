@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
+    },
+    {
       "basename": "Node.js & MongoDB 1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "RasberryPi🍓🫐",
       "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
-    },
-    {
-      "basename": "SMB(Samba)",
-      "path": "Home Server_RasberryPi/SMB(Samba).md"
     },
     {
       "basename": "trouble shooting🔫",

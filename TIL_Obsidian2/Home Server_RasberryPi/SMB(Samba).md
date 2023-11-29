@@ -50,6 +50,7 @@ chmod 777 /smbdir # 권한 열기
 #### 4. 삼바 환경 설정
 ```shell
 vi /etc/samba/smb.conf
+
 ```
 
 ```shell
