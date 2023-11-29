@@ -38,12 +38,12 @@
             }
           },
           {
-            "id": "3b98cf70de029f4b",
+            "id": "c408e99f911db48c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index (data view).md"
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
               }
             }
           },
@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,11 +205,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3b98cf70de029f4b",
+  "active": "c408e99f911db48c",
   "lastOpenFiles": [
     "공부 할 자료 정리.md",
-    "devhump's TIL Index (data view).md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
+    "readme.md",
+    "Node.js & MongoDB/Node.js & MongoDB 1.md",
+    "devhump's TIL Index (data view).md",
     "KDT/Web-Ramy의 MacBook Pro/assets",
     "KDT/Python-Ramy의 MacBook Pro/assets",
     "KDT/Algorithm/assets-Ramy의 MacBook Pro",
@@ -218,7 +221,6 @@
     "Python/assets-Ramy의 MacBook Pro",
     "Algo Solving/assets-Ramy의 MacBook Pro",
     "Python/HeadFirst-Python-Ramy의 MacBook Pro",
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Home Server_RasberryPi/network.md",
     "Home Server_RasberryPi/network-2.png",
     "Home Server_RasberryPi/network-1.png",
