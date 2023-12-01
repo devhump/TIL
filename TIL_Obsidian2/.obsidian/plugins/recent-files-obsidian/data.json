@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "SMB(Samba)",
-      "path": "Home Server_RasberryPi/SMB(Samba).md"
-    },
-    {
       "basename": "Node.js & MongoDB 1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
-      "basename": "공부 할 자료 정리",
-      "path": "공부 할 자료 정리.md"
-    },
-    {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
+    },
+    {
+      "basename": "RasberryPi🍓🫐",
+      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "zsh 설정 관련 + fzf",
+      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
+    },
+    {
+      "basename": "vim 설정",
+      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "공부 할 자료 정리",
+      "path": "공부 할 자료 정리.md"
     },
     {
       "basename": "readme",
@@ -29,16 +45,8 @@
       "path": "Home Server_RasberryPi/network.md"
     },
     {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
-    },
-    {
       "basename": "Home Server_RasberryPi",
       "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
-    },
-    {
-      "basename": "RasberryPi🍓🫐",
-      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
     },
     {
       "basename": "trouble shooting🔫",
@@ -61,16 +69,8 @@
       "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png"
     },
     {
-      "basename": "zsh 설정 관련 + fzf",
-      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
-    },
-    {
       "basename": "Linux 최신 명령어",
       "path": "Linux/Linux 최신 명령어.md"
-    },
-    {
-      "basename": "vim 설정",
-      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
     },
     {
       "basename": "ubuntu server - 설치 프로그램",

@@ -11,6 +11,7 @@ list from #HomeServer
 #### 1. 삼바 설치
 ```shell
 sudo apt-get -y install samba # 우분투 삼바 설치
+sudo apt-get -y install samba
 ```
 
 #### 2. 삼바 계정 등록하기

@@ -38,7 +38,7 @@
             }
           },
           {
-            "id": "c408e99f911db48c",
+            "id": "5e556a6f335adf35",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,9 +49,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7e905b302c08489b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -125,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/SMB(Samba).md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/SMB(Samba).md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/SMB(Samba).md"
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
               }
             }
           },
@@ -205,11 +218,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c408e99f911db48c",
+  "active": "7e905b302c08489b",
   "lastOpenFiles": [
+    "Home Server_RasberryPi/Ubuntu server (main).md",
+    "Home Server_RasberryPi/SMB(Samba).md",
+    "Home Server_RasberryPi/RasberryPi🍓🫐.md",
+    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
+    "Home Server_RasberryPi/Home-server/vim 설정.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "공부 할 자료 정리.md",
-    "Home Server_RasberryPi/Ubuntu server (main).md",
     "readme.md",
     "devhump's TIL Index (data view).md",
     "KDT/Web-Ramy의 MacBook Pro/assets",
@@ -225,18 +243,13 @@
     "Home Server_RasberryPi/network-2.png",
     "Home Server_RasberryPi/network-1.png",
     "Home Server_RasberryPi/network.png",
-    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/Home Server_RasberryPi.md",
-    "Home Server_RasberryPi/RasberryPi🍓🫐.md",
-    "Home Server_RasberryPi/SMB(Samba).md",
     "Home Server_RasberryPi/trouble shooting🔫.md",
     "Home Server_RasberryPi/WOL on Ubuntu.md",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu.png",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu-2.png",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png",
-    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
     "Linux/Linux 최신 명령어.md",
-    "Home Server_RasberryPi/Home-server/vim 설정.md",
     "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
     "Linux/Linux.md",
     "z_others/유용한 사이트들.md",
