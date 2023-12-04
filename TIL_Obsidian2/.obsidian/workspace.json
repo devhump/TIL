@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ff900c8eefd96615",
@@ -207,16 +208,16 @@
   },
   "active": "7e905b302c08489b",
   "lastOpenFiles": [
-    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "devhump's TIL Index (data view).md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
-    "Home Server_RasberryPi/SMB(Samba).md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
+    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "Home Server_RasberryPi/SMB(Samba).md",
     "Home Server_RasberryPi/RasberryPi🍓🫐.md",
     "IT_SC_Basic/zsh 설정 관련 + fzf.md",
     "Home Server_RasberryPi/Home-server/vim 설정.md",
     "공부 할 자료 정리.md",
     "readme.md",
-    "devhump's TIL Index (data view).md",
     "KDT/Web-Ramy의 MacBook Pro/assets",
     "KDT/Python-Ramy의 MacBook Pro/assets",
     "KDT/Algorithm/assets-Ramy의 MacBook Pro",

@@ -38,11 +38,3 @@ app.get("/shop", function (요청, 응답) {
 app.get("/about", function (요청, 응답) {
   응답.sendFile(__dirname + "/about.html");
 });
-
-app.get("/list", async (요청, 응답) => {
-  let result = await db.collection("post").find().toArray();
-  // 응답.send(result[0].title);
-  // console.log(result[0].title);
-
-  // 응답.render("list.ejs", { 글목록: result });
-});
