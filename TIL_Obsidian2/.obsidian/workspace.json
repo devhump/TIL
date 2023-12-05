@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_others/Hot-key for windows.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_others/Hot-key for windows.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_others/Hot-key for windows.md"
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
               }
             }
           },
@@ -218,11 +218,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e28eba5f8b1e378e",
+  "active": "7e905b302c08489b",
   "lastOpenFiles": [
+    "z_others/Hot-key for windows.md",
     "devhump's TIL Index (data view).md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "z_others/Hot-key for windows.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/SMB(Samba).md",
