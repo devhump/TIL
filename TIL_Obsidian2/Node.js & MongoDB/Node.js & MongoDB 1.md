@@ -1010,5 +1010,35 @@ ejs로 웹페이지를 만들어서 거기 안에 서버의 시간을 박아넣�
 (팁) 서버의 시간은 server.js 파일 아무데서나 new Date() 라고 쓰면 나옵니다
 ```
 
+```js
+app.get("/time", async (요청, 응답) => {
+  let result = new Date();
+  응답.send(result);
+});
+```
+
+![](Node.js%20&%20MongoDB/Node.js%20&%20MongoDB%201.png)
 
 
+
+### 여러 글을 한 번에 출력해보자 (EJS 문법2)
+
+![](Node.js%20&%20MongoDB%201-1.png)
+
+![](Node.js%20&%20MongoDB%201-3.png)
+
+![](Node.js%20&%20MongoDB%201-4.png)
+
+![](Node.js%20&%20MongoDB%201-5.png)
+
+![](Node.js%20&%20MongoDB%201-6.png)
+
+![](Node.js%20&%20MongoDB%201-7.png)
+
+![](Node.js%20&%20MongoDB%201-8.png)
+
+![](Node.js%20&%20MongoDB%201-9.png)
+
+![](Node.js%20&%20MongoDB%201-10.png)
+
+![](Node.js%20&%20MongoDB%201-11.png)

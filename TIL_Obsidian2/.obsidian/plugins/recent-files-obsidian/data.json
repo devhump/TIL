@@ -5,16 +5,24 @@
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
-      "basename": "Hot-key for windows",
-      "path": "z_others/Hot-key for windows.md"
+      "basename": "Node.js & MongoDB 1-1",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1-1.png"
+    },
+    {
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
     },
     {
-      "basename": "Ubuntu server (main)",
-      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+      "basename": "Node.js & MongoDB 1-3",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1-3.png"
+    },
+    {
+      "basename": "Hot-key for windows",
+      "path": "z_others/Hot-key for windows.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
@@ -111,14 +119,6 @@
     {
       "basename": "JS",
       "path": "JS/JS.md"
-    },
-    {
-      "basename": "CORS 에러 문제",
-      "path": "JS/CORS 에러 문제.md"
-    },
-    {
-      "basename": "구현해 보고 싶은 기능",
-      "path": "z_others/구현해 보고 싶은 기능.md"
     }
   ],
   "omittedPaths": [],

@@ -39,3 +39,8 @@ app.get("/list", async (요청, 응답) => {
   let result = await db.collection("post").find().toArray();
   응답.render("list.ejs", { 글목록: result });
 });
+
+app.get("/time", async (요청, 응답) => {
+  let result = new Date();
+  응답.send(result);
+});
