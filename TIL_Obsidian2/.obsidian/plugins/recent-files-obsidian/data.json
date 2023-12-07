@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "공부 할 자료 정리",
+      "path": "공부 할 자료 정리.md"
+    },
+    {
       "basename": "Node.js & MongoDB 1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "vim 설정",
       "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
-    },
-    {
-      "basename": "공부 할 자료 정리",
-      "path": "공부 할 자료 정리.md"
     },
     {
       "basename": "readme",
