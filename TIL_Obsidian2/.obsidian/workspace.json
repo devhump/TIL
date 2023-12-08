@@ -49,22 +49,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c315d0ccc78bab17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "공부 할 자료 정리.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -138,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부 할 자료 정리.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부 할 자료 정리.md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부 할 자료 정리.md"
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
               }
             }
           },
@@ -218,8 +205,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c315d0ccc78bab17",
+  "active": "7e905b302c08489b",
   "lastOpenFiles": [
+    "공부 할 자료 정리.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Node.js & MongoDB/Node.js & MongoDB 1-3.png",
     "Node.js & MongoDB/Node.js & MongoDB 1-11.png",
@@ -239,7 +227,6 @@
     "Home Server_RasberryPi/RasberryPi🍓🫐.md",
     "IT_SC_Basic/zsh 설정 관련 + fzf.md",
     "Home Server_RasberryPi/Home-server/vim 설정.md",
-    "공부 할 자료 정리.md",
     "readme.md",
     "KDT/Web-Ramy의 MacBook Pro/assets",
     "KDT/Python-Ramy의 MacBook Pro/assets",
