@@ -5,6 +5,10 @@
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
       "basename": "공부 할 자료 정리",
       "path": "공부 할 자료 정리.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Node.js & MongoDB 1-1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1-1.png"
-    },
-    {
-      "basename": "Ubuntu server (main)",
-      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
