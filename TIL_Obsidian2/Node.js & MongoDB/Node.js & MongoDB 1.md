@@ -1017,7 +1017,7 @@ app.get("/time", async (요청, 응답) => {
 });
 ```
 
-![](Node.js%20&%20MongoDB/Node.js%20&%20MongoDB%201.png)
+![](Node.js%20&%20MongoDB%201%201.png)
 
 
 

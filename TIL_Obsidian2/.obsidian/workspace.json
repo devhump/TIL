@@ -36,9 +36,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e55886605e953484",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ff900c8eefd96615",
@@ -113,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/Ubuntu server (main).md"
+                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
               }
             }
           },
@@ -193,21 +205,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7560a677fe6bc0a1",
+  "active": "e55886605e953484",
   "lastOpenFiles": [
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1 1.png",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "Node.js & MongoDB/Node.js & MongoDB 1-17.png",
-    "Node.js & MongoDB/Node.js & MongoDB 1-16.png",
-    "Node.js & MongoDB/Node.js & MongoDB 1-15.png",
-    "Node.js & MongoDB/Node.js & MongoDB 1-14.png",
-    "Node.js & MongoDB/Node.js & MongoDB 1-13.png",
-    "Node.js & MongoDB/Node.js & MongoDB 1-12.png",
     "Home Server_RasberryPi/Ubuntu server (main).md",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-17.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-16.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-15.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-14.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-13.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-12.png",
     "공부 할 자료 정리.md",
-    "Node.js & MongoDB/Node.js & MongoDB 1-3.png",
-    "Node.js & MongoDB/Node.js & MongoDB 1-11.png",
-    "Node.js & MongoDB/Node.js & MongoDB 1-10.png",
-    "Node.js & MongoDB/Node.js & MongoDB 1-9.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-3.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-11.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-10.png",
+    "Node.js & MongoDB/assets/Node.js & MongoDB 1-9.png",
     "devhump's TIL Index (data view).md",
     "z_others/Hot-key for windows.md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",

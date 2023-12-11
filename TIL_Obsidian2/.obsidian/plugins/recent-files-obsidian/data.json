@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Ubuntu server (main)",
-      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
-    },
-    {
       "basename": "Node.js & MongoDB 1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+    },
+    {
+      "basename": "Node.js & MongoDB 1 1",
+      "path": "Node.js & MongoDB/assets/Node.js & MongoDB 1 1.png"
+    },
+    {
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
       "basename": "공부 할 자료 정리",
@@ -14,11 +18,11 @@
     },
     {
       "basename": "Node.js & MongoDB 1-3",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 1-3.png"
+      "path": "Node.js & MongoDB/assets/Node.js & MongoDB 1-3.png"
     },
     {
       "basename": "Node.js & MongoDB 1-1",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 1-1.png"
+      "path": "Node.js & MongoDB/assets/Node.js & MongoDB 1-1.png"
     },
     {
       "basename": "devhump's TIL Index (data view)",
@@ -115,10 +119,6 @@
     {
       "basename": "JS 기본1 (모던JS)",
       "path": "JS/JS 기본1 (모던JS).md"
-    },
-    {
-      "basename": "JS",
-      "path": "JS/JS.md"
     }
   ],
   "omittedPaths": [],
