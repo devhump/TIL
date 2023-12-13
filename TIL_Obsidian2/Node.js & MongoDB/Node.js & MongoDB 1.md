@@ -2,6 +2,23 @@
 tags:
   - CodingApple/NodejsMongoDB
 ---
+## 목록
+```ad-info
+- [남자라면 서버개발을 할 줄 알아야함](#%EB%82%A8%EC%9E%90%EB%9D%BC%EB%A9%B4%20%EC%84%9C%EB%B2%84%EA%B0%9C%EB%B0%9C%EC%9D%84%20%ED%95%A0%20%EC%A4%84%20%EC%95%8C%EC%95%84%EC%95%BC%ED%95%A8)
+- [서버개발자가 짜는 코드](#%EC%84%9C%EB%B2%84%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80%20%EC%A7%9C%EB%8A%94%20%EC%BD%94%EB%93%9C)
+- [만들 프로젝트](#%EB%A7%8C%EB%93%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
+- [Nodejs의 장점이 뭐냐면](#Nodejs%EC%9D%98%20%EC%9E%A5%EC%A0%90%EC%9D%B4%20%EB%AD%90%EB%83%90%EB%A9%B4)
+- [Node.js, Express 설치와 셋팅](#Node.js,%20Express%20%EC%84%A4%EC%B9%98%EC%99%80%20%EC%85%8B%ED%8C%85)
+- [웹페이지 보내주려면 (라우팅)](#%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B3%B4%EB%82%B4%EC%A3%BC%EB%A0%A4%EB%A9%B4%20(%EB%9D%BC%EC%9A%B0%ED%8C%85))
+- [웹페이지에 디자인 넣으려면](#%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80%EC%97%90%20%EB%94%94%EC%9E%90%EC%9D%B8%20%EB%84%A3%EC%9C%BC%EB%A0%A4%EB%A9%B4)
+- [MongoDB 호스팅받고 셋팅하기](#MongoDB%20%ED%98%B8%EC%8A%A4%ED%8C%85%EB%B0%9B%EA%B3%A0%20%EC%85%8B%ED%8C%85%ED%95%98%EA%B8%B0)
+- [MongoDB와 서버 연결하려면](#MongoDB%EC%99%80%20%EC%84%9C%EB%B2%84%20%EC%97%B0%EA%B2%B0%ED%95%98%EB%A0%A4%EB%A9%B4)
+- [MongoDB에서 데이터 출력하기 (array/object 문법)](#MongoDB%EC%97%90%EC%84%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%20(array/object%20%EB%AC%B8%EB%B2%95))
+- [웹페이지에 DB데이터 꽂기 (EJS, 서버사이드 렌더링)](#%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80%EC%97%90%20DB%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EA%BD%82%EA%B8%B0%20(EJS,%20%EC%84%9C%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C%20%EB%A0%8C%EB%8D%94%EB%A7%81))
+- [여러 글을 한 번에 출력해보자 (EJS 문법2)](#%EC%97%AC%EB%9F%AC%20%EA%B8%80%EC%9D%84%20%ED%95%9C%20%EB%B2%88%EC%97%90%20%EC%B6%9C%EB%A0%A5%ED%95%B4%EB%B3%B4%EC%9E%90%20(EJS%20%EB%AC%B8%EB%B2%952))
+- [서버와 유저가 통신하는 법 / RESTful API](#%EC%84%9C%EB%B2%84%EC%99%80%20%EC%9C%A0%EC%A0%80%EA%B0%80%20%ED%86%B5%EC%8B%A0%ED%95%98%EB%8A%94%20%EB%B2%95%20/%20RESTful%20API)
+```
+
 ### 남자라면 서버개발을 할 줄 알아야함
 ![](assets/Node.js%20&%20MongoDB%201-23.png)
 - ▲ 웹서비스를 하나 만들고 싶으면 일단 웹페이지가 필요합니다.<br>이건 html css javascript 쓰면 쉽게 만들 수 있는데<br>근데 이거 프론트엔드 껍데기만으로는 아무것도 할 수 없습니다.
@@ -1168,12 +1185,14 @@ for (let i = 0; i < 3; i++){
 1. **서버가 뭐냐면**<br>강의 맨 처음에 쉽게 설명했는데<br>서버는 그냥 요청이 들어오면 그걸 처리해주는 간단한 프로그램입니다.
 	누가 웹툰달라고 하면 웹툰보내주고<br>DB데이터 달라고하면 DB데이터 보내주는 프로그램일 뿐임<br>반대로 DB에 데이터좀 저장해달라고 하면 데이터 저장해주는 것도 가능합니다.<br>아무튼 서버는 누가 뭔가를 요청하면 그걸 처리해주는 프로그램일 뿐인데
 
+
 2. **예의바르게 요청해야함**
 - 유저 마음대로 대충 서버에게 요청하면 서버는 데이터를 보내주지 않습니다.<br>유저가 서버에게 뭔가 요청하려면 1. method 2. URL을 정확히 적어서 보내야합니다
 
 ![](Node.js%20&%20MongoDB%201-13.png)
 
 - method는 이런 것들이 있는데 이 중에서 마음에 드는거 하나 고르면 됩니다.
+
 | 요청방식    | 의미                             |
 | ----------- | -------------------------------- |
 | GET         | 서버에게 데이터를 달라고할 때    |

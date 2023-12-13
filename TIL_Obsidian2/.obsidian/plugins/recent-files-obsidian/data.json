@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Ubuntu server (main)",
-      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+      "basename": "Node.js & MongoDB 2",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 2.md"
     },
     {
       "basename": "Node.js & MongoDB 1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+    },
+    {
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
       "basename": "Node.js & MongoDB 1 1",
@@ -115,10 +119,6 @@
     {
       "basename": "Linux note",
       "path": "Linux/Linux note.md"
-    },
-    {
-      "basename": "JS 기본1 (모던JS)",
-      "path": "JS/JS 기본1 (모던JS).md"
     }
   ],
   "omittedPaths": [],
