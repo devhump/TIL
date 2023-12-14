@@ -52,5 +52,9 @@ app.get("/write", (요청, 응답) => {
 });
 
 app.post("/add", (요청, 응답) => {
-  console.log(요청.body);
+  db.collection("post").insertOne({
+    title: `${요청.body["title"]}`,
+    content: `${요청.body["content"]}`,
+  });
+  console.log("저장완료");
 });

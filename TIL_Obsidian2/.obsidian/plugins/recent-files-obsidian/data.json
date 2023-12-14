@@ -115,10 +115,6 @@
     {
       "basename": "Vim 사용법",
       "path": "z_others/Vim 사용법.md"
-    },
-    {
-      "basename": "Linux note",
-      "path": "Linux/Linux note.md"
     }
   ],
   "omittedPaths": [],
