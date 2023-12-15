@@ -47,14 +47,32 @@ app.get("/time", async (요청, 응답) => {
   응답.send(result);
 });
 
-app.get("/write", (요청, 응답) => {
+app.get("/write", async (요청, 응답) => {
   응답.render("write.ejs");
 });
 
-app.post("/add", (요청, 응답) => {
-  db.collection("post").insertOne({
-    title: `${요청.body["title"]}`,
-    content: `${요청.body["content"]}`,
-  });
-  console.log("저장완료");
+app.post("/add", async (요청, 응답) => {
+  console.log(요청.body);
+
+  try {
+    if (요청.body.title == "") {
+      응답.send("제목입력 안했는데?");
+    } else {
+      await db
+        .collection("post")
+        .insertOne({ title: 요청.body.title, content: 요청.body.content });
+      응답.redirect("/list");
+    }
+  } catch (e) {
+    console.log(e);
+    응답.status(500).send("서버 에러남");
+  }
 });
+
+// app.post("/add", (요청, 응답) => {
+//   db.collection("post").insertOne({
+//     title: `${요청.body["title"]}`,
+//     content: `${요청.body["content"]}`,
+//   });
+//   console.log("저장완료");
+// });
