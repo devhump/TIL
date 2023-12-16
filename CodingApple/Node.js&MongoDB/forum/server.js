@@ -6,7 +6,7 @@ app.set("view engine", "ejs");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const { MongoClient } = require("mongodb");
+const { MongoClient, ObjectId } = require("mongodb");
 
 let db;
 const url =
@@ -67,6 +67,15 @@ app.post("/add", async (요청, 응답) => {
     console.log(e);
     응답.status(500).send("서버 에러남");
   }
+});
+
+app.get("/detail/:aaaa", async (요청, 응답) => {
+  console.log(요청.params);
+  let result = await db
+    .collection("post")
+    .findOne({ _id: new ObjectId("653a66f64ca3397a50f26de3") });
+  console.log(result);
+  응답.render("detail.ejs");
 });
 
 // app.post("/add", (요청, 응답) => {

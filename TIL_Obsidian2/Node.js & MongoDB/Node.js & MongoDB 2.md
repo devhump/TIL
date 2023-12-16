@@ -266,3 +266,18 @@ try {
 ```ad-todo
 - 심심해서 연습한번 해보고 싶으면 <br>다른 페이지와 `<form>`하나 만들어서<br>전송버튼누르면 새로운 collection에 글 발행해주는 기능 한번 만들어봅시다.
 ```
+
+
+### 상세페이지 만들기 1 (URL parameter)
+
+![](Node.js%20&%20MongoDB%202-10.png)
+
+![](Node.js%20&%20MongoDB%202-11.png)
+
+![](Node.js%20&%20MongoDB%202-12.png)
+
+![](Node.js%20&%20MongoDB%202-13.png)
+
+![](Node.js%20&%20MongoDB%202-14.png)
+
+![](Node.js%20&%20MongoDB%202-15.png)
