@@ -270,7 +270,6 @@ try {
 
 ### 상세페이지 만들기 1 (URL parameter)
 
-
 ![](Node.js%20&%20MongoDB%202-10.png)
 
 ![](Node.js%20&%20MongoDB%202-11.png)
