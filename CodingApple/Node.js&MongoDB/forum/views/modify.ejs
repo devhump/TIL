@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/main.css" rel="stylesheet" />
+  </head>
+  <body class="grey-bg">
+    <%- include('nav.ejs') %>
+
+    <form
+      class="form-box"
+      action="/detail/<%=
+    글목록._id %>"
+      method="POST"
+    >
+      <h4>글 수정하기</h4>
+      <input
+        name="title"
+        value="<%=
+      글목록.title %>"
+      />
+      <input
+        name="content"
+        value="<%=
+      글목록.content %>"
+      />
+      <button type="submit">전송</button>
+    </form>
+  </body>
+</html>

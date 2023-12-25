@@ -91,3 +91,11 @@ app.get("/detail/:id", async (요청, 응답) => {
 //   });
 //   console.log("저장완료");
 // });
+
+app.get("/detail/:id/modify", async (요청, 응답) => {
+  console.log(요청.params);
+  let result = await db
+    .collection("post")
+    .findOne({ _id: new ObjectId(`${요청.params.id}`) });
+  응답.render("modify.ejs", { 글목록: result });
+});
