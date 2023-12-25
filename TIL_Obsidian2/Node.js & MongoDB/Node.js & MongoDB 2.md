@@ -400,7 +400,8 @@ app.get('/detail/:aaaa', (요청, 응답) => {
 
 ![](Node.js%20&%20MongoDB%202-17.png)
 
-```js
+```html
+<!-- list.ejs -->
   <body class="grey-bg">
     <%- include('nav.ejs') %>
     <div class="white-bg">
@@ -414,4 +415,29 @@ app.get('/detail/:aaaa', (요청, 응답) => {
       <% } %>
     </div>
   </body>
+```
+
+```html
+<!-- detail.ejs --> 
+
+  <body class="grey-bg">
+    <%- include('nav.ejs') %>
+
+    <div class="detail-bg">
+      <h4><%= 글목록.title %></h4>
+      <p><%= 글목록.content %></p>
+    </div>
+  </body>
+```
+
+```js
+// server.js
+
+app.get("/detail/:aaaa", async (요청, 응답) => {
+  console.log(요청.params.aaaa);
+  let result = await db
+    .collection("post")
+    .findOne({ _id: new ObjectId(`${요청.params.aaaa}`) });
+  응답.render("detail.ejs", { 글목록: result });
+});
 ```

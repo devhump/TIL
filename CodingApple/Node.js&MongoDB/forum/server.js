@@ -70,12 +70,11 @@ app.post("/add", async (요청, 응답) => {
 });
 
 app.get("/detail/:aaaa", async (요청, 응답) => {
-  console.log(요청.params);
+  console.log(요청.params.aaaa);
   let result = await db
     .collection("post")
-    .findOne({ _id: new ObjectId("653a66f64ca3397a50f26de3") });
-  console.log(result);
-  응답.render("detail.ejs");
+    .findOne({ _id: new ObjectId(`${요청.params.aaaa}`) });
+  응답.render("detail.ejs", { 글목록: result });
 });
 
 // app.post("/add", (요청, 응답) => {
