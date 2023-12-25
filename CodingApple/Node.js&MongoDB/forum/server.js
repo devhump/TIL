@@ -69,12 +69,19 @@ app.post("/add", async (요청, 응답) => {
   }
 });
 
-app.get("/detail/:aaaa", async (요청, 응답) => {
-  console.log(요청.params.aaaa);
-  let result = await db
-    .collection("post")
-    .findOne({ _id: new ObjectId(`${요청.params.aaaa}`) });
-  응답.render("detail.ejs", { 글목록: result });
+app.get("/detail/:id", async (요청, 응답) => {
+  try {
+    let result = await db
+      .collection("post")
+      .findOne({ _id: new ObjectId(`${요청.params.id}`) });
+    if (result == null) {
+      응답.status(404).send("이상한 url 입력함");
+    }
+    응답.render("detail.ejs", { 글목록: result });
+  } catch (e) {
+    console.log(e);
+    응답.status(404).send("이상한 url 입력함");
+  }
 });
 
 // app.post("/add", (요청, 응답) => {
