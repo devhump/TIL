@@ -1,6 +1,4 @@
 ### 글 작성기능 만들기 1 (POST 요청)
-
-
 - 글쓰기 기능을 만들어볼건데<br>알아서 한번 코드 짜보시면 되겠습니다. 
 
 - 안배운건데 코드를 어떻게 짜냐고요?<br>첨보는 기능하나 만들라고 했을 때 어떻게 해야되냐면 
@@ -401,3 +399,19 @@ app.get('/detail/:aaaa', (요청, 응답) => {
 ![](Node.js%20&%20MongoDB%202-12.png)
 
 ![](Node.js%20&%20MongoDB%202-17.png)
+
+```js
+  <body class="grey-bg">
+    <%- include('nav.ejs') %>
+    <div class="white-bg">
+      <% for (let i = 0; i < 글목록.length; i++){ %>
+      <div class="list-box">
+        <a href="/detail/<%= 글목록[i]._id %>"
+          ><h4><%= 글목록[i].title %></h4></a
+        >
+        <p><%= 글목록[i].content %></p>
+      </div>
+      <% } %>
+    </div>
+  </body>
+```
