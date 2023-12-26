@@ -602,3 +602,13 @@ app.get("/detail/:id", async (요청, 응답) => {
 1. 수정버튼 누르면 수정 페이지로
 2. 수정 페이지엔 기존 글이 채워져 있음
 3. 전송 누르면 수정한 내용이 보여짐
+
+
+
+![](Node.js%20&%20MongoDB%202-28.png)
+
+![](Node.js%20&%20MongoDB%202-29.png)
+
+![](Node.js%20&%20MongoDB%202-30.png)
+
+![](Node.js%20&%20MongoDB%202-31.png)

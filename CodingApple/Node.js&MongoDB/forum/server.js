@@ -99,3 +99,14 @@ app.get("/detail/:id/modify", async (요청, 응답) => {
     .findOne({ _id: new ObjectId(`${요청.params.id}`) });
   응답.render("modify.ejs", { 글목록: result });
 });
+
+app.get("/edit/:id", async (요청, 응답) => {
+  db.collection("post").updateOne({어떤 document}, 
+    {$set : {어떤 내용으로 수정할지}});
+
+  let result = db
+    .collection("post")
+    .findOne({ _id: new ObjectId(요청.params.id) });
+  console.log(result);
+  응답.render("edit.ejs", { result: result });
+});
