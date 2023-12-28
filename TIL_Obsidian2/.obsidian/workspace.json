@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ff900c8eefd96615",
@@ -208,22 +207,22 @@
   },
   "active": "0b68dfe296ec7e1a",
   "lastOpenFiles": [
+    "JS/JS 입문 1 (코딩애플).md",
+    "Node.js & MongoDB/Node.js & MongoDB 2.md",
+    "devhump's TIL Index (data view).md",
+    "Home Server_RasberryPi/Ubuntu server (main).md",
     "Node.js & MongoDB/Node.js & MongoDB 2-66.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-65.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-64.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-63.png",
-    "Home Server_RasberryPi/Ubuntu server (main).md",
-    "Node.js & MongoDB/Node.js & MongoDB 2.md",
     "Node.js & MongoDB/Node.js & MongoDB 2-58.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-57.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-62.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-61.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-60.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-59.png",
-    "Node.js & MongoDB/Node.js & MongoDB 2-55.png",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "공부 할 자료 정리.md",
-    "devhump's TIL Index (data view).md",
     "z_others/Hot-key for windows.md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/SMB(Samba).md",

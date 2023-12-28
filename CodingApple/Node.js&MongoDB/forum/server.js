@@ -107,11 +107,22 @@ app.get("/edit/:id", async (요청, 응답) => {
 });
 
 app.post("/editpost/:id", async (요청, 응답) => {
-  await db
-    .collection("post")
-    .updateOne(
-      { _id: new ObjectId(요청.params.id) },
-      { $set: { title: 요청.body.title, content: 요청.body.content } }
-    );
-  await 응답.redirect(`/detail/${요청.params.id}`);
+  try {
+    if (요청.body.title == "" || 요청.body.content == "") {
+      응답.send("제대로 입력 안 했는데?");
+    } else if (요청.body.title.length > 30 || 요청.body.content.length > 100) {
+      응답.send("너무 길게 입력 했는데?");
+    } else {
+      await db
+        .collection("post")
+        .updateOne(
+          { _id: new ObjectId(요청.params.id) },
+          { $set: { title: 요청.body.title, content: 요청.body.content } }
+        );
+    }
+    await 응답.redirect(`/detail/${요청.params.id}`);
+  } catch (e) {
+    응답.status(400).send("이상하게 입력함");
+    console.log(e);
+  }
 });
