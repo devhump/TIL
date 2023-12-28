@@ -93,7 +93,6 @@ app.get("/detail/:id", async (요청, 응답) => {
 // });
 
 app.get("/detail/:id/modify", async (요청, 응답) => {
-  console.log(요청.params);
   let result = await db
     .collection("post")
     .findOne({ _id: new ObjectId(`${요청.params.id}`) });
@@ -101,12 +100,18 @@ app.get("/detail/:id/modify", async (요청, 응답) => {
 });
 
 app.get("/edit/:id", async (요청, 응답) => {
-  db.collection("post").updateOne({어떤 document}, 
-    {$set : {어떤 내용으로 수정할지}});
-
-  let result = db
+  let result = await db
     .collection("post")
     .findOne({ _id: new ObjectId(요청.params.id) });
-  console.log(result);
   응답.render("edit.ejs", { result: result });
+});
+
+app.post("/editpost/:id", async (요청, 응답) => {
+  await db
+    .collection("post")
+    .updateOne(
+      { _id: new ObjectId(요청.params.id) },
+      { $set: { title: 요청.body.title, content: 요청.body.content } }
+    );
+  await 응답.redirect(`/detail/${요청.params.id}`);
 });

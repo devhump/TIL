@@ -9,7 +9,7 @@
   <body class="grey-bg">
     <%- include('nav.ejs') %>
 
-    <form class="form-box" action="/add" method="POST">
+    <form class="form-box" action="/editpost/<%= result._id %>" method="POST">
       <h4>글 수정하기</h4>
       <input
         name="title"
