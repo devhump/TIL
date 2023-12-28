@@ -115,10 +115,6 @@
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
       "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "Vim 사용법",
-      "path": "z_others/Vim 사용법.md"
     }
   ],
   "omittedPaths": [],

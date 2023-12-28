@@ -1,12 +1,13 @@
 const express = require("express");
 const app = express();
+const { MongoClient, ObjectId } = require("mongodb");
+const methodOverride = require("method-override");
 
+app.use(methodOverride("_method"));
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-const { MongoClient, ObjectId } = require("mongodb");
 
 let db;
 const url =
@@ -106,7 +107,7 @@ app.get("/edit/:id", async (요청, 응답) => {
   응답.render("edit.ejs", { result: result });
 });
 
-app.post("/editpost/:id", async (요청, 응답) => {
+app.put("/editpost/:id", async (요청, 응답) => {
   try {
     if (요청.body.title == "" || 요청.body.content == "") {
       응답.send("제대로 입력 안 했는데?");

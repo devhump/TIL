@@ -930,3 +930,154 @@ app.post("/editpost/:id", async (요청, 응답) => {
   }
 });
 ```
+
+
+### 수정기능 만들기 3 (method-override, MongoDB 수정문법 추가)
+#### method override
+- 야생으로 나가기 전에 `<form>`에서 PUT, DELETE 요청할 수 있는 법을 알아봅시다. <br>수정, 삭제할 때 PUT, DELETE 같은거 쓰면 좀 이쁜 API를 만들 수 있다고 했으니까요. 
+
+- 방법이 2개 있는데 <br>AJAX를 쓰거나 method를 강제로 변경해주는 라이브러리를 쓰거나 그러면 됩니다. 
+
+- *후자(method-override)를 써봅시다.*
+
+##### 1. npm 설치
+```shell
+npm install method-override
+```
+##### 2. 서버 상단에 코드 세팅
+```js
+const methodOverride = require('method-override')
+
+app.use(methodOverride('_method'))
+```
+
+![](Node.js%20&%20MongoDB%202-67.png)
+
+##### 3. action 뒤 URL 수정 (`edit → edit?_method=PUT`)
+```html
+<form action="/edit?_method=PUT" method="POST"> </form> 
+```
+
+![](Node.js%20&%20MongoDB%202-68.png)
+
+- 이런 식으로 URL 가장 뒤에 `?_method=PUT` 이런 식의 코드를 작성하면 <br>현재 폼전송시 POST요청이 아니라 PUT 요청으로 덮어쓰기가 됩니다. 
+- *참고로 method="POST"는 냅둬야함* 
+
+- 그럼 이제 👇 _서버에서도 app.put 이렇게 쓰면_ PUT 요청을 수신할 수 있습니다. 
+- 그래서 쓰고 싶으면 씁시다.
+
+##### 4.  server에서 요청 방식 수정 (post→ put)
+![](Node.js%20&%20MongoDB%202-70.png)
+
+#### updateOne 추가 문법
+- updateOne 자주쓸 수 있으니까 잠깐 추가문법같은거 몇개 배우고 지나갑시다.
+- 그러기 위해서 임시로 document 하나를 DB 아무데나 발행해볼 것인데<br>대충 { like : 10 } 이런 식으로 숫자 하나만 기록해봅시다. <br>어떤 글의 좋아요 갯수라고 칩시다. <br>근데 이 좋아요 갯수를 가끔 +1 하고 싶을 때가 있을 텐데 어떻게 할지 알아봅시다.
+
+```js
+db.collection('컬렉션명').updateOne(
+  { _id : new ObjectId('수정할 document _id') },
+  { $set: { like : 1 } }
+) 
+```
+
+![](Node.js%20&%20MongoDB%202-71.png)
+
+- 이렇게 코드짜면 될 것 같은데 이러면 like 항목이 1로 변합니다. 
+- *$set을 쓰면 기존 값을 덮어쓰기*해줘서 그렇습니다. 
+
+```js
+db.collection('컬렉션명').updateOne(
+  { _id : new ObjectId('수정할 document _id') },
+  { $inc: { like : 1 } }
+) 
+```
+
+- 그게 싫으면 `$inc` 하면 되겠습니다<br>그러면 1로 덮어쓰기가 아니라 +1을 해줍니다. <br>-1 적으면 -1 해줍니다. 
+
+- 그래서 숫자 증감해주고 싶을 때는 *$inc*로 변경하면 되겠습니다.
+
+ 
+```ad-tip
+(참고)
+
+- `$mul` 쓰면 기존값에 곱셈을 시켜줍니다. 
+- `$unset` 쓰면 기존에 있던 필드를 삭제해줍니다. 그러니까 like 항목 자체를 아예 제거해버림
+	- 근데 아예 삭제보다는 그냥 빈 문자열이나 0을 집어넣거나 하는 경우가 더 편할 수도 있어서 참고로만 알아두면 되겠습니다
+```
+
+![](Node.js%20&%20MongoDB%202-72.png)
+- inc : increse
+
+![](Node.js%20&%20MongoDB%202-73.png)
+- mul : multiple
+
+![](Node.js%20&%20MongoDB%202-74.png)
+
+
+
+### 여러 document 동시 수정은 updateMany
+- 동시에 여러개의 document를 수정하고 싶을 때도 어쩌다가 한 번 있습니다.<br>그럴 땐 updateOne 여러줄 써도 되긴하는데 귀찮으면 updateMany쓰면 편할 수 있습니다.
+
+```js
+db.collection('컬렉션명').updateMany(
+      { title : '멍청아' },
+      { $set: { title : '착한친구야' } }
+)
+```
+
+- 이렇게 코드짜면 이 컬렉션 안에 title이 '멍청아'로 되어있는 모든 document를 찾아서 <br>title 항목을 '착한친구야'로 덮어쓰기를 해줍니다.
+- document 여러개 수정할 일 있으면 씁시다. <br>당연히 세부 문법은 3일 후 까먹을테니 필요할 때 검색해서 씁시다. 
+
+![](Node.js%20&%20MongoDB%202-75.png)
+
+#### 조건에 맞는 것만 updateMany하기
+![](Node.js%20&%20MongoDB%202-76.png)
+- 가끔가다가 정확히 이거랑 일치하는 document가 아니라<br>특정 조건을 만족하는 document를 전부 수정하고 싶을 때가 있습니다. 
+
+ - 예를 들어 like 숫자가 10이상인 document를 전부 찾아서 수정하고 싶은 경우도 있을텐데 <br>그런 경우는 어떻게 하냐면 *$gt, $lt* 연산자를 활용해서 조건문을 입력하면 됩니다. 
+
+```js
+db.collection('컬렉션명').updateMany(
+  { like : { $gt: 5 } },
+  { $set: { like : 100 } }
+) 
+```
+
+- 이렇게 작성하면 like 항목이 5보다 큰 document만 전부 필터링한 다음 <br>like 항목을 100으로 일괄 수정해버립니다. 
+
+![](Node.js%20&%20MongoDB%202-77.png)
+- like 값이 10 초과인 모든 Document 수정 
+- *gt 는 greater than*
+
+![](Node.js%20&%20MongoDB%202-78.png)
+- *gte 는 greater than and equal*
+- 반대로는 *lt, lte*가 있다
+
+- ***$gt*** 는 greater than의 약자라서 '초과'를 뜻하고
+- ***$gte*** 는 equal이 뒤에 붙었다고 생각하면 되어서 '이상'인걸 뜻합니다. 
+
+- ***$lt*** 는 lesser than의 약자라서 '미만'을 뜻하고
+- ***$lte*** 는 님들이 생각하는 그거 맞음 
+
+![](Node.js%20&%20MongoDB%202-80.png)
+- *ne 는 not equeal*
+
+- ***$ne*** 쓰면 not equal이라는 뜻이라 예를 들어 like가 10이 아닌 것만 필터링해서 수정할 수도 있습니다. 
+
+- %%역시 따라적고 필기해봤자 어짜피 다 까먹기 때문에 의미없고, 그냥 이런 식으로도 가능하다라는것만 기억해두시고 , 필요할 때 검색해서 씁시다.
+
+![](Node.js%20&%20MongoDB%202-79.png)
+
+```ad-note
+그래서 수정기능만들 때 새로 배운거 총정리하면
+
+1. DB에있던 document 하나 수정하려면 db.collection().updateOne()
+
+2. 수정할 때 $set연산자 쓰면 덮어쓰기, $inc는 기존에 있던 숫자를 원하는 만큼 증감 가능 (수정 방법 변경 가능)
+
+3. 여러개 document 한 번에 수정하려면 updateMany 쓰면 되는데 거기서는 $gt같은걸로 특정조건을 만족하는 document만 필터링해서 수정해버릴 수도 있음
+
+4. 서버에서 어떤 정보가 필요한데 근데 서버에서 찾을 수 없으면<br>유저에게 보내라고하거나 DB에서 출력해보거나 하면 되는거지 수동적으로 손가락 빨고있으면 안됩니다.
+
+5. method override 사용하면 폼태그에서도 put, delete 요청 날릴 수 있는데 그럼 좀 더 이쁜 API를 만들 수 있음 
+```
