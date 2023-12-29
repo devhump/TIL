@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
       "basename": "Node.js & MongoDB 2",
       "path": "Node.js & MongoDB/Node.js & MongoDB 2.md"
-    },
-    {
-      "basename": "JS 입문 1 (코딩애플)",
-      "path": "JS/JS 입문 1 (코딩애플).md"
-    },
-    {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "RasberryPi🍓🫐",
+      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
+    },
+    {
       "basename": "Node.js & MongoDB 1",
       "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+    },
+    {
+      "basename": "Node.js & MongoDB 2",
+      "path": "Node.js & MongoDB/assets/Node.js & MongoDB 2.png"
+    },
+    {
+      "basename": "JS 입문 1 (코딩애플)",
+      "path": "JS/JS 입문 1 (코딩애플).md"
+    },
+    {
+      "basename": "Git basic - git revert, reset, restore",
+      "path": "git_github/Git basic - git revert, reset, restore.md"
+    },
+    {
+      "basename": "JS 입문 3 (코딩애플)",
+      "path": "JS/JS 입문 3 (코딩애플).md"
+    },
+    {
+      "basename": "JS 입문 2 (코딩애플)",
+      "path": "JS/JS 입문 2 (코딩애플).md"
     },
     {
       "basename": "Node.js & MongoDB 1 1",
@@ -41,16 +65,8 @@
       "path": "z_others/Hot-key for windows.md"
     },
     {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
-    },
-    {
       "basename": "SMB(Samba)",
       "path": "Home Server_RasberryPi/SMB(Samba).md"
-    },
-    {
-      "basename": "RasberryPi🍓🫐",
-      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
     },
     {
       "basename": "zsh 설정 관련 + fzf",
@@ -103,18 +119,6 @@
     {
       "basename": "Linux",
       "path": "Linux/Linux.md"
-    },
-    {
-      "basename": "유용한 사이트들",
-      "path": "z_others/유용한 사이트들.md"
-    },
-    {
-      "basename": "WSL",
-      "path": "Linux/WSL.md"
-    },
-    {
-      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
-      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
     }
   ],
   "omittedPaths": [],

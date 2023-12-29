@@ -64,3 +64,4 @@ rm -rf fonts
 - [[vim 설정]]
 - [[zsh 설정 관련 + fzf]]
 - [[Home-server - 원격관리 & 보안]]
+	- [라즈베리파이 - fail2ban 오류 해결](https://biology-statistics-programming.tistory.com/188)

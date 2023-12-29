@@ -1,3 +1,7 @@
+---
+tags:
+  - CodingApple/NodejsMongoDB
+---
 ### 글 작성기능 만들기 1 (POST 요청)
 - 글쓰기 기능을 만들어볼건데<br>알아서 한번 코드 짜보시면 되겠습니다. 
 
