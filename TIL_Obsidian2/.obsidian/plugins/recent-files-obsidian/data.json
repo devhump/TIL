@@ -5,12 +5,16 @@
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
-      "basename": "Node.js & MongoDB 2",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 2.md"
-    },
-    {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "Vim 사용법",
+      "path": "z_others/Vim 사용법.md"
+    },
+    {
+      "basename": "Node.js & MongoDB 2",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 2.md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
@@ -115,10 +119,6 @@
     {
       "basename": "ubuntu server - 설치 프로그램",
       "path": "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "Linux/Linux.md"
     }
   ],
   "omittedPaths": [],

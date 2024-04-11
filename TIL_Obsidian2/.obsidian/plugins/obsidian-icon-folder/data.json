@@ -1,6 +1,6 @@
 {
   "settings": {
-    "migrated": 3,
+    "migrated": 4,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "twemoji",
@@ -13,7 +13,57 @@
       "FabJs"
     ],
     "recentlyUsedIconsSize": 5,
-    "rules": [],
+    "rules": [
+      {
+        "icon": "📥",
+        "rule": "z_others\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "icon": "FabPython",
+        "rule": "Python\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 1,
+        "useFilePath": true
+      },
+      {
+        "icon": "SiNodedotjs",
+        "rule": "Node.js & MongoDB\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true
+      },
+      {
+        "icon": "FabJs",
+        "rule": "JS\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 3,
+        "useFilePath": true
+      },
+      {
+        "icon": "SiHtml5",
+        "rule": "HTML_CSS\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 4,
+        "useFilePath": true
+      },
+      {
+        "icon": "🫐",
+        "rule": "Home Server_RasberryPi\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 5,
+        "useFilePath": true
+      },
+      {
+        "icon": "SiGit",
+        "rule": "git_github\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 6,
+        "useFilePath": true
+      }
+    ],
     "extraMargin": {
       "top": 0,
       "right": 4,
@@ -24,40 +74,22 @@
     "iconInTitleEnabled": true,
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": true,
-    "iconsInNotesEnabled": true
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
   },
   "devhump's TIL Index (data view).md": "📌",
   "TIL Waypoint.md": "🔥",
   "Linux": "SiLinux",
   "MDN": "🦊",
   "Django": "BoBxlDjango",
-  "git_github": {
-    "iconName": "SiGit",
-    "inheritanceIcon": "SiGit"
-  },
-  "Home Server_RasberryPi": {
-    "iconName": "🫐",
-    "inheritanceIcon": "🫐"
-  },
-  "HTML_CSS": {
-    "iconName": "SiHtml5",
-    "inheritanceIcon": "SiHtml5"
-  },
-  "JS": {
-    "iconName": "FabJs",
-    "inheritanceIcon": "FabJs"
-  },
-  "Node.js & MongoDB": {
-    "iconName": "SiNodedotjs",
-    "inheritanceIcon": "SiNodedotjs"
-  },
-  "Python": {
-    "iconName": "BoBxlPython",
-    "inheritanceIcon": "FabPython"
-  },
-  "z_others": {
-    "iconName": "📥",
-    "inheritanceIcon": "📥"
-  },
-  "공부 할 자료 정리.md": "🧭"
+  "공부 할 자료 정리.md": "🧭",
+  "git_github": "SiGit",
+  "Home Server_RasberryPi": "🫐",
+  "HTML_CSS": "SiHtml5",
+  "JS": "FabJs",
+  "Node.js & MongoDB": "SiNodedotjs",
+  "Python": "BoBxlPython",
+  "z_others": "📥"
 }

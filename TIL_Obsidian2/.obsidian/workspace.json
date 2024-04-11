@@ -43,7 +43,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 2.md",
+                "file": "z_others/Vim 사용법.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5486f59efe6c7c39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -51,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -125,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 2.md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 2.md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 2.md"
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md"
               }
             }
           },
@@ -205,9 +219,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e108e67182185e75",
+  "active": "a7e5a754b002c17b",
   "lastOpenFiles": [
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "z_others/Vim 사용법.md",
     "Node.js & MongoDB/Node.js & MongoDB 2.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
     "devhump's TIL Index (data view).md",

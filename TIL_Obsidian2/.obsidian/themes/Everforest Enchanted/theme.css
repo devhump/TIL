@@ -45,7 +45,7 @@
     --checkbox-radius: 25%;
 
     /* Adjusted in Style Settings */
-    --list-indent: var(--list-indent-custom, 18px);
+    --list-indent: var(--list-indent-custom, 28px);
     --list-spacing: 0;
     --list-bullet-size: 6px;
 
@@ -128,7 +128,6 @@
 
     --checkbox-color: var(--fg-blue);
 
-    --canvas-background: transparent;
     --canvas-dot-pattern: var(--color-base-50);
 
     /** Headers **/
@@ -415,12 +414,7 @@ body:not(.disable-menu-animations) :is(.modal, .prompt) {
 
 /** Canvas **/
 
-/* Custom dot pattern size (style settings) */
-.canvas-background > pattern > circle {
-    cx: var(--canvas-dot-size, 0.7);
-    cy: var(--canvas-dot-size, 0.7);
-    r: var(--canvas-dot-size, 0.7);
-}
+/* Changed in Style Settings */
 
 /** Loading Screen **/
 
@@ -581,6 +575,10 @@ pre[class^="language-"]::after {
 pre.language-applescript::after {
     content: "AppleScript";
 }
+pre.language-armasm::after,
+pre.language-arm-asm::after {
+    content: "ARM Assembly";
+}
 pre.language-bash::after {
     content: "Bash";
 }
@@ -629,11 +627,12 @@ pre.language-lua::after {
 pre.language-makefile::after {
     content: "Makefile";
 }
+pre.language-md::after,
 pre.language-markdown::after {
     content: "Markdown";
 }
-pre.language-md::after {
-    content: "Markdown";
+pre.language-matlab::after {
+    content: "MATLAB";
 }
 pre.language-nginx::after {
     content: "Nginx";
@@ -726,9 +725,14 @@ pre.language-zsh::after {
     font-size: 19px;
 }
 
+/* Loose lists in reading mode */
+:root:root:root li > p {
+    margin-block: var(--p-spacing);
+}
+
 /* Fix list bullets and indentation lines offset for reading mode */
 .markdown-rendered .list-bullet {
-    margin-left: -11px;
+    margin-left: -12px;
 }
 :root .show-indentation-guide li :is(ul, ol)::before {
     left: -11px;
@@ -817,6 +821,8 @@ input.task-list-item-checkbox:checked::after {
 }
 
 /* Fix table margin collapse bug and add table margins */
+/* They keep changing this and it breaks the theme every time, I'm quite annoyed... */
+.markdown-preview-view .block-language-dataview,
 .markdown-preview-view div:not([class]):has(> table) {
     overflow: unset !important;
 
@@ -1031,7 +1037,7 @@ settings:
 -
     id: editor-settings
     title: Editor
-    description: Line length, line numbers, folders
+    description: Folders, line length, line numbers, menu modal blur
     type: heading
     level: 1
     collapsed: true
@@ -1101,9 +1107,60 @@ settings:
     default: 5
     format: px
 -
+    id: vim-cursor-settings
+    title: Vim
+    type: heading
+    level: 2
+    collapsed: true
+-
+    id: vim-curor-animate
+    title: Animate vim cursor
+    description: Adds an animation when moving the vim cursor.
+    type: class-toggle
+-
+    id: vim-cursor-speed
+    title: Vim cursor speed
+    description: Speed at which the cursor will move
+    type: variable-select
+    default: var(--anim-duration-superfast)
+    options:
+        -
+            label: FTL
+            value: 30ms
+        -
+            label: Light speed
+            value: 45ms
+        -
+            label: Fast
+            value: 55ms
+        -
+            label: Normal
+            value: var(--anim-duration-superfast)
+        -
+            label: Slow
+            value: var(--anim-duration-fast)
+        -
+            label: Very slow
+            value: var(--anim-duration-moderate)
+        -
+            label: Snail speed
+            value: var(--anim-duration-slow)
+        -
+            label: Molases in January
+            value: 1000ms
+        -
+            label: 0 degrees kelvin
+            value: 5s
+        -
+            label: The seconds hand of the analogue clock in your least favorite middle school class
+            value: 20s
+        -
+            label: Zeno's paradox
+            value: 60s
+-
     id: element-settings
     title: Elements
-    description: Lists, tables, canvas
+    description: Canvas, headers, image embeds, links, lists, math blocks, tables
     type: heading
     level: 1
     collapsed: true
@@ -1120,6 +1177,180 @@ settings:
     type: variable-number
     default: 0.7
     format: px
+-
+    id: header-settings
+    title: Headers
+    type: heading
+    level: 2
+    collapsed: true
+-
+    id: h1-settings
+    title: Header 1 settings
+    type: heading
+    level: 3
+    collapsed: true
+-
+    id: h1-underline
+    title: Headers - h1 underline
+    description: Enable h1 underline.
+    type: class-toggle
+    default: false
+-
+    id: h1-underline-style
+    title: Headers - h1 underline style
+    description: Change style of the h1 underline
+    type: variable-select
+    default: solid
+    options:
+        -
+            label: Solid
+            value: solid
+        -
+            label: Dotted
+            value: dotted
+        -
+            label: Dashed
+            value: dashed
+-
+    id: h2-settings
+    title: Header 2 settings
+    type: heading
+    level: 3
+    collapsed: true
+-
+    id: h2-underline
+    title: Headers - H2 underline
+    description: Enable h2 underline.
+    type: class-toggle
+    default: false
+-
+    id: h2-underline-style
+    title: Headers - H2 underline style
+    description: Change style of the h2 underline
+    type: variable-select
+    default: solid
+    options:
+        -
+            label: Solid
+            value: solid
+        -
+            label: Dotted
+            value: dotted
+        -
+            label: Dashed
+            value: dashed
+-
+    id: h3-settings
+    title: Header 3 settings
+    type: heading
+    level: 3
+    collapsed: true
+-
+    id: h3-underline
+    title: Headers - h3 underline
+    description: Enable h3 underline.
+    type: class-toggle
+    default: false
+-
+    id: h3-underline-style
+    title: Headers - h3 underline style
+    description: Change style of the h3 underline
+    type: variable-select
+    default: solid
+    options:
+        -
+            label: Solid
+            value: solid
+        -
+            label: Dotted
+            value: dotted
+        -
+            label: Dashed
+            value: dashed
+-
+    id: h4-settings
+    title: Header 4 settings
+    type: heading
+    level: 3
+    collapsed: true
+-
+    id: h4-underline
+    title: Headers - h4 underline
+    description: Enable h4 underline.
+    type: class-toggle
+    default: false
+-
+    id: h4-underline-style
+    title: Headers - h4 underline style
+    description: Change style of the h4 underline
+    type: variable-select
+    default: solid
+    options:
+        -
+            label: Solid
+            value: solid
+        -
+            label: Dotted
+            value: dotted
+        -
+            label: Dashed
+            value: dashed
+-
+    id: h5-settings
+    title: Header 5 settings
+    type: heading
+    level: 3
+    collapsed: true
+-
+    id: h5-underline
+    title: Headers - h5 underline
+    description: Enable h5 underline.
+    type: class-toggle
+    default: false
+-
+    id: h5-underline-style
+    title: Headers - h5 underline style
+    description: Change style of the h5 underline
+    type: variable-select
+    default: solid
+    options:
+        -
+            label: Solid
+            value: solid
+        -
+            label: Dotted
+            value: dotted
+        -
+            label: Dashed
+            value: dashed
+-
+    id: h6-settings
+    title: Header 6 settings
+    type: heading
+    level: 3
+    collapsed: true
+-
+    id: h6-underline
+    title: Headers - h6 underline
+    description: Enable h6 underline.
+    type: class-toggle
+    default: false
+-
+    id: h6-underline-style
+    title: Headers - h6 underline style
+    description: Change style of the h6 underline
+    type: variable-select
+    default: solid
+    options:
+        -
+            label: Solid
+            value: solid
+        -
+            label: Dotted
+            value: dotted
+        -
+            label: Dashed
+            value: dashed
 -
     id: image-embed-settings
     title: Image Embeds
@@ -1161,10 +1392,21 @@ settings:
 -
     id: list-indent-custom
     title: Lists - List indent size
-    description: The size of list item indents. The default value of 18px mimics the appearance of editing mode. If you want a more default experience, the default theme uses 32 px.
+    description: The size of list item indents. The default value set here of 28px mimics the appearance of editing mode. If you want a more default experience, the default theme uses 2.25em which is essentially 36px. Currently does not work as intended due to JS changes in Obsidian 1.5 which is sad... There are technically workarounds but they would not be very clean.
     type: variable-number
-    default: 18
+    default: 28
     format: px
+-
+    id: math-settings
+    title: Math blocks
+    type: heading
+    level: 2
+    collapsed: true
+-
+    id: disable-math-outline
+    title: Math blocks - Disable outline
+    description: Removes the outline around math blocks.
+    type: class-toggle
 -
     id: table-settings
     title: Tables
@@ -1196,37 +1438,10 @@ settings:
 -
     id: extra-appearance-settings
     title: Extras
-    description: Stacked pane count, background image, visual parity
+    description: Background images, Stacked panes with a count, visual parity between modes
     type: heading
     level: 1
     collapsed: true
--
-    id: custom-stacked-panes
-    title: Stacked Pane Count
-    type: heading
-    level: 2
-    collapsed: true
--
-    id: custom-stacked-panes-description
-    title: Info
-    description: |
-        This setting turns stacked panes from a pixel width to a number visible on screen at once. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_stacked_panes.md) for more information.
-    type: info-text
-    markdown: true
--
-    id: custom-stacked-panes-enabled
-    title: Custom Stacked Panes
-    description: Changes stacked panes to fit a certain number on screen instead of using pixel values.
-    type: class-toggle
--
-    id: custom-stacked-panes-count
-    title: Pane Count
-    description: The number of panes to show up at once.
-    type: variable-number-slider
-    default: 2
-    min: 1
-    max: 5
-    step: 1
 -
     id: background-image
     title: Background Image
@@ -1330,37 +1545,78 @@ settings:
     description: Changes pages to be panes on a transparent background. BEST USED WITH UI OPACITY 0!
     type: class-toggle
 -
+    id: custom-stacked-panes
+    title: Stacked Pane Count
+    type: heading
+    level: 2
+    collapsed: true
+-
+    id: custom-stacked-panes-description
+    title: Info
+    description: |
+        This setting turns stacked panes from a pixel width to a number visible on screen at once. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_stacked_panes.md) for more information.
+    type: info-text
+    markdown: true
+-
+    id: custom-stacked-panes-enabled
+    title: Custom Stacked Panes
+    description: Changes stacked panes to fit a certain number on screen instead of using pixel values.
+    type: class-toggle
+-
+    id: custom-stacked-panes-count
+    title: Pane Count
+    description: The number of panes to show up at once.
+    type: variable-number-slider
+    default: 2
+    min: 1
+    max: 5
+    step: 1
+-
     id: visual-parity
     title: Visual Parity
     type: heading
     level: 2
     collapsed: true
 -
-    id: background-image-description
+    id: visual-parity-description
     title: Info
     description: |
-        Changes reading mode to match editing mode visually.
+        Changes reading mode to match editing mode visually. This mainly modifies the sizes of margins and makes the top element not have margin to simulare how it works in editing mode.
     type: info-text
     markdown: true
 -
     id: visual-parity-enabled
     title: Visual Parity
-    description: Changes reading mode to match editing mode.
+    description: Enables visual parity.
     type: class-toggle
 
 */
 
-/* Improve style setting appearance */
+/** Improve style setting appearance **/
+/* Padding on the bottom */
 [data-type="style-settings"] .view-content > div:last-child,
 .vertical-tab-content > div:has(.style-settings-heading):last-child {
     padding-bottom: 400px;
 }
+
+/* Remove default margins */
 [data-id="everforest-enchanted-theme"]
     + .style-settings-container
     .setting-item-heading {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+/* Style headings */
+[data-id="everforest-enchanted-theme"]
+    + .style-settings-container
+    .setting-item-heading {
+    border-color: var(--setting-border-color);
+}
+.setting-item-heading > .setting-item-info > .setting-item-name {
+    color: var(--setting-border-color) !important;
+}
+/* Style heading containers */
 [data-id="everforest-enchanted-theme"]
     + .style-settings-container
     .setting-item-heading
@@ -1368,14 +1624,49 @@ settings:
     margin-top: 2px;
     padding-top: 16px;
     padding-left: 25px;
-    border-left: 1px dashed var(--background-modifier-border);
-    border-bottom: 1px dashed var(--background-modifier-border);
+    border-width: 0 0 1px 1px;
+    border-style: dashed;
+    border-color: var(--setting-border-color);
 }
+/* Style the carat */
+.style-settings-collapse-indicator {
+    color: var(--setting-border-color);
+}
+
+/* Modify the style of setting items */
 .view-content
     .style-settings-container
     :is(.setting-item-control:has(input), input[type="text"]) {
     width: 100%;
     place-content: flex-start;
+}
+
+/* Heading colors */
+/* Yellow skipped for contrast. There will hopefully never be 6 levels of indentation */
+[data-level="1"],
+[data-level="1"] + .style-settings-container {
+    --setting-border-color: var(--header-red);
+    --setting-icon-color: var(--fg-red);
+}
+[data-level="2"],
+[data-level="2"] + .style-settings-container {
+    --setting-border-color: var(--header-orange);
+    --setting-icon-color: var(--fg-orange);
+}
+[data-level="3"],
+[data-level="3"] + .style-settings-container {
+    --setting-border-color: var(--header-green);
+    --setting-icon-color: var(--fg-green);
+}
+[data-level="4"],
+[data-level="4"] + .style-settings-container {
+    --setting-border-color: var(--header-blue);
+    --setting-icon-color: var(--fg-blue);
+}
+[data-level="5"],
+[data-level="5"] + .style-settings-container {
+    --setting-border-color: var(--header-purple);
+    --setting-icon-color: var(--fg-purple);
 }
 
 /** Editor Settings **/
@@ -1392,101 +1683,186 @@ body:not(.is-translucent).enable-menu-blur .modal-bg {
     opacity: 1 !important;
 }
 
+/* Vim cursor options */
+body.vim-curor-animate .cm-fat-cursor {
+    transition:
+        left var(--vim-cursor-speed, var(--anim-duration-superfast))
+            cubic-bezier(0.39, 0.575, 0.565, 1),
+        top var(--vim-cursor-speed, var(--anim-duration-superfast))
+            cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
 /** Element Settings **/
 
-/* External links */
-.external-link-remove-icon .cm-formatting.external-link {
-    display: none;
-}
-.external-link-remove-icon a.external-link {
-    background-image: none;
-    padding-right: unset;
+/* Custom dot pattern size (style settings) */
+.canvas-background > pattern > circle {
+    cx: var(--canvas-dot-size, 0.7);
+    cy: var(--canvas-dot-size, 0.7);
+    r: var(--canvas-dot-size, 0.7);
 }
 
+/* Header underlines */
+/* H1 underline option */
+body.h1-underline h1,
+body.h1-underline .HyperMD-header-1.cm-line {
+    border-bottom: 2px var(--h1-underline-style, solid)
+        var(--background-modifier-border);
+    padding-bottom: 2px;
+}
+/* H2 underline option */
+body.h2-underline h2,
+body.h2-underline .HyperMD-header-2.cm-line {
+    border-bottom: 2px var(--h2-underline-style, solid)
+        var(--background-modifier-border);
+    padding-bottom: 2px;
+}
+/* H3 underline option */
+body.h3-underline h3,
+body.h3-underline .HyperMD-header-3.cm-line {
+    border-bottom: 2px var(--h3-underline-style, solid)
+        var(--background-modifier-border);
+    padding-bottom: 2px;
+}
+/* H4 underline option */
+body.h4-underline h4,
+body.h4-underline .HyperMD-header-4.cm-line {
+    border-bottom: 2px var(--h4-underline-style, solid)
+        var(--background-modifier-border);
+    padding-bottom: 2px;
+}
+/* H5 underline option */
+body.h5-underline h5,
+body.h5-underline .HyperMD-header-5.cm-line {
+    border-bottom: 2px var(--h5-underline-style, solid)
+        var(--background-modifier-border);
+    padding-bottom: 2px;
+}
+/* H6 underline option */
+body.h6-underline h6,
+body.h6-underline .HyperMD-header-6.cm-line {
+    border-bottom: 2px var(--h6-underline-style, solid)
+        var(--background-modifier-border);
+    padding-bottom: 2px;
+}
+
+/* External links */
+body.external-link-remove-icon {
+    & .cm-formatting.external-link {
+        display: none;
+    }
+    & a.external-link {
+        background-image: none;
+        padding-right: unset;
+    }
+}
+
+/* Image zoom */
+body.image-embed-enable-zoom {
+    & .image-embed {
+        & img {
+            cursor: zoom-out;
+        }
+
+        &:active {
+            --zoom-embed-size: min(
+                90%,
+                calc(var(--readable-line-length-custom, 700px) + 120px)
+            );
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            max-width: 100%;
+            width: 100% !important;
+            margin: auto 0 !important;
+            inset: 0;
+            object-fit: contain;
+            z-index: 1;
+        }
+        &:active img {
+            width: var(--zoom-embed-size) !important;
+            max-height: 80%;
+            margin: 0 !important;
+            user-select: none;
+            object-fit: contain;
+        }
+        &:active::after {
+            margin-inline: 0 !important;
+            padding: 1ch;
+            font-size: large;
+            box-sizing: border-box;
+            width: var(--zoom-embed-size) !important;
+            background-color: var(--background-primary);
+        }
+        &:active::before {
+            content: "";
+            position: absolute;
+            background-color: var(--color-base-00);
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.75;
+        }
+    }
+
+    /* Option to disable dragging */
+    &.image-embed-no-drag .image-embed:active img {
+        pointer-events: none;
+    }
+
+    /* Hacky fix for callouts */
+    & .cm-embed-block.cm-callout:has(.image-embed:active) {
+        contain: none !important;
+    }
+}
+
+/* List indent size */
+/* Set in the body selector at the top */
+
+/* Math */
+/* Outlines for math blocks (enabled by default) */
+body:not(.disable-math-outline)
+    :is(
+        div.math-block,
+        span.math-block > mjx-container,
+        .math.math-block.cm-embed-block
+    ) {
+    border: 1px solid var(--bg5);
+    border-radius: 5px;
+}
+
+/* Tables */
 /* Centered tables */
-.centered-tables table {
+body.centered-tables table {
     margin-inline: auto;
 }
 
 /* Full width tables */
-.full-width-tables table {
+body.full-width-tables table {
     width: 100%;
 }
 
 /* Rounded tables */
-.rounded-tables table:not(:has([rowspan])) {
+body.rounded-tables :where(table:not(:has([rowspan]))) {
     border-collapse: separate;
     border-spacing: 0;
-}
-.rounded-tables :where(table:not(:has([rowspan]))) :is(td, th) {
-    border-width: 0 var(--table-border-width) var(--table-border-width) 0;
-}
-.rounded-tables table:not(:has([rowspan])) th:first-of-type {
-    border-top-left-radius: var(--rounded-tables-radius, 8px);
-}
-.rounded-tables table:not(:has([rowspan])) th:last-of-type {
-    border-top-right-radius: var(--rounded-tables-radius, 8px);
-}
-.rounded-tables table:not(:has([rowspan])) tr:last-of-type td:first-of-type {
-    border-bottom-left-radius: var(--rounded-tables-radius, 8px);
-}
-.rounded-tables table:not(:has([rowspan])) tr:last-of-type td:last-of-type {
-    border-bottom-right-radius: var(--rounded-tables-radius, 8px);
-}
 
-/* Image zoom */
-body.image-embed-enable-zoom .image-embed {
-    cursor: zoom-out;
-}
-body.image-embed-enable-zoom .image-embed:active {
-    --zoom-embed-size: min(
-        90%,
-        calc(var(--readable-line-length-custom, 700px) + 120px)
-    );
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    max-width: 100%;
-    width: 100% !important;
-    margin: auto 0 !important;
-    inset: 0;
-    object-fit: contain;
-    z-index: 1;
-}
-body.image-embed-enable-zoom .image-embed:active img {
-    width: var(--zoom-embed-size) !important;
-    max-height: 80%;
-    margin: 0 !important;
-    user-select: none;
-    object-fit: contain;
-}
-body.image-embed-enable-zoom .image-embed:active::after {
-    margin-inline: 0 !important;
-    padding: 1ch;
-    font-size: large;
-    box-sizing: border-box;
-    width: var(--zoom-embed-size) !important;
-    background-color: var(--background-primary);
-}
-body.image-embed-enable-zoom .image-embed:active::before {
-    content: "";
-    position: absolute;
-    background-color: var(--color-base-00);
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.75;
-}
-/* Option to disable dragging */
-body.image-embed-enable-zoom.image-embed-no-drag .image-embed:active img {
-    pointer-events: none;
-}
-/* Hacky fix for callouts */
-body.image-embed-enable-zoom
-    .cm-embed-block.cm-callout:has(.image-embed:active) {
-    contain: none !important;
+    & :is(td, th) {
+        border-width: 0 var(--table-border-width) var(--table-border-width) 0;
+    }
+    & th:first-of-type {
+        border-top-left-radius: var(--rounded-tables-radius, 8px);
+    }
+    & th:last-of-type {
+        border-top-right-radius: var(--rounded-tables-radius, 8px);
+    }
+    & tr:last-of-type td:first-of-type {
+        border-bottom-left-radius: var(--rounded-tables-radius, 8px);
+    }
+    & tr:last-of-type td:last-of-type {
+        border-bottom-right-radius: var(--rounded-tables-radius, 8px);
+    }
 }
 
 /** Custom Stacked Panes **/
@@ -1508,6 +1884,9 @@ body.image-embed-enable-zoom
 }
 
 body.background-image-enabled {
+    /* This breaks canvas screenshots! */
+    --canvas-background: transparent;
+
     --background-transparent: rgba(
         var(--background-primary-rgb),
         var(--pane-opacity, 0.85)
@@ -1611,6 +1990,17 @@ body.background-image-enabled {
 :root .background-image-pane-view .view-header {
     background-color: var(--background-partially-transparent) !important;
 }
+/* New tab page */
+:root .background-image-pane-view .view-content:has(> .empty-state) {
+    width: fit-content;
+    height: unset;
+    margin: auto;
+    padding: clamp(2rem, 5vw, 4rem);
+    border-radius: 1rem;
+}
+.background-image-enabled .empty-state {
+    position: static;
+}
 
 /** Visual Parity **/
 body.visual-parity-enabled {
@@ -1630,6 +2020,10 @@ body.visual-parity-enabled {
     /* Fix header top margins */
     .is-live-preview .cm-content > .HyperMD-header {
         padding-top: unset;
+    }
+
+    .markdown-source-view.mod-cm6 .cm-table-widget {
+        padding-block: 0;
     }
 
     /* Fix collapsed headers in live preview */
@@ -1773,6 +2167,7 @@ img {
 }
 
 /* Makes multiple images on the same line appear in a flex grid */
+/* Editing mode part */
 .cm-line:not(.cm-active):has(
         .image-embed ~ .image-embed,
         img:not(.cm-widgetBuffer) ~ img:not(.cm-widgetBuffer)
@@ -1781,25 +2176,15 @@ p:has(.image-embed ~ .image-embed, img ~ img):not(:has([alt="inline"])) {
     display: flex;
     gap: 0.5rem;
     align-items: start;
-}
-.cm-line:not(.cm-active):has(
-        .image-embed ~ .image-embed,
-        img:not(.cm-widgetBuffer) ~ img:not(.cm-widgetBuffer)
-    ):not(:has([alt="inline"]))
-    > .image-embed,
-p:has(.image-embed ~ .image-embed, img ~ img):not(:has([alt="inline"]))
-    > .image-embed {
-    flex: 1 1 0;
-    display: flex;
-    justify-content: center;
-}
-.cm-line:not(.cm-active):has(
-        .image-embed ~ .image-embed,
-        img:not(.cm-widgetBuffer) ~ img:not(.cm-widgetBuffer)
-    )
-    > .cm-widgetBuffer,
-.cm-widgetBuffer + span[contenteditable="false"]:not([class]) {
-    display: none !important;
+
+    & > .image-embed {
+        flex: 1 1 0;
+        display: flex;
+        justify-content: center;
+    }
+    & > .cm-widgetBuffer {
+        display: none !important;
+    }
 }
 /* Makes a highlighted line shrink the image */
 :root:root
@@ -2013,46 +2398,46 @@ body:not(.no-image-alttext-caption)
 }
 
 /* Custom dashboard */
-.dashboard {
-    padding: 25px 20px !important;
-}
-.dashboard.is-readable-line-width:not(.full-width) .markdown-preview-section {
-    width: 100% !important;
-}
 /* Title at top of the document */
-.dashboard .markdown-preview-section .title {
-    top: 60px;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    font-size: 26pt !important;
-    font-weight: bolder;
-    letter-spacing: 8px;
-}
-.dashboard h1 {
-    border-bottom-style: dotted !important;
-    border-width: 1px !important;
-    padding-bottom: 3px !important;
-}
-.dashboard div > ul:not(.dataview) {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 0.5rem;
-    padding-left: 0;
-}
-.dashboard div > ul:not(.dataview) > li {
-    outline: 1px solid #fff2;
-    padding: 0.5rem 0.25rem;
-}
-.dashboard div > ul > li > .list-bullet {
-    display: none;
-}
-.dashboard div > ul > li > .list-collapse-indicator {
-    display: none;
-}
-.dashboard div > ul > li > ul:before {
-    border-right: none !important;
+.dashboard {
+    & .markdown-preview-section .title {
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        font-size: 26pt !important;
+        font-weight: bolder;
+        letter-spacing: 8px;
+    }
+
+    & h1 {
+        border-bottom-style: dotted !important;
+        border-width: 1px !important;
+        padding-bottom: 3px !important;
+    }
+    & div > ul:not(.dataview) {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 0.5rem;
+        padding-left: 0;
+        & > li {
+            outline: 1px solid var(--bg5);
+            padding: 0.5rem 0.25rem;
+        }
+    }
+
+    & div > ul > li {
+        & > .list-bullet {
+            display: none;
+        }
+        & .list-collapse-indicator {
+            display: none;
+        }
+        & ul:before {
+            border-right: none !important;
+        }
+    }
 }
 
 /** Misc. **/
@@ -2083,14 +2468,10 @@ body:not(.no-image-alttext-caption)
 /* Make math display better */
 div.math-block {
     padding-block: 0.125em;
-    border: 1px solid #fff2;
-    border-radius: 5px;
 }
 /* Make the weird span ones also work */
-p span.math-block > mjx-container {
+span.math-block > mjx-container {
     padding-block: 1rem;
-    border: 1px solid #fff2;
-    border-radius: 5px;
 }
 
 /* Make MathJax text bigger */
@@ -2100,12 +2481,6 @@ p span.math-block > mjx-container {
 /* Make \overline{} display on higher resolution screens*/
 mjx-stretchy-h.mjx-c2013 mjx-ext mjx-c::before {
     font-weight: 900;
-}
-
-/* Add Outline to Math */
-.math.math-block.cm-embed-block {
-    border: 1px solid #fff2;
-    border-radius: 5px;
 }
 
 /* Make print break hr elements */
