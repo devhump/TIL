@@ -1,28 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "RasberryPi🍓🫐",
+      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
     },
     {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "Vim 사용법",
       "path": "z_others/Vim 사용법.md"
     },
     {
-      "basename": "Node.js & MongoDB 2",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 2.md"
+      "basename": "trouble shooting🔫",
+      "path": "Home Server_RasberryPi/trouble shooting🔫.md"
     },
     {
-      "basename": "RasberryPi🍓🫐",
-      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
+      "basename": "Node.js & MongoDB 2",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 2.md"
     },
     {
       "basename": "Node.js & MongoDB 1",
@@ -91,10 +95,6 @@
     {
       "basename": "Home Server_RasberryPi",
       "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
-    },
-    {
-      "basename": "trouble shooting🔫",
-      "path": "Home Server_RasberryPi/trouble shooting🔫.md"
     },
     {
       "basename": "WOL on Ubuntu",
