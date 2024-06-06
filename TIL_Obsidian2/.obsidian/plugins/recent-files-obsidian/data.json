@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
+      "basename": "git_github",
+      "path": "git_github/git_github.md"
+    },
+    {
+      "basename": "Git basic - rollback",
+      "path": "git_github/Git basic - rollback.md"
+    },
+    {
+      "basename": "Git basic - git revert, reset, restore",
+      "path": "git_github/Git basic - git revert, reset, restore.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "RasberryPi🍓🫐",
@@ -39,10 +51,6 @@
     {
       "basename": "JS 입문 1 (코딩애플)",
       "path": "JS/JS 입문 1 (코딩애플).md"
-    },
-    {
-      "basename": "Git basic - git revert, reset, restore",
-      "path": "git_github/Git basic - git revert, reset, restore.md"
     },
     {
       "basename": "JS 입문 3 (코딩애플)",
@@ -111,14 +119,6 @@
     {
       "basename": "WOL on Ubuntu-1",
       "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png"
-    },
-    {
-      "basename": "Linux 최신 명령어",
-      "path": "Linux/Linux 최신 명령어.md"
-    },
-    {
-      "basename": "ubuntu server - 설치 프로그램",
-      "path": "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md"
     }
   ],
   "omittedPaths": [],

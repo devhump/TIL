@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "git_github/git_github.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,8 +105,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "git_github/git_github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devhump's TIL Index (data view).md",
+                "file": "git_github/git_github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devhump's TIL Index (data view).md"
+                "file": "git_github/git_github.md"
               }
             }
           },
@@ -206,19 +205,21 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a7e5a754b002c17b",
+  "active": "5486f59efe6c7c39",
   "lastOpenFiles": [
+    "git_github/Git basic - rollback.md",
+    "git_github/git_github.md",
+    "git_github/Git basic - git revert, reset, restore.md",
+    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "devhump's TIL Index (data view).md",
     "Home Server_RasberryPi/RasberryPi🍓🫐.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
-    "devhump's TIL Index (data view).md",
     "z_others/Vim 사용법.md",
-    "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Home Server_RasberryPi/trouble shooting🔫.md",
     "Node.js & MongoDB/Node.js & MongoDB 2.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 2.png",
     "JS/JS 입문 1 (코딩애플).md",
-    "git_github/Git basic - git revert, reset, restore.md",
     "JS/JS 입문 3 (코딩애플).md",
     "JS/JS 입문 2 (코딩애플).md",
     "Node.js & MongoDB/Node.js & MongoDB 2-83.png",
@@ -250,8 +251,6 @@
     "Home Server_RasberryPi/WOL on Ubuntu.md",
     "Linux/Linux 최신 명령어.md",
     "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
-    "Linux/Linux.md",
-    "z_others/유용한 사이트들.md",
-    "Linux/WSL.md"
+    "Linux/Linux.md"
   ]
 }
