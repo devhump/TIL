@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "😊",
+      "😅",
+      "😀",
       "🧭",
-      "📥",
-      "BoBxlPython",
-      "SiNodedotjs",
-      "FabJs"
+      "📥"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -84,15 +84,8 @@
   },
   "devhump's TIL Index (data view).md": "📌",
   "TIL Waypoint.md": "🔥",
-  "Linux": "SiLinux",
   "MDN": "🦊",
-  "Django": "BoBxlDjango",
   "공부 할 자료 정리.md": "🧭",
-  "git_github": "SiGit",
   "Home Server_RasberryPi": "🫐",
-  "HTML_CSS": "SiHtml5",
-  "JS": "FabJs",
-  "Node.js & MongoDB": "SiNodedotjs",
-  "Python": "BoBxlPython",
   "z_others": "📥"
 }
