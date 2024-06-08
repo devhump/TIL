@@ -38,12 +38,12 @@
             }
           },
           {
-            "id": "5486f59efe6c7c39",
+            "id": "5c8becc1d2327228",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git_github/git_github.md",
+                "file": "TIL Waypoint.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git_github/git_github.md",
+                "file": "TIL Waypoint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git_github/git_github.md",
+                "file": "TIL Waypoint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git_github/git_github.md"
+                "file": "TIL Waypoint.md"
               }
             }
           },
@@ -205,21 +205,26 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "5486f59efe6c7c39",
+  "active": "5c8becc1d2327228",
   "lastOpenFiles": [
-    "git_github/Git basic - rollback.md",
+    "Home Server_RasberryPi/Ubuntu server (main).md",
+    "HTML_CSS/HTML & CSS.md",
+    "TIL Waypoint.md",
+    "devhump's TIL Index (data view).md",
+    "Node.js & MongoDB/Node.js & MongoDB 1.md",
+    "JS/JS.md",
+    "JS/CORS 에러 문제.md",
+    "JS/jQuery.md",
+    "JS/JS 입문 1 (코딩애플).md",
+    "Home Server_RasberryPi/RasberryPi🍓🫐.md",
     "git_github/git_github.md",
+    "git_github/Git basic - rollback.md",
     "git_github/Git basic - git revert, reset, restore.md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
-    "devhump's TIL Index (data view).md",
-    "Home Server_RasberryPi/RasberryPi🍓🫐.md",
-    "Home Server_RasberryPi/Ubuntu server (main).md",
     "z_others/Vim 사용법.md",
     "Home Server_RasberryPi/trouble shooting🔫.md",
     "Node.js & MongoDB/Node.js & MongoDB 2.md",
-    "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 2.png",
-    "JS/JS 입문 1 (코딩애플).md",
     "JS/JS 입문 3 (코딩애플).md",
     "JS/JS 입문 2 (코딩애플).md",
     "Node.js & MongoDB/Node.js & MongoDB 2-83.png",
@@ -246,11 +251,6 @@
     "Python/assets-Ramy의 MacBook Pro",
     "Algo Solving/assets-Ramy의 MacBook Pro",
     "Python/HeadFirst-Python-Ramy의 MacBook Pro",
-    "Home Server_RasberryPi/network.md",
-    "Home Server_RasberryPi/Home Server_RasberryPi.md",
-    "Home Server_RasberryPi/WOL on Ubuntu.md",
-    "Linux/Linux 최신 명령어.md",
-    "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
-    "Linux/Linux.md"
+    "Home Server_RasberryPi/network.md"
   ]
 }

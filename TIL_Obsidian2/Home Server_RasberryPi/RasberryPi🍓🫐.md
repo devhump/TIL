@@ -3,6 +3,7 @@ tags:
   - rasberrypi
   - HomeServer
 ---
+- [라즈베리파이 (Raspberry Pi)활용 총 정리](https://blog.dalso.org/raspberry-pi/raspberry-pi-4/7203)
 
 #### at the begining
 ```shell

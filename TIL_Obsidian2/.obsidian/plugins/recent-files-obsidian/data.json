@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "TIL Waypoint",
+      "path": "TIL Waypoint.md"
+    },
+    {
+      "basename": "Ubuntu server (main)",
+      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "HTML & CSS",
+      "path": "HTML_CSS/HTML & CSS.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "Node.js & MongoDB 1",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
+    },
+    {
+      "basename": "JS",
+      "path": "JS/JS.md"
+    },
+    {
+      "basename": "CORS 에러 문제",
+      "path": "JS/CORS 에러 문제.md"
+    },
+    {
+      "basename": "jQuery",
+      "path": "JS/jQuery.md"
+    },
+    {
+      "basename": "JS 입문 1 (코딩애플)",
+      "path": "JS/JS 입문 1 (코딩애플).md"
+    },
+    {
+      "basename": "RasberryPi🍓🫐",
+      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
+    },
+    {
       "basename": "git_github",
       "path": "git_github/git_github.md"
     },
@@ -17,18 +57,6 @@
       "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
-    },
-    {
-      "basename": "RasberryPi🍓🫐",
-      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
-    },
-    {
-      "basename": "Ubuntu server (main)",
-      "path": "Home Server_RasberryPi/Ubuntu server (main).md"
-    },
-    {
       "basename": "Vim 사용법",
       "path": "z_others/Vim 사용법.md"
     },
@@ -41,16 +69,8 @@
       "path": "Node.js & MongoDB/Node.js & MongoDB 2.md"
     },
     {
-      "basename": "Node.js & MongoDB 1",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
-    },
-    {
       "basename": "Node.js & MongoDB 2",
       "path": "Node.js & MongoDB/assets/Node.js & MongoDB 2.png"
-    },
-    {
-      "basename": "JS 입문 1 (코딩애플)",
-      "path": "JS/JS 입문 1 (코딩애플).md"
     },
     {
       "basename": "JS 입문 3 (코딩애플)",
@@ -99,26 +119,6 @@
     {
       "basename": "network",
       "path": "Home Server_RasberryPi/network.md"
-    },
-    {
-      "basename": "Home Server_RasberryPi",
-      "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
-    },
-    {
-      "basename": "WOL on Ubuntu",
-      "path": "Home Server_RasberryPi/WOL on Ubuntu.md"
-    },
-    {
-      "basename": "WOL on Ubuntu",
-      "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu.png"
-    },
-    {
-      "basename": "WOL on Ubuntu-2",
-      "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu-2.png"
-    },
-    {
-      "basename": "WOL on Ubuntu-1",
-      "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png"
     }
   ],
   "omittedPaths": [],
