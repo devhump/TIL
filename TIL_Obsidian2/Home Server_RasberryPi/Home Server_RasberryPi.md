@@ -4,6 +4,7 @@
 	- [ubuntu server - 설치 프로그램](./Home-server/ubuntu%20server%20-%20%EC%84%A4%EC%B9%98%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8.md)
 	- [vim 설정](./Home-server/vim%20%EC%84%A4%EC%A0%95.md)
 - [network](./network.md)
+- [RasberryPi🍓](./RasberryPi%F0%9F%8D%93.md)
 - [RasberryPi🍓🫐](./RasberryPi%F0%9F%8D%93%F0%9F%AB%90.md)
 - [SMB(Samba)](./SMB(Samba).md)
 - [trouble shooting🔫](./trouble%20shooting%F0%9F%94%AB.md)

@@ -1,7 +1,6 @@
 ---
 tags:
   - rasberrypi
-  - HomeServer
 ---
 
 #### at the begining
@@ -13,7 +12,7 @@ sudo apt update && sudo apt upgrade -y
 ```shell
 sudo apt-get install zsh vim iptables -y
 
-sudo apt-get install dstat htop btop iftop neofetch -y
+sudo apt-get install dstat htop btop iftop neofetch
 
 sudo apt-get install tldr exa duf nnn mc -y
 
@@ -64,4 +63,3 @@ rm -rf fonts
 - [[vim 설정]]
 - [[zsh 설정 관련 + fzf]]
 - [[Home-server - 원격관리 & 보안]]
-	- [라즈베리파이 - fail2ban 오류 해결](https://biology-statistics-programming.tistory.com/188)
