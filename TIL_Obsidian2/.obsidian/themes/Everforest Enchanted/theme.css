@@ -924,7 +924,7 @@ div:has(h1) + div p:has(.tag) {
 }
 
 /* Embed last p */
-.markdown-embed-content .markdown-preview-section > div:last-child p {
+.markdown-embed-content .markdown-preview-section > div:last-child > p {
     margin-bottom: 0;
 }
 
@@ -1908,7 +1908,7 @@ body.background-image-enabled {
 .background-image-enabled .horizontal-main-container {
     background-color: var(--background-primary);
     background-image: var(--background-image-url);
-    background-position: var(--background-image-position);
+    background-position: var(--background-image-position, center);
     background-size: cover;
 }
 
