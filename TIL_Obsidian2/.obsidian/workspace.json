@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL Waypoint.md",
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL Waypoint.md",
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL Waypoint.md",
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL Waypoint.md"
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
               }
             }
           },
@@ -207,11 +207,11 @@
   },
   "active": "5c8becc1d2327228",
   "lastOpenFiles": [
+    "Home Server_RasberryPi/Ubuntu server (main).md",
+    "TIL Waypoint.md",
     "devhump's TIL Index (data view).md",
     "Home Server_RasberryPi/RasberryPi🍓.md",
-    "Home Server_RasberryPi/Ubuntu server (main).md",
     "HTML_CSS/HTML & CSS.md",
-    "TIL Waypoint.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "JS/JS.md",
     "JS/CORS 에러 문제.md",
