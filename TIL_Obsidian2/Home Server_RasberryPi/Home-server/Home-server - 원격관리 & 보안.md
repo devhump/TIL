@@ -136,11 +136,15 @@ sudo iptables -P OUTPUT ACCEPT
 ```
 
 ```shell
- 
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT 
 sudo iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 sudo iptables -P INPUT DROP
 sudo iptables -P FORWARD DROP
+```
+
+-  ufw 설치
+```shell
+sudo apt-get install ufw
 ```
 
 - samba 포트 번호

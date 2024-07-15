@@ -17,6 +17,7 @@ sudo apt-get -y install samba
 #### 2. 삼바 계정 등록하기
 ```shell
 sudo smbpasswd -a [사용자명]
+# sudo smbpasswd -a ramy
 
 sudo pdbedit -L # 삼바 서버에 등록된 유저를 확인 
 sudo pdbedit -L -v

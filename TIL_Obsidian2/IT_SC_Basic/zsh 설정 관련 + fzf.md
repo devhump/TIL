@@ -52,7 +52,6 @@ source .zshrc
 - others
 - [x] **fino-time 🌟**
 - [x] mikeh
-- [ ] jonathan
 
 - [x] jtriley
 - [ ] rkj-repos
@@ -63,5 +62,5 @@ source .zshrc
 ```shell
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
-~/.fzf/install
+~/.fzf/install -y
 ```

@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
+    },
+    {
+      "basename": "zsh 설정 관련 + fzf",
+      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
     },
     {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
-      "basename": "TIL Waypoint",
-      "path": "TIL Waypoint.md"
-    },
-    {
       "basename": "devhump's TIL Index (data view)",
       "path": "devhump's TIL Index (data view).md"
+    },
+    {
+      "basename": "RasberryPi🍓🫐",
+      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
+    },
+    {
+      "basename": "vim 설정",
+      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "TIL Waypoint",
+      "path": "TIL Waypoint.md"
     },
     {
       "basename": "HTML & CSS",
@@ -39,10 +55,6 @@
     {
       "basename": "JS 입문 1 (코딩애플)",
       "path": "JS/JS 입문 1 (코딩애플).md"
-    },
-    {
-      "basename": "RasberryPi🍓🫐",
-      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
     },
     {
       "basename": "git_github",
@@ -101,24 +113,8 @@
       "path": "z_others/Hot-key for windows.md"
     },
     {
-      "basename": "SMB(Samba)",
-      "path": "Home Server_RasberryPi/SMB(Samba).md"
-    },
-    {
-      "basename": "zsh 설정 관련 + fzf",
-      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
-    },
-    {
-      "basename": "vim 설정",
-      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
-    },
-    {
       "basename": "readme",
       "path": "readme.md"
-    },
-    {
-      "basename": "network",
-      "path": "Home Server_RasberryPi/network.md"
     }
   ],
   "omittedPaths": [],

@@ -34,7 +34,7 @@ sudo apt install fonts-nanum fonts-nanum-extra
 sudo apt-get install fonts-powerline
 
 # 입력기 설치
-sudo apt install nabi
+sudo apt install nabi -y
 
 sudo apt install im-config
 ```
