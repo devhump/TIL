@@ -1,32 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "SMB(Samba)",
-      "path": "Home Server_RasberryPi/SMB(Samba).md"
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
-      "basename": "zsh 설정 관련 + fzf",
-      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
     },
     {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
     },
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
+      "basename": "trouble shooting🔫",
+      "path": "Home Server_RasberryPi/trouble shooting🔫.md"
     },
     {
-      "basename": "RasberryPi🍓🫐",
-      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
+      "basename": "zsh 설정 관련 + fzf",
+      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
+    },
+    {
+      "basename": "Home Server_RasberryPi",
+      "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
     },
     {
       "basename": "vim 설정",
       "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
     },
     {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+      "basename": "WOL on Ubuntu",
+      "path": "Home Server_RasberryPi/WOL on Ubuntu.md"
+    },
+    {
+      "basename": "ubuntu server - 설치 프로그램",
+      "path": "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md"
+    },
+    {
+      "basename": "network",
+      "path": "Home Server_RasberryPi/network.md"
+    },
+    {
+      "basename": "RasberryPi🍓🫐",
+      "path": "Home Server_RasberryPi/RasberryPi🍓🫐.md"
+    },
+    {
+      "basename": "network",
+      "path": "Home Server_RasberryPi/network.png"
+    },
+    {
+      "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
+      "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
+    },
+    {
+      "basename": "WSL",
+      "path": "Linux/WSL.md"
+    },
+    {
+      "basename": "Linux note",
+      "path": "Linux/Linux note.md"
+    },
+    {
+      "basename": "WOL on Ubuntu-2",
+      "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu-2.png"
+    },
+    {
+      "basename": "WOL on Ubuntu-1",
+      "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png"
+    },
+    {
+      "basename": "WOL on Ubuntu",
+      "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu.png"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "TIL Waypoint",
@@ -67,54 +119,6 @@
     {
       "basename": "Git basic - git revert, reset, restore",
       "path": "git_github/Git basic - git revert, reset, restore.md"
-    },
-    {
-      "basename": "Vim 사용법",
-      "path": "z_others/Vim 사용법.md"
-    },
-    {
-      "basename": "trouble shooting🔫",
-      "path": "Home Server_RasberryPi/trouble shooting🔫.md"
-    },
-    {
-      "basename": "Node.js & MongoDB 2",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 2.md"
-    },
-    {
-      "basename": "Node.js & MongoDB 2",
-      "path": "Node.js & MongoDB/assets/Node.js & MongoDB 2.png"
-    },
-    {
-      "basename": "JS 입문 3 (코딩애플)",
-      "path": "JS/JS 입문 3 (코딩애플).md"
-    },
-    {
-      "basename": "JS 입문 2 (코딩애플)",
-      "path": "JS/JS 입문 2 (코딩애플).md"
-    },
-    {
-      "basename": "Node.js & MongoDB 1 1",
-      "path": "Node.js & MongoDB/assets/Node.js & MongoDB 1 1.png"
-    },
-    {
-      "basename": "공부 할 자료 정리",
-      "path": "공부 할 자료 정리.md"
-    },
-    {
-      "basename": "Node.js & MongoDB 1-3",
-      "path": "Node.js & MongoDB/assets/Node.js & MongoDB 1-3.png"
-    },
-    {
-      "basename": "Node.js & MongoDB 1-1",
-      "path": "Node.js & MongoDB/assets/Node.js & MongoDB 1-1.png"
-    },
-    {
-      "basename": "Hot-key for windows",
-      "path": "z_others/Hot-key for windows.md"
-    },
-    {
-      "basename": "readme",
-      "path": "readme.md"
     }
   ],
   "omittedPaths": [],

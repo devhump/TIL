@@ -4,6 +4,12 @@ tags:
   - HomeServer
 ---
 
+- [Ubuntu에 Oh My Zsh 설치](https://log4cat.tistory.com/7)
+
+#### zsh 설치
+```shell
+sudo apt-get install zsh -y
+```
 #### How to Install oh-my-zsh
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -11,15 +17,17 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ### agnoster theme font
 ```shell
-sudo apt-get install fonts-powerline
+sudo apt-get install fonts-powerline -y
 ```
 #### oh-my-zsh plugin
 ```shell
+
+cd #home으로 이동후
 vim .zshrc
 ```
 
 ```shell
-plugin(
+plugins(
 	git
 	sudo
 	colored-man-pages
@@ -54,7 +62,7 @@ source .zshrc
 - [x] mikeh
 
 - [x] jtriley
-- [ ] rkj-repos
+- [x] rkj-repos
 - [x] xiong-chiamiov-plus
 
 
@@ -62,5 +70,5 @@ source .zshrc
 ```shell
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
-~/.fzf/install -y
+~/.fzf/install
 ```

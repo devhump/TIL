@@ -11,13 +11,13 @@ list from #HomeServer
 #### 1. 삼바 설치
 ```shell
 sudo apt-get -y install samba # 우분투 삼바 설치
-sudo apt-get -y install samba
 ```
 
 #### 2. 삼바 계정 등록하기
 ```shell
 sudo smbpasswd -a [사용자명]
-# sudo smbpasswd -a ramy
+
+sudo smbpasswd -a ramy
 
 sudo pdbedit -L # 삼바 서버에 등록된 유저를 확인 
 sudo pdbedit -L -v
@@ -44,14 +44,14 @@ smbpasswd -d inpa # → 삼바 사용자를 비활성화
 #### 3. 공유 디렉터리 생성
 - 윈도우에서 리눅스로 접근할 수 있는, 즉 삼바로 공유될 디렉터리를 하나 생성해 준다.
 ```shell
-mkdir /smbdir
+sudo mkdir /smbdir
 
-chmod 777 /smbdir # 권한 열기
+sudo chmod 777 /smbdir # 권한 열기
 ```
 
 #### 4. 삼바 환경 설정
 ```shell
-vi /etc/samba/smb.conf
+sudo vi /etc/samba/smb.conf
 
 ```
 
@@ -68,7 +68,7 @@ directory mask = 0777 # 디렉토리 허가권
 ```
 
 ```shell
-[share]
+[ubuntu]
 comment = samba shared directory
 path = /smbdir
 read only = no

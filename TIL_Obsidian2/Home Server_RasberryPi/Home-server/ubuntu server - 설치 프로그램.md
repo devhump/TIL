@@ -10,7 +10,7 @@ list from #HomeServer
 
 - 모니터링 툴
 ```shell
-# sudo apt-get install dstat htop btop iftop neofetch -y
+sudo apt-get install dstat htop btop iftop neofetch -y
 
 dstat
 htop
@@ -21,6 +21,8 @@ neofetch
 
 - Linux 콘솔 파일 관리자
 ```shell
+sudo apt-get install mc nnn ranger -y
+
 mc
 nnn
 ranger

@@ -118,6 +118,10 @@ sudo iptables -P INPUT ACCEPT
 sudo iptables -P FORWARD ACCEPT
 sudo iptables -P OUTPUT ACCEPT
 ```
+
+```shell
+sudo iptables -F && sudo iptables -X  && sudo iptables -P INPUT ACCEPT && sudo iptables -P FORWARD ACCEPT && sudo iptables -P OUTPUT ACCEPT
+```
 ###### iptables 옵션
 | 옵션 | 설명                         |
 | ---- | ---------------------------- |
@@ -142,6 +146,10 @@ sudo iptables -P INPUT DROP
 sudo iptables -P FORWARD DROP
 ```
 
+```shell
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT && sudo iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT && sudo iptables -P INPUT DROP && sudo iptables -P FORWARD DROP
+```
+
 -  ufw 설치
 ```shell
 sudo apt-get install ufw
@@ -157,6 +165,10 @@ sudo iptables -A INPUT -p tcp --dport 445 -j ACCEPT
 
 sudo iptables -A INPUT -p udp --dport 137 -j ACCEPT
 sudo iptables -A INPUT -p udp --dport 445 -j ACCEPT
+```
+
+```shell
+sudo ufw allow 137,138/udp && sudo ufw allow 139,445/tcp && sudo iptables -A INPUT -p tcp --dport 139 -j ACCEPT && sudo iptables -A INPUT -p tcp --dport 445 -j ACCEPT && sudo iptables -A INPUT -p udp --dport 137 -j ACCEPT && sudo iptables -A INPUT -p udp --dport 445 -j ACCEPT
 ```
 
 - 실제 나의 시스템에서 쓰는 포트 확인
@@ -193,6 +205,8 @@ sudo apt install iptables-persistent -y
 ```shell
 sudo netfilter-persistent save
 sudo netfilter-persistent reload
+
+sudo netfilter-persistent save && sudo netfilter-persistent reload
 ```
 
 
@@ -226,6 +240,20 @@ sudo vim /etc/fail2ban/jail.local
 ignoreip=192.168.0.0/24
 bantime=-1
 # bantime=-1 은 영구차단
+maxretry=3
+findtime=86400
+
+[sshd]
+enabled = true
+port=22
+filter=sshd
+logpath=/var/log/auth.log
+```
+
+```shell
+[DEFAULT]
+ignoreip=192.168.0.0/24
+bantime=-1
 maxretry=3
 findtime=86400
 

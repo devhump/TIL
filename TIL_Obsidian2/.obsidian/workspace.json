@@ -38,7 +38,20 @@
             }
           },
           {
-            "id": "f7ef5888eb57228b",
+            "id": "484d38cdebadd83f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Server_RasberryPi/trouble shooting🔫.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7cb5c8ab6c37a492",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,9 +62,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "82de1d28751822d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -105,7 +131,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -125,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/SMB(Samba).md",
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/SMB(Samba).md",
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/SMB(Samba).md"
+                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
               }
             }
           },
@@ -205,16 +232,29 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "f7ef5888eb57228b",
+  "active": "82de1d28751822d5",
   "lastOpenFiles": [
-    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
-    "Home Server_RasberryPi/Ubuntu server (main).md",
-    "devhump's TIL Index (data view).md",
-    "Home Server_RasberryPi/RasberryPi🍓🫐.md",
-    "Home Server_RasberryPi/Home-server/vim 설정.md",
     "Home Server_RasberryPi/SMB(Samba).md",
-    "Home Server_RasberryPi/RasberryPi🍓.md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "Home Server_RasberryPi/Ubuntu server (main).md",
+    "Home Server_RasberryPi/trouble shooting🔫.md",
+    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
+    "Home Server_RasberryPi/Home Server_RasberryPi.md",
+    "Home Server_RasberryPi/Home-server/vim 설정.md",
+    "Home Server_RasberryPi/WOL on Ubuntu.md",
+    "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
+    "Home Server_RasberryPi/network.md",
+    "Home Server_RasberryPi/RasberryPi🍓🫐.md",
+    "Home Server_RasberryPi/network.png",
+    "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
+    "Linux/Linux.md",
+    "Linux/WSL.md",
+    "Linux/Linux note.md",
+    "Home Server_RasberryPi/Home-server/WOL on Ubuntu-2.png",
+    "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png",
+    "Home Server_RasberryPi/Home-server/WOL on Ubuntu.png",
+    "devhump's TIL Index (data view).md",
+    "Home Server_RasberryPi/RasberryPi🍓.md",
     "TIL Waypoint.md",
     "HTML_CSS/HTML & CSS.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
@@ -224,25 +264,12 @@
     "JS/JS 입문 1 (코딩애플).md",
     "git_github/git_github.md",
     "git_github/Git basic - rollback.md",
-    "git_github/Git basic - git revert, reset, restore.md",
-    "z_others/Vim 사용법.md",
-    "Home Server_RasberryPi/trouble shooting🔫.md",
-    "Node.js & MongoDB/Node.js & MongoDB 2.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 2.png",
-    "JS/JS 입문 3 (코딩애플).md",
-    "JS/JS 입문 2 (코딩애플).md",
     "Node.js & MongoDB/Node.js & MongoDB 2-83.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-82.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-81.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 2-80.png",
     "Node.js & MongoDB/assets/Node.js & MongoDB 2-79.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 2-78.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 2-77.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 2-76.png",
-    "Node.js & MongoDB/assets/Node.js & MongoDB 2-75.png",
-    "공부 할 자료 정리.md",
-    "z_others/Hot-key for windows.md",
-    "readme.md",
     "KDT/Web-Ramy의 MacBook Pro/assets",
     "KDT/Python-Ramy의 MacBook Pro/assets",
     "KDT/Algorithm/assets-Ramy의 MacBook Pro",

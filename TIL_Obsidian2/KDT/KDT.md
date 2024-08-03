@@ -8,11 +8,9 @@
 	- [06. 코딩 테스트 준비 (기본)](./Algorithm/06.%20%EC%BD%94%EB%94%A9%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%A4%80%EB%B9%84%20(%EA%B8%B0%EB%B3%B8).md)
 	- **assets**
 
-	- **assets-Ramy의 MacBook Pro**
 - **Data structure**
 	- [01. about Algorithm (Intro)](./Data%20structure/01.%20about%20Algorithm%20(Intro).md)
 	- [02. basic_IO](./Data%20structure/02.%20basic_IO.md)
-	- [03. 시간 복잡도(time complexity) & 빅오 표기법 (Big O notation)](./Data%20structure/03.%20%EC%8B%9C%EA%B0%84%20%EB%B3%B5%EC%9E%A1%EB%8F%84(time%20complexity)%20&%20%EB%B9%85%EC%98%A4%20%ED%91%9C%EA%B8%B0%EB%B2%95%20(Big%20O%20notation).md)
 	- [04. 리스트(List)](./Data%20structure/04.%20%EB%A6%AC%EC%8A%A4%ED%8A%B8(List).md)
 	- [05. 문자열 (String)](./Data%20structure/05.%20%EB%AC%B8%EC%9E%90%EC%97%B4%20(String).md)
 	- [06. 딕셔너리(Dictionary)](./Data%20structure/06.%20%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC(Dictionary).md)
@@ -34,7 +32,6 @@
 - **Django**
 	- [01. Django Intro](./Django/01.%20Django%20Intro.md)
 	- [02. request & response](./Django/02.%20request%20&%20response.md)
-	- [03. Variable Routing & Template inheritance & sending-retrieving data](./Django/03.%20Variable%20Routing%20&%20Template%20inheritance%20&%20sending-retrieving%20data.md)
 	- [04. App URL mapping & Template namespace](./Django/04.%20App%20URL%20mapping%20&%20Template%20namespace.md)
 	- [05. Namespace & Model](./Django/05.%20Namespace%20&%20Model.md)
 	- [06. UPDATE](./Django/06.%20UPDATE.md)
@@ -52,7 +49,6 @@
 	- **assets**
 
 	- [django-shortcuts 1.6](./Django/django-shortcuts%201.6.md)
-- **Django-Ramy의 MacBook Pro**
 - **markdown & git**
 	- **assets**
 
@@ -70,8 +66,6 @@
 	- [파이썬 특강 (22.07.15)](./Python/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%ED%8A%B9%EA%B0%95%20(22.07.15).md)
 	- **assets**
 
-- **Python-Ramy의 MacBook Pro**
-	- **assets**
 - **Web**
 	- [01. Happy Web](./Web/01.%20Happy%20Web.md)
 	- [02. CSS](./Web/02.%20CSS.md)
@@ -85,7 +79,5 @@
 	- [10. Event](./Web/10.%20Event.md)
 	- **assets**
 
-- **Web-Ramy의 MacBook Pro**
-	- **assets**
 
 %% End Waypoint %%

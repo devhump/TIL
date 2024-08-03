@@ -43,7 +43,9 @@ post-down /sbin/ethtool -s 인터페이스명 wol g
 (우분투 18.04 부터 /etc/network/interfaces 를 수정하는 것이 적용되지 않는다는 정보가 있어 netplan을 추가 설정해주도록 한다.)
 
 ```shell
-sudo nano /etc/netplan/...yaml
+sudo apt-get install net-tools ethtool wakeonlan
+
+sudo vim /etc/netplan/50-cloud-init.yaml
 ```
 
 ![[WOL on Ubuntu-2.png]]

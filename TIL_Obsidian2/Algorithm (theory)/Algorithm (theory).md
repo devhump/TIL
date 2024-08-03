@@ -24,7 +24,6 @@
 - [23. 그리디(Greedy)](./23.%20%EA%B7%B8%EB%A6%AC%EB%94%94(Greedy).md)
 - [24. 구현 (Implementation) 유형의 문제 풀이](./24.%20%EA%B5%AC%ED%98%84%20(Implementation)%20%EC%9C%A0%ED%98%95%EC%9D%98%20%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4.md)
 - [25. 투 포인터와 구간 합 (Two Pointer & Interval Sum)](./25.%20%ED%88%AC%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B5%AC%EA%B0%84%20%ED%95%A9%20(Two%20Pointer%20&%20Interval%20Sum).md)
-- [Algorithm (theory)](./Algorithm%20(theory).md)
 - **assets**
 
 
