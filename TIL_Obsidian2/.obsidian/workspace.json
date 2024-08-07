@@ -77,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "Home Server_RasberryPi/SMB(Samba).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+                "file": "Home Server_RasberryPi/SMB(Samba).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+                "file": "Home Server_RasberryPi/SMB(Samba).md"
               }
             }
           },
@@ -232,10 +232,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "82de1d28751822d5",
+  "active": "7cb5c8ab6c37a492",
   "lastOpenFiles": [
-    "Home Server_RasberryPi/SMB(Samba).md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
+    "Home Server_RasberryPi/SMB(Samba).md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
     "Home Server_RasberryPi/trouble shooting🔫.md",
     "IT_SC_Basic/zsh 설정 관련 + fzf.md",

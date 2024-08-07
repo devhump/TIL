@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Home-server - 원격관리 & 보안",
-      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
-    },
-    {
       "basename": "SMB(Samba)",
       "path": "Home Server_RasberryPi/SMB(Samba).md"
+    },
+    {
+      "basename": "Home-server - 원격관리 & 보안",
+      "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
     },
     {
       "basename": "Ubuntu server (main)",
