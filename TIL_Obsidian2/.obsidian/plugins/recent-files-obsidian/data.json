@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "SMB(Samba)",
-      "path": "Home Server_RasberryPi/SMB(Samba).md"
+      "basename": "Node.js & MongoDB 1",
+      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
       "basename": "Home-server - 원격관리 & 보안",
       "path": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md"
+    },
+    {
+      "basename": "devhump's TIL Index (data view)",
+      "path": "devhump's TIL Index (data view).md"
     },
     {
       "basename": "Ubuntu server (main)",
@@ -15,6 +19,10 @@
     {
       "basename": "trouble shooting🔫",
       "path": "Home Server_RasberryPi/trouble shooting🔫.md"
+    },
+    {
+      "basename": "SMB(Samba)",
+      "path": "Home Server_RasberryPi/SMB(Samba).md"
     },
     {
       "basename": "zsh 설정 관련 + fzf",
@@ -77,20 +85,12 @@
       "path": "Home Server_RasberryPi/Home-server/WOL on Ubuntu.png"
     },
     {
-      "basename": "devhump's TIL Index (data view)",
-      "path": "devhump's TIL Index (data view).md"
-    },
-    {
       "basename": "TIL Waypoint",
       "path": "TIL Waypoint.md"
     },
     {
       "basename": "HTML & CSS",
       "path": "HTML_CSS/HTML & CSS.md"
-    },
-    {
-      "basename": "Node.js & MongoDB 1",
-      "path": "Node.js & MongoDB/Node.js & MongoDB 1.md"
     },
     {
       "basename": "JS",
