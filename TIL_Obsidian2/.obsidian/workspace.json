@@ -19,7 +19,9 @@
                 "backlinks": true,
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "devhump's TIL Index (data view)"
             }
           },
           {
@@ -34,37 +36,25 @@
                 "backlinks": true,
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Ubuntu server (main)"
             }
           },
           {
-            "id": "82de1d28751822d5",
+            "id": "c72f3bd25d38a527",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d0ee1024c3a034d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,7 +74,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -99,7 +91,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -107,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -115,10 +111,13 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Ubuntu server (main)의 백링크"
             }
           },
           {
@@ -155,10 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md",
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Ubuntu server (main)의 나가는 링크"
             }
           },
           {
@@ -169,7 +172,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -178,8 +183,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Node.js & MongoDB/Node.js & MongoDB 1.md"
-              }
+                "file": "Home Server_RasberryPi/Ubuntu server (main).md"
+              },
+              "icon": "lucide-list",
+              "title": "Ubuntu server (main) 개요"
             }
           },
           {
@@ -187,7 +194,9 @@
             "type": "leaf",
             "state": {
               "type": "todo",
-              "state": {}
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           },
           {
@@ -195,7 +204,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -218,12 +229,14 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "0d0ee1024c3a034d",
+  "active": "a7e5a754b002c17b",
   "lastOpenFiles": [
+    "Home Server_RasberryPi/Ubuntu server (main).md",
+    "devhump's TIL Index (data view).md",
+    "readme.md",
+    "TIL Waypoint.md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
-    "devhump's TIL Index (data view).md",
-    "Home Server_RasberryPi/Ubuntu server (main).md",
     "Home Server_RasberryPi/trouble shooting🔫.md",
     "Home Server_RasberryPi/SMB(Samba).md",
     "IT_SC_Basic/zsh 설정 관련 + fzf.md",
@@ -242,14 +255,12 @@
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu-1.png",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu.png",
     "Home Server_RasberryPi/RasberryPi🍓.md",
-    "TIL Waypoint.md",
     "HTML_CSS/HTML & CSS.md",
     "JS/JS.md",
     "JS/CORS 에러 문제.md",
     "JS/jQuery.md",
     "JS/JS 입문 1 (코딩애플).md",
     "git_github/git_github.md",
-    "git_github/Git basic - rollback.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 2.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-83.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-82.png",
