@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "01. Django Intro",
+      "path": "KDT/Django/01. Django Intro.md"
+    },
+    {
+      "basename": "Linux 최신 명령어",
+      "path": "Linux/Linux 최신 명령어.md"
+    },
+    {
       "basename": "Ubuntu server (main)",
       "path": "Home Server_RasberryPi/Ubuntu server (main).md"
+    },
+    {
+      "basename": "Linux",
+      "path": "Linux/Linux.md"
+    },
+    {
+      "basename": "vim 설정",
+      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
+    },
+    {
+      "basename": "zsh 설정 관련 + fzf",
+      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
     },
     {
       "basename": "devhump's TIL Index (data view)",
@@ -33,16 +53,8 @@
       "path": "Home Server_RasberryPi/SMB(Samba).md"
     },
     {
-      "basename": "zsh 설정 관련 + fzf",
-      "path": "IT_SC_Basic/zsh 설정 관련 + fzf.md"
-    },
-    {
       "basename": "Home Server_RasberryPi",
       "path": "Home Server_RasberryPi/Home Server_RasberryPi.md"
-    },
-    {
-      "basename": "vim 설정",
-      "path": "Home Server_RasberryPi/Home-server/vim 설정.md"
     },
     {
       "basename": "WOL on Ubuntu",
@@ -67,10 +79,6 @@
     {
       "basename": "필수 리눅스 터미널 명령어 정리 by 드림코딩",
       "path": "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "Linux/Linux.md"
     },
     {
       "basename": "WSL",
@@ -111,17 +119,10 @@
     {
       "basename": "JS 입문 1 (코딩애플)",
       "path": "JS/JS 입문 1 (코딩애플).md"
-    },
-    {
-      "basename": "git_github",
-      "path": "git_github/git_github.md"
-    },
-    {
-      "basename": "Git basic - rollback",
-      "path": "git_github/Git basic - rollback.md"
     }
   ],
   "omittedPaths": [],
+  "omittedTags": [],
   "maxLength": 30,
   "openType": "tab"
 }

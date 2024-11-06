@@ -42,15 +42,33 @@
             }
           },
           {
-            "id": "c72f3bd25d38a527",
+            "id": "52b6258432428fd8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.5"
+                "file": "KDT/Django/01. Django Intro.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
+              "title": "01. Django Intro"
+            }
+          },
+          {
+            "id": "8cdf268bbe507e74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux 최신 명령어.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux 최신 명령어"
             }
           }
         ],
@@ -85,7 +103,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "django",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,8 +213,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
             }
           },
           {
@@ -205,12 +223,22 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
+            }
+          },
+          {
+            "id": "0fe4fe6ad8005456",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -229,26 +257,29 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a7e5a754b002c17b",
+  "active": "52b6258432428fd8",
   "lastOpenFiles": [
+    "Linux/Linux 최신 명령어.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
+    "Linux/Linux.md",
+    "Home Server_RasberryPi/Home-server/vim 설정.md",
+    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
+    "KDT/Django/01. Django Intro.md",
     "devhump's TIL Index (data view).md",
+    "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
+    "Home Server_RasberryPi/Home Server_RasberryPi.md",
+    "z_others/git bash에서 zsh 사용하기.md",
     "readme.md",
     "TIL Waypoint.md",
     "Home Server_RasberryPi/Home-server/Home-server - 원격관리 & 보안.md",
     "Node.js & MongoDB/Node.js & MongoDB 1.md",
     "Home Server_RasberryPi/trouble shooting🔫.md",
     "Home Server_RasberryPi/SMB(Samba).md",
-    "IT_SC_Basic/zsh 설정 관련 + fzf.md",
-    "Home Server_RasberryPi/Home Server_RasberryPi.md",
-    "Home Server_RasberryPi/Home-server/vim 설정.md",
     "Home Server_RasberryPi/WOL on Ubuntu.md",
-    "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
     "Home Server_RasberryPi/network.md",
     "Home Server_RasberryPi/RasberryPi🍓🫐.md",
     "Home Server_RasberryPi/network.png",
     "Linux/필수 리눅스 터미널 명령어 정리 by 드림코딩.md",
-    "Linux/Linux.md",
     "Linux/WSL.md",
     "Linux/Linux note.md",
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu-2.png",
@@ -258,9 +289,6 @@
     "HTML_CSS/HTML & CSS.md",
     "JS/JS.md",
     "JS/CORS 에러 문제.md",
-    "JS/jQuery.md",
-    "JS/JS 입문 1 (코딩애플).md",
-    "git_github/git_github.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 2.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-83.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-82.png",

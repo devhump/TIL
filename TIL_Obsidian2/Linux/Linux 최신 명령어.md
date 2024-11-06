@@ -137,8 +137,10 @@ export PATH=$PATH:/home/ramy/.local/bin
 export PATH="$HOME/.local/bin:$PATH"
 ```
 
+```shell
 .bashrc
 PATH=$PATH:/home/ramy/.local/bin
+```
 
 ### nnn (최신 mv/cp/mkdir)
 - 터미널 파일 매니저 (터미널에서 쓰는 탐색기라고 보면 된다)

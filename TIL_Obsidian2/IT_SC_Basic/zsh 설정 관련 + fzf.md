@@ -10,6 +10,10 @@ tags:
 ```shell
 sudo apt-get install zsh -y
 ```
+
+```shell
+sudo apt install curl git vim -y
+```
 #### How to Install oh-my-zsh
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -27,7 +31,7 @@ vim .zshrc
 ```
 
 ```shell
-plugins(
+plugins=(
 	git
 	sudo
 	colored-man-pages
@@ -51,7 +55,7 @@ source .zshrc
 ##### oh-my-zsh theme
 - C
 - [x] candy
-- [x] **crcandy**
+- [x] **crcandy 🌟**
 
 - D
 - [x] **dallas**
