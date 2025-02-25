@@ -47,13 +47,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KDT/Django/01. Django Intro.md",
+                "file": "KDT/markdown & git/Git.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "01. Django Intro"
+              "title": "Git"
             }
           },
           {
@@ -91,7 +100,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -134,8 +144,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -208,23 +217,13 @@
             }
           },
           {
-            "id": "7f9ac22487e3d9b4",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
-            }
-          },
-          {
             "id": "bf1d3a59c0be563d",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
               "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           },
           {
@@ -233,8 +232,18 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
+            }
+          },
+          {
+            "id": "75037ea524976306",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           }
         ],
@@ -247,10 +256,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -259,12 +268,14 @@
   },
   "active": "52b6258432428fd8",
   "lastOpenFiles": [
+    "git_github/Git basic - Github manual.md",
+    "git_github/git_github.md",
+    "KDT/Django/01. Django Intro.md",
     "Linux/Linux 최신 명령어.md",
     "Home Server_RasberryPi/Ubuntu server (main).md",
     "Linux/Linux.md",
     "Home Server_RasberryPi/Home-server/vim 설정.md",
     "IT_SC_Basic/zsh 설정 관련 + fzf.md",
-    "KDT/Django/01. Django Intro.md",
     "devhump's TIL Index (data view).md",
     "Home Server_RasberryPi/Home-server/ubuntu server - 설치 프로그램.md",
     "Home Server_RasberryPi/Home Server_RasberryPi.md",
@@ -287,8 +298,6 @@
     "Home Server_RasberryPi/Home-server/WOL on Ubuntu.png",
     "Home Server_RasberryPi/RasberryPi🍓.md",
     "HTML_CSS/HTML & CSS.md",
-    "JS/JS.md",
-    "JS/CORS 에러 문제.md",
     "Node.js & MongoDB/assets/Node.js & MongoDB 2.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-83.png",
     "Node.js & MongoDB/Node.js & MongoDB 2-82.png",

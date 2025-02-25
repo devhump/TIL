@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "KDT/markdown & git/Git.md"
+    },
+    {
+      "basename": "Git basic - Github manual",
+      "path": "git_github/Git basic - Github manual.md"
+    },
+    {
+      "basename": "git_github",
+      "path": "git_github/git_github.md"
+    },
+    {
       "basename": "01. Django Intro",
       "path": "KDT/Django/01. Django Intro.md"
     },
@@ -107,22 +119,12 @@
     {
       "basename": "JS",
       "path": "JS/JS.md"
-    },
-    {
-      "basename": "CORS 에러 문제",
-      "path": "JS/CORS 에러 문제.md"
-    },
-    {
-      "basename": "jQuery",
-      "path": "JS/jQuery.md"
-    },
-    {
-      "basename": "JS 입문 1 (코딩애플)",
-      "path": "JS/JS 입문 1 (코딩애플).md"
     }
   ],
   "omittedPaths": [],
   "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
   "maxLength": 30,
   "openType": "tab"
 }
